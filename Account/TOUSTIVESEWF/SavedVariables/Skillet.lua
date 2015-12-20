@@ -5,6 +5,14 @@ SkilletDB = {
 			["recipes"] = {
 				["Shiftace"] = {
 				},
+				["Magistratus"] = {
+				},
+				["Pastafarian"] = {
+				},
+				["Cryogenics"] = {
+				},
+				["Duglazerp"] = {
+				},
 				["Ellipsis"] = {
 				},
 			},

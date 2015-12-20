@@ -1,0 +1,72 @@
+MACRO 16777222 "001 CHARGE!" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1] Charge
+/castsequence [stance:2] reset=15 Charge, Intercept
+/castsequence [stance:3] reset=20 Intercept, Heroic Fury
+END
+MACRO 16777217 "002 Attack" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [stance:1, nomod] Mortal Strike
+/cast [stance:1, mod:shift]
+/cast [stance:2, nomod] Shield Slam
+/cast [stance:2, mod:shift] Devastate
+/cast [stance:3, nomod] Whirlwind
+/cast [stance:3, mod:shift]
+END
+MACRO 16777218 "003 Attack" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [stance:1, nomod] Overpower
+/cast [stance:1, mod:shift] Rend
+/cast [stance:2, nomod] Revenge
+/cast [stance:2, mod:shift] Rend
+/cast [stance:3, nomod] Bloodthirst
+/cast [stance:3, mod:shift] Execute
+END
+MACRO 16777219 "004 Attack" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Heroic Strike
+/cast [mod:shift] Cleave
+END
+MACRO 16777220 "005 Rage" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Bloodrage
+/cast [mod:shift] Berserker Rage
+END
+MACRO 16777221 "006 RAWR" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1] Shattering Throw
+/cast [stance:2] Shield Block
+/cast [stance:3] Death Wish
+END
+MACRO 16777224 "Big CD" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1] Bladestorm
+/cast [stance:2, nomod] Shield Wall
+/cast [stance:2, mod:shift] Shield Block
+/cast [stance:3] Recklessness
+/cast [stance:3, mod:shift] Death Wish
+END
+MACRO 16777225 "Charge" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=15 Charge, Intercept
+END
+MACRO 16777223 "Interrupt" INV_Misc_QuestionMark
+#showtooltip
+/equip [stance:1, noequipped:shields] Titansteel Shield Wall
+/cast [stance:1/2, equipped:shields] Shield Bash
+/equip [stance:1, noequipped:mainhand] Titansteel Destroyer
+/cast [stance:3] Pummel
+END
+MACRO 16777226 "Spell" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Shockwave
+/cast [mod:shift] Spell ReflectION
+END
+MACRO 16777227 "Taunt" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod] Taunt
+/cast [mod:shift] Challenging Shout
+END

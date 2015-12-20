@@ -1,0 +1,7 @@
+MACRO 16777217 "Attack" INV_Misc_QuestionMark
+#showtooltip
+/startattack 
+/cast Judgement of Light
+/cast [mod:shift]
+/run UIErrorsFrame:Clear()
+END
