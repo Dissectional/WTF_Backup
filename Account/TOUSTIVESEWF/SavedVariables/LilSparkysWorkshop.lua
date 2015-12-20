@@ -1,0 +1,5 @@
+
+LSWConfig = {
+	["glyphTypes"] = {
+	},
+}

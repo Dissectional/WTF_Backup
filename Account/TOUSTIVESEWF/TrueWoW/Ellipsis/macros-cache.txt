@@ -1,0 +1,4 @@
+MACRO 16777217 "Curse" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift] Curse of Weakness;Curse of Agony
+END
