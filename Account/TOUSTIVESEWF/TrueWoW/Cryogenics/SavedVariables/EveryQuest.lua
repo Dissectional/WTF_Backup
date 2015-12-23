@@ -119,7 +119,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8892] = {
+					[8468] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -127,15 +127,15 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
+					[8885] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
 					[8346] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8472] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
-					[8890] = {
+					[9394] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -143,11 +143,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8350] = {
+					[9358] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8886] = {
+					[9705] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -163,11 +163,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9358] = {
+					[8350] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9705] = {
+					[8886] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -179,7 +179,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8894] = {
+					[8887] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -187,7 +187,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8887] = {
+					[8894] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -199,15 +199,15 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9394] = {
+					[8890] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8885] = {
+					[8472] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8468] = {
+					[8892] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},

@@ -28,20 +28,20 @@ TourGuideAlphaDB = {
 					["Tranquillien@1@"] = true,
 					["Tranquillien@5@"] = true,
 					["Tranquillien@4@"] = true,
-					["Tranquillien@2@"] = true,
-					["Farstrider Enclave@3@"] = true,
 					["Sanctum of the Sun@6@"] = true,
+					["Farstrider Enclave@3@"] = true,
+					["Tranquillien@2@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
-					["Suntouched Special Reserve@13@"] = true,
-					["Class Quests?@14@"] = true,
 					["Training?@15@"] = true,
+					["Class Quests?@14@"] = true,
+					["Suntouched Special Reserve@13@"] = true,
 				},
 			},
 			["showstatusframe"] = false,
 		},
 		["Cryogenics - TrueWoW"] = {
-			["currentguide"] = "Eversong Woods (1-13)",
+			["showstatusframe"] = false,
 			["completion"] = {
 				["No Guide"] = 0,
 				["Stranglethorn Vale (34-36)"] = 0,
@@ -52,29 +52,30 @@ TourGuideAlphaDB = {
 				["Eversong Woods (1-13)"] = {
 					["Silvermoon City@13@"] = true,
 					["Training?@16@"] = true,
+					["Suntouched Special Reserve@14@"] = true,
 					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
-					["Suntouched Special Reserve@14@"] = true,
 				},
 				["No Guide"] = {
 				},
 			},
-			["showstatusframe"] = false,
+			["currentguide"] = "Eversong Woods (1-13)",
 		},
 		["Duglazerp - TrueWoW"] = {
-			["currentguide"] = "Borean Tundra (70-72)",
+			["showstatusframe"] = false,
 			["completion"] = {
 				["No Guide"] = 0,
 			},
+			["alwaysmapnotecoords"] = true,
 			["turnins"] = {
 				["No Guide"] = {
 				},
-				["Borean Tundra (70-72)"] = {
-				},
 				["Desolace (32-34)"] = {
 				},
+				["Borean Tundra (70-72)"] = {
+				},
 			},
-			["showstatusframe"] = false,
+			["currentguide"] = "Borean Tundra (70-72)",
 		},
 		["Magistratus - TrueWoW"] = {
 			["showstatusframe"] = false,
@@ -120,6 +121,9 @@ TourGuideAlphaDB = {
 		["Cryogenics - TrueWoW"] = {
 		},
 		["Duglazerp - TrueWoW"] = {
+			["itemframey"] = 186,
+			["itemframepoint"] = "BOTTOMLEFT",
+			["itemframex"] = 381,
 		},
 		["Magistratus - TrueWoW"] = {
 		},

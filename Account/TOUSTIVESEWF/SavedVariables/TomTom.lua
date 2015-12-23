@@ -2,18 +2,12 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Shiftace - TrueWoW"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["poi"] = {
-				["setClosest"] = true,
-			},
 			["block"] = {
 				["enable"] = false,
-			},
-			["feeds"] = {
-				["arrow"] = true,
-				["coords"] = true,
 			},
 		},
 	},
@@ -21,9 +15,12 @@ TomTomDB = {
 TomTomWaypoints = {
 	["profileKeys"] = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 	},
 	["profiles"] = {
 		["Shiftace - TrueWoW"] = {
+		},
+		["Duglazerp - TrueWoW"] = {
 		},
 	},
 }

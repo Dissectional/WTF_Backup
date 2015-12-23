@@ -18,6 +18,14 @@ TalentedDB = {
 		["Cryogenics - TrueWoW"] = {
 		},
 		["Duglazerp - TrueWoW"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
 		},
 		["Magistratus - TrueWoW"] = {
 		},

@@ -25,8 +25,8 @@ FrameLevel: 17
 Anchor: CENTER
 X: 0
 Y: -260
-W: 177
-H: 40
+W: 175
+H: 36
 Frame: NxQuestWatch
 FrameLevel: 1
 Anchor: RIGHT

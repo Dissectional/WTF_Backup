@@ -10,7 +10,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "N06NDLK30LJX21ACCNOD",
+			["Lola"] = "B48XHLW27OSN23KSLBOH",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
@@ -18,11 +18,6 @@ AltoholicDB = {
 			["Default.TrueWoW.Cryogenics"] = {
 				["Friends"] = {
 					"Lowlypoop", -- [1]
-				},
-			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["SavedInstance"] = {
-					["Utgarde Pinnacle 5 Player (Heroic)|1141"] = "56421|1450621180|1|1",
 				},
 			},
 		},

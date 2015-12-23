@@ -11,14 +11,9 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1450621673,
-				["numFreeBagSlots"] = 23,
+				["lastUpdate"] = 1450638572,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
-						["links"] = {
-							[6] = "|cff1eff00|Hitem:4561:0:0:0:0:0:6:0:11|h[Scalping Tomahawk of Strength]|h|r",
-						},
 						["ids"] = {
 							22976, -- [1]
 							4238, -- [2]
@@ -27,23 +22,25 @@ DataStore_ContainersDB = {
 							5069, -- [5]
 							4561, -- [6]
 						},
+						["links"] = {
+							[6] = "|cff1eff00|Hitem:4561:0:0:0:0:0:6:0:11|h[Scalping Tomahawk of Strength]|h|r",
+						},
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
 					["Bag0"] = {
-						["freeslots"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["freeslots"] = 16,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["freeslots"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["size"] = 6,
 					},
 					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
-						["size"] = 6,
 						["ids"] = {
 							nil, -- [1]
 							22735, -- [2]
@@ -52,8 +49,10 @@ DataStore_ContainersDB = {
 							22775, -- [5]
 							6948, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["freeslots"] = 1,
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["size"] = 6,
 					},
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
@@ -65,12 +64,12 @@ DataStore_ContainersDB = {
 							4540, -- [5]
 							20474, -- [6]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							5, -- [1]
 							14, -- [2]
 							4, -- [3]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
 					["Bag-2"] = {
@@ -78,6 +77,7 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 				},
+				["numFreeBagSlots"] = 23,
 				["numBagSlots"] = 40,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
@@ -99,12 +99,12 @@ DataStore_ContainersDB = {
 							10938, -- [9]
 							10939, -- [10]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_12",
 						["counts"] = {
 							2, -- [1]
 							2, -- [2]
 							[10] = 4,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_12",
 						["size"] = 10,
 					},
 					["Bag100"] = {
@@ -115,7 +115,7 @@ DataStore_ContainersDB = {
 							[13] = 22647,
 							[27] = 10998,
 							[14] = 6291,
-							[28] = 6463,
+							[26] = 6344,
 							[15] = 6291,
 							[16] = 6289,
 							[17] = 6289,
@@ -124,9 +124,9 @@ DataStore_ContainersDB = {
 							[20] = 2589,
 							[21] = 2589,
 							[22] = 2589,
-							[26] = 6344,
+							[28] = 6463,
 						},
-						["size"] = 28,
+						["freeslots"] = 12,
 						["counts"] = {
 							[23] = 20,
 							[24] = 3,
@@ -142,7 +142,7 @@ DataStore_ContainersDB = {
 							[21] = 20,
 							[22] = 7,
 						},
-						["freeslots"] = 12,
+						["size"] = 28,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
@@ -154,10 +154,10 @@ DataStore_ContainersDB = {
 							6265, -- [5]
 							6265, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							[3] = 3,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
 					["Bag2"] = {
@@ -170,7 +170,6 @@ DataStore_ContainersDB = {
 							22644, -- [5]
 							2934, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -179,20 +178,12 @@ DataStore_ContainersDB = {
 							2, -- [5]
 							12, -- [6]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							[15] = 22634,
-							[16] = 5339,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							[15] = 6,
-							[16] = 10,
-						},
-						["freeslots"] = 14,
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:22571:0:0:0:0:0:0:0:18|h[Courier's Bag]|h|r",
@@ -204,7 +195,6 @@ DataStore_ContainersDB = {
 							2455, -- [5]
 							4604, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
 						["counts"] = {
 							20, -- [1]
 							19, -- [2]
@@ -213,15 +203,25 @@ DataStore_ContainersDB = {
 							3, -- [5]
 							2, -- [6]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
 						["size"] = 6,
 					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+					["Bag0"] = {
+						["freeslots"] = 14,
+						["ids"] = {
+							[15] = 22634,
+							[16] = 5339,
+						},
+						["counts"] = {
+							[15] = 6,
+							[16] = 10,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 14,
 				["numBagSlots"] = 44,
+				["numFreeBagSlots"] = 14,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["numFreeBankSlots"] = 27,
@@ -229,6 +229,7 @@ DataStore_ContainersDB = {
 				["lastUpdate"] = 1450617029,
 				["Containers"] = {
 					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r",
 						["ids"] = {
 							22976, -- [1]
 							14088, -- [2]
@@ -237,26 +238,25 @@ DataStore_ContainersDB = {
 							3609, -- [5]
 							2407, -- [6]
 						},
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
 					["Bag100"] = {
-						["size"] = 28,
+						["freeslots"] = 27,
 						["ids"] = {
 							4238, -- [1]
 						},
-						["freeslots"] = 27,
+						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:22571:0:0:0:0:0:0:0:13|h[Courier's Bag]|h|r",
-						["freeslots"] = 4,
 						["ids"] = {
 							[5] = 22641,
 							[6] = 23500,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
 						["size"] = 6,
+						["link"] = "|cffffffff|Hitem:22571:0:0:0:0:0:0:0:13|h[Courier's Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
+						["freeslots"] = 4,
 					},
 					["Bag2"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r",
@@ -268,7 +268,6 @@ DataStore_ContainersDB = {
 							2589, -- [5]
 							2589, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							nil, -- [1]
 							5, -- [2]
@@ -277,12 +276,12 @@ DataStore_ContainersDB = {
 							20, -- [5]
 							15, -- [6]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
-					["Bag0"] = {
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 16,
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r",
@@ -294,13 +293,103 @@ DataStore_ContainersDB = {
 							2070, -- [5]
 							20474, -- [6]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							nil, -- [1]
 							2, -- [2]
 							2, -- [3]
 							2, -- [4]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["size"] = 6,
+					},
+					["Bag0"] = {
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 40,
+				["numFreeBagSlots"] = 20,
+			},
+			["Default.TrueWoW.Pastafarian"] = {
+				["lastUpdate"] = 1450616063,
+				["numFreeBagSlots"] = 20,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:11845:0:0:0:0:0:0:0:11|h[Handmade Leather Bag]|h|r",
+						["ids"] = {
+							2996, -- [1]
+							4945, -- [2]
+							4941, -- [3]
+							4238, -- [4]
+							2901, -- [5]
+							4938, -- [6]
+							7005, -- [7]
+							1211, -- [8]
+						},
+						["counts"] = {
+							[3] = 9,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 8,
+					},
+					["Bag0"] = {
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
+						["ids"] = {
+							[5] = 6948,
+							[6] = 765,
+						},
+						["freeslots"] = 4,
+						["counts"] = {
+							[6] = 2,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["size"] = 6,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
+						["ids"] = {
+							6303, -- [1]
+							6303, -- [2]
+							6303, -- [3]
+							6303, -- [4]
+							5466, -- [5]
+							2835, -- [6]
+						},
+						["counts"] = {
+							20, -- [1]
+							20, -- [2]
+							20, -- [3]
+							8, -- [4]
+							7, -- [5]
+							20, -- [6]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["size"] = 6,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
+						["ids"] = {
+							2770, -- [1]
+							2770, -- [2]
+							2934, -- [3]
+							2318, -- [4]
+							783, -- [5]
+							2589, -- [6]
+						},
+						["counts"] = {
+							20, -- [1]
+							nil, -- [2]
+							17, -- [3]
+							11, -- [4]
+							[6] = 3,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["size"] = 6,
 					},
 					["Bag-2"] = {
@@ -308,40 +397,145 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 				},
-				["numFreeBagSlots"] = 20,
-				["numBagSlots"] = 40,
+				["numBagSlots"] = 42,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1450613997,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:0:18|h[Blue Leather Bag]|h|r",
+						["ids"] = {
+							27635, -- [1]
+							1179, -- [2]
+							22645, -- [3]
+							20474, -- [4]
+							22976, -- [5]
+							4238, -- [6]
+							12054, -- [7]
+							23415, -- [8]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_05",
+						["counts"] = {
+							2, -- [1]
+							[3] = 5,
+						},
+						["size"] = 8,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							[16] = 23167,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							[16] = 3,
+						},
+						["freeslots"] = 15,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
+						["ids"] = {
+							23165, -- [1]
+							22796, -- [2]
+							6948, -- [3]
+							765, -- [4]
+							2447, -- [5]
+							785, -- [6]
+						},
+						["cooldowns"] = {
+							[3] = "119566.144|1800|1",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["counts"] = {
+							3, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							13, -- [4]
+							5, -- [5]
+							6, -- [6]
+						},
+						["size"] = 6,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:22571:0:0:0:0:0:0:0:18|h[Courier's Bag]|h|r",
+						["ids"] = {
+							2449, -- [1]
+							2452, -- [2]
+							2453, -- [3]
+							12223, -- [4]
+							27669, -- [5]
+							22644, -- [6]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
+						["counts"] = {
+							5, -- [1]
+							2, -- [2]
+							2, -- [3]
+							[5] = 7,
+							[6] = 3,
+						},
+						["size"] = 6,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:5573:0:0:0:0:0:0:0:18|h[Green Leather Bag]|h|r",
+						["ids"] = {
+							2771, -- [1]
+							2589, -- [2]
+							2592, -- [3]
+							22779, -- [4]
+							23444, -- [5]
+							118, -- [6]
+							858, -- [7]
+							6372, -- [8]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_03",
+						["counts"] = {
+							nil, -- [1]
+							13, -- [2]
+							7, -- [3]
+							[5] = 3,
+							[7] = 7,
+						},
+						["size"] = 8,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 15,
+				["numBagSlots"] = 44,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["numFreeBankSlots"] = 2,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1450621548,
-				["numFreeBagSlots"] = 44,
-				["numBagSlots"] = 96,
+				["lastUpdate"] = 1450852014,
+				["numFreeBagSlots"] = 19,
 				["Containers"] = {
 					["Bag4"] = {
-						["ids"] = {
-							41116, -- [1]
-							41348, -- [2]
-							37150, -- [3]
-							40674, -- [4]
-							41347, -- [5]
-							41352, -- [6]
-							41353, -- [7]
-							41351, -- [8]
-							45812, -- [9]
-							41350, -- [10]
-							37108, -- [11]
-							40684, -- [12]
-							37784, -- [13]
-							39622, -- [14]
-							40689, -- [15]
-							40688, -- [16]
-							39606, -- [17]
-							44312, -- [18]
-							50452, -- [19]
-							41257, -- [20]
-						},
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
+						["ids"] = {
+							41351, -- [1]
+							45812, -- [2]
+							41350, -- [3]
+							37237, -- [4]
+							37108, -- [5]
+							50317, -- [6]
+							40684, -- [7]
+							37254, -- [8]
+							49812, -- [9]
+							50453, -- [10]
+							39609, -- [11]
+							37193, -- [12]
+							40689, -- [13]
+							40688, -- [14]
+							39606, -- [15]
+							50208, -- [16]
+							50452, -- [17]
+							49804, -- [18]
+							41257, -- [19]
+							44311, -- [20]
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["size"] = 20,
 					},
@@ -376,7 +570,7 @@ DataStore_ContainersDB = {
 							41784, -- [27]
 							41787, -- [28]
 						},
-						["freeslots"] = 2,
+						["size"] = 28,
 						["counts"] = {
 							nil, -- [1]
 							4, -- [2]
@@ -397,287 +591,135 @@ DataStore_ContainersDB = {
 							20, -- [17]
 							20, -- [18]
 							10, -- [19]
-							[23] = 6,
-							[21] = 6,
-							[22] = 3,
+							[23] = 10,
+							[21] = 17,
+							[22] = 7,
 						},
-						["size"] = 28,
+						["freeslots"] = 2,
 					},
 					["Bag1"] = {
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
-						["size"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["freeslots"] = 20,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							[12] = 43241,
-							[13] = 43240,
-							[14] = 21545,
-							[15] = 21211,
-							[16] = 35188,
-							[17] = 33472,
-							[9] = 43513,
-							[19] = 4883,
-							[10] = 43238,
-							[20] = 43512,
-							[11] = 43239,
-							[18] = 4870,
-						},
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
-						["size"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["counts"] = {
-							[10] = 5,
-							[16] = 16,
-							[9] = 5,
-							[11] = 3,
-							[13] = 2,
-							[18] = 8,
-						},
-						["freeslots"] = 8,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
-						["ids"] = {
-							17056, -- [1]
-							21314, -- [2]
-							6948, -- [3]
-							20816, -- [4]
-							20816, -- [5]
-							6889, -- [6]
-							5466, -- [7]
-							2592, -- [8]
-							33619, -- [9]
-							4945, -- [10]
-							25498, -- [11]
-							25498, -- [12]
-							43465, -- [13]
-							43467, -- [14]
-							22829, -- [15]
-							2901, -- [16]
-							45811, -- [17]
-							37166, -- [18]
-							43482, -- [19]
-							41349, -- [20]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["counts"] = {
-							3, -- [1]
-							[5] = 11,
-							[6] = 2,
-							[11] = 5,
-							[15] = 2,
-							[4] = 20,
+							[5] = 5,
 							[12] = 5,
+							[6] = 3,
+							[15] = 8,
+							[18] = 3,
+							[8] = 2,
+							[4] = 5,
 						},
-						["size"] = 20,
-					},
-					["Bag0"] = {
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 16,
-					},
-				},
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1450613997,
-				["numFreeBagSlots"] = 15,
-				["Containers"] = {
-					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:0:18|h[Blue Leather Bag]|h|r",
+						["freeslots"] = 3,
 						["ids"] = {
-							27635, -- [1]
-							1179, -- [2]
-							22645, -- [3]
-							20474, -- [4]
-							22976, -- [5]
-							4238, -- [6]
-							12054, -- [7]
-							23415, -- [8]
-						},
-						["counts"] = {
-							2, -- [1]
-							[3] = 5,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_05",
-						["size"] = 8,
-					},
-					["Bag0"] = {
-						["freeslots"] = 15,
-						["ids"] = {
-							[16] = 23167,
-						},
-						["counts"] = {
-							[16] = 3,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
-						["ids"] = {
-							23165, -- [1]
-							22796, -- [2]
-							6948, -- [3]
-							765, -- [4]
-							2447, -- [5]
-							785, -- [6]
-						},
-						["cooldowns"] = {
-							[3] = "119566.144|1800|1",
-						},
-						["counts"] = {
-							3, -- [1]
+							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
-							13, -- [4]
-							5, -- [5]
-							6, -- [6]
+							43513, -- [4]
+							43238, -- [5]
+							43239, -- [6]
+							43241, -- [7]
+							43240, -- [8]
+							34669, -- [9]
+							21545, -- [10]
+							21211, -- [11]
+							35188, -- [12]
+							33472, -- [13]
+							35293, -- [14]
+							4870, -- [15]
+							4883, -- [16]
+							43512, -- [17]
+							17056, -- [18]
+							21314, -- [19]
+							6948, -- [20]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["size"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
 					},
 					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:22571:0:0:0:0:0:0:0:18|h[Courier's Bag]|h|r",
-						["ids"] = {
-							2449, -- [1]
-							2452, -- [2]
-							2453, -- [3]
-							12223, -- [4]
-							27669, -- [5]
-							22644, -- [6]
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
+						["links"] = {
+							[19] = "|cff1eff00|Hitem:36420:0:0:0:0:0:-11:42:80|h[Gemstone Ring of the Falcon]|h|r",
+							[20] = "|cff1eff00|Hitem:36318:0:0:0:0:0:-32:56:80|h[Wyrmskull Gauntlets of Fire Protection]|h|r",
 						},
 						["counts"] = {
-							5, -- [1]
-							2, -- [2]
-							2, -- [3]
-							[5] = 7,
-							[6] = 3,
+							20, -- [1]
+							11, -- [2]
+							4, -- [3]
+							2, -- [4]
+							nil, -- [5]
+							4, -- [6]
+							nil, -- [7]
+							7, -- [8]
+							[10] = 5,
+							[11] = 5,
+							[13] = 2,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_04",
-						["size"] = 6,
-					},
-					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:5573:0:0:0:0:0:0:0:18|h[Green Leather Bag]|h|r",
 						["ids"] = {
-							2771, -- [1]
-							2589, -- [2]
-							2592, -- [3]
-							22779, -- [4]
-							23444, -- [5]
-							118, -- [6]
-							858, -- [7]
-							6372, -- [8]
+							20816, -- [1]
+							20816, -- [2]
+							34054, -- [3]
+							6889, -- [4]
+							5466, -- [5]
+							2770, -- [6]
+							2592, -- [7]
+							33470, -- [8]
+							4945, -- [9]
+							25498, -- [10]
+							25498, -- [11]
+							43465, -- [12]
+							43467, -- [13]
+							22829, -- [14]
+							17344, -- [15]
+							2901, -- [16]
+							774, -- [17]
+							15747, -- [18]
+							36420, -- [19]
+							36318, -- [20]
 						},
-						["counts"] = {
-							nil, -- [1]
-							13, -- [2]
-							7, -- [3]
-							[5] = 3,
-							[7] = 7,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_03",
-						["size"] = 8,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-				},
-				["numBagSlots"] = 44,
-			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1450616063,
-				["Containers"] = {
-					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:11845:0:0:0:0:0:0:0:11|h[Handmade Leather Bag]|h|r",
-						["ids"] = {
-							2996, -- [1]
-							4945, -- [2]
-							4941, -- [3]
-							4238, -- [4]
-							2901, -- [5]
-							4938, -- [6]
-							7005, -- [7]
-							1211, -- [8]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-						["counts"] = {
-							[3] = 9,
-						},
-						["size"] = 8,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
 					},
 					["Bag0"] = {
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 16,
-					},
-					["Bag1"] = {
-						["ids"] = {
-							[5] = 6948,
-							[6] = 765,
-						},
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["counts"] = {
-							[6] = 2,
-						},
-						["freeslots"] = 4,
-					},
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
-						["ids"] = {
-							6303, -- [1]
-							6303, -- [2]
-							6303, -- [3]
-							6303, -- [4]
-							5466, -- [5]
-							2835, -- [6]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["counts"] = {
-							20, -- [1]
-							20, -- [2]
-							20, -- [3]
-							8, -- [4]
-							7, -- [5]
-							20, -- [6]
-						},
-						["size"] = 6,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
+						["links"] = {
+							"|cff1eff00|Hitem:36186:0:0:0:0:0:-37:37:80|h[Garmaul Bracers of the Physician]|h|r", -- [1]
+							[3] = "|cff1eff00|Hitem:36545:0:0:0:0:0:-7:72:80|h[Branched Stick of the Bear]|h|r",
+						},
 						["ids"] = {
-							2770, -- [1]
-							2770, -- [2]
-							2934, -- [3]
-							2318, -- [4]
-							783, -- [5]
-							2589, -- [6]
+							36186, -- [1]
+							37009, -- [2]
+							36545, -- [3]
+							36927, -- [4]
+							41782, -- [5]
+							41798, -- [6]
+							41788, -- [7]
+							45811, -- [8]
+							37166, -- [9]
+							43482, -- [10]
+							41349, -- [11]
+							41354, -- [12]
+							37217, -- [13]
+							41348, -- [14]
+							37712, -- [15]
+							37150, -- [16]
+							41347, -- [17]
+							41352, -- [18]
+							37379, -- [19]
+							41353, -- [20]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["counts"] = {
-							20, -- [1]
-							nil, -- [2]
-							17, -- [3]
-							11, -- [4]
-							[6] = 3,
-						},
-						["size"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
 					},
 					["Bag-2"] = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
 						["size"] = 32,
 					},
 				},
-				["numFreeBagSlots"] = 20,
-				["numBagSlots"] = 42,
+				["numBagSlots"] = 96,
 			},
 		},
 		["Guilds"] = {
@@ -788,12 +830,9 @@ DataStore_ContainersDB = {
 						["links"] = {
 							[69] = "|cff1eff00|Hitem:15229:0:0:0:0:0:1560:0:18|h[Blesswind Hammer of Power]|h|r",
 						},
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["ServerMinute"] = 22,
-						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
-						["ClientHour"] = 1,
-						["name"] = "Deposits",
 						["counts"] = {
 							1000, -- [1]
 							1000, -- [2]
@@ -811,37 +850,40 @@ DataStore_ContainersDB = {
 							4, -- [14]
 							[57] = 8,
 							[29] = 20,
-							[34] = 20,
+							[84] = 20,
 							[30] = 20,
-							[44] = 8,
+							[94] = 4,
 							[31] = 20,
 							[32] = 20,
 							[33] = 20,
-							[98] = 20,
+							[34] = 20,
 							[35] = 4,
 							[36] = 5,
-							[43] = 4,
+							[19] = 4,
 							[38] = 3,
 							[39] = 3,
-							[22] = 20,
-							[23] = 20,
+							[67] = 17,
+							[77] = 20,
 							[21] = 15,
-							[85] = 3,
-							[87] = 6,
+							[43] = 4,
+							[22] = 20,
 							[45] = 2,
-							[91] = 20,
+							[23] = 20,
 							[93] = 3,
 							[95] = 2,
 							[66] = 6,
 							[50] = 11,
 							[70] = 3,
 							[52] = 3,
-							[77] = 20,
-							[67] = 17,
-							[19] = 4,
-							[94] = 4,
-							[84] = 20,
+							[91] = 20,
+							[44] = 8,
+							[85] = 3,
+							[87] = 6,
+							[98] = 20,
 						},
+						["name"] = "Deposits",
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 						["size"] = 98,
 					}, -- [1]
 					{
@@ -874,7 +916,7 @@ DataStore_ContainersDB = {
 							[18] = 16051,
 							[37] = 12683,
 							[75] = 2409,
-							[69] = 8385,
+							[21] = 14466,
 							[20] = 5972,
 							[41] = 14635,
 							[42] = 14474,
@@ -882,29 +924,29 @@ DataStore_ContainersDB = {
 							[44] = 12684,
 							[89] = 15747,
 							[23] = 3868,
-							[97] = 15731,
-							[48] = 4300,
 							[49] = 14478,
+							[48] = 4300,
+							[97] = 15731,
 							[25] = 16053,
 							[51] = 12689,
-							[27] = 4297,
-							[83] = 8395,
 							[76] = 8386,
+							[83] = 8395,
+							[27] = 4297,
 							[55] = 7453,
 							[56] = 14484,
-							[21] = 14466,
+							[69] = 8385,
 						},
 						["ClientTime"] = 1450614177,
 						["visitedBy"] = "Ellipsis",
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["name"] = "Recipes",
-						["icon"] = "Interface\\Icons\\INV_Enchant_FormulaGood_01",
-						["ClientHour"] = 1,
-						["ServerMinute"] = 22,
 						["counts"] = {
 							[92] = 2,
 						},
+						["ServerMinute"] = 22,
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Enchant_FormulaGood_01",
 						["size"] = 98,
 					}, -- [2]
 					{
@@ -942,7 +984,7 @@ DataStore_ContainersDB = {
 							[41] = 42738,
 							[98] = 48720,
 							[57] = 45755,
-							[93] = 41527,
+							[8] = 45803,
 							[34] = 42747,
 							[42] = 42736,
 							[92] = 45775,
@@ -953,28 +995,25 @@ DataStore_ContainersDB = {
 							[29] = 45731,
 							[35] = 43359,
 							[43] = 45766,
-							[86] = 41547,
+							[68] = 42468,
 							[59] = 42398,
 							[71] = 42412,
 							[87] = 41530,
-							[14] = 43418,
-							[88] = 41533,
-							[72] = 42416,
-							[44] = 45762,
 							[70] = 45780,
-							[68] = 42468,
+							[44] = 45762,
+							[72] = 42416,
+							[88] = 41533,
+							[14] = 43418,
+							[86] = 41547,
 							[73] = 42408,
 							[89] = 41537,
-							[8] = 45803,
+							[93] = 41527,
 						},
 						["ClientTime"] = 1450614177,
 						["visitedBy"] = "Ellipsis",
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["name"] = "Glyphs",
-						["icon"] = "Interface\\Icons\\INV_Glyph_MajorPriest",
-						["ClientHour"] = 1,
-						["ServerMinute"] = 22,
 						["counts"] = {
 							2, -- [1]
 							[30] = 17,
@@ -1007,16 +1046,19 @@ DataStore_ContainersDB = {
 							[43] = 2,
 							[59] = 3,
 							[71] = 2,
-							[92] = 2,
-							[88] = 4,
-							[72] = 2,
+							[86] = 5,
 							[44] = 2,
+							[72] = 2,
+							[88] = 4,
 							[14] = 5,
 							[15] = 2,
 							[73] = 7,
 							[89] = 5,
-							[86] = 5,
+							[92] = 2,
 						},
+						["ServerMinute"] = 22,
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Glyph_MajorPriest",
 						["size"] = 98,
 					}, -- [3]
 					{
@@ -1087,18 +1129,18 @@ DataStore_ContainersDB = {
 							[85] = 44437,
 							[43] = 31238,
 							[51] = 37771,
-							[92] = 44437,
+							[76] = 39900,
 							[71] = 39918,
 							[87] = 38436,
-							[86] = 44436,
-							[94] = 38436,
-							[44] = 4091,
+							[84] = 39911,
+							[78] = 39914,
 							[88] = 35615,
+							[44] = 4091,
 							[52] = 37771,
 							[60] = 23119,
-							[78] = 39914,
-							[84] = 39911,
-							[76] = 39900,
+							[94] = 38436,
+							[86] = 44436,
+							[92] = 44437,
 						},
 						["ClientTime"] = 1450614176,
 						["visitedBy"] = "Ellipsis",
@@ -1107,17 +1149,17 @@ DataStore_ContainersDB = {
 							[43] = "|cff0070dd|Hitem:31238:0:0:0:0:0:-39:30:18|h[Dragonbone Ring of the Invoker]|h|r",
 							[45] = "|cff1eff00|Hitem:15254:0:0:0:0:0:1220:0:18|h[Dark Espadon of the Bear]|h|r",
 						},
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["name"] = "Gear",
-						["icon"] = "Interface\\Icons\\INV_Helmet_42",
-						["ClientHour"] = 1,
-						["ServerMinute"] = 22,
 						["counts"] = {
 							[4] = 10,
 							[5] = 10,
 							[28] = 2,
 						},
+						["ServerMinute"] = 22,
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Helmet_42",
 						["size"] = 98,
 					}, -- [4]
 					{
@@ -1161,39 +1203,36 @@ DataStore_ContainersDB = {
 							[33] = 10978,
 							[41] = 14343,
 							[57] = 21929,
-							[92] = 33470,
+							[94] = 33470,
 							[34] = 10978,
-							[89] = 33470,
+							[22] = 7071,
 							[50] = 23445,
 							[58] = 23079,
 							[93] = 33470,
 							[85] = 33470,
 							[25] = 10938,
 							[29] = 4377,
-							[86] = 33470,
 							[43] = 11177,
+							[86] = 33470,
 							[51] = 23445,
 							[59] = 23107,
 							[97] = 33470,
 							[87] = 33470,
-							[88] = 33470,
+							[44] = 2776,
 							[96] = 33470,
 							[36] = 4611,
-							[44] = 2776,
+							[88] = 33470,
 							[52] = 23427,
 							[60] = 23077,
 							[18] = 11134,
-							[22] = 7071,
-							[94] = 33470,
+							[89] = 33470,
+							[92] = 33470,
 						},
 						["ClientTime"] = 1450614175,
 						["visitedBy"] = "Ellipsis",
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["name"] = "Mats",
-						["icon"] = "Interface\\Icons\\INV_Fabric_Soulcloth_Bolt",
-						["ClientHour"] = 1,
-						["ServerMinute"] = 22,
 						["counts"] = {
 							nil, -- [1]
 							20, -- [2]
@@ -1261,10 +1300,13 @@ DataStore_ContainersDB = {
 							[93] = 20,
 							[95] = 20,
 							[97] = 20,
-							[88] = 20,
-							[92] = 20,
 							[86] = 20,
+							[92] = 20,
+							[88] = 20,
 						},
+						["ServerMinute"] = 22,
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Fabric_Soulcloth_Bolt",
 						["size"] = 98,
 					}, -- [5]
 					{
@@ -1371,12 +1413,9 @@ DataStore_ContainersDB = {
 						},
 						["ClientTime"] = 1450614175,
 						["visitedBy"] = "Ellipsis",
-						["ServerHour"] = 13,
 						["ClientMinute"] = 22,
+						["ServerHour"] = 13,
 						["name"] = "Browse and Ask",
-						["icon"] = "Interface\\Icons\\INV_Misc_Eye_01",
-						["ClientHour"] = 1,
-						["ServerMinute"] = 22,
 						["counts"] = {
 							[84] = 6,
 							[86] = 2,
@@ -1402,6 +1441,9 @@ DataStore_ContainersDB = {
 							[80] = 20,
 							[95] = 20,
 						},
+						["ServerMinute"] = 22,
+						["ClientHour"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Misc_Eye_01",
 						["size"] = 98,
 					}, -- [6]
 				},

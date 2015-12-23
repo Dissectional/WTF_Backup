@@ -1,3 +1,13 @@
+MACRO 4 "Mount" ability_mount_nightmarehorse
+/rmount
+END
+MACRO 5 "Pull" INV_Misc_QuestionMark
+/p Attack Order:
+/p {skull} First
+/p {Cross} Second
+/p {Triangle} Third
+/p No marks? Kill the mob with lowest remaining HP
+END
 MACRO 1 "SilverDragon" Ability_Hunter_SniperTraining
 /click SilverDragonMacroButton
 END

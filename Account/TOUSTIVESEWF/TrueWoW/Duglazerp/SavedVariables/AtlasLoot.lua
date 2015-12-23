@@ -5,8 +5,19 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
+	["LastSearchedText"] = "falric",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
+		{
+			2, -- [1]
+			50290, -- [2]
+			"", -- [3]
+			"=q4=Falric's Wrist-Chopper", -- [4]
+			"Falric", -- [5]
+			"", -- [6]
+			"", -- [7]
+			"HoRFalric|\"\"", -- [8]
+		}, -- [1]
 	},
 }
 AtlasLootFilterDB = {

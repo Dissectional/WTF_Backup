@@ -1,13 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -17,6 +9,14 @@ Postal3DB = {
 				"Shiftace|TrueWoW|Horde|18|DRUID", -- [4]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {

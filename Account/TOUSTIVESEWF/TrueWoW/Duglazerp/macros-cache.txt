@@ -60,6 +60,10 @@ MACRO 16777223 "Interrupt" INV_Misc_QuestionMark
 /equip [stance:1, noequipped:mainhand] Titansteel Destroyer
 /cast [stance:3] Pummel
 END
+MACRO 16777228 "Mount" INV_Misc_QuestionMark
+/run if IsMounted()then return end local t if((GetRealZoneText()=="Dalaran") and (GetSubZoneText() ~="Krasus' Landing") or (GetZoneText()=="Wintergrasp") or not IsFlyableArea()) then t={2} else t={1} end CallCompanion("MOUNT",t[random(#t)])
+/dismount
+END
 MACRO 16777226 "Spell" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomod] Shockwave
