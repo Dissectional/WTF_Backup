@@ -40,24 +40,23 @@ AucAdvancedData = {
 	["Stats"] = {
 	},
 	["UtilSearchUiData"] = {
-		["Version"] = 1,
-		["Current"] = {
-			["resale.adjust.deplength"] = 12,
-			["general.type"] = "Trade Goods",
-			["columnsortcurSort"] = 2,
-			["milling.allow.bid"] = false,
-			["snatch.columnsortcurSort"] = 1,
-			["snatch.itemsList"] = {
-			},
-			["columnsortcurDir"] = 1,
-			["snatch.columnsortcurDir"] = 1,
-			["vendor.allow.bid"] = false,
-			["resale.profit.min"] = 100000,
-		},
 		["Global"] = {
 			["configator.left"] = 510.0000201058484,
 			["configator.top"] = 790.0000764569337,
 		},
+		["Current"] = {
+			["resale.adjust.deplength"] = 12,
+			["general.name"] = "frostweave",
+			["columnsortcurSort"] = 2,
+			["resale.profit.min"] = 100000,
+			["snatch.itemsList"] = {
+			},
+			["columnsortcurDir"] = 1,
+			["snatch.columnsortcurDir"] = 1,
+			["milling.allow.bid"] = false,
+			["snatch.columnsortcurSort"] = 1,
+		},
+		["Version"] = 1,
 		["SavedSearches"] = {
 		},
 	},

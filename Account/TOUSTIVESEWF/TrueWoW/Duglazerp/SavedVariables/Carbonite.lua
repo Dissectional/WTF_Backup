@@ -7,7 +7,7 @@ NxCData = {
 		["Warsong Hold"] = true,
 		["Argent Tournament Grounds"] = true,
 		["Dalaran"] = true,
-		["Amber Ledge"] = true,
 		["Transitus Shield"] = true,
+		["Amber Ledge"] = true,
 	},
 }

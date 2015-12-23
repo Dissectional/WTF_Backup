@@ -4,26 +4,26 @@ BeanCounterDB = {
 		["Shiftace"] = {
 			["vendorsell"] = {
 			},
+			["postedBids"] = {
+			},
 			["completedAuctions"] = {
 			},
-			["postedBids"] = {
+			["wealth"] = 29315,
+			["postedAuctions"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
-			["postedAuctions"] = {
-			},
-			["wealth"] = 29315,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["completedBidsBuyouts"] = {
+			["failedBidsNeutral"] = {
 			},
 			["version"] = 2.12,
 			["faction"] = "Horde",
-			["failedBidsNeutral"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -35,26 +35,26 @@ BeanCounterDB = {
 		["Magistratus"] = {
 			["vendorsell"] = {
 			},
-			["postedBids"] = {
-			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 8667,
-			["postedAuctions"] = {
+			["postedBids"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 8667,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
-			["failedBidsNeutral"] = {
-			},
-			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
+			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
+			["failedBidsNeutral"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -63,30 +63,30 @@ BeanCounterDB = {
 			["mailbox"] = {
 			},
 		},
-		["Pastafarian"] = {
+		["Ellipsis"] = {
 			["vendorsell"] = {
-			},
-			["postedBids"] = {
 			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 3752,
-			["postedAuctions"] = {
+			["postedBids"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 58344,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
+			["completedBidsBuyouts"] = {
+			},
 			["failedBidsNeutral"] = {
 			},
 			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
-			},
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -97,27 +97,27 @@ BeanCounterDB = {
 		["Cryogenics"] = {
 			["vendorsell"] = {
 			},
+			["postedBids"] = {
+			},
 			["completedAuctions"] = {
 			},
-			["postedBids"] = {
+			["wealth"] = 2003692,
+			["postedAuctions"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
-			["postedAuctions"] = {
-			},
-			["wealth"] = 2003692,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["completedBidsBuyouts"] = {
-			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
 			["faction"] = "Horde",
-			["version"] = 2.12,
+			["completedBidsBuyouts"] = {
+			},
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -128,16 +128,18 @@ BeanCounterDB = {
 		["Duglazerp"] = {
 			["vendorsell"] = {
 			},
+			["completedAuctions"] = {
+			},
 			["postedBids"] = {
+				["3864"] = {
+					["item:3864:0:0:0:0:0:0:0:80"] = {
+						"1;100;Cptpicard;boolean false;4;1450856476;Vendor", -- [1]
+					},
+				},
 				["41599"] = {
 					["item:41599:0:0:0:0:0:0:0:80"] = {
 					},
 				},
-			},
-			["completedAuctions"] = {
-			},
-			["wealth"] = 19099646,
-			["postedAuctions"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 				["14496"] = {
@@ -167,25 +169,32 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 19982707,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
+			["completedBidsBuyouts"] = {
+			},
 			["version"] = 2.12,
+			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 				["41599"] = {
 					["item:41599:0:0:0:0:0:0:0:80"] = {
-						"1;;;;;42964;Brugoea;1450773681;;N", -- [1]
+						"1;;;;;38971;Brugoea;1450773673;;N", -- [1]
 						"1;;;;;38971;Brugoea;1450773676;;N", -- [2]
 						"1;;;;;38971;Brugoea;1450773679;;N", -- [3]
-						"1;;;;;38971;Brugoea;1450773673;;N", -- [4]
+						"1;;;;;42964;Brugoea;1450773681;;N", -- [4]
+						"1;;;;;108553;Brugoea;1450861509;Resale;N", -- [5]
+						"1;;;;;103384;Brugoea;1450861505;;N", -- [6]
+						"1;;;;;108553;Brugoea;1450861507;;N", -- [7]
+						"1;;;;;98461;Brugoea;1450861504;;N", -- [8]
 					},
 				},
-			},
-			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -193,72 +202,72 @@ BeanCounterDB = {
 			},
 			["mailbox"] = {
 				{
-					["read"] = 1,
-					["sender"] = "Blackwater Auction House",
-					["time"] = 29.1042594909668,
 					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
+					["time"] = 29.1042594909668,
+					["sender"] = "Blackwater Auction House",
 				}, -- [1]
 				{
-					["read"] = 1,
-					["sender"] = "Blackwater Auction House",
-					["time"] = 29.1042366027832,
 					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
+					["time"] = 29.1042366027832,
+					["sender"] = "Blackwater Auction House",
 				}, -- [2]
 				{
-					["read"] = 1,
-					["sender"] = "Blackwater Auction House",
-					["time"] = 29.10420227050781,
 					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
+					["time"] = 29.10420227050781,
+					["sender"] = "Blackwater Auction House",
 				}, -- [3]
 				{
-					["read"] = 1,
-					["sender"] = "Blackwater Auction House",
-					["time"] = 29.10417747497559,
 					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
+					["time"] = 29.10417747497559,
+					["sender"] = "Blackwater Auction House",
 				}, -- [4]
 				{
-					["read"] = 1,
-					["sender"] = "Ellipsis",
-					["time"] = 27.14633178710938,
 					["subject"] = "Malachite (2)",
+					["read"] = 1,
+					["time"] = 27.14633178710938,
+					["sender"] = "Ellipsis",
 				}, -- [5]
 				{
-					["read"] = 1,
-					["sender"] = "Great-father Winter",
-					["time"] = 27.99686431884766,
 					["subject"] = "",
+					["read"] = 1,
+					["time"] = 27.99686431884766,
+					["sender"] = "Great-father Winter",
 				}, -- [6]
 				{
-					["read"] = 1,
-					["sender"] = "Customer Support",
-					["time"] = 22.62407493591309,
 					["subject"] = "Bag Replacement",
+					["read"] = 1,
+					["time"] = 22.62407493591309,
+					["sender"] = "Customer Support",
 				}, -- [7]
 			},
 		},
-		["Ellipsis"] = {
+		["Pastafarian"] = {
 			["vendorsell"] = {
-			},
-			["postedBids"] = {
 			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 58344,
-			["postedAuctions"] = {
+			["postedBids"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 3752,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["failedBidsNeutral"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["version"] = 2.12,
 			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
+			["failedBidsNeutral"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -269,10 +278,11 @@ BeanCounterDB = {
 		},
 	},
 	["ItemIDArray"] = {
-		["12410:0"] = "cff1eff00;Thorium Helm",
+		["14496:0"] = "cff1eff00;Pattern: Felcloth Hood",
 		["41599:0"] = "cff1eff00;Frostweave Bag",
 		["15747:0"] = "cff1eff00;Pattern: Frostsaber Leggings",
-		["14496:0"] = "cff1eff00;Pattern: Felcloth Hood",
+		["12410:0"] = "cff1eff00;Thorium Helm",
+		["3864:0"] = "cff1eff00;Citrine",
 	},
 	["settings"] = {
 		["profile.Default"] = {

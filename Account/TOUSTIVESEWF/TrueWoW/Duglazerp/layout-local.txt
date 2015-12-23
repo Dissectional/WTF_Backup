@@ -11,8 +11,8 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -323
 Y: -108
-W: 310
-H: 340
+W: 266
+H: 114
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -21,7 +21,7 @@ Y: 0
 W: 365
 H: 200
 Frame: TankPointsCalculatorFrame
-FrameLevel: 20
+FrameLevel: 12
 Anchor: LEFT
 X: 242
 Y: 49
@@ -46,7 +46,7 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -41
 Y: 196
-W: 303
+W: 328
 H: 19
 Frame: SilverDragonPopupButton
 FrameLevel: 0
@@ -83,10 +83,3 @@ X: 0
 Y: 128
 W: 150
 H: 42
-Frame: AtlasLootWishList_AddFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 350
-H: 250

@@ -11,28 +11,28 @@ DataStoreDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.TrueWoW.Cryogenics"] = {
-				["guildName"] = "Slash Gee Quit",
 				["faction"] = "Horde",
+				["guildName"] = "Slash Gee Quit",
 			},
 			["Default.TrueWoW.Ellipsis"] = {
-				["faction"] = "Horde",
 				["guildName"] = "Slash Gee Quit",
+				["faction"] = "Horde",
 			},
 			["Default.TrueWoW.Magistratus"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Slash Gee Quit",
-			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Slash Gee Quit",
-			},
-			["Default.TrueWoW.Shiftace"] = {
 				["guildName"] = "Slash Gee Quit",
 				["faction"] = "Horde",
 			},
 			["Default.TrueWoW.Duglazerp"] = {
+				["guildName"] = "Slash Gee Quit",
+				["faction"] = "Horde",
+			},
+			["Default.TrueWoW.Shiftace"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Slash Gee Quit",
+			},
+			["Default.TrueWoW.Pastafarian"] = {
+				["guildName"] = "Slash Gee Quit",
+				["faction"] = "Horde",
 			},
 		},
 		["Guilds"] = {

@@ -75,6 +75,44 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 7,
 				["lastUpdate"] = 1450617026,
 			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["Inventory"] = {
+					37849, -- [1]
+					40679, -- [2]
+					44312, -- [3]
+					6125, -- [4]
+					39611, -- [5]
+					49853, -- [6]
+					40674, -- [7]
+					37618, -- [8]
+					41116, -- [9]
+					39622, -- [10]
+					50447, -- [11]
+					37784, -- [12]
+					40683, -- [13]
+					38359, -- [14]
+					41238, -- [15]
+					49783, -- [16]
+					42508, -- [17]
+					50444, -- [18]
+				},
+				["averageItemLvl"] = 201.2352941176471,
+				["lastUpdate"] = 1450864898,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Inventory"] = {
+					[5] = 28157,
+					[6] = 28158,
+					[7] = 4909,
+					[9] = 28147,
+					[10] = 10413,
+					[8] = 23414,
+					[15] = 28150,
+					[16] = 6365,
+				},
+				["averageItemLvl"] = 14.625,
+				["lastUpdate"] = 1450613997,
+			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["Inventory"] = {
 					nil, -- [1]
@@ -98,44 +136,6 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 8.111111111111111,
 				["lastUpdate"] = 1450615990,
 			},
-			["Default.TrueWoW.Shiftace"] = {
-				["Inventory"] = {
-					[5] = 28157,
-					[6] = 28158,
-					[7] = 4909,
-					[9] = 28147,
-					[16] = 6365,
-					[15] = 28150,
-					[8] = 23414,
-					[10] = 10413,
-				},
-				["averageItemLvl"] = 14.625,
-				["lastUpdate"] = 1450613997,
-			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["Inventory"] = {
-					37849, -- [1]
-					40679, -- [2]
-					44312, -- [3]
-					6125, -- [4]
-					39611, -- [5]
-					49853, -- [6]
-					40674, -- [7]
-					37618, -- [8]
-					41116, -- [9]
-					39622, -- [10]
-					50447, -- [11]
-					37784, -- [12]
-					40683, -- [13]
-					38359, -- [14]
-					41238, -- [15]
-					49783, -- [16]
-					42508, -- [17]
-					50444, -- [18]
-				},
-				["averageItemLvl"] = 201.2352941176471,
-				["lastUpdate"] = 1450851805,
-			},
 		},
 		["Guilds"] = {
 			["Default.TrueWoW.Slash Gee Quit"] = {
@@ -143,8 +143,8 @@ DataStore_InventoryDB = {
 					["Shiftace"] = {
 						["averageItemLvl"] = 14,
 					},
-					["Pastafarian"] = {
-						["averageItemLvl"] = 8,
+					["Ellipsis"] = {
+						["averageItemLvl"] = 16,
 					},
 					["Maggy"] = {
 						["averageItemLvl"] = 243,
@@ -158,8 +158,8 @@ DataStore_InventoryDB = {
 					["Duglazerp"] = {
 						["averageItemLvl"] = 201,
 					},
-					["Ellipsis"] = {
-						["averageItemLvl"] = 16,
+					["Pastafarian"] = {
+						["averageItemLvl"] = 8,
 					},
 				},
 			},

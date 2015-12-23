@@ -28,32 +28,42 @@ SavedInstancesDB = {
 		},
 	},
 	["Lockouts"] = {
+		[12] = {
+			["Encounters"] = {
+			},
+			["Name"] = "Utgarde Keep",
+			["Members"] = {
+				["Duglazerp"] = {
+					["Class"] = "WARRIOR",
+				},
+			},
+		},
 	},
 	["Tooltip"] = {
-		["RecentHistory"] = false,
+		["Details"] = false,
 		["CategorySort"] = "EXPANSION",
-		["ShowSoloCategory"] = false,
+		["RecentHistory"] = false,
 		["ReverseInstances"] = false,
-		["NewFirst"] = true,
-		["ColumnStyle"] = "NORMAL",
-		["NewInstanceShow"] = false,
-		["RaidsFirst"] = true,
-		["ShowHints"] = true,
-		["ShowEncounters"] = false,
-		["TrackRandom"] = false,
+		["ShowCategories"] = false,
+		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
 			0.2, -- [1]
 			0.2, -- [2]
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["CategorySpaces"] = false,
-		["ShowCategories"] = false,
-		["Details"] = false,
+		["NewInstanceShow"] = false,
+		["ShowHints"] = true,
+		["ShowEncounters"] = false,
+		["TrackRandom"] = false,
+		["RaidsFirst"] = true,
+		["ColumnStyle"] = "NORMAL",
+		["NewFirst"] = true,
+		["ShowSoloCategory"] = false,
 	},
 	["Instances"] = {
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Utgarde Pinnacle"] = {
+			["LFDID"] = 203,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -64,37 +74,50 @@ SavedInstancesDB = {
 		["Azjol-Nerub"] = {
 			["LFDID"] = 204,
 			["Expansion"] = 2,
-			["Show"] = false,
 			["Encounters"] = {
 			},
 			["Raid"] = false,
 			["LFDupdated"] = "12340",
+			["Show"] = false,
 		},
 		["The Oculus"] = {
 			["LFDID"] = 211,
 			["Expansion"] = 2,
-			["LFDupdated"] = "12340",
 			["Encounters"] = {
 			},
 			["Raid"] = false,
+			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Utgarde Pinnacle"] = {
-			["LFDID"] = 203,
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
 			["Raid"] = false,
 			["LFDupdated"] = "12340",
 			["Show"] = false,
+		},
+		["Utgarde Keep"] = {
+			["LFDID"] = 202,
+			["Expansion"] = 2,
+			["Show"] = false,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 12,
+					["Expires"] = 1450936801,
+				},
+			},
+			["LFDupdated"] = "12340",
 		},
 	},
 	["History"] = {
 	},
 	["Broker"] = {
 		["HistoryText"] = false,
-	},
-	["MinimapIcon"] = {
 	},
 	["Indicators"] = {
 		["D1Indicator"] = "BLANK",
@@ -127,29 +150,31 @@ SavedInstancesDB = {
 		["D2ClassColor"] = true,
 		["R4ClassColor"] = true,
 		["R3ClassColor"] = true,
-		["R4Text"] = "25+",
+		["R1ClassColor"] = true,
 		["D2Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["R3Text"] = "10+",
-		["D1Text"] = "5",
-		["D2Text"] = "5+",
-		["R2Color"] = {
-			0.6, -- [1]
-			0, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
-		["R2Indicator"] = "BLANK",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["R1ClassColor"] = true,
+		["D1Text"] = "5",
+		["D2Text"] = "5+",
+		["R2Indicator"] = "BLANK",
+		["R2Color"] = {
+			0.6, -- [1]
+			0, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
+		["R3Text"] = "10+",
+		["R4Text"] = "25+",
+	},
+	["MinimapIcon"] = {
 	},
 }

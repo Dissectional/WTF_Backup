@@ -5,18 +5,18 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
-	["LastSearchedText"] = "falric",
+	["LastSearchedText"] = "black spire",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 		{
 			2, -- [1]
-			50290, -- [2]
+			50207, -- [2]
 			"", -- [3]
-			"=q4=Falric's Wrist-Chopper", -- [4]
-			"Falric", -- [5]
+			"=q4=Black Spire Sabatons", -- [4]
+			"Devourer of Souls", -- [5]
 			"", -- [6]
 			"", -- [7]
-			"HoRFalric|\"\"", -- [8]
+			"FoSDevourerHEROIC|\"\"", -- [8]
 		}, -- [1]
 	},
 }
@@ -27,18 +27,22 @@ AtlasLootFilterDB = {
 		["Sigils"] = true,
 		["Totem"] = true,
 	},
-	["WeaponsRanged"] = {
-		["Crossbow"] = true,
-		["Thrown"] = true,
-		["Gun"] = true,
-		["Bow"] = true,
-		["Wand"] = true,
+	["WeaponsMeele"] = {
+		["Axe"] = true,
+		["Shield"] = true,
+		["Held in Off-Hand"] = true,
+		["Staff"] = true,
+		["Dagger"] = true,
+		["Mace"] = true,
+		["Fist Weapon"] = true,
+		["Polearm"] = true,
+		["Sword"] = true,
 	},
 	["Armor"] = {
 		["Leather"] = true,
 		["Plate"] = true,
-		["Mail"] = true,
 		["Cloth"] = true,
+		["Mail"] = true,
 	},
 	["WeaponsMeeleTwoHand"] = {
 		["Mace"] = true,
@@ -51,15 +55,11 @@ AtlasLootFilterDB = {
 		["Ring"] = true,
 		["Back"] = true,
 	},
-	["WeaponsMeele"] = {
-		["Axe"] = true,
-		["Shield"] = true,
-		["Held in Off-Hand"] = true,
-		["Staff"] = true,
-		["Dagger"] = true,
-		["Mace"] = true,
-		["Fist Weapon"] = true,
-		["Polearm"] = true,
-		["Sword"] = true,
+	["WeaponsRanged"] = {
+		["Crossbow"] = true,
+		["Wand"] = true,
+		["Gun"] = true,
+		["Bow"] = true,
+		["Thrown"] = true,
 	},
 }

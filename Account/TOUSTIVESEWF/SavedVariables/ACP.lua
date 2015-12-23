@@ -148,6 +148,7 @@ ACP_Data = {
 		}, -- [1]
 	},
 	["collapsed"] = {
+		["Forte"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

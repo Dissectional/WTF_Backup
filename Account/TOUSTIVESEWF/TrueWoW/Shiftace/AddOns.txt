@@ -69,3 +69,4 @@ AlphaMap3_POI_Instances: disabled
 AlphaMap3_Instances: disabled
 AlphaMap3_Battlegrounds: disabled
 AckisRecipeList: disabled
+FishingBuddy: enabled

@@ -86,7 +86,7 @@ EveryQuest_Professions: enabled
 EveryQuest_QuestGivers: enabled
 EveryQuest_Raids: enabled
 EveryQuest_World_Events: enabled
-FishingBuddy: disabled
+FishingBuddy: enabled
 Forte_Core: disabled
 Forte_Casting: disabled
 Forte_Cooldown: disabled

@@ -19,22 +19,22 @@ DataStore_CurrenciesDB = {
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1450616809,
 			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1450616063,
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1450613997,
-			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Emblem of Frost|10|49426", -- [2]
 					"1|Emblem of Heroism|35|40752", -- [3]
-					"1|Emblem of Triumph|66|47241", -- [4]
+					"1|Emblem of Triumph|70|47241", -- [4]
 					"0|Player vs. Player", -- [5]
-					"1|Stone Keeper's Shard|70|43228", -- [6]
+					"1|Stone Keeper's Shard|77|43228", -- [6]
 				},
-				["lastUpdate"] = 1450851045,
+				["lastUpdate"] = 1450863538,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1450613997,
+			},
+			["Default.TrueWoW.Pastafarian"] = {
+				["lastUpdate"] = 1450616063,
 			},
 		},
 	},

@@ -10,7 +10,14 @@ RepTrackerDB = {
 	},
 	["faction"] = {
 		["Horde"] = {
-			["lastWatched"] = 25,
+			["lastWatched"] = 5,
+			["ZoneToFaction"] = {
+				["Durotar"] = "orgrimmar",
+				["The Barrens"] = "orgrimmar",
+				["Pit of Saron"] = "warsong offensive",
+				["Orgrimmar"] = "orgrimmar",
+				["Borean Tundra"] = "the wyrmrest accord",
+			},
 			["factions"] = {
 				["the sunreavers"] = 23,
 				["the hand of vengeance"] = 22,
@@ -32,10 +39,6 @@ RepTrackerDB = {
 				["the taunka"] = 24,
 				["kirin tor"] = 18,
 				["none"] = 0,
-			},
-			["ZoneToFaction"] = {
-				["Pit of Saron"] = "warsong offensive",
-				["Borean Tundra"] = "the wyrmrest accord",
 			},
 		},
 	},

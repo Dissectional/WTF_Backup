@@ -26,7 +26,6 @@ AtlasLootDB = {
 			["CraftingLink"] = 2,
 			["AtlasType"] = "Unknown",
 			["ItemSpam"] = true,
-			["LastBoss"] = "CRAFTINGMENU",
 		},
 		["Magistratus - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
@@ -34,58 +33,58 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Shiftace"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Magistratus"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Pastafarian"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Cryogenics"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
-		},
-		["Duglazerp"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
 		},
 		["Ellipsis"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Cryogenics"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
+		["Duglazerp"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Pastafarian"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Shiftace"] = {
 		},
 		["Magistratus"] = {
 		},
-		["Pastafarian"] = {
+		["Ellipsis"] = {
 		},
 		["Cryogenics"] = {
 		},
@@ -101,6 +100,16 @@ AtlasLootWishList = {
 					"", -- [7]
 					"HoRFalric|\"\"", -- [8]
 				}, -- [1]
+				{
+					0, -- [1]
+					37220, -- [2]
+					"", -- [3]
+					"|cff0070ddEssence of Gossamer", -- [4]
+					"Hadronox", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"AzjolNerubHadronox|", -- [8]
+				}, -- [2]
 				["info"] = {
 					"Tank", -- [1]
 					{
@@ -109,8 +118,27 @@ AtlasLootWishList = {
 					"Interface\\Icons\\Ability_Warrior_DefensiveStance", -- [3]
 				},
 			}, -- [1]
+			{
+				{
+					0, -- [1]
+					37379, -- [2]
+					"", -- [3]
+					"|cff0070ddSkadi's Iron Belt", -- [4]
+					"Skadi the Ruthless", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UPSkadi|", -- [8]
+				}, -- [1]
+				["info"] = {
+					"Block", -- [1]
+					{
+						["Duglazerp"] = false,
+					}, -- [2]
+					"Interface\\Icons\\Ability_Defend", -- [3]
+				},
+			}, -- [2]
 		},
-		["Ellipsis"] = {
+		["Pastafarian"] = {
 		},
 	},
 }

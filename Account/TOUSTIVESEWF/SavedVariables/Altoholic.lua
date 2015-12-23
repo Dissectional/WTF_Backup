@@ -10,7 +10,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "B48XHLW27OSN23KSLBOH",
+			["Lola"] = "O27DBLH03JKF23LWOOOB",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
@@ -18,6 +18,11 @@ AltoholicDB = {
 			["Default.TrueWoW.Cryogenics"] = {
 				["Friends"] = {
 					"Lowlypoop", -- [1]
+				},
+			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["SavedInstance"] = {
+					["Utgarde Keep 5 Player (Heroic)|12"] = "73263|1450863538|1|1",
 				},
 			},
 		},
