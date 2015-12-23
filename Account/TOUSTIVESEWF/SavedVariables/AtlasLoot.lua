@@ -24,8 +24,8 @@ AtlasLootDB = {
 		},
 		["Duglazerp - TrueWoW"] = {
 			["CraftingLink"] = 2,
-			["AtlasType"] = "Unknown",
 			["ItemSpam"] = true,
+			["AtlasType"] = "Unknown",
 		},
 		["Magistratus - TrueWoW"] = {
 			["AtlasType"] = "Unknown",

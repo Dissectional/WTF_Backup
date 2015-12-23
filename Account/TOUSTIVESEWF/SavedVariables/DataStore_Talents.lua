@@ -52,18 +52,18 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1450614033,
+				["lastUpdate"] = 1450866781,
 				["Class"] = "WARLOCK",
 				["TalentTrees"] = {
+					["Affliction|1"] = {
+						[3] = 5,
+						[7] = 1,
+					},
 					["Demonology|1"] = {
 						nil, -- [1]
 						nil, -- [2]
 						1, -- [3]
 						2, -- [4]
-					},
-					["Affliction|1"] = {
-						[3] = 5,
-						[7] = 1,
 					},
 				},
 				["PointsSpent"] = "6,3,0,0,0,0",
@@ -110,7 +110,7 @@ DataStore_TalentsDB = {
 					"1|1|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1450863316,
+				["lastUpdate"] = 1450865297,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Fury|1"] = {
@@ -127,17 +127,17 @@ DataStore_TalentsDB = {
 						2, -- [7]
 						2, -- [8]
 						5, -- [9]
+						[23] = 1,
+						[24] = 3,
+						[25] = 3,
+						[26] = 2,
+						[27] = 1,
 						[15] = 2,
 						[16] = 5,
 						[17] = 2,
 						[19] = 3,
 						[20] = 3,
 						[22] = 1,
-						[23] = 1,
-						[24] = 3,
-						[25] = 3,
-						[26] = 2,
-						[27] = 1,
 					},
 					["Fury|2"] = {
 						3, -- [1]
@@ -160,12 +160,12 @@ DataStore_TalentsDB = {
 						3, -- [18]
 						1, -- [19]
 						2, -- [20]
-						[22] = 5,
+						[26] = 5,
 						[23] = 1,
+						[27] = 1,
 						[24] = 1,
 						[25] = 3,
-						[26] = 5,
-						[27] = 1,
+						[22] = 5,
 					},
 					["Arms|2"] = {
 						3, -- [1]
@@ -874,8 +874,8 @@ DataStore_TalentsRefDB = {
 						[17] = "4|2",
 						[11] = "3|3",
 						[27] = "9|2",
-						[29] = "10|2",
 						[22] = "7|2",
+						[29] = "10|2",
 					},
 					["icon"] = "Ability_Racial_BearForm",
 					["background"] = "DruidFeralCombat",

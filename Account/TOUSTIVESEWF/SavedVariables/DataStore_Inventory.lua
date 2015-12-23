@@ -55,7 +55,7 @@ DataStore_InventoryDB = {
 					28151, -- [18]
 				},
 				["averageItemLvl"] = 16.88888888888889,
-				["lastUpdate"] = 1450614033,
+				["lastUpdate"] = 1450867965,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Inventory"] = {
@@ -97,7 +97,7 @@ DataStore_InventoryDB = {
 					50444, -- [18]
 				},
 				["averageItemLvl"] = 201.2352941176471,
-				["lastUpdate"] = 1450864898,
+				["lastUpdate"] = 1450865297,
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["Inventory"] = {

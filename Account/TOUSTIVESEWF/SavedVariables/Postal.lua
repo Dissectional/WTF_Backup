@@ -13,8 +13,9 @@ Postal3DB = {
 			["alts"] = {
 				"Cryogenics|TrueWoW|Horde|11|MAGE", -- [1]
 				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [2]
-				"Magistratus|TrueWoW|Horde|13|PALADIN", -- [3]
-				"Shiftace|TrueWoW|Horde|18|DRUID", -- [4]
+				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [3]
+				"Magistratus|TrueWoW|Horde|13|PALADIN", -- [4]
+				"Shiftace|TrueWoW|Horde|18|DRUID", -- [5]
 			},
 		},
 	},

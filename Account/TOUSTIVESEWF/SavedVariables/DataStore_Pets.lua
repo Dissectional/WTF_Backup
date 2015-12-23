@@ -14,13 +14,13 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1450638572,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1450614033,
+				["lastUpdate"] = 1450866781,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1450616791,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450863595,
+				["lastUpdate"] = 1450865297,
 				["CRITTER"] = {
 					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
 				},

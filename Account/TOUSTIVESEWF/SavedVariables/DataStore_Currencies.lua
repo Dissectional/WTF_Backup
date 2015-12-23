@@ -14,7 +14,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1450638572,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1450614423,
+				["lastUpdate"] = 1450865697,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1450616809,
@@ -28,7 +28,7 @@ DataStore_CurrenciesDB = {
 					"0|Player vs. Player", -- [5]
 					"1|Stone Keeper's Shard|77|43228", -- [6]
 				},
-				["lastUpdate"] = 1450863538,
+				["lastUpdate"] = 1450865297,
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["lastUpdate"] = 1450613997,

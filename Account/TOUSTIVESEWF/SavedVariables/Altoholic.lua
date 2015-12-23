@@ -10,7 +10,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "O27DBLH03JKF23LWOOOB",
+			["Lola"] = "M45OSLF52HQY23KWHMOS",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
@@ -22,7 +22,7 @@ AltoholicDB = {
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["SavedInstance"] = {
-					["Utgarde Keep 5 Player (Heroic)|12"] = "73263|1450863538|1|1",
+					["Utgarde Keep 5 Player (Heroic)|12"] = "71503|1450865298|1|1",
 				},
 			},
 		},

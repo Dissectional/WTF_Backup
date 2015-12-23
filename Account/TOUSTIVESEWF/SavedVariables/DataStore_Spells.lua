@@ -47,7 +47,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1450614033,
+				["lastUpdate"] = 1450866781,
 				["Spells"] = {
 					["Demonology"] = {
 						"6201|Rank 1", -- [1]
@@ -135,7 +135,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450863316,
+				["lastUpdate"] = 1450865297,
 				["Spells"] = {
 					["Arms"] = {
 						"2457|", -- [1]

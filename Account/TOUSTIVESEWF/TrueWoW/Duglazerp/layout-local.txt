@@ -11,8 +11,8 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -323
 Y: -108
-W: 266
-H: 114
+W: 268
+H: 128
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -35,7 +35,7 @@ Y: 186
 W: 36
 H: 36
 Frame: NxQuestList
-FrameLevel: 16
+FrameLevel: 15
 Anchor: CENTER
 X: 58
 Y: 27
@@ -46,7 +46,7 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -41
 Y: 196
-W: 328
+W: 303
 H: 19
 Frame: SilverDragonPopupButton
 FrameLevel: 0

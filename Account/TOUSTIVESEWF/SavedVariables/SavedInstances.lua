@@ -40,10 +40,10 @@ SavedInstancesDB = {
 		},
 	},
 	["Tooltip"] = {
-		["Details"] = false,
-		["CategorySort"] = "EXPANSION",
-		["RecentHistory"] = false,
 		["ReverseInstances"] = false,
+		["CategorySort"] = "EXPANSION",
+		["ShowSoloCategory"] = false,
+		["Details"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -52,14 +52,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["ShowSoloCategory"] = false,
+		["RecentHistory"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Pinnacle"] = {
@@ -105,13 +105,13 @@ SavedInstancesDB = {
 			["Encounters"] = {
 			},
 			["Raid"] = false,
+			["LFDupdated"] = "12340",
 			["Duglazerp - TrueWoW"] = {
 				[2] = {
 					["ID"] = 12,
 					["Expires"] = 1450936801,
 				},
 			},
-			["LFDupdated"] = "12340",
 		},
 	},
 	["History"] = {
@@ -157,14 +157,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
+		["D2Text"] = "5+",
+		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D1Text"] = "5",
-		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

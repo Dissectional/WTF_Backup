@@ -12,6 +12,14 @@ TalentedDB = {
 		["Pastafarian - TrueWoW"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
 		},
 		["Shiftace - TrueWoW"] = {
 		},

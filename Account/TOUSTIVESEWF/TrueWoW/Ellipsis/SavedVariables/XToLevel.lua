@@ -41,27 +41,6 @@ sConfig = {
 	["ldb"] = {
 		["showLabel"] = false,
 		["showIcon"] = true,
-		["text"] = {
-			["bgo"] = false,
-			["restedp"] = true,
-			["petxpnum"] = true,
-			["kills"] = true,
-			["petxp"] = true,
-			["xpnum"] = true,
-			["rested"] = true,
-			["pet"] = true,
-			["xp"] = true,
-			["dungeons"] = true,
-			["colorValues"] = true,
-			["xpCountdown"] = false,
-			["xpAsBars"] = false,
-			["xpnumFormat"] = true,
-			["timer"] = true,
-			["verbose"] = true,
-			["quests"] = true,
-			["bgs"] = true,
-		},
-		["allowTextColor"] = true,
 		["tooltip"] = {
 			["showPetInfo"] = true,
 			["showExperience"] = true,
@@ -70,6 +49,27 @@ sConfig = {
 			["showBGInfo"] = true,
 			["showDetails"] = true,
 		},
+		["text"] = {
+			["bgo"] = false,
+			["restedp"] = true,
+			["petxpnum"] = true,
+			["kills"] = true,
+			["petxp"] = true,
+			["xpnum"] = true,
+			["rested"] = true,
+			["verbose"] = true,
+			["pet"] = true,
+			["dungeons"] = true,
+			["colorValues"] = true,
+			["xpCountdown"] = false,
+			["xpAsBars"] = false,
+			["xpnumFormat"] = true,
+			["timer"] = true,
+			["xp"] = true,
+			["quests"] = true,
+			["bgs"] = true,
+		},
+		["allowTextColor"] = true,
 		["textPattern"] = "default",
 		["showText"] = true,
 	},
@@ -121,19 +121,127 @@ sConfig = {
 sData = {
 	["player"] = {
 		["questList"] = {
+			1150, -- [1]
+			1350, -- [2]
+			125, -- [3]
+			1150, -- [4]
+			100, -- [5]
+			575, -- [6]
+			1050, -- [7]
+			290, -- [8]
+			90, -- [9]
+			975, -- [10]
+			775, -- [11]
+			85, -- [12]
 		},
-		["killAverage"] = 0,
+		["killAverage"] = 129,
 		["killList"] = {
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [1]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 135,
+			}, -- [2]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 120,
+			}, -- [3]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 135,
+			}, -- [4]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [5]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 120,
+			}, -- [6]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 120,
+			}, -- [7]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 120,
+			}, -- [8]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 135,
+			}, -- [9]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [10]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [11]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 120,
+			}, -- [12]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [13]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 135,
+			}, -- [14]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 120,
+			}, -- [15]
+			{
+				["mob"] = "Shadowpine Headhunter",
+				["xp"] = 135,
+			}, -- [16]
+			{
+				["mob"] = "Shadowpine Shadowcaster",
+				["xp"] = 120,
+			}, -- [17]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 90,
+			}, -- [18]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 105,
+			}, -- [19]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 105,
+			}, -- [20]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 105,
+			}, -- [21]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 105,
+			}, -- [22]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 105,
+			}, -- [23]
+			{
+				["mob"] = "Arcane Reaver",
+				["xp"] = 90,
+			}, -- [24]
 		},
 		["timer"] = {
-			["start"] = 1450614422,
-			["total"] = 0,
-			["xpPerSec"] = 0.05645161290322581,
+			["start"] = 1450865696,
+			["total"] = 13505,
+			["xpPerSec"] = 5.957212174680194,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {
 		},
-		["questAverage"] = 0,
+		["questAverage"] = 685.5,
 		["bgList"] = {
 		},
 	},

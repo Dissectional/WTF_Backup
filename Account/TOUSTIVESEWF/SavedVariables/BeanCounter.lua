@@ -19,9 +19,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
-			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -52,10 +52,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -74,7 +74,7 @@ BeanCounterDB = {
 			},
 			["postedAuctions"] = {
 			},
-			["wealth"] = 58344,
+			["wealth"] = 62624,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
@@ -83,10 +83,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
-			["faction"] = "Horde",
-			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -112,9 +112,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -171,7 +171,7 @@ BeanCounterDB = {
 			},
 			["postedAuctions"] = {
 			},
-			["wealth"] = 19982707,
+			["wealth"] = 19987468,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
@@ -180,8 +180,6 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 				["41599"] = {
 					["item:41599:0:0:0:0:0:0:0:80"] = {
@@ -196,52 +194,54 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
 			["mailbox"] = {
 				{
-					["subject"] = "Outbid on Frostweave Bag",
-					["read"] = 1,
 					["time"] = 29.1042594909668,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
 				}, -- [1]
 				{
-					["subject"] = "Outbid on Frostweave Bag",
-					["read"] = 1,
 					["time"] = 29.1042366027832,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
 				}, -- [2]
 				{
-					["subject"] = "Outbid on Frostweave Bag",
-					["read"] = 1,
 					["time"] = 29.10420227050781,
 					["sender"] = "Blackwater Auction House",
-				}, -- [3]
-				{
 					["subject"] = "Outbid on Frostweave Bag",
 					["read"] = 1,
+				}, -- [3]
+				{
 					["time"] = 29.10417747497559,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Frostweave Bag",
+					["read"] = 1,
 				}, -- [4]
 				{
-					["subject"] = "Malachite (2)",
-					["read"] = 1,
 					["time"] = 27.14633178710938,
 					["sender"] = "Ellipsis",
+					["subject"] = "Malachite (2)",
+					["read"] = 1,
 				}, -- [5]
 				{
-					["subject"] = "",
-					["read"] = 1,
 					["time"] = 27.99686431884766,
 					["sender"] = "Great-father Winter",
+					["subject"] = "",
+					["read"] = 1,
 				}, -- [6]
 				{
-					["subject"] = "Bag Replacement",
-					["read"] = 1,
 					["time"] = 22.62407493591309,
 					["sender"] = "Customer Support",
+					["subject"] = "Bag Replacement",
+					["read"] = 1,
 				}, -- [7]
 			},
 		},
@@ -265,10 +265,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -279,8 +279,8 @@ BeanCounterDB = {
 	},
 	["ItemIDArray"] = {
 		["14496:0"] = "cff1eff00;Pattern: Felcloth Hood",
-		["41599:0"] = "cff1eff00;Frostweave Bag",
 		["15747:0"] = "cff1eff00;Pattern: Frostsaber Leggings",
+		["41599:0"] = "cff1eff00;Frostweave Bag",
 		["12410:0"] = "cff1eff00;Thorium Helm",
 		["3864:0"] = "cff1eff00;Citrine",
 	},

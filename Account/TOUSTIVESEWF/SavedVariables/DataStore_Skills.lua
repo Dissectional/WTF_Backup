@@ -39,7 +39,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1450614033,
+				["lastUpdate"] = 1450867466,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "37|75",
@@ -52,22 +52,22 @@ DataStore_SkillsDB = {
 						["Destruction"] = "1|1",
 					},
 					["Professions"] = {
-						["Tailoring"] = "70|150",
+						["Tailoring"] = "91|150",
 						["Enchanting"] = "95|160",
 					},
 					["Languages"] = {
-						["Language: Orcish"] = "300|300",
 						["Language: Thalassian"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
 						["Staves"] = "47|90",
-						["Unarmed"] = "5|90",
+						["Unarmed"] = "6|90",
 						["Daggers"] = "1|90",
-						["Defense"] = "80|90",
-						["Wands"] = "75|90",
+						["Wands"] = "78|90",
+						["Defense"] = "83|90",
 					},
 				},
 			},
@@ -107,18 +107,18 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450863316,
+				["lastUpdate"] = 1450865297,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "45|75",
-						["Fishing"] = "1|75",
 						["Riding"] = "225|225",
 						["First Aid"] = "22|75",
+						["Fishing"] = "1|75",
 					},
 					["Class Skills"] = {
 						["Fury"] = "1|1",
-						["Arms"] = "1|1",
 						["Protection"] = "1|1",
+						["Arms"] = "1|1",
 					},
 					["Professions"] = {
 						["Jewelcrafting"] = "37|75",
@@ -130,25 +130,25 @@ DataStore_SkillsDB = {
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
 						["Cloth"] = "1|1",
-						["Mail"] = "1|1",
-						["Plate Mail"] = "1|1",
 						["Shield"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Mail"] = "1|1",
 					},
 					["Weapon Skills"] = {
 						["Two-Handed Maces"] = "400|400",
 						["Defense"] = "400|400",
-						["Daggers"] = "400|400",
-						["Maces"] = "400|400",
 						["Bows"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Daggers"] = "400|400",
 						["Two-Handed Swords"] = "400|400",
 						["Thrown"] = "400|400",
-						["Axes"] = "400|400",
+						["Polearms"] = "400|400",
 						["Staves"] = "400|400",
 						["Guns"] = "400|400",
-						["Unarmed"] = "400|400",
-						["Crossbows"] = "400|400",
-						["Polearms"] = "400|400",
 						["Swords"] = "400|400",
+						["Crossbows"] = "400|400",
+						["Axes"] = "400|400",
+						["Maces"] = "400|400",
 						["Two-Handed Axes"] = "400|400",
 					},
 				},

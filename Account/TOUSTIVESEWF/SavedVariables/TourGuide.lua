@@ -9,11 +9,29 @@ TourGuideAlphaDB = {
 			},
 		},
 		["Ellipsis - TrueWoW"] = {
-			["showstatusframe"] = false,
+			["currentguide"] = "Ghostlands (13-20)",
+			["completion"] = {
+				["No Guide"] = 0,
+				["Eversong Woods (1-13)"] = 1,
+			},
 			["turnins"] = {
 				["No Guide"] = {
 				},
+				["Ghostlands (13-20)"] = {
+					["Tranquillien@1@"] = true,
+					["Tranquillien@5@"] = true,
+					["Tranquillien@4@"] = true,
+					["Sanctum of the Sun@6@"] = true,
+					["Farstrider Enclave@3@"] = true,
+					["Tranquillien@2@"] = true,
+				},
+				["Eversong Woods (1-13)"] = {
+					["Training?@15@"] = true,
+					["Class Quests?@14@"] = true,
+					["Suntouched Special Reserve@13@"] = true,
+				},
 			},
+			["showstatusframe"] = false,
 		},
 		["Shiftace - TrueWoW"] = {
 			["currentguide"] = "Ghostlands (13-20)",
@@ -52,8 +70,8 @@ TourGuideAlphaDB = {
 				["Eversong Woods (1-13)"] = {
 					["Silvermoon City@13@"] = true,
 					["Training?@16@"] = true,
-					["Class Quests?@15@"] = true,
 					["Well Watcher Solanian@1@"] = true,
+					["Class Quests?@15@"] = true,
 					["Suntouched Special Reserve@14@"] = true,
 				},
 				["No Guide"] = {
@@ -62,16 +80,6 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Eversong Woods (1-13)",
 		},
 		["Duglazerp - TrueWoW"] = {
-			["showstatusframe"] = false,
-			["completion"] = {
-				["Durotar (1-12)"] = 1,
-				["Howling Fjord (70-72)"] = 0.1396103896103896,
-				["Borean Tundra (70-72)"] = 0.2414578587699317,
-				["No Guide"] = 0,
-				["Eversong Woods (1-13)"] = 0.1988950276243094,
-				["Mulgore (1-12)"] = 0,
-			},
-			["alwaysmapnotecoords"] = true,
 			["turnins"] = {
 				["Durotar (1-12)"] = {
 					["Razor Hill@5@"] = true,
@@ -97,7 +105,17 @@ TourGuideAlphaDB = {
 				["Desolace (32-34)"] = {
 				},
 			},
+			["showstatusframe"] = false,
+			["completion"] = {
+				["Durotar (1-12)"] = 1,
+				["Howling Fjord (70-72)"] = 0.1396103896103896,
+				["Borean Tundra (70-72)"] = 0.2414578587699317,
+				["No Guide"] = 0,
+				["Eversong Woods (1-13)"] = 0.1988950276243094,
+				["Mulgore (1-12)"] = 0,
+			},
 			["currentguide"] = "The Barrens (12-20)",
+			["alwaysmapnotecoords"] = true,
 		},
 		["Magistratus - TrueWoW"] = {
 			["showstatusframe"] = false,

@@ -48,9 +48,6 @@ gOutfitter_Settings = {
 			},
 		}, -- [3]
 		{
-			["Name"] = "Riding",
-		}, -- [4]
-		{
 			["Items"] = {
 				["MainHandSlot"] = {
 					["JewelCode4"] = 0,
@@ -85,7 +82,7 @@ gOutfitter_Settings = {
 					["Quality"] = 4,
 				},
 			},
-		}, -- [5]
+		}, -- [4]
 	},
 	["RecentCompleteOutfits"] = {
 		"Prot - Block", -- [1]
@@ -326,9 +323,9 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["Name"] = "Birthday Suit",
 				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
-				["Name"] = "Birthday Suit",
 			}, -- [1]
 			{
 				["Items"] = {
@@ -963,9 +960,9 @@ gOutfitter_Settings = {
 						["Quality"] = 4,
 					},
 				},
+				["Name"] = "Normal",
 				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
-				["Name"] = "Normal",
 			}, -- [3]
 			{
 				["Items"] = {
@@ -999,10 +996,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "BackSlot",
 						["SubType"] = "Cloth",
-						["Name"] = "Cloak of Tormented Skies",
-						["SlotName"] = "BackSlot",
 						["MinLevel"] = 75,
+						["SlotName"] = "BackSlot",
 						["Count"] = 1,
+						["Name"] = "Cloak of Tormented Skies",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 15,
@@ -1026,10 +1023,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "Trinket0Slot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Valor Medal of the First War",
-						["SlotName"] = "Trinket0Slot",
 						["MinLevel"] = 80,
+						["SlotName"] = "Trinket0Slot",
 						["Count"] = 1,
+						["Name"] = "Valor Medal of the First War",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 13,
@@ -1063,10 +1060,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "FeetSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Terrace Defence Boots",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Terrace Defence Boots",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 2,
@@ -1089,10 +1086,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "LegsSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Staggering Legplates",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Staggering Legplates",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 4,
@@ -1132,10 +1129,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "ChestSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Heroes' Dreadnaught Breastplate",
-						["SlotName"] = "ChestSlot",
 						["MinLevel"] = 80,
+						["SlotName"] = "ChestSlot",
 						["Count"] = 1,
+						["Name"] = "Heroes' Dreadnaught Breastplate",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 5,
@@ -1174,10 +1171,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "ShoulderSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Pauldrons of the Souleater",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Pauldrons of the Souleater",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 18,
@@ -1218,10 +1215,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "NeckSlot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Chained Military Gorget",
-						["SlotName"] = "NeckSlot",
 						["MinLevel"] = 80,
+						["SlotName"] = "NeckSlot",
 						["Count"] = 1,
+						["Name"] = "Chained Military Gorget",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 2,
@@ -1244,10 +1241,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "WaistSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Verdungo's Barbarian Cord",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Verdungo's Barbarian Cord",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 16,
@@ -1257,21 +1254,21 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["Quality"] = 4,
 					},
-					["ShirtSlot"] = {
+					["SecondaryHandSlot"] = {
 						["JewelCode4"] = 0,
-						["InvType"] = "INVTYPE_BODY",
-						["Code"] = 6125,
+						["InvType"] = "INVTYPE_SHIELD",
+						["Code"] = 42508,
 						["SubCode"] = 0,
 						["JewelCode2"] = 0,
-						["Link"] = "|cffffffff|Hitem:6125:0:0:0:0:0:0:0:80|h[Brawler's Harness]|h|r",
+						["Link"] = "|cffa335ee|Hitem:42508:0:0:0:0:0:0:0:80|h[Titansteel Shield Wall]|h|r",
 						["JewelCode1"] = 0,
 						["JewelCode3"] = 0,
-						["Name"] = "Brawler's Harness",
+						["Name"] = "Titansteel Shield Wall",
 						["EnchantCode"] = 0,
-						["SubType"] = "Miscellaneous",
-						["Level"] = 1,
+						["SubType"] = "Shields",
+						["Level"] = 200,
 						["UniqueID"] = 0,
-						["Quality"] = 1,
+						["Quality"] = 4,
 					},
 					["HeadSlot"] = {
 						["JewelCode4"] = 0,
@@ -1287,10 +1284,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "HeadSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Planetary Helm",
-						["SlotName"] = "HeadSlot",
 						["MinLevel"] = 80,
+						["SlotName"] = "HeadSlot",
 						["Count"] = 1,
+						["Name"] = "Planetary Helm",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 1,
@@ -1329,10 +1326,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "HandsSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Heroes' Dreadnaught Gauntlets",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Heroes' Dreadnaught Gauntlets",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 14,
@@ -1356,10 +1353,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "RangedSlot",
 						["SubType"] = "Guns",
-						["Name"] = "Rowan's Rifle of Silver Bullets",
-						["SlotName"] = "RangedSlot",
 						["MinLevel"] = 80,
+						["SlotName"] = "RangedSlot",
 						["Count"] = 1,
+						["Name"] = "Rowan's Rifle of Silver Bullets",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 18,
@@ -1369,21 +1366,21 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["Quality"] = 4,
 					},
-					["SecondaryHandSlot"] = {
+					["ShirtSlot"] = {
 						["JewelCode4"] = 0,
-						["InvType"] = "INVTYPE_SHIELD",
-						["Code"] = 42508,
+						["InvType"] = "INVTYPE_BODY",
+						["Code"] = 6125,
 						["SubCode"] = 0,
 						["JewelCode2"] = 0,
-						["Link"] = "|cffa335ee|Hitem:42508:0:0:0:0:0:0:0:80|h[Titansteel Shield Wall]|h|r",
+						["Link"] = "|cffffffff|Hitem:6125:0:0:0:0:0:0:0:80|h[Brawler's Harness]|h|r",
 						["JewelCode1"] = 0,
 						["JewelCode3"] = 0,
-						["Name"] = "Titansteel Shield Wall",
+						["Name"] = "Brawler's Harness",
 						["EnchantCode"] = 0,
-						["SubType"] = "Shields",
-						["Level"] = 200,
+						["SubType"] = "Miscellaneous",
+						["Level"] = 1,
 						["UniqueID"] = 0,
-						["Quality"] = 4,
+						["Quality"] = 1,
 					},
 					["AmmoSlot"] = {
 						["JewelCode4"] = 0,
@@ -1397,7 +1394,11 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Complete",
 				["Name"] = "Prot - Block",
+				["OutfitBar"] = {
+				},
 				["StatConfig"] = {
 					{
 						["StatID"] = "BLOCK_RATING",
@@ -1409,10 +1410,6 @@ gOutfitter_Settings = {
 						["StatID"] = "TP_MELEE",
 					}, -- [3]
 				},
-				["ScriptLockupCount"] = 0,
-				["OutfitBar"] = {
-				},
-				["CategoryID"] = "Complete",
 				["didUnequip"] = false,
 			}, -- [4]
 			{
@@ -1437,10 +1434,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "Finger0Slot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Harbinger's Bone Band",
-						["SlotName"] = "Finger0Slot",
 						["MinLevel"] = 80,
+						["SlotName"] = "Finger0Slot",
 						["Count"] = 1,
+						["Name"] = "Harbinger's Bone Band",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 11,
@@ -1464,10 +1461,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "BackSlot",
 						["SubType"] = "Cloth",
-						["Name"] = "Cloak of Tormented Skies",
-						["SlotName"] = "BackSlot",
 						["MinLevel"] = 75,
+						["SlotName"] = "BackSlot",
 						["Count"] = 1,
+						["Name"] = "Cloak of Tormented Skies",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 15,
@@ -1490,10 +1487,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "Trinket0Slot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Valor Medal of the First War",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Valor Medal of the First War",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 12,
@@ -1543,10 +1540,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "NeckSlot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Chained Military Gorget",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Chained Military Gorget",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 19,
@@ -1569,10 +1566,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "Finger0Slot",
 						["SubType"] = "Miscellaneous",
-						["Name"] = "Keystone Great-Ring",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Keystone Great-Ring",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 13,
@@ -1596,10 +1593,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "RangedSlot",
 						["SubType"] = "Guns",
-						["Name"] = "Rowan's Rifle of Silver Bullets",
-						["SlotName"] = "RangedSlot",
 						["MinLevel"] = 80,
+						["SlotName"] = "RangedSlot",
 						["Count"] = 1,
+						["Name"] = "Rowan's Rifle of Silver Bullets",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 18,
@@ -1638,10 +1635,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "ShoulderSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Wapach's Spaulders of Solidarity",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Wapach's Spaulders of Solidarity",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 18,
@@ -1681,10 +1678,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "LegsSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Tempered Saronite Legplates",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 74,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Tempered Saronite Legplates",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 4,
@@ -1693,32 +1690,6 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 						["SubCode"] = 0,
 						["Quality"] = 3,
-					},
-					["SecondaryHandSlot"] = {
-						["JewelCode4"] = 0,
-						["Code"] = 42508,
-						["UsedInOutfit"] = true,
-						["JewelCode2"] = 0,
-						["Level"] = 200,
-						["Texture"] = "Interface\\Icons\\INV_Shield_60",
-						["Type"] = "Armor",
-						["InvType"] = "INVTYPE_SHIELD",
-						["Link"] = "|cffa335ee|Hitem:42508:0:0:0:0:0:0:0:80|h[Titansteel Shield Wall]|h|r",
-						["JewelCode3"] = 0,
-						["ItemSlotName"] = "SecondaryHandSlot",
-						["SubType"] = "Shields",
-						["Name"] = "Titansteel Shield Wall",
-						["JewelCode1"] = 0,
-						["MinLevel"] = 80,
-						["Count"] = 1,
-						["EnchantCode"] = 0,
-						["Location"] = {
-							["BagSlotIndex"] = 11,
-							["BagIndex"] = 4,
-						},
-						["UniqueID"] = 0,
-						["SubCode"] = 0,
-						["Quality"] = 4,
 					},
 					["ShirtSlot"] = {
 						["JewelCode4"] = 0,
@@ -1736,6 +1707,32 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 						["Quality"] = 1,
 					},
+					["SecondaryHandSlot"] = {
+						["JewelCode4"] = 0,
+						["Code"] = 42508,
+						["UsedInOutfit"] = true,
+						["JewelCode2"] = 0,
+						["Level"] = 200,
+						["Texture"] = "Interface\\Icons\\INV_Shield_60",
+						["Type"] = "Armor",
+						["InvType"] = "INVTYPE_SHIELD",
+						["Link"] = "|cffa335ee|Hitem:42508:0:0:0:0:0:0:0:80|h[Titansteel Shield Wall]|h|r",
+						["JewelCode3"] = 0,
+						["ItemSlotName"] = "SecondaryHandSlot",
+						["SubType"] = "Shields",
+						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
+						["Count"] = 1,
+						["Name"] = "Titansteel Shield Wall",
+						["EnchantCode"] = 0,
+						["Location"] = {
+							["BagSlotIndex"] = 11,
+							["BagIndex"] = 4,
+						},
+						["UniqueID"] = 0,
+						["SubCode"] = 0,
+						["Quality"] = 4,
+					},
 					["WristSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 41116,
@@ -1750,10 +1747,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "WristSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Tempered Saronite Bracers",
-						["SlotName"] = "WristSlot",
 						["MinLevel"] = 77,
+						["SlotName"] = "WristSlot",
 						["Count"] = 1,
+						["Name"] = "Tempered Saronite Bracers",
 						["UniqueID"] = 0,
 						["Location"] = {
 							["SlotID"] = 9,
@@ -1792,10 +1789,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "ChestSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Heroes' Dreadnaught Breastplate",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Heroes' Dreadnaught Breastplate",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 17,
@@ -1818,10 +1815,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "HeadSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Planetary Helm",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Planetary Helm",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 10,
@@ -1844,10 +1841,10 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 						["ItemSlotName"] = "HandsSlot",
 						["SubType"] = "Plate",
-						["Name"] = "Heroes' Dreadnaught Handguards",
-						["JewelCode1"] = 0,
 						["MinLevel"] = 80,
+						["JewelCode1"] = 0,
 						["Count"] = 1,
+						["Name"] = "Heroes' Dreadnaught Handguards",
 						["EnchantCode"] = 0,
 						["Location"] = {
 							["BagSlotIndex"] = 14,
@@ -1892,8 +1889,8 @@ gOutfitter_Settings = {
 			}, -- [1]
 			{
 				["ScriptID"] = "Riding",
-				["didEquip"] = true,
-				["didUnequip"] = false,
+				["didEquip"] = false,
+				["didUnequip"] = true,
 				["Items"] = {
 				},
 				["CategoryID"] = "Accessory",
@@ -1913,11 +1910,7 @@ gOutfitter_Settings = {
 				},
 			}, -- [2]
 			{
-				["ScriptSettings"] = {
-					["DisableInstance"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptLockupCount"] = 0,
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -1925,7 +1918,11 @@ gOutfitter_Settings = {
 				["Name"] = "Swimming",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Swimming",
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["DisableInstance"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 			}, -- [3]
 			{
 				["Items"] = {
@@ -1941,7 +1938,11 @@ gOutfitter_Settings = {
 				},
 			}, -- [4]
 			{
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["UnequipComplete"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -1949,14 +1950,14 @@ gOutfitter_Settings = {
 				["Name"] = "Warrior: Berserker Stance",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Berserker",
+				["ScriptLockupCount"] = 0,
+			}, -- [5]
+			{
 				["ScriptSettings"] = {
 					["UnequipComplete"] = false,
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
-			}, -- [5]
-			{
-				["ScriptID"] = "Defensive",
 				["didEquip"] = true,
 				["didUnequip"] = false,
 				["Items"] = {
@@ -1964,11 +1965,7 @@ gOutfitter_Settings = {
 				["CategoryID"] = "Accessory",
 				["Name"] = "Warrior: Defensive Stance",
 				["ScriptLockupCount"] = 0,
-				["ScriptSettings"] = {
-					["UnequipComplete"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptID"] = "Defensive",
 			}, -- [6]
 		},
 	},

@@ -431,5 +431,5 @@ BugGrabberDB = {
 		}, -- [50]
 	},
 	["save"] = true,
-	["session"] = 115,
+	["session"] = 121,
 }

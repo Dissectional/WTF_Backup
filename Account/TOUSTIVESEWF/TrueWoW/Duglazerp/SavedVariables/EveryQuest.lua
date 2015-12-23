@@ -18,7 +18,7 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
-			["zoneid"] = 17,
+			["zoneid"] = 4395,
 			["history"] = {
 				[14] = {
 					[823] = {
@@ -132,7 +132,8 @@ EQ2DBPC = {
 						["status"] = 2,
 					},
 					[842] = {
-						["status"] = 1,
+						["status"] = 2,
+						["completed"] = 1450865167,
 					},
 					[6394] = {
 						["status"] = 2,
@@ -237,11 +238,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8350] = {
+					[8335] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8335] = {
+					[8350] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -543,29 +544,28 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1450775266,
 					},
-					[11709] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
-					[11587] = {
-						["status"] = 2,
-						["completed"] = 1450775044,
-					},
-					[11711] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
-					[11585] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
-					[11586] = {
+					[12471] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
 					[11714] = {
 						["status"] = 2,
 						["imported"] = 3,
+					},
+					[11711] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[12728] = {
+						["status"] = 0,
+					},
+					[11586] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[11587] = {
+						["status"] = 2,
+						["completed"] = 1450775044,
 					},
 					[11871] = {
 						["status"] = 2,
@@ -575,9 +575,9 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[11717] = {
+					[11590] = {
 						["status"] = 2,
-						["imported"] = 3,
+						["completed"] = 1450775306,
 					},
 					[11611] = {
 						["status"] = 2,
@@ -615,18 +615,19 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[11590] = {
+					[11717] = {
 						["status"] = 2,
-						["completed"] = 1450775306,
+						["imported"] = 3,
 					},
-					[12728] = {
-						["status"] = 0,
+					[11585] = {
+						["status"] = 2,
+						["imported"] = 3,
 					},
 					[11602] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[12471] = {
+					[11709] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -735,8 +736,8 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1450778217,
 					},
-					[11900] = {
-						["status"] = 1,
+					[11914] = {
+						["status"] = 0,
 					},
 					[11941] = {
 						["status"] = 2,
@@ -746,8 +747,8 @@ EQ2DBPC = {
 						["completed"] = 1450778211,
 						["status"] = 2,
 					},
-					[11914] = {
-						["status"] = 0,
+					[11900] = {
+						["status"] = 1,
 					},
 					[11918] = {
 						["status"] = 1,
@@ -819,7 +820,7 @@ EQ2DBPC = {
 					},
 				},
 			},
-			["zonegroup"] = "Kalimdor",
+			["zonegroup"] = "Northrend",
 		},
 	},
 }
