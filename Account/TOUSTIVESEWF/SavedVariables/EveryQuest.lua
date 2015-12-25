@@ -12,15 +12,15 @@ EQ2DB = {
 	["profiles"] = {
 		["global"] = {
 			["track"] = true,
-			["querytime"] = 1450617862,
+			["querytime"] = 1451036723,
 			["unknowns"] = {
-				[13245] = "159||12/23/15||Proof of Demise: Ingvar the Plunderer||Utgarde Keep",
-				[24788] = "159||12/21/15||query",
-				[24789] = "159||12/21/15||query",
-				[24790] = "159||12/21/15||query",
-				[24791] = "159||12/21/15||query",
-				[13247] = "159||12/22/15||Proof of Demise: Ley-Guardian Eregos||The Oculus",
+				[13245] = "159||12/25/15||query",
+				[24788] = "159||12/25/15||query",
+				[24789] = "159||12/25/15||query",
 				[14199] = "159||12/21/15||Proof of Demise: The Black Knight||Trial of the Champion",
+				[24791] = "159||12/25/15||query",
+				[13247] = "159||12/25/15||query",
+				[24790] = "159||12/25/15||query",
 			},
 		},
 	},

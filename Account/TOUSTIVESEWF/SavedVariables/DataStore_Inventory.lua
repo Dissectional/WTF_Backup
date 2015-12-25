@@ -79,16 +79,16 @@ DataStore_InventoryDB = {
 				["Inventory"] = {
 					37849, -- [1]
 					40679, -- [2]
-					44312, -- [3]
+					50208, -- [3]
 					6125, -- [4]
 					39611, -- [5]
 					49853, -- [6]
-					40674, -- [7]
-					37618, -- [8]
-					41116, -- [9]
-					39622, -- [10]
-					50447, -- [11]
-					37784, -- [12]
+					37193, -- [7]
+					37712, -- [8]
+					37217, -- [9]
+					39609, -- [10]
+					50453, -- [11]
+					50447, -- [12]
 					40683, -- [13]
 					38359, -- [14]
 					41238, -- [15]
@@ -96,8 +96,8 @@ DataStore_InventoryDB = {
 					42508, -- [17]
 					50444, -- [18]
 				},
-				["averageItemLvl"] = 201.2352941176471,
-				["lastUpdate"] = 1450865297,
+				["averageItemLvl"] = 210.5294117647059,
+				["lastUpdate"] = 1451039111,
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["Inventory"] = {
@@ -143,23 +143,35 @@ DataStore_InventoryDB = {
 					["Shiftace"] = {
 						["averageItemLvl"] = 14,
 					},
-					["Ellipsis"] = {
-						["averageItemLvl"] = 16,
-					},
-					["Maggy"] = {
-						["averageItemLvl"] = 243,
+					["Raigami"] = {
+						["averageItemLvl"] = 20,
 					},
 					["Magistratus"] = {
 						["averageItemLvl"] = 7,
 					},
+					["Duglazerp"] = {
+						["averageItemLvl"] = 210,
+					},
+					["Ellipsis"] = {
+						["averageItemLvl"] = 16,
+					},
 					["Cryogenics"] = {
 						["averageItemLvl"] = 8,
 					},
-					["Duglazerp"] = {
-						["averageItemLvl"] = 201,
+					["Maggy"] = {
+						["averageItemLvl"] = 243,
 					},
 					["Pastafarian"] = {
 						["averageItemLvl"] = 8,
+					},
+					["Todgami"] = {
+						["averageItemLvl"] = 51,
+					},
+					["Mahoukage"] = {
+						["averageItemLvl"] = 5,
+					},
+					["Kirabeast"] = {
+						["averageItemLvl"] = 28,
 					},
 				},
 			},

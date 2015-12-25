@@ -10,7 +10,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "M45OSLF52HQY23KWHMOS",
+			["Lola"] = "C49SZLJ25DPZ25UWACOZ",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
@@ -22,7 +22,8 @@ AltoholicDB = {
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["SavedInstance"] = {
-					["Utgarde Keep 5 Player (Heroic)|12"] = "71503|1450865298|1|1",
+					["Halls of Stone 5 Player (Heroic)|1046"] = "70464|1451039137|1|1",
+					["Azjol-Nerub 5 Player (Heroic)|1063"] = "70464|1451039137|1|1",
 				},
 			},
 		},

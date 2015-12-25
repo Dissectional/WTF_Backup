@@ -22,13 +22,13 @@ DataStore_CurrenciesDB = {
 			["Default.TrueWoW.Duglazerp"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Emblem of Frost|10|49426", -- [2]
+					"1|Emblem of Frost|12|49426", -- [2]
 					"1|Emblem of Heroism|35|40752", -- [3]
-					"1|Emblem of Triumph|70|47241", -- [4]
+					"1|Emblem of Triumph|87|47241", -- [4]
 					"0|Player vs. Player", -- [5]
-					"1|Stone Keeper's Shard|77|43228", -- [6]
+					"1|Stone Keeper's Shard|97|43228", -- [6]
 				},
-				["lastUpdate"] = 1450865297,
+				["lastUpdate"] = 1451039137,
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["lastUpdate"] = 1450613997,

@@ -11,15 +11,11 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450863904,
-				["Bids"] = {
-					"0|41599|1|Brugoea|113980|0|3", -- [1]
-					"0|41599|1|Brugoea|108553|0|3", -- [2]
-					"0|41599|1|Brugoea|113980|0|3", -- [3]
-					"0|41599|1|Brugoea|103384|0|3", -- [4]
-					"0|3864|1|Cptpicard|100|11300|4", -- [5]
+				["lastUpdate"] = 1451028411,
+				["Auctions"] = {
+					"0|6377|1||1041250|1097500|3", -- [1]
 				},
-				["lastVisitDate"] = "2015/12/23 22:45",
+				["lastVisitDate"] = "2015/12/25 20:26",
 			},
 		},
 	},

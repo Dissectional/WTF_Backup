@@ -70,8 +70,8 @@ TourGuideAlphaDB = {
 				["Eversong Woods (1-13)"] = {
 					["Silvermoon City@13@"] = true,
 					["Training?@16@"] = true,
-					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
+					["Well Watcher Solanian@1@"] = true,
 					["Suntouched Special Reserve@14@"] = true,
 				},
 				["No Guide"] = {
@@ -80,6 +80,16 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Eversong Woods (1-13)",
 		},
 		["Duglazerp - TrueWoW"] = {
+			["currentguide"] = "Mulgore (1-12)",
+			["completion"] = {
+				["Durotar (1-12)"] = 1,
+				["Howling Fjord (70-72)"] = 0.1396103896103896,
+				["Borean Tundra (70-72)"] = 0.2414578587699317,
+				["No Guide"] = 0,
+				["Mulgore (1-12)"] = 0,
+				["Eversong Woods (1-13)"] = 0.1988950276243094,
+				["The Barrens (12-20)"] = 0.0352112676056338,
+			},
 			["turnins"] = {
 				["Durotar (1-12)"] = {
 					["Razor Hill@5@"] = true,
@@ -99,6 +109,10 @@ TourGuideAlphaDB = {
 				["No Guide"] = {
 				},
 				["Mulgore (1-12)"] = {
+					["Kill Swoops...@2@"] = true,
+					["Bloodhoof Village@1@"] = true,
+					["Cook your ass off!@3@"] = true,
+					["Drink up!@4@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
 				},
@@ -106,16 +120,6 @@ TourGuideAlphaDB = {
 				},
 			},
 			["showstatusframe"] = false,
-			["completion"] = {
-				["Durotar (1-12)"] = 1,
-				["Howling Fjord (70-72)"] = 0.1396103896103896,
-				["Borean Tundra (70-72)"] = 0.2414578587699317,
-				["No Guide"] = 0,
-				["Eversong Woods (1-13)"] = 0.1988950276243094,
-				["Mulgore (1-12)"] = 0,
-			},
-			["currentguide"] = "The Barrens (12-20)",
-			["alwaysmapnotecoords"] = true,
 		},
 		["Magistratus - TrueWoW"] = {
 			["showstatusframe"] = false,
@@ -131,9 +135,9 @@ TourGuideAlphaDB = {
 					["Falconwing Square@2@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
-					["Suntouched Special Reserve@14@"] = true,
 					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
+					["Suntouched Special Reserve@14@"] = true,
 					["Training?@16@"] = true,
 				},
 			},

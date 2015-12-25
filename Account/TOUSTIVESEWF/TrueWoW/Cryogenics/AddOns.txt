@@ -40,7 +40,7 @@ Auc-Stat-Purchased: enabled
 Auc-Stat-Simple: enabled
 Auc-Stat-StdDev: enabled
 Auc-Util-FixAH: enabled
-Auctionator: disabled
+Auctionator: enabled
 BadPet: disabled
 Bartender4: disabled
 BeanCounter: enabled

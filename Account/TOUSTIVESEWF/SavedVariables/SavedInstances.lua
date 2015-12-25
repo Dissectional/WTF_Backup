@@ -21,6 +21,7 @@ SavedInstancesDB = {
 		["Duglazerp - TrueWoW"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
+			["Daily2"] = 1451062800,
 		},
 		["Magistratus - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -28,10 +29,30 @@ SavedInstancesDB = {
 		},
 	},
 	["Lockouts"] = {
-		[12] = {
+		[1046] = {
 			["Encounters"] = {
 			},
-			["Name"] = "Utgarde Keep",
+			["Name"] = "Halls of Stone",
+			["Members"] = {
+				["Duglazerp"] = {
+					["Class"] = "WARRIOR",
+				},
+			},
+		},
+		[1063] = {
+			["Encounters"] = {
+			},
+			["Name"] = "Azjol-Nerub",
+			["Members"] = {
+				["Duglazerp"] = {
+					["Class"] = "WARRIOR",
+				},
+			},
+		},
+		[1057] = {
+			["Encounters"] = {
+			},
+			["Name"] = "Halls of Lightning",
 			["Members"] = {
 				["Duglazerp"] = {
 					["Class"] = "WARRIOR",
@@ -40,10 +61,10 @@ SavedInstancesDB = {
 		},
 	},
 	["Tooltip"] = {
-		["ReverseInstances"] = false,
-		["CategorySort"] = "EXPANSION",
-		["ShowSoloCategory"] = false,
 		["Details"] = false,
+		["CategorySort"] = "EXPANSION",
+		["RecentHistory"] = false,
+		["ReverseInstances"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -52,14 +73,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["RecentHistory"] = false,
+		["ShowSoloCategory"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Pinnacle"] = {
@@ -73,6 +94,30 @@ SavedInstancesDB = {
 		},
 		["Azjol-Nerub"] = {
 			["LFDID"] = 204,
+			["Expansion"] = 2,
+			["Show"] = false,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 1063,
+					["Expires"] = 1451109601,
+				},
+			},
+		},
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Utgarde Keep"] = {
+			["LFDID"] = 202,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -89,17 +134,23 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
 			["Expansion"] = 2,
+			["Show"] = false,
 			["Encounters"] = {
 			},
 			["Raid"] = false,
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 1057,
+					["Expires"] = 1451109601,
+				},
+			},
 			["LFDupdated"] = "12340",
-			["Show"] = false,
 		},
-		["Utgarde Keep"] = {
-			["LFDID"] = 202,
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
 			["Expansion"] = 2,
 			["Show"] = false,
 			["Encounters"] = {
@@ -108,8 +159,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Duglazerp - TrueWoW"] = {
 				[2] = {
-					["ID"] = 12,
-					["Expires"] = 1450936801,
+					["ID"] = 1046,
+					["Expires"] = 1451109601,
 				},
 			},
 		},
@@ -157,14 +208,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
-		["D2Text"] = "5+",
-		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["D1Text"] = "5",
+		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

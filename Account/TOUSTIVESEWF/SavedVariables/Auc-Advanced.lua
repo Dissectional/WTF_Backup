@@ -46,7 +46,7 @@ AucAdvancedData = {
 		},
 		["Current"] = {
 			["resale.adjust.deplength"] = 12,
-			["general.name"] = "frostweave",
+			["general.name"] = "bag",
 			["columnsortcurSort"] = 2,
 			["resale.profit.min"] = 100000,
 			["snatch.itemsList"] = {

@@ -20,7 +20,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1450616791,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450865297,
+				["lastUpdate"] = 1451039143,
 				["CRITTER"] = {
 					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
 				},

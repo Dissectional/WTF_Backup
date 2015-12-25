@@ -12,6 +12,35 @@ SkilletDB = {
 				["Cryogenics"] = {
 				},
 				["Duglazerp"] = {
+					["Cooking"] = {
+						nil, -- [1]
+						";ffffff|21072|Smoked Sagefish;o1;Cooking Fire;1;ffffff|21071|Raw Sagefish;", -- [2]
+						";ffffff|2687|Dry Pork Ribs;o1;Cooking Fire;1;ffffff|2677|Boar Ribs;", -- [3]
+						";ffffff|2683|Crab Cake;o1;Cooking Fire;1;ffffff|2674|Crawler Meat;", -- [4]
+						";ffffff|5525|Boiled Clams;m1;Cooking Fire;1;ffffff|5503|Clam Meat;1;ffffff|159|Refreshing Spring Water;", -- [5]
+						";ffffff|2684|Coyote Steak;m1;Cooking Fire;1;ffffff|2673|Coyote Meat;", -- [6]
+						";ffffff|4592|Longjaw Mud Snapper;m1;Cooking Fire;1;ffffff|6289|Raw Longjaw Mud Snapper;", -- [7]
+						";ffffff|17198|Egg Nog;m1;Cooking Fire;1;ffffff|6889|Small Egg;1;ffffff|1179|Ice Cold Milk;1;ffffff|17196|Holiday Spirits;1;ffffff|17194|Holiday Spices;", -- [8]
+						";ffffff|2680|Spiced Wolf Meat;t1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [9]
+						";ffffff|27635|Lynx Steak;t1;Cooking Fire;1;ffffff|27668|Lynx Meat;", -- [10]
+						";ffffff|17197|Gingerbread Cookie;t1;Cooking Fire;1;ffffff|6889|Small Egg;1;ffffff|17194|Holiday Spices;", -- [11]
+						";ffffff|6888|Herb Baked Egg;t1;Cooking Fire;1;ffffff|6889|Small Egg;", -- [12]
+						";ffffff|2681|Roasted Boar Meat;t1;Cooking Fire;1;ffffff|769|Chunk of Boar Meat;", -- [13]
+						";ffffff|6290|Brilliant Smallfish;t1;Cooking Fire;1;ffffff|6291|Raw Brilliant Smallfish;", -- [14]
+						";ffffff|2679|Charred Wolf Meat;t1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [15]
+						";ffffff|30816|Spice Bread;t1;Cooking Fire;1;ffffff|30817|Simple Flour;1;ffffff|2678|Mild Spices;", -- [16]
+					},
+					["Mining"] = {
+						nil, -- [1]
+						"Smelt Bronze;ffffff|2841|Bronze Bar;e2;Forge;1;ffffff|2840|Copper Bar;1;ffffff|3576|Tin Bar;", -- [2]
+						"Smelt Tin;ffffff|3576|Tin Bar;t1;Forge;1;ffffff|2771|Tin Ore;", -- [3]
+						"Smelt Copper;ffffff|2840|Copper Bar;t1;Forge;1;ffffff|2770|Copper Ore;", -- [4]
+					},
+					["First Aid"] = {
+						nil, -- [1]
+						";ffffff|2581|Heavy Linen Bandage;m1;;2;ffffff|2589|Linen Cloth;", -- [2]
+						";ffffff|1251|Linen Bandage;e1;;1;ffffff|2589|Linen Cloth;", -- [3]
+					},
 					["Jewelcrafting"] = {
 						nil, -- [1]
 						";ffffff|25498|Rough Stone Statue;m1;;8;ffffff|2835|Rough Stone;", -- [2]
@@ -25,16 +54,6 @@ SkilletDB = {
 						";1eff00|21931|Woven Copper Ring;m1;;2;ffffff|20816|Delicate Copper Wire;1;ffffff|2840|Copper Bar;", -- [10]
 						nil, -- [11]
 						";ffffff|20816|Delicate Copper Wire;e1;;2;ffffff|2840|Copper Bar;", -- [12]
-					},
-					["Mining"] = {
-						nil, -- [1]
-						"Smelt Bronze;ffffff|2841|Bronze Bar;m2;Forge;1;ffffff|2840|Copper Bar;1;ffffff|3576|Tin Bar;", -- [2]
-						"Smelt Tin;ffffff|3576|Tin Bar;t1;Forge;1;ffffff|2771|Tin Ore;", -- [3]
-						"Smelt Copper;ffffff|2840|Copper Bar;t1;Forge;1;ffffff|2770|Copper Ore;", -- [4]
-					},
-					["First Aid"] = {
-						nil, -- [1]
-						";ffffff|1251|Linen Bandage;o1;;1;ffffff|2589|Linen Cloth;", -- [2]
 					},
 				},
 				["Ellipsis"] = {
@@ -59,15 +78,14 @@ SkilletDB = {
 						";ffffff|2568|Brown Linen Vest;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [18]
 						";ffffff|10045|Simple Linen Pants;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [19]
 						";ffffff|2570|Linen Cloak;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [20]
-						nil, -- [21]
-						";ffffff|2579|Green Linen Shirt;o1;;3;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2321|Fine Thread;1;ffffff|2605|Green Dye;", -- [22]
-						";ffffff|2577|Blue Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;", -- [23]
-						";ffffff|2575|Red Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2604|Red Dye;", -- [24]
-						";ffffff|6786|Simple Dress;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;1;ffffff|2324|Bleach;", -- [25]
-						";ffffff|4344|Brown Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [26]
-						";ffffff|2576|White Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2324|Bleach;", -- [27]
-						[29] = ";ffffff|2997|Bolt of Woolen Cloth;m1;;3;ffffff|2592|Wool Cloth;",
+						[26] = ";ffffff|4344|Brown Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;",
+						[23] = ";ffffff|2577|Blue Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;",
+						[27] = ";ffffff|2576|White Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2324|Bleach;",
+						[24] = ";ffffff|2575|Red Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2604|Red Dye;",
 						[30] = ";ffffff|2996|Bolt of Linen Cloth;t1;;2;ffffff|2589|Linen Cloth;",
+						[25] = ";ffffff|6786|Simple Dress;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;1;ffffff|2324|Bleach;",
+						[22] = ";ffffff|2579|Green Linen Shirt;o1;;3;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2321|Fine Thread;1;ffffff|2605|Green Dye;",
+						[29] = ";ffffff|2997|Bolt of Woolen Cloth;m1;;3;ffffff|2592|Wool Cloth;",
 					},
 					["Enchanting"] = {
 						nil, -- [1]
@@ -98,6 +116,8 @@ SkilletDB = {
 					["Mining"] = {
 					},
 					["First Aid"] = {
+					},
+					["Cooking"] = {
 					},
 				},
 				["Ellipsis"] = {

@@ -65,10 +65,10 @@ DBMPartyWotLK_SavedVars = {
 	},
 	["PortalTimers"] = {
 		["Enabled"] = true,
-		["Announce"] = false,
+		["WarningPortalNow"] = true,
 		["ShowAllPortalTimers"] = false,
 		["TimerPortalIn"] = true,
-		["WarningPortalNow"] = true,
+		["Announce"] = false,
 		["WarningBossNow"] = true,
 		["WarningPortalSoon"] = true,
 	},
@@ -127,18 +127,18 @@ DBMPartyWotLK_SavedVars = {
 	["Ick"] = {
 		["Explosive Barrage - run away"] = true,
 		["specWarnPursuit"] = true,
-		["warnPursuit"] = true,
 		["Announce"] = false,
+		["warnPursuit"] = true,
 		["HealthFrame"] = false,
 		["Casting Pursuit: 5.0 sec"] = true,
 		["Enabled"] = true,
-		["Timer68987Ick0"] = true,
-		["Casting Poison Nova: 5.0 sec"] = true,
-		["Timer68989Ick2"] = true,
+		["Play sound on $spell:68989"] = true,
 		["Toxic Waste - move away"] = true,
+		["Timer68989Ick2"] = true,
+		["Casting Poison Nova: 5.0 sec"] = true,
 		["Timer69029Ick1"] = true,
 		["Poison Nova - run away"] = true,
-		["Play sound on $spell:68989"] = true,
+		["Timer68987Ick0"] = true,
 		["SetIconOnPursuitTarget"] = true,
 		["Play sound on $spell:68987"] = true,
 	},
@@ -146,8 +146,8 @@ DBMPartyWotLK_SavedVars = {
 		["Enabled"] = true,
 		["HealthFrame"] = false,
 		["Amplify Magic on >%s<"] = true,
-		["Announce"] = false,
 		["Timer51054VarosCloudstrider0"] = true,
+		["Announce"] = false,
 	},
 	["SalrammTheFleshcrafter"] = {
 		["Enabled"] = true,
@@ -162,12 +162,12 @@ DBMPartyWotLK_SavedVars = {
 	["MageLordUrom"] = {
 		["Enabled"] = true,
 		["Time Bomb on >%s<"] = true,
-		["Announce"] = false,
+		["Casting Empowered Arcane Explosion: 8.0 sec"] = true,
 		["Timer51121MageLordUrom0"] = true,
 		["HealthFrame"] = false,
-		["Timer51110MageLordUrom1"] = true,
-		["Casting Empowered Arcane Explosion: 8.0 sec"] = true,
 		["Time Bomb on you"] = true,
+		["Announce"] = false,
+		["Timer51110MageLordUrom1"] = true,
 	},
 	["Volkhan"] = {
 		["Enabled"] = true,
@@ -382,8 +382,8 @@ DBMPartyWotLK_SavedVars = {
 	["Eck"] = {
 		["Enabled"] = true,
 		["HealthFrame"] = false,
-		["Announce"] = false,
 		["timer_berserk"] = true,
+		["Announce"] = false,
 	},
 	["Ymiron"] = {
 		["Enabled"] = true,
@@ -491,8 +491,8 @@ DBMPartyWotLK_SavedVars = {
 	["DrakosTheInterrogator"] = {
 		["Enabled"] = true,
 		["HealthFrame"] = false,
-		["Announce"] = false,
 		["MakeitCountTimer"] = true,
+		["Announce"] = false,
 	},
 	["Keleseth"] = {
 		["Enabled"] = true,
@@ -511,8 +511,8 @@ DBMPartyWotLK_SavedVars = {
 	["Erekem"] = {
 		["Enabled"] = true,
 		["HealthFrame"] = false,
-		["Announce"] = false,
 		["Earth Shield"] = true,
+		["Announce"] = false,
 	},
 	["StratWaves"] = {
 		["Enabled"] = true,
@@ -610,7 +610,7 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicPulls"] = 1,
 	},
 	["Nadox"] = {
 		["kills"] = 0,
@@ -719,10 +719,12 @@ DBMPartyWotLK_SavedStats = {
 		["heroicPulls"] = 1,
 	},
 	["Volkhan"] = {
-		["pulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicKills"] = 2,
+		["pulls"] = 0,
+		["heroicBestTime"] = 32.27999999999884,
+		["heroicLastTime"] = 32.27999999999884,
+		["heroicPulls"] = 2,
 	},
 	["Anomalus"] = {
 		["pulls"] = 0,
@@ -731,10 +733,12 @@ DBMPartyWotLK_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["Kronus"] = {
-		["pulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicKills"] = 1,
+		["pulls"] = 0,
+		["heroicBestTime"] = 42.4090000000142,
+		["heroicLastTime"] = 42.4090000000142,
+		["heroicPulls"] = 1,
 	},
 	["ChronoLordEpoch"] = {
 		["pulls"] = 0,
@@ -752,7 +756,7 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicPulls"] = 1,
 	},
 	["Ionar"] = {
 		["pulls"] = 0,
@@ -820,11 +824,11 @@ DBMPartyWotLK_SavedStats = {
 	},
 	["Anubarak"] = {
 		["kills"] = 0,
-		["heroicKills"] = 1,
+		["heroicKills"] = 2,
 		["pulls"] = 0,
 		["heroicBestTime"] = 155.2419999999984,
-		["heroicLastTime"] = 155.2419999999984,
-		["heroicPulls"] = 1,
+		["heroicLastTime"] = 168.9530000000086,
+		["heroicPulls"] = 2,
 	},
 	["SvalaSorrowgrave"] = {
 		["pulls"] = 0,
@@ -859,9 +863,9 @@ DBMPartyWotLK_SavedStats = {
 	["ConstructorAndController"] = {
 		["kills"] = 0,
 		["heroicKills"] = 1,
-		["heroicLastTime"] = 38.67500000001746,
-		["heroicBestTime"] = 38.67500000001746,
 		["pulls"] = 0,
+		["heroicBestTime"] = 38.67500000001746,
+		["heroicLastTime"] = 38.67500000001746,
 		["heroicPulls"] = 1,
 	},
 	["Bronjahm"] = {
@@ -917,10 +921,12 @@ DBMPartyWotLK_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["Gjarngrin"] = {
-		["pulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicKills"] = 1,
+		["pulls"] = 0,
+		["heroicBestTime"] = 94.60599999999977,
+		["heroicLastTime"] = 94.60599999999977,
+		["heroicPulls"] = 1,
 	},
 	["KingDred"] = {
 		["pulls"] = 0,
@@ -929,10 +935,12 @@ DBMPartyWotLK_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["MaidenOfGrief"] = {
-		["pulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 37.6359999999986,
+		["heroicBestTime"] = 37.6359999999986,
+		["pulls"] = 0,
+		["heroicPulls"] = 1,
 	},
 	["GrandMagusTelestra"] = {
 		["pulls"] = 0,
@@ -965,16 +973,18 @@ DBMPartyWotLK_SavedStats = {
 	["Keleseth"] = {
 		["kills"] = 0,
 		["heroicKills"] = 1,
-		["heroicLastTime"] = 37.44099999999162,
-		["heroicBestTime"] = 37.44099999999162,
 		["pulls"] = 0,
+		["heroicBestTime"] = 37.44099999999162,
+		["heroicLastTime"] = 37.44099999999162,
 		["heroicPulls"] = 1,
 	},
 	["Krystallus"] = {
-		["pulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
-		["heroicPulls"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 31.37900000001537,
+		["heroicBestTime"] = 31.37900000001537,
+		["pulls"] = 0,
+		["heroicPulls"] = 1,
 	},
 	["Erekem"] = {
 		["pulls"] = 0,
@@ -991,9 +1001,9 @@ DBMPartyWotLK_SavedStats = {
 	["IngvarThePlunderer"] = {
 		["kills"] = 0,
 		["heroicKills"] = 1,
-		["heroicLastTime"] = 62.63399999999092,
-		["heroicBestTime"] = 62.63399999999092,
 		["pulls"] = 0,
+		["heroicBestTime"] = 62.63399999999092,
+		["heroicLastTime"] = 62.63399999999092,
 		["heroicPulls"] = 1,
 	},
 	["MalGanis"] = {

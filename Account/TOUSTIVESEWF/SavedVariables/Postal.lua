@@ -36,7 +36,8 @@ Postal3DB = {
 		["Duglazerp - TrueWoW"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Ellipsis", -- [1]
+					"Magistratus", -- [1]
+					"Ellipsis", -- [2]
 				},
 			},
 		},

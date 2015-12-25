@@ -10,6 +10,176 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1450612978,
+				["Mails"] = {
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 10,
+						["link"] = "|cffffffff|Hitem:785:0:0:0:0:0:0:0:18|h[Mageroyal]|h|r",
+						["lastCheck"] = 1450612978,
+						["icon"] = "Interface\\Icons\\INV_Jewelry_Talisman_03",
+						["daysLeft"] = 29.82586860656738,
+					}, -- [1]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2449:0:0:0:0:0:0:0:18|h[Earthroot]|h|r",
+						["lastCheck"] = 1450612978,
+						["icon"] = "Interface\\Icons\\INV_Misc_Herb_07",
+						["daysLeft"] = 29.82586860656738,
+					}, -- [2]
+				},
+				["lastVisitDate"] = "2015/12/21 01:02",
+			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1451025904,
+				["Mails"] = {
+					{
+						["sender"] = "Ellipsis",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:2406:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Boots]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["lastCheck"] = 1451025904,
+						["daysLeft"] = 25.12325286865234,
+					}, -- [1]
+					{
+						["sender"] = "Ellipsis",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:2408:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Gloves]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["lastCheck"] = 1451025904,
+						["daysLeft"] = 25.12325286865234,
+					}, -- [2]
+				},
+				["lastVisitDate"] = "2015/12/25 19:45",
+			},
+			["Default.TrueWoW.Magistratus"] = {
+				["lastUpdate"] = 1451025882,
+				["Mails"] = {
+					{
+						["sender"] = "Pastafarian",
+						["count"] = 14,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
+						["lastCheck"] = 1450617029,
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["daysLeft"] = 19.91975784301758,
+					}, -- [1]
+					{
+						["sender"] = "Pastafarian",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
+						["lastCheck"] = 1450617029,
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["daysLeft"] = 19.91975784301758,
+					}, -- [2]
+					{
+						["sender"] = "Ellipsis",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:2882:0:0:0:0:0:0:0:13|h[Plans: Silvered Bronze Shoulders]|h|r",
+						["lastCheck"] = 1450617029,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 22.89023208618164,
+					}, -- [3]
+					{
+						["sender"] = "Ellipsis",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
+						["lastCheck"] = 1450617029,
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["daysLeft"] = 24.86479187011719,
+					}, -- [4]
+					{
+						["sender"] = "Ellipsis",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:2835:0:0:0:0:0:0:0:13|h[Rough Stone]|h|r",
+						["lastCheck"] = 1450617029,
+						["icon"] = "Interface\\Icons\\INV_Stone_06",
+						["daysLeft"] = 24.86479187011719,
+					}, -- [5]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [11]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [12]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [13]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [14]
+					{
+						["sender"] = "Duglazerp",
+						["count"] = 20,
+						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:80|h[Copper Ore]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
+						["lastCheck"] = 1451025882,
+						["daysLeft"] = 30,
+					}, -- [15]
+				},
+				["lastVisitDate"] = "2015/12/21 02:07",
+			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["lastUpdate"] = 1450865935,
 				["Mails"] = {
@@ -575,114 +745,6 @@ DataStore_MailsDB = {
 					}, -- [70]
 				},
 				["lastVisitDate"] = "2015/12/23 23:18",
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1450612978,
-				["Mails"] = {
-					{
-						["sender"] = "Duglazerp",
-						["count"] = 10,
-						["link"] = "|cffffffff|Hitem:785:0:0:0:0:0:0:0:18|h[Mageroyal]|h|r",
-						["lastCheck"] = 1450612978,
-						["icon"] = "Interface\\Icons\\INV_Jewelry_Talisman_03",
-						["daysLeft"] = 29.82586860656738,
-					}, -- [1]
-					{
-						["sender"] = "Duglazerp",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:2449:0:0:0:0:0:0:0:18|h[Earthroot]|h|r",
-						["lastCheck"] = 1450612978,
-						["icon"] = "Interface\\Icons\\INV_Misc_Herb_07",
-						["daysLeft"] = 29.82586860656738,
-					}, -- [2]
-				},
-				["lastVisitDate"] = "2015/12/21 01:02",
-			},
-			["Default.TrueWoW.Magistratus"] = {
-				["lastUpdate"] = 1450616837,
-				["Mails"] = {
-					{
-						["sender"] = "Pastafarian",
-						["count"] = 14,
-						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
-						["lastCheck"] = 1450617029,
-						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
-						["daysLeft"] = 19.91975784301758,
-					}, -- [1]
-					{
-						["sender"] = "Pastafarian",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
-						["lastCheck"] = 1450617029,
-						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
-						["daysLeft"] = 19.91975784301758,
-					}, -- [2]
-					{
-						["sender"] = "Ellipsis",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:2882:0:0:0:0:0:0:0:13|h[Plans: Silvered Bronze Shoulders]|h|r",
-						["lastCheck"] = 1450617029,
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 22.89023208618164,
-					}, -- [3]
-					{
-						["sender"] = "Ellipsis",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
-						["lastCheck"] = 1450617029,
-						["icon"] = "Interface\\Icons\\INV_Ore_Copper_01",
-						["daysLeft"] = 24.86479187011719,
-					}, -- [4]
-					{
-						["sender"] = "Ellipsis",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:2835:0:0:0:0:0:0:0:13|h[Rough Stone]|h|r",
-						["lastCheck"] = 1450617029,
-						["icon"] = "Interface\\Icons\\INV_Stone_06",
-						["daysLeft"] = 24.86479187011719,
-					}, -- [5]
-				},
-				["lastVisitDate"] = "2015/12/21 02:07",
-			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1450865247,
-				["Mails"] = {
-					{
-						["sender"] = "Customer Support",
-						["subject"] = "Bag Replacement",
-						["icon"] = "Interface\\Icons\\Mail_GMIcon",
-						["money"] = 0,
-						["text"] = "Here are the items that were contained in your replaced bag!\n\nThe TrueWoW Staff",
-						["lastCheck"] = 1450865247,
-						["daysLeft"] = 22.46031188964844,
-					}, -- [1]
-					{
-						["sender"] = "Ellipsis",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:2408:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Gloves]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["lastCheck"] = 1450865247,
-						["daysLeft"] = 26.98256874084473,
-					}, -- [2]
-					{
-						["sender"] = "Ellipsis",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:2406:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Boots]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["lastCheck"] = 1450865247,
-						["daysLeft"] = 26.98256874084473,
-					}, -- [3]
-					{
-						["sender"] = "Great-father Winter",
-						["subject"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["money"] = 0,
-						["text"] = "Ho Ho Hello, Duglazerp!  I hope you have a fantastic Feast of Winter Veil!\n\nYou were so nice in helping me out with my sweet tooth, that I wanted to send you a little something extra.  It's a sampler of delicious Smokywood Pastures treats.  If you haven't gotten any yet, be sure to do so before the season ends!\n\nSeasons Greetings...\nGreatfather Winter",
-						["lastCheck"] = 1450865247,
-						["daysLeft"] = 27.83310127258301,
-					}, -- [4]
-				},
-				["lastVisitDate"] = "2015/12/23 23:07",
 			},
 		},
 	},

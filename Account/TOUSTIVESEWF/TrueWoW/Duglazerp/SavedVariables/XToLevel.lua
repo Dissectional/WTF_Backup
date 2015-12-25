@@ -43,7 +43,6 @@ sConfig = {
 		["showIcon"] = true,
 		["showText"] = true,
 		["textPattern"] = "default",
-		["allowTextColor"] = true,
 		["text"] = {
 			["bgo"] = false,
 			["restedp"] = true,
@@ -52,15 +51,15 @@ sConfig = {
 			["petxp"] = true,
 			["bgs"] = true,
 			["quests"] = true,
+			["verbose"] = true,
 			["pet"] = true,
-			["xp"] = true,
 			["dungeons"] = true,
 			["colorValues"] = true,
 			["xpnumFormat"] = true,
 			["xpAsBars"] = false,
 			["xpCountdown"] = false,
 			["timer"] = true,
-			["verbose"] = true,
+			["xp"] = true,
 			["rested"] = true,
 			["xpnum"] = true,
 		},
@@ -72,6 +71,7 @@ sConfig = {
 			["showBGInfo"] = true,
 			["showDungeonInfo"] = true,
 		},
+		["allowTextColor"] = true,
 	},
 	["messages"] = {
 		["playerFloating"] = true,
@@ -85,15 +85,15 @@ sConfig = {
 				1, -- [2]
 				0.7, -- [3]
 			},
-			["playerLevel"] = {
-				0.35, -- [1]
-				1, -- [2]
-				0.35, -- [3]
-			},
 			["playerBattleground"] = {
 				1, -- [1]
 				0.5, -- [2]
 				0.5, -- [3]
+			},
+			["playerLevel"] = {
+				0.35, -- [1]
+				1, -- [2]
+				0.35, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -126,7 +126,7 @@ sData = {
 		["killList"] = {
 		},
 		["timer"] = {
-			["start"] = 1450865279,
+			["start"] = 1451039135,
 			["total"] = 0,
 			["xpPerSec"] = 0,
 			["xpPerSecond"] = 0,

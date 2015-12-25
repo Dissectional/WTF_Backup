@@ -4,8 +4,9 @@ ARLDB2 = {
 		["tradeskill"] = {
 			["TrueWoW"] = {
 				["Duglazerp"] = {
-					["First Aid"] = "|cffffd000|Htrade:3273:22:75:1D4CD6:FAAAAA|h[First Aid]|h|r",
 					["Jewelcrafting"] = "|cffffd000|Htrade:25229:37:75:1D4CD6:pAIAAAAAAwCAAAAAAAAAAAAAgHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:50:150:1D4CD6:OAAAAA|h[First Aid]|h|r",
+					["Cooking"] = "|cffffd000|Htrade:3102:91:150:1D4CD6:OAAAUBBAEAwAJAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 				},
 			},
 		},

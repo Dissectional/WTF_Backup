@@ -1,5 +1,5 @@
 _NPCScan: enabled
-AckisRecipeList: disabled
+AckisRecipeList: enabled
 ACP: enabled
 AlphaMap3: disabled
 AlphaMap3_Battlegrounds: disabled
