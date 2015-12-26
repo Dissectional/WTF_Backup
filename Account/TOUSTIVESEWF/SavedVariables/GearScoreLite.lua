@@ -28,7 +28,7 @@ GS_Settings = {
 	["Emalon"] = 3650,
 	["Crusade"] = 4100,
 	["HEmalon"] = 3750,
-	["HMaly"] = 3800,
+	["Heroics"] = 2600,
 	["Compare"] = -1,
 	["ShowHelp"] = 1,
 	["CHAT"] = -1,
@@ -37,7 +37,7 @@ GS_Settings = {
 	["HSarth"] = 3450,
 	["Date2"] = 1,
 	["MinLevel"] = 80,
-	["Heroics"] = 2600,
+	["HMaly"] = 3800,
 	["ML"] = -1,
 	["Slider"] = 10,
 }

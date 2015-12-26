@@ -4,23 +4,6 @@ BugGrabberDB = {
 	["limit"] = 50,
 	["errors"] = {
 		{
-			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
-			["type"] = "error",
-			["time"] = "2015/12/21 03:02:45",
-			["session"] = 55,
-			["counter"] = 1,
-		}, -- [1]
-		{
-			["message"] = {
-				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
-				"a:192\n}\n(for index) = 1\n(for limit) = 95\n(for step) = 1\ni = 1\nobject = MiniMapMailFrame {\n 0 = <userdata>\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = \"BagSync_MinimapButton\"\n 2 = \"VendomaticButtonFrame\"\n 3 = \"MiniMapMailFrame\"\n 4 = \"MiniMapTrackingButton\"\n}\n(for control) = 3\n_ = 3\nframe = \"MiniMapMailFrame\"\npairs = <function> defined =[C]:-1\nAcceptedFrames = <table> {\n 1 = \"BagSync_MinimapButton\"\n 2 = \"VendomaticButtonFrame\"\n 3 = \"MiniMapMailFrame\"\n 4 = \"MiniMapTrackingButton\"\n}\n\n  ---", -- [2]
-			},
-			["type"] = "error",
-			["time"] = "2015/12/21 03:02:45",
-			["session"] = 55,
-			["counter"] = 1,
-		}, -- [2]
-		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
 				"a:192\n}\n(for index) = 1\n(for limit) = 96\n(for step) = 1\ni = 1\nobject = MiniMapMailFrame {\n 0 = <userdata>\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = \"BagSync_MinimapButton\"\n 2 = \"VendomaticButtonFrame\"\n 3 = \"MiniMapMailFrame\"\n 4 = \"MiniMapTrackingButton\"\n}\n(for control) = 3\n_ = 3\nframe = \"MiniMapMailFrame\"\npairs = <function> defined =[C]:-1\nAcceptedFrames = <table> {\n 1 = \"BagSync_MinimapButton\"\n 2 = \"VendomaticButtonFrame\"\n 3 = \"MiniMapMailFrame\"\n 4 = \"MiniMapTrackingButton\"\n}\n\n  ---", -- [2]
@@ -29,14 +12,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:02:46",
 			["session"] = 55,
 			["counter"] = 104,
-		}, -- [3]
+		}, -- [1]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:03:26",
 			["session"] = 56,
 			["counter"] = 1,
-		}, -- [4]
+		}, -- [2]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -46,7 +29,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:03:26",
 			["session"] = 56,
 			["counter"] = 1,
-		}, -- [5]
+		}, -- [3]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -56,14 +39,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:03:31",
 			["session"] = 56,
 			["counter"] = 21,
-		}, -- [6]
+		}, -- [4]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:04:06",
 			["session"] = 57,
 			["counter"] = 1,
-		}, -- [7]
+		}, -- [5]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -73,7 +56,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:04:06",
 			["session"] = 57,
 			["counter"] = 1,
-		}, -- [8]
+		}, -- [6]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -83,14 +66,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:04:07",
 			["session"] = 57,
 			["counter"] = 112,
-		}, -- [9]
+		}, -- [7]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:04:41",
 			["session"] = 58,
 			["counter"] = 1,
-		}, -- [10]
+		}, -- [8]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -100,7 +83,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:04:41",
 			["session"] = 58,
 			["counter"] = 1,
-		}, -- [11]
+		}, -- [9]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -110,14 +93,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:04:43",
 			["session"] = 58,
 			["counter"] = 74,
-		}, -- [12]
+		}, -- [10]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:05:14",
 			["session"] = 59,
 			["counter"] = 1,
-		}, -- [13]
+		}, -- [11]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -127,7 +110,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:05:14",
 			["session"] = 59,
 			["counter"] = 1,
-		}, -- [14]
+		}, -- [12]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -137,14 +120,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:05:15",
 			["session"] = 59,
 			["counter"] = 65,
-		}, -- [15]
+		}, -- [13]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:05:33",
 			["session"] = 60,
 			["counter"] = 1,
-		}, -- [16]
+		}, -- [14]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -154,7 +137,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:05:33",
 			["session"] = 60,
 			["counter"] = 1,
-		}, -- [17]
+		}, -- [15]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -164,14 +147,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:05:35",
 			["session"] = 60,
 			["counter"] = 57,
-		}, -- [18]
+		}, -- [16]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:06:14",
 			["session"] = 61,
 			["counter"] = 1,
-		}, -- [19]
+		}, -- [17]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -181,7 +164,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:06:14",
 			["session"] = 61,
 			["counter"] = 1,
-		}, -- [20]
+		}, -- [18]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -191,14 +174,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:06:15",
 			["session"] = 61,
 			["counter"] = 59,
-		}, -- [21]
+		}, -- [19]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:06:27",
 			["session"] = 62,
 			["counter"] = 1,
-		}, -- [22]
+		}, -- [20]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -208,7 +191,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:06:27",
 			["session"] = 62,
 			["counter"] = 1,
-		}, -- [23]
+		}, -- [21]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -218,14 +201,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:06:29",
 			["session"] = 62,
 			["counter"] = 124,
-		}, -- [24]
+		}, -- [22]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:07:04",
 			["session"] = 63,
 			["counter"] = 1,
-		}, -- [25]
+		}, -- [23]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -235,7 +218,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:04",
 			["session"] = 63,
 			["counter"] = 1,
-		}, -- [26]
+		}, -- [24]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -245,14 +228,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:06",
 			["session"] = 63,
 			["counter"] = 110,
-		}, -- [27]
+		}, -- [25]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:07:28",
 			["session"] = 64,
 			["counter"] = 1,
-		}, -- [28]
+		}, -- [26]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -262,7 +245,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:28",
 			["session"] = 64,
 			["counter"] = 1,
-		}, -- [29]
+		}, -- [27]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -272,14 +255,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:30",
 			["session"] = 64,
 			["counter"] = 115,
-		}, -- [30]
+		}, -- [28]
 		{
 			["message"] = "SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:355: attempt to call method 'SetTemplate' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 03:07:46",
 			["session"] = 65,
 			["counter"] = 1,
-		}, -- [31]
+		}, -- [29]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:373: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:351>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -289,7 +272,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:46",
 			["session"] = 65,
 			["counter"] = 1,
-		}, -- [32]
+		}, -- [30]
 		{
 			["message"] = {
 				"SquareMinimapButtons-3.39\\SquareMinimapButtons.lua:148: attempt to call method 'Size' (a nil value)\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:263: in function `GrabMinimapButtons'\nSquareMinimapButtons-3.39\\SquareMinimapButtons.lua:383: in function <...AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:380>\n\nLocals:|r\nself = SquareMinimapButtonBar {\n OnLeave = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:29\n 0 = <userdata>\n GrabMinimapButtons = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:254\n SkinMinimapButton = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:85\n OnEnter = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:22\n Update = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lua:270\n GetOptions = <function> defined @Interface\\AddOns\\SquareMinimapButtons\\SquareMinimapButtons.lu", -- [1]
@@ -299,7 +282,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:07:48",
 			["session"] = 65,
 			["counter"] = 100,
-		}, -- [33]
+		}, -- [31]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\nLocals:|r\nself = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:39", -- [1]
@@ -313,7 +296,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 03:21:34",
 			["session"] = 78,
 			["counter"] = 1,
-		}, -- [34]
+		}, -- [32]
 		{
 			["message"] = {
 				"<string>:\"if not IsMounted() then local m,t,f=\"mount\"...\":1: bad argument #1 to 'random' (interval is empty)\n<string>:\"if not IsMounted() then local m,t,f=\"mount\"...\":1: in main chunk\n<in C code>: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:1996: in function `?':\nInterface\\FrameXML\\ChatFrame.lua:4049: in function `ChatEdit_ParseText':\nInterface\\FrameXML\\ChatFrame.lua:3660: in function `ChatEdit_SendText':\nInterface\\FrameXML\\ChatFrame.lua:2477: in function <Interface\\FrameXML\\ChatFrame.lua:2470>:\n<in C code>: in function `UseAction'\nInterface\\FrameXML\\SecureTemplates.lua:310: in function `handler':\nInterface\\FrameXML\\SecureTemplates.lua:529: in function `SecureActionButton_OnClick':\nInterface\\FrameXML\\MultiActionBars.lua:19: in function `MultiActionButtonUp':\n<string>:\"MULTIACTIONBAR3BUTTON1\":4: in function <[string \"MULTIACTIONBAR3BUTTON1\"]:1>\n\nLocals:|r\nm = \"mount\"\nt = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n}\nf = 1\n(*temporary) = <function> defi", -- [1]
@@ -323,113 +306,127 @@ BugGrabberDB = {
 			["time"] = "2015/12/21 19:56:14",
 			["session"] = 86,
 			["counter"] = 12,
-		}, -- [35]
+		}, -- [33]
 		{
 			["message"] = "Outfitter-5.0b8\\Outfitter.lua:5793: attempt to call method 'Done' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/21 20:24:20",
 			["session"] = 86,
 			["counter"] = 1,
-		}, -- [36]
+		}, -- [34]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/22 21:11:59",
 			["session"] = 89,
 			["counter"] = 1,
-		}, -- [37]
+		}, -- [35]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/22 21:48:04",
 			["session"] = 89,
 			["counter"] = 4,
-		}, -- [38]
+		}, -- [36]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/22 21:48:28",
 			["session"] = 90,
 			["counter"] = 1,
-		}, -- [39]
+		}, -- [37]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/22 21:54:39",
 			["session"] = 91,
 			["counter"] = 1,
-		}, -- [40]
+		}, -- [38]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/22 23:10:28",
 			["session"] = 99,
 			["counter"] = 1,
-		}, -- [41]
+		}, -- [39]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/23 19:30:33",
 			["session"] = 103,
 			["counter"] = 1,
-		}, -- [42]
+		}, -- [40]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/23 20:34:57",
 			["session"] = 110,
 			["counter"] = 1,
-		}, -- [43]
+		}, -- [41]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/23 22:39:58",
 			["session"] = 115,
 			["counter"] = 1,
-		}, -- [44]
+		}, -- [42]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 19:39:33",
 			["session"] = 124,
 			["counter"] = 1,
-		}, -- [45]
+		}, -- [43]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 19:54:39",
 			["session"] = 124,
 			["counter"] = 1,
-		}, -- [46]
+		}, -- [44]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 20:10:40",
 			["session"] = 126,
 			["counter"] = 1,
-		}, -- [47]
+		}, -- [45]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 20:25:51",
 			["session"] = 127,
 			["counter"] = 1,
-		}, -- [48]
+		}, -- [46]
 		{
 			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 20:26:28",
 			["session"] = 128,
 			["counter"] = 1,
-		}, -- [49]
+		}, -- [47]
 		{
 			["message"] = "Interface\\FrameXML\\Cooldown.lua:3: attempt to compare number with nil:\nInterface\\FrameXML\\WatchFrame.lua:1194: in function `WatchFrameItem_UpdateCooldown':\nInterface\\FrameXML\\WatchFrame.lua:1210: in function `WatchFrameItem_OnEvent':\n<string>:\"*:OnEvent\":1: in function <[string \"*:OnEvent\"]:1>\n\nLocals:|r\nself = NxListFrms1 {\n NXListFType = \"WatchItem\"\n count = -1\n rangeTimer = -1\n 0 = <userdata>\n}\nitemCooldown = NxListFrms1Cooldown {\n 0 = <userdata>\n}\nstart = nil\nduration = nil\nenable = nil\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/25 22:20:23",
 			["session"] = 128,
 			["counter"] = 1,
+		}, -- [48]
+		{
+			["message"] = "ElvUI-5.19\\modules\\skins\\blizzard\\auctionhouse.lua:173: attempt to index field '?' (a nil value)\nElvUI-5.19\\modules\\skins\\skins.lua:375: in function `?'\nCallbackHandler-1.0-6:147: in function <...tan\\libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[2]\":4: in function <[string \"safecall Dispatcher[2]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[2]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceEvent-3.0-3 (DataStore):120: in function <...\\AddOns\\DataStore\\libs\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n<in C code>: ?\n<in C code>: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn':\nInterface\\FrameXML\\UIParent.lua:246: in function `AuctionFrame_LoadUI':\nInterface\\FrameXML\\UIParent.lua:943: in function <Interface\\FrameXML\\UIParent.lua:454>:\n\n  ---",
+			["type"] = "error",
+			["time"] = "2015/12/26 14:03:15",
+			["session"] = 134,
+			["counter"] = 1,
+		}, -- [49]
+		{
+			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
+			["type"] = "error",
+			["time"] = "2015/12/26 16:44:02",
+			["session"] = 138,
+			["counter"] = 1,
 		}, -- [50]
 	},
 	["save"] = true,
-	["session"] = 131,
+	["session"] = 146,
 }

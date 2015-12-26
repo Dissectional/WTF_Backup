@@ -1,5 +1,17 @@
 
 Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Cryogenics|TrueWoW|Horde|11|MAGE", -- [1]
+				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [2]
+				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [3]
+				"Magistratus|TrueWoW|Horde|13|PALADIN", -- [4]
+				"Pastafarian|TrueWoW|Horde|14|PRIEST", -- [5]
+				"Shiftace|TrueWoW|Horde|18|DRUID", -- [6]
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
@@ -8,19 +20,13 @@ Postal3DB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
-	["global"] = {
-		["BlackBook"] = {
-			["alts"] = {
-				"Cryogenics|TrueWoW|Horde|11|MAGE", -- [1]
-				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [2]
-				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [3]
-				"Magistratus|TrueWoW|Horde|13|PALADIN", -- [4]
-				"Shiftace|TrueWoW|Horde|18|DRUID", -- [5]
-			},
-		},
-	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Ellipsis", -- [1]
+				},
+			},
 		},
 		["Ellipsis - TrueWoW"] = {
 		},

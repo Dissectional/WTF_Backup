@@ -1,22 +1,22 @@
 
 FishingBuddy_Player = {
+	["Outfit"] = {
+	},
 	["Settings"] = {
-		["STVTimer"] = 1,
+		["DerbyTimer"] = 1,
 		["ResetWatcher"] = 1,
-		["EnhanceFishingSounds"] = 1,
+		["GreatAndSmall"] = 0,
 		["WatchCurrentZone"] = 1,
 		["FishingBuddy"] = 0,
-		["MinimapButtonVisible"] = 0,
-		["EasyCast"] = 1,
+		["EasyLures"] = 1,
+		["AlwaysLure"] = 1,
 		["OutfitManager"] = "Outfitter",
 		["AutoLoot"] = 1,
-		["AlwaysLure"] = 1,
+		["STVTimer"] = 1,
 		["ContestSupport"] = 1,
-		["EasyLures"] = 1,
-		["GreatAndSmall"] = 0,
-		["DerbyTimer"] = 1,
-	},
-	["Outfit"] = {
+		["MinimapButtonVisible"] = 0,
+		["EasyCast"] = 1,
+		["EnhanceFishingSounds"] = 1,
 	},
 	["WasWearing"] = {
 	},

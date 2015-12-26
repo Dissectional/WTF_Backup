@@ -10,6 +10,14 @@ TalentedDB = {
 	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
 		},
 		["Ellipsis - TrueWoW"] = {
 			["framepos"] = {
@@ -24,6 +32,14 @@ TalentedDB = {
 		["Shiftace - TrueWoW"] = {
 		},
 		["Cryogenics - TrueWoW"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
 		},
 		["Duglazerp - TrueWoW"] = {
 			["framepos"] = {

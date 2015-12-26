@@ -1,2 +1,8 @@
 
-TankPointsDB = nil
+TankPointsDB = {
+	["profiles"] = {
+		["Default"] = {
+			["showTooltipTotal"] = true,
+		},
+	},
+}

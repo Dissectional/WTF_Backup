@@ -2,12 +2,17 @@
 NxCData = {
 	["Version"] = 0.1,
 	["Taxi"] = {
-		["Taunka'le Village"] = true,
+		["Crossroads"] = true,
 		["Vengeance Landing"] = true,
+		["Transitus Shield"] = true,
+		["Amber Ledge"] = true,
+		["Camp Taurajo"] = true,
+		["Taunka'le Village"] = true,
+		["Ratchet"] = true,
 		["Warsong Hold"] = true,
 		["Argent Tournament Grounds"] = true,
 		["Dalaran"] = true,
-		["Transitus Shield"] = true,
-		["Amber Ledge"] = true,
+		["Thunder Bluff"] = true,
+		["Orgrimmar"] = true,
 	},
 }

@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_200000"] = 1000,
-	["_50000"] = 500,
-	["STARTING_DISCOUNT"] = 5,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["_500"] = 5,
+	["_50000"] = 500,
+	["_200000"] = 1000,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -47,27 +47,26 @@ AUCTIONATOR_TOONS = {
 	},
 	["Magistratus"] = {
 		["firstSeen"] = 1450616169,
+		["firstVersion"] = "2.6.3",
 		["guid"] = "0x00000000001D4374",
-		["firstVersion"] = "2.6.3",
 	},
-	["Pastafarian"] = {
-		["firstSeen"] = 1450615990,
-		["guid"] = "0x00000000001D42B3",
+	["Ellipsis"] = {
+		["firstSeen"] = 1450613965,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x00000000001D41B0",
 	},
 	["Cryogenics"] = {
 		["firstSeen"] = 1450617047,
-		["guid"] = "0x00000000001D437E",
 		["firstVersion"] = "2.6.3",
 	},
 	["Duglazerp"] = {
 		["firstSeen"] = 1450617778,
-		["guid"] = "0x00000000001D4CD6",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x00000000001D4CD6",
 	},
-	["Ellipsis"] = {
-		["firstSeen"] = 1450613965,
-		["guid"] = "0x00000000001D41B0",
+	["Pastafarian"] = {
+		["firstSeen"] = 1450615990,
+		["guid"] = "0x00000000001D42B3",
 		["firstVersion"] = "2.6.3",
 	},
 }

@@ -10,11 +10,12 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.TrueWoW.Pastafarian"] = {
+				["lastUpdate"] = 1451091826,
+				["lastVisitDate"] = "2015/12/26 14:03",
+			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["lastUpdate"] = 1451028411,
-				["Auctions"] = {
-					"0|6377|1||1041250|1097500|3", -- [1]
-				},
 				["lastVisitDate"] = "2015/12/25 20:26",
 			},
 		},
