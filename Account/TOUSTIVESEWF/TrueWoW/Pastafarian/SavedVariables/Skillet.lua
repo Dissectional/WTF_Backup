@@ -9,6 +9,9 @@ SkilletDBPC = {
 			["Mining"] = {
 				["filtertext"] = "",
 			},
+			["First Aid"] = {
+				["filtertext"] = "",
+			},
 		},
 	},
 }

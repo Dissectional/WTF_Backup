@@ -5,19 +5,9 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
-	["LastSearchedText"] = "black spire",
+	["LastSearchedText"] = "head enchant",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
-		{
-			2, -- [1]
-			50207, -- [2]
-			"", -- [3]
-			"=q4=Black Spire Sabatons", -- [4]
-			"Devourer of Souls", -- [5]
-			"", -- [6]
-			"", -- [7]
-			"FoSDevourerHEROIC|\"\"", -- [8]
-		}, -- [1]
 	},
 }
 AtlasLootFilterDB = {

@@ -1,7 +1,6 @@
 MACRO 16777217 "Attack" INV_Misc_QuestionMark
 #showtooltip
 /startattack 
-/cast Judgement of Light
-/cast [mod:shift]
+/cast [nomod] Judgement of Light;Judgement of Wisdom
 /run UIErrorsFrame:Clear()
 END

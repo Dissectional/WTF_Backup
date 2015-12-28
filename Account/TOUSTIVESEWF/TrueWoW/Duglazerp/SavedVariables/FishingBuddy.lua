@@ -16,9 +16,9 @@ FishingBuddy_Player = {
 		["AutoLoot"] = 1,
 		["STVTimer"] = 1,
 		["ContestSupport"] = 1,
+		["MinimapButtonVisible"] = 0,
 		["CaughtSoFar"] = 1,
 		["EasyLures"] = 1,
-		["MinimapButtonVisible"] = 0,
 	},
 	["WasWearing"] = {
 	},

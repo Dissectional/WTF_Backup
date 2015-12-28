@@ -85,15 +85,15 @@ sConfig = {
 				1, -- [2]
 				0.7, -- [3]
 			},
-			["playerBattleground"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
-			},
 			["playerLevel"] = {
 				0.35, -- [1]
 				1, -- [2]
 				0.35, -- [3]
+			},
+			["playerBattleground"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -126,9 +126,9 @@ sData = {
 		["killList"] = {
 		},
 		["timer"] = {
-			["start"] = 1450613995,
+			["start"] = 1451257658,
 			["total"] = 0,
-			["xpPerSec"] = 0.9638039952193956,
+			["xpPerSec"] = 0.955969517358171,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {

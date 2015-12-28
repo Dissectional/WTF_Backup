@@ -198,3 +198,4 @@ RaidAchievement_Icecrown: enabled
 RaidAchievement_Naxxramas: enabled
 RaidAchievement_Ulduar: enabled
 RaidAchievement_WotlkHeroics: enabled
+SyncFriends: disabled

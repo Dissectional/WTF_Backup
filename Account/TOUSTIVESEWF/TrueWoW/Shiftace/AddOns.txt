@@ -71,3 +71,4 @@ AlphaMap3_Battlegrounds: disabled
 AckisRecipeList: enabled
 FishingBuddy: enabled
 Auctionator: enabled
+SyncFriends: disabled

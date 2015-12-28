@@ -198,3 +198,4 @@ DBM-PvP: enabled
 DBM-Ulduar: enabled
 DBM-VoA: enabled
 DBM-WorldEvents: enabled
+SyncFriends: disabled

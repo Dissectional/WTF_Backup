@@ -41,14 +41,6 @@ sConfig = {
 	["ldb"] = {
 		["showLabel"] = false,
 		["showIcon"] = true,
-		["tooltip"] = {
-			["showPetInfo"] = true,
-			["showExperience"] = true,
-			["showTimerInfo"] = true,
-			["showDungeonInfo"] = true,
-			["showBGInfo"] = true,
-			["showDetails"] = true,
-		},
 		["text"] = {
 			["bgo"] = false,
 			["restedp"] = true,
@@ -57,19 +49,27 @@ sConfig = {
 			["petxp"] = true,
 			["xpnum"] = true,
 			["rested"] = true,
-			["verbose"] = true,
 			["pet"] = true,
+			["xp"] = true,
 			["dungeons"] = true,
 			["colorValues"] = true,
 			["xpCountdown"] = false,
 			["xpAsBars"] = false,
 			["xpnumFormat"] = true,
 			["timer"] = true,
-			["xp"] = true,
+			["verbose"] = true,
 			["quests"] = true,
 			["bgs"] = true,
 		},
 		["allowTextColor"] = true,
+		["tooltip"] = {
+			["showPetInfo"] = true,
+			["showExperience"] = true,
+			["showTimerInfo"] = true,
+			["showDungeonInfo"] = true,
+			["showBGInfo"] = true,
+			["showDetails"] = true,
+		},
 		["textPattern"] = "default",
 		["showText"] = true,
 	},
@@ -95,10 +95,10 @@ sConfig = {
 				0.73, -- [2]
 				1, -- [3]
 			},
-			["playerBattleground"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
+			["playerLevel"] = {
+				0.35, -- [1]
+				1, -- [2]
+				0.35, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -110,10 +110,10 @@ sConfig = {
 				0.75, -- [2]
 				0.35, -- [3]
 			},
-			["playerLevel"] = {
-				0.35, -- [1]
-				1, -- [2]
-				0.35, -- [3]
+			["playerBattleground"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
 			},
 		},
 	},
@@ -234,9 +234,9 @@ sData = {
 			}, -- [24]
 		},
 		["timer"] = {
-			["start"] = 1450865696,
-			["total"] = 13505,
-			["xpPerSec"] = 5.957212174680194,
+			["start"] = 1451257481,
+			["total"] = 0,
+			["xpPerSec"] = 0.806534920278464,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {

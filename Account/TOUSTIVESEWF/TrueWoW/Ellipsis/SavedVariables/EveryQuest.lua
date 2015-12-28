@@ -33,11 +33,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8327] = {
+					[8894] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8894] = {
+					[8327] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -105,7 +105,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8476] = {
+					[8350] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -165,7 +165,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9358] = {
+					[8476] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -221,7 +221,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8350] = {
+					[9358] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -277,11 +277,11 @@ EQ2DBPC = {
 					},
 				},
 				[-61] = {
-					[9619] = {
+					[9529] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9529] = {
+					[8563] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -289,7 +289,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8563] = {
+					[9619] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -401,20 +401,20 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9327] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
 					[9277] = {
 						["status"] = 0,
 					},
 					[9275] = {
 						["status"] = 0,
 					},
+					[9138] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
 					[9169] = {
 						["status"] = 0,
 					},
-					[9138] = {
+					[9327] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},

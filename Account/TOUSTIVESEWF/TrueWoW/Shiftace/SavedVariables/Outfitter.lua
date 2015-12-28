@@ -563,7 +563,11 @@ gOutfitter_Settings = {
 				},
 			}, -- [3]
 			{
-				["ScriptID"] = "Caster",
+				["ScriptSettings"] = {
+					["DisableInstance"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 				["didEquip"] = true,
 				["didUnequip"] = false,
 				["Items"] = {
@@ -571,11 +575,7 @@ gOutfitter_Settings = {
 				["CategoryID"] = "Accessory",
 				["Name"] = "Druid: Caster Form",
 				["ScriptLockupCount"] = 0,
-				["ScriptSettings"] = {
-					["DisableInstance"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptID"] = "Caster",
 			}, -- [4]
 			{
 				["Items"] = {
@@ -627,7 +627,11 @@ gOutfitter_Settings = {
 				},
 			}, -- [8]
 			{
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["UnequipComplete"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 				["didEquip"] = true,
 				["didUnequip"] = false,
 				["Items"] = {
@@ -635,11 +639,7 @@ gOutfitter_Settings = {
 				["Name"] = "Druid: Travel Form",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Travel",
-				["ScriptSettings"] = {
-					["UnequipComplete"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptLockupCount"] = 0,
 			}, -- [9]
 			{
 				["Items"] = {
@@ -657,13 +657,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
+				["ScriptLockupCount"] = 0,
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
-				["Name"] = "Riding",
-				["ScriptID"] = "Riding",
+				["CategoryID"] = "Accessory",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -671,8 +671,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["ScriptLockupCount"] = 0,
-				["CategoryID"] = "Accessory",
+				["ScriptID"] = "Riding",
+				["Name"] = "Riding",
 			}, -- [11]
 			{
 				["Items"] = {

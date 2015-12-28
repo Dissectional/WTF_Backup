@@ -7,8 +7,9 @@ RatingBusterDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
@@ -17,9 +18,11 @@ RatingBusterDB = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
+		["Cryogenics - TrueWoW"] = {
+		},
 		["Shiftace - TrueWoW"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Lichmydk - TrueWoW"] = {
 		},
 		["Duglazerp - TrueWoW"] = {
 			["showItemLevel"] = false,

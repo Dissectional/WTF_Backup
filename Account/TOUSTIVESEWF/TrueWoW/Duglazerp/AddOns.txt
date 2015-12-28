@@ -221,3 +221,4 @@ LibPeriodicTable-3.1: enabled
 WindowLib: enabled
 LibStub: enabled
 StatFrameLib: enabled
+SyncFriends: disabled

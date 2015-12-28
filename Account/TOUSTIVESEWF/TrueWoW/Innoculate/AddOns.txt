@@ -1,3 +1,4 @@
 FishingBuddy: enabled
 AckisRecipeList: enabled
 Auctionator: enabled
+SyncFriends: disabled

@@ -10,6 +10,8 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
+			["posx"] = 0,
+			["zoneid"] = 3433,
 			["history"] = {
 				[1638] = {
 					[744] = {
@@ -620,9 +622,7 @@ EQ2DBPC = {
 					},
 				},
 			},
-			["posx"] = 0,
 			["posy"] = 975.9999923406292,
-			["zoneid"] = 3433,
 			["zonegroup"] = "Eastern Kingdoms",
 		},
 	},

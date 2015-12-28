@@ -14,8 +14,8 @@ Overachiever_CharVars_Consumed = {
 		[6289] = true,
 		[6291] = true,
 		[4540] = true,
-		[4536] = true,
-		[4604] = true,
 		[2070] = true,
+		[4604] = true,
+		[4536] = true,
 	},
 }

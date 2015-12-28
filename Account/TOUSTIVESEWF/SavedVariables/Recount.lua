@@ -1,22 +1,23 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Ellipsis - TrueWoW"] = "Default",
-		["Duglazerp - TrueWoW"] = "Default",
-		["Shiftace - TrueWoW"] = "Default",
 		["Pastafarian - TrueWoW"] = "Default",
-		["Magistratus - TrueWoW"] = "Default",
+		["Ellipsis - TrueWoW"] = "Default",
 		["Cryogenics - TrueWoW"] = "Default",
+		["Shiftace - TrueWoW"] = "Default",
+		["Lichmydk - TrueWoW"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
+		["Magistratus - TrueWoW"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -430.9998995391453,
-					["x"] = 749.9999883741692,
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = -431.0000089587284,
+					["x"] = 749.9999883741695,
+					["w"] = 406.0000151819672,
+					["h"] = 158.0000047871068,
 				},
 			},
 			["Colors"] = {
@@ -39,7 +40,6 @@ RecountDB = {
 					["Boss"] = true,
 					["Hostile"] = true,
 					["Unknown"] = true,
-					["Trivial"] = true,
 				},
 				["TrackDeaths"] = {
 					["Nontrivial"] = true,
@@ -56,7 +56,7 @@ RecountDB = {
 				},
 			},
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["FrameStrata"] = "2-LOW",
 		},

@@ -3,8 +3,9 @@ RoutesDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
@@ -473,10 +474,10 @@ RoutesDB = {
 						["Silverleaf"] = "Silverleaf",
 						["Earthroot"] = "Earthroot",
 						["Stranglekelp"] = "Stranglekelp",
-						["Briarthorn"] = "Briarthorn",
+						["Bruiseweed"] = "Bruiseweed",
 						["Peacebloom"] = "Peacebloom",
 						["Mageroyal"] = "Mageroyal",
-						["Bruiseweed"] = "Bruiseweed",
+						["Briarthorn"] = "Briarthorn",
 					},
 					["length"] = 13922.92756132889,
 					["cluster_dist"] = 60,
@@ -485,7 +486,6 @@ RoutesDB = {
 					},
 				},
 				["Mining"] = {
-					["visible"] = false,
 					["route"] = {
 						64801040, -- [1]
 						68600730, -- [2]
@@ -812,7 +812,6 @@ RoutesDB = {
 			},
 			["Barrens"] = {
 				["Mining"] = {
-					["visible"] = false,
 					["route"] = {
 						58704780, -- [1]
 						57404700, -- [2]
@@ -1753,7 +1752,6 @@ RoutesDB = {
 			},
 			["Durotar"] = {
 				["Mining"] = {
-					["visible"] = false,
 					["route"] = {
 						41453420, -- [1]
 						42803865, -- [2]
@@ -2111,7 +2109,6 @@ RoutesDB = {
 			},
 			["IcecrownGlacier"] = {
 				["Mining"] = {
-					["visible"] = false,
 					["route"] = {
 						68501110, -- [1]
 						70051682, -- [2]

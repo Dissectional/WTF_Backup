@@ -7,12 +7,11 @@ END
 MACRO 16777217 "002 Attack" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [stance:1, nomod] Mortal Strike
-/cast [stance:1, mod:shift]
-/cast [stance:2, nomod] Shield Slam
-/cast [stance:2, mod:shift] Devastate
-/cast [stance:3, nomod] Whirlwind
-/cast [stance:3, mod:shift]
+/cast [stance:1, mod:shift] ; [stance:1] Mortal Strike
+/cast [stance:2, mod:shift] Devastate ; [stance:2] Shield Slam
+/cast [stance:3, mod:shift] ; [stance:3] Whirlwind
+/cast Blood Fury
+/cast Shield Block
 END
 MACRO 16777218 "003 Attack" INV_Misc_QuestionMark
 #showtooltip

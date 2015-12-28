@@ -21,7 +21,7 @@ Y: 187
 W: 36
 H: 36
 Frame: NxHUD
-FrameLevel: 26
+FrameLevel: 18
 Anchor: CENTER
 X: 0
 Y: -260
@@ -32,7 +32,7 @@ FrameLevel: 1
 Anchor: RIGHT
 X: -41
 Y: 196
-W: 232
+W: 280
 H: 19
 Frame: SilverDragonPopupButton
 FrameLevel: 0
@@ -60,15 +60,15 @@ FrameLevel: 1
 Anchor: TOP
 X: 1
 Y: -22
-W: 147
+W: 10
 H: 32
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -163
+X: -95
 Y: -231
-W: 27
-H: 27
+W: 25
+H: 25
 Frame: _NPCScanButton
 FrameLevel: 1
 Anchor: BOTTOM

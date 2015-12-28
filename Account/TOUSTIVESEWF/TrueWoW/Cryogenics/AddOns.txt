@@ -227,3 +227,4 @@ WindowLib: enabled
 LibStub: enabled
 StatFrameLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
+SyncFriends: disabled

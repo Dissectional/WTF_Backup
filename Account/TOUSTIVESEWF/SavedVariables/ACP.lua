@@ -2,7 +2,6 @@
 ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
-	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"_NPCScan", -- [1]
@@ -147,6 +146,7 @@ ACP_Data = {
 			["name"] = "Default",
 		}, -- [1]
 	},
+	["NoChildren"] = true,
 	["collapsed"] = {
 		["Forte"] = true,
 	},

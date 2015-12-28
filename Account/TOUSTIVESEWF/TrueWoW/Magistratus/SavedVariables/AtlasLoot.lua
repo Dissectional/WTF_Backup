@@ -11,28 +11,32 @@ AtlasLootCharDB = {
 }
 AtlasLootFilterDB = {
 	["Relics"] = {
-		["Idol"] = true,
+		["Idol"] = false,
 		["Libram"] = true,
-		["Sigils"] = true,
-		["Totem"] = true,
+		["Sigils"] = false,
+		["Totem"] = false,
 	},
-	["WeaponsRanged"] = {
-		["Crossbow"] = true,
-		["Thrown"] = true,
-		["Gun"] = true,
-		["Bow"] = true,
-		["Wand"] = true,
+	["WeaponsMeele"] = {
+		["Axe"] = true,
+		["Shield"] = true,
+		["Held in Off-Hand"] = true,
+		["Staff"] = false,
+		["Dagger"] = false,
+		["Mace"] = true,
+		["Fist Weapon"] = false,
+		["Polearm"] = true,
+		["Sword"] = true,
 	},
 	["Armor"] = {
 		["Leather"] = true,
 		["Plate"] = true,
-		["Mail"] = true,
 		["Cloth"] = true,
+		["Mail"] = true,
 	},
 	["WeaponsMeeleTwoHand"] = {
 		["Mace"] = true,
 		["Sword"] = true,
-		["Axe"] = true,
+		["Axe"] = false,
 	},
 	["Other"] = {
 		["Neck"] = true,
@@ -40,15 +44,11 @@ AtlasLootFilterDB = {
 		["Ring"] = true,
 		["Back"] = true,
 	},
-	["WeaponsMeele"] = {
-		["Axe"] = true,
-		["Shield"] = true,
-		["Held in Off-Hand"] = true,
-		["Staff"] = true,
-		["Dagger"] = true,
-		["Mace"] = true,
-		["Fist Weapon"] = true,
-		["Polearm"] = true,
-		["Sword"] = true,
+	["WeaponsRanged"] = {
+		["Crossbow"] = false,
+		["Wand"] = false,
+		["Gun"] = false,
+		["Bow"] = false,
+		["Thrown"] = false,
 	},
 }

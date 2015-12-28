@@ -18,7 +18,7 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
-			["zoneid"] = 3487,
+			["zoneid"] = 2437,
 			["history"] = {
 				[14] = {
 					[823] = {
@@ -207,6 +207,10 @@ EQ2DBPC = {
 					},
 					[1431] = {
 						["status"] = 0,
+					},
+					[24429] = {
+						["status"] = 2,
+						["completed"] = 1451304864,
 					},
 				},
 				[3430] = {
@@ -774,19 +778,19 @@ EQ2DBPC = {
 					},
 				},
 				[2437] = {
-					[5722] = {
-						["status"] = 0,
-					},
 					[5728] = {
 						["status"] = 2,
 						["completed"] = 1450863441,
 					},
-					[5723] = {
-						["status"] = 0,
-					},
 					[5761] = {
 						["completed"] = 1450863382,
 						["status"] = 2,
+					},
+					[5723] = {
+						["status"] = 0,
+					},
+					[5722] = {
+						["status"] = 0,
 					},
 				},
 				[4024] = {
@@ -922,7 +926,8 @@ EQ2DBPC = {
 						["imported"] = 3,
 					},
 					[776] = {
-						["status"] = 1,
+						["status"] = 2,
+						["completed"] = 1451203743,
 					},
 					[761] = {
 						["completed"] = 1451035838,
@@ -1017,7 +1022,7 @@ EQ2DBPC = {
 					},
 				},
 			},
-			["zonegroup"] = "Eastern Kingdoms",
+			["zonegroup"] = "Dungeons",
 		},
 	},
 }

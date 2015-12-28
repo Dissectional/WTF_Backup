@@ -39,13 +39,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Riding",
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
+				["Name"] = "Riding",
+				["ScriptID"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -53,8 +53,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
-				["Name"] = "Riding",
 				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Accessory",
 			}, -- [2]
 			{
 				["Items"] = {
@@ -294,9 +294,9 @@ gOutfitter_Settings = {
 						["JewelCode3"] = 0,
 					},
 				},
+				["Name"] = "Birthday Suit",
 				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
-				["Name"] = "Birthday Suit",
 			}, -- [1]
 			{
 				["Items"] = {
@@ -571,9 +571,9 @@ gOutfitter_Settings = {
 						["Quality"] = 3,
 					},
 				},
+				["Name"] = "Normal",
 				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
-				["Name"] = "Normal",
 			}, -- [2]
 		},
 	},

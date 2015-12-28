@@ -1,3 +1,0 @@
-FishingBuddy: enabled
-AckisRecipeList: enabled
-Auctionator: enabled

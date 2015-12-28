@@ -6,77 +6,72 @@ sConfig = {
 		["progress"] = true,
 		["playerBGOListLength"] = 15,
 		["playerQuests"] = true,
-		["playerDungeonListLength"] = 15,
+		["playerQuestListLength"] = 10,
 		["playerBGListLength"] = 15,
-		["combineTooltip"] = false,
+		["detachPetFrame"] = false,
 		["playerDungeons"] = true,
 		["mode"] = 1,
-		["playerTimer"] = true,
+		["playerKills"] = true,
 		["petKillListLength"] = 10,
 		["playerKillListLength"] = 10,
 		["progressAsBars"] = false,
-		["backdrop"] = true,
+		["verbose"] = true,
 		["playerBGOs"] = false,
 		["showPetFrame"] = true,
 		["tooltip"] = true,
-		["verbose"] = true,
+		["backdrop"] = true,
 		["playerProgress"] = true,
 		["petProgress"] = true,
 		["playerBGs"] = true,
 		["header"] = true,
 		["petKills"] = true,
 		["orientation"] = "v",
-		["playerKills"] = true,
-		["detachPetFrame"] = false,
-		["playerQuestListLength"] = 10,
+		["playerTimer"] = true,
+		["combineTooltip"] = false,
+		["playerDungeonListLength"] = 15,
 	},
 	["general"] = {
-		["displayLocale"] = "enUS",
-		["allowSettingsClick"] = true,
-		["showNpcTooltipData"] = true,
-		["rafEnabled"] = false,
-		["showDebug"] = false,
 		["allowDrag"] = true,
+		["allowSettingsClick"] = true,
+		["showDebug"] = false,
+		["rafEnabled"] = false,
+		["showNpcTooltipData"] = true,
+		["displayLocale"] = "enUS",
 	},
 	["ldb"] = {
 		["showLabel"] = false,
 		["showIcon"] = true,
-		["tooltip"] = {
-			["showPetInfo"] = true,
-			["showExperience"] = true,
-			["showTimerInfo"] = true,
-			["showDungeonInfo"] = true,
-			["showBGInfo"] = true,
-			["showDetails"] = true,
-		},
+		["showText"] = true,
+		["textPattern"] = "default",
 		["text"] = {
 			["bgo"] = false,
 			["restedp"] = true,
 			["petxpnum"] = true,
 			["kills"] = true,
 			["petxp"] = true,
-			["xpnum"] = true,
-			["rested"] = true,
+			["bgs"] = true,
+			["quests"] = true,
 			["verbose"] = true,
 			["pet"] = true,
 			["dungeons"] = true,
 			["colorValues"] = true,
-			["xpCountdown"] = false,
-			["xpAsBars"] = false,
 			["xpnumFormat"] = true,
+			["xpAsBars"] = false,
+			["xpCountdown"] = false,
 			["timer"] = true,
 			["xp"] = true,
-			["quests"] = true,
-			["bgs"] = true,
+			["rested"] = true,
+			["xpnum"] = true,
+		},
+		["tooltip"] = {
+			["showPetInfo"] = true,
+			["showExperience"] = true,
+			["showTimerInfo"] = true,
+			["showDetails"] = true,
+			["showBGInfo"] = true,
+			["showDungeonInfo"] = true,
 		},
 		["allowTextColor"] = true,
-		["textPattern"] = "default",
-		["showText"] = true,
-	},
-	["timer"] = {
-		["enabled"] = true,
-		["mode"] = 1,
-		["allowLevelFallback"] = true,
 	},
 	["messages"] = {
 		["playerFloating"] = true,
@@ -90,10 +85,10 @@ sConfig = {
 				1, -- [2]
 				0.7, -- [3]
 			},
-			["petKill"] = {
-				0.52, -- [1]
-				0.73, -- [2]
-				1, -- [3]
+			["playerLevel"] = {
+				0.35, -- [1]
+				1, -- [2]
+				0.35, -- [3]
 			},
 			["playerBattleground"] = {
 				1, -- [1]
@@ -110,117 +105,122 @@ sConfig = {
 				0.75, -- [2]
 				0.35, -- [3]
 			},
-			["playerLevel"] = {
-				0.35, -- [1]
-				1, -- [2]
-				0.35, -- [3]
+			["petKill"] = {
+				0.52, -- [1]
+				0.73, -- [2]
+				1, -- [3]
 			},
 		},
+	},
+	["timer"] = {
+		["enabled"] = true,
+		["mode"] = 1,
+		["allowLevelFallback"] = true,
 	},
 }
 sData = {
 	["player"] = {
 		["questList"] = {
-			420, -- [1]
+			85, -- [1]
 			85, -- [2]
-			850, -- [3]
+			85, -- [3]
 			85, -- [4]
 			420, -- [5]
-			850, -- [6]
-			76, -- [7]
-			210, -- [8]
-			76, -- [9]
-			625, -- [10]
-			850, -- [11]
-			850, -- [12]
-			80, -- [13]
-			210, -- [14]
-			66, -- [15]
-			775, -- [16]
+			85, -- [6]
+			850, -- [7]
+			85, -- [8]
+			420, -- [9]
+			850, -- [10]
+			76, -- [11]
+			210, -- [12]
+			76, -- [13]
+			625, -- [14]
+			850, -- [15]
+			850, -- [16]
 			80, -- [17]
-			58, -- [18]
-			775, -- [19]
-			440, -- [20]
-			390, -- [21]
-			850, -- [22]
-			875, -- [23]
-			850, -- [24]
-			875, -- [25]
-			85, -- [26]
-			66, -- [27]
-			85, -- [28]
-			850, -- [29]
-			850, -- [30]
-			625, -- [31]
-			850, -- [32]
-			85, -- [33]
-			80, -- [34]
-			85, -- [35]
-			85, -- [36]
-			61, -- [37]
-			775, -- [38]
-			775, -- [39]
-			390, -- [40]
+			210, -- [18]
+			66, -- [19]
+			775, -- [20]
+			80, -- [21]
+			58, -- [22]
+			775, -- [23]
+			440, -- [24]
+			390, -- [25]
+			850, -- [26]
+			875, -- [27]
+			850, -- [28]
+			875, -- [29]
+			85, -- [30]
+			66, -- [31]
+			85, -- [32]
+			850, -- [33]
+			850, -- [34]
+			625, -- [35]
+			850, -- [36]
+			85, -- [37]
+			80, -- [38]
+			85, -- [39]
+			85, -- [40]
 			61, -- [41]
-			80, -- [42]
-			80, -- [43]
-			500, -- [44]
-			500, -- [45]
-			700, -- [46]
-			700, -- [47]
+			775, -- [42]
+			775, -- [43]
+			390, -- [44]
+			61, -- [45]
+			80, -- [46]
+			80, -- [47]
 			500, -- [48]
-			975, -- [49]
-			49, -- [50]
-			61, -- [51]
-			700, -- [52]
-			250, -- [53]
+			500, -- [49]
+			700, -- [50]
+			700, -- [51]
+			500, -- [52]
+			975, -- [53]
 			49, -- [54]
-			625, -- [55]
-			320, -- [56]
-			430, -- [57]
-			110, -- [58]
-			52, -- [59]
-			220, -- [60]
-			45, -- [61]
-			550, -- [62]
-			625, -- [63]
-			65, -- [64]
-			430, -- [65]
-			430, -- [66]
-			270, -- [67]
-			52, -- [68]
-			110, -- [69]
-			40, -- [70]
+			61, -- [55]
+			700, -- [56]
+			250, -- [57]
+			49, -- [58]
+			625, -- [59]
+			320, -- [60]
+			430, -- [61]
+			110, -- [62]
+			52, -- [63]
+			220, -- [64]
+			45, -- [65]
+			550, -- [66]
+			625, -- [67]
+			65, -- [68]
+			430, -- [69]
+			430, -- [70]
 			270, -- [71]
-			430, -- [72]
-			270, -- [73]
+			52, -- [72]
+			110, -- [73]
 			40, -- [74]
-			40, -- [75]
-			40, -- [76]
-			65, -- [77]
-			140, -- [78]
-			65, -- [79]
-			25, -- [80]
-			140, -- [81]
-			340, -- [82]
-			140, -- [83]
-			140, -- [84]
+			270, -- [75]
+			430, -- [76]
+			270, -- [77]
+			40, -- [78]
+			40, -- [79]
+			40, -- [80]
+			65, -- [81]
+			140, -- [82]
+			65, -- [83]
+			25, -- [84]
 			140, -- [85]
-			5, -- [86]
-			50, -- [87]
+			340, -- [86]
+			140, -- [87]
 			140, -- [88]
-			5, -- [89]
-			10, -- [90]
-			40, -- [91]
-			52, -- [92]
-			40, -- [93]
-			85, -- [94]
-			85, -- [95]
-			85, -- [96]
-			675, -- [97]
-			460, -- [98]
-			900, -- [99]
-			900, -- [100]
+			140, -- [89]
+			5, -- [90]
+			50, -- [91]
+			140, -- [92]
+			5, -- [93]
+			10, -- [94]
+			40, -- [95]
+			52, -- [96]
+			40, -- [97]
+			85, -- [98]
+			85, -- [99]
+			85, -- [100]
 		},
 		["killAverage"] = 22,
 		["killList"] = {
@@ -626,14 +626,14 @@ sData = {
 			}, -- [100]
 		},
 		["timer"] = {
-			["start"] = 1451106465,
-			["total"] = 28066,
-			["xpPerSec"] = 2.78986083499006,
+			["start"] = 1451303255,
+			["total"] = 0,
+			["xpPerSec"] = 1.922567287784679,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {
 		},
-		["questAverage"] = 369.7,
+		["questAverage"] = 305,
 		["bgList"] = {
 		},
 	},

@@ -4,8 +4,9 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
@@ -16,55 +17,33 @@ AtlasLootDB = {
 		["Ellipsis - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
+		["Cryogenics - TrueWoW"] = {
+			["AtlasType"] = "Unknown",
+		},
 		["Shiftace - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Lichmydk - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Duglazerp - TrueWoW"] = {
 			["CraftingLink"] = 2,
-			["ItemSpam"] = true,
 			["AtlasType"] = "Unknown",
+			["ItemSpam"] = true,
+			["LastBoss"] = "REPMENU",
 		},
 		["Magistratus - TrueWoW"] = {
+			["EquipCompare"] = true,
+			["ItemSpam"] = true,
+			["CraftingLink"] = 2,
 			["AtlasType"] = "Unknown",
+			["LastBoss"] = "CRAFTINGMENU",
 		},
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Shiftace"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Magistratus"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Pastafarian"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Cryogenics"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -75,18 +54,57 @@ AtlasLootWishList = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Magistratus"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Cryogenics"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
+		["Lichmydk"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Duglazerp"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Pastafarian"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Shiftace"] = {
 		},
+		["Ellipsis"] = {
+		},
 		["Magistratus"] = {
 		},
-		["Pastafarian"] = {
-		},
 		["Cryogenics"] = {
+		},
+		["Lichmydk"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -138,7 +156,7 @@ AtlasLootWishList = {
 				},
 			}, -- [2]
 		},
-		["Ellipsis"] = {
+		["Pastafarian"] = {
 		},
 	},
 }
