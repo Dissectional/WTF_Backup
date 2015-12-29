@@ -3,8 +3,8 @@ LightHeadedDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -14,9 +14,9 @@ LightHeadedDB = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
 		["Shiftace - TrueWoW"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Lichmydk - TrueWoW"] = {
 		},

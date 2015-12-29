@@ -41,23 +41,23 @@ NxData = {
 		["MapMMDXO"] = 0,
 		["QMapWatchAreaAlpha"] = 4294967136,
 		["MMButWinMinimize"] = false,
-		["FontSH"] = 0,
+		["QWShowDist"] = true,
 		["PunkIconColor"] = 4286611711,
 		["MapMMButShowWorldMap"] = false,
 		["FontMenu"] = "Friz",
-		["DemoShown"] = true,
-		["PunkAreaColor"] = 537792255,
+		["SkinWinBdColor"] = 3435986943,
 		["FontM"] = "Friz",
+		["TitleOff"] = true,
 		["Version"] = 0.102,
 		["MapMMSquare"] = false,
 		["MapShowCExtra"] = true,
 		["PunkShowInNorthrend"] = false,
 		["MapShowPunks"] = true,
-		["QDetailTC"] = 537921791,
 		["QMapWatchC10"] = 2147418367,
-		["MapMMAboveIcons"] = false,
+		["QDetailTC"] = 537921791,
+		["MapShowPalsInCities"] = true,
 		["SkinWinSizedBgColor"] = 522133472,
-		["FontSSize"] = 10,
+		["QWBlizzModify"] = true,
 		["MapButRCtrl"] = "None",
 		["FontMapLocSize"] = 10,
 		["MapButRAlt"] = "None",
@@ -65,8 +65,8 @@ NxData = {
 		["OptsQuickVer"] = 5,
 		["QShowLinkExtra"] = true,
 		["HUDTButColor"] = 5,
-		["InfoToG"] = true,
 		["MapShowTrail"] = true,
+		["FontMapSize"] = 10,
 		["QWCompleteColor"] = 4291952895,
 		["QSnd5"] = true,
 		["CaptureEnable"] = true,
@@ -75,14 +75,14 @@ NxData = {
 		["MapIconScaleMin"] = -1,
 		["FontWatchH"] = 2,
 		["QWRemoveComplete"] = true,
-		["QWHideRaid"] = false,
+		["PunkNewLocalWarnChat"] = true,
 		["MapButMCtrl"] = "None",
 		["MapTrailTime"] = 90,
 		["FontWatchSize"] = 15,
 		["QAddTooltip"] = true,
-		["PunkNewLocalWarnChat"] = true,
+		["QWHideRaid"] = false,
 		["MapMMHideOnMax"] = false,
-		["QMapWatchC4"] = 4294902015,
+		["RouteGatherRadius"] = 60,
 		["QMapWatchAreaGfx"] = "Solid",
 		["QSnd3"] = true,
 		["MapIconGatherAtScale"] = 0.5,
@@ -91,73 +91,73 @@ NxData = {
 		["MapLocTipAnchorRel"] = "None",
 		["HUDTSoundOn"] = true,
 		["MapShowToolBar"] = true,
-		["MapMMDockIndoors"] = true,
+		["FontMSize"] = 12,
 		["MapBut4Alt"] = "Add Note",
-		["WarehouseAddTooltip"] = false,
-		["QSnd7"] = true,
+		["QMapWatchC12"] = 4278222847,
 		["QWHideDoneObj"] = false,
+		["MapMMButSpacing"] = 29,
 		["MapShowCCity"] = false,
-		["MapShowOthersInZ"] = true,
+		["ComNoGlobal"] = false,
 		["MapMaxCenter"] = true,
 		["MapIconPOIAlpha"] = 1,
 		["MapMMDockZoom"] = 0,
-		["MapLocTipAnchor"] = "TopRight",
+		["MenuCenterV"] = false,
 		["QWItemAlpha"] = 4294967206,
 		["MapMaxOverride"] = true,
 		["MapMMButShowCalendar"] = false,
 		["QAutoTurnIn"] = true,
-		["FontWatch"] = "Arial",
+		["QMapWatchC11"] = 8388607,
 		["HUDAYO"] = 0,
 		["MapZoneDrawCnt"] = 3,
-		["MapMMDockIScale"] = 1,
+		["QShowDailyReset"] = true,
 		["MapButLAlt"] = "None",
 		["MapDetailSize"] = 6,
 		["MapShowTitleXY"] = true,
-		["FontQuest"] = "Friz",
+		["MapTrailCnt"] = 100,
 		["QSndPlayCompleted"] = true,
-		["MapShowTitleName"] = true,
+		["QWAchTrack"] = true,
 		["HUDASize"] = 44,
 		["MapTrailDist"] = 2,
 		["QWLargeFont"] = false,
 		["IWinEnable"] = true,
 		["InfoToF"] = true,
-		["QMapWatchC3"] = 859045887,
+		["QSideBySide"] = true,
 		["QWAddNew"] = true,
-		["QWAchTrack"] = true,
+		["MapShowTitleName"] = true,
 		["SkinDef"] = false,
-		["QMapWatchColorCnt"] = 12,
+		["FontMap"] = "Friz",
 		["ComNoZone"] = false,
 		["QWAchZoneShow"] = true,
-		["PunkBGAreaColor"] = 604572159,
 		["PunkTWinTitle"] = "Punks:",
+		["MapMMShowOldNameplate"] = true,
 		["QSnd1"] = true,
 		["HUDTBut"] = false,
 		["QMapWatchAreaHoverColor"] = 4294967192,
-		["GuideVendorVMax"] = 60,
-		["QMapWatchC6"] = 4278255615,
-		["TeamTWinEnable"] = true,
+		["MapButM"] = "Show Player Zone",
+		["CameraForceMaxDist"] = true,
+		["EmuTomTom"] = true,
 		["MapRestoreScaleAfterTrack"] = true,
 		["SocialEnable"] = false,
-		["QPartyShare"] = true,
-		["CameraForceMaxDist"] = true,
+		["MapButMAlt"] = "None",
+		["MapMMButOwn"] = false,
 		["QWOMaxLen"] = 60,
 		["HUDAGfx"] = "Gloss",
-		["TeamTWinMaxButs"] = 15,
+		["TitleSoundOn"] = false,
 		["PunkAreaSize"] = 80,
 		["QWBGColor"] = 85,
-		["EmuTomTom"] = true,
-		["MapButMAlt"] = "None",
+		["TeamTWinEnable"] = true,
+		["QPartyShare"] = true,
 		["MapPlyrArrowSize"] = 32,
-		["IWinLock"] = true,
+		["LoginHideVer"] = true,
 		["MapMMDockSquare"] = true,
 		["MapBut4Ctrl"] = "None",
 		["FontMH"] = 0,
 		["QMapQuestGiversHighLevel"] = 80,
 		["QLevelsToLoad"] = 80,
-		["QMapWatchC9"] = 2131886079,
+		["RouteRecycle"] = false,
 		["MapMMMoveCapBars"] = true,
-		["MapMaxMouseIgnore"] = false,
 		["IWinListCol"] = 0,
+		["MapMaxMouseIgnore"] = false,
 		["QMapWatchC8"] = 16744447,
 		["MapMMButColumns"] = 1,
 		["QMapShowWatchAreas"] = true,
@@ -167,8 +167,8 @@ NxData = {
 		["MapMMDockOnMax"] = false,
 		["MapTopTooltip"] = false,
 		["SkinName"] = "ToolBlue",
-		["PunkMAreaColor"] = 409999615,
-		["MapMMNodeGD"] = 0.4,
+		["QHCheckCompleted"] = true,
+		["PunkBGAreaSize"] = 60,
 		["QWShowPerColor"] = false,
 		["MapShowPOI"] = true,
 		["QMapQuestGiversLowLevel"] = 80,
@@ -176,86 +176,87 @@ NxData = {
 		["MapMMIScale"] = 1,
 		["MapMaxRestoreHide"] = true,
 		["CaptureShare"] = true,
-		["PunkMAlertText"] = true,
-		["MapMMDockBottom"] = false,
+		["MapMMIndoorTogFullSize"] = false,
+		["QMapWatchC5"] = 16777215,
 		["WarehouseEnable"] = false,
 		["QMapWatchAreaTrackColor"] = 2964369536,
 		["MapShowNotes"] = true,
 		["FontQuestH"] = 1,
-		["QMapWatchC5"] = 16777215,
+		["MapMMDockBottom"] = false,
 		["QSnd8"] = true,
 		["PunkShowInSafeArea"] = false,
 		["HUDHideInBG"] = false,
-		["PunkNewLocalWarnSnd"] = false,
 		["MapShowTitleSpeed"] = true,
+		["PunkNewLocalWarnSnd"] = false,
 		["FontS"] = "Friz",
 		["QWFixedSize"] = false,
-		["MapMMIndoorTogFullSize"] = false,
+		["PunkMAlertText"] = true,
 		["QDetailScale"] = 1,
-		["PunkBGAreaSize"] = 60,
-		["QHCheckCompleted"] = true,
+		["MapMMNodeGD"] = 0.4,
+		["PunkMAreaColor"] = 409999615,
 		["QWOIncompleteColor"] = 3435973887,
 		["MapButLCtrl"] = "Goto",
 		["MapButR"] = "Menu",
 		["FontWarehouseIH"] = 6,
-		["RouteRecycle"] = false,
+		["QMapWatchC9"] = 2131886079,
 		["NXCleaned"] = true,
-		["LoginHideVer"] = true,
-		["TitleSoundOn"] = false,
+		["IWinLock"] = true,
+		["TeamTWinMaxButs"] = 15,
 		["HUDShowDir"] = true,
 		["FontMapLoc"] = "Friz",
 		["QWShowClose"] = false,
-		["MapMMButOwn"] = false,
-		["MapButM"] = "Show Player Zone",
+		["QMapWatchC6"] = 4278255615,
+		["GuideVendorVMax"] = 60,
 		["FontInfo"] = "Arial",
-		["FontMap"] = "Friz",
-		["MapMMShowOldNameplate"] = true,
+		["PunkBGAreaColor"] = 604572159,
+		["QMapWatchColorCnt"] = 12,
 		["PunkTWinMaxButs"] = 5,
-		["QSideBySide"] = true,
+		["QMapWatchC3"] = 859045887,
 		["MenuCenterH"] = false,
-		["MapTrailCnt"] = 100,
+		["FontQuest"] = "Friz",
 		["HUDHide"] = false,
-		["QShowDailyReset"] = true,
-		["QMapWatchC11"] = 8388607,
-		["MenuCenterV"] = false,
+		["MapMMDockIScale"] = 1,
+		["FontWatch"] = "Arial",
+		["MapLocTipAnchor"] = "TopRight",
 		["MapMMDockAlways"] = false,
-		["ComNoGlobal"] = false,
-		["MapMMButSpacing"] = 29,
-		["QMapWatchC12"] = 4278222847,
-		["FontMSize"] = 12,
-		["RouteGatherRadius"] = 60,
+		["MapShowOthersInZ"] = true,
+		["QSnd7"] = true,
+		["WarehouseAddTooltip"] = false,
+		["MapMMDockIndoors"] = true,
+		["QMapWatchC4"] = 4294902015,
 		["FontMenuSize"] = 10,
 		["ItemRequest"] = true,
 		["QSnd4"] = true,
 		["MapBut4"] = "Show Selected Zone",
 		["FontQuestSize"] = 12,
-		["FontMapSize"] = 10,
+		["InfoToG"] = true,
 		["MapRouteUse"] = true,
 		["QShowId"] = true,
 		["SkinWinFixedBgColor"] = 2155905152,
-		["QWBlizzModify"] = true,
+		["FontSSize"] = 10,
 		["HUDAXO"] = 0,
-		["MapShowPalsInCities"] = true,
+		["MapMMAboveIcons"] = false,
 		["QWIncompleteColor"] = 3214606591,
 		["QUseAltLKey"] = false,
-		["TitleOff"] = true,
-		["SkinWinBdColor"] = 3435986943,
-		["QWShowDist"] = true,
+		["PunkAreaColor"] = 537792255,
+		["DemoShown"] = true,
+		["FontSH"] = 0,
 	},
 	["NXTravel"] = {
 		["Version"] = 0.1,
 		["TaxiTime"] = {
 			["Silvermoon City#Tranquillien"] = 61.26800000000367,
+			["Dalaran#Argent Tournament Grounds"] = 115.1970000000001,
 			["Zul'Aman#Tranquillien"] = 49.05499999999302,
 			["Tranquillien#Silvermoon City"] = 69.22899999999208,
 		},
 	},
 	["NXGather"] = {
-		["Version"] = 0.5,
-		["Misc"] = {
-		},
 		["NXHerb"] = {
 		},
+		["Misc"] = {
+		},
+		["Version"] = 0.5,
 		["NXMine"] = {
 			[2012] = {
 				[3] = {
@@ -3780,8 +3781,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 54704,
@@ -3868,7 +3869,7 @@ NxData = {
 				[9282] = "C1451276715",
 				[9035] = "C1450616169",
 				[9067] = "C1450616169",
-				[9686] = "C1451296279",
+				[9140] = "C1451274289",
 				[8326] = "C1450616169",
 				[9690] = "C1451296194",
 				[8330] = "C1450616169",
@@ -3877,78 +3878,64 @@ NxData = {
 				[8336] = "C1450616169",
 				[9358] = "C1450616169",
 				[9360] = "C1450616169",
-				[8891] = "C1450616169",
-				[9877] = "C1451291660",
+				[9174] = "C1451259408",
+				[9166] = "C1451276273",
 				[8346] = "C1450616169",
-				[8895] = "C1450616169",
+				[9252] = "C1450616169",
 				[8350] = "C1450616169",
 				[8488] = "C1450616169",
 				[9119] = "C1450616169",
-				[8491] = "C1450616169",
+				[8338] = "C1450616169",
 				[10166] = "C1450616169",
 				[9256] = "C1450616169",
-				[9395] = "C1450616169",
+				[8490] = "C1450616169",
 				[8884] = "C1450616169",
-				[9145] = "C1451258116",
+				[8888] = "C1450616169",
 				[9133] = "C1450616169",
 				[9135] = "C1450616169",
-				[9149] = "C1451269700",
+				[9147] = "C1450616169",
 				[9139] = "C1451269779",
 				[8886] = "C1450616169",
-				[8888] = "C1450616169",
+				[9143] = "C1451259227",
 				[8890] = "C1450616169",
-				[9147] = "C1450616169",
+				[8892] = "C1450616169",
 				[8894] = "C1450616169",
 				[9151] = "C1451276131",
-				[9171] = "C1451269644",
+				[9677] = "C1451256636",
 				[9155] = "C1451264434",
 				[9157] = "C1451259282",
 				[9159] = "C1451276625",
 				[9161] = "C1451276973",
 				[9163] = "C1451274242",
-				[9175] = "C1451274249",
-				[9677] = "C1451256636",
+				[9685] = "C1451275609",
+				[9167] = "W0",
 				[9169] = "C1451280152",
 				[9681] = "C1451265422",
 				[9173] = "C1451274246",
-				[9685] = "C1451275609",
-				[8889] = "C1450616169",
+				[9175] = "C1451274249",
 				[8483] = "C1450616169",
+				[8889] = "C1450616169",
 				[9691] = "C1451296461",
-				[9167] = "W0",
-				[8892] = "C1450616169",
-				[9143] = "C1451259227",
+				[9171] = "C1451269644",
+				[9149] = "C1451269700",
+				[9145] = "C1451258116",
 				[9394] = "C1450616169",
-				[8490] = "C1450616169",
+				[9395] = "C1450616169",
 				[9193] = "C1451281840",
 				[9705] = "C1450616169",
-				[8338] = "C1450616169",
+				[8491] = "C1450616169",
 				[9199] = "C1451281835",
-				[9252] = "C1450616169",
-				[9166] = "C1451276273",
-				[9174] = "C1451259408",
+				[8895] = "C1450616169",
+				[9877] = "C1451291660",
+				[8891] = "C1450616169",
 				[9207] = "C1451276139",
-				[9140] = "C1451274289",
+				[9686] = "C1451296279",
 			},
-			["LvlTime"] = 1451294089,
-			["LXPMax"] = 20800,
+			["XPRest"] = 0,
+			["LTime"] = 1451288546,
 			["Honor"] = 0,
 			["Money"] = 920812,
-			["WareInv"] = {
-				"BackSlot^|cffffffff|Hitem:20991:0:0:0:0:0:0:0:13|h[Daylight Cloak]|h|r", -- [1]
-				"ChestSlot^|cffffffff|Hitem:22953:0:0:0:0:0:0:0:13|h[Fur Lined Chain Shirt]|h|r", -- [2]
-				"ShirtSlot^|cff9d9d9d|Hitem:24143:0:0:0:0:0:0:0:13|h[Initiate's Shirt]|h|r", -- [3]
-				"WristSlot^|cff1eff00|Hitem:28148:0:0:0:0:0:0:0:13|h[Bronze Mail Bracers]|h|r", -- [4]
-				"HandsSlot^|cffffffff|Hitem:23376:0:0:0:0:0:0:0:13|h[Gatewatcher's Chain Gloves]|h|r", -- [5]
-				"WaistSlot^|cffffffff|Hitem:23265:0:0:0:0:0:0:0:13|h[Blackened Chain Girdle]|h|r", -- [6]
-				"LegsSlot^|cff9d9d9d|Hitem:2654:0:0:0:0:0:0:0:13|h[Flimsy Chain Pants]|h|r", -- [7]
-				"FeetSlot^|cffffffff|Hitem:20997:0:0:0:0:0:0:0:13|h[Green Chain Boots]|h|r", -- [8]
-				"MainHandSlot^|cffffffff|Hitem:22958:0:0:0:0:0:0:0:13|h[Farstrider Sword]|h|r", -- [9]
-				"Bag0Slot^|cffffffff|Hitem:22571:0:0:0:0:0:0:0:13|h[Courier's Bag]|h|r", -- [10]
-				"Bag1Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [11]
-				"Bag2Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [12]
-				"Bag3Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [13]
-			},
+			["QHAskedGet"] = true,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -3959,12 +3946,12 @@ NxData = {
 					["W"] = 177.0000063600133,
 					["Y"] = 259.5998867780863,
 					["X"] = 6.565174988242524e-005,
-					["Hide"] = true,
+					["_X"] = 999999,
 					["_H"] = 40,
 					["H"] = 40,
 					["Lk"] = true,
 					["_Y"] = -0.17,
-					["_X"] = 999999,
+					["Hide"] = true,
 				},
 				["NxQuestList"] = {
 					["A"] = "TOPLEFT",
@@ -3976,10 +3963,10 @@ NxData = {
 					["Y"] = 162.0000170968099,
 					["H"] = 702.0000507433317,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["X"] = 460.8000385156933,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -3987,17 +3974,17 @@ NxData = {
 					["_S"] = 1.1,
 					["FI"] = 1,
 					["FO"] = 0,
-					["Hide"] = true,
+					["_X"] = 200000,
 					["W"] = 125,
-					["H"] = 92,
-					["Y"] = 215.9999994529021,
 					["X"] = -872.7272846639545,
-					["S"] = 1.1,
+					["Y"] = 215.9999994529021,
+					["H"] = 92,
+					["Lk"] = true,
 					["_H"] = 92,
 					["_A"] = "TOPRIGHT",
-					["Lk"] = true,
+					["S"] = 1.1,
 					["_Y"] = -0.2,
-					["_X"] = 200000,
+					["Hide"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -4007,10 +3994,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -4032,27 +4019,27 @@ NxData = {
 					["FI"] = 1,
 					["FO"] = 0,
 					["W"] = 135,
-					["Lk"] = true,
+					["Hide"] = true,
 					["Y"] = 215.9999994529021,
 					["H"] = 92,
 					["X"] = 909.0909210275909,
 					["_H"] = 92,
-					["S"] = 1.1,
 					["_X"] = 300040,
+					["S"] = 1.1,
 					["_Y"] = -0.2,
-					["Hide"] = true,
+					["Lk"] = true,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 480.000006565175,
-					["Y"] = 647.9999983587063,
-					["H"] = 107.9999997264511,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1440.000019695525,
-					["_Y"] = -0.6,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 288.000003939105,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -4067,18 +4054,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["H"] = 539.9999986322553,
-					["_H"] = -0.5,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
 					["Hide"] = true,
-					["X"] = 288.000003939105,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -4103,7 +4090,7 @@ NxData = {
 					["MaxW"] = 1535.999964985733,
 					["_X"] = -0.0001,
 					["A"] = "TOPLEFT",
-					["Hide"] = true,
+					["9008L"] = 1,
 					["MaxY"] = 107.999999726451,
 					["9001W"] = -0.19,
 					["9004W"] = -0.19,
@@ -4121,19 +4108,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9004L"] = 1,
+					["9002Y"] = -0.4,
 					["9004Y"] = -0.4,
-					["9009X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9008X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9009X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["9002Y"] = -0.4,
+					["9004L"] = 1,
 					["9008W"] = -0.19,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["9008L"] = 1,
+					["Hide"] = true,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -4143,10 +4130,10 @@ NxData = {
 					["Y"] = 107.9999997264511,
 					["H"] = 87,
 					["_H"] = 87,
-					["Hide"] = true,
+					["_X"] = -0.6,
 					["X"] = 1152.00001575642,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -4170,23 +4157,23 @@ NxData = {
 					["Y"] = 755.9999980851574,
 					["H"] = 64.79999983587062,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["X"] = 1344.00001838249,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 480.000006565175,
+					["Y"] = 647.9999983587063,
+					["H"] = 107.9999997264511,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["X"] = 1440.000019695525,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
 			["ArenaPts"] = 0,
@@ -4198,25 +4185,39 @@ NxData = {
 				["Scroll of Protection"] = "1^|cffffffff|Hitem:3013:0:0:0:0:0:0:0:13|h[Scroll of Protection]|h|r",
 				["Rotting Heart"] = "1^|cffffffff|Hitem:22641:0:0:0:0:0:0:0:13|h[Rotting Heart]|h|r",
 				["Linen Cloth"] = "35^|cffffffff|Hitem:2589:0:0:0:0:0:0:0:13|h[Linen Cloth]|h|r",
-				["Saltheril's Haven Party Invitation"] = "1^|cffffffff|Hitem:23500:0:0:0:0:0:0:0:13|h[Saltheril's Haven Party Invitation]|h|r",
-				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:13|h[Sunstrider Book Satchel]|h|r",
 				["Magister's Pouch"] = "1^|cffffffff|Hitem:22976:0:0:0:0:0:0:0:13|h[Magister's Pouch]|h|r",
+				["Plans: Copper Chain Vest"] = "1^|cff1eff00|Hitem:3609:0:0:0:0:0:0:0:13|h[Plans: Copper Chain Vest]|h|r",
+				["Copper Ore"] = "15^|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
 				["Lynx Meat"] = "5^|cffffffff|Hitem:27668:0:0:0:0:0:0:0:13|h[Lynx Meat]|h|r",
 				["Minor Healing Potion"] = "2^|cffffffff|Hitem:118:0:0:0:0:0:0:0:13|h[Minor Healing Potion]|h|r",
-				["Forest Mushroom Cap"] = "2^|cffffffff|Hitem:4604:0:0:0:0:0:0:0:13|h[Forest Mushroom Cap]|h|r",
-				["Copper Ore"] = "15^|cffffffff|Hitem:2770:0:0:0:0:0:0:0:13|h[Copper Ore]|h|r",
-				["Plans: Copper Chain Vest"] = "1^|cff1eff00|Hitem:3609:0:0:0:0:0:0:0:13|h[Plans: Copper Chain Vest]|h|r",
-				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:13|h[Hearthstone]|h|r",
-				["Rough Stone"] = "9^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:13|h[Rough Stone]|h|r",
+				["Mining Pick"] = "1^|cffffffff|Hitem:2901:0:0:0:0:0:0:0:13|h[Mining Pick]|h|r",
 				["Green Chain Belt"] = "1^|cffffffff|Hitem:24241:0:0:0:0:0:0:0:13|h[Green Chain Belt]|h|r",
 				["Beaded Cloak"] = "1^|cffffffff|Hitem:14088:0:0:0:0:0:0:0:13|h[Beaded Cloak]|h|r",
-				["Mining Pick"] = "1^|cffffffff|Hitem:2901:0:0:0:0:0:0:0:13|h[Mining Pick]|h|r",
+				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:13|h[Hearthstone]|h|r",
+				["Forest Mushroom Cap"] = "2^|cffffffff|Hitem:4604:0:0:0:0:0:0:0:13|h[Forest Mushroom Cap]|h|r",
+				["Rough Stone"] = "9^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:13|h[Rough Stone]|h|r",
+				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:13|h[Sunstrider Book Satchel]|h|r",
+				["Saltheril's Haven Party Invitation"] = "1^|cffffffff|Hitem:23500:0:0:0:0:0:0:0:13|h[Saltheril's Haven Party Invitation]|h|r",
 			},
 			["Version"] = 0.02,
 			["DurPercent"] = 100,
-			["QHAskedGet"] = true,
-			["LTime"] = 1451288546,
-			["XPRest"] = 0,
+			["WareInv"] = {
+				"BackSlot^|cffffffff|Hitem:20991:0:0:0:0:0:0:0:13|h[Daylight Cloak]|h|r", -- [1]
+				"ChestSlot^|cffffffff|Hitem:22953:0:0:0:0:0:0:0:13|h[Fur Lined Chain Shirt]|h|r", -- [2]
+				"ShirtSlot^|cff9d9d9d|Hitem:24143:0:0:0:0:0:0:0:13|h[Initiate's Shirt]|h|r", -- [3]
+				"WristSlot^|cff1eff00|Hitem:28148:0:0:0:0:0:0:0:13|h[Bronze Mail Bracers]|h|r", -- [4]
+				"HandsSlot^|cffffffff|Hitem:23376:0:0:0:0:0:0:0:13|h[Gatewatcher's Chain Gloves]|h|r", -- [5]
+				"WaistSlot^|cffffffff|Hitem:23265:0:0:0:0:0:0:0:13|h[Blackened Chain Girdle]|h|r", -- [6]
+				"LegsSlot^|cff9d9d9d|Hitem:2654:0:0:0:0:0:0:0:13|h[Flimsy Chain Pants]|h|r", -- [7]
+				"FeetSlot^|cffffffff|Hitem:20997:0:0:0:0:0:0:0:13|h[Green Chain Boots]|h|r", -- [8]
+				"MainHandSlot^|cffffffff|Hitem:22958:0:0:0:0:0:0:0:13|h[Farstrider Sword]|h|r", -- [9]
+				"Bag0Slot^|cffffffff|Hitem:22571:0:0:0:0:0:0:0:13|h[Courier's Bag]|h|r", -- [10]
+				"Bag1Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [11]
+				"Bag2Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [12]
+				"Bag3Slot^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:13|h[Linen Bag]|h|r", -- [13]
+			},
+			["LXPMax"] = 20800,
+			["LvlTime"] = 1451294089,
 			["Pos"] = "2012^48.624453^32.168621",
 		},
 		["TrueWoW.Ellipsis"] = {
@@ -4855,8 +4856,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 75028,
@@ -4877,31 +4878,31 @@ NxData = {
 				[9199] = "W0",
 				[9327] = "C1450613965",
 				[9076] = "C1450613965",
-				[9352] = "C1450613965",
-				[9214] = "W0",
-				[9207] = "C1450866257",
-				[9215] = "W0",
-				[8474] = "C1450613965",
-				[14036] = "W0",
-				[9066] = "C1450613965",
-				[5723] = "W0",
-				[8336] = "C1450613965",
+				[6981] = "W0",
 				[8325] = "C1450613965",
-				[8326] = "C1450613965",
+				[9207] = "C1450866257",
 				[8327] = "C1450613965",
-				[8473] = "C1450613965",
+				[8335] = "C1450613965",
+				[14036] = "W0",
+				[9193] = "W0",
+				[8463] = "C1450613965",
+				[14065] = "C1450613965",
+				[9214] = "W0",
+				[8326] = "C1450613965",
+				[9216] = "W0",
+				[8474] = "C1450613965",
 				[9218] = "W0",
 				[8330] = "C1450613965",
 				[9220] = "W0",
-				[9619] = "C1450613965",
-				[8477] = "C1450613965",
+				[8347] = "C1450613965",
+				[8476] = "C1450613965",
 				[8334] = "C1450613965",
-				[8335] = "C1450613965",
-				[8463] = "C1450613965",
-				[8350] = "C1450613965",
+				[5723] = "W0",
+				[8336] = "C1450613965",
+				[8488] = "C1450613965",
 				[8338] = "C1450613965",
-				[9139] = "C1450613965",
-				[8884] = "C1450613965",
+				[8490] = "C1450613965",
+				[9275] = "W0",
 				[8468] = "C1450613965",
 				[9358] = "C1450613965",
 				[9359] = "C1450613965",
@@ -4910,50 +4911,50 @@ NxData = {
 				[8346] = "C1450613965",
 				[9363] = "C1450613965",
 				[8475] = "C1450613965",
-				[8476] = "C1450613965",
-				[14065] = "C1450613965",
-				[8885] = "C1450613965",
+				[9619] = "C1450613965",
+				[8477] = "C1450613965",
+				[24882] = "C1450613965",
 				[8479] = "C1450613965",
 				[8480] = "C1450613965",
-				[9395] = "C1450613965",
+				[8886] = "C1450613965",
 				[8482] = "C1450613965",
 				[8483] = "C1450613965",
 				[9119] = "C1450613965",
-				[8889] = "C1450613965",
+				[9143] = "C1450613965",
 				[8486] = "C1450613965",
 				[8487] = "C1450613965",
-				[8488] = "C1450613965",
-				[8891] = "C1450613965",
-				[8490] = "C1450613965",
+				[9758] = "C1450613965",
+				[8890] = "C1450613965",
+				[9252] = "C1450613965",
 				[8491] = "C1450613965",
 				[9254] = "C1450613965",
 				[9255] = "C1450613965",
 				[9256] = "C1450613965",
 				[9130] = "C1450613965",
 				[9258] = "C1450613965",
-				[9276] = "C1450867559",
+				[8894] = "C1450613965",
 				[9133] = "C1450613965",
 				[9134] = "C1450613965",
 				[9135] = "C1450613965",
 				[10166] = "C1450613965",
 				[10788] = "C1450613965",
 				[9138] = "C1450613965",
-				[24882] = "C1450613965",
-				[8886] = "C1450613965",
+				[8885] = "C1450613965",
+				[9140] = "C1450613965",
 				[8887] = "C1450613965",
 				[8888] = "C1450613965",
-				[9143] = "C1450613965",
-				[8890] = "C1450613965",
+				[8889] = "C1450613965",
+				[9144] = "C1450613965",
 				[9145] = "C1450613965",
 				[8892] = "C1450613965",
 				[9147] = "C1450613965",
-				[8894] = "C1450613965",
+				[9529] = "C1450613965",
 				[8895] = "C1450613965",
 				[9150] = "C1450613965",
 				[9151] = "C1450866248",
 				[9152] = "C1450613965",
-				[9282] = "C1450866511",
-				[9162] = "C1450867600",
+				[9274] = "C1450613965",
+				[9146] = "C1450613965",
 				[9155] = "C1450613965",
 				[9156] = "W0",
 				[9157] = "C1450613965",
@@ -4963,46 +4964,46 @@ NxData = {
 				[9161] = "C1450866906",
 				[9035] = "C1450613965",
 				[9163] = "C1450613965",
-				[9253] = "C1450613965",
-				[9394] = "C1450613965",
+				[9148] = "C1450613965",
+				[8345] = "C1450613965",
 				[9166] = "C1450866350",
 				[9149] = "C1450613965",
-				[9173] = "C1450613965",
-				[9169] = "W0",
-				[1487] = "W0",
-				[9171] = "C1450613965",
-				[9172] = "W0",
 				[5761] = "C1450613965",
+				[9169] = "W0",
+				[9171] = "C1450613965",
+				[1487] = "W0",
+				[9172] = "W0",
+				[9173] = "C1450613965",
 				[9174] = "C1450613965",
-				[8345] = "C1450613965",
-				[9148] = "C1450613965",
-				[9146] = "C1450613965",
-				[9274] = "C1450613965",
+				[9394] = "C1450613965",
+				[9253] = "C1450613965",
+				[9162] = "C1450867600",
+				[9282] = "C1450866511",
 				[9277] = "W0",
-				[9275] = "W0",
-				[9144] = "C1450613965",
+				[9276] = "C1450867559",
+				[8891] = "C1450613965",
 				[962] = "W0",
-				[9140] = "C1450613965",
+				[9395] = "C1450613965",
 				[10073] = "C1450613965",
-				[9529] = "C1450613965",
-				[9252] = "C1450613965",
-				[9758] = "C1450613965",
+				[8884] = "C1450613965",
+				[9139] = "C1450613965",
+				[8350] = "C1450613965",
 				[9315] = "C1450613965",
 				[9062] = "C1450613965",
-				[8347] = "C1450613965",
+				[8473] = "C1450613965",
 				[9064] = "C1450613965",
 				[9192] = "C1450613965",
-				[9193] = "W0",
+				[9066] = "C1450613965",
 				[9067] = "C1450613965",
-				[9216] = "W0",
+				[9215] = "W0",
 				[9704] = "C1450613965",
-				[6981] = "W0",
+				[9352] = "C1450613965",
 			},
-			["LvlTime"] = 1451257481,
-			["Level"] = 18,
+			["XPRest"] = 26700,
+			["LXPMax"] = 17800,
 			["Honor"] = 0,
 			["Money"] = 62624,
-			["QHAskedGet"] = true,
+			["LTime"] = 1451257481,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -5014,10 +5015,180 @@ NxData = {
 					["Y"] = 259.5998867780863,
 					["H"] = 40,
 					["_H"] = 40,
-					["_X"] = 999999,
+					["Lk"] = true,
 					["X"] = 6.565174988242524e-005,
 					["_Y"] = -0.17,
+					["_X"] = 999999,
+				},
+				["NxGuide1"] = {
+					["_W"] = -0.63,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 288.000003939105,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["NxQuestList"] = {
+					["A"] = "CENTER",
+					["_W"] = -0.52,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 1113.400106178028,
+					["Y"] = -26.99990801916293,
+					["H"] = 702.0000507433317,
+					["_H"] = -0.65,
+					["_X"] = -0.24,
+					["X"] = 57.50010473505724,
+					["_Y"] = -0.15,
+					["Hide"] = true,
+				},
+				["NxInfo1"] = {
+					["A"] = "TOPRIGHT",
+					["_W"] = 125,
+					["_S"] = 1.1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["_X"] = 200000,
+					["W"] = 125,
+					["X"] = -872.7272846639545,
+					["Y"] = 215.9999994529021,
+					["H"] = 92,
 					["Lk"] = true,
+					["_H"] = 92,
+					["_A"] = "TOPRIGHT",
+					["S"] = 1.1,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["NxDD"] = {
+					["_W"] = 207,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 207,
+					["Y"] = 0,
+					["H"] = 209,
+					["_H"] = 209,
+					["Hide"] = true,
+					["X"] = 0,
+					["_Y"] = 0,
+					["_X"] = 0,
+				},
+				["NxQuestWatch"] = {
+					["A"] = "RIGHT",
+					["_W"] = -0.2,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.15,
+					["W"] = 303.9999551379709,
+					["Y"] = -196.499994152891,
+					["H"] = 40,
+					["_H"] = -0.1,
+					["X"] = -41.00030562257315,
+					["_Y"] = -0.35,
+					["_X"] = -0.8,
+				},
+				["NxInfo2"] = {
+					["_W"] = 135,
+					["_S"] = 1.1,
+					["FI"] = 1,
+					["FO"] = 0,
+					["W"] = 135,
+					["_X"] = 300040,
+					["Y"] = 215.9999994529021,
+					["H"] = 92,
+					["X"] = 909.0909210275909,
+					["_H"] = 92,
+					["Lk"] = true,
+					["S"] = 1.1,
+					["_Y"] = -0.2,
+					["Hide"] = true,
+				},
+				["NxOpts"] = {
+					["A"] = "TOP",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 960.00001313035,
+					["Y"] = 64.00001750713331,
+					["H"] = 697.0000134722861,
+					["_H"] = -0.7,
+					["X"] = 2.999956710877421,
+					["_Y"] = -0.1,
+					["_X"] = -0.25,
+				},
+				["NxHelp"] = {
+					["_W"] = -0.5,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 960.00001313035,
+					["Y"] = 107.9999997264511,
+					["X"] = 480.000006565175,
+					["_H"] = -0.7,
+					["H"] = 755.9999980851574,
+					["_Y"] = -0.1,
+					["_X"] = -0.25,
+				},
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
+					["Hide"] = true,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
+				},
+				["Version"] = 0.31,
+				["NxCombat"] = {
+					["_W"] = -0.3,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 576.00000787821,
+					["Y"] = 755.9999980851574,
+					["H"] = 64.79999983587062,
+					["_H"] = -0.06,
+					["Hide"] = true,
+					["X"] = 1344.00001838249,
+					["_Y"] = -0.7,
+					["_X"] = -0.7,
+				},
+				["NxPunkHUD"] = {
+					["_W"] = 135,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 135,
+					["Y"] = 107.9999997264511,
+					["H"] = 87,
+					["_H"] = 87,
+					["_X"] = -0.6,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.1,
+					["Hide"] = true,
+				},
+				["NxSocial"] = {
+					["A"] = "CENTER",
+					["_W"] = -0.5,
+					["S"] = 1,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 960.00001313035,
+					["Y"] = 0,
+					["H"] = 691.1999702378733,
+					["_H"] = -0.64,
+					["_X"] = -0.25,
+					["X"] = 0,
+					["_Y"] = -0.18,
+					["Hide"] = true,
 				},
 				["NxMap1"] = {
 					["9002L"] = 1,
@@ -5041,14 +5212,14 @@ NxData = {
 					["9008Y"] = -0.4,
 					["9004L"] = 1,
 					["A"] = "TOPLEFT",
-					["FI"] = 1,
+					["MaxL"] = 2,
 					["9001Y"] = -0.4,
 					["9002Y"] = -0.4,
 					["9003Y"] = -0.4,
 					["9004Y"] = -0.4,
 					["_X"] = -0.0001,
 					["9009H"] = -0.3,
-					["MaxW"] = 1535.999964985733,
+					["9001W"] = -0.19,
 					["9004H"] = -0.3,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
@@ -5059,135 +5230,20 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9008W"] = -0.19,
+					["H"] = 230.4000192578466,
 					["9003W"] = -0.19,
-					["9008X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9009X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9008X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["H"] = 230.4000192578466,
-					["9001W"] = -0.19,
+					["9008W"] = -0.19,
+					["MaxW"] = 1535.999964985733,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["MaxL"] = 2,
-				},
-				["NxQuestList"] = {
-					["A"] = "CENTER",
-					["_W"] = -0.52,
-					["S"] = 1,
 					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1113.400106178028,
-					["Y"] = -26.99990801916293,
-					["H"] = 702.0000507433317,
-					["_H"] = -0.65,
-					["Hide"] = true,
-					["X"] = 57.50010473505724,
-					["_Y"] = -0.15,
-					["_X"] = -0.24,
 				},
-				["NxInfo1"] = {
-					["A"] = "TOPRIGHT",
-					["_W"] = 125,
-					["_S"] = 1.1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["Hide"] = true,
-					["W"] = 125,
-					["H"] = 92,
-					["Y"] = 215.9999994529021,
-					["X"] = -872.7272846639545,
-					["S"] = 1.1,
-					["_H"] = 92,
-					["_A"] = "TOPRIGHT",
-					["Lk"] = true,
-					["_Y"] = -0.2,
-					["_X"] = 200000,
-				},
-				["NxDD"] = {
-					["_W"] = 207,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 207,
-					["Y"] = 0,
-					["H"] = 209,
-					["_H"] = 209,
-					["_X"] = 0,
-					["X"] = 0,
-					["_Y"] = 0,
-					["Hide"] = true,
-				},
-				["NxQuestWatch"] = {
-					["A"] = "RIGHT",
-					["_W"] = -0.2,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.15,
-					["W"] = 303.9999551379709,
-					["Y"] = -196.499994152891,
-					["H"] = 40,
-					["_H"] = -0.1,
-					["X"] = -41.00030562257315,
-					["_Y"] = -0.35,
-					["_X"] = -0.8,
-				},
-				["NxInfo2"] = {
-					["_W"] = 135,
-					["_S"] = 1.1,
-					["FI"] = 1,
-					["FO"] = 0,
-					["W"] = 135,
-					["Hide"] = true,
-					["Y"] = 215.9999994529021,
-					["H"] = 92,
-					["X"] = 909.0909210275909,
-					["_H"] = 92,
-					["S"] = 1.1,
-					["Lk"] = true,
-					["_Y"] = -0.2,
-					["_X"] = 300040,
-				},
-				["NxCombat"] = {
-					["_W"] = -0.3,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 576.00000787821,
-					["Y"] = 755.9999980851574,
-					["H"] = 64.79999983587062,
-					["_H"] = -0.06,
-					["_X"] = -0.7,
-					["X"] = 1344.00001838249,
-					["_Y"] = -0.7,
-					["Hide"] = true,
-				},
-				["NxHelp"] = {
-					["_W"] = -0.5,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 960.00001313035,
-					["Y"] = 107.9999997264511,
-					["X"] = 480.000006565175,
-					["_H"] = -0.7,
-					["H"] = 755.9999980851574,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["H"] = 539.9999986322553,
-					["_H"] = -0.5,
-					["Hide"] = true,
-					["X"] = 288.000003939105,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
-				},
-				["Version"] = 0.31,
 				["NxEventsList"] = {
 					["_W"] = -0.25,
 					["FI"] = 1,
@@ -5196,65 +5252,10 @@ NxData = {
 					["Y"] = 647.9999983587063,
 					["H"] = 107.9999997264511,
 					["_H"] = -0.1,
-					["_X"] = -0.75,
+					["Hide"] = true,
 					["X"] = 1440.000019695525,
 					["_Y"] = -0.6,
-					["Hide"] = true,
-				},
-				["NxPunkHUD"] = {
-					["_W"] = 135,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 135,
-					["Y"] = 107.9999997264511,
-					["H"] = 87,
-					["_H"] = 87,
-					["Hide"] = true,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.1,
-					["_X"] = -0.6,
-				},
-				["NxOpts"] = {
-					["A"] = "TOP",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 960.00001313035,
-					["Y"] = 64.00001750713331,
-					["H"] = 697.0000134722861,
-					["_H"] = -0.7,
-					["X"] = 2.999956710877421,
-					["_Y"] = -0.1,
-					["_X"] = -0.25,
-				},
-				["NxSocial"] = {
-					["A"] = "CENTER",
-					["_W"] = -0.5,
-					["S"] = 1,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 960.00001313035,
-					["Y"] = 0,
-					["H"] = 691.1999702378733,
-					["_H"] = -0.64,
-					["Hide"] = true,
-					["X"] = 0,
-					["_Y"] = -0.18,
-					["_X"] = -0.25,
-				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.3,
-					["Hide"] = true,
+					["_X"] = -0.75,
 				},
 			},
 			["LMoney"] = 62624,
@@ -5265,33 +5266,33 @@ NxData = {
 				["Soul Shard"] = "2^|cffffffff|Hitem:6265:0:0:0:0:0:0:0:18|h[Soul Shard]|h|r",
 				["Serpentbloom"] = "10^|cffffffff|Hitem:5339:0:0:0:0:0:0:0:18|h[Serpentbloom]|h|r",
 				["Ruined Leather Scraps"] = "12^|cffffffff|Hitem:2934:0:0:0:0:0:0:0:18|h[Ruined Leather Scraps]|h|r",
-				["Strong Fishing Pole"] = "1^|cffffffff|Hitem:6365:0:0:0:0:0:0:0:18|h[Strong Fishing Pole]|h|r",
-				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:18|h[Sunstrider Book Satchel]|h|r",
+				["Red-speckled Mushroom"] = "2^|cffffffff|Hitem:4605:0:0:0:0:0:0:0:18|h[Red-speckled Mushroom]|h|r",
+				["Crunchy Spider Leg"] = "2^|cffffffff|Hitem:22644:0:0:0:0:0:0:0:18|h[Crunchy Spider Leg]|h|r",
 				["Rotting Heart"] = "3^|cffffffff|Hitem:22641:0:0:0:0:0:0:0:18|h[Rotting Heart]|h|r",
-				["Linen Bag"] = "3^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
+				["Glowing Shard"] = "1^|cffffffff|Hitem:10441:0:0:0:0:0:0:0:18|h[Glowing Shard]|h|r",
 				["Linen Cloth"] = "39^|cffffffff|Hitem:2589:0:0:0:0:0:0:0:18|h[Linen Cloth]|h|r",
 				["Lesser Magic Essence"] = "1^|cff1eff00|Hitem:10938:0:0:0:0:0:0:0:18|h[Lesser Magic Essence]|h|r",
-				["Greater Magic Essence"] = "4^|cff1eff00|Hitem:10939:0:0:0:0:0:0:0:18|h[Greater Magic Essence]|h|r",
+				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:18|h[Hearthstone]|h|r",
 				["Minor Mana Potion"] = "3^|cffffffff|Hitem:2455:0:0:0:0:0:0:0:18|h[Minor Mana Potion]|h|r",
 				["Crunchy Spider Surprise"] = "2^|cffffffff|Hitem:22645:0:0:0:0:0:0:0:18|h[Crunchy Spider Surprise]|h|r",
 				["Underlight Ore"] = "6^|cffffffff|Hitem:22634:0:0:0:0:0:0:0:18|h[Underlight Ore]|h|r",
 				["Blazing Torch"] = "1^|cffffffff|Hitem:22755:0:0:0:0:0:0:0:18|h[Blazing Torch]|h|r",
 				["Runed Copper Rod"] = "1^|cffffffff|Hitem:6218:0:0:0:0:0:0:0:18|h[Runed Copper Rod]|h|r",
-				["Strange Dust"] = "1^|cffffffff|Hitem:10940:0:0:0:0:0:0:0:18|h[Strange Dust]|h|r",
-				["Forest Mushroom Cap"] = "2^|cffffffff|Hitem:4604:0:0:0:0:0:0:0:18|h[Forest Mushroom Cap]|h|r",
 				["Linen Bandage"] = "10^|cffffffff|Hitem:1251:0:0:0:0:0:0:0:18|h[Linen Bandage]|h|r",
+				["Forest Mushroom Cap"] = "2^|cffffffff|Hitem:4604:0:0:0:0:0:0:0:18|h[Forest Mushroom Cap]|h|r",
+				["Strange Dust"] = "1^|cffffffff|Hitem:10940:0:0:0:0:0:0:0:18|h[Strange Dust]|h|r",
 				["Magister's Pouch"] = "1^|cffffffff|Hitem:22976:0:0:0:0:0:0:0:18|h[Magister's Pouch]|h|r",
-				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:18|h[Hearthstone]|h|r",
+				["Greater Magic Essence"] = "4^|cff1eff00|Hitem:10939:0:0:0:0:0:0:0:18|h[Greater Magic Essence]|h|r",
 				["Night Elf Plans"] = "1^|cffffffff|Hitem:22594:0:0:0:0:0:0:0:18|h[Night Elf Plans]|h|r",
-				["Glowing Shard"] = "1^|cffffffff|Hitem:10441:0:0:0:0:0:0:0:18|h[Glowing Shard]|h|r",
-				["Crunchy Spider Leg"] = "2^|cffffffff|Hitem:22644:0:0:0:0:0:0:0:18|h[Crunchy Spider Leg]|h|r",
-				["Red-speckled Mushroom"] = "2^|cffffffff|Hitem:4605:0:0:0:0:0:0:0:18|h[Red-speckled Mushroom]|h|r",
+				["Linen Bag"] = "3^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
+				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:18|h[Sunstrider Book Satchel]|h|r",
+				["Strong Fishing Pole"] = "1^|cffffffff|Hitem:6365:0:0:0:0:0:0:0:18|h[Strong Fishing Pole]|h|r",
 			},
 			["Version"] = 0.02,
 			["DurPercent"] = 91.28440366972477,
-			["LTime"] = 1451257481,
-			["LXPMax"] = 17800,
-			["XPRest"] = 26700,
+			["QHAskedGet"] = true,
+			["Level"] = 18,
+			["LvlTime"] = 1451257481,
 			["Pos"] = "2012^48.851532^32.375252",
 		},
 		["TrueWoW.Duglazerp"] = {
@@ -5299,7 +5300,7 @@ NxData = {
 				["Design: Sovereign Twilight Opal"] = "1^|cff0070dd|Hitem:41784:0:0:0:0:0:0:0:80|h[Design: Sovereign Twilight Opal]|h|r",
 				["Crystallized Water"] = "1^|cffffffff|Hitem:37705:0:0:0:0:0:0:0:80|h[Crystallized Water]|h|r",
 				["Frostweave Cloth"] = "170^|cffffffff|Hitem:33470:0:0:0:0:0:0:0:80|h[Frostweave Cloth]|h|r",
-				["Rough Stone"] = "8^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:80|h[Rough Stone]|h|r",
+				["Manual: Heavy Frostweave Bandage"] = "1^|cff1eff00|Hitem:39152:0:0:0:0:0:0:0:80|h[Manual: Heavy Frostweave Bandage]|h|r",
 				["Shadowgem"] = "6^|cff1eff00|Hitem:1210:0:0:0:0:0:0:0:80|h[Shadowgem]|h|r",
 				["Design: Thundering Skyflare Diamond"] = "1^|cff0070dd|Hitem:41787:0:0:0:0:0:0:0:80|h[Design: Thundering Skyflare Diamond]|h|r",
 				["Red Winter Hat"] = "1^|cff1eff00|Hitem:21524:0:0:0:0:0:0:0:80|h[Red Winter Hat]|h|r",
@@ -5309,14 +5310,14 @@ NxData = {
 				["Malachite"] = "6^|cff1eff00|Hitem:774:0:0:0:0:0:0:0:80|h[Malachite]|h|r",
 				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:80|h[Sunstrider Book Satchel]|h|r",
 				["Tigerseye"] = "3^|cff1eff00|Hitem:818:0:0:0:0:0:0:0:80|h[Tigerseye]|h|r",
-				["Manual: Heavy Frostweave Bandage"] = "1^|cff1eff00|Hitem:39152:0:0:0:0:0:0:0:80|h[Manual: Heavy Frostweave Bandage]|h|r",
+				["Rough Stone"] = "8^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:80|h[Rough Stone]|h|r",
 			},
 			["WareMail"] = {
 				["Pattern: Fine Leather Boots"] = "1^|cff1eff00|Hitem:2406:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Boots]|h|r",
 				["Malachite"] = "11^|cff1eff00|Hitem:774:0:0:0:0:0:0:0:80|h[Malachite]|h|r",
-				["Shadowgem"] = "4^|cff1eff00|Hitem:1210:0:0:0:0:0:0:0:80|h[Shadowgem]|h|r",
-				["Tigerseye"] = "4^|cff1eff00|Hitem:818:0:0:0:0:0:0:0:80|h[Tigerseye]|h|r",
 				["Pattern: Fine Leather Gloves"] = "1^|cff1eff00|Hitem:2408:0:0:0:0:0:0:0:80|h[Pattern: Fine Leather Gloves]|h|r",
+				["Tigerseye"] = "4^|cff1eff00|Hitem:818:0:0:0:0:0:0:0:80|h[Tigerseye]|h|r",
+				["Shadowgem"] = "4^|cff1eff00|Hitem:1210:0:0:0:0:0:0:0:80|h[Shadowgem]|h|r",
 			},
 			["ArenaPts"] = 0,
 			["WareInv"] = {
@@ -5362,7 +5363,7 @@ NxData = {
 			},
 			["LXP"] = 0,
 			["LHonor"] = 0,
-			["DurLowPercent"] = 78.88888888888889,
+			["DurLowPercent"] = 97.77777777777777,
 			["Opts"] = {
 				["MapShowGatherH"] = false,
 				["QMapShowQuestGivers3"] = 2,
@@ -5373,373 +5374,13 @@ NxData = {
 			["E"] = {
 				["Info"] = {
 					{
-						["NXX"] = 48.70648980140686,
-						["NXY"] = 40.56629836559296,
-						["NXName"] = "Entered",
-						["NXTime"] = 1450996855.000003,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [1]
-					{
-						["NXX"] = 65.89356064796448,
-						["NXY"] = 38.31750154495239,
-						["NXName"] = "Entered",
-						["NXTime"] = 1450996895.000004,
-						["T"] = "I",
-						["NXMapId"] = 14140,
-					}, -- [2]
-					{
-						["NXX"] = 49.00240004062653,
-						["NXY"] = 40.83674848079681,
-						["NXName"] = "Entered",
-						["NXTime"] = 1450997804.000007,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [3]
-					{
-						["NXX"] = 339.1652882099152,
-						["NXY"] = -5300.131864845753,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451022290.000001,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [4]
-					{
-						["NXX"] = 65.89356064796448,
-						["NXY"] = 38.31750154495239,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451023122.000002,
-						["T"] = "I",
-						["NXMapId"] = 14140,
-					}, -- [5]
-					{
-						["NXX"] = 48.56358468532562,
-						["NXY"] = 39.14663195610046,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451023182.000003,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [6]
-					{
-						["NXX"] = 65.89356064796448,
-						["NXY"] = 38.31750154495239,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451023217.000004,
-						["T"] = "I",
-						["NXMapId"] = 14140,
-					}, -- [7]
-					{
-						["NXX"] = 48.53315651416779,
-						["NXY"] = 39.12722766399384,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451024287.000005,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [8]
-					{
-						["NXX"] = 65.89356064796448,
-						["NXY"] = 38.31750154495239,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451024291.000006,
-						["T"] = "I",
-						["NXMapId"] = 14140,
-					}, -- [9]
-					{
-						["NXX"] = 48.53315651416779,
-						["NXY"] = 39.12722766399384,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451024502.000007,
-						["T"] = "I",
-						["NXMapId"] = 4003,
-					}, -- [10]
-					{
-						["NXX"] = -1789.543540842013,
-						["NXY"] = 4500.803457353176,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451025529.000001,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [11]
-					{
-						["NXX"] = 20.9583193063736,
-						["NXY"] = 64.31757211685181,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026287.000002,
-						["T"] = "I",
-						["NXMapId"] = 14134,
-					}, -- [12]
-					{
-						["NXX"] = 40.29433131217957,
-						["NXY"] = 57.45724439620972,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026800.000002,
-						["T"] = "I",
-						["NXMapId"] = 4004,
-					}, -- [13]
-					{
-						["NXX"] = 20.9583193063736,
-						["NXY"] = 64.31757211685181,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026819.000003,
-						["T"] = "I",
-						["NXMapId"] = 14134,
-					}, -- [14]
-					{
-						["NXX"] = 46.12040519714356,
-						["NXY"] = 57.10945129394531,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026836.000004,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [15]
-					{
-						["NXX"] = -2017.113173524738,
-						["NXY"] = 358.7782381558416,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026863.000001,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [16]
-					{
-						["NXX"] = 20.9583193063736,
-						["NXY"] = 64.31757211685181,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451026867.000002,
-						["T"] = "I",
-						["NXMapId"] = 14134,
-					}, -- [17]
-					{
-						["NXX"] = 46.11782133579254,
-						["NXY"] = 57.11504220962524,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451027439.000007,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [18]
-					{
-						["NXX"] = -2017.060069503784,
-						["NXY"] = 358.5181814277173,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451028349.000001,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [19]
-					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451028386.000001,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [20]
-					{
-						["NXX"] = 57.66184329986572,
-						["NXY"] = 46.18058800697327,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451030010.000002,
-						["T"] = "I",
-						["NXMapId"] = 14141,
-					}, -- [21]
-					{
-						["NXX"] = 46.1408406496048,
-						["NXY"] = 57.25435614585877,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451031319.000119,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [22]
-					{
-						["NXX"] = 34.81388986110687,
-						["NXY"] = 36.29704415798187,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451031322.00012,
-						["T"] = "I",
-						["NXMapId"] = 14141,
-					}, -- [23]
-					{
-						["NXX"] = 46.1408406496048,
-						["NXY"] = 57.25435614585877,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451031701.000121,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [24]
-					{
-						["NXX"] = 34.81388986110687,
-						["NXY"] = 36.29704415798187,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451031703.000122,
-						["T"] = "I",
-						["NXMapId"] = 14141,
-					}, -- [25]
-					{
-						["NXX"] = 46.1408406496048,
-						["NXY"] = 57.25435614585877,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451031912.000123,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [26]
-					{
-						["NXX"] = 37.91232407093048,
-						["NXY"] = 79.04148697853088,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451032157.000124,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [27]
-					{
-						["NXX"] = 37.45017349720001,
-						["NXY"] = 32.884481549263,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451036461.000001,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [28]
-					{
-						["NXX"] = 23.93417656421661,
-						["NXY"] = 49.79754090309143,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451036723.000002,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [29]
-					{
-						["NXX"] = 34.67582166194916,
-						["NXY"] = 31.90824389457703,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451036743.000003,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [30]
-					{
-						["NXX"] = 24.02136767302599,
-						["NXY"] = 74.39588554277808,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451036743.000004,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [31]
-					{
-						["NXX"] = 37.78116405010223,
-						["NXY"] = 32.89540112018585,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451036799.000005,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [32]
-					{
-						["NXX"] = 23.8924652338028,
-						["NXY"] = 47.01330065727234,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037267.000006,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [33]
-					{
-						["NXX"] = 33.25394093990326,
-						["NXY"] = 24.14724081754684,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037275.000007,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [34]
-					{
-						["NXX"] = 11.12038716673851,
-						["NXY"] = 27.30953991413117,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037296.000008,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [35]
-					{
-						["NXX"] = 32.07794725894928,
-						["NXY"] = 22.26245701313019,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037296.000009,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [36]
-					{
-						["NXX"] = 11.16326525807381,
-						["NXY"] = 24.40944612026215,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037297.00001,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [37]
-					{
-						["NXX"] = 33.39342176914215,
-						["NXY"] = 18.68247240781784,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037308.000011,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [38]
-					{
-						["NXX"] = 36.87964081764221,
-						["NXY"] = 3.384710103273392,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037323.000012,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [39]
-					{
-						["NXX"] = 35.42899191379547,
-						["NXY"] = 17.33538508415222,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037406.000013,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [40]
-					{
-						["NXX"] = 36.78135275840759,
-						["NXY"] = 4.966022074222565,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037413.000014,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [41]
-					{
-						["NXX"] = 40.35136997699738,
-						["NXY"] = 19.29323822259903,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037427.000015,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [42]
-					{
-						["NXX"] = 52.69233584403992,
-						["NXY"] = 13.02446126937866,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037428.000016,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [43]
-					{
-						["NXX"] = 41.99323356151581,
-						["NXY"] = 20.27427852153778,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037434.000017,
-						["T"] = "I",
-						["NXMapId"] = 1022,
-					}, -- [44]
-					{
-						["NXX"] = 60.30973196029663,
-						["NXY"] = 16.73431396484375,
-						["NXName"] = "Entered",
-						["NXTime"] = 1451037435.000018,
-						["T"] = "I",
-						["NXMapId"] = 1013,
-					}, -- [45]
-					{
 						["NXX"] = 43.11919212341309,
 						["NXY"] = 19.70651149749756,
 						["NXName"] = "Entered",
 						["NXTime"] = 1451037439.000019,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [46]
+					}, -- [1]
 					{
 						["NXX"] = 70.59058547019959,
 						["NXY"] = 11.96016892790794,
@@ -5747,7 +5388,7 @@ NxData = {
 						["NXTime"] = 1451037460.00002,
 						["T"] = "I",
 						["NXMapId"] = 1013,
-					}, -- [47]
+					}, -- [2]
 					{
 						["NXX"] = 42.12024807929993,
 						["NXY"] = 20.27702480554581,
@@ -5755,7 +5396,7 @@ NxData = {
 						["NXTime"] = 1451038014.000021,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [48]
+					}, -- [3]
 					{
 						["NXX"] = 71.96323275566101,
 						["NXY"] = 46.1405873298645,
@@ -5763,7 +5404,7 @@ NxData = {
 						["NXTime"] = 1451038494.000022,
 						["T"] = "I",
 						["NXMapId"] = 1013,
-					}, -- [49]
+					}, -- [4]
 					{
 						["NXX"] = 69.70823407173157,
 						["NXY"] = 60.52112579345703,
@@ -5771,7 +5412,7 @@ NxData = {
 						["NXTime"] = 1451038966.000023,
 						["T"] = "I",
 						["NXMapId"] = 1019,
-					}, -- [50]
+					}, -- [5]
 					{
 						["NXX"] = 44.79509592056274,
 						["NXY"] = 59.32708382606506,
@@ -5779,7 +5420,7 @@ NxData = {
 						["NXTime"] = 1451039111.000024,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [51]
+					}, -- [6]
 					{
 						["NXX"] = 312.1958345174789,
 						["NXY"] = -5327.680034935474,
@@ -5787,7 +5428,7 @@ NxData = {
 						["NXTime"] = 1451081702.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [52]
+					}, -- [7]
 					{
 						["NXX"] = 57.66184329986572,
 						["NXY"] = 46.18058800697327,
@@ -5795,7 +5436,7 @@ NxData = {
 						["NXTime"] = 1451082076.000002,
 						["T"] = "I",
 						["NXMapId"] = 14141,
-					}, -- [53]
+					}, -- [8]
 					{
 						["NXX"] = 48.53650033473969,
 						["NXY"] = 38.98403942584992,
@@ -5803,7 +5444,7 @@ NxData = {
 						["NXTime"] = 1451082415.00001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [54]
+					}, -- [9]
 					{
 						["NXX"] = 54.32978272438049,
 						["NXY"] = 15.82259684801102,
@@ -5811,7 +5452,7 @@ NxData = {
 						["NXTime"] = 1451082478.000011,
 						["T"] = "I",
 						["NXMapId"] = 14139,
-					}, -- [55]
+					}, -- [10]
 					{
 						["NXX"] = 0,
 						["NXY"] = 0,
@@ -5819,7 +5460,7 @@ NxData = {
 						["NXTime"] = 1451083561.000061,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [56]
+					}, -- [11]
 					{
 						["NXX"] = 41.81399941444397,
 						["NXY"] = 30.3051233291626,
@@ -5827,7 +5468,7 @@ NxData = {
 						["NXTime"] = 1451085168.000062,
 						["T"] = "I",
 						["NXMapId"] = 14136,
-					}, -- [57]
+					}, -- [12]
 					{
 						["NXX"] = 45.89768648147583,
 						["NXY"] = 28.92686724662781,
@@ -5835,7 +5476,7 @@ NxData = {
 						["NXTime"] = 1451086264.000091,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [58]
+					}, -- [13]
 					{
 						["NXX"] = 336.749279499054,
 						["NXY"] = -5339.840061962605,
@@ -5843,7 +5484,7 @@ NxData = {
 						["NXTime"] = 1451093620.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [59]
+					}, -- [14]
 					{
 						["NXX"] = 80.80888390541077,
 						["NXY"] = 62.55241632461548,
@@ -5851,7 +5492,7 @@ NxData = {
 						["NXTime"] = 1451093656.000002,
 						["T"] = "I",
 						["NXMapId"] = 4002,
-					}, -- [60]
+					}, -- [15]
 					{
 						["NXX"] = 39.6375447511673,
 						["NXY"] = 43.8430666923523,
@@ -5859,7 +5500,7 @@ NxData = {
 						["NXTime"] = 1451093657.000003,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [61]
+					}, -- [16]
 					{
 						["NXX"] = 84.20930504798889,
 						["NXY"] = 66.75187945365906,
@@ -5867,7 +5508,7 @@ NxData = {
 						["NXTime"] = 1451093658.000004,
 						["T"] = "I",
 						["NXMapId"] = 4002,
-					}, -- [62]
+					}, -- [17]
 					{
 						["NXX"] = 45.86106538772583,
 						["NXY"] = 71.77570462226868,
@@ -5875,7 +5516,7 @@ NxData = {
 						["NXTime"] = 1451093690.000005,
 						["T"] = "I",
 						["NXMapId"] = 4004,
-					}, -- [63]
+					}, -- [18]
 					{
 						["NXX"] = 36.41858994960785,
 						["NXY"] = 47.02211320400238,
@@ -5883,7 +5524,7 @@ NxData = {
 						["NXTime"] = 1451094897.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [64]
+					}, -- [19]
 					{
 						["NXX"] = 47.58108854293823,
 						["NXY"] = 39.29194211959839,
@@ -5891,7 +5532,7 @@ NxData = {
 						["NXTime"] = 1451094927.000002,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [65]
+					}, -- [20]
 					{
 						["NXX"] = 311.7796242237091,
 						["NXY"] = -5326.875121891499,
@@ -5899,7 +5540,7 @@ NxData = {
 						["NXTime"] = 1451101220.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [66]
+					}, -- [21]
 					{
 						["NXX"] = 57.29557871818543,
 						["NXY"] = 22.51800149679184,
@@ -5907,7 +5548,7 @@ NxData = {
 						["NXTime"] = 1451101322.000002,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [67]
+					}, -- [22]
 					{
 						["NXX"] = 38.24514448642731,
 						["NXY"] = 79.04259562492371,
@@ -5915,7 +5556,7 @@ NxData = {
 						["NXTime"] = 1451101410.000003,
 						["T"] = "I",
 						["NXMapId"] = 1013,
-					}, -- [68]
+					}, -- [23]
 					{
 						["NXX"] = 69.71308588981628,
 						["NXY"] = 60.32873392105103,
@@ -5923,7 +5564,7 @@ NxData = {
 						["NXTime"] = 1451101605.000001,
 						["T"] = "I",
 						["NXMapId"] = 1019,
-					}, -- [69]
+					}, -- [24]
 					{
 						["NXX"] = 63.06369304656982,
 						["NXY"] = 19.18570995330811,
@@ -5931,7 +5572,7 @@ NxData = {
 						["NXTime"] = 1451101818.000002,
 						["T"] = "I",
 						["NXMapId"] = 1008,
-					}, -- [70]
+					}, -- [25]
 					{
 						["NXX"] = 306.2087445740441,
 						["NXY"] = -106.4341992022106,
@@ -5939,7 +5580,7 @@ NxData = {
 						["NXTime"] = 1451102339.000004,
 						["T"] = "I",
 						["NXMapId"] = 2024,
-					}, -- [71]
+					}, -- [26]
 					{
 						["NXX"] = 61.85603141784668,
 						["NXY"] = 65.08790254592896,
@@ -5947,7 +5588,7 @@ NxData = {
 						["NXTime"] = 1451102424.000005,
 						["T"] = "I",
 						["NXMapId"] = 2025,
-					}, -- [72]
+					}, -- [27]
 					{
 						["NXX"] = 567.3358755984342,
 						["NXY"] = -908.362432509308,
@@ -5955,7 +5596,7 @@ NxData = {
 						["NXTime"] = 1451102480.000006,
 						["T"] = "I",
 						["NXMapId"] = 2018,
-					}, -- [73]
+					}, -- [28]
 					{
 						["NXX"] = 0,
 						["NXY"] = 0,
@@ -5963,7 +5604,7 @@ NxData = {
 						["NXTime"] = 1451202757.000001,
 						["T"] = "I",
 						["NXMapId"] = 2018,
-					}, -- [74]
+					}, -- [29]
 					{
 						["NXX"] = -926.7107985204401,
 						["NXY"] = -827.6193432327486,
@@ -5971,7 +5612,7 @@ NxData = {
 						["NXTime"] = 1451202776.000002,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [75]
+					}, -- [30]
 					{
 						["NXX"] = -1086.08457881702,
 						["NXY"] = 3930.496768687509,
@@ -5979,7 +5620,7 @@ NxData = {
 						["NXTime"] = 1451202802.000003,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [76]
+					}, -- [31]
 					{
 						["NXX"] = 15.73356539011002,
 						["NXY"] = 65.22100567817688,
@@ -5987,7 +5628,7 @@ NxData = {
 						["NXTime"] = 1451202896.000004,
 						["T"] = "I",
 						["NXMapId"] = 1008,
-					}, -- [77]
+					}, -- [32]
 					{
 						["NXX"] = 36.61597669124603,
 						["NXY"] = 4.249061644077301,
@@ -5995,7 +5636,7 @@ NxData = {
 						["NXTime"] = 1451202896.000005,
 						["T"] = "I",
 						["NXMapId"] = 1019,
-					}, -- [78]
+					}, -- [33]
 					{
 						["NXX"] = 36.5015983581543,
 						["NXY"] = 34.76067781448364,
@@ -6003,7 +5644,7 @@ NxData = {
 						["NXTime"] = 1451203604.000008,
 						["T"] = "I",
 						["NXMapId"] = 1013,
-					}, -- [79]
+					}, -- [34]
 					{
 						["NXX"] = 45.22885680198669,
 						["NXY"] = 19.28007006645203,
@@ -6011,7 +5652,7 @@ NxData = {
 						["NXTime"] = 1451203630.000009,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [80]
+					}, -- [35]
 					{
 						["NXX"] = 64.81279134750366,
 						["NXY"] = 15.68312644958496,
@@ -6019,7 +5660,7 @@ NxData = {
 						["NXTime"] = 1451203634.00001,
 						["T"] = "I",
 						["NXMapId"] = 1013,
-					}, -- [81]
+					}, -- [36]
 					{
 						["NXX"] = 42.29097366333008,
 						["NXY"] = 20.30718177556992,
@@ -6027,7 +5668,7 @@ NxData = {
 						["NXTime"] = 1451203635.000011,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [82]
+					}, -- [37]
 					{
 						["NXX"] = -2007.446056360603,
 						["NXY"] = 372.9401845502855,
@@ -6035,7 +5676,7 @@ NxData = {
 						["NXTime"] = 1451265032.000001,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [83]
+					}, -- [38]
 					{
 						["NXX"] = -2007.287618438006,
 						["NXY"] = 373.6027828693384,
@@ -6043,7 +5684,7 @@ NxData = {
 						["NXTime"] = 1451265234.000001,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [84]
+					}, -- [39]
 					{
 						["NXX"] = -2007.344219020009,
 						["NXY"] = 373.733903908729,
@@ -6051,7 +5692,7 @@ NxData = {
 						["NXTime"] = 1451266310.000001,
 						["T"] = "I",
 						["NXMapId"] = 1022,
-					}, -- [85]
+					}, -- [40]
 					{
 						["NXX"] = 1158.865885789371,
 						["NXY"] = -2674.183359220146,
@@ -6059,7 +5700,7 @@ NxData = {
 						["NXTime"] = 1451266328.000002,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [86]
+					}, -- [41]
 					{
 						["NXX"] = -1086.080811198189,
 						["NXY"] = 3930.47827310416,
@@ -6067,7 +5708,7 @@ NxData = {
 						["NXTime"] = 1451266355.000003,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [87]
+					}, -- [42]
 					{
 						["NXX"] = 333.9046820998192,
 						["NXY"] = -5338.164111971855,
@@ -6075,7 +5716,7 @@ NxData = {
 						["NXTime"] = 1451283529.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [88]
+					}, -- [43]
 					{
 						["NXX"] = -1086.08457881702,
 						["NXY"] = 3930.496768687509,
@@ -6083,7 +5724,7 @@ NxData = {
 						["NXTime"] = 1451283549.000002,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [89]
+					}, -- [44]
 					{
 						["NXX"] = 49.07872378826141,
 						["NXY"] = 95.29247879981995,
@@ -6091,7 +5732,7 @@ NxData = {
 						["NXTime"] = 1451283591.000003,
 						["T"] = "I",
 						["NXMapId"] = 1008,
-					}, -- [90]
+					}, -- [45]
 					{
 						["NXX"] = 36.01199984550476,
 						["NXY"] = 22.96870350837708,
@@ -6099,7 +5740,7 @@ NxData = {
 						["NXTime"] = 1451283656.000004,
 						["T"] = "I",
 						["NXMapId"] = 1019,
-					}, -- [91]
+					}, -- [46]
 					{
 						["NXX"] = 61.90187931060791,
 						["NXY"] = 94.1896378993988,
@@ -6107,7 +5748,7 @@ NxData = {
 						["NXTime"] = 1451283914.000005,
 						["T"] = "I",
 						["NXMapId"] = 1009,
-					}, -- [92]
+					}, -- [47]
 					{
 						["NXX"] = 52.07557082176209,
 						["NXY"] = 75.92942118644714,
@@ -6115,7 +5756,7 @@ NxData = {
 						["NXTime"] = 1451284013.000006,
 						["T"] = "I",
 						["NXMapId"] = 11067,
-					}, -- [93]
+					}, -- [48]
 					{
 						["NXX"] = 41.0368412733078,
 						["NXY"] = 74.27008748054504,
@@ -6123,7 +5764,7 @@ NxData = {
 						["NXTime"] = 1451284768.000022,
 						["T"] = "I",
 						["NXMapId"] = 1009,
-					}, -- [94]
+					}, -- [49]
 					{
 						["NXX"] = 52.0800769329071,
 						["NXY"] = 76.0121762752533,
@@ -6131,7 +5772,7 @@ NxData = {
 						["NXTime"] = 1451284834.000023,
 						["T"] = "I",
 						["NXMapId"] = 11067,
-					}, -- [95]
+					}, -- [50]
 					{
 						["NXX"] = 41.0368412733078,
 						["NXY"] = 74.27008748054504,
@@ -6139,7 +5780,7 @@ NxData = {
 						["NXTime"] = 1451285623.000031,
 						["T"] = "I",
 						["NXMapId"] = 1009,
-					}, -- [96]
+					}, -- [51]
 					{
 						["NXX"] = 52.11111307144165,
 						["NXY"] = 75.88871121406555,
@@ -6147,7 +5788,7 @@ NxData = {
 						["NXTime"] = 1451285694.000032,
 						["T"] = "I",
 						["NXMapId"] = 11067,
-					}, -- [97]
+					}, -- [52]
 					{
 						["NXX"] = 0,
 						["NXY"] = 0,
@@ -6155,7 +5796,7 @@ NxData = {
 						["NXTime"] = 1451286457.000035,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [98]
+					}, -- [53]
 					{
 						["NXX"] = 311.6497039794922,
 						["NXY"] = -5326.48800611496,
@@ -6163,7 +5804,7 @@ NxData = {
 						["NXTime"] = 1451286561.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [99]
+					}, -- [54]
 					{
 						["NXX"] = 311.6497039794922,
 						["NXY"] = -5326.48800611496,
@@ -6171,7 +5812,7 @@ NxData = {
 						["NXTime"] = 1451296963.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [100]
+					}, -- [55]
 					{
 						["NXX"] = 335.2903217077255,
 						["NXY"] = -5292.416633665562,
@@ -6179,7 +5820,7 @@ NxData = {
 						["NXTime"] = 1451303338.000001,
 						["T"] = "I",
 						["NXMapId"] = 4003,
-					}, -- [101]
+					}, -- [56]
 					{
 						["NXX"] = -1086.08457881702,
 						["NXY"] = 3930.496768687509,
@@ -6187,7 +5828,7 @@ NxData = {
 						["NXTime"] = 1451303360.000002,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [102]
+					}, -- [57]
 					{
 						["NXX"] = 49.56442713737488,
 						["NXY"] = 50.40354728698731,
@@ -6195,7 +5836,7 @@ NxData = {
 						["NXTime"] = 1451304954.000003,
 						["T"] = "I",
 						["NXMapId"] = 14137,
-					}, -- [103]
+					}, -- [58]
 					{
 						["NXX"] = 58.26767086982727,
 						["NXY"] = 44.82703506946564,
@@ -6203,7 +5844,7 @@ NxData = {
 						["NXTime"] = 1451306068.000004,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [104]
+					}, -- [59]
 					{
 						["NXX"] = 49.56442713737488,
 						["NXY"] = 50.40354728698731,
@@ -6211,7 +5852,7 @@ NxData = {
 						["NXTime"] = 1451306075.000005,
 						["T"] = "I",
 						["NXMapId"] = 14137,
-					}, -- [105]
+					}, -- [60]
 					{
 						["NXX"] = 36.38735115528107,
 						["NXY"] = 67.51511693000794,
@@ -6219,7 +5860,327 @@ NxData = {
 						["NXTime"] = 1451306344.000006,
 						["T"] = "I",
 						["NXMapId"] = 1014,
-					}, -- [106]
+					}, -- [61]
+					{
+						["NXX"] = -1129.918281704188,
+						["NXY"] = -543.4219268774984,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451365652.000001,
+						["T"] = "I",
+						["NXMapId"] = 1014,
+					}, -- [62]
+					{
+						["NXX"] = 563.1253269093968,
+						["NXY"] = -1655.921899233672,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451365688.000002,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [63]
+					{
+						["NXX"] = 84.19091701507568,
+						["NXY"] = 43.47507953643799,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451365910.000003,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [64]
+					{
+						["NXX"] = 45.34353017807007,
+						["NXY"] = 31.17952346801758,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451365917.000004,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [65]
+					{
+						["NXX"] = 351.5482321381569,
+						["NXY"] = -5567.223447561264,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451367971.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [66]
+					{
+						["NXX"] = 269.8199346661568,
+						["NXY"] = -4398.606508970261,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451369001.000001,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [67]
+					{
+						["NXX"] = 93.25932860374451,
+						["NXY"] = 63.46611976623535,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451369226.000001,
+						["T"] = "I",
+						["NXMapId"] = 4005,
+					}, -- [68]
+					{
+						["NXX"] = 89.0241265296936,
+						["NXY"] = 70.09195685386658,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451369594.000002,
+						["T"] = "I",
+						["NXMapId"] = 4006,
+					}, -- [69]
+					{
+						["NXX"] = 76.11826062202454,
+						["NXY"] = 5.142563208937645,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451369602.000003,
+						["T"] = "I",
+						["NXMapId"] = 9000,
+					}, -- [70]
+					{
+						["NXX"] = 1646.320161223412,
+						["NXY"] = -4441.968342661858,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451369603.000004,
+						["T"] = "I",
+						["NXMapId"] = 4006,
+					}, -- [71]
+					{
+						["NXX"] = 310.5488732457161,
+						["NXY"] = -6100.39322450757,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370439.000001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [72]
+					{
+						["NXX"] = 74.69263076782227,
+						["NXY"] = 77.19983458518982,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370580.000001,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [73]
+					{
+						["NXX"] = 24.06324297189713,
+						["NXY"] = 21.07271105051041,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370582.000002,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [74]
+					{
+						["NXX"] = 32.01889170533874,
+						["NXY"] = 61.84619556394076,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370586.000003,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [75]
+					{
+						["NXX"] = 15.76246470212936,
+						["NXY"] = 33.96764397621155,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370608.000004,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [76]
+					{
+						["NXX"] = 33.93157124519348,
+						["NXY"] = 97.36639857292175,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370611.000005,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [77]
+					{
+						["NXX"] = 28.13281118869782,
+						["NXY"] = 55.82108497619629,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370633.000006,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [78]
+					{
+						["NXX"] = 91.94003939628601,
+						["NXY"] = 59.8429262638092,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370635.000007,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [79]
+					{
+						["NXX"] = 40.09663760662079,
+						["NXY"] = 40.70838987827301,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370636.000008,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [80]
+					{
+						["NXX"] = 81.35055303573608,
+						["NXY"] = 52.59494781494141,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370639.000009,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [81]
+					{
+						["NXX"] = 39.85013067722321,
+						["NXY"] = 37.29418218135834,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370646.00001,
+						["T"] = "I",
+						["NXMapId"] = 4007,
+					}, -- [82]
+					{
+						["NXX"] = 77.18631029129028,
+						["NXY"] = 80.7064414024353,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370658.000011,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [83]
+					{
+						["NXX"] = 36.06947660446167,
+						["NXY"] = 72.04839587211609,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370695.000012,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [84]
+					{
+						["NXX"] = 8.195938169956207,
+						["NXY"] = 54.19238209724426,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451370879.000013,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [85]
+					{
+						["NXX"] = -886.9921945035458,
+						["NXY"] = -4643.992841243744,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451372125.000001,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [86]
+					{
+						["NXX"] = 65.89356064796448,
+						["NXY"] = 38.31750154495239,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451373286.000023,
+						["T"] = "I",
+						["NXMapId"] = 14140,
+					}, -- [87]
+					{
+						["NXX"] = 14.34940099716187,
+						["NXY"] = 59.26485061645508,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451374211.000074,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [88]
+					{
+						["NXX"] = 51.34721994400024,
+						["NXY"] = 45.88809907436371,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451377271.000001,
+						["T"] = "I",
+						["NXMapId"] = 14138,
+					}, -- [89]
+					{
+						["NXX"] = 17.76710003614426,
+						["NXY"] = 52.65494585037231,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451377340.000002,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [90]
+					{
+						["NXX"] = 51.94807648658752,
+						["NXY"] = 51.94153189659119,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451377345.000004,
+						["T"] = "I",
+						["NXMapId"] = 14138,
+					}, -- [91]
+					{
+						["NXX"] = 13.58550488948822,
+						["NXY"] = 58.90936851501465,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451377912.000002,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [92]
+					{
+						["NXX"] = 51.94807648658752,
+						["NXY"] = 51.94153189659119,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451377955.000003,
+						["T"] = "I",
+						["NXMapId"] = 14138,
+					}, -- [93]
+					{
+						["NXX"] = 17.75396764278412,
+						["NXY"] = 52.64205932617188,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451378026.000004,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [94]
+					{
+						["NXX"] = 43.45948994159699,
+						["NXY"] = 13.90158832073212,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451378063.000005,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [95]
+					{
+						["NXX"] = 306.222677230835,
+						["NXY"] = -5204.050342738628,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451378608.000001,
+						["T"] = "I",
+						["NXMapId"] = 4002,
+					}, -- [96]
+					{
+						["NXX"] = 35.98107099533081,
+						["NXY"] = 71.76176309585571,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451378617.000002,
+						["T"] = "I",
+						["NXMapId"] = 4004,
+					}, -- [97]
+					{
+						["NXX"] = 8.157891780138016,
+						["NXY"] = 54.20255064964294,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451378802.000003,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [98]
+					{
+						["NXX"] = 90.15032052993774,
+						["NXY"] = 79.49246764183044,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451382632.000012,
+						["T"] = "I",
+						["NXMapId"] = 14133,
+					}, -- [99]
+					{
+						["NXX"] = 15.85900783538818,
+						["NXY"] = 56.86675310134888,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451383794.000044,
+						["T"] = "I",
+						["NXMapId"] = 4001,
+					}, -- [100]
+					{
+						["NXX"] = 307.098263502121,
+						["NXY"] = -5330.893445014954,
+						["NXName"] = "Entered",
+						["NXTime"] = 1451386722.000001,
+						["T"] = "I",
+						["NXMapId"] = 4003,
+					}, -- [101]
 				},
 				["Death"] = {
 					{
@@ -6270,458 +6231,491 @@ NxData = {
 						["T"] = "D",
 						["NXMapId"] = 11067,
 					}, -- [6]
+					{
+						["NXX"] = 28.95583510398865,
+						["NXY"] = 23.44613969326019,
+						["NXName"] = "Loken",
+						["NXTime"] = 1451374739.000075,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [7]
+					{
+						["NXX"] = 28.83985042572022,
+						["NXY"] = 22.75425046682358,
+						["NXName"] = "Scalesworn Elite",
+						["NXTime"] = 1451375033.000079,
+						["T"] = "D",
+						["NXMapId"] = 4001,
+					}, -- [8]
+					{
+						["NXX"] = 0,
+						["NXY"] = 0,
+						["NXName"] = "Azure Ring Guardian",
+						["NXTime"] = 1451377908.000001,
+						["T"] = "D",
+						["NXMapId"] = 14138,
+					}, -- [9]
 				},
 				["Kill"] = {
 					{
-						["NXX"] = 55.40165305137634,
-						["NXY"] = 49.10960495471954,
+						["NXX"] = 60.69307923316956,
+						["NXY"] = 29.87550497055054,
 						["NXKills"] = 1,
-						["NXName"] = "Slad'ran",
-						["NXTime"] = 1451085780.000069,
+						["NXName"] = "Roach",
+						["NXTime"] = 1451383181.000016,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [1]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 6,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.00007,
+						["NXX"] = 60.15138626098633,
+						["NXY"] = 35.79481840133667,
+						["NXKills"] = 1,
+						["NXName"] = "Plundering Geist",
+						["NXTime"] = 1451383210.000017,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [2]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 7,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000071,
+						["NXX"] = 60.3376567363739,
+						["NXY"] = 35.32474637031555,
+						["NXKills"] = 2,
+						["NXName"] = "Plundering Geist",
+						["NXTime"] = 1451383211.000018,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [3]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 8,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000072,
+						["NXX"] = 49.82089102268219,
+						["NXY"] = 30.33957779407501,
+						["NXKills"] = 1,
+						["NXName"] = "Eye of Taldaram",
+						["NXTime"] = 1451383300.000019,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [4]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 9,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000073,
+						["NXX"] = 55.39138317108154,
+						["NXY"] = 40.07870554924011,
+						["NXKills"] = 2,
+						["NXName"] = "Roach",
+						["NXTime"] = 1451383317.00002,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [5]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 10,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000074,
+						["NXX"] = 55.90857267379761,
+						["NXY"] = 46.93249762058258,
+						["NXKills"] = 1,
+						["NXName"] = "Bonegrinder",
+						["NXTime"] = 1451383341.000021,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [6]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 11,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000075,
+						["NXX"] = 35.26225388050079,
+						["NXY"] = 50.12817978858948,
+						["NXKills"] = 1,
+						["NXName"] = "Forgotten One",
+						["NXTime"] = 1451383582.000022,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [7]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 12,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085800.000076,
+						["NXX"] = 23.15368354320526,
+						["NXY"] = 50.66869258880615,
+						["NXKills"] = 1,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383665.000023,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [8]
 					{
-						["NXX"] = 60.30797958374023,
-						["NXY"] = 48.94307553768158,
-						["NXKills"] = 13,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085801.000077,
+						["NXX"] = 23.15368354320526,
+						["NXY"] = 50.66869258880615,
+						["NXKills"] = 2,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383665.000024,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [9]
 					{
-						["NXX"] = 57.6451301574707,
-						["NXY"] = 48.75040650367737,
-						["NXKills"] = 14,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085834.000078,
+						["NXX"] = 23.22807013988495,
+						["NXY"] = 50.75336694717407,
+						["NXKills"] = 3,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383667.000025,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [10]
 					{
-						["NXX"] = 57.41689801216126,
-						["NXY"] = 47.73955047130585,
-						["NXKills"] = 15,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085836.000079,
+						["NXX"] = 23.22807013988495,
+						["NXY"] = 50.75336694717407,
+						["NXKills"] = 4,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383668.000026,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [11]
 					{
-						["NXX"] = 57.41689801216126,
-						["NXY"] = 47.73955047130585,
-						["NXKills"] = 16,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085836.00008,
+						["NXX"] = 22.97520339488983,
+						["NXY"] = 50.71801543235779,
+						["NXKills"] = 5,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383671.000027,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [12]
 					{
-						["NXX"] = 57.41689801216126,
-						["NXY"] = 47.73955047130585,
-						["NXKills"] = 17,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085836.000081,
+						["NXX"] = 23.04612398147583,
+						["NXY"] = 50.14556646347046,
+						["NXKills"] = 6,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383682.000028,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [13]
 					{
-						["NXX"] = 57.41689801216126,
-						["NXY"] = 47.73955047130585,
-						["NXKills"] = 18,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085836.000082,
+						["NXX"] = 23.1646791100502,
+						["NXY"] = 50.23117661476135,
+						["NXKills"] = 7,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383686.000029,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [14]
 					{
-						["NXX"] = 57.41689801216126,
-						["NXY"] = 47.73955047130585,
-						["NXKills"] = 19,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085836.000083,
+						["NXX"] = 23.1646791100502,
+						["NXY"] = 50.23117661476135,
+						["NXKills"] = 8,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383686.00003,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [15]
 					{
-						["NXX"] = 57.7778697013855,
-						["NXY"] = 47.61301875114441,
-						["NXKills"] = 20,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085838.000084,
+						["NXX"] = 23.1646791100502,
+						["NXY"] = 50.23117661476135,
+						["NXKills"] = 9,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383686.000031,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [16]
 					{
-						["NXX"] = 58.53359699249268,
-						["NXY"] = 48.04331362247467,
-						["NXKills"] = 21,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085841.000085,
+						["NXX"] = 23.1646791100502,
+						["NXY"] = 50.23117661476135,
+						["NXKills"] = 10,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383686.000032,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [17]
 					{
-						["NXX"] = 57.18884468078613,
-						["NXY"] = 49.90683197975159,
-						["NXKills"] = 22,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085844.000086,
+						["NXX"] = 22.93684780597687,
+						["NXY"] = 49.99963641166687,
+						["NXKills"] = 11,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383689.000033,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [18]
 					{
-						["NXX"] = 56.42173290252686,
-						["NXY"] = 48.32395315170288,
-						["NXKills"] = 23,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085852.000087,
+						["NXX"] = 23.05441498756409,
+						["NXY"] = 50.40066242218018,
+						["NXKills"] = 12,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383712.000034,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [19]
 					{
-						["NXX"] = 58.56563448905945,
-						["NXY"] = 49.52108561992645,
-						["NXKills"] = 24,
-						["NXName"] = "Fanged Pit Viper",
-						["NXTime"] = 1451085855.000088,
+						["NXX"] = 23.00960570573807,
+						["NXY"] = 50.41396617889404,
+						["NXKills"] = 13,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383713.000035,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [20]
 					{
-						["NXX"] = 54.62383627891541,
-						["NXY"] = 74.21604990959168,
-						["NXKills"] = 1,
-						["NXName"] = "Snake",
-						["NXTime"] = 1451085880.000089,
+						["NXX"] = 23.00860434770584,
+						["NXY"] = 50.48266649246216,
+						["NXKills"] = 14,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383715.000036,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [21]
 					{
-						["NXX"] = 46.68431580066681,
-						["NXY"] = 35.10183990001679,
-						["NXKills"] = 1,
-						["NXName"] = "Drakkari Raider",
-						["NXTime"] = 1451086031.00009,
+						["NXX"] = 23.00860434770584,
+						["NXY"] = 50.48266649246216,
+						["NXKills"] = 15,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383715.000037,
 						["T"] = "K",
-						["NXMapId"] = 14136,
+						["NXMapId"] = 14133,
 					}, -- [22]
 					{
-						["NXX"] = 57.4933648109436,
-						["NXY"] = 75.38430094718933,
-						["NXKills"] = 1,
-						["NXName"] = "Grom'thar the Thunderbringer",
-						["NXTime"] = 1451094036.000006,
+						["NXX"] = 23.10097217559815,
+						["NXY"] = 50.41022896766663,
+						["NXKills"] = 16,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383720.000038,
 						["T"] = "K",
-						["NXMapId"] = 4004,
+						["NXMapId"] = 14133,
 					}, -- [23]
 					{
-						["NXX"] = 48.33524525165558,
-						["NXY"] = 32.17391669750214,
-						["NXKills"] = 1,
-						["NXName"] = "Sarathstra",
-						["NXTime"] = 1451094282.000007,
+						["NXX"] = 26.12123787403107,
+						["NXY"] = 48.05414974689484,
+						["NXKills"] = 17,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383726.000039,
 						["T"] = "K",
-						["NXMapId"] = 4004,
+						["NXMapId"] = 14133,
 					}, -- [24]
 					{
-						["NXX"] = 51.88974142074585,
-						["NXY"] = 69.2963182926178,
-						["NXKills"] = 1,
-						["NXName"] = "Gigantaur",
-						["NXTime"] = 1451094509.000008,
+						["NXX"] = 26.13847851753235,
+						["NXY"] = 48.05252850055695,
+						["NXKills"] = 18,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383726.00004,
 						["T"] = "K",
-						["NXMapId"] = 4004,
+						["NXMapId"] = 14133,
 					}, -- [25]
 					{
-						["NXX"] = 50.13607740402222,
-						["NXY"] = 14.74968492984772,
-						["NXKills"] = 1,
-						["NXName"] = "Elder Mottled Boar",
-						["NXTime"] = 1451102100.000003,
+						["NXX"] = 26.04644596576691,
+						["NXY"] = 48.17346334457398,
+						["NXKills"] = 19,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383727.000041,
 						["T"] = "K",
-						["NXMapId"] = 1008,
+						["NXMapId"] = 14133,
 					}, -- [26]
 					{
-						["NXX"] = 60.05790233612061,
-						["NXY"] = 33.53773057460785,
-						["NXKills"] = 1,
-						["NXName"] = "Savannah Matriarch",
-						["NXTime"] = 1451203086.000006,
+						["NXX"] = 26.21472179889679,
+						["NXY"] = 48.33067357540131,
+						["NXKills"] = 20,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383729.000042,
 						["T"] = "K",
-						["NXMapId"] = 1019,
+						["NXMapId"] = 14133,
 					}, -- [27]
 					{
-						["NXX"] = 61.37657761573792,
-						["NXY"] = 33.99559855461121,
-						["NXKills"] = 1,
-						["NXName"] = "Swiftmane",
-						["NXTime"] = 1451203426.000007,
+						["NXX"] = 26.14446878433228,
+						["NXY"] = 48.21060597896576,
+						["NXKills"] = 21,
+						["NXName"] = "Twisted Visage",
+						["NXTime"] = 1451383730.000043,
 						["T"] = "K",
-						["NXMapId"] = 1019,
+						["NXMapId"] = 14133,
 					}, -- [28]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 1,
-						["NXName"] = "Onyxian Warder",
-						["NXTime"] = 1451284128.000007,
+						["NXX"] = 38.12385201454163,
+						["NXY"] = 25.3849983215332,
+						["NXKills"] = 26,
+						["NXName"] = "Winterfin Warrior",
+						["NXTime"] = 1451383827.000045,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [29]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 2,
-						["NXName"] = "Onyxian Warder",
-						["NXTime"] = 1451284157.000008,
+						["NXX"] = 38.19514811038971,
+						["NXY"] = 25.44853389263153,
+						["NXKills"] = 27,
+						["NXName"] = "Winterfin Warrior",
+						["NXTime"] = 1451383831.000046,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [30]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 3,
-						["NXName"] = "Onyxian Warder",
-						["NXTime"] = 1451284237.000009,
+						["NXX"] = 48.34024906158447,
+						["NXY"] = 20.91623544692993,
+						["NXKills"] = 1,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384135.000047,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [31]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 1,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284596.00001,
+						["NXX"] = 48.78263771533966,
+						["NXY"] = 21.3832825422287,
+						["NXKills"] = 2,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384143.000048,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [32]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 2,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284602.000011,
+						["NXX"] = 48.78263771533966,
+						["NXY"] = 21.3832825422287,
+						["NXKills"] = 1,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384143.000049,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [33]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 3,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284604.000012,
+						["NXX"] = 49.25843775272369,
+						["NXY"] = 21.74380123615265,
+						["NXKills"] = 2,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384170.00005,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [34]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 4,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284610.000013,
+						["NXX"] = 49.39578473567963,
+						["NXY"] = 21.2025985121727,
+						["NXKills"] = 3,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384178.000051,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [35]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 5,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284610.000014,
+						["NXX"] = 49.85170960426331,
+						["NXY"] = 21.2378054857254,
+						["NXKills"] = 4,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384192.000052,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [36]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 6,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284610.000015,
+						["NXX"] = 50.11375546455383,
+						["NXY"] = 22.10720330476761,
+						["NXKills"] = 3,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384200.000053,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [37]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 7,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284611.000016,
+						["NXX"] = 49.60961639881134,
+						["NXY"] = 22.7701798081398,
+						["NXKills"] = 4,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384218.000054,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [38]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 8,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284612.000017,
+						["NXX"] = 49.60580468177795,
+						["NXY"] = 22.73962795734406,
+						["NXKills"] = 5,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384223.000055,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [39]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 9,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451284615.000018,
+						["NXX"] = 49.07666146755219,
+						["NXY"] = 23.65135401487351,
+						["NXKills"] = 5,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384274.000056,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [40]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 1,
-						["NXName"] = "Onyxian Lair Guard",
-						["NXTime"] = 1451284628.000019,
+						["NXX"] = 49.50526356697083,
+						["NXY"] = 24.09982979297638,
+						["NXKills"] = 6,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384282.000057,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [41]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 2,
-						["NXName"] = "Onyxian Lair Guard",
-						["NXTime"] = 1451284666.00002,
+						["NXX"] = 49.50526356697083,
+						["NXY"] = 24.09982979297638,
+						["NXKills"] = 7,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384282.000058,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [42]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 10,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285454.000024,
+						["NXX"] = 49.47726130485535,
+						["NXY"] = 24.70663785934448,
+						["NXKills"] = 8,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384293.000059,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [43]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 11,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285456.000025,
+						["NXX"] = 49.63354766368866,
+						["NXY"] = 25.24287402629852,
+						["NXKills"] = 9,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384301.00006,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [44]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 12,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285466.000026,
+						["NXX"] = 50.12375116348267,
+						["NXY"] = 24.81117397546768,
+						["NXKills"] = 10,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384310.000061,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [45]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 13,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285471.000027,
+						["NXX"] = 50.36575794219971,
+						["NXY"] = 25.6630152463913,
+						["NXKills"] = 11,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384321.000062,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [46]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 14,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285472.000028,
+						["NXX"] = 50.16298890113831,
+						["NXY"] = 26.5900731086731,
+						["NXKills"] = 6,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384352.000063,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [47]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 15,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285473.000029,
+						["NXX"] = 50.35223960876465,
+						["NXY"] = 27.13096439838409,
+						["NXKills"] = 12,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384356.000064,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [48]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 16,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451285996.000033,
+						["NXX"] = 50.48657059669495,
+						["NXY"] = 27.15156972408295,
+						["NXKills"] = 7,
+						["NXName"] = "Risen Longrunner",
+						["NXTime"] = 1451384362.000065,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [49]
 					{
-						["NXX"] = 0,
-						["NXY"] = 0,
-						["NXKills"] = 17,
-						["NXName"] = "Onyxian Whelp",
-						["NXTime"] = 1451286088.000034,
+						["NXX"] = 47.78610765933991,
+						["NXY"] = 21.24321758747101,
+						["NXKills"] = 13,
+						["NXName"] = "Ghostly Sage",
+						["NXTime"] = 1451384764.000066,
 						["T"] = "K",
-						["NXMapId"] = 11067,
+						["NXMapId"] = 4001,
 					}, -- [50]
+					{
+						["NXX"] = 48.76590669155121,
+						["NXY"] = 32.74663686752319,
+						["NXKills"] = 1,
+						["NXName"] = "Squirrel",
+						["NXTime"] = 1451387037.000002,
+						["T"] = "K",
+						["NXMapId"] = 4003,
+					}, -- [51]
 				},
 				["Mine"] = {
 					{
@@ -6896,12 +6890,12 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
-			["LMoney"] = 16932610,
-			["TimePlayed"] = 151626,
+			["Level"] = 80,
+			["TimePlayed"] = 176802,
 			["L"] = {
 				["Version"] = 0.1,
 				["Events"] = {
@@ -6910,17 +6904,21 @@ NxData = {
 				},
 			},
 			["XP"] = 0,
-			["Level"] = 80,
+			["LXPMax"] = 0,
 			["Q"] = {
-				[12566] = "W0",
+				[12566] = "c0",
 				[757] = "C1451033650",
+				[11560] = "C1451381734",
+				[11564] = "C1451382436",
 				[11576] = "C1450775044",
+				[11592] = "c0",
 				[11596] = "C1450617778",
 				[11608] = "C1450617778",
 				[11612] = "C1450617778",
 				[761] = "C1451035758",
 				[11620] = "C1450617778",
-				[13668] = "c0",
+				[13668] = "C1451366187",
+				[13676] = "C1451370438",
 				[11636] = "C1450617778",
 				[11129] = "C1451035235",
 				[14199] = "c0",
@@ -6933,7 +6931,7 @@ NxData = {
 				[765] = "C1451038901",
 				[11688] = "C1450617778",
 				[766] = "C1451035685",
-				[13241] = "C1451093620",
+				[13241] = "C1451367970",
 				[13245] = "C1450855549",
 				[11716] = "C1450617778",
 				[11720] = "C1450617778",
@@ -6948,7 +6946,7 @@ NxData = {
 				[12790] = "C1450617778",
 				[771] = "C1451035184",
 				[772] = "C1451035471",
-				[11285] = "W0",
+				[11285] = "c0",
 				[773] = "C1451037612",
 				[8746] = "c0",
 				[3091] = "C1451032821",
@@ -6958,16 +6956,17 @@ NxData = {
 				[11868] = "C1450617778",
 				[11872] = "C1450617778",
 				[11876] = "C1450617778",
+				[13413] = "C1451375285",
 				[11884] = "C1450617778",
 				[11888] = "W0",
 				[11892] = "W0",
 				[11900] = "C1450778195",
 				[8327] = "C1450617778",
 				[11912] = "C1450778217",
-				[11916] = "c0",
+				[11916] = "W0",
 				[780] = "C1451033613",
 				[8347] = "C1450617778",
-				[11936] = "W0",
+				[11936] = "C1451372124",
 				[5722] = "W0",
 				[5726] = "C1450862472",
 				[5728] = "C1450863382",
@@ -6977,15 +6976,20 @@ NxData = {
 				[786] = "C1450617778",
 				[788] = "C1450617778",
 				[789] = "C1450617778",
+				[11561] = "C1451380418",
+				[11565] = "C1451382454",
 				[790] = "C1450617778",
 				[11585] = "C1450617778",
+				[13126] = "C1451377270",
 				[792] = "C1450617778",
 				[11605] = "C1450617778",
 				[11609] = "C1450617778",
 				[11613] = "C1450617778",
 				[11617] = "C1450617778",
 				[11625] = "C1450617778",
+				[13673] = "C1451370438",
 				[794] = "C1450617778",
+				[11649] = "C1451377270",
 				[11661] = "C1450617778",
 				[924] = "C1450865031",
 				[13206] = "C1450854165",
@@ -7003,6 +7007,7 @@ NxData = {
 				[12791] = "C1450617778",
 				[11262] = "C1450854151",
 				[11270] = "C1450617778",
+				[13829] = "C1451366481",
 				[11282] = "C1450617778",
 				[805] = "C1450617778",
 				[806] = "C1450861722",
@@ -7012,6 +7017,7 @@ NxData = {
 				[11869] = "C1450617778",
 				[809] = "C1450864495",
 				[5441] = "C1450617778",
+				[11905] = "W0",
 				[8336] = "C1450617778",
 				[812] = "C1450861262",
 				[24857] = "C1451033654",
@@ -7019,15 +7025,21 @@ NxData = {
 				[11941] = "C1450778243",
 				[3761] = "c0",
 				[3762] = "C1451038107",
+				[11957] = "C1451373201",
 				[815] = "C1450617778",
+				[11973] = "W0",
 				[816] = "C1450861326",
 				[817] = "C1450617778",
 				[818] = "C1450617778",
+				[13095] = "W0",
+				[11566] = "C1451383936",
+				[11570] = "C1451381755",
 				[11574] = "C1450774746",
 				[12089] = "C1451094820",
 				[11582] = "C1450775170",
 				[823] = "C1450617778",
 				[24682] = "C1450781557",
+				[13127] = "c0",
 				[13131] = "W0",
 				[11602] = "C1450617778",
 				[11606] = "C1450617778",
@@ -7047,7 +7059,8 @@ NxData = {
 				[11686] = "C1450617778",
 				[11690] = "C1450617778",
 				[830] = "C1450617778",
-				[12728] = "W0",
+				[11702] = "C1451377270",
+				[12728] = "c0",
 				[831] = "C1450860647",
 				[11722] = "C1450617778",
 				[832] = "C1450862583",
@@ -7057,7 +7070,7 @@ NxData = {
 				[834] = "C1450858284",
 				[835] = "C1450860350",
 				[13830] = "c0",
-				[11283] = "W0",
+				[11283] = "c0",
 				[11295] = "C1450617778",
 				[837] = "C1450861730",
 				[4641] = "C1450617778",
@@ -7071,115 +7084,143 @@ NxData = {
 				[8828] = "C1450617778",
 				[8325] = "C1450617778",
 				[11910] = "C1450778200",
-				[11914] = "c0",
+				[11914] = "C1451372183",
 				[11918] = "C1450778211",
 				[8345] = "C1450617778",
 				[5723] = "W0",
+				[11946] = "C1451372165",
 				[5727] = "C1450862743",
 				[5729] = "C1450863441",
 				[5761] = "C1450863324",
 				[2383] = "C1450617778",
+				[11559] = "C1451379768",
+				[11563] = "C1451382440",
+				[11571] = "C1451379512",
+				[11594] = "C1451384780",
 				[11587] = "C1450775036",
+				[13124] = "C1451377270",
+				[11593] = "C1451384777",
 				[13132] = "W0",
+				[11591] = "C1451384097",
 				[11607] = "C1450617778",
 				[11611] = "C1450617778",
 				[11615] = "C1450617778",
 				[11619] = "C1450617778",
 				[11623] = "C1450617778",
+				[11627] = "C1451377270",
+				[11631] = "W0",
+				[11624] = "C1451375774",
+				[13677] = "C1451370438",
 				[11643] = "C1450617778",
+				[13678] = "c0",
 				[11651] = "C1450617778",
 				[11655] = "C1450617778",
 				[1718] = "C1450617778",
 				[11663] = "C1450775375",
 				[1719] = "C1450617778",
 				[11671] = "C1450775497",
+				[13838] = "C1451366477",
 				[11679] = "C1450775512",
 				[861] = "C1451038217",
+				[1431] = "W0",
+				[8803] = "C1451283529",
+				[13253] = "C1451378131",
+				[11598] = "C1450617778",
 				[11703] = "C1450617778",
+				[13240] = "C1451378120",
 				[13244] = "c0",
+				[1791] = "W0",
 				[11719] = "C1450617778",
 				[13256] = "C1451083623",
+				[2161] = "C1450617778",
+				[829] = "C1450862579",
+				[1505] = "C1450617778",
+				[1656] = "C1451034033",
 				[11232] = "C1450617778",
+				[860] = "W0",
 				[6394] = "C1450617778",
-				[24429] = "C1451304864",
-				[804] = "C1450617778",
-				[8744] = "C1451283529",
-				[8803] = "C1451283529",
+				[767] = "C1451033957",
+				[1503] = "C1450617778",
+				[11616] = "C1450617778",
+				[1502] = "C1450617778",
+				[11714] = "C1450617778",
+				[11967] = "C1451374251",
+				[24712] = "C1450783746",
 				[11272] = "c0",
-				[6962] = "C1450774092",
-				[11598] = "C1450617778",
-				[1431] = "W0",
-				[24790] = "C1450617778",
-				[8229] = "C1450617778",
-				[11711] = "C1450617778",
-				[13158] = "C1450778815",
+				[791] = "C1450856881",
+				[3376] = "C1451033609",
+				[13839] = "C1451366474",
+				[11951] = "C1451373136",
+				[11634] = "C1450617778",
+				[1498] = "C1450617778",
+				[11664] = "C1450617778",
 				[11304] = "c0",
-				[11170] = "C1450617778",
+				[24788] = "C1450617778",
 				[12845] = "C1450617778",
-				[24791] = "C1450617778",
-				[11586] = "C1450617778",
+				[11644] = "C1450617778",
+				[8861] = "C1451032109",
 				[8769] = "C1451283529",
 				[743] = "C1451036321",
-				[744] = "C1451038359",
-				[753] = "C1451032902",
-				[11867] = "C1451035748",
-				[4402] = "C1450617778",
-				[745] = "C1451034662",
-				[6961] = "C1450617778",
+				[11618] = "C1450617778",
+				[11919] = "C1451372874",
 				[6963] = "c0",
+				[744] = "C1451038359",
+				[8334] = "C1450617778",
+				[6961] = "C1450617778",
+				[11867] = "C1451035748",
 				[11871] = "C1450617778",
-				[11590] = "C1450775266",
 				[11879] = "C1450774359",
-				[752] = "C1451032864",
+				[13412] = "C1451374659",
+				[8326] = "C1450617778",
 				[746] = "C1451035700",
-				[13247] = "C1450778424",
-				[12486] = "W0",
+				[745] = "C1451034662",
+				[11648] = "C1450775345",
 				[24789] = "C1450617778",
 				[747] = "C1451032783",
 				[8330] = "C1450617778",
-				[8334] = "C1450617778",
+				[11911] = "W0",
 				[8338] = "C1450617778",
 				[748] = "C1451034649",
-				[11618] = "C1450617778",
+				[4402] = "C1450617778",
 				[8350] = "C1450617778",
-				[11626] = "C1450617778",
+				[11931] = "C1451374260",
 				[749] = "C1451035838",
-				[1498] = "C1450617778",
-				[11943] = "c0",
-				[11634] = "C1450617778",
-				[750] = "C1451033092",
-				[11644] = "C1450617778",
-				[11648] = "C1450775345",
 				[8335] = "C1450617778",
-				[751] = "C1451036039",
-				[8861] = "C1451032109",
-				[1502] = "C1450617778",
-				[8326] = "C1450617778",
-				[1503] = "C1450617778",
-				[11680] = "C1450775573",
-				[3376] = "C1451033609",
-				[11664] = "C1450617778",
-				[1505] = "C1450617778",
+				[11943] = "C1451372137",
 				[11168] = "C1450617778",
-				[11714] = "C1450617778",
-				[24788] = "C1450617778",
-				[11616] = "C1450617778",
-				[24712] = "C1450783746",
-				[767] = "C1451033957",
-				[791] = "C1450856881",
-				[755] = "C1451032954",
-				[1656] = "C1451034033",
-				[860] = "W0",
-				[829] = "C1450862579",
-				[2161] = "C1450617778",
-				[1791] = "W0",
+				[750] = "C1451033092",
+				[11626] = "C1450617778",
+				[11586] = "C1450617778",
+				[11680] = "C1450775573",
+				[751] = "C1451036039",
+				[13247] = "C1450778424",
+				[12486] = "C1451375499",
+				[11590] = "C1450775266",
+				[752] = "C1451032864",
+				[24791] = "C1450617778",
+				[13158] = "C1450778815",
+				[11170] = "C1450617778",
+				[753] = "C1451032902",
+				[11711] = "C1450617778",
+				[8229] = "C1450617778",
+				[24429] = "C1451304864",
+				[24790] = "C1450617778",
 				[770] = "C1451101515",
+				[13634] = "c0",
+				[6962] = "C1450774092",
+				[755] = "C1451032954",
+				[8744] = "C1451283529",
+				[804] = "C1450617778",
+				[11969] = "C1451374269",
+				[11629] = "C1451384067",
+				[11569] = "C1451380156",
+				[11562] = "C1451381791",
 			},
-			["LvlTime"] = 1451303336,
-			["LTime"] = 1451303336,
+			["XPRest"] = 0,
+			["LMoney"] = 23855122,
 			["QHAskedGet"] = true,
-			["Money"] = 17555618,
-			["Time"] = 1451307504,
+			["Money"] = 23845622,
+			["Time"] = 1451387182,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -7189,27 +7230,27 @@ NxData = {
 					["FO"] = 0.15,
 					["W"] = 177.0000063600133,
 					["Y"] = 259.5998867780863,
-					["X"] = 6.565174988242524e-005,
 					["H"] = 40,
+					["X"] = 6.565174988242524e-005,
 					["_H"] = 40,
 					["_X"] = 999999,
 					["_Y"] = -0.17,
 					["Lk"] = true,
 				},
 				["NxQuestList"] = {
-					["A"] = "TOPLEFT",
+					["A"] = "CENTER",
 					["_W"] = -0.52,
 					["S"] = 1,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 998.4000192578467,
-					["Hide"] = true,
-					["Y"] = 162.0000170968099,
+					["W"] = 1010.400108708356,
+					["Y"] = -26.99991020755459,
+					["X"] = 6.000044725254607,
 					["H"] = 702.0000507433317,
-					["X"] = 460.8000385156933,
 					["_H"] = -0.65,
-					["_Y"] = -0.15,
 					["_X"] = -0.24,
+					["_Y"] = -0.15,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -7219,28 +7260,28 @@ NxData = {
 					["_H"] = 92,
 					["Hide"] = true,
 					["_W"] = 125,
-					["_S"] = 1.1,
+					["S"] = 1.1,
 					["W"] = 125,
 					["Y"] = 215.9999994529021,
 					["X"] = -872.7272846639545,
-					["S"] = 1.1,
+					["_S"] = 1.1,
 					["_A"] = "TOPRIGHT",
-					["Lk"] = true,
-					["_Y"] = -0.2,
 					["_X"] = 200000,
+					["_Y"] = -0.2,
+					["Lk"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["H"] = 209,
-					["W"] = 207,
-					["_X"] = 0,
-					["Y"] = 0,
 					["X"] = 0,
+					["W"] = 207,
+					["Hide"] = true,
+					["Y"] = 0,
+					["H"] = 209,
 					["_H"] = 209,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -7250,9 +7291,9 @@ NxData = {
 					["FO"] = 0.15,
 					["W"] = 221.000001709681,
 					["Y"] = -196.499994152891,
-					["H"] = 40,
-					["_H"] = -0.1,
 					["X"] = -41.00030562257315,
+					["_H"] = -0.1,
+					["H"] = 40,
 					["_Y"] = -0.35,
 					["_X"] = -0.8,
 				},
@@ -7272,17 +7313,17 @@ NxData = {
 					["_Y"] = -0.2,
 					["Lk"] = true,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["H"] = 107.9999997264511,
-					["W"] = 480.000006565175,
-					["_X"] = -0.75,
-					["Y"] = 647.9999983587063,
-					["X"] = 1440.000019695525,
-					["_H"] = -0.1,
-					["_Y"] = -0.6,
+					["X"] = 288.000003939105,
+					["W"] = 1209.600016544241,
+					["_X"] = -0.15,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -7297,18 +7338,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["H"] = 539.9999986322553,
-					["W"] = 1209.600016544241,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["X"] = 1152.00001575642,
+					["W"] = 107,
 					["Hide"] = true,
-					["Y"] = 215.9999994529021,
-					["X"] = 288.000003939105,
-					["_H"] = -0.5,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -7339,9 +7380,9 @@ NxData = {
 					["9002Y"] = -0.4,
 					["9003Y"] = -0.4,
 					["9004Y"] = -0.4,
-					["MaxW"] = 1535.999964985733,
+					["9001W"] = -0.19,
 					["9009H"] = -0.3,
-					["9008W"] = -0.19,
+					["_X"] = -0.0001,
 					["9004H"] = -0.3,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
@@ -7354,13 +7395,13 @@ NxData = {
 					["S"] = 1,
 					["H"] = 230.4000192578466,
 					["9003W"] = -0.19,
-					["9008X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9009X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9008X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["_X"] = -0.0001,
-					["9001W"] = -0.19,
+					["9008W"] = -0.19,
+					["MaxW"] = 1535.999964985733,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
@@ -7369,14 +7410,14 @@ NxData = {
 					["_W"] = 135,
 					["FI"] = 0.5,
 					["FO"] = 0,
-					["H"] = 87,
-					["W"] = 135,
-					["Hide"] = true,
-					["Y"] = 107.9999997264511,
 					["X"] = 1152.00001575642,
+					["W"] = 135,
+					["_X"] = -0.6,
+					["Y"] = 107.9999997264511,
+					["H"] = 87,
 					["_H"] = 87,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -7396,27 +7437,27 @@ NxData = {
 					["_W"] = -0.3,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["H"] = 64.79999983587062,
-					["W"] = 576.00000787821,
-					["_X"] = -0.7,
-					["Y"] = 755.9999980851574,
 					["X"] = 1344.00001838249,
+					["W"] = 576.00000787821,
+					["Hide"] = true,
+					["Y"] = 755.9999980851574,
+					["H"] = 64.79999983587062,
 					["_H"] = -0.06,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["H"] = 40,
-					["W"] = 107,
-					["_X"] = -0.6,
-					["Y"] = 323.9999991793532,
-					["X"] = 1152.00001575642,
-					["_H"] = 40,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["X"] = 1440.000019695525,
+					["W"] = 480.000006565175,
 					["Hide"] = true,
+					["Y"] = 647.9999983587063,
+					["H"] = 107.9999997264511,
+					["_H"] = -0.1,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
 			["Honor"] = 0,
@@ -7439,46 +7480,46 @@ NxData = {
 				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:80|h[Hearthstone]|h|r",
 				["Wapach's Spaulders of Solidarity"] = "1^|cffa335ee|Hitem:44312:0:0:0:0:0:0:0:80|h[Wapach's Spaulders of Solidarity]|h|r",
 				["Faintly Glowing Skull"] = "1^|cffffffff|Hitem:4945:0:0:0:0:0:0:0:80|h[Faintly Glowing Skull]|h|r",
-				["Verdungo's Barbarian Cord"] = "1^|cffa335ee|Hitem:40688:0:0:0:0:0:0:0:80|h[Verdungo's Barbarian Cord]|h|r",
+				["Waistguard of Living Iron"] = "1^|cffa335ee|Hitem:40689:0:0:0:0:0:0:0:80|h[Waistguard of Living Iron]|h|r",
 				["Sphere of Red Dragon's Blood"] = "1^|cff0070dd|Hitem:37166:0:0:0:0:0:0:0:80|h[Sphere of Red Dragon's Blood]|h|r",
-				["Emerald Choker"] = "1^|cff0070dd|Hitem:45812:0:0:0:0:0:0:0:80|h[Emerald Choker]|h|r",
-				["Dreadlord's Blade"] = "1^|cff0070dd|Hitem:37108:0:0:0:0:0:0:0:80|h[Dreadlord's Blade]|h|r",
-				["Savage Saronite Pauldrons"] = "1^|cff0070dd|Hitem:41351:0:0:0:0:0:0:0:80|h[Savage Saronite Pauldrons]|h|r",
-				["Tempered Saronite Legplates"] = "1^|cff0070dd|Hitem:40674:0:0:0:0:0:0:0:80|h[Tempered Saronite Legplates]|h|r",
-				["Tempered Saronite Bracers"] = "1^|cff0070dd|Hitem:41116:0:0:0:0:0:0:0:80|h[Tempered Saronite Bracers]|h|r",
-				["Keystone Great-Ring"] = "1^|cffa335ee|Hitem:37784:0:0:0:0:0:0:0:80|h[Keystone Great-Ring]|h|r",
-				["Savage Saronite Legplates"] = "1^|cff0070dd|Hitem:41347:0:0:0:0:0:0:0:80|h[Savage Saronite Legplates]|h|r",
-				["Frostguard Drape"] = "1^|cff0070dd|Hitem:45811:0:0:0:0:0:0:0:80|h[Frostguard Drape]|h|r",
-				["Metzen's Letters and Notes"] = "1^|cffffffff|Hitem:21314:0:0:0:0:0:0:0:80|h[Metzen's Letters and Notes]|h|r",
-				["Titansteel Destroyer"] = "1^|cffa335ee|Hitem:41257:0:0:0:0:0:0:0:80|h[Titansteel Destroyer]|h|r",
+				["Shiny Bauble"] = "3^|cffffffff|Hitem:43239:0:0:0:0:0:0:0:80|h[Shiny Bauble]|h|r",
+				["Nesingwary Lackey Ear"] = "16^|cffffffff|Hitem:35188:0:0:0:0:0:0:0:80|h[Nesingwary Lackey Ear]|h|r",
 				["Lysander's Strain"] = "1^|cffffffff|Hitem:33619:0:0:0:0:0:0:0:80|h[Lysander's Strain]|h|r",
-				["Pattern: Felcloth Hood"] = "1^|cff1eff00|Hitem:14496:0:0:0:0:0:0:0:80|h[Pattern: Felcloth Hood]|h|r",
+				["Light Feather"] = "3^|cffffffff|Hitem:17056:0:0:0:0:0:0:0:80|h[Light Feather]|h|r",
 				["Scroll of Strength VII"] = "1^|cffffffff|Hitem:43465:0:0:0:0:0:0:0:80|h[Scroll of Strength VII]|h|r",
-				["Heroes' Dreadnaught Battleplate"] = "1^|cffa335ee|Hitem:39606:0:0:0:0:0:0:0:80|h[Heroes' Dreadnaught Battleplate]|h|r",
-				["Rift Striders"] = "1^|cff0070dd|Hitem:37150:0:0:0:0:0:0:0:80|h[Rift Striders]|h|r",
 				["Jade Statue"] = "1^|cffffffff|Hitem:43241:0:0:0:0:0:0:0:80|h[Jade Statue]|h|r",
-				["Mirror of Truth"] = "1^|cffa335ee|Hitem:40684:0:0:0:0:0:0:0:80|h[Mirror of Truth]|h|r",
+				["Savage Saronite Legplates"] = "1^|cff0070dd|Hitem:41347:0:0:0:0:0:0:0:80|h[Savage Saronite Legplates]|h|r",
 				["Super Healing Potion"] = "2^|cffffffff|Hitem:22829:0:0:0:0:0:0:0:80|h[Super Healing Potion]|h|r",
+				["Metzen's Letters and Notes"] = "1^|cffffffff|Hitem:21314:0:0:0:0:0:0:0:80|h[Metzen's Letters and Notes]|h|r",
+				["Savage Titanium Ring"] = "1^|cff0070dd|Hitem:43482:0:0:0:0:0:0:0:80|h[Savage Titanium Ring]|h|r",
+				["Tempered Saronite Legplates"] = "1^|cff0070dd|Hitem:40674:0:0:0:0:0:0:0:80|h[Tempered Saronite Legplates]|h|r",
+				["Pattern: Felcloth Hood"] = "1^|cff1eff00|Hitem:14496:0:0:0:0:0:0:0:80|h[Pattern: Felcloth Hood]|h|r",
+				["Tempered Saronite Bracers"] = "1^|cff0070dd|Hitem:41116:0:0:0:0:0:0:0:80|h[Tempered Saronite Bracers]|h|r",
+				["Heroes' Dreadnaught Battleplate"] = "1^|cffa335ee|Hitem:39606:0:0:0:0:0:0:0:80|h[Heroes' Dreadnaught Battleplate]|h|r",
 				["Untarnished Silver Bar"] = "5^|cffffffff|Hitem:43238:0:0:0:0:0:0:0:80|h[Untarnished Silver Bar]|h|r",
+				["Keystone Great-Ring"] = "1^|cffa335ee|Hitem:37784:0:0:0:0:0:0:0:80|h[Keystone Great-Ring]|h|r",
+				["Frostguard Drape"] = "1^|cff0070dd|Hitem:45811:0:0:0:0:0:0:0:80|h[Frostguard Drape]|h|r",
+				["Rough Stone Statue"] = "10^|cffffffff|Hitem:25498:0:0:0:0:0:0:0:80|h[Rough Stone Statue]|h|r",
+				["Rift Striders"] = "1^|cff0070dd|Hitem:37150:0:0:0:0:0:0:0:80|h[Rift Striders]|h|r",
 				["Savage Saronite Walkers"] = "1^|cff0070dd|Hitem:41348:0:0:0:0:0:0:0:80|h[Savage Saronite Walkers]|h|r",
 				["Small Egg"] = "2^|cffffffff|Hitem:6889:0:0:0:0:0:0:0:80|h[Small Egg]|h|r",
-				["Savage Titanium Ring"] = "1^|cff0070dd|Hitem:43482:0:0:0:0:0:0:0:80|h[Savage Titanium Ring]|h|r",
-				["Rough Stone Statue"] = "10^|cffffffff|Hitem:25498:0:0:0:0:0:0:0:80|h[Rough Stone Statue]|h|r",
+				["Titansteel Destroyer"] = "1^|cffa335ee|Hitem:41257:0:0:0:0:0:0:0:80|h[Titansteel Destroyer]|h|r",
+				["Savage Saronite Pauldrons"] = "1^|cff0070dd|Hitem:41351:0:0:0:0:0:0:0:80|h[Savage Saronite Pauldrons]|h|r",
 				["Scorpid Stinger"] = "1^|cffffffff|Hitem:5466:0:0:0:0:0:0:0:80|h[Scorpid Stinger]|h|r",
 				["Pouch of Reindeer Dust"] = "1^|cffffffff|Hitem:21211:0:0:0:0:0:0:0:80|h[Pouch of Reindeer Dust]|h|r",
 				["Savage Saronite Waistguard"] = "1^|cff0070dd|Hitem:41352:0:0:0:0:0:0:0:80|h[Savage Saronite Waistguard]|h|r",
-				["Light Feather"] = "3^|cffffffff|Hitem:17056:0:0:0:0:0:0:0:80|h[Light Feather]|h|r",
-				["Nesingwary Lackey Ear"] = "16^|cffffffff|Hitem:35188:0:0:0:0:0:0:0:80|h[Nesingwary Lackey Ear]|h|r",
-				["Shiny Bauble"] = "3^|cffffffff|Hitem:43239:0:0:0:0:0:0:0:80|h[Shiny Bauble]|h|r",
+				["Mirror of Truth"] = "1^|cffa335ee|Hitem:40684:0:0:0:0:0:0:0:80|h[Mirror of Truth]|h|r",
+				["Dreadlord's Blade"] = "1^|cff0070dd|Hitem:37108:0:0:0:0:0:0:0:80|h[Dreadlord's Blade]|h|r",
+				["Emerald Choker"] = "1^|cff0070dd|Hitem:45812:0:0:0:0:0:0:0:80|h[Emerald Choker]|h|r",
 				["Ooze-covered Fungus"] = "1^|cffffffff|Hitem:43512:0:0:0:0:0:0:0:80|h[Ooze-covered Fungus]|h|r",
-				["Waistguard of Living Iron"] = "1^|cffa335ee|Hitem:40689:0:0:0:0:0:0:0:80|h[Waistguard of Living Iron]|h|r",
+				["Verdungo's Barbarian Cord"] = "1^|cffa335ee|Hitem:40688:0:0:0:0:0:0:0:80|h[Verdungo's Barbarian Cord]|h|r",
 				["Smokywood Supplies"] = "1^|cffffffff|Hitem:21545:0:0:0:0:0:0:0:80|h[Smokywood Supplies]|h|r",
 			},
 			["Version"] = 0.02,
-			["DurPercent"] = 90.19607843137256,
-			["LXPMax"] = 0,
-			["XPRest"] = 0,
-			["Pos"] = "1014^48.229194^49.994838",
+			["DurPercent"] = 99.80392156862746,
+			["LTime"] = 1451386719,
+			["LvlTime"] = 1451386719,
+			["Pos"] = "4003^49.477983^31.629664",
 		},
 		["TrueWoW.Pastafarian"] = {
 			["Time"] = 1451303323,
@@ -9048,8 +9089,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 51893,
@@ -9071,14 +9112,14 @@ NxData = {
 				[8326] = "C1451095913",
 				[8327] = "C1451095939",
 				[4641] = "C1450615991",
-				[8330] = "C1451096634",
-				[9758] = "C1451302509",
+				[8347] = "C1451097241",
+				[8488] = "C1451112409",
 				[8334] = "C1451096690",
 				[8335] = "C1451097057",
 				[8336] = "C1451095897",
 				[806] = "C1451089753",
 				[8338] = "C1451097090",
-				[8490] = "C1451115942",
+				[8744] = "C1451094945",
 				[830] = "C1450615991",
 				[5726] = "C1451091986",
 				[9358] = "C1451111909",
@@ -9086,7 +9127,7 @@ NxData = {
 				[9360] = "C1451114577",
 				[8472] = "C1451099372",
 				[8473] = "C1451115443",
-				[8347] = "C1451097241",
+				[8474] = "C1451115192",
 				[8475] = "C1451109695",
 				[8476] = "C1451114574",
 				[8350] = "C1451097699",
@@ -9097,90 +9138,90 @@ NxData = {
 				[823] = "C1450615991",
 				[831] = "C1450615991",
 				[9119] = "C1451099513",
-				[9067] = "C1451256891",
+				[804] = "C1450615991",
 				[8486] = "C1451099773",
 				[4402] = "C1450615991",
-				[8488] = "C1451112409",
-				[9253] = "C1451115537",
-				[8744] = "C1451094945",
+				[9758] = "C1451302509",
 				[8491] = "C1451111849",
+				[8490] = "C1451115942",
+				[9253] = "C1451115537",
 				[9254] = "C1451112110",
 				[784] = "C1450615991",
 				[792] = "C1450615991",
-				[8884] = "C1451100216",
+				[9138] = "W0",
 				[808] = "C1450615991",
 				[816] = "C1450615991",
-				[9395] = "C1451114899",
+				[8887] = "C1451110167",
 				[832] = "C1451092080",
-				[9144] = "C1451115985",
-				[9147] = "C1451116190",
-				[8895] = "C1451099446",
-				[9138] = "W0",
+				[9145] = "W0",
+				[809] = "W0",
+				[9149] = "W0",
+				[8884] = "C1451100216",
 				[8885] = "C1451110754",
 				[8886] = "C1451111262",
-				[8887] = "C1451110167",
+				[9395] = "C1451114899",
 				[8888] = "C1451112885",
 				[8889] = "C1451113359",
 				[8890] = "C1451113965",
-				[9145] = "W0",
+				[8891] = "C1451113968",
 				[8892] = "C1451111866",
-				[809] = "W0",
+				[9147] = "C1451116190",
 				[9148] = "C1451116278",
-				[9149] = "W0",
+				[8895] = "C1451099446",
 				[10166] = "C1451115298",
-				[8894] = "C1451113116",
+				[817] = "C1450615991",
 				[9152] = "W0",
-				[9394] = "C1451112959",
+				[9258] = "C1451114988",
 				[2161] = "C1450615991",
-				[8477] = "C1451114592",
-				[9255] = "C1451114699",
-				[8487] = "C1451112353",
+				[9352] = "C1451099767",
+				[9363] = "C1451114712",
+				[8468] = "C1451099379",
 				[790] = "C1450615991",
 				[8345] = "C1451096628",
 				[786] = "C1450615991",
 				[794] = "C1450615991",
 				[9035] = "C1451100587",
-				[9076] = "C1451111473",
+				[837] = "C1450615991",
 				[818] = "C1450615991",
 				[826] = "C1450615991",
 				[834] = "C1450615991",
 				[3085] = "C1450615991",
 				[5441] = "C1450615991",
 				[6394] = "C1450615991",
-				[9256] = "C1451109954",
-				[828] = "C1451090180",
-				[8788] = "C1451094945",
-				[5761] = "W0",
-				[8463] = "C1451099392",
-				[8483] = "C1451109751",
-				[9359] = "C1451112490",
-				[9252] = "C1451114786",
-				[8482] = "C1451100398",
 				[825] = "C1450615991",
-				[837] = "C1450615991",
+				[8482] = "C1451100398",
+				[9252] = "C1451114786",
+				[5761] = "W0",
+				[9359] = "C1451112490",
+				[8483] = "C1451109751",
+				[8463] = "C1451099392",
+				[8788] = "C1451094945",
+				[828] = "C1451090180",
+				[9256] = "C1451109954",
+				[9076] = "C1451111473",
 				[827] = "C1451091591",
 				[835] = "C1450615991",
-				[8468] = "C1451099379",
-				[9363] = "C1451114712",
-				[9352] = "C1451099767",
-				[9258] = "C1451114988",
-				[817] = "C1450615991",
+				[8487] = "C1451112353",
+				[9255] = "C1451114699",
+				[8477] = "C1451114592",
+				[9394] = "C1451112959",
+				[8894] = "C1451113116",
 				[9315] = "W0",
 				[9062] = "C1451100609",
-				[8891] = "C1451113968",
+				[9144] = "C1451115985",
 				[9064] = "C1451100733",
 				[788] = "C1450615991",
 				[9066] = "C1451109638",
-				[804] = "C1450615991",
+				[9067] = "C1451256891",
 				[812] = "C1450615991",
 				[9704] = "C1451097263",
-				[8474] = "C1451115192",
+				[8330] = "C1451096634",
 			},
-			["LvlTime"] = 1451303255,
-			["LXPMax"] = 13600,
+			["XPRest"] = 10624,
+			["ArenaPts"] = 0,
 			["QHAskedGet"] = true,
 			["Money"] = 1015439,
-			["LMoney"] = 1015549,
+			["Honor"] = 0,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -9192,10 +9233,10 @@ NxData = {
 					["Y"] = 259.5998867780863,
 					["H"] = 40,
 					["_H"] = 40,
-					["Lk"] = true,
+					["_X"] = 999999,
 					["X"] = 6.565174988242524e-005,
 					["_Y"] = -0.17,
-					["_X"] = 999999,
+					["Lk"] = true,
 				},
 				["NxQuestList"] = {
 					["A"] = "TOPLEFT",
@@ -9207,10 +9248,10 @@ NxData = {
 					["Y"] = 162.0000170968099,
 					["H"] = 702.0000507433317,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["X"] = 460.8000385156933,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -9218,17 +9259,17 @@ NxData = {
 					["_S"] = 1.1,
 					["FI"] = 1,
 					["FO"] = 0,
-					["Lk"] = true,
+					["Hide"] = true,
 					["W"] = 125,
-					["X"] = -872.7272846639545,
-					["Y"] = 215.9999994529021,
 					["H"] = 92,
-					["_X"] = 200000,
+					["Y"] = 215.9999994529021,
+					["X"] = -872.7272846639545,
+					["S"] = 1.1,
 					["_H"] = 92,
 					["_A"] = "TOPRIGHT",
-					["S"] = 1.1,
+					["_X"] = 200000,
 					["_Y"] = -0.2,
-					["Hide"] = true,
+					["Lk"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -9238,10 +9279,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -9263,27 +9304,27 @@ NxData = {
 					["FI"] = 1,
 					["FO"] = 0,
 					["W"] = 135,
-					["_X"] = 300040,
+					["Lk"] = true,
 					["Y"] = 215.9999994529021,
 					["H"] = 92,
 					["X"] = 909.0909210275909,
 					["_H"] = 92,
-					["Hide"] = true,
 					["_S"] = 1.1,
+					["Hide"] = true,
 					["_Y"] = -0.2,
-					["Lk"] = true,
+					["_X"] = 300040,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 480.000006565175,
-					["Y"] = 647.9999983587063,
-					["H"] = 107.9999997264511,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1440.000019695525,
-					["_Y"] = -0.6,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 288.000003939105,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -9298,18 +9339,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["H"] = 539.9999986322553,
-					["_H"] = -0.5,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
 					["Hide"] = true,
-					["X"] = 288.000003939105,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -9334,14 +9375,14 @@ NxData = {
 					["MaxW"] = 1535.999964985733,
 					["_X"] = -0.0001,
 					["A"] = "TOPLEFT",
-					["9008L"] = 1,
+					["Hide"] = true,
 					["MaxY"] = 107.999999726451,
 					["9001W"] = -0.19,
 					["9004W"] = -0.19,
 					["9003W"] = -0.19,
 					["9008Y"] = -0.4,
 					["9009H"] = -0.3,
-					["9008W"] = -0.19,
+					["9004L"] = 1,
 					["H"] = 230.4000192578466,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
@@ -9352,19 +9393,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9002Y"] = -0.4,
+					["9004H"] = -0.3,
 					["9004Y"] = -0.4,
-					["9009X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9008X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9009X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["9004H"] = -0.3,
-					["9004L"] = 1,
+					["9002Y"] = -0.4,
+					["9008W"] = -0.19,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["Hide"] = true,
+					["9008L"] = 1,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -9374,10 +9415,10 @@ NxData = {
 					["Y"] = 107.9999997264511,
 					["H"] = 87,
 					["_H"] = 87,
-					["Hide"] = true,
+					["_X"] = -0.6,
 					["X"] = 1152.00001575642,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -9401,23 +9442,23 @@ NxData = {
 					["Y"] = 755.9999980851574,
 					["H"] = 64.79999983587062,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["X"] = 1344.00001838249,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 480.000006565175,
+					["Y"] = 647.9999983587063,
+					["H"] = 107.9999997264511,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["X"] = 1440.000019695525,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
 			["L"] = {
@@ -9437,22 +9478,22 @@ NxData = {
 				["Silverleaf"] = "2^|cffffffff|Hitem:765:0:0:0:0:0:0:0:11|h[Silverleaf]|h|r",
 				["Linen Bag"] = "1^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:11|h[Linen Bag]|h|r",
 				["Blemished Wooden Staff"] = "1^|cffffffff|Hitem:4938:0:0:0:0:0:0:0:11|h[Blemished Wooden Staff]|h|r",
-				["Rough Stone"] = "20^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:11|h[Rough Stone]|h|r",
-				["Scorpid Stinger"] = "7^|cffffffff|Hitem:5466:0:0:0:0:0:0:0:11|h[Scorpid Stinger]|h|r",
-				["Mining Pick"] = "1^|cffffffff|Hitem:2901:0:0:0:0:0:0:0:11|h[Mining Pick]|h|r",
-				["Copper Ore"] = "21^|cffffffff|Hitem:2770:0:0:0:0:0:0:0:11|h[Copper Ore]|h|r",
 				["Bolt of Linen Cloth"] = "1^|cffffffff|Hitem:2996:0:0:0:0:0:0:0:11|h[Bolt of Linen Cloth]|h|r",
+				["Scorpid Stinger"] = "7^|cffffffff|Hitem:5466:0:0:0:0:0:0:0:11|h[Scorpid Stinger]|h|r",
+				["Raw Slitherskin Mackerel"] = "68^|cffffffff|Hitem:6303:0:0:0:0:0:0:0:11|h[Raw Slitherskin Mackerel]|h|r",
+				["Copper Ore"] = "21^|cffffffff|Hitem:2770:0:0:0:0:0:0:0:11|h[Copper Ore]|h|r",
+				["Mining Pick"] = "1^|cffffffff|Hitem:2901:0:0:0:0:0:0:0:11|h[Mining Pick]|h|r",
 				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:11|h[Hearthstone]|h|r",
 				["Really Sticky Glue"] = "9^|cffffffff|Hitem:4941:0:0:0:0:0:0:0:11|h[Really Sticky Glue]|h|r",
 				["Faintly Glowing Skull"] = "1^|cffffffff|Hitem:4945:0:0:0:0:0:0:0:11|h[Faintly Glowing Skull]|h|r",
-				["Raw Slitherskin Mackerel"] = "68^|cffffffff|Hitem:6303:0:0:0:0:0:0:0:11|h[Raw Slitherskin Mackerel]|h|r",
+				["Rough Stone"] = "20^|cffffffff|Hitem:2835:0:0:0:0:0:0:0:11|h[Rough Stone]|h|r",
 				["Gnoll War Harness"] = "1^|cff1eff00|Hitem:1211:0:0:0:0:0:0:0:11|h[Gnoll War Harness]|h|r",
 			},
 			["Version"] = 0.02,
 			["DurPercent"] = 100,
-			["Honor"] = 0,
-			["ArenaPts"] = 0,
-			["XPRest"] = 10624,
+			["LMoney"] = 1015549,
+			["LXPMax"] = 13600,
+			["LvlTime"] = 1451303255,
 			["Pos"] = "2011^51.028293^76.542628",
 		},
 		["TrueWoW.Lichmydk"] = {
@@ -9489,28 +9530,34 @@ NxData = {
 			["Class"] = "Death Knight",
 			["LLevel"] = 55,
 			["LArenaPts"] = 0,
-			["Pos"] = "2030^51.193154^34.579924",
-			["XPRest"] = 928,
+			["Opts"] = {
+				["MapShowGatherH"] = false,
+				["QMapShowQuestGivers3"] = 1,
+				["MapShowGatherM"] = false,
+			},
+			["LvlTime"] = 1451302277,
 			["TBar"] = {
 				["Version"] = 0.1,
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["LMoney"] = 0,
 			["TimePlayed"] = 1786,
 			["Level"] = 55,
 			["XP"] = 560,
-			["ArenaPts"] = 0,
+			["Profs"] = {
+			},
 			["Q"] = {
 			},
-			["Time"] = 1451302306,
-			["Honor"] = 0,
+			["LTime"] = 1451302277,
+			["LXPMax"] = 148200,
 			["QHAskedGet"] = true,
 			["Money"] = 0,
+			["LXP"] = 560,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -9521,12 +9568,12 @@ NxData = {
 					["W"] = 177.0000063600133,
 					["Y"] = 259.5998867780863,
 					["H"] = 40,
-					["_X"] = 999999,
+					["Hide"] = true,
 					["_H"] = 40,
 					["X"] = 6.565174988242524e-005,
 					["Lk"] = true,
 					["_Y"] = -0.17,
-					["Hide"] = true,
+					["_X"] = 999999,
 				},
 				["NxQuestList"] = {
 					["A"] = "TOPLEFT",
@@ -9538,10 +9585,10 @@ NxData = {
 					["Y"] = 162.0000170968099,
 					["H"] = 702.0000507433317,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["X"] = 460.8000385156933,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -9549,17 +9596,17 @@ NxData = {
 					["_S"] = 1.1,
 					["FI"] = 1,
 					["FO"] = 0,
-					["Lk"] = true,
+					["Hide"] = true,
 					["W"] = 125,
-					["X"] = -872.7272846639545,
-					["Y"] = 215.9999994529021,
 					["H"] = 92,
-					["_X"] = 200000,
+					["Y"] = 215.9999994529021,
+					["X"] = -872.7272846639545,
+					["S"] = 1.1,
 					["_H"] = 92,
 					["_A"] = "TOPRIGHT",
-					["S"] = 1.1,
+					["_X"] = 200000,
 					["_Y"] = -0.2,
-					["Hide"] = true,
+					["Lk"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -9569,10 +9616,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -9594,27 +9641,27 @@ NxData = {
 					["FI"] = 1,
 					["FO"] = 0,
 					["W"] = 135,
-					["_X"] = 300040,
+					["Lk"] = true,
 					["Y"] = 215.9999994529021,
 					["H"] = 92,
 					["X"] = 909.0909210275909,
 					["_H"] = 92,
-					["Hide"] = true,
 					["_S"] = 1.1,
+					["Hide"] = true,
 					["_Y"] = -0.2,
-					["Lk"] = true,
+					["_X"] = 300040,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 480.000006565175,
-					["Y"] = 647.9999983587063,
-					["H"] = 107.9999997264511,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1440.000019695525,
-					["_Y"] = -0.6,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 288.000003939105,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -9629,18 +9676,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["H"] = 539.9999986322553,
-					["_H"] = -0.5,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
 					["Hide"] = true,
-					["X"] = 288.000003939105,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -9665,14 +9712,14 @@ NxData = {
 					["MaxW"] = 1535.999964985733,
 					["_X"] = -0.0001,
 					["A"] = "TOPLEFT",
-					["9008L"] = 1,
+					["Hide"] = true,
 					["MaxY"] = 107.999999726451,
 					["9001W"] = -0.19,
 					["9004W"] = -0.19,
 					["9003W"] = -0.19,
 					["9008Y"] = -0.4,
 					["9009H"] = -0.3,
-					["H"] = 230.4000192578466,
+					["9004L"] = 1,
 					["9008W"] = -0.19,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
@@ -9683,19 +9730,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9002Y"] = -0.4,
+					["9004H"] = -0.3,
 					["9004Y"] = -0.4,
-					["9009X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9008X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9009X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["9004H"] = -0.3,
-					["9004L"] = 1,
+					["9002Y"] = -0.4,
+					["H"] = 230.4000192578466,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["Hide"] = true,
+					["9008L"] = 1,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -9705,10 +9752,10 @@ NxData = {
 					["Y"] = 107.9999997264511,
 					["H"] = 87,
 					["_H"] = 87,
-					["Hide"] = true,
+					["_X"] = -0.6,
 					["X"] = 1152.00001575642,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -9732,26 +9779,25 @@ NxData = {
 					["Y"] = 755.9999980851574,
 					["H"] = 64.79999983587062,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["X"] = 1344.00001838249,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 480.000006565175,
+					["Y"] = 647.9999983587063,
+					["H"] = 107.9999997264511,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["X"] = 1440.000019695525,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
-			["LXP"] = 560,
 			["L"] = {
 				["Version"] = 0.1,
 				["Events"] = {
@@ -9762,16 +9808,11 @@ NxData = {
 			["LXPRest"] = 912,
 			["LHonor"] = 0,
 			["Version"] = 0.02,
-			["LXPMax"] = 148200,
-			["LTime"] = 1451302277,
-			["Profs"] = {
-			},
-			["LvlTime"] = 1451302277,
-			["Opts"] = {
-				["MapShowGatherH"] = false,
-				["QMapShowQuestGivers3"] = 1,
-				["MapShowGatherM"] = false,
-			},
+			["Honor"] = 0,
+			["Time"] = 1451302306,
+			["ArenaPts"] = 0,
+			["XPRest"] = 928,
+			["Pos"] = "2030^51.193154^34.579924",
 		},
 		["TrueWoW.Shiftace"] = {
 			["ArenaPts"] = 0,
@@ -9783,14 +9824,14 @@ NxData = {
 				["Herbalism"] = {
 					["Rank"] = 66,
 				},
-				["Fishing"] = {
-					["Rank"] = 75,
+				["Inscription"] = {
+					["Rank"] = 1,
 				},
 				["First Aid"] = {
 					["Rank"] = 1,
 				},
-				["Inscription"] = {
-					["Rank"] = 1,
+				["Fishing"] = {
+					["Rank"] = 75,
 				},
 			},
 			["LXP"] = 16935,
@@ -9879,8 +9920,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 68716,
@@ -9994,86 +10035,86 @@ NxData = {
 				[763] = "C1450609381",
 				[764] = "C1450609381",
 				[860] = "C1450609381",
-				[9218] = "W0",
+				[9363] = "C1450609381",
 				[749] = "C1450609381",
 				[9067] = "C1450609381",
-				[10166] = "C1450609381",
-				[9035] = "C1450609381",
+				[9258] = "C1450609381",
+				[8491] = "C1450609381",
 				[861] = "C1450609381",
-				[8891] = "C1450609381",
+				[8490] = "C1450609381",
 				[8483] = "C1450609381",
 				[1656] = "C1450609381",
-				[9146] = "C1450609381",
+				[9252] = "C1450609381",
 				[766] = "C1450609381",
-				[773] = "C1450609381",
+				[9705] = "C1450609381",
 				[9216] = "C1450609381",
 				[11129] = "C1450609381",
 				[8326] = "C1450609381",
-				[9150] = "C1450609381",
+				[3094] = "C1450609381",
 				[8330] = "C1450609381",
 				[9352] = "C1450609381",
 				[767] = "C1450609381",
 				[8336] = "C1450609381",
 				[9358] = "C1450609381",
 				[9360] = "C1450609381",
-				[9144] = "C1450609381",
-				[760] = "C1450609381",
-				[744] = "C1450609381",
-				[9162] = "C1450609381",
+				[8338] = "C1450609381",
+				[9395] = "C1450609381",
+				[765] = "C1450609381",
+				[8334] = "C1450609381",
 				[8350] = "C1450609381",
-				[757] = "C1450609381",
+				[8885] = "C1450609381",
 				[9119] = "C1450609381",
 				[6361] = "C1450609381",
 				[6362] = "C1450609381",
 				[6363] = "C1450609381",
 				[6364] = "C1450609381",
-				[8884] = "C1450609381",
-				[9143] = "C1450609381",
-				[9145] = "C1450609381",
-				[833] = "C1450609381",
-				[8894] = "C1450609381",
 				[9139] = "C1450609381",
+				[9145] = "C1450609381",
+				[8892] = "C1450609381",
+				[833] = "C1450609381",
+				[9149] = "C1450609381",
+				[8884] = "C1450609381",
 				[8886] = "C1450609381",
 				[8888] = "C1450609381",
 				[8890] = "C1450609381",
-				[8892] = "C1450609381",
-				[9149] = "C1450609381",
+				[9147] = "C1450609381",
+				[8894] = "C1450609381",
 				[9151] = "C1450609381",
-				[9163] = "C1450609381",
+				[771] = "C1450609381",
 				[9155] = "C1450609381",
 				[9157] = "C1450609381",
 				[9159] = "C1450609381",
 				[9161] = "C1450609381",
-				[771] = "C1450609381",
+				[9163] = "C1450609381",
 				[9394] = "C1450609381",
 				[8488] = "C1450609381",
 				[9169] = "W0",
 				[9171] = "C1450609381",
 				[9173] = "C1450609381",
-				[9147] = "C1450609381",
 				[24857] = "C1450609381",
+				[9143] = "C1450609381",
 				[772] = "C1450609381",
-				[8885] = "C1450609381",
-				[8334] = "C1450609381",
-				[765] = "C1450609381",
-				[9395] = "C1450609381",
-				[8338] = "C1450609381",
-				[3094] = "C1450609381",
+				[757] = "C1450609381",
+				[9162] = "C1450609381",
+				[744] = "C1450609381",
+				[760] = "C1450609381",
+				[9144] = "C1450609381",
+				[9150] = "C1450609381",
 				[9193] = "C1450609381",
-				[9705] = "C1450609381",
-				[9252] = "C1450609381",
+				[773] = "C1450609381",
+				[9146] = "C1450609381",
 				[9199] = "C1450609381",
-				[8490] = "C1450609381",
-				[8491] = "C1450609381",
-				[9258] = "C1450609381",
+				[8891] = "C1450609381",
+				[9035] = "C1450609381",
+				[10166] = "C1450609381",
 				[9207] = "C1450609381",
-				[9363] = "C1450609381",
+				[9218] = "W0",
 			},
-			["XPRest"] = 26700,
-			["LXPMax"] = 17800,
+			["LvlTime"] = 1451257658,
+			["Level"] = 18,
 			["Honor"] = 0,
 			["Money"] = 29315,
-			["Time"] = 1451257669,
+			["QHAskedGet"] = true,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -10084,12 +10125,12 @@ NxData = {
 					["W"] = 177.0000063600133,
 					["Y"] = 259.5998867780863,
 					["H"] = 40,
-					["Lk"] = true,
+					["Hide"] = true,
 					["_H"] = 40,
 					["X"] = 6.565174988242524e-005,
 					["_X"] = 999999,
 					["_Y"] = -0.17,
-					["Hide"] = true,
+					["Lk"] = true,
 				},
 				["NxQuestList"] = {
 					["A"] = "TOPLEFT",
@@ -10101,10 +10142,10 @@ NxData = {
 					["Y"] = 162.0000170968099,
 					["H"] = 702.0000507433317,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["X"] = 460.8000385156933,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -10112,17 +10153,17 @@ NxData = {
 					["_S"] = 1.1,
 					["FI"] = 1,
 					["FO"] = 0,
-					["Lk"] = true,
+					["Hide"] = true,
 					["W"] = 125,
-					["X"] = -872.7272846639545,
-					["Y"] = 215.9999994529021,
 					["H"] = 92,
-					["_X"] = 200000,
+					["Y"] = 215.9999994529021,
+					["X"] = -872.7272846639545,
+					["S"] = 1.1,
 					["_H"] = 92,
 					["_A"] = "TOPRIGHT",
-					["S"] = 1.1,
+					["_X"] = 200000,
 					["_Y"] = -0.2,
-					["Hide"] = true,
+					["Lk"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -10132,10 +10173,10 @@ NxData = {
 					["Y"] = 0,
 					["H"] = 209,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["X"] = 0,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -10157,27 +10198,27 @@ NxData = {
 					["FI"] = 1,
 					["FO"] = 0,
 					["W"] = 135,
-					["Hide"] = true,
+					["_X"] = 300040,
 					["Y"] = 215.9999994529021,
 					["H"] = 92,
 					["X"] = 909.0909210275909,
 					["_H"] = 92,
-					["Lk"] = true,
 					["_S"] = 1.1,
+					["Lk"] = true,
 					["_Y"] = -0.2,
-					["_X"] = 300040,
+					["Hide"] = true,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 480.000006565175,
-					["Y"] = 647.9999983587063,
-					["H"] = 107.9999997264511,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["X"] = 1440.000019695525,
-					["_Y"] = -0.6,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["H"] = 539.9999986322553,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["X"] = 288.000003939105,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -10192,18 +10233,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["H"] = 539.9999986322553,
-					["_H"] = -0.5,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["H"] = 40,
+					["_H"] = 40,
 					["Hide"] = true,
-					["X"] = 288.000003939105,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["X"] = 1152.00001575642,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -10228,14 +10269,14 @@ NxData = {
 					["MaxW"] = 1535.999964985733,
 					["_X"] = -0.0001,
 					["A"] = "TOPLEFT",
-					["MaxY"] = 107.999999726451,
+					["Hide"] = true,
 					["9008Y"] = -0.4,
 					["9001W"] = -0.19,
 					["9008L"] = 1,
 					["9003W"] = -0.19,
 					["9004Y"] = -0.4,
 					["9009H"] = -0.3,
-					["9004L"] = 1,
+					["9002Y"] = -0.4,
 					["9004H"] = -0.3,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
@@ -10246,19 +10287,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["9008W"] = -0.19,
+					["H"] = 230.4000192578466,
 					["9004W"] = -0.19,
-					["9009X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9008X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9009X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["H"] = 230.4000192578466,
-					["9002Y"] = -0.4,
+					["9008W"] = -0.19,
+					["9004L"] = 1,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["Hide"] = true,
+					["MaxY"] = 107.999999726451,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -10268,10 +10309,10 @@ NxData = {
 					["Y"] = 107.9999997264511,
 					["H"] = 87,
 					["_H"] = 87,
-					["Hide"] = true,
+					["_X"] = -0.6,
 					["X"] = 1152.00001575642,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -10283,10 +10324,10 @@ NxData = {
 					["Y"] = 64.00001750713331,
 					["X"] = 2.999956710877421,
 					["_H"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.25,
 					["H"] = 697.0000134722861,
 					["_Y"] = -0.1,
-					["_X"] = -0.25,
+					["Hide"] = true,
 				},
 				["NxCombat"] = {
 					["_W"] = -0.3,
@@ -10296,23 +10337,23 @@ NxData = {
 					["Y"] = 755.9999980851574,
 					["H"] = 64.79999983587062,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["X"] = 1344.00001838249,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["H"] = 40,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["X"] = 1152.00001575642,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 480.000006565175,
+					["Y"] = 647.9999983587063,
+					["H"] = 107.9999997264511,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["X"] = 1440.000019695525,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
 			["LTime"] = 1451257658,
@@ -10325,34 +10366,34 @@ NxData = {
 				["Swiftthistle"] = "2^|cffffffff|Hitem:2452:0:0:0:0:0:0:0:18|h[Swiftthistle]|h|r",
 				["Wool Cloth"] = "7^|cffffffff|Hitem:2592:0:0:0:0:0:0:0:18|h[Wool Cloth]|h|r",
 				["Earthroot"] = "5^|cffffffff|Hitem:2449:0:0:0:0:0:0:0:18|h[Earthroot]|h|r",
-				["Shadowcaster Mace"] = "3^|cffffffff|Hitem:23167:0:0:0:0:0:0:0:18|h[Shadowcaster Mace]|h|r",
 				["Scourgebane Draught"] = "1^|cffffffff|Hitem:22779:0:0:0:0:0:0:0:18|h[Scourgebane Draught]|h|r",
-				["Mageroyal"] = "6^|cffffffff|Hitem:785:0:0:0:0:0:0:0:18|h[Mageroyal]|h|r",
+				["Swim Speed Potion"] = "1^|cffffffff|Hitem:6372:0:0:0:0:0:0:0:18|h[Swim Speed Potion]|h|r",
 				["Sunstrider Book Satchel"] = "1^|cffffffff|Hitem:20474:0:0:0:0:0:0:0:18|h[Sunstrider Book Satchel]|h|r",
-				["Peacebloom"] = "5^|cffffffff|Hitem:2447:0:0:0:0:0:0:0:18|h[Peacebloom]|h|r",
+				["Mageroyal"] = "6^|cffffffff|Hitem:785:0:0:0:0:0:0:0:18|h[Mageroyal]|h|r",
+				["Headhunter Axe"] = "3^|cffffffff|Hitem:23165:0:0:0:0:0:0:0:18|h[Headhunter Axe]|h|r",
 				["Meaty Bat Wing"] = "1^|cffffffff|Hitem:12223:0:0:0:0:0:0:0:18|h[Meaty Bat Wing]|h|r",
 				["Silverleaf"] = "13^|cffffffff|Hitem:765:0:0:0:0:0:0:0:18|h[Silverleaf]|h|r",
-				["Bruiseweed"] = "2^|cffffffff|Hitem:2453:0:0:0:0:0:0:0:18|h[Bruiseweed]|h|r",
 				["Linen Bag"] = "1^|cffffffff|Hitem:4238:0:0:0:0:0:0:0:18|h[Linen Bag]|h|r",
+				["Bruiseweed"] = "2^|cffffffff|Hitem:2453:0:0:0:0:0:0:0:18|h[Bruiseweed]|h|r",
 				["Crunchy Spider Surprise"] = "5^|cffffffff|Hitem:22645:0:0:0:0:0:0:0:18|h[Crunchy Spider Surprise]|h|r",
 				["Lynx Steak"] = "2^|cffffffff|Hitem:27635:0:0:0:0:0:0:0:18|h[Lynx Steak]|h|r",
 				["Demon Band"] = "1^|cff1eff00|Hitem:12054:0:0:0:0:0:0:0:18|h[Demon Band]|h|r",
-				["Tin Ore"] = "1^|cffffffff|Hitem:2771:0:0:0:0:0:0:0:18|h[Tin Ore]|h|r",
 				["Minor Healing Potion"] = "1^|cffffffff|Hitem:118:0:0:0:0:0:0:0:18|h[Minor Healing Potion]|h|r",
-				["Crunchy Spider Leg"] = "3^|cffffffff|Hitem:22644:0:0:0:0:0:0:0:18|h[Crunchy Spider Leg]|h|r",
+				["Tin Ore"] = "1^|cffffffff|Hitem:2771:0:0:0:0:0:0:0:18|h[Tin Ore]|h|r",
 				["Linen Cloth"] = "13^|cffffffff|Hitem:2589:0:0:0:0:0:0:0:18|h[Linen Cloth]|h|r",
+				["Crunchy Spider Leg"] = "3^|cffffffff|Hitem:22644:0:0:0:0:0:0:0:18|h[Crunchy Spider Leg]|h|r",
 				["Magister's Pouch"] = "1^|cffffffff|Hitem:22976:0:0:0:0:0:0:0:18|h[Magister's Pouch]|h|r",
 				["Hearthstone"] = "1^|cffffffff|Hitem:6948:0:0:0:0:0:0:0:18|h[Hearthstone]|h|r",
 				["Bat Flesh"] = "7^|cffffffff|Hitem:27669:0:0:0:0:0:0:0:18|h[Bat Flesh]|h|r",
-				["Headhunter Axe"] = "3^|cffffffff|Hitem:23165:0:0:0:0:0:0:0:18|h[Headhunter Axe]|h|r",
+				["Peacebloom"] = "5^|cffffffff|Hitem:2447:0:0:0:0:0:0:0:18|h[Peacebloom]|h|r",
 				["Apothecary's Poison"] = "1^|cffffffff|Hitem:22796:0:0:0:0:0:0:0:18|h[Apothecary's Poison]|h|r",
-				["Swim Speed Potion"] = "1^|cffffffff|Hitem:6372:0:0:0:0:0:0:0:18|h[Swim Speed Potion]|h|r",
+				["Shadowcaster Mace"] = "3^|cffffffff|Hitem:23167:0:0:0:0:0:0:0:18|h[Shadowcaster Mace]|h|r",
 			},
 			["Version"] = 0.02,
 			["DurPercent"] = 99.58333333333333,
-			["QHAskedGet"] = true,
-			["Level"] = 18,
-			["LvlTime"] = 1451257658,
+			["Time"] = 1451257669,
+			["LXPMax"] = 17800,
+			["XPRest"] = 26700,
 			["Pos"] = "2012^48.689380^32.238001",
 		},
 		["TrueWoW.Cryogenics"] = {
@@ -11695,8 +11736,8 @@ NxData = {
 				["NxMap1TB"] = {
 					["Space"] = 1,
 					["AlignR"] = true,
-					["AlignB"] = true,
 					["Size"] = 22,
+					["AlignB"] = true,
 				},
 			},
 			["TimePlayed"] = 59862,
@@ -11795,19 +11836,19 @@ NxData = {
 				[8346] = "C1450617048",
 				[8350] = "C1450617048",
 				[9119] = "C1450617048",
-				[9150] = "C1451191136",
+				[9621] = "W0",
 				[8491] = "C1450617048",
-				[8889] = "C1450617048",
-				[8891] = "C1450617048",
-				[9255] = "C1451118218",
-				[9139] = "C1451191192",
+				[9488] = "C1451210193",
+				[9256] = "C1450617048",
+				[8347] = "C1450617048",
+				[9394] = "C1450617048",
 				[9133] = "C1451194335",
 				[9135] = "C1451195651",
-				[9143] = "C1451186174",
-				[9394] = "C1450617048",
+				[8890] = "C1450617048",
+				[9139] = "C1451191192",
 				[8886] = "C1450617048",
 				[8888] = "C1450617048",
-				[8890] = "C1450617048",
+				[9145] = "C1451183969",
 				[8892] = "C1450617048",
 				[8894] = "C1450617048",
 				[9151] = "C1451204710",
@@ -11823,29 +11864,29 @@ NxData = {
 				[9171] = "C1451191050",
 				[9173] = "C1451193583",
 				[9175] = "C1451193587",
-				[8488] = "C1450617048",
-				[8487] = "C1450617048",
-				[9147] = "C1451119432",
-				[8483] = "C1450617048",
-				[9146] = "C1451186670",
-				[9140] = "C1451193634",
-				[8885] = "C1450617048",
 				[8884] = "C1450617048",
+				[8885] = "C1450617048",
+				[9140] = "C1451193634",
+				[9146] = "C1451186670",
+				[8483] = "C1450617048",
+				[9147] = "C1451119432",
+				[8487] = "C1450617048",
+				[8488] = "C1450617048",
 				[9193] = "C1451197217",
 				[9705] = "C1450617048",
-				[9145] = "C1451183969",
+				[9143] = "C1451186174",
 				[9199] = "C1451197210",
-				[8347] = "C1450617048",
-				[9256] = "C1450617048",
-				[9488] = "C1451210193",
+				[9255] = "C1451118218",
+				[8891] = "C1450617048",
+				[8889] = "C1450617048",
 				[9207] = "C1451197075",
-				[9621] = "W0",
+				[9150] = "C1451191136",
 			},
-			["XPRest"] = 2386,
-			["LMoney"] = 2043728,
+			["LvlTime"] = 1451257584,
+			["LTime"] = 1451257584,
 			["QHAskedGet"] = true,
 			["Money"] = 2043728,
-			["Level"] = 19,
+			["Time"] = 1451257615,
 			["W"] = {
 				["NxHUD"] = {
 					["A"] = "CENTER",
@@ -11856,12 +11897,12 @@ NxData = {
 					["W"] = 177.0000063600133,
 					["Y"] = 259.5998867780863,
 					["H"] = 40,
-					["Hide"] = true,
+					["Lk"] = true,
 					["_H"] = 40,
 					["_X"] = 999999,
 					["X"] = 6.565174988242524e-005,
 					["_Y"] = -0.17,
-					["Lk"] = true,
+					["Hide"] = true,
 				},
 				["NxQuestList"] = {
 					["A"] = "TOPLEFT",
@@ -11873,10 +11914,10 @@ NxData = {
 					["Y"] = 162.0000170968099,
 					["X"] = 460.8000385156933,
 					["_H"] = -0.65,
-					["Hide"] = true,
+					["_X"] = -0.24,
 					["H"] = 702.0000507433317,
 					["_Y"] = -0.15,
-					["_X"] = -0.24,
+					["Hide"] = true,
 				},
 				["NxInfo1"] = {
 					["A"] = "TOPRIGHT",
@@ -11884,17 +11925,17 @@ NxData = {
 					["S"] = 1.1,
 					["FI"] = 1,
 					["FO"] = 0,
-					["Hide"] = true,
+					["_X"] = 200000,
 					["W"] = 125,
-					["H"] = 92,
-					["Y"] = 215.9999994529021,
 					["X"] = -872.7272846639545,
-					["_S"] = 1.1,
+					["Y"] = 215.9999994529021,
+					["H"] = 92,
+					["Lk"] = true,
 					["_H"] = 92,
 					["_A"] = "TOPRIGHT",
-					["Lk"] = true,
+					["_S"] = 1.1,
 					["_Y"] = -0.2,
-					["_X"] = 200000,
+					["Hide"] = true,
 				},
 				["NxDD"] = {
 					["_W"] = 207,
@@ -11904,10 +11945,10 @@ NxData = {
 					["Y"] = 0,
 					["X"] = 0,
 					["_H"] = 209,
-					["_X"] = 0,
+					["Hide"] = true,
 					["H"] = 209,
 					["_Y"] = 0,
-					["Hide"] = true,
+					["_X"] = 0,
 				},
 				["NxQuestWatch"] = {
 					["A"] = "RIGHT",
@@ -11929,27 +11970,27 @@ NxData = {
 					["FI"] = 1,
 					["FO"] = 0,
 					["W"] = 135,
-					["Hide"] = true,
+					["Lk"] = true,
 					["Y"] = 215.9999994529021,
 					["H"] = 92,
 					["X"] = 909.0909210275909,
 					["_H"] = 92,
-					["_S"] = 1.1,
 					["_X"] = 300040,
+					["_S"] = 1.1,
 					["_Y"] = -0.2,
-					["Lk"] = true,
+					["Hide"] = true,
 				},
-				["NxEventsList"] = {
-					["_W"] = -0.25,
+				["NxGuide1"] = {
+					["_W"] = -0.63,
 					["FI"] = 1,
 					["FO"] = 0.75,
-					["W"] = 480.000006565175,
-					["Y"] = 647.9999983587063,
-					["X"] = 1440.000019695525,
-					["_H"] = -0.1,
-					["_X"] = -0.75,
-					["H"] = 107.9999997264511,
-					["_Y"] = -0.6,
+					["W"] = 1209.600016544241,
+					["Y"] = 215.9999994529021,
+					["X"] = 288.000003939105,
+					["_H"] = -0.5,
+					["_X"] = -0.15,
+					["H"] = 539.9999986322553,
+					["_Y"] = -0.2,
 					["Hide"] = true,
 				},
 				["NxHelp"] = {
@@ -11964,18 +12005,18 @@ NxData = {
 					["_Y"] = -0.1,
 					["_X"] = -0.25,
 				},
-				["NxGuide1"] = {
-					["_W"] = -0.63,
-					["FI"] = 1,
-					["FO"] = 0.75,
-					["W"] = 1209.600016544241,
-					["Y"] = 215.9999994529021,
-					["X"] = 288.000003939105,
-					["_H"] = -0.5,
+				["NxTeamHUD"] = {
+					["_W"] = 107,
+					["FI"] = 0.5,
+					["FO"] = 0,
+					["W"] = 107,
+					["Y"] = 323.9999991793532,
+					["X"] = 1152.00001575642,
+					["_H"] = 40,
 					["Hide"] = true,
-					["H"] = 539.9999986322553,
-					["_Y"] = -0.2,
-					["_X"] = -0.15,
+					["H"] = 40,
+					["_Y"] = -0.3,
+					["_X"] = -0.6,
 				},
 				["Version"] = 0.31,
 				["NxMap1"] = {
@@ -12000,15 +12041,15 @@ NxData = {
 					["MaxW"] = 1535.999964985733,
 					["_X"] = -0.0001,
 					["A"] = "TOPLEFT",
-					["Hide"] = true,
+					["9008L"] = 1,
 					["MaxY"] = 107.999999726451,
 					["9001W"] = -0.19,
 					["9004W"] = -0.19,
 					["9003W"] = -0.19,
 					["9004L"] = 1,
 					["9009H"] = -0.3,
-					["9008Y"] = -0.4,
 					["9004H"] = -0.3,
+					["9008W"] = -0.19,
 					["9003L"] = 1,
 					["9003X"] = -0.0001,
 					["9009L"] = 1,
@@ -12018,19 +12059,19 @@ NxData = {
 					["MaxS"] = 1,
 					["_W"] = -0.19,
 					["S"] = 1,
-					["H"] = 230.4000192578466,
+					["9002Y"] = -0.4,
 					["9004Y"] = -0.4,
-					["9009X"] = -0.0001,
-					["W"] = 259.4133482727538,
 					["9008X"] = -0.0001,
+					["W"] = 259.4133482727538,
+					["9009X"] = -0.0001,
 					["Y"] = 307.1999789914401,
 					["X"] = 0.1365333455153803,
-					["9002Y"] = -0.4,
-					["9008W"] = -0.19,
+					["H"] = 230.4000192578466,
+					["9008Y"] = -0.4,
 					["9004X"] = -0.0001,
 					["9001X"] = -0.0001,
 					["_Y"] = -0.4,
-					["9008L"] = 1,
+					["Hide"] = true,
 				},
 				["NxPunkHUD"] = {
 					["_W"] = 135,
@@ -12040,10 +12081,10 @@ NxData = {
 					["Y"] = 107.9999997264511,
 					["X"] = 1152.00001575642,
 					["_H"] = 87,
-					["Hide"] = true,
+					["_X"] = -0.6,
 					["H"] = 87,
 					["_Y"] = -0.1,
-					["_X"] = -0.6,
+					["Hide"] = true,
 				},
 				["NxOpts"] = {
 					["A"] = "TOP",
@@ -12067,23 +12108,23 @@ NxData = {
 					["Y"] = 755.9999980851574,
 					["X"] = 1344.00001838249,
 					["_H"] = -0.06,
-					["_X"] = -0.7,
+					["Hide"] = true,
 					["H"] = 64.79999983587062,
 					["_Y"] = -0.7,
-					["Hide"] = true,
+					["_X"] = -0.7,
 				},
-				["NxTeamHUD"] = {
-					["_W"] = 107,
-					["FI"] = 0.5,
-					["FO"] = 0,
-					["W"] = 107,
-					["Y"] = 323.9999991793532,
-					["X"] = 1152.00001575642,
-					["_H"] = 40,
-					["_X"] = -0.6,
-					["H"] = 40,
-					["_Y"] = -0.3,
+				["NxEventsList"] = {
+					["_W"] = -0.25,
+					["FI"] = 1,
+					["FO"] = 0.75,
+					["W"] = 480.000006565175,
+					["Y"] = 647.9999983587063,
+					["X"] = 1440.000019695525,
+					["_H"] = -0.1,
 					["Hide"] = true,
+					["H"] = 107.9999997264511,
+					["_Y"] = -0.6,
+					["_X"] = -0.75,
 				},
 			},
 			["Honor"] = 0,
@@ -12109,9 +12150,9 @@ NxData = {
 			},
 			["Version"] = 0.02,
 			["DurPercent"] = 93.35443037974683,
-			["Time"] = 1451257615,
-			["LTime"] = 1451257584,
-			["LvlTime"] = 1451257584,
+			["Level"] = 19,
+			["LMoney"] = 2043728,
+			["XPRest"] = 2386,
 			["Pos"] = "2018^59.173012^19.477010",
 		},
 	},
@@ -12119,45 +12160,26 @@ NxData = {
 		["Version"] = 0.2,
 		["TrueWoW"] = {
 			["PkAct"] = {
-				["Publicpuppet"] = {
-					["Y"] = 49.15750915750915,
-					["X"] = 37.26495726495727,
-					["CiT"] = 92377.38800000001,
-					["Lvl"] = 0,
+				["Benta"] = {
+					["CiT"] = 125759.587,
+					["DrD1"] = 8.870371764705881,
+					["Y"] = 31.62966370582581,
 					["MId"] = 4003,
-					["DrD1"] = 16.26234823529412,
-					["Tim1"] = 92380.58900000001,
-					["FiN1"] = "Phie",
+					["Lvl"] = 0,
+					["X"] = 49.47798252105713,
+					["Tim1"] = 125759.587,
+					["FiN1"] = "me",
 				},
-				["Cougarhunter"] = {
-					["Y"] = 49.15750915750915,
-					["X"] = 37.26495726495727,
-					["CiT"] = 92380.58900000001,
-					["Lvl"] = 0,
+				["Clincan"] = {
+					["CiT"] = 125719.32,
+					["Cla"] = "Paladin",
+					["DrD1"] = 8.131174117647058,
+					["Y"] = 31.62966370582581,
+					["X"] = 49.47798252105713,
+					["Lvl"] = 71,
 					["MId"] = 4003,
-					["DrD1"] = 14.78395294117647,
-					["Tim1"] = 92380.58900000001,
-					["FiN1"] = "Phie",
-				},
-				["Babamraz"] = {
-					["Y"] = 49.15750915750915,
-					["MId"] = 4003,
-					["CiT"] = 92380.58900000001,
-					["Lvl"] = 0,
-					["X"] = 37.26495726495727,
-					["DrD1"] = 17.00154588235294,
-					["Tim1"] = 92380.58900000001,
-					["FiN1"] = "Phie",
-				},
-				["Launcheer"] = {
-					["Y"] = 49.15750915750915,
-					["X"] = 37.26495726495727,
-					["CiT"] = 92377.38800000001,
-					["Lvl"] = 0,
-					["MId"] = 4003,
-					["DrD1"] = 15.52315058823529,
-					["Tim1"] = 92380.58900000001,
-					["FiN1"] = "Phie",
+					["Tim1"] = 125719.32,
+					["FiN1"] = "me",
 				},
 			},
 			["Pal"] = {
@@ -12169,13 +12191,28 @@ NxData = {
 		},
 	},
 	["NXVer1"] = 3.34,
-	["NXWare"] = {
-		["Version"] = 0.1,
-		["TrueWoW"] = {
-			["Slash Gee Quit"] = {
-				["Money"] = 78535661,
+	["NXInfo"] = {
+		{
+			["Items"] = {
+				"<IfLTOrCombat;1;Health%><Health><c>HP <t> <HealthChange><c><t> <IfCombat>|cffff4040* <Threat%;player><c><t>", -- [1]
+				"<IfLTOrCombat;1;Health%>     <Health%><c><t>%<BarH%;G;Health%><t>", -- [2]
+				"<IfMana><Mana><c>MP <t> <ManaChange><c><t>", -- [3]
+				"<IfMana>     <Mana%><c><t>%<BarH%;B;Mana%><t>", -- [4]
+				"<Combo><c><t>", -- [5]
+				"<Cooldown><c><t>", -- [6]
+				"<Cast><c><t>", -- [7]
 			},
-		},
+		}, -- [1]
+		{
+			["Items"] = {
+				"<THealth><c>HP <t>", -- [1]
+				"     <THealth%><c><t>%<BarH%;G;THealth%><t>", -- [2]
+				"<TMana><c>MP <t>", -- [3]
+				"     <TMana%><c><t>%<BarH%;B;TMana%><t>", -- [4]
+				"<Cast;target><c><t>", -- [5]
+			},
+		}, -- [2]
+		["Version"] = 0.24,
 	},
 	["NXVendorV"] = {
 		["Fishing Supplies~Olirea"] = {
@@ -12184,8 +12221,8 @@ NxData = {
 			"6530^|cff7f7f0090c", -- [3]
 			"6532^|cffbfbfbf2s |cff7f7f0025c", -- [4]
 			"6533^|cffbfbfbf2s |cff7f7f0025c", -- [5]
-			["POS"] = "2018^77.005052566528^68.47807765007",
 			["T"] = 1451267302,
+			["POS"] = "2018^77.005052566528^68.47807765007",
 		},
 		["Fishing Supplies~Sewa Mistrunner"] = {
 			"6256^|cff7f7f0020c", -- [1]
@@ -12196,8 +12233,8 @@ NxData = {
 			"6530^|cff7f7f0090c", -- [6]
 			"6532^|cffbfbfbf2s |cff7f7f0025c", -- [7]
 			"6533^|cffbfbfbf2s |cff7f7f0025c", -- [8]
-			["T"] = 1451265093,
 			["POS"] = "1022^55.725222826004^47.232660651207",
+			["T"] = 1451265093,
 		},
 		["Tradesman~Landraelanis"] = {
 			"2320^|cff7f7f009c", -- [1]
@@ -12220,8 +12257,8 @@ NxData = {
 			"30817^|cff7f7f0023c", -- [18]
 			"10648^|cffbfbfbf1s |cff7f7f0018c", -- [19]
 			"39354^|cff7f7f0014c", -- [20]
-			["POS"] = "2011^49.008366465569^47.008046507835",
 			["T"] = 1451097736,
+			["POS"] = "2011^49.008366465569^47.008046507835",
 		},
 		["|cffff191980|r Mechanical~Jeeves"] = {
 			"41584^|cffbfbfbf30s", -- [1]
@@ -12255,8 +12292,8 @@ NxData = {
 			"4602^|cffbfbfbf18s", -- [10]
 			"8766^|cffbfbfbf36s", -- [11]
 			"8953^|cffbfbfbf36s", -- [12]
-			["POS"] = "2012^48.818847537041^32.358649373055",
 			["T"] = 1451293979,
+			["POS"] = "2012^48.818847537041^32.358649373055",
 		},
 		["Emblem of Valor Quartermaster~Magister Brasael"] = {
 			"40191^|r25 Emblem of Valor", -- [1]
@@ -12303,8 +12340,8 @@ NxData = {
 			"40840^|r45 Emblem of Valor", -- [42]
 			"40859^|r30 Emblem of Valor", -- [43]
 			"40752^|r1 Emblem of Valor", -- [44]
-			["T"] = 1451084580,
 			["POS"] = "4003^65.523993968964^23.184497654438",
+			["T"] = 1451084580,
 		},
 		["Emblem of Conquest Quartermaster~Magister Sarien"] = {
 			"45633^|r58 Spell_Holy_ChampionsGrace", -- [1]
@@ -12356,23 +12393,8 @@ NxData = {
 			"45436^|r19 Spell_Holy_ChampionsGrace", -- [47]
 			"45510^|r19 Spell_Holy_ChampionsGrace", -- [48]
 			"45145^|r19 Spell_Holy_ChampionsGrace", -- [49]
-			["T"] = 1451084644,
 			["POS"] = "4003^65.498203039169^23.53393882513",
-		},
-		["Blacksmithing Supplies~Eriden"] = {
-			"2880^|cff7f7f0090c", -- [1]
-			"2901^|cff7f7f0072c", -- [2]
-			"3466^|cffbfbfbf18s", -- [3]
-			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
-			"5956^|cff7f7f0016c", -- [5]
-			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
-			"23590^|cffffff003g |cffbfbfbf60s", -- [7]
-			"23591^|cffffff003g |cffbfbfbf60s", -- [8]
-			"23592^|cffffff003g |cffbfbfbf60s", -- [9]
-			"23593^|cffffff003g |cffbfbfbf60s", -- [10]
-			["T"] = 1451265907,
-			["POS"] = "2018^80.308431386948^36.15580201149",
-			["R"] = 1,
+			["T"] = 1451084644,
 		},
 		["Poison Supplies~Eralan"] = {
 			"29583^|cffbfbfbf65s |cff7f7f0081c", -- [1]
@@ -12406,8 +12428,8 @@ NxData = {
 			"43234^|cffbfbfbf31s |cff7f7f0050c", -- [29]
 			"43235^|cffbfbfbf36s", -- [30]
 			"43237^|cffbfbfbf36s", -- [31]
-			["T"] = 1451269722,
 			["POS"] = "2012^47.209250926971^34.42574441433",
+			["T"] = 1451269722,
 		},
 		["|cffff7f3f18|r Humanoid~Provisioner Vredigar"] = {
 			"22985^|cffbfbfbf20s |cff7f7f0038c", -- [1]
@@ -12431,19 +12453,21 @@ NxData = {
 			"21099^|cffbfbfbf4s |cff7f7f0050c", -- [3]
 			"21219^|cffbfbfbf45s", -- [4]
 			"30817^|cff7f7f0022c", -- [5]
-			["POS"] = "1014^57.503098249435^53.24941277504",
 			["T"] = 1451304800,
+			["POS"] = "1014^57.503098249435^53.24941277504",
 		},
-		["Hawkstrider Breeder~Winaestra"] = {
-			"28927^|cffbfbfbf90s", -- [1]
-			"28936^|cffffff009g", -- [2]
-			"29220^|cffbfbfbf90s", -- [3]
-			"29221^|cffbfbfbf90s", -- [4]
-			"29222^|cffbfbfbf90s", -- [5]
-			"29223^|cffffff009g", -- [6]
-			"29224^|cffffff009g", -- [7]
-			["POS"] = "2011^61.08021736145^54.743015766144",
-			["T"] = 1451295374,
+		["Mushroom Vendor~Kor'jus"] = {
+			"4604^|cff7f7f0022c", -- [1]
+			"4605^|cffbfbfbf1s |cff7f7f0012c", -- [2]
+			"4606^|cffbfbfbf4s |cff7f7f0050c", -- [3]
+			"4607^|cffbfbfbf9s", -- [4]
+			"4608^|cffbfbfbf18s", -- [5]
+			"8948^|cffbfbfbf36s", -- [6]
+			"27859^|cffbfbfbf50s |cff7f7f0040c", -- [7]
+			"33452^|cffbfbfbf76s |cff7f7f0050c", -- [8]
+			"35947^|cffffff001g |cffbfbfbf44s", -- [9]
+			["POS"] = "1014^49.088260531425^54.021835327148",
+			["T"] = 1451092094,
 		},
 		["Exotic Mounts~Mei Francis"] = {
 			"25533^|cffffff00100g", -- [1]
@@ -12457,21 +12481,25 @@ NxData = {
 			"44231^|r200 Emblem of Heroism", -- [9]
 			"44234^|cffffff0020000g", -- [10]
 			"44690^|cffffff002000g", -- [11]
-			["T"] = 1451101238,
 			["POS"] = "4003^57.969063520432^42.255303263664",
+			["T"] = 1451101238,
 		},
-		["Mushroom Vendor~Kor'jus"] = {
-			"4604^|cff7f7f0022c", -- [1]
-			"4605^|cffbfbfbf1s |cff7f7f0012c", -- [2]
-			"4606^|cffbfbfbf4s |cff7f7f0050c", -- [3]
-			"4607^|cffbfbfbf9s", -- [4]
-			"4608^|cffbfbfbf18s", -- [5]
-			"8948^|cffbfbfbf36s", -- [6]
-			"27859^|cffbfbfbf50s |cff7f7f0040c", -- [7]
-			"33452^|cffbfbfbf76s |cff7f7f0050c", -- [8]
-			"35947^|cffffff001g |cffbfbfbf44s", -- [9]
-			["T"] = 1451092094,
-			["POS"] = "1014^49.088260531425^54.021835327148",
+		["Cloth & Leather Merchant~Jainthess Thelryn"] = {
+			"20920^|cff7f7f0028c", -- [1]
+			"20921^|cff7f7f0043c", -- [2]
+			"20922^|cff7f7f0028c", -- [3]
+			"20923^|cff7f7f0028c", -- [4]
+			"20924^|cff7f7f0058c", -- [5]
+			"20925^|cff7f7f0058c", -- [6]
+			"20985^|cff7f7f0036c", -- [7]
+			"20986^|cff7f7f0048c", -- [8]
+			"20987^|cff7f7f0023c", -- [9]
+			"20988^|cff7f7f0023c", -- [10]
+			"20989^|cff7f7f0023c", -- [11]
+			"20990^|cff7f7f0049c", -- [12]
+			["T"] = 1451107394,
+			["POS"] = "2011^37.115600705147^19.143502414227",
+			["R"] = 1,
 		},
 		["Trade Supplies~Felika"] = {
 			"2320^|cff7f7f008c", -- [1]
@@ -12503,8 +12531,8 @@ NxData = {
 			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [27]
 			"18256^|cffffff001g |cffbfbfbf70s", -- [28]
 			"20856^|cffbfbfbf12s |cff7f7f0075c", -- [29]
-			["POS"] = "1014^58.866006135941^56.87044262886",
 			["T"] = 1451304775,
+			["POS"] = "1014^58.866006135941^56.87044262886",
 		},
 		["Fishing Supplies~Shankys"] = {
 			"6256^|cff7f7f0020c", -- [1]
@@ -12514,8 +12542,8 @@ NxData = {
 			"6530^|cff7f7f0090c", -- [5]
 			"6532^|cffbfbfbf2s |cff7f7f0025c", -- [6]
 			"17062^|cffbfbfbf19s |cff7f7f0080c", -- [7]
-			["T"] = 1451092771,
 			["POS"] = "1014^69.789671897888^29.745829105377",
+			["T"] = 1451092771,
 		},
 		["Drink Vendor~Sailor Melinan"] = {
 			"2593^|cffbfbfbf1s |cff7f7f0035c", -- [1]
@@ -12523,8 +12551,8 @@ NxData = {
 			"2595^|cffbfbfbf18s", -- [3]
 			"2596^|cffbfbfbf1s |cff7f7f008c", -- [4]
 			"2723^|cff7f7f0045c", -- [5]
-			["POS"] = "2011^36.480170488358^66.965407133102",
 			["T"] = 1451111464,
+			["POS"] = "2011^36.480170488358^66.965407133102",
 		},
 		["Meat Vendor~Borstan"] = {
 			"117^|cff7f7f0021c", -- [1]
@@ -12536,15 +12564,15 @@ NxData = {
 			"27854^|cffbfbfbf47s |cff7f7f0060c", -- [7]
 			"33454^|cffbfbfbf72s |cff7f7f0025c", -- [8]
 			"35953^|cffffff001g |cffbfbfbf36s", -- [9]
-			["POS"] = "1014^57.428252696991^53.519141674042",
 			["T"] = 1451304796,
+			["POS"] = "1014^57.428252696991^53.519141674042",
 		},
 		["|cff3fbf3f9|r Humanoid~Jilanne"] = {
 			"29953^|cffbfbfbf45s", -- [1]
 			"29956^|cffbfbfbf45s", -- [2]
 			"29957^|cffbfbfbf45s", -- [3]
-			["T"] = 1451118258,
 			["POS"] = "2011^43.410423398018^70.932173728943",
+			["T"] = 1451118258,
 		},
 		["Bowyer~Celana"] = {
 			"2504^|cff7f7f0026c", -- [1]
@@ -12578,7 +12606,439 @@ NxData = {
 			["POS"] = "2011^60.04918217659^62.68407702446",
 			["R"] = 1,
 		},
-		["Leatherworking Supplies~Zaralda"] = {
+		["Cooking Trainer & Supplies~Master Chef Mouldier"] = {
+			"159^|cff7f7f0021c", -- [1]
+			"2678^|cff7f7f008c", -- [2]
+			"21099^|cffbfbfbf4s |cff7f7f0025c", -- [3]
+			"21219^|cffbfbfbf42s |cff7f7f0050c", -- [4]
+			"22647^|cffbfbfbf3s |cff7f7f0040c", -- [5]
+			"27687^|cffbfbfbf3s |cff7f7f0040c", -- [6]
+			"30817^|cff7f7f0021c", -- [7]
+			["T"] = 1451291385,
+			["POS"] = "2012^48.416769504547^30.934777855873",
+		},
+		["Poison & Reagents~Supply Master Taz'ishi"] = {
+			"3775^|cff7f7f0059c", -- [1]
+			"5237^|cff7f7f0034c", -- [2]
+			"5565^|cffbfbfbf42s |cff7f7f0050c", -- [3]
+			"8928^|cffbfbfbf6s |cff7f7f0080c", -- [4]
+			"16583^|cffbfbfbf85s", -- [5]
+			"17020^|cffbfbfbf8s |cff7f7f0050c", -- [6]
+			"17021^|cffbfbfbf5s |cff7f7f0095c", -- [7]
+			"17026^|cffbfbfbf8s |cff7f7f0050c", -- [8]
+			"17028^|cffbfbfbf5s |cff7f7f0095c", -- [9]
+			"17029^|cffbfbfbf8s |cff7f7f0050c", -- [10]
+			"17030^|cffbfbfbf17s", -- [11]
+			"17031^|cffbfbfbf8s |cff7f7f0050c", -- [12]
+			"17032^|cffbfbfbf17s", -- [13]
+			"17033^|cffbfbfbf17s", -- [14]
+			"17037^|cffbfbfbf11s |cff7f7f0090c", -- [15]
+			"17038^|cffbfbfbf17s", -- [16]
+			"21177^|cffbfbfbf25s |cff7f7f0050c", -- [17]
+			"21835^|cffbfbfbf12s |cff7f7f0075c", -- [18]
+			"21927^|cffbfbfbf12s |cff7f7f0075c", -- [19]
+			"22053^|cffbfbfbf8s |cff7f7f0050c", -- [20]
+			"22054^|cffbfbfbf12s |cff7f7f0075c", -- [21]
+			"22055^|cffbfbfbf7s |cff7f7f0065c", -- [22]
+			"22147^|cffbfbfbf42s |cff7f7f0050c", -- [23]
+			"22148^|cffbfbfbf12s |cff7f7f0075c", -- [24]
+			"37201^|cffbfbfbf4s |cff7f7f0025c", -- [25]
+			"43230^|cffbfbfbf34s", -- [26]
+			"43231^|cffbfbfbf38s |cff7f7f0025c", -- [27]
+			"43232^|cffbfbfbf38s |cff7f7f0025c", -- [28]
+			"43233^|cffbfbfbf42s |cff7f7f0050c", -- [29]
+			"43234^|cffbfbfbf29s |cff7f7f0075c", -- [30]
+			"43235^|cffbfbfbf34s", -- [31]
+			"43237^|cffbfbfbf34s", -- [32]
+			"44605^|cffbfbfbf42s |cff7f7f0050c", -- [33]
+			"44614^|cffbfbfbf59s |cff7f7f0050c", -- [34]
+			"44615^|cffbfbfbf17s", -- [35]
+			["POS"] = "4001^48.973670601845^10.297752171755",
+			["T"] = 1451375523,
+		},
+		["Flower Vendor~Aerith Primrose"] = {
+			"3419^|cffbfbfbf5s", -- [1]
+			"3420^|cffbfbfbf50s", -- [2]
+			"3421^|cffbfbfbf2s", -- [3]
+			"3422^|cffbfbfbf20s", -- [4]
+			"3423^|cffffff002g", -- [5]
+			"3424^|cffffff0050g", -- [6]
+			["POS"] = "4003^57.4751496315^53.088575601578",
+			["T"] = 1451297043,
+		},
+		["General Goods~Sheri"] = {
+			"159^|cff7f7f0023c", -- [1]
+			"2512^|cff7f7f009c", -- [2]
+			"2516^|cff7f7f009c", -- [3]
+			"4470^|cff7f7f0036c", -- [4]
+			"4496^|cffbfbfbf4s |cff7f7f0075c", -- [5]
+			"4498^|cffbfbfbf23s |cff7f7f0075c", -- [6]
+			"5042^|cff7f7f0047c", -- [7]
+			"25861^|cff7f7f0014c", -- [8]
+			"25872^|cff7f7f0028c", -- [9]
+			"28979^|cff7f7f0014c", -- [10]
+			"29007^|cff7f7f0028c", -- [11]
+			["T"] = 1451100436,
+			["POS"] = "2011^48.140466213226^47.280251979828",
+		},
+		["Armorsmith~Faraden Thelryn"] = {
+			"20911^|cff7f7f0035c", -- [1]
+			"20912^|cff7f7f0079c", -- [2]
+			"20914^|cff7f7f0037c", -- [3]
+			"20915^|cff7f7f0057c", -- [4]
+			"20916^|cff7f7f0034c", -- [5]
+			"20917^|cff7f7f0034c", -- [6]
+			"20918^|cff7f7f0068c", -- [7]
+			"20919^|cff7f7f0069c", -- [8]
+			["POS"] = "2011^37.663200497627^18.86028945446",
+			["T"] = 1451096650,
+			["R"] = 1,
+		},
+		["Guns & Ammunition~Kaja"] = {
+			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [1]
+			"2511^|cffbfbfbf11s |cff7f7f0091c", -- [2]
+			"2516^|cff7f7f009c", -- [3]
+			"2519^|cff7f7f0045c", -- [4]
+			"3023^|cffbfbfbf33s |cff7f7f0094c", -- [5]
+			"3024^|cffbfbfbf63s |cff7f7f0088c", -- [6]
+			"3025^|cffffff001g |cffbfbfbf66s |cff7f7f0031c", -- [7]
+			"3033^|cffbfbfbf2s |cff7f7f0070c", -- [8]
+			"5441^|cffbfbfbf9s", -- [9]
+			"11284^|cffbfbfbf9s", -- [10]
+			"28060^|cffbfbfbf14s |cff7f7f0040c", -- [11]
+			["T"] = 1451091870,
+			["POS"] = "1014^52.186816930771^62.297296524048",
+			["R"] = 1,
+		},
+		["Emblem of Triumph Quartermaster~Magistrix Vesara"] = {
+			"47556^|r15 spell_holy_summonchampion", -- [1]
+			"47667^|r25 spell_holy_summonchampion", -- [2]
+			"47666^|r25 spell_holy_summonchampion", -- [3]
+			"47665^|r25 spell_holy_summonchampion", -- [4]
+			"47673^|r25 spell_holy_summonchampion", -- [5]
+			"47672^|r25 spell_holy_summonchampion", -- [6]
+			"47662^|r25 spell_holy_summonchampion", -- [7]
+			"47661^|r25 spell_holy_summonchampion", -- [8]
+			"47664^|r25 spell_holy_summonchampion", -- [9]
+			"47668^|r25 spell_holy_summonchampion", -- [10]
+			"47670^|r25 spell_holy_summonchampion", -- [11]
+			"47671^|r25 spell_holy_summonchampion", -- [12]
+			"47659^|r25 spell_holy_summonchampion", -- [13]
+			"47658^|r25 spell_holy_summonchampion", -- [14]
+			"47660^|r25 spell_holy_summonchampion", -- [15]
+			"47733^|r35 spell_holy_summonchampion", -- [16]
+			"47730^|r35 spell_holy_summonchampion", -- [17]
+			"47731^|r35 spell_holy_summonchampion", -- [18]
+			"47729^|r35 spell_holy_summonchampion", -- [19]
+			"47732^|r35 spell_holy_summonchampion", -- [20]
+			"47706^|r45 spell_holy_summonchampion", -- [21]
+			"47701^|r45 spell_holy_summonchampion", -- [22]
+			"47696^|r45 spell_holy_summonchampion", -- [23]
+			"47699^|r45 spell_holy_summonchampion", -- [24]
+			"47705^|r45 spell_holy_summonchampion", -- [25]
+			"47714^|r45 spell_holy_summonchampion", -- [26]
+			"47716^|r45 spell_holy_summonchampion", -- [27]
+			"47710^|r45 spell_holy_summonchampion", -- [28]
+			"47709^|r45 spell_holy_summonchampion", -- [29]
+			"48724^|r50 spell_holy_summonchampion", -- [30]
+			"48722^|r50 spell_holy_summonchampion", -- [31]
+			"47734^|r50 spell_holy_summonchampion", -- [32]
+			"47735^|r50 spell_holy_summonchampion", -- [33]
+			"40866^|r50 spell_holy_summonchampion", -- [34]
+			"40807^|r50 spell_holy_summonchampion", -- [35]
+			"47688^|r75 spell_holy_summonchampion", -- [36]
+			"47691^|r75 spell_holy_summonchampion", -- [37]
+			"47692^|r75 spell_holy_summonchampion", -- [38]
+			"47695^|r75 spell_holy_summonchampion", -- [39]
+			"47682^|r75 spell_holy_summonchampion", -- [40]
+			"47678^|r75 spell_holy_summonchampion", -- [41]
+			"47687^|r75 spell_holy_summonchampion", -- [42]
+			"40847^|r75 spell_holy_summonchampion", -- [43]
+			"40826^|r75 spell_holy_summonchampion", -- [44]
+			"40789^|r75 spell_holy_summonchampion", -- [45]
+			"47675^|r75 spell_holy_summonchampion", -- [46]
+			"47684^|r75 spell_holy_summonchampion", -- [47]
+			"45624^|r1 spell_holy_summonchampion", -- [48]
+			"49702^|r1 spell_holy_summonchampion", -- [49]
+			"44713^|r1 spell_holy_summonchampion", -- [50]
+			"44711^|r1 spell_holy_summonchampion", -- [51]
+			"43950^|r1 spell_holy_summonchampion", -- [52]
+			"44710^|r1 spell_holy_summonchampion", -- [53]
+			["POS"] = "4003^65.498203039169^23.53393882513",
+			["T"] = 1451086329,
+		},
+		["Cooking Supplies~Naal Mistrunner"] = {
+			"159^|cff7f7f0022c", -- [1]
+			"2678^|cff7f7f009c", -- [2]
+			"6328^|cffbfbfbf3s |cff7f7f0060c", -- [3]
+			"6330^|cffbfbfbf10s |cff7f7f0080c", -- [4]
+			"21099^|cffbfbfbf4s |cff7f7f0050c", -- [5]
+			"21219^|cffbfbfbf45s", -- [6]
+			"30817^|cff7f7f0022c", -- [7]
+			["POS"] = "1022^51.023095846176^52.189743518829",
+			["T"] = 1451265065,
+		},
+		["Innkeeper~Innkeeper Gryshka"] = {
+			"21833^|cff7f7f0090c", -- [1]
+			"21829^|cff7f7f0090c", -- [2]
+			"117^|cff7f7f0022c", -- [3]
+			"159^|cff7f7f0022c", -- [4]
+			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [5]
+			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [6]
+			"1645^|cffbfbfbf18s", -- [7]
+			"1708^|cffbfbfbf9s", -- [8]
+			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [9]
+			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [10]
+			"3771^|cffbfbfbf9s", -- [11]
+			"4599^|cffbfbfbf18s", -- [12]
+			"8766^|cffbfbfbf36s", -- [13]
+			"8952^|cffbfbfbf36s", -- [14]
+			"27854^|cffbfbfbf50s |cff7f7f0040c", -- [15]
+			"28399^|cffbfbfbf50s |cff7f7f0040c", -- [16]
+			"33444^|cffbfbfbf76s |cff7f7f0050c", -- [17]
+			"33445^|cffbfbfbf99s", -- [18]
+			"33454^|cffbfbfbf76s |cff7f7f0050c", -- [19]
+			"35953^|cffffff001g |cffbfbfbf44s", -- [20]
+			"35954^|cffbfbfbf54s", -- [21]
+			["POS"] = "1014^54.021364450455^68.777579069138",
+			["T"] = 1451092360,
+		},
+		["Food & Drink~Aegalas"] = {
+			"33443^|cffbfbfbf72s |cff7f7f0025c", -- [1]
+			"33444^|cffbfbfbf72s |cff7f7f0025c", -- [2]
+			"33445^|cffbfbfbf93s |cff7f7f0050c", -- [3]
+			"33449^|cffbfbfbf72s |cff7f7f0025c", -- [4]
+			"33451^|cffbfbfbf72s |cff7f7f0025c", -- [5]
+			"33454^|cffbfbfbf72s |cff7f7f0025c", -- [6]
+			"35948^|cffffff001g |cffbfbfbf36s", -- [7]
+			"35949^|cffbfbfbf72s |cff7f7f0025c", -- [8]
+			"35950^|cffffff001g |cffbfbfbf36s", -- [9]
+			"35951^|cffffff001g |cffbfbfbf36s", -- [10]
+			"35952^|cffffff001g |cffbfbfbf36s", -- [11]
+			"35953^|cffffff001g |cffbfbfbf36s", -- [12]
+			"35954^|cffbfbfbf51s", -- [13]
+			["POS"] = "4004^36.418589949608^47.022113204002",
+			["T"] = 1451094880,
+		},
+		["Maces & Staves~Archmage Berinand"] = {
+			"2524^|cffffff001g |cffbfbfbf82s |cff7f7f0032c", -- [1]
+			"2525^|cffffff002g |cffbfbfbf51s |cff7f7f0065c", -- [2]
+			"2527^|cffffff002g |cffbfbfbf78s |cff7f7f0088c", -- [3]
+			"2532^|cffffff004g |cffbfbfbf99s |cff7f7f0077c", -- [4]
+			"2533^|cffffff005g |cffbfbfbf80s |cff7f7f0052c", -- [5]
+			"2535^|cffffff005g |cffbfbfbf84s |cff7f7f0079c", -- [6]
+			["POS"] = "4001^32.975497841835^34.292069077492",
+			["T"] = 1451374215,
+			["R"] = 1,
+		},
+		["Mining Supplies~Zelan"] = {
+			"2880^|cff7f7f0090c", -- [1]
+			"2901^|cff7f7f0072c", -- [2]
+			"3466^|cffbfbfbf18s", -- [3]
+			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
+			"20815^|cffbfbfbf7s |cff7f7f0020c", -- [5]
+			"20824^|cffffff002g |cffbfbfbf25s", -- [6]
+			["T"] = 1451295663,
+			["POS"] = "2018^78.789973258972^42.553922533989",
+		},
+		["Clam Vendor~Ahlurglgr"] = {
+			"36783^|r30 INV_Misc_Shell_03", -- [1]
+			"36784^|r100 INV_Misc_Shell_03", -- [2]
+			"37449^|r5 INV_Misc_Shell_03", -- [3]
+			"37461^|r50 INV_Misc_Shell_03", -- [4]
+			"37462^|r30 INV_Misc_Shell_03", -- [5]
+			"37463^|r30 INV_Misc_Shell_03", -- [6]
+			"37464^|r10 INV_Misc_Shell_03", -- [7]
+			"38350^|r1 INV_Misc_Shell_03", -- [8]
+			"38351^|r2 INV_Misc_Shell_03", -- [9]
+			["POS"] = "4001^43.048056960106^13.789519667625",
+			["T"] = 1451381765,
+			["R"] = 1,
+		},
+		["Emblem of Heroism Quartermaster~Magistrix Lambriesse"] = {
+			"36925^|r20 Emblem of Heroism", -- [1]
+			"36922^|r20 Emblem of Heroism", -- [2]
+			"36934^|r10 Emblem of Heroism", -- [3]
+			"36928^|r10 Emblem of Heroism", -- [4]
+			"36919^|r20 Emblem of Heroism", -- [5]
+			"36931^|r10 Emblem of Heroism", -- [6]
+			"40611^|r80 Emblem of Heroism", -- [7]
+			"40614^|r60 Emblem of Heroism", -- [8]
+			"40678^|r25 Emblem of Heroism", -- [9]
+			"40679^|r25 Emblem of Heroism", -- [10]
+			"40680^|r25 Emblem of Heroism", -- [11]
+			"40681^|r25 Emblem of Heroism", -- [12]
+			"40682^|r40 Emblem of Heroism", -- [13]
+			"40683^|r40 Emblem of Heroism", -- [14]
+			"40684^|r40 Emblem of Heroism", -- [15]
+			"40685^|r40 Emblem of Heroism", -- [16]
+			"40688^|r40 Emblem of Heroism", -- [17]
+			"40689^|r40 Emblem of Heroism", -- [18]
+			"40691^|r40 Emblem of Heroism", -- [19]
+			"40692^|r40 Emblem of Heroism", -- [20]
+			"40693^|r40 Emblem of Heroism", -- [21]
+			"40694^|r40 Emblem of Heroism", -- [22]
+			"40695^|r40 Emblem of Heroism", -- [23]
+			"40696^|r40 Emblem of Heroism", -- [24]
+			"40697^|r40 Emblem of Heroism", -- [25]
+			"40698^|r25 Emblem of Heroism", -- [26]
+			"40699^|r25 Emblem of Heroism", -- [27]
+			"40700^|r35 Emblem of Heroism", -- [28]
+			"40701^|r35 Emblem of Heroism", -- [29]
+			"40702^|r50 Emblem of Heroism", -- [30]
+			"40703^|r50 Emblem of Heroism", -- [31]
+			"40704^|r50 Emblem of Heroism", -- [32]
+			"40716^|r15 Emblem of Heroism", -- [33]
+			"40778^|r45 Emblem of Heroism", -- [34]
+			"40797^|r30 Emblem of Heroism", -- [35]
+			"40816^|r45 Emblem of Heroism", -- [36]
+			"40836^|r45 Emblem of Heroism", -- [37]
+			"40856^|r30 Emblem of Heroism", -- [38]
+			"42943^|r65 Emblem of Heroism", -- [39]
+			"42944^|r40 Emblem of Heroism", -- [40]
+			"42945^|r40 Emblem of Heroism", -- [41]
+			"42946^|r65 Emblem of Heroism", -- [42]
+			"42947^|r65 Emblem of Heroism", -- [43]
+			"42948^|r50 Emblem of Heroism", -- [44]
+			"42949^|r40 Emblem of Heroism", -- [45]
+			"42950^|r40 Emblem of Heroism", -- [46]
+			"42951^|r40 Emblem of Heroism", -- [47]
+			"42952^|r40 Emblem of Heroism", -- [48]
+			"42984^|r40 Emblem of Heroism", -- [49]
+			"42985^|r40 Emblem of Heroism", -- [50]
+			"42991^|r50 Emblem of Heroism", -- [51]
+			"42992^|r50 Emblem of Heroism", -- [52]
+			"43102^|r10 Emblem of Heroism", -- [53]
+			["POS"] = "4003^65.498203039169^23.53393882513",
+			["T"] = 1451086272,
+		},
+		["General Goods~Halis Dawnstrider"] = {
+			"159^|cff7f7f0022c", -- [1]
+			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [2]
+			"2512^|cff7f7f009c", -- [3]
+			"2515^|cff7f7f0045c", -- [4]
+			"2516^|cff7f7f009c", -- [5]
+			"2519^|cff7f7f0045c", -- [6]
+			"4470^|cff7f7f0034c", -- [7]
+			"4496^|cffbfbfbf4s |cff7f7f0050c", -- [8]
+			"4498^|cffbfbfbf22s |cff7f7f0050c", -- [9]
+			"5042^|cff7f7f0045c", -- [10]
+			"22777^|cffbfbfbf1s |cff7f7f0035c", -- [11]
+			"25861^|cff7f7f0013c", -- [12]
+			"25872^|cff7f7f0027c", -- [13]
+			"28979^|cff7f7f0013c", -- [14]
+			"29007^|cff7f7f0027c", -- [15]
+			["POS"] = "2011^44.043949246407^70.261317491531",
+			["T"] = 1451118363,
+		},
+		["General Goods~Quartermaster Lymel"] = {
+			"159^|cff7f7f0025c", -- [1]
+			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [2]
+			"2512^|cff7f7f0010c", -- [3]
+			"2515^|cff7f7f0050c", -- [4]
+			"2516^|cff7f7f0010c", -- [5]
+			"2519^|cff7f7f0050c", -- [6]
+			"4470^|cff7f7f0038c", -- [7]
+			"4496^|cffbfbfbf5s", -- [8]
+			"4498^|cffbfbfbf25s", -- [9]
+			"5042^|cff7f7f0050c", -- [10]
+			"25861^|cff7f7f0015c", -- [11]
+			"25872^|cff7f7f0030c", -- [12]
+			"28979^|cff7f7f0015c", -- [13]
+			"29007^|cff7f7f0030c", -- [14]
+			["POS"] = "2012^47.301653027534^29.135370254517",
+			["T"] = 1451302526,
+		},
+		["Weapon Vendor~Sleyin"] = {
+			"2488^|cffbfbfbf4s |cff7f7f0082c", -- [1]
+			"2489^|cffbfbfbf3s |cff7f7f008c", -- [2]
+			"2490^|cffbfbfbf4s |cff7f7f0086c", -- [3]
+			"2491^|cffbfbfbf4s |cff7f7f0035c", -- [4]
+			"2492^|cffbfbfbf2s |cff7f7f0056c", -- [5]
+			"2493^|cffbfbfbf6s |cff7f7f0030c", -- [6]
+			"2494^|cffbfbfbf3s |cff7f7f0061c", -- [7]
+			"2495^|cffbfbfbf4s |cff7f7f0054c", -- [8]
+			["POS"] = "2011^46.98640704155^47.49898314476",
+			["T"] = 1451109780,
+			["R"] = 1,
+		},
+		["Cooking Supplies~Ronald Burch"] = {
+			"159^|cff7f7f0023c", -- [1]
+			"2678^|cff7f7f009c", -- [2]
+			"6330^|cffbfbfbf11s |cff7f7f0040c", -- [3]
+			"6368^|cffbfbfbf3s |cff7f7f0080c", -- [4]
+			"21099^|cffbfbfbf4s |cff7f7f0075c", -- [5]
+			"21219^|cffbfbfbf47s |cff7f7f0050c", -- [6]
+			"30817^|cff7f7f0023c", -- [7]
+			["POS"] = "2025^62.19801902771^43.043285608292",
+			["T"] = 1451275850,
+		},
+		["Food & Drink~Zalene Firstlight"] = {
+			"117^|cff7f7f0025c", -- [1]
+			"159^|cff7f7f0025c", -- [2]
+			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [3]
+			"1205^|cffbfbfbf5s", -- [4]
+			"1645^|cffbfbfbf20s", -- [5]
+			"1708^|cffbfbfbf10s", -- [6]
+			"2287^|cffbfbfbf1s |cff7f7f0025c", -- [7]
+			"3770^|cffbfbfbf5s", -- [8]
+			"3771^|cffbfbfbf10s", -- [9]
+			"4536^|cff7f7f0025c", -- [10]
+			"4537^|cffbfbfbf1s |cff7f7f0025c", -- [11]
+			"4538^|cffbfbfbf5s", -- [12]
+			"4539^|cffbfbfbf10s", -- [13]
+			"4599^|cffbfbfbf20s", -- [14]
+			"4602^|cffbfbfbf20s", -- [15]
+			"8766^|cffbfbfbf40s", -- [16]
+			"8952^|cffbfbfbf40s", -- [17]
+			"8953^|cffbfbfbf40s", -- [18]
+			"22776^|cffbfbfbf1s", -- [19]
+			["POS"] = "2011^60.35024523735^62.389320135117",
+			["T"] = 1451117284,
+		},
+		["Innkeeper~Innkeeper Grosk"] = {
+			"117^|cff7f7f0022c", -- [1]
+			"159^|cff7f7f0022c", -- [2]
+			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [3]
+			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [4]
+			"1645^|cffbfbfbf18s", -- [5]
+			"1708^|cffbfbfbf9s", -- [6]
+			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [7]
+			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [8]
+			"3771^|cffbfbfbf9s", -- [9]
+			"4599^|cffbfbfbf18s", -- [10]
+			"8766^|cffbfbfbf36s", -- [11]
+			"8952^|cffbfbfbf36s", -- [12]
+			"21833^|cff7f7f0090c", -- [13]
+			"21829^|cff7f7f0090c", -- [14]
+			["T"] = 1451089690,
+			["POS"] = "1008^51.525992155075^41.683566570282",
+		},
+		["Blacksmithing Supplies~Blacksmith Frances"] = {
+			"2880^|cff7f7f0085c", -- [1]
+			"2901^|cff7f7f0068c", -- [2]
+			"3466^|cffbfbfbf17s", -- [3]
+			"3857^|cffbfbfbf4s |cff7f7f0025c", -- [4]
+			"5956^|cff7f7f0015c", -- [5]
+			"18567^|cffffff0012g |cffbfbfbf75s", -- [6]
+			["POS"] = "2012^49.129793047905^30.348107218742",
+			["T"] = 1451291322,
+			["R"] = 1,
+		},
+		["Weapon Merchant~Geron"] = {
+			"2488^|cffbfbfbf5s |cff7f7f009c", -- [1]
+			"2489^|cffbfbfbf3s |cff7f7f0025c", -- [2]
+			"2490^|cffbfbfbf5s |cff7f7f0013c", -- [3]
+			"2491^|cffbfbfbf4s |cff7f7f0059c", -- [4]
+			"2492^|cffbfbfbf2s |cff7f7f0070c", -- [5]
+			"2493^|cffbfbfbf6s |cff7f7f0065c", -- [6]
+			"2494^|cffbfbfbf3s |cff7f7f0081c", -- [7]
+			"2495^|cffbfbfbf4s |cff7f7f0079c", -- [8]
+			["POS"] = "2011^48.472598195076^45.977360010147",
+			["T"] = 1451100405,
+			["R"] = 1,
+		},
+		["Leatherworking Supplies~Kinamisa"] = {
 			"2320^|cff7f7f009c", -- [1]
 			"2321^|cff7f7f0090c", -- [2]
 			"2325^|cffbfbfbf9s", -- [3]
@@ -12595,11 +13055,175 @@ NxData = {
 			"8343^|cffbfbfbf18s", -- [14]
 			"10290^|cffbfbfbf22s |cff7f7f0050c", -- [15]
 			"14341^|cffbfbfbf45s", -- [16]
-			"25720^|cffffff004g |cffbfbfbf50s", -- [17]
-			"25726^|cffbfbfbf90s", -- [18]
-			"38426^|cffffff002g |cffbfbfbf70s", -- [19]
-			["POS"] = "2018^84.706461429596^78.597390651703",
-			["T"] = 1451266258,
+			"38426^|cffffff002g |cffbfbfbf70s", -- [17]
+			["T"] = 1451296075,
+			["POS"] = "2011^53.829544782639^51.199638843536",
+		},
+		["|cffffff0018|r Humanoid~Provisioner Vredigar"] = {
+			"22985^|cffbfbfbf17s |cff7f7f0032c", -- [1]
+			"22986^|cffbfbfbf11s |cff7f7f0059c", -- [2]
+			"22987^|cffbfbfbf14s |cff7f7f0055c", -- [3]
+			"22990^|cffbfbfbf24s |cff7f7f0050c", -- [4]
+			"22991^|cffbfbfbf8s |cff7f7f0085c", -- [5]
+			"22992^|cffbfbfbf11s |cff7f7f0011c", -- [6]
+			"22993^|cffbfbfbf13s |cff7f7f0044c", -- [7]
+			"28155^|cffbfbfbf8s |cff7f7f0020c", -- [8]
+			"28158^|cffbfbfbf10s |cff7f7f0036c", -- [9]
+			"28162^|cffbfbfbf11s |cff7f7f0073c", -- [10]
+			"28164^|cffbfbfbf37s |cff7f7f0023c", -- [11]
+			["T"] = 1451295141,
+			["POS"] = "2012^47.684717178345^32.359716296196",
+			["R"] = 1,
+		},
+		["Bowyer~Narina"] = {
+			"2504^|cff7f7f0026c", -- [1]
+			"2505^|cff7f7f0054c", -- [2]
+			"2506^|cffbfbfbf2s |cff7f7f0056c", -- [3]
+			"2507^|cffbfbfbf15s |cff7f7f0076c", -- [4]
+			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [5]
+			"2511^|cffbfbfbf11s |cff7f7f0091c", -- [6]
+			"2512^|cff7f7f009c", -- [7]
+			"2515^|cff7f7f0045c", -- [8]
+			"2516^|cff7f7f009c", -- [9]
+			"2519^|cff7f7f0045c", -- [10]
+			"3023^|cffbfbfbf33s |cff7f7f0094c", -- [11]
+			"3026^|cffbfbfbf34s |cff7f7f0030c", -- [12]
+			"3027^|cffbfbfbf57s |cff7f7f0014c", -- [13]
+			"3030^|cffbfbfbf2s |cff7f7f0070c", -- [14]
+			"3033^|cffbfbfbf2s |cff7f7f0070c", -- [15]
+			"5439^|cff7f7f0090c", -- [16]
+			"5441^|cffbfbfbf9s", -- [17]
+			"11362^|cffbfbfbf9s", -- [18]
+			["POS"] = "2012^72.120708227158^32.020449638367",
+			["T"] = 1451294920,
+			["R"] = 1,
+		},
+		["Sunreavers Quartermaster~Vasarin Redmorn"] = {
+			"46814^|r150 Ability_Paladin_ArtofWar", -- [1]
+			"46816^|r100 Ability_Paladin_ArtofWar", -- [2]
+			"46821^|r40 Ability_Paladin_ArtofWar", -- [3]
+			"46818^|r50 Ability_Paladin_ArtofWar", -- [4]
+			["POS"] = "4007^76.2027323246^23.827424645424",
+			["T"] = 1451366072,
+		},
+		["Tailoring & Leatherworking Supplies~Yonada"] = {
+			"2320^|cff7f7f009c", -- [1]
+			"2321^|cff7f7f0090c", -- [2]
+			"2324^|cff7f7f0022c", -- [3]
+			"2325^|cffbfbfbf9s", -- [4]
+			"2604^|cff7f7f0045c", -- [5]
+			"2605^|cff7f7f0090c", -- [6]
+			"4289^|cff7f7f0045c", -- [7]
+			"4291^|cffbfbfbf4s |cff7f7f0050c", -- [8]
+			"4340^|cffbfbfbf3s |cff7f7f0015c", -- [9]
+			"4341^|cffbfbfbf4s |cff7f7f0050c", -- [10]
+			"4342^|cffbfbfbf22s |cff7f7f0050c", -- [11]
+			"5772^|cffbfbfbf4s |cff7f7f0050c", -- [12]
+			"6260^|cff7f7f0045c", -- [13]
+			"6261^|cffbfbfbf9s", -- [14]
+			"7005^|cff7f7f0073c", -- [15]
+			"8343^|cffbfbfbf18s", -- [16]
+			"10290^|cffbfbfbf22s |cff7f7f0050c", -- [17]
+			"14341^|cffbfbfbf45s", -- [18]
+			"6274^|cffbfbfbf3s |cff7f7f0060c", -- [19]
+			"38426^|cffffff002g |cffbfbfbf70s", -- [20]
+			["POS"] = "1019^44.967502355576^59.329164028168",
+			["T"] = 1451039056,
+		},
+		["Blacksmithing Trainer~Arathel Sunforge"] = {
+			"2880^|cff7f7f0090c", -- [1]
+			"2901^|cff7f7f0072c", -- [2]
+			"3466^|cffbfbfbf18s", -- [3]
+			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
+			"5956^|cff7f7f0016c", -- [5]
+			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
+			["POS"] = "2011^59.523516893387^62.593507766724",
+			["T"] = 1451114595,
+			["R"] = 1,
+		},
+		["Food & Drink~Librarian Serrah"] = {
+			"37252^|cffbfbfbf80s |cff7f7f0075c", -- [1]
+			"37253^|cffbfbfbf57s", -- [2]
+			["POS"] = "4001^33.448415994644^34.354001283646",
+			["T"] = 1451372195,
+		},
+		["Butcher~Gahroot"] = {
+			"117^|cff7f7f0022c", -- [1]
+			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [2]
+			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [3]
+			"3771^|cffbfbfbf9s", -- [4]
+			"4599^|cffbfbfbf18s", -- [5]
+			"8952^|cffbfbfbf36s", -- [6]
+			["POS"] = "1019^44.746506214142^59.394687414169",
+			["T"] = 1451039089,
+		},
+		["Innkeeper~Innkeeper Delaniel"] = {
+			"159^|cff7f7f0023c", -- [1]
+			"1179^|cffbfbfbf1s |cff7f7f0018c", -- [2]
+			"1205^|cffbfbfbf4s |cff7f7f0075c", -- [3]
+			"1645^|cffbfbfbf19s", -- [4]
+			"1708^|cffbfbfbf9s |cff7f7f0050c", -- [5]
+			"4540^|cff7f7f0023c", -- [6]
+			"4541^|cffbfbfbf1s |cff7f7f0018c", -- [7]
+			"4542^|cffbfbfbf4s |cff7f7f0075c", -- [8]
+			"4544^|cffbfbfbf9s |cff7f7f0050c", -- [9]
+			"4601^|cffbfbfbf19s", -- [10]
+			"8766^|cffbfbfbf38s", -- [11]
+			"8950^|cffbfbfbf38s", -- [12]
+			["T"] = 1451108969,
+			["POS"] = "2011^48.098021745682^47.648233175278",
+		},
+		["Trade Goods~Vrok"] = {
+			"4470^|cff7f7f0032c", -- [1]
+			"6532^|cffbfbfbf2s |cff7f7f0012c", -- [2]
+			"10648^|cffbfbfbf1s |cff7f7f006c", -- [3]
+			"14341^|cffbfbfbf42s |cff7f7f0050c", -- [4]
+			"18256^|cffffff001g |cffbfbfbf70s", -- [5]
+			"38426^|cffffff002g |cffbfbfbf55s", -- [6]
+			"39354^|cff7f7f0012c", -- [7]
+			"39501^|cffbfbfbf10s |cff7f7f0062c", -- [8]
+			"39502^|cffbfbfbf42s |cff7f7f0050c", -- [9]
+			"40411^|cffffff004g |cffbfbfbf25s", -- [10]
+			["POS"] = "4001^49.466848373413^10.243674367666",
+			["T"] = 1451384037,
+		},
+		["Food & Drink~Heron Skygaze"] = {
+			"117^|cff7f7f0025c", -- [1]
+			"159^|cff7f7f0025c", -- [2]
+			"787^|cff7f7f0025c", -- [3]
+			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [4]
+			"1205^|cffbfbfbf5s", -- [5]
+			"1645^|cffbfbfbf20s", -- [6]
+			"1708^|cffbfbfbf10s", -- [7]
+			"2287^|cffbfbfbf1s |cff7f7f0025c", -- [8]
+			"3770^|cffbfbfbf5s", -- [9]
+			"3771^|cffbfbfbf10s", -- [10]
+			"4592^|cff7f7f0020c", -- [11]
+			"4593^|cffbfbfbf5s", -- [12]
+			"4594^|cffbfbfbf10s", -- [13]
+			"4599^|cffbfbfbf20s", -- [14]
+			"4604^|cff7f7f0025c", -- [15]
+			"4605^|cffbfbfbf1s |cff7f7f0025c", -- [16]
+			"4606^|cffbfbfbf5s", -- [17]
+			"4607^|cffbfbfbf10s", -- [18]
+			"4608^|cffbfbfbf20s", -- [19]
+			"8766^|cffbfbfbf40s", -- [20]
+			"8948^|cffbfbfbf40s", -- [21]
+			"8952^|cffbfbfbf40s", -- [22]
+			"8957^|cffbfbfbf40s", -- [23]
+			"21552^|cffbfbfbf20s", -- [24]
+			["T"] = 1451206400,
+			["POS"] = "2012^72.309064865112^32.380667328835",
+		},
+		["Wine & Spirits Merchant~Vinemaster Suntouched"] = {
+			"2593^|cffbfbfbf1s |cff7f7f0035c", -- [1]
+			"2594^|cffbfbfbf13s |cff7f7f0050c", -- [2]
+			"2595^|cffbfbfbf18s", -- [3]
+			"2596^|cffbfbfbf1s |cff7f7f008c", -- [4]
+			"2723^|cff7f7f0045c", -- [5]
+			"22775^|cffbfbfbf2s |cff7f7f0070c", -- [6]
+			["T"] = 1451113525,
+			["POS"] = "2018^79.587817192078^58.700478076935",
 		},
 		["Emblem of Frost Quartermaster~Magister Arlan"] = {
 			"50965^|r95 inv_misc_frostemblem_01", -- [1]
@@ -12657,489 +13281,10 @@ NxData = {
 			"50464^|r30 inv_misc_frostemblem_01", -- [53]
 			"49908^|r23 inv_misc_frostemblem_01", -- [54]
 			"47241^|r1 inv_misc_frostemblem_01", -- [55]
+			["POS"] = "4003^65.498203039169^23.53393882513",
 			["T"] = 1451084658,
-			["POS"] = "4003^65.498203039169^23.53393882513",
 		},
-		["Flower Vendor~Aerith Primrose"] = {
-			"3419^|cffbfbfbf5s", -- [1]
-			"3420^|cffbfbfbf50s", -- [2]
-			"3421^|cffbfbfbf2s", -- [3]
-			"3422^|cffbfbfbf20s", -- [4]
-			"3423^|cffffff002g", -- [5]
-			"3424^|cffffff0050g", -- [6]
-			["T"] = 1451297043,
-			["POS"] = "4003^57.4751496315^53.088575601578",
-		},
-		["General Goods~Sheri"] = {
-			"159^|cff7f7f0023c", -- [1]
-			"2512^|cff7f7f009c", -- [2]
-			"2516^|cff7f7f009c", -- [3]
-			"4470^|cff7f7f0036c", -- [4]
-			"4496^|cffbfbfbf4s |cff7f7f0075c", -- [5]
-			"4498^|cffbfbfbf23s |cff7f7f0075c", -- [6]
-			"5042^|cff7f7f0047c", -- [7]
-			"25861^|cff7f7f0014c", -- [8]
-			"25872^|cff7f7f0028c", -- [9]
-			"28979^|cff7f7f0014c", -- [10]
-			"29007^|cff7f7f0028c", -- [11]
-			["POS"] = "2011^48.140466213226^47.280251979828",
-			["T"] = 1451100436,
-		},
-		["War Harness Vendor~Sura Wildmane"] = {
-			"6523^|cffbfbfbf12s |cff7f7f0079c", -- [1]
-			"6524^|cffbfbfbf25s |cff7f7f0083c", -- [2]
-			"6525^|cffbfbfbf46s |cff7f7f0051c", -- [3]
-			"6526^|cffffff001g |cffbfbfbf12s |cff7f7f0038c", -- [4]
-			["T"] = 1451203759,
-			["POS"] = "1022^51.725405454636^55.094993114471",
-			["R"] = 1,
-		},
-		["Guns & Ammunition~Kaja"] = {
-			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [1]
-			"2511^|cffbfbfbf11s |cff7f7f0091c", -- [2]
-			"2516^|cff7f7f009c", -- [3]
-			"2519^|cff7f7f0045c", -- [4]
-			"3023^|cffbfbfbf33s |cff7f7f0094c", -- [5]
-			"3024^|cffbfbfbf63s |cff7f7f0088c", -- [6]
-			"3025^|cffffff001g |cffbfbfbf66s |cff7f7f0031c", -- [7]
-			"3033^|cffbfbfbf2s |cff7f7f0070c", -- [8]
-			"5441^|cffbfbfbf9s", -- [9]
-			"11284^|cffbfbfbf9s", -- [10]
-			"28060^|cffbfbfbf14s |cff7f7f0040c", -- [11]
-			["T"] = 1451091870,
-			["POS"] = "1014^52.186816930771^62.297296524048",
-			["R"] = 1,
-		},
-		["Wine & Spirits Merchant~Vinemaster Suntouched"] = {
-			"2593^|cffbfbfbf1s |cff7f7f0035c", -- [1]
-			"2594^|cffbfbfbf13s |cff7f7f0050c", -- [2]
-			"2595^|cffbfbfbf18s", -- [3]
-			"2596^|cffbfbfbf1s |cff7f7f008c", -- [4]
-			"2723^|cff7f7f0045c", -- [5]
-			"22775^|cffbfbfbf2s |cff7f7f0070c", -- [6]
-			["POS"] = "2018^79.587817192078^58.700478076935",
-			["T"] = 1451113525,
-		},
-		["Emblem of Triumph Quartermaster~Magistrix Vesara"] = {
-			"47556^|r15 spell_holy_summonchampion", -- [1]
-			"47667^|r25 spell_holy_summonchampion", -- [2]
-			"47666^|r25 spell_holy_summonchampion", -- [3]
-			"47665^|r25 spell_holy_summonchampion", -- [4]
-			"47673^|r25 spell_holy_summonchampion", -- [5]
-			"47672^|r25 spell_holy_summonchampion", -- [6]
-			"47662^|r25 spell_holy_summonchampion", -- [7]
-			"47661^|r25 spell_holy_summonchampion", -- [8]
-			"47664^|r25 spell_holy_summonchampion", -- [9]
-			"47668^|r25 spell_holy_summonchampion", -- [10]
-			"47670^|r25 spell_holy_summonchampion", -- [11]
-			"47671^|r25 spell_holy_summonchampion", -- [12]
-			"47659^|r25 spell_holy_summonchampion", -- [13]
-			"47658^|r25 spell_holy_summonchampion", -- [14]
-			"47660^|r25 spell_holy_summonchampion", -- [15]
-			"47733^|r35 spell_holy_summonchampion", -- [16]
-			"47730^|r35 spell_holy_summonchampion", -- [17]
-			"47731^|r35 spell_holy_summonchampion", -- [18]
-			"47729^|r35 spell_holy_summonchampion", -- [19]
-			"47732^|r35 spell_holy_summonchampion", -- [20]
-			"47706^|r45 spell_holy_summonchampion", -- [21]
-			"47701^|r45 spell_holy_summonchampion", -- [22]
-			"47696^|r45 spell_holy_summonchampion", -- [23]
-			"47699^|r45 spell_holy_summonchampion", -- [24]
-			"47705^|r45 spell_holy_summonchampion", -- [25]
-			"47714^|r45 spell_holy_summonchampion", -- [26]
-			"47716^|r45 spell_holy_summonchampion", -- [27]
-			"47710^|r45 spell_holy_summonchampion", -- [28]
-			"47709^|r45 spell_holy_summonchampion", -- [29]
-			"48724^|r50 spell_holy_summonchampion", -- [30]
-			"48722^|r50 spell_holy_summonchampion", -- [31]
-			"47734^|r50 spell_holy_summonchampion", -- [32]
-			"47735^|r50 spell_holy_summonchampion", -- [33]
-			"40866^|r50 spell_holy_summonchampion", -- [34]
-			"40807^|r50 spell_holy_summonchampion", -- [35]
-			"47688^|r75 spell_holy_summonchampion", -- [36]
-			"47691^|r75 spell_holy_summonchampion", -- [37]
-			"47692^|r75 spell_holy_summonchampion", -- [38]
-			"47695^|r75 spell_holy_summonchampion", -- [39]
-			"47682^|r75 spell_holy_summonchampion", -- [40]
-			"47678^|r75 spell_holy_summonchampion", -- [41]
-			"47687^|r75 spell_holy_summonchampion", -- [42]
-			"40847^|r75 spell_holy_summonchampion", -- [43]
-			"40826^|r75 spell_holy_summonchampion", -- [44]
-			"40789^|r75 spell_holy_summonchampion", -- [45]
-			"47675^|r75 spell_holy_summonchampion", -- [46]
-			"47684^|r75 spell_holy_summonchampion", -- [47]
-			"45624^|r1 spell_holy_summonchampion", -- [48]
-			"49702^|r1 spell_holy_summonchampion", -- [49]
-			"44713^|r1 spell_holy_summonchampion", -- [50]
-			"44711^|r1 spell_holy_summonchampion", -- [51]
-			"43950^|r1 spell_holy_summonchampion", -- [52]
-			"44710^|r1 spell_holy_summonchampion", -- [53]
-			["T"] = 1451086329,
-			["POS"] = "4003^65.498203039169^23.53393882513",
-		},
-		["Food & Drink~Heron Skygaze"] = {
-			"117^|cff7f7f0025c", -- [1]
-			"159^|cff7f7f0025c", -- [2]
-			"787^|cff7f7f0025c", -- [3]
-			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [4]
-			"1205^|cffbfbfbf5s", -- [5]
-			"1645^|cffbfbfbf20s", -- [6]
-			"1708^|cffbfbfbf10s", -- [7]
-			"2287^|cffbfbfbf1s |cff7f7f0025c", -- [8]
-			"3770^|cffbfbfbf5s", -- [9]
-			"3771^|cffbfbfbf10s", -- [10]
-			"4592^|cff7f7f0020c", -- [11]
-			"4593^|cffbfbfbf5s", -- [12]
-			"4594^|cffbfbfbf10s", -- [13]
-			"4599^|cffbfbfbf20s", -- [14]
-			"4604^|cff7f7f0025c", -- [15]
-			"4605^|cffbfbfbf1s |cff7f7f0025c", -- [16]
-			"4606^|cffbfbfbf5s", -- [17]
-			"4607^|cffbfbfbf10s", -- [18]
-			"4608^|cffbfbfbf20s", -- [19]
-			"8766^|cffbfbfbf40s", -- [20]
-			"8948^|cffbfbfbf40s", -- [21]
-			"8952^|cffbfbfbf40s", -- [22]
-			"8957^|cffbfbfbf40s", -- [23]
-			"21552^|cffbfbfbf20s", -- [24]
-			["POS"] = "2012^72.309064865112^32.380667328835",
-			["T"] = 1451206400,
-		},
-		["Food & Drink~Aegalas"] = {
-			"33443^|cffbfbfbf72s |cff7f7f0025c", -- [1]
-			"33444^|cffbfbfbf72s |cff7f7f0025c", -- [2]
-			"33445^|cffbfbfbf93s |cff7f7f0050c", -- [3]
-			"33449^|cffbfbfbf72s |cff7f7f0025c", -- [4]
-			"33451^|cffbfbfbf72s |cff7f7f0025c", -- [5]
-			"33454^|cffbfbfbf72s |cff7f7f0025c", -- [6]
-			"35948^|cffffff001g |cffbfbfbf36s", -- [7]
-			"35949^|cffbfbfbf72s |cff7f7f0025c", -- [8]
-			"35950^|cffffff001g |cffbfbfbf36s", -- [9]
-			"35951^|cffffff001g |cffbfbfbf36s", -- [10]
-			"35952^|cffffff001g |cffbfbfbf36s", -- [11]
-			"35953^|cffffff001g |cffbfbfbf36s", -- [12]
-			"35954^|cffbfbfbf51s", -- [13]
-			["T"] = 1451094880,
-			["POS"] = "4004^36.418589949608^47.022113204002",
-		},
-		["Innkeeper~Innkeeper Gryshka"] = {
-			"21833^|cff7f7f0090c", -- [1]
-			"21829^|cff7f7f0090c", -- [2]
-			"117^|cff7f7f0022c", -- [3]
-			"159^|cff7f7f0022c", -- [4]
-			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [5]
-			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [6]
-			"1645^|cffbfbfbf18s", -- [7]
-			"1708^|cffbfbfbf9s", -- [8]
-			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [9]
-			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [10]
-			"3771^|cffbfbfbf9s", -- [11]
-			"4599^|cffbfbfbf18s", -- [12]
-			"8766^|cffbfbfbf36s", -- [13]
-			"8952^|cffbfbfbf36s", -- [14]
-			"27854^|cffbfbfbf50s |cff7f7f0040c", -- [15]
-			"28399^|cffbfbfbf50s |cff7f7f0040c", -- [16]
-			"33444^|cffbfbfbf76s |cff7f7f0050c", -- [17]
-			"33445^|cffbfbfbf99s", -- [18]
-			"33454^|cffbfbfbf76s |cff7f7f0050c", -- [19]
-			"35953^|cffffff001g |cffbfbfbf44s", -- [20]
-			"35954^|cffbfbfbf54s", -- [21]
-			["T"] = 1451092360,
-			["POS"] = "1014^54.021364450455^68.777579069138",
-		},
-		["Mining Supplies~Zelan"] = {
-			"2880^|cff7f7f0090c", -- [1]
-			"2901^|cff7f7f0072c", -- [2]
-			"3466^|cffbfbfbf18s", -- [3]
-			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
-			"20815^|cffbfbfbf7s |cff7f7f0020c", -- [5]
-			"20824^|cffffff002g |cffbfbfbf25s", -- [6]
-			["POS"] = "2018^78.789973258972^42.553922533989",
-			["T"] = 1451295663,
-		},
-		["Enchanting Supplies~Nata Dawnstrider"] = {
-			"4470^|cff7f7f0034c", -- [1]
-			"6217^|cffbfbfbf1s |cff7f7f0011c", -- [2]
-			"6349^|cffbfbfbf4s |cff7f7f0050c", -- [3]
-			"6377^|cffbfbfbf9s", -- [4]
-			"10938^|cffbfbfbf7s |cff7f7f0020c", -- [5]
-			"10940^|cffbfbfbf7s |cff7f7f0020c", -- [6]
-			"11291^|cffbfbfbf40s |cff7f7f0050c", -- [7]
-			"20752^|cffbfbfbf27s", -- [8]
-			"20753^|cffbfbfbf36s", -- [9]
-			"20758^|cffbfbfbf4s |cff7f7f0050c", -- [10]
-			"22307^|cffbfbfbf54s", -- [11]
-			["T"] = 1451036890,
-			["POS"] = "1022^45.354580879211^38.652148842812",
-		},
-		["Emblem of Heroism Quartermaster~Magistrix Lambriesse"] = {
-			"36925^|r20 Emblem of Heroism", -- [1]
-			"36922^|r20 Emblem of Heroism", -- [2]
-			"36934^|r10 Emblem of Heroism", -- [3]
-			"36928^|r10 Emblem of Heroism", -- [4]
-			"36919^|r20 Emblem of Heroism", -- [5]
-			"36931^|r10 Emblem of Heroism", -- [6]
-			"40611^|r80 Emblem of Heroism", -- [7]
-			"40614^|r60 Emblem of Heroism", -- [8]
-			"40678^|r25 Emblem of Heroism", -- [9]
-			"40679^|r25 Emblem of Heroism", -- [10]
-			"40680^|r25 Emblem of Heroism", -- [11]
-			"40681^|r25 Emblem of Heroism", -- [12]
-			"40682^|r40 Emblem of Heroism", -- [13]
-			"40683^|r40 Emblem of Heroism", -- [14]
-			"40684^|r40 Emblem of Heroism", -- [15]
-			"40685^|r40 Emblem of Heroism", -- [16]
-			"40688^|r40 Emblem of Heroism", -- [17]
-			"40689^|r40 Emblem of Heroism", -- [18]
-			"40691^|r40 Emblem of Heroism", -- [19]
-			"40692^|r40 Emblem of Heroism", -- [20]
-			"40693^|r40 Emblem of Heroism", -- [21]
-			"40694^|r40 Emblem of Heroism", -- [22]
-			"40695^|r40 Emblem of Heroism", -- [23]
-			"40696^|r40 Emblem of Heroism", -- [24]
-			"40697^|r40 Emblem of Heroism", -- [25]
-			"40698^|r25 Emblem of Heroism", -- [26]
-			"40699^|r25 Emblem of Heroism", -- [27]
-			"40700^|r35 Emblem of Heroism", -- [28]
-			"40701^|r35 Emblem of Heroism", -- [29]
-			"40702^|r50 Emblem of Heroism", -- [30]
-			"40703^|r50 Emblem of Heroism", -- [31]
-			"40704^|r50 Emblem of Heroism", -- [32]
-			"40716^|r15 Emblem of Heroism", -- [33]
-			"40778^|r45 Emblem of Heroism", -- [34]
-			"40797^|r30 Emblem of Heroism", -- [35]
-			"40816^|r45 Emblem of Heroism", -- [36]
-			"40836^|r45 Emblem of Heroism", -- [37]
-			"40856^|r30 Emblem of Heroism", -- [38]
-			"42943^|r65 Emblem of Heroism", -- [39]
-			"42944^|r40 Emblem of Heroism", -- [40]
-			"42945^|r40 Emblem of Heroism", -- [41]
-			"42946^|r65 Emblem of Heroism", -- [42]
-			"42947^|r65 Emblem of Heroism", -- [43]
-			"42948^|r50 Emblem of Heroism", -- [44]
-			"42949^|r40 Emblem of Heroism", -- [45]
-			"42950^|r40 Emblem of Heroism", -- [46]
-			"42951^|r40 Emblem of Heroism", -- [47]
-			"42952^|r40 Emblem of Heroism", -- [48]
-			"42984^|r40 Emblem of Heroism", -- [49]
-			"42985^|r40 Emblem of Heroism", -- [50]
-			"42991^|r50 Emblem of Heroism", -- [51]
-			"42992^|r50 Emblem of Heroism", -- [52]
-			"43102^|r10 Emblem of Heroism", -- [53]
-			["T"] = 1451086272,
-			["POS"] = "4003^65.498203039169^23.53393882513",
-		},
-		["General Goods~Halis Dawnstrider"] = {
-			"159^|cff7f7f0022c", -- [1]
-			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [2]
-			"2512^|cff7f7f009c", -- [3]
-			"2515^|cff7f7f0045c", -- [4]
-			"2516^|cff7f7f009c", -- [5]
-			"2519^|cff7f7f0045c", -- [6]
-			"4470^|cff7f7f0034c", -- [7]
-			"4496^|cffbfbfbf4s |cff7f7f0050c", -- [8]
-			"4498^|cffbfbfbf22s |cff7f7f0050c", -- [9]
-			"5042^|cff7f7f0045c", -- [10]
-			"22777^|cffbfbfbf1s |cff7f7f0035c", -- [11]
-			"25861^|cff7f7f0013c", -- [12]
-			"25872^|cff7f7f0027c", -- [13]
-			"28979^|cff7f7f0013c", -- [14]
-			"29007^|cff7f7f0027c", -- [15]
-			["T"] = 1451118363,
-			["POS"] = "2011^44.043949246407^70.261317491531",
-		},
-		["Weapon Vendor~Sleyin"] = {
-			"2488^|cffbfbfbf4s |cff7f7f0082c", -- [1]
-			"2489^|cffbfbfbf3s |cff7f7f008c", -- [2]
-			"2490^|cffbfbfbf4s |cff7f7f0086c", -- [3]
-			"2491^|cffbfbfbf4s |cff7f7f0035c", -- [4]
-			"2492^|cffbfbfbf2s |cff7f7f0056c", -- [5]
-			"2493^|cffbfbfbf6s |cff7f7f0030c", -- [6]
-			"2494^|cffbfbfbf3s |cff7f7f0061c", -- [7]
-			"2495^|cffbfbfbf4s |cff7f7f0054c", -- [8]
-			["POS"] = "2011^46.98640704155^47.49898314476",
-			["T"] = 1451109780,
-			["R"] = 1,
-		},
-		["Armorsmith~Faraden Thelryn"] = {
-			"20911^|cff7f7f0035c", -- [1]
-			"20912^|cff7f7f0079c", -- [2]
-			"20914^|cff7f7f0037c", -- [3]
-			"20915^|cff7f7f0057c", -- [4]
-			"20916^|cff7f7f0034c", -- [5]
-			"20917^|cff7f7f0034c", -- [6]
-			"20918^|cff7f7f0068c", -- [7]
-			"20919^|cff7f7f0069c", -- [8]
-			["POS"] = "2011^37.663200497627^18.86028945446",
-			["T"] = 1451096650,
-			["R"] = 1,
-		},
-		["Cooking Supplies~Ronald Burch"] = {
-			"159^|cff7f7f0023c", -- [1]
-			"2678^|cff7f7f009c", -- [2]
-			"6330^|cffbfbfbf11s |cff7f7f0040c", -- [3]
-			"6368^|cffbfbfbf3s |cff7f7f0080c", -- [4]
-			"21099^|cffbfbfbf4s |cff7f7f0075c", -- [5]
-			"21219^|cffbfbfbf47s |cff7f7f0050c", -- [6]
-			"30817^|cff7f7f0023c", -- [7]
-			["T"] = 1451275850,
-			["POS"] = "2025^62.19801902771^43.043285608292",
-		},
-		["Food & Drink~Zalene Firstlight"] = {
-			"117^|cff7f7f0025c", -- [1]
-			"159^|cff7f7f0025c", -- [2]
-			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [3]
-			"1205^|cffbfbfbf5s", -- [4]
-			"1645^|cffbfbfbf20s", -- [5]
-			"1708^|cffbfbfbf10s", -- [6]
-			"2287^|cffbfbfbf1s |cff7f7f0025c", -- [7]
-			"3770^|cffbfbfbf5s", -- [8]
-			"3771^|cffbfbfbf10s", -- [9]
-			"4536^|cff7f7f0025c", -- [10]
-			"4537^|cffbfbfbf1s |cff7f7f0025c", -- [11]
-			"4538^|cffbfbfbf5s", -- [12]
-			"4539^|cffbfbfbf10s", -- [13]
-			"4599^|cffbfbfbf20s", -- [14]
-			"4602^|cffbfbfbf20s", -- [15]
-			"8766^|cffbfbfbf40s", -- [16]
-			"8952^|cffbfbfbf40s", -- [17]
-			"8953^|cffbfbfbf40s", -- [18]
-			"22776^|cffbfbfbf1s", -- [19]
-			["T"] = 1451117284,
-			["POS"] = "2011^60.35024523735^62.389320135117",
-		},
-		["Innkeeper~Innkeeper Grosk"] = {
-			"117^|cff7f7f0022c", -- [1]
-			"159^|cff7f7f0022c", -- [2]
-			"1179^|cffbfbfbf1s |cff7f7f0012c", -- [3]
-			"1205^|cffbfbfbf4s |cff7f7f0050c", -- [4]
-			"1645^|cffbfbfbf18s", -- [5]
-			"1708^|cffbfbfbf9s", -- [6]
-			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [7]
-			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [8]
-			"3771^|cffbfbfbf9s", -- [9]
-			"4599^|cffbfbfbf18s", -- [10]
-			"8766^|cffbfbfbf36s", -- [11]
-			"8952^|cffbfbfbf36s", -- [12]
-			"21833^|cff7f7f0090c", -- [13]
-			"21829^|cff7f7f0090c", -- [14]
-			["POS"] = "1008^51.525992155075^41.683566570282",
-			["T"] = 1451089690,
-		},
-		["Butcher~Gahroot"] = {
-			"117^|cff7f7f0022c", -- [1]
-			"2287^|cffbfbfbf1s |cff7f7f0012c", -- [2]
-			"3770^|cffbfbfbf4s |cff7f7f0050c", -- [3]
-			"3771^|cffbfbfbf9s", -- [4]
-			"4599^|cffbfbfbf18s", -- [5]
-			"8952^|cffbfbfbf36s", -- [6]
-			["T"] = 1451039089,
-			["POS"] = "1019^44.746506214142^59.394687414169",
-		},
-		["Weapon Merchant~Geron"] = {
-			"2488^|cffbfbfbf5s |cff7f7f009c", -- [1]
-			"2489^|cffbfbfbf3s |cff7f7f0025c", -- [2]
-			"2490^|cffbfbfbf5s |cff7f7f0013c", -- [3]
-			"2491^|cffbfbfbf4s |cff7f7f0059c", -- [4]
-			"2492^|cffbfbfbf2s |cff7f7f0070c", -- [5]
-			"2493^|cffbfbfbf6s |cff7f7f0065c", -- [6]
-			"2494^|cffbfbfbf3s |cff7f7f0081c", -- [7]
-			"2495^|cffbfbfbf4s |cff7f7f0079c", -- [8]
-			["POS"] = "2011^48.472598195076^45.977360010147",
-			["T"] = 1451100405,
-			["R"] = 1,
-		},
-		["Blacksmithing Trainer~Arathel Sunforge"] = {
-			"2880^|cff7f7f0090c", -- [1]
-			"2901^|cff7f7f0072c", -- [2]
-			"3466^|cffbfbfbf18s", -- [3]
-			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
-			"5956^|cff7f7f0016c", -- [5]
-			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
-			["POS"] = "2011^59.523516893387^62.593507766724",
-			["T"] = 1451114595,
-			["R"] = 1,
-		},
-		["Tailoring & Leatherworking Supplies~Yonada"] = {
-			"2320^|cff7f7f009c", -- [1]
-			"2321^|cff7f7f0090c", -- [2]
-			"2324^|cff7f7f0022c", -- [3]
-			"2325^|cffbfbfbf9s", -- [4]
-			"2604^|cff7f7f0045c", -- [5]
-			"2605^|cff7f7f0090c", -- [6]
-			"4289^|cff7f7f0045c", -- [7]
-			"4291^|cffbfbfbf4s |cff7f7f0050c", -- [8]
-			"4340^|cffbfbfbf3s |cff7f7f0015c", -- [9]
-			"4341^|cffbfbfbf4s |cff7f7f0050c", -- [10]
-			"4342^|cffbfbfbf22s |cff7f7f0050c", -- [11]
-			"5772^|cffbfbfbf4s |cff7f7f0050c", -- [12]
-			"6260^|cff7f7f0045c", -- [13]
-			"6261^|cffbfbfbf9s", -- [14]
-			"7005^|cff7f7f0073c", -- [15]
-			"8343^|cffbfbfbf18s", -- [16]
-			"10290^|cffbfbfbf22s |cff7f7f0050c", -- [17]
-			"14341^|cffbfbfbf45s", -- [18]
-			"6274^|cffbfbfbf3s |cff7f7f0060c", -- [19]
-			"38426^|cffffff002g |cffbfbfbf70s", -- [20]
-			["T"] = 1451039056,
-			["POS"] = "1019^44.967502355576^59.329164028168",
-		},
-		["Bowyer~Narina"] = {
-			"2504^|cff7f7f0026c", -- [1]
-			"2505^|cff7f7f0054c", -- [2]
-			"2506^|cffbfbfbf2s |cff7f7f0056c", -- [3]
-			"2507^|cffbfbfbf15s |cff7f7f0076c", -- [4]
-			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [5]
-			"2511^|cffbfbfbf11s |cff7f7f0091c", -- [6]
-			"2512^|cff7f7f009c", -- [7]
-			"2515^|cff7f7f0045c", -- [8]
-			"2516^|cff7f7f009c", -- [9]
-			"2519^|cff7f7f0045c", -- [10]
-			"3023^|cffbfbfbf33s |cff7f7f0094c", -- [11]
-			"3026^|cffbfbfbf34s |cff7f7f0030c", -- [12]
-			"3027^|cffbfbfbf57s |cff7f7f0014c", -- [13]
-			"3030^|cffbfbfbf2s |cff7f7f0070c", -- [14]
-			"3033^|cffbfbfbf2s |cff7f7f0070c", -- [15]
-			"5439^|cff7f7f0090c", -- [16]
-			"5441^|cffbfbfbf9s", -- [17]
-			"11362^|cffbfbfbf9s", -- [18]
-			["POS"] = "2012^72.120708227158^32.020449638367",
-			["T"] = 1451294920,
-			["R"] = 1,
-		},
-		["|cffffff0018|r Humanoid~Provisioner Vredigar"] = {
-			"22985^|cffbfbfbf17s |cff7f7f0032c", -- [1]
-			"22986^|cffbfbfbf11s |cff7f7f0059c", -- [2]
-			"22987^|cffbfbfbf14s |cff7f7f0055c", -- [3]
-			"22990^|cffbfbfbf24s |cff7f7f0050c", -- [4]
-			"22991^|cffbfbfbf8s |cff7f7f0085c", -- [5]
-			"22992^|cffbfbfbf11s |cff7f7f0011c", -- [6]
-			"22993^|cffbfbfbf13s |cff7f7f0044c", -- [7]
-			"28155^|cffbfbfbf8s |cff7f7f0020c", -- [8]
-			"28158^|cffbfbfbf10s |cff7f7f0036c", -- [9]
-			"28162^|cffbfbfbf11s |cff7f7f0073c", -- [10]
-			"28164^|cffbfbfbf37s |cff7f7f0023c", -- [11]
-			["T"] = 1451295141,
-			["POS"] = "2012^47.684717178345^32.359716296196",
-			["R"] = 1,
-		},
-		["Innkeeper~Innkeeper Kauth"] = {
-			"159^|cff7f7f0021c", -- [1]
-			"1179^|cffbfbfbf1s |cff7f7f006c", -- [2]
-			"1205^|cffbfbfbf4s |cff7f7f0025c", -- [3]
-			"1645^|cffbfbfbf17s", -- [4]
-			"1708^|cffbfbfbf8s |cff7f7f0050c", -- [5]
-			"4540^|cff7f7f0021c", -- [6]
-			"4541^|cffbfbfbf1s |cff7f7f006c", -- [7]
-			"4542^|cffbfbfbf4s |cff7f7f0025c", -- [8]
-			"4544^|cffbfbfbf8s |cff7f7f0050c", -- [9]
-			"4601^|cffbfbfbf17s", -- [10]
-			"8766^|cffbfbfbf34s", -- [11]
-			"8950^|cffbfbfbf34s", -- [12]
-			["T"] = 1451034037,
-			["POS"] = "1013^46.640232205391^61.077123880386",
-		},
-		["Leatherworking Supplies~Kinamisa"] = {
+		["Leatherworking Supplies~Zaralda"] = {
 			"2320^|cff7f7f009c", -- [1]
 			"2321^|cff7f7f0090c", -- [2]
 			"2325^|cffbfbfbf9s", -- [3]
@@ -13156,150 +13301,46 @@ NxData = {
 			"8343^|cffbfbfbf18s", -- [14]
 			"10290^|cffbfbfbf22s |cff7f7f0050c", -- [15]
 			"14341^|cffbfbfbf45s", -- [16]
-			"38426^|cffffff002g |cffbfbfbf70s", -- [17]
-			["POS"] = "2011^53.829544782639^51.199638843536",
-			["T"] = 1451296075,
+			"25720^|cffffff004g |cffbfbfbf50s", -- [17]
+			"25726^|cffbfbfbf90s", -- [18]
+			"38426^|cffffff002g |cffbfbfbf70s", -- [19]
+			["T"] = 1451266258,
+			["POS"] = "2018^84.706461429596^78.597390651703",
 		},
-		["Blacksmithing Supplies~Blacksmith Frances"] = {
-			"2880^|cff7f7f0085c", -- [1]
-			"2901^|cff7f7f0068c", -- [2]
-			"3466^|cffbfbfbf17s", -- [3]
-			"3857^|cffbfbfbf4s |cff7f7f0025c", -- [4]
-			"5956^|cff7f7f0015c", -- [5]
-			"18567^|cffffff0012g |cffbfbfbf75s", -- [6]
-			["POS"] = "2012^49.129793047905^30.348107218742",
-			["T"] = 1451291322,
+		["War Harness Vendor~Sura Wildmane"] = {
+			"6523^|cffbfbfbf12s |cff7f7f0079c", -- [1]
+			"6524^|cffbfbfbf25s |cff7f7f0083c", -- [2]
+			"6525^|cffbfbfbf46s |cff7f7f0051c", -- [3]
+			"6526^|cffffff001g |cffbfbfbf12s |cff7f7f0038c", -- [4]
+			["T"] = 1451203759,
+			["POS"] = "1022^51.725405454636^55.094993114471",
 			["R"] = 1,
 		},
-		["General Goods~Quartermaster Lymel"] = {
-			"159^|cff7f7f0025c", -- [1]
-			"1179^|cffbfbfbf1s |cff7f7f0025c", -- [2]
-			"2512^|cff7f7f0010c", -- [3]
-			"2515^|cff7f7f0050c", -- [4]
-			"2516^|cff7f7f0010c", -- [5]
-			"2519^|cff7f7f0050c", -- [6]
-			"4470^|cff7f7f0038c", -- [7]
-			"4496^|cffbfbfbf5s", -- [8]
-			"4498^|cffbfbfbf25s", -- [9]
-			"5042^|cff7f7f0050c", -- [10]
-			"25861^|cff7f7f0015c", -- [11]
-			"25872^|cff7f7f0030c", -- [12]
-			"28979^|cff7f7f0015c", -- [13]
-			"29007^|cff7f7f0030c", -- [14]
-			["T"] = 1451302526,
-			["POS"] = "2012^47.301653027534^29.135370254517",
-		},
-		["Innkeeper~Innkeeper Delaniel"] = {
-			"159^|cff7f7f0023c", -- [1]
-			"1179^|cffbfbfbf1s |cff7f7f0018c", -- [2]
-			"1205^|cffbfbfbf4s |cff7f7f0075c", -- [3]
-			"1645^|cffbfbfbf19s", -- [4]
-			"1708^|cffbfbfbf9s |cff7f7f0050c", -- [5]
-			"4540^|cff7f7f0023c", -- [6]
-			"4541^|cffbfbfbf1s |cff7f7f0018c", -- [7]
-			"4542^|cffbfbfbf4s |cff7f7f0075c", -- [8]
-			"4544^|cffbfbfbf9s |cff7f7f0050c", -- [9]
-			"4601^|cffbfbfbf19s", -- [10]
-			"8766^|cffbfbfbf38s", -- [11]
-			"8950^|cffbfbfbf38s", -- [12]
-			["POS"] = "2011^48.098021745682^47.648233175278",
-			["T"] = 1451108969,
-		},
-		["Fishing Supplies~Harn Longcast"] = {
-			"6256^|cff7f7f0020c", -- [1]
-			"6325^|cff7f7f0036c", -- [2]
-			"6328^|cffbfbfbf3s |cff7f7f0060c", -- [3]
-			"6365^|cffbfbfbf8s |cff7f7f0011c", -- [4]
-			"6529^|cff7f7f0045c", -- [5]
-			"6530^|cff7f7f0090c", -- [6]
-			"6532^|cffbfbfbf2s |cff7f7f0025c", -- [7]
-			"6533^|cffbfbfbf2s |cff7f7f0025c", -- [8]
-			["T"] = 1451034069,
-			["POS"] = "1013^47.567856311798^55.090588331223",
-		},
-		["Reagents~Chepi"] = {
-			"5565^|cffbfbfbf45s", -- [1]
-			"16583^|cffbfbfbf90s", -- [2]
-			"17020^|cffbfbfbf9s", -- [3]
-			"17021^|cffbfbfbf6s |cff7f7f0030c", -- [4]
-			"17026^|cffbfbfbf9s", -- [5]
-			"17028^|cffbfbfbf6s |cff7f7f0030c", -- [6]
-			"17029^|cffbfbfbf9s", -- [7]
-			"17030^|cffbfbfbf18s", -- [8]
-			"17031^|cffbfbfbf9s", -- [9]
-			"17032^|cffbfbfbf18s", -- [10]
-			"17033^|cffbfbfbf18s", -- [11]
-			"17034^|cffbfbfbf1s |cff7f7f0080c", -- [12]
-			"17035^|cffbfbfbf3s |cff7f7f0060c", -- [13]
-			"17036^|cffbfbfbf7s |cff7f7f0020c", -- [14]
-			"17037^|cffbfbfbf12s |cff7f7f0060c", -- [15]
-			"17038^|cffbfbfbf18s", -- [16]
-			"21177^|cffbfbfbf27s", -- [17]
-			"22147^|cffbfbfbf45s", -- [18]
-			"22148^|cffbfbfbf13s |cff7f7f0050c", -- [19]
-			"37201^|cffbfbfbf4s |cff7f7f0050c", -- [20]
-			["T"] = 1451038378,
-			["POS"] = "1022^41.863507032394^60.385411977768",
-		},
-		["Cooking Supplies~Naal Mistrunner"] = {
-			"159^|cff7f7f0022c", -- [1]
-			"2678^|cff7f7f009c", -- [2]
-			"6328^|cffbfbfbf3s |cff7f7f0060c", -- [3]
-			"6330^|cffbfbfbf10s |cff7f7f0080c", -- [4]
-			"21099^|cffbfbfbf4s |cff7f7f0050c", -- [5]
-			"21219^|cffbfbfbf45s", -- [6]
-			"30817^|cff7f7f0022c", -- [7]
-			["T"] = 1451265065,
-			["POS"] = "1022^51.023095846176^52.189743518829",
-		},
-		["Cooking Trainer & Supplies~Master Chef Mouldier"] = {
-			"159^|cff7f7f0021c", -- [1]
-			"2678^|cff7f7f008c", -- [2]
-			"21099^|cffbfbfbf4s |cff7f7f0025c", -- [3]
-			"21219^|cffbfbfbf42s |cff7f7f0050c", -- [4]
-			"22647^|cffbfbfbf3s |cff7f7f0040c", -- [5]
-			"27687^|cffbfbfbf3s |cff7f7f0040c", -- [6]
-			"30817^|cff7f7f0021c", -- [7]
-			["POS"] = "2012^48.416769504547^30.934777855873",
-			["T"] = 1451291385,
-		},
-		["Cloth & Leather Merchant~Jainthess Thelryn"] = {
-			"20920^|cff7f7f0028c", -- [1]
-			"20921^|cff7f7f0043c", -- [2]
-			"20922^|cff7f7f0028c", -- [3]
-			"20923^|cff7f7f0028c", -- [4]
-			"20924^|cff7f7f0058c", -- [5]
-			"20925^|cff7f7f0058c", -- [6]
-			"20985^|cff7f7f0036c", -- [7]
-			"20986^|cff7f7f0048c", -- [8]
-			"20987^|cff7f7f0023c", -- [9]
-			"20988^|cff7f7f0023c", -- [10]
-			"20989^|cff7f7f0023c", -- [11]
-			"20990^|cff7f7f0049c", -- [12]
-			["T"] = 1451107394,
-			["POS"] = "2011^37.115600705147^19.143502414227",
+		["Blacksmithing Supplies~Eriden"] = {
+			"2880^|cff7f7f0090c", -- [1]
+			"2901^|cff7f7f0072c", -- [2]
+			"3466^|cffbfbfbf18s", -- [3]
+			"3857^|cffbfbfbf4s |cff7f7f0050c", -- [4]
+			"5956^|cff7f7f0016c", -- [5]
+			"18567^|cffffff0013g |cffbfbfbf50s", -- [6]
+			"23590^|cffffff003g |cffbfbfbf60s", -- [7]
+			"23591^|cffffff003g |cffbfbfbf60s", -- [8]
+			"23592^|cffffff003g |cffbfbfbf60s", -- [9]
+			"23593^|cffffff003g |cffbfbfbf60s", -- [10]
+			["T"] = 1451265907,
+			["POS"] = "2018^80.308431386948^36.15580201149",
 			["R"] = 1,
 		},
-		["Gunsmith~Kennah Hawkseye"] = {
-			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [1]
-			"2510^|cff7f7f0036c", -- [2]
-			"2516^|cff7f7f009c", -- [3]
-			"2519^|cff7f7f0045c", -- [4]
-			"5441^|cffbfbfbf9s", -- [5]
-			["T"] = 1451034899,
-			["POS"] = "1013^45.514690876007^58.433473110199",
-			["R"] = 1,
-		},
-		["Leather Armor Merchant~Sanuye Runetotem"] = {
-			"843^|cffbfbfbf9s |cff7f7f0069c", -- [1]
-			"844^|cffbfbfbf6s |cff7f7f0048c", -- [2]
-			"845^|cffbfbfbf13s |cff7f7f002c", -- [3]
-			"846^|cffbfbfbf13s |cff7f7f006c", -- [4]
-			"1843^|cffbfbfbf6s |cff7f7f0053c", -- [5]
-			"1844^|cffbfbfbf6s |cff7f7f0055c", -- [6]
-			["POS"] = "1019^45.05387544632^59.032899141312",
-			["T"] = 1451039026,
-			["R"] = 1,
+		["Hawkstrider Breeder~Winaestra"] = {
+			"28927^|cffbfbfbf90s", -- [1]
+			"28936^|cffffff009g", -- [2]
+			"29220^|cffbfbfbf90s", -- [3]
+			"29221^|cffbfbfbf90s", -- [4]
+			"29222^|cffbfbfbf90s", -- [5]
+			"29223^|cffffff009g", -- [6]
+			"29224^|cffffff009g", -- [7]
+			["T"] = 1451295374,
+			["POS"] = "2011^61.08021736145^54.743015766144",
 		},
 		["Gunsmith~Mathaleron"] = {
 			"2509^|cffbfbfbf3s |cff7f7f0072c", -- [1]
@@ -13317,254 +13358,322 @@ NxData = {
 		},
 	},
 	["Version"] = 0.02,
+	["NXVendorVVersion"] = 0.012,
+	["NXQOpts"] = {
+		["NXWShowOnMap"] = true,
+		["NXWHideDist"] = 20000,
+		["NXWPriGroup"] = -100,
+		["NXWWatchParty"] = true,
+		["NXWHideUnfinished"] = false,
+		["NXWPriDist"] = 1,
+		["NXWVisMax"] = 9,
+		["NXWHideNotInZone"] = false,
+		["NXWHideGroup"] = false,
+		["NXSortWatchMode"] = 1,
+		["Version"] = 0.12,
+		["NXWPriLevel"] = 20,
+		["NXWPriComplete"] = 50,
+		["NXWHideNotInCont"] = false,
+		["NXShowObj"] = false,
+		["NXShowHeaders"] = true,
+	},
+	["NXFav"] = {
+		["Version"] = 0.13,
+	},
 	["NXCap"] = {
 		["Q"] = {
-			[1545] = "0Zarlman Two-Moons#bee^503f7a1934~Seer Wiserunner#ba8^3f53a5c3@150 3e",
-			[19383] = "0Master Kelerun Bloodmourn#458f^142b6da493~Knight-Lord Bloodvalor#4535^51e465a6",
-			[23467] = "0Surristrasz#60db^507a73f57f~Archmage Berinand#62e2^7a54557c@150 18~",
-			[49365] = "~Lady Sylvanas Windrunner#907e^9b68ccbc~",
-			[18387] = "0Advisor Valwyn#3fa1^0e2f72a53a~Advisor Valwyn#3fa1^2f72a53a@2000 40~2fa0c4f4a094f4~2f95947c95447296e48895547396549296e48c96849596e48a96849396e48ca7c495a88499a6b48aa7e49aa3949a",
-			[1547] = "0Seer Wiserunner#ba8^503f53a5c3~Ancestral Spirit#bb2^3f9d035e@250 3e",
-			[1675] = "~Gar'Thok#c43^2684f6ef@150 1f~~~2663487164087664f880639895~2663b87864b89863989561d89b",
-			[18415] = "0Apprentice Shatharia#3fa5^0f2f5047b7~Magister Quallestis#3fa3^2f8c87c5@1000 40~2f48b80e49e80448f81146b7ac47378b47878a4d27db4d27db4d17dd4c47974c47a448e7d6",
-			[1613] = "0Orgnil Soulscar#c46^50268586e6~Orgnil Soulscar#c46^268586e2@250 1f~266ba4416b543c",
-			[18431] = "0Wanted Poster: Kel'gash the Wicked#o2c3a1^112fb8a4fc~Captain Helios#3f5c^2fb904bd@350 25~2fa6ccbaa6fcb0",
-			[26489] = "0Archmage Timear#7acf^507ca318ca~~",
-			[18399] = "0Deathstalker Maltendis#3f7b^0e2f72752a~Deathstalker Maltendis#3f7b^2f72852a@1000 40~2f9023de9304209ed48ea29498a044aaa0b483a084d2a094c4add49faf04c8aa2493a7c495a7c48ea8148fa49491",
-			[19371] = "0Knight-Lord Bloodvalor#4535^0f51e435a6~Knight-Lord Bloodvalor#4535^51e4459f~51ccc99a",
-			[18335] = "0Magister Kaendris#3f6f^132f8cf7d0~Magister Kaendris#3f6f^2f8cb7cf@4749 40~2f549cff",
-			[1487] = "0Ruul Eagletalon#ba9^503f78e9e8~Ruul Eagletalon#ba9^3f7919e7@250 3e~3fa72b07a86af0a93b14a8fb35aa7b2aaaaaeeac7b40ac6b43",
-			[1551] = "0Ancestral Spirit#bb2^503f9d035e~Cairne Bloodhoof#bf1^689b2839@75 3e",
-			[19363] = "0Knight-Lord Bloodvalor#4535^0f51e485ac~Magister Astalor Bloodsworn#4536^51eb85cf",
-			[16977] = "~Apprentice Mirveda#3c2a^2b8acb58@250 25~2b8a9b5d",
 			[18977] = "0Arcanist Vandril#3f45^112f76b48b~Arcanist Vandril#3f45^2f769489~2fb0780caa7956a97962a43b3362391a6129975f59e1~2f8e095b",
-			[1671] = "0Rezlak#cdd^502676a3ac~Rezlak#cdd^2676a3ab@250 1f~268a14718a245989e3f789d3e98823f386e3db83f3c885b3ce89d39f8a439586b36e853351~2682f3c782c3bc82c3b98853d78a439588137885136f844332",
-			[16945] = "0Magister Jaronis#3c3a^0c2b78b764~Magister Jaronis#3c3a^2b78c764@250 25~2b7ab6ad79e64075162077a61674a6af72f745",
 			[16949] = "0Old Whitebark's Pendant^0c2b58dd0f~Larianna Riverwind#3c26^2b56fcc9@250 25~",
-			[1489] = "0Eyahn Eagletalon#bab^506860998e~Eyahn Eagletalon#bab^6860a994@250 3e~3f8e92b890128a8d21e58b01b18880f78470db~3f8ef28d8ff2228e51f48590fc82c0d98160d5",
-			[1553] = "0Cairne Bloodhoof#bf1^50689b2839~Cairne Bloodhoof#bf1^68992842@350 3e~3f8a72c6",
-			[16961] = "0Velendris Whitemorn#3c2c^0d2b5ceaa6~Velendris Whitemorn#3c2c^2b5cfaac@250 25~2b4d6ade4f4ae24fcb2c505b5450eb08537abc58cada507b55",
-			[1681] = "0Takrin Pathseeker#d08^50268226f6~Kargal Battlescar#d09^619f3318@75 1f~",
-			[16981] = "0Runewarden Deryan#3fea^0c2b710da9~Runewarden Deryan#3fea^2b711daa@250 25~2b8d5d878d3d8f",
-			[16973] = "0Ley-Keeper Velania#3c29^0c2b5dd931~Ley-Keeper Velania#3c29^2b5dd92f@250 25~2b59f9925979ae5719bc56a9ed5969b0~2b56b9ca55e9ca56a9ea56a9ea55f9e9",
-			[18507] = "0Ranger Sareyn#3e46^0c2b77db76~Runewarden Deryan#3fea^2b710da9@25 25~",
-			[18511] = "0Apprentice Mirveda#3c2a^0d2b8acb58~Magistrix Landra Dawnstrider#3f52^2b708b4f@75 25~",
-			[1491] = "0Baine Bloodhoof#bb1^503f79699f~Baine Bloodhoof#bb1^3f79799f@250 3e~3f8d7bab877bba86eb88895b958aeba97e2b6d7cdb6c7b8b807b7b7d~3f8c7ba2881bb3865bad7bdb807b8b827a9b63791b8d7a3ba7~3f8a3b878abb7d8d7bab8d5bab86cb87",
-			[1543] = "0Zarlman Two-Moons#bee^503f7a0935~Zarlman Two-Moons#bee^3f7a1934@250 3e~3f888a8c88ba99~3f80caa57a0aeb",
-			[1619] = "0Neeru Fireblade#c90^0c447ee80f~Ak'Zeloth#dc1^619f7334@75 1f",
-			[18323] = "0Ranger Vynna#3f4b^112fb7e535~Dusty Journal#o2c39e^2fcb92d2@250 25",
-			[26495] = "0Archmage Lan'dalock#50ff^507c935aad~~8a7cdde7",
-			[23149] = "~Librarian Donathan#62ae^7a73b555~",
-			[18563] = "0Apprentice Vor'el#4060^122f76d907~Apprentice Vor'el#4060^2f770907@1000 40~2f6f39136f390d6d89366ee9756f69c86e69df6a79fa778a5b8519c085c9d86e98da6d190a6e896b6f19b16fb9fd~2f71290a6f891f6c78e36a89fe6ab9f46b9a7a807a0e80ba098629e087b9847019046ab8d06eb9436aba30692a06",
-			[18659] = "0Arcanist Vandril#3f45^0f2f76b485~High Executor Mavren#3f7c^2f72a52e@250 40",
-			[1493] = "0Baine Bloodhoof#bb1^503f79799f~Baine Bloodhoof#bb1^3f79599e@250 3e~3f5007f65007f65007f65007f65007f6",
-			[18551] = "0Apothecary Venustus#4050^112fb9e50c~Apothecary Venustus#4050^2fb9c50b@1000 40~2fa60aa6a5faa7~2fa0ebf6a12c05~2fae393bae3945",
-			[18555] = "0Farstrider Solanna#404f^112fb8c500~Farstrider Solanna#404f^2fb8d500@250 25~2fb03808b01812af081daec824ac6858ac88beaa894aa9c96fa9b967a29a72a9f854aaa98fa7a9a0a29a9fa5db13~2faeb7a8af67e2afc804a29a12a26a8ba38afaa3db46a45b42a43b9fa42b3ca41a4fa29a9ea34c23a14c08a1cc04",
-			[1685] = "0Kargal Battlescar#d09^50619f3318~Sergra Darkthorn#d0a^618594f3@250 1f~",
-			[23153] = "0Librarian Garren#62cb^507a72f558~Librarian Garren#62cb^7a731557@150 18~7a57a6b0",
-			[18303] = "0Magister Darenis#3f47^112f75c51a~Magister Idonis#3f4c^2f8c47bf@250 40~",
-			[17789] = "0Groundskeeper Wyllithen#3e61^0d2bafa77f~Groundskeeper Wyllithen#3e61^2bafb77f@250 25~2bafc77eafb786aff768af673eaf673eaf673e~2bafc77eb0777faff768b02713b02713b02713",
-			[23165] = "0Librarian Garren#62cb^507a731557~Librarian Garren#62cb^7a731556@150 18~7a701496",
-			[1495] = "0Grull Hawkwind#ba4^503f72bc53~Grull Hawkwind#ba4^3f72dc51@250 3e~3f773c8179aca37b0cfc7bad4179ad66780d1e778cfb~3f773c8179aca37cacbe7bacdc7b0cfc7bad4179ad66",
-			[17785] = "0Ranger Degolien#3e43^0d2b6edb4f~Ranger Degolien#3e43^2b6edb50@250 25~2b4f7b1b4f7b1b4c0b1452aae4561b28~2b593ad24f5b1b4f7b1b507b534e5b17",
-			[17781] = "0Apprentice Loralthalis#3e34^0e2bad6904~Magister Duskwither#3e4f^2b99d9d3@250 25",
-			[23181] = "0Librarian Donathan#62ae^507a73b556~Librarian Donathan#62ae^7a73c554@250 18~7a6e0662",
-			[17777] = "0Magister Duskwither#3e4f^0d2b99d9d3~Apprentice Loralthalis#3e34^2bad6909@10 25",
-			[1503] = "0Sealed Supply Crate#ob5c^503f8977b5~Morin Cloudstalker#bac^3f9219c8@150 3e~",
-			[18789] = "0Apprentice Loralthalis#3e34^0d2bad6909~Groundskeeper Wyllithen#3e61^2bafa77f@10 25",
-			[20333] = "0Larianna Riverwind#3c26^0c2b56fcc9~Whitebark's Spirit#4c00^2b5ecda4@250 25~",
-			[1497] = "0Mull Thunderhorn#b84^503f7c09a7~Mull Thunderhorn#b84^3f7c29a8@250 3e~3f7bab2b79db0d817ae7835ad683bab488daee~3f8b2b017d0aa286e9a98c193d",
-			[1561] = "0Grull Hawkwind#ba4^503f72cc55~Grull Hawkwind#ba4^3f72bc55@350 3e~3f9bdce5a2aca5a38c609f1ca4a0dc299c2d9d9bddd094be0b~3f9bdce5a41c8da2dd0ba2fc8ca38c609f1ca4a0dc299c2d9d",
-			[1625] = "0Rhinag#c76^50266ba268~Rhinag#c76^266bb268@350 1f~",
-			[1667] = "0Lorekeeper Raintotem#ca1^503f991419~Lorekeeper Raintotem#ca1^3f991414@150 3e~3f9dd3789e83999e139b9e23939d337a9d63779d83a59c83a4",
-			[18353] = "0Magister Kaendris#3f6f^122f8cb7cf~Magister Kaendris#3f6f^2f8cf7d0@2000 40~2f6737f666b7ec~2f57b79957e79b",
-			[18631] = "0Dying Blood Elf#40d9^0f2f930266~Arcanist Vandril#3f45^2f765489@1000 40~2f94428999322d",
-			[18125] = "0Apprentice Meledor#3e49^0c2b72b9be~Apprentice Meledor#3e49^2b72b9c1@75 25~2b7159e3",
-			[2863] = "0Craven Drok#1607^504470a885~",
-			[1499] = "0Morin Cloudstalker#bac^503f9239c8~Sealed Supply Crate#ob5c^3f8977b5@150 3e",
-			[23363] = "0Warmage Anzim#630c^507a7685f6~Archmage Evanor#64b9^7a76952e@250 18~",
-			[1627] = "0Kor'ghan#c75^504478a88f~Kor'ghan#c75^4478f888~2668c2b165e2ee6332cd5da4007f32d18e825f8ee1ee9162578e12f1",
-			[18655] = "0Arcanist Vandril#3f45^0d2f76c486~High Executor Mavren#3f7c^2f72952e@250 40",
-			[23759] = "0Khu'nok the Behemoth#6506^507a9814e4~Arch Druid Lathorius#64d1^7a91c714@350 8~7a89d3de",
-			[18153] = "0Velendris Whitemorn#3c2c^0d2b5cfaac~Velendris Whitemorn#3c2c^2b5cdaad@250 25~2b53fb19",
-			[27337] = "0Justicar Mariel Trueheart#8419^5080b223a5~~",
-			[11453] = "0Thrall#1355^504451660c~Thrall#1355^44517609@250 1f~2688e15b84614b",
-			[1501] = "0Grull Hawkwind#ba4^503f72dc4a~Grull Hawkwind#ba4^3f72cc55@250 3e~3f6e2e3f6d9e25720e42700e67709e6771ae886feeb971fecd72ae95752e74",
-			[18261] = "0Quartermaster Lymel#3f3b^0d2f78f4a8~Skymaster Sunwing#3f3d^2f7424e0@25 25~",
-			[11457] = "0Thrall#1355^504451a609~Thrall#1355^4451360e@500 1f~45000000~45000000",
-			[18289] = "0Magistrix Landra Dawnstrider#3f52^0d2b708b4e~Courier Dawnstrider#3f37^2b7d4e39@75 25",
-			[16651] = "0Magistrix Erona#3bae^0c2b61435c~Magistrix Erona#3bae^2b61335d@250 25~2b5c73315c83335c83335c83335c83335c83335c332c5c6332",
-			[16655] = "0Magistrix Erona#3bae^0c2b613359~Lanthan Perilon#3bb1^2b5a6397@10 25",
-			[18293] = "0Ranger Valanna#3f5b^0d2fb16269~Captain Helios#3f5c^2fb8f4bd~",
-			[23293] = "0Librarian Donathan#62ae^507a73c554~Librarian Normantis#6388^7a76853e@25 18",
-			[23297] = "0Librarian Normantis#6388^507a76853e~Librarian Normantis#6388^7a768540@150 18~7a768540",
-			[16671] = "0Lanthan Perilon#3bb1^0c2b5a8395~Lanthan Perilon#3bb1^2b5a5397@350 25~2b51947b51947b51947b51947b5064b15064b14f546d4ef439~2b5064b14f546d~2b4e246f",
-			[1665] = "0Eye of Burning Shadow^0b2683b17e~Neeru Fireblade#c90^447ee80f@150 1f~",
-			[18719] = "0Ranger Degolien#3e43^0d2b6edb50~Lieutenant Dawnrunner#3c27^2b9a2a08",
-			[18349] = "0Geranis Whitemorn#3f49^0d2fb9130a~Geranis Whitemorn#3f49^2fb91309@250 25~2fb6f26eb6c25f",
-			[6753] = "0Brave Windfeather#c89^503f727c52~Brave Windfeather#c89^3f72ac5b@500 3e~3fa56c6a",
-			[16691] = "0Well Watcher Solanian#3bbf^0c2b63231b~Well Watcher Solanian#3bbf^2b632319@250 25~2b4bd31b",
-			[16695] = "0Lanthan Perilon#3bb1^0c2b5a7397~Outrunner Alarion#3bc5^2b674523@10 25",
-			[1505] = "0Chief Hawkwind#ba5^503f70ec27~Greatmother Hawkwind#baf^3f7fdcf7@75 3e~",
-			[17723] = "~Innkeeper Pala#1a5a^68753a57@250 3e~",
-			[1633] = "0Misha Tor'kren#c79^50266e44d9~Misha Tor'kren#c79^266e34d6@250 1f~265ea389",
-			[11447] = "0Rahauro#2e39^5068b3a4ae~~~",
-			[7525] = "0Innkeeper Pala#1a5a^506874fa4a~Arch Druid Hamuul Runetotem#1689^68c8e492@10 3e",
-			[26513] = "0Archmage Lan'dalock#50ff^507c93aaab~Archmage Lan'dalock#50ff^7c935aac~8b82c879",
-			[26413] = "~High Executor Anselm#5ce4^7fc8f4fe~",
-			[11455] = "0Thrall#1355^0c44517609~Thrall#1355^4451a609@75 1f~447ed818",
-			[1507] = "0Greatmother Hawkwind#baf^503f7fdcf7~Chief Hawkwind#ba5^3f70fc27@250 3e~3f804d00",
-			[11459] = "0Thrall#1355^504451360e~Neeru Fireblade#c90^447ea817",
-			[18269] = "0Sathren Azuredawn#3f3f^0f518a1b5c~Skymistress Gloaming#3f40^2b8b181c@25 25~",
-			[23883] = "0Scintillating Fragment^507a55757f~Raelorasz#6605^7a551583@250 3b~",
-			[23887] = "0Raelorasz#6605^507a551583~~~",
-			[18281] = "0Arcanist Vandril#3f45^102f765488~Arcanist Vandril#3f45^2f769485@3000 40~2f29a6bb32e6f23306ec33d72733876f34a7712a16dc34f71635d79e33b7a13407c934c7f2~2f36173e36e73730a7792f47b32c46b830d6b135e6a936b761",
-			[17775] = "0Captain Kelisendra's Lost Rutters^0c2b470951~Captain Kelisendra#3e31^2b5ceaa6@250 25~",
-			[17779] = "0Apprentice Loralthalis#3e34^0d2bad6909~Apprentice Loralthalis#3e34^2bad6904@150 25~2bb0184a~2bb0284d~2bb22883",
-			[17783] = "0Magister Duskwither's Journal#o2c313^0e2bb1184e~Magister Duskwither#3e4f^2b99d9d3@250 25~",
-			[18297] = "0Courier Dawnstrider#3f37^0d2b7d3e37~Arcanist Vandril#3f45^2f76c486@250 40~",
-			[18301] = "0Magister Darenis#3f47^0e2f75c519~Magister Darenis#3f47^2f75c519@1000 40~2f59f5cb5a459f5a556259555459454658151d5934df58e4db5d75335ca4f958a4f55804c955a4d454f4fc555513",
-			[18305] = "0Rathis Tomber#3f60^0f2f785483~Rathis Tomber#3f60^2f787484@1000 40~2f55c43755c438",
-			[23837] = "0Raelorasz#6605^507a552582~Raelorasz#6605^7a551582@250 3b~7a5094f059749f5853ad50d3cd4dd3cf54948552d48952945a5494594df4a0",
-			[18313] = "0Wanted Poster#o2c39b^0e2f7b750f~Deathstalker Rathiel#3f48^2f75b559@3000 40~2f673757~2f5c5b3d",
-			[25457] = "0Librarian Garren#62cb^507a731556~~",
-			[18321] = "0Dame Auriferous#3f67^0e2f72c531~Dame Auriferous#3f67^2f72c531@1000 40~2f5ec2b35fa2a7~2f6052e06002d35f32c75f22b05e82ac5dd2825d82655d12535d82515dc2305f72296032245fe2cc5fe2cc5fc28a",
-			[1511] = "0Chief Hawkwind#ba5^503f70fc27~Seer Graytongue#ba6^3f6cdeb9@250 3e",
-			[18329] = "0Apothecary Renzithen#3f46^132f7a158f~Arcanist Janeda#3f70^2f8c37bd@3000 40~2f51fbcd524bc0~2f686d46684d49~2f53de5b53ce4c",
-			[18333] = "0Dame Auriferous#3f67^102f72a52f~Magister Sylastor#3f6d^2f9a25b4@250 40~",
-			[19357] = "0Knight-Lord Bloodvalor#4535^0d51e485a9~Knight-Lord Bloodvalor#4535^51e485ac~2faed135",
-			[18341] = "0Magister Idonis#3f4c^132f8c37bf~Magister Idonis#3f4c^2f8c37bd@3000 40~2f5f4ce0629cb5~2f53ce3e538e3e~2f518bda521bdf~2f5ace2c5b7e29",
-			[18345] = "0Ranger Vynna#3f4b^112fb7e535~Magister Kaendris#3f6f^2f8cb7cf@250 40~",
-			[19369] = "0Magister Astalor Bloodsworn#4536^0f51eb85cf~Knight-Lord Bloodvalor#4535^51e435a6~51eb85cf",
-			[19373] = "0Master Kelerun Bloodmourn#458f^142b6d9493~Master Kelerun Bloodmourn#458f^2b6da493~2b6ec491",
-			[23833] = "0Garrosh Hellscream#6295^507a69c890~",
-			[19381] = "0Knight-Lord Bloodvalor#4535^1451e465a3~Master Kelerun Bloodmourn#458f^2b6d9493@10 25",
-			[19385] = "0Knight-Lord Bloodvalor#4535^1451e465a6~~~~~",
-			[18791] = "0Magistrix Landra Dawnstrider#3f52^0b2b708b4f~Lord Saltheril#3f10^2b619bbd@10 25",
-			[48859] = "0Head of Onyxia^50448e1a53~Neeru Fireblade#c90^447eb80e@500 1f~",
-			[18721] = "0Amani Invasion Plans^0b2ba05cb9~Lieutenant Dawnrunner#3c27^2b9a3a07@250 25~",
-			[18717] = "0Marniel Amberlight#3c25^0d2b6fbb65~Ranger Sareyn#3e46^2b77eb78@10 25",
-			[18385] = "0Deathstalker Maltendis#3f7b^0e2f72852b~Deathstalker Maltendis#3f7b^2f72852a@1000 40~2f4ff7af4e17cf4db7cb4af7d24957fb49f8084897d54807c94d37e14d47dc4618324548784a98784d882350a729~2f4cf7ce4a67d44b47cd47e7964537c148c84e4c379e4798734fd7f54d66f247e71d44e7b0~2f4e47ca4ba7c14b37b94b07d34d67e04c17a748f7d5462833",
+			[16965] = "0Incriminating Documents^0c2b59f99d~Aeldon Sunbrand#3c2b^2b7b3758@250 25~",
 			[1515] = "0Seer Graytongue#ba6^503f6cdeb9~Chief Hawkwind#ba5^3f70ec27@350 3e~3f96bd79999d2799dcf09d7cf59e3d029f4d069edd1e9f5cbd",
-			[11523] = "0Neeru Fireblade#c90^50447ed818~Neeru Fireblade#c90^447eb817~45000000",
-			[26317] = "0Rhonin#3f00^507c4e17bc~Warden Alturas#7968^7c9d1a24~",
-			[49425] = "0Gorkun Ironskull#92d8^509b9d68d5~Lady Sylvanas Windrunner#952d^9b79d328@500 43~9b77a3ae",
-			[1535] = "0Baine Bloodhoof#bb1^503f79699f~Zarlman Two-Moons#bee^3f7a0935@25 3e",
-			[49015] = "0Lady Sylvanas Windrunner#907e^509b68ccbc~Gorkun Ironskull#92d8^9b9d68d5@500 43~9b7f0b0c7d6b0b80bad2879a628eea7b8f7a6a8dca309d37ef9557c68db69d8dd62d8d46118bc5e7717907740953~9baf495e",
-			[16661] = "0Well Watcher Solanian#3bbf^0c2b63231b~Well Watcher Solanian#3bbf^2b632319@250 25~2b59e49f~2b5033a5~2b6053f8",
-			[18361] = "0High Executor Mavren#3f7c^102f72a52c~Lady Sylvanas Windrunner#27c5^6c945eae@250 41~",
-			[16953] = "0Lieutenant Dawnrunner#3c27^0d2b9a2a08~Lieutenant Dawnrunner#3c27^2b9a3a08@250 25~2ba4aab3a63abfa1fcb79e5cb1affc36a49ab5a58abea37cc1a06cb79f3cb4~2baf5b8bb12baf9e5cb1a20cc6b10b99b0fb989eacbdb0ab9bb1eba7af6b91",
-			[18425] = "0Ranger Lilatha#3fa7^122fa0d536~Captain Helios#3f5c^2fb924bf@250 25~2fb94523b8451f",
-			[18429] = "0Captain Helios#3f5c^112fb8e4be~Captain Helios#3f5c^2fb8e4c1@250 25~2fc24624c1d6e7c3f70cceb56fcd75d1ccb612c26627c1e646c2f776~2fc745aac2f6dbc2a6c4cb863cc8966ec7b66cc785a6c695e7c55580~2faef810aef82caec81da9f857a7a99fa29a9f~2faf67f2af6956a28a27a3ea53a29a9fa34c2a",
-			[18433] = "0Magistrix Aminel#3f4d^102f7d0501~Magistrix Aminel#3f4d^2f7d1502@500 40~2f63781761d8d562391a60090e6559c35f0b175f6a046784cd67451b66553565952b671579",
-			[18437] = "0Magistrix Aminel#3f4d^102f7d0501~Magistrix Aminel#3f4d^2f7d2503@500 40~2f5d8aa85d5ab85f6a0661e9ae60a92e6439056488dd5f988e5e4aad5c2b0061f88b6509045d0ac45e3ac260f9ce",
-			[18441] = "0Magister Idonis#3f4c^112f8c47bf~Magister Idonis#3f4c^2f8c37bf@3000 40~2f5c5b3d5cdb3d5f1c67604cc15efd255d3b695b9b6a5b6c7d622cec5cfd3d~2f5aac1d5c7c3e5f8c19615c39627c5a622ced5c6c405e9c6a64dcbd624c74621c495ebc04~2f5a0be45dbc715bbcc25e5cc25e6cba5e7d12584c055a4c995d9cc65f9d2f61ccc9604c85",
-			[22525] = "0Dark Ranger Marrah#5e49^508eae0ae4~High Executor Anselm#5ce4^7fc8f4fe~8ec215a8",
-			[18317] = "0Farstrider Sedina#3f4a^0d2fb93523~Farstrider Sedina#3f4a^2fb93525@250 25~2fc7a43cc8a476c5a51bc36537c38535c2752cbf05fcbd75f8b645f6b515f5c18484c60472ca04b3c2b52bc17575",
-			[18129] = "0Apprentice Meledor#3e49^0c2b72b9c1~Instructor Antheol#3e62^2b8e68b4@25 25~",
-			[1583] = "~Furl Scornbrow#c4b^267f7675@250 1f~",
+			[16981] = "0Runewarden Deryan#3fea^0c2b710da9~Runewarden Deryan#3fea^2b711daa@250 25~2b8d5d878d3d8f",
+			[23121] = "0King Mrgl-Mrgl#626d^507a6f423a~King Mrgl-Mrgl#626d^7a6f323a@250 8~7a62c3c763839964c38969931369c2c669128366d28464a28b6742fd67c2d068b27b69930f69c2c56742fe67d2cf",
+			[23129] = "0Cleaver Bmurglbrm#627b^507a6bb21c~Cleaver Bmurglbrm#627b^7a6b9217~7a67a24267823f6a12476d126f6db2a0",
+			[23153] = "0Librarian Garren#62cb^507a72f558~Librarian Garren#62cb^7a731557@150 18~7a57a6b0",
+			[23185] = "0Longrunner Proudhoof#62f7^507a7b9327~~",
+			[1523] = "0Harken Windtotem#b83^503f7c897e~Harken Windtotem#b83^3f7c7978@350 3e~3f7feb0a8c9b488a596873d82e6e07dc69f7bb58b6d65c4736",
+			[27337] = "0Justicar Mariel Trueheart#8419^5080b223a7~Magister Edien Sunhollow#8306^80c303e4~",
+			[27353] = "0Amariel Sunsworn#837a^5080c2f3e5~~80b6b60db5b616b5a640b5d650b4d656b4a675b4a674",
+			[22259] = "0Ahab Wheathoof#5c42^503f7b5885~Ahab Wheathoof#5c42^3f7b9885@250 3e~3f7dda2f",
+			[28399] = "0Archmage Lan'dalock#50ff^507c935aa3~~",
+			[23297] = "0Librarian Normantis#6388^507a76853e~Librarian Normantis#6388^7a768540@150 18~7a768540",
+			[1529] = "0Morin Cloudstalker#bac^503f9219c8~Morin Cloudstalker#bac^3f9249c8@150 3e~3fa19731a5d6eca5b720a16741a067539eb7489ef75c9e47679c479d9c078b9e77ca9d17c59b87d4~3f9fe748a1b72da1d72ca586fba5b707a5271a",
+			[23361] = "0Surristrasz#60db^507a73c588~Warmage Anzim#630c^7a7685f6@10 18~",
+			[18267] = "0Skymaster Sunwing#3f3d^0d2f7424e0~Sathren Azuredawn#3f3f^518a1b5c@75 25~",
+			[1533] = "0Maur Raincaller#bef^503f78291e~Maur Raincaller#bef^3f78491d@250 3e~3f7bab2b~3f651759~3f8b2b01~3f7feb0a",
+			[18291] = "0Ranger Lethvalin#3f55^0f2f74352f~Ranger Valanna#3f5b^2fb1326b",
+			[18299] = "0Apothecary Renzithen#3f46^0f2f79e590~Apothecary Renzithen#3f46^2f7a058e@1000 40~2f35f30c3543153182cd2f92c030a2e130d2e536a32c33834133238233a37b30f38330b3c4",
+			[26483] = "0Archmage Timear#7acf^507ca3b8ce~~",
+			[26491] = "0Archmage Lan'dalock#50ff^507c93da9f~~8ec215a8",
+			[18323] = "0Ranger Vynna#3f4b^112fb7e535~Dusty Journal#o2c39e^2fcb92d2@250 25",
+			[26507] = "0Archmage Lan'dalock#50ff^507c936aad~Archmage Lan'dalock#50ff^7c936aa7~8c326883",
+			[18339] = "0Magister Sylastor#3f6d^112f9a85b0~Magister Sylastor#3f6d^2f9a25b1@1000 40~2f946a78956a65",
+			[18347] = "0High Executor Mavren#3f7c^102f72852d~High Executor Mavren#3f7c^2f72a52f@1000 40~2f2f895023190721f90d1e79121fe95b1f59461f694b1ef8fb2d695d22c90121490920196a22194b2429561f1957~2f2cb94f2a194527690f24191123e90d24791021990a2119152119151e69172b59582959172628fc23d8fc23390c",
+			[19385] = "0Knight-Lord Bloodvalor#4535^1451e465a6~~~~~",
+			[19409] = "0Outrunner Alarion#3bc5^0c2b674523~Slain Outrunner#45b9^2b6b65af@25 25",
 			[1541] = "0Demon Scarred Cloak^507c8d0676~Skorn Whitecloud#bec^3f77999d@250 3e",
-			[18975] = "0Arcanist Vandril#3f45^0f2f76b487~Arcanist Vandril#3f45^2f76b48b~2fc4a2e2c65306c82324c81326c9e331cc831ac7e335c78351",
-			[16669] = "0Lanthan Perilon#3bb1^0c2b5a6397~Lanthan Perilon#3bb1^2b5a8395@250 25~2b5a54ae5a34ae59e49e59e49e573481573481573481~2b5a24af5a54ac5a54ac59e49e59e49e573481565462",
-			[28163] = "0Riding Training Pamphlet^142f7a74fa~Perascamin#3f98^2b9ce89f~",
-			[16947] = "0Larianna Riverwind#3c26^0c2b571cca~Larianna Riverwind#3c26^2b56fcc9@250 25~2b585cff590d3159ed4859ed485ced915cad8b5aed8d589d69584d61559d29570cf158ed1c59dd2659dd415aed68",
-			[27661] = "0Marcia Chase#7046^507c86fa6e~~",
-			[16955] = "0Arathel Sunforge#3c28^0d2b9839ff~Arathel Sunforge#3c28^2b982a00@250 25~2bb13baeb1eba5",
+			[1543] = "0Zarlman Two-Moons#bee^503f7a0935~Zarlman Two-Moons#bee^3f7a1934@250 3e~3f888a8c88ba99~3f80caa57a0aeb",
+			[1545] = "0Zarlman Two-Moons#bee^503f7a1934~Seer Wiserunner#ba8^3f53a5c3@150 3e",
+			[18507] = "0Ranger Sareyn#3e46^0c2b77db76~Runewarden Deryan#3fea^2b710da9@25 25~",
+			[6183] = "0Grull Hawkwind#ba4^503f72dc4a~Harutt Thunderhorn#bf3^3f709c28@75 3e~",
+			[18555] = "0Farstrider Solanna#404f^112fb8c500~Farstrider Solanna#404f^2fb8d500@250 25~2fb03808b01812af081daec824ac6858ac88beaa894aa9c96fa9b967a29a72a9f854aaa98fa7a9a0a29a9fa5db13~2faeb7a8af67e2afc804a29a12a26a8ba38afaa3db46a45b42a43b9fa42b3ca41a4fa29a9ea34c23a14c08a1cc04",
+			[18563] = "0Apprentice Vor'el#4060^122f76d907~Apprentice Vor'el#4060^2f770907@1000 40~2f6f39136f390d6d89366ee9756f69c86e69df6a79fa778a5b8519c085c9d86e98da6d190a6e896b6f19b16fb9fd~2f71290a6f891f6c78e36a89fe6ab9f46b9a7a807a0e80ba098629e087b9847019046ab8d06eb9436aba30692a06",
+			[1551] = "0Ancestral Spirit#bb2^503f9d035e~Cairne Bloodhoof#bf1^689b2839@75 3e",
+			[1553] = "0Cairne Bloodhoof#bf1^50689b2839~Cairne Bloodhoof#bf1^68992842@350 3e~3f8a72c6",
+			[26827] = "0Corastrasza#7f24^507a4b73f8~Corastrasza#7f24^7a4b73f6@350 3b~7a4b44304b44304a841f49341c4953f6",
+			[18659] = "0Arcanist Vandril#3f45^0f2f76b485~High Executor Mavren#3f7c^2f72a52e@250 40",
+			[23785] = "0Arch Druid Lathorius#64d1^507a91c714~~7a7fb6a2",
+			[23801] = "0Archmage Berinand#62e2^507a54457f~Archmage Berinand#62e2^7a54557b@250 18~7a48748d~7a487598~7a512346~7a39c3c2",
+			[16655] = "0Magistrix Erona#3bae^0c2b613359~Lanthan Perilon#3bb1^2b5a6397@10 25",
+			[23825] = "0Librarian Serrah#65fe^507a55657f~Librarian Serrah#65fe^7a55757f@250 18~7a5573e45683dd5523ea5673dd5803be5973e85553e15693de56d4205973ed",
+			[23833] = "0Garrosh Hellscream#6295^507a69d88f~",
+			[1561] = "0Grull Hawkwind#ba4^503f72cc55~Grull Hawkwind#ba4^3f72bc55@350 3e~3f9bdce5a2aca5a38c609f1ca4a0dc299c2d9d9bddd094be0b~3f9bdce5a41c8da2dd0ba2fc8ca38c609f1ca4a0dc299c2d9d",
+			[16695] = "0Lanthan Perilon#3bb1^0c2b5a7397~Outrunner Alarion#3bc5^2b674523@10 25",
+			[23873] = "0Raelorasz#6605^507a551582~~",
+			[11445] = "0Rahauro#2e39^5068b3a4ae~",
+			[11453] = "0Thrall#1355^504451660c~Thrall#1355^44517609@250 1f~2688e15b84614b",
+			[17773] = "0Captain Kelisendra#3e31^0d2b5ceaa6~Captain Kelisendra#3e31^2b5ceaa6@250 25~2b422a9c411a8340ba873fdaaf3fdaaf400ac0",
+			[17781] = "0Apprentice Loralthalis#3e34^0e2bad6904~Magister Duskwither#3e4f^2b99d9d3@250 25",
+			[17789] = "0Groundskeeper Wyllithen#3e61^0d2bafa77f~Groundskeeper Wyllithen#3e61^2bafb77f@250 25~2bafc77eafb786aff768af673eaf673eaf673e~2bafc77eb0777faff768b02713b02713b02713",
+			[16927] = "0Aeldon Sunbrand#3c2b^0c2b7b275b~Aeldon Sunbrand#3c2b^2b7b275a@250 25~2b77f7227ab6ae79e64073f67e74a6af7626dc",
+			[16951] = "0Ranger Jaela#3c38^0c2b80c81d~Ranger Jaela#3c38^2b80c81c@250 25~2b7f88cd7f78cf7e78e07de8df8268b381c8bc81c8bc81c8bc",
 			[16959] = "0Ven'jashi#3c2e^0b2bb42b8f~Ven'jashi#3c2e^2bb42b90@75 a~2b9e5cb19eacb4",
 			[16967] = "0Aeldon Sunbrand#3c2b^0c2b7b3758~Aeldon Sunbrand#3c2b^2b7b175a@250 25~2b70d88a",
-			[19517] = "0High Executor Mavren#3f7c^0f2f72a52e~Arcanist Vandril#3f45^2f76948b@250 40",
-			[3313] = "0Antur Fallow#1a77^503f626d09~Innkeeper Kauth#1a5b^3f7749c2@25 3e~",
 			[16975] = "0Apprentice Mirveda#3c2a^0d2b8afb59~Apprentice Mirveda#3c2a^2b8adb58@250 25~2b897b51869b5685bb7380eb0283bb0c84ab08864aef89ab27",
-			[18509] = "0Magistrix Landra Dawnstrider#3f52^0d2b70bb4c~Apprentice Mirveda#3c2a^2b8adb5b@75 25~",
-			[18513] = "0Aeldon Sunbrand#3c2b^0d2b7b175a~Ranger Degolien#3e43^2b6edb4f@75 25~",
-			[1523] = "0Harken Windtotem#b83^503f7c897e~Harken Windtotem#b83^3f7c7978@350 3e~3f7feb0a8c9b488a596873d82e6e07dc69f7bb58b6d65c4736",
-			[17769] = "0Hathvelion Sungaze#3e30^0c2b4c8958~Hathvelion Sungaze#3e30^2b4c6955@250 25~2b48c91748591947691148b93e48a94046e95c47394848294a",
-			[18517] = "0Ardeyn Riverwind#400d^0e2b6f8b5f~Larianna Riverwind#3c26^2b571cca@25 25~",
-			[18657] = "0Magister Kaendris#3f6f^122f8cb7cf~Lor'themar Theron#41a2^518a2344@75 25~",
-			[22545] = "0High Executor Anselm#5ce4^507fc8f4fe~~",
-			[28713] = "0Bragor Bloodfist#8db1^116c8feeb8~~~",
-			[18135] = "0Lord Saltheril#3f10^0c2b619bbd~Lord Saltheril#3f10^2b619bbd@250 25~~~",
-			[19411] = "0Slain Outrunner#45b9^0c2b6b65af~Outrunner Alarion#3bc5^2b677527@75 25~",
-			[18549] = "0Ranger Krenn'an#404e^0d2fb8a4c5~Ranger Krenn'an#404e^2fb8f4bd@250 25~2fba14a3b9746fbb741cbc83e6bc83e6bbe3c8bbb3b2bc2396b90475bbe396bc5370b6c262b8f305b9d3e7bca3f7~2fb9a4a1b84485bbe3c8bd136ab85257b7b27ab64289b422cfb8b483b90475bf6345b8029bb8f305b9d3e7bcf446",
-			[18553] = "0Farstrider Solanna#404f^112fb8e500~Farstrider Solanna#404f^2fb8c500@250 25~2fc745aac306ddc316e1c1f6f1c1f76fc036d2c386a8c42610cb863ccba657cba650c8e671c82665c34692c4069b~2fc345f3c316e1c2e707c2f74bbd9766bee717c3b693c24655cde554ce55c8cd75ecc9666fc3868cc246e2c106e8",
-			[18325] = "0Dusty Journal#o2c39e^112fcb92d2~Ranger Vynna#3f4b^2fb7e535@250 25~",
-			[18727] = "0Lieutenant Dawnrunner#3c27^0b2b9a3a07~Ranger Degolien#3e43^2b6edb50@250 25~",
-			[18565] = "0Magister Kaendris#3f6f^112f8cb7ce~Ranger Vynna#3f4b^2fb7e535",
-			[24179] = "0p^507d879a52~Captain Gort#67fa^7d5b87ba@350 43~7d369a11",
-			[16951] = "0Ranger Jaela#3c38^0c2b80c81d~Ranger Jaela#3c38^2b80c81c@250 25~2b7f88cd7f78cf7e78e07de8df8268b381c8bc81c8bc81c8bc",
-			[1527] = "0Chief Hawkwind#ba5^503f70ec27~Baine Bloodhoof#bb1^3f79699f@150 3e~",
-			[18071] = "0Apprentice Ralen#3e45^0c2b73a905~Apprentice Meledor#3e49^2b72b9be@10 25",
-			[23175] = "0Librarian Donathan#62ae^507a73c556~Librarian Donathan#62ae^7a73b556@250 18~7a6b06cc",
-			[1655] = "0Margoz#c88^0b26902336~Margoz#c88^26902333@250 1f~268c818f8be1808be16688e15b88714d8751378c71898c11678ae1718a5170894164898163",
-			[11445] = "0Rahauro#2e39^5068b3a4ae~",
-			[16965] = "0Incriminating Documents^0c2b59f99d~Aeldon Sunbrand#3c2b^2b7b3758@250 25~",
-			[23361] = "0Surristrasz#60db^507a73c588~Warmage Anzim#630c^7a7685f6@10 18~",
-			[23365] = "0Archmage Evanor#64b9^507a76952e~Surristrasz#60db^7a73f57f@75 18~",
-			[49715] = "0Dirt-stained Map#oc04^503fa1bd35~Chief Hawkwind#ba5^3f70ec27@250 3e~",
-			[1529] = "0Morin Cloudstalker#bac^503f9219c8~Morin Cloudstalker#bac^3f9249c8@150 3e~3fa19731a5d6eca5b720a16741a067539eb7489ef75c9e47679c479d9c078b9e77ca9d17c59b87d4~3f9fe748a1b72da1d72ca586fba5b707a5271a",
-			[1663] = "~Vol'jin#292c^4457b5d4@250 1f~",
-			[1657] = "0Orgnil Soulscar#c46^0b268586e2~Margoz#c88^26902336@10 1f",
-			[1721] = "0Melor Stonehoof#d71^50689d3ce1~",
-			[16927] = "0Aeldon Sunbrand#3c2b^0c2b7b275b~Aeldon Sunbrand#3c2b^2b7b275a@250 25~2b77f7227ab6ae79e64073f67e74a6af7626dc",
-			[1849] = "0Ak'Zeloth#dc1^50619f7334~Ak'Zeloth#dc1^619f7336@350 1f~617ab30f",
-			[7523] = "0Arch Druid Hamuul Runetotem#1689^5068c8e492~~",
 			[16983] = "0Velan Brightoak#3c39^0d2b724b21~Velan Brightoak#3c39^2b725b20@250 25~2b6bfb2c480b61603aa562ea73668a6e679a78",
-			[1531] = "0Morin Cloudstalker#bac^503f9219c8~Morin Cloudstalker#bac^3f9249c8@250 3e~3fa5d6ec",
-			[49427] = "0Lady Sylvanas Windrunner#952d^509b79d328~~",
-			[1659] = "0Margoz#c88^0c26902333~Neeru Fireblade#c90^447ee80f@75 1f~",
-			[1723] = "0Skorn Whitecloud#bec^503f77a99f~Melor Stonehoof#d71^689ccce8@250 3e~3f80d2899172d98951c786c1c2",
-			[19409] = "0Outrunner Alarion#3bc5^0c2b674523~Slain Outrunner#45b9^2b6b65af@25 25",
-			[17129] = "0Magistrix Erona#3bae^0c2b61435c~Matron Arena#3bb4^2b64a347@75 25",
-			[26319] = "0Warden Alturas#7968^507c9c6a16~Warden Alturas#7968^7c9cea1c@500 18~8b823879",
-			[18505] = "0Ranger Sareyn#3e46^0d2b77eb78~Ranger Sareyn#3e46^2b77db76@250 25~2b81cca9822ca281cccc81bcd6~2b81cca9827cb7826cb2825cfc",
-			[1533] = "0Maur Raincaller#bef^503f78291e~Maur Raincaller#bef^3f78491d@250 3e~3f7bab2b~3f651759~3f8b2b01~3f7feb0a",
-			[6183] = "0Grull Hawkwind#ba4^503f72dc4a~Harutt Thunderhorn#bf3^3f709c28@75 3e~",
-			[23785] = "0Arch Druid Lathorius#64d1^507a91c714~~7a7fb6a2",
-			[22259] = "0Ahab Wheathoof#5c42^503f7b5885~Ahab Wheathoof#5c42^3f7b9885@250 3e~3f7dda2f",
-			[16653] = "0Magistrix Erona#3bae^0c2b61335d~Magistrix Erona#3bae^2b613359@250 25~2b5d33ca5d33ca5d33ca5d33c95d23c959c3f659c3f659c3f6",
-			[17771] = "0Hathvelion Sungaze#3e30^0c2b4c6955~Hathvelion Sungaze#3e30^2b4c8958@350 25~2b41fa9a",
-			[23801] = "0Archmage Berinand#62e2^507a54457f~Archmage Berinand#62e2^7a54557b@250 18~7a48748d~7a487598~7a512346~7a39c3c2",
-			[18705] = "0Aeldon Sunbrand#3c2b^0c2b7b275a~Ley-Keeper Velania#3c29^2b5dd92f@250 25~2b56c9c9",
-			[28399] = "0Archmage Lan'dalock#50ff^507c935aa3~~",
-			[16673] = "0Arcanist Ithanas#3bc0^0c2b61d310~Arcanist Ithanas#3bc0^2b61c30f@250 25~2b593346593346593346593346593346593346",
-			[16677] = "0Tainted Arcane Sliver^0c2b4f143f~Arcanist Helion#3bc1^2b5f130a@250 25~",
-			[23821] = "0Archmage Berinand#62e2^507a54457f~Archmage Berinand#62e2^7a54557b@250 18~7a4e94f258b46350d3a3~7a5944b24c34ca54e3f8",
-			[23825] = "0Librarian Serrah#65fe^507a55657f~Librarian Serrah#65fe^7a55757f@250 18~7a5573e45683dd5523ea5673dd5803be5973e85553e15693de56d4205973ed",
-			[23829] = "0Librarian Serrah#65fe^507a55757f~~",
-			[19243] = "0Lor'themar Theron#41a2^13518a2344~~",
-			[23327] = "0Librarian Normantis#6388^507a768540~Librarian Donathan#62ae^7a73c556@10 18~",
-			[16701] = "0Outrunner Alarion#3bc5^0c2b677527~Innkeeper Delaniel#3c49^2b7af79d@25 25~",
-			[17791] = "0Magister Jaronis#3c3a^0c2b78c764~Ley-Keeper Caidanis#3c2d^2b72387d@25 25~",
-			[18239] = "0Ley-Keeper Caidanis#3c2d^0c2b72387d~Ley-Keeper Velania#3c29^2b5dd931@250 25~",
-			[23343] = "0Librarian Donathan#62ae^507a73c556~Librarian Donathan#62ae^7a73b554@250 18~7a6b0636",
-			[18277] = "0Arcanist Vandril#3f45^0f2f76948b~Arcanist Vandril#3f45^2f765489@1000 40~2f97f21a98a1ed9bc1c09e01e793228f98b23499023c9b323797c21b98a1f797e1f39a220a99322d9a11c89d418f",
-			[11461] = "0Neeru Fireblade#c90^50447ea817~Thrall#1355^4451560b@350 1f",
-			[26415] = "0Brann Bronzebeard#6da6^508db4e7c8~~8d7f9213",
-			[23359] = "0Librarian Donathan#62ae^507a73b554~Surristrasz#60db^7a73c588~",
-			[23873] = "0Raelorasz#6605^507a551582~~",
-			[18267] = "0Skymaster Sunwing#3f3d^0d2f7424e0~Sathren Azuredawn#3f3f^518a1b5c@75 25~",
-			[18271] = "0Skymistress Gloaming#3f40^0f2b8b181c~Quartermaster Lymel#3f3b^2f7904b2@250 40~",
-			[19755] = "0Arcanist Janeda#3f70^132f8c37bf~Apothecary Renzithen#3f46^2f7a158f@250 40",
-			[18279] = "0Arcanist Vandril#3f45^0e2f765489~Arcanist Vandril#3f45^2f765488@1000 40~2f4932b548e28b46f23643d21c3f92413ba2c448c28c4942524642094192183e02543ae2ce~2f4b12c148e29c48f26e48524f48d2c849f2734bb22f42e238",
-			[17773] = "0Captain Kelisendra#3e31^0d2b5ceaa6~Captain Kelisendra#3e31^2b5ceaa6@250 25~2b422a9c411a8340ba873fdaaf3fdaaf400ac0",
-			[18287] = "0Ranger Valanna#3f5b^0d2fb1326b~Ranger Valanna#3f5b^2fb16269@250 25~2fc0316ac41183c301bdc201edbf71fabea1febc1252bbf1e9bee1debc624fbc7252c531f1",
-			[18291] = "0Ranger Lethvalin#3f55^0f2f74352f~Ranger Valanna#3f5b^2fb1326b",
-			[18295] = "0Apothecary Thedra#3f44^0c2b7d4e39~Apothecary Thedra#3f44^2b7d5e3c@1000 40~2f7e12167e22157c82507cc25d7c220a7d621b7e620e7c6242",
-			[18299] = "0Apothecary Renzithen#3f46^0f2f79e590~Apothecary Renzithen#3f46^2f7a058e@1000 40~2f35f30c3543153182cd2f92c030a2e130d2e536a32c33834133238233a37b30f38330b3c4",
-			[1669] = "0Rezlak#cdd^50267693a6~Rezlak#cdd^2676a3ac@250 1f~267f844381d42780041c84546e7db39b",
+			[23123] = "0Brglmurgl#626f^507a6d822d~Brglmurgl#626f^7a6d922e~7a66138266138266138266138264537b62837962a3be60a3ac60a3ac64139764d38d65c3a4626378662379",
+			[23131] = "0Mrmrglmr#6275^507a6b520b~King Mrgl-Mrgl#626d^7a6f1239@10 8~",
+			[23139] = "0Glrglrglr#6ed7^507a60b3b2~Glrglrglr#6ed7^7a60b3b3~7a641397",
+			[1583] = "~Furl Scornbrow#c4b^267f7675@250 1f~",
+			[23187] = "0Grunt Ragefist#62f8^507a7bb326~Grunt Ragefist#62f8^7a7ba328@250 43~7a7c436b7d13787ea36b80038d7ed3a27f53b37d63a97c93977bd3a87c93d0",
+			[49425] = "0Gorkun Ironskull#92d8^509b9d68d5~Lady Sylvanas Windrunner#952d^9b79d328@500 43~9b77a3ae",
+			[18125] = "0Apprentice Meledor#3e49^0c2b72b9be~Apprentice Meledor#3e49^2b72b9c1@75 25~2b7159e3",
 			[18133] = "0Instructor Antheol#3e62^0c2b8e68b4~Instructor Antheol#3e62^2b8e78b4@250 25~2b72c9be~2b73a906",
-			[18311] = "0Deathstalker Rathiel#3f48^0e2f75a55a~Deathstalker Rathiel#3f48^2f75d55e@1000 40~2f6944c26844b264b4f56564e461a52a62757963258c6495845ee6ac6006b064656965354a67357d66b53d65053d~2f67e4b56754c96305036195366205c062a5c85ed6545f56985e86ac5f16e663b53360757066b4b668748b65d4db",
-			[18315] = "0Geranis Whitemorn#3f49^0d2fb9030a~Geranis Whitemorn#3f49^2fb9130a@1000 40~2fb6e49eb94470bba3fbbbb3b2bc2396bc837bb4f239b59236b6d4a0b7d48bb9546cba2442bb73fdbb83adbc1392",
-			[18319] = "0Farstrider Sedina#3f4a^0e2fb93525~Farstrider Sedina#3f4a^2fb95526@250 25~2f3cd5e03d36083d36083dc6823dc6823cd6cc44b66449d6434a463c4d76473db5ed43567b4156973e963d3bb628~2f3d861f3d86283d164e3ef71841470243471545d6cc46b6c346c65f46d6893f66883ec6743d66583875e640c715",
-			[26483] = "0Archmage Timear#7acf^507ca3b8ce~~",
-			[18327] = "0Dame Auriferous#3f67^102f72c531~Dame Auriferous#3f67^2f72a52f@1000 40~2f23543f231439~2f20a405209407~2f1af39c1af39d",
-			[26491] = "0Archmage Lan'dalock#50ff^507c93da9f~~8ec215a8",
+			[26317] = "0Rhonin#3f00^507c4e17bc~Warden Alturas#7968^7c9d1a24~",
+			[27347] = "0Magister Edien Sunhollow#8306^5080c2f3e5~~7e9e47bf",
+			[27355] = "0Galathia Brightdawn#837b^5080c2f3e5~~80bad3f5bab3f6bab3f6bab3f6bab3f6~80bab3f6bab3f6~80ba8404ba9405",
+			[19243] = "0Lor'themar Theron#41a2^13518a2344~~",
+			[1849] = "0Ak'Zeloth#dc1^50619f7334~Ak'Zeloth#dc1^619f7336@350 1f~617ab30f",
+			[26413] = "~High Executor Anselm#5ce4^7fc8f4fe~",
+			[23363] = "0Warmage Anzim#630c^507a7685f6~Archmage Evanor#64b9^7a76952e@250 18~",
+			[18261] = "0Quartermaster Lymel#3f3b^0d2f78f4a8~Skymaster Sunwing#3f3d^2f7424e0@25 25~",
+			[18269] = "0Sathren Azuredawn#3f3f^0f518a1b5c~Skymistress Gloaming#3f40^2b8b181c@25 25~",
+			[18277] = "0Arcanist Vandril#3f45^0f2f76948b~Arcanist Vandril#3f45^2f765489@1000 40~2f97f21a98a1ed9bc1c09e01e793228f98b23499023c9b323797c21b98a1f797e1f39a220a99322d9a11c89d418f",
+			[18293] = "0Ranger Valanna#3f5b^0d2fb16269~Captain Helios#3f5c^2fb8f4bd~",
+			[18301] = "0Magister Darenis#3f47^0e2f75c519~Magister Darenis#3f47^2f75c519@1000 40~2f59f5cb5a459f5a556259555459454658151d5934df58e4db5d75335ca4f958a4f55804c955a4d454f4fc555513",
+			[18317] = "0Farstrider Sedina#3f4a^0d2fb93523~Farstrider Sedina#3f4a^2fb93525@250 25~2fc7a43cc8a476c5a51bc36537c38535c2752cbf05fcbd75f8b645f6b515f5c18484c60472ca04b3c2b52bc17575",
+			[18325] = "0Dusty Journal#o2c39e^112fcb92d2~Ranger Vynna#3f4b^2fb7e535@250 25~",
 			[19355] = "0Noellene#3f93^0d2b7bc76c~Knight-Lord Bloodvalor#4535^51e485a9",
-			[18339] = "0Magister Sylastor#3f6d^112f9a85b0~Magister Sylastor#3f6d^2f9a25b1@1000 40~2f946a78956a65",
-			[18343] = "0Master Chef Mouldier#3f7d^0e2f7bb4f4~Master Chef Mouldier#3f7d^2f7bc4f1@1000 40~2f3d164e41470245d6cc46e6654916473902a443050246c65f46d6893f6688",
-			[18347] = "0High Executor Mavren#3f7c^102f72852d~High Executor Mavren#3f7c^2f72a52f@1000 40~2f2f895023190721f90d1e79121fe95b1f59461f694b1ef8fb2d695d22c90121490920196a22194b2429561f1957~2f2cb94f2a194527690f24191123e90d24791021990a2119152119151e69172b59582959172628fc23d8fc23390c",
-			[18351] = "0The Lady's Necklace^102f239904~High Executor Mavren#3f7c^2f72a52f@1000 40~",
+			[19363] = "0Knight-Lord Bloodvalor#4535^0f51e485ac~Magister Astalor Bloodsworn#4536^51eb85cf",
+			[19371] = "0Knight-Lord Bloodvalor#4535^0f51e435a6~Knight-Lord Bloodvalor#4535^51e4459f~51ccc99a",
+			[23467] = "0Surristrasz#60db^507a73f57f~Archmage Berinand#62e2^7a54557c@150 18~",
+			[19411] = "0Slain Outrunner#45b9^0c2b6b65af~Outrunner Alarion#3bc5^2b677527@75 25~",
+			[18429] = "0Captain Helios#3f5c^112fb8e4be~Captain Helios#3f5c^2fb8e4c1@250 25~2fc24624c1d6e7c3f70cceb56fcd75d1ccb612c26627c1e646c2f776~2fc745aac2f6dbc2a6c4cb863cc8966ec7b66cc785a6c695e7c55580~2faef810aef82caec81da9f857a7a99fa29a9f~2faf67f2af6956a28a27a3ea53a29a9fa34c2a",
+			[22525] = "0Dark Ranger Marrah#5e49^508eae0ae4~High Executor Anselm#5ce4^7fc8f4fe~8ec215a8",
+			[27659] = "0Magister Edien Sunhollow#8306^5080c303e4~Magister Edien Sunhollow#8306^80c2f3e5~80b96315~80bad3f8bad3f8bad3f8bad3f8bad3f8",
+			[28713] = "0Bragor Bloodfist#8db1^116c8feeb8~~~",
+			[18509] = "0Magistrix Landra Dawnstrider#3f52^0d2b70bb4c~Apprentice Mirveda#3c2a^2b8adb5b@75 25~",
+			[18517] = "0Ardeyn Riverwind#400d^0e2b6f8b5f~Larianna Riverwind#3c26^2b571cca@25 25~",
+			[1613] = "0Orgnil Soulscar#c46^50268586e6~Orgnil Soulscar#c46^268586e2@250 1f~266ba4416b543c",
+			[18549] = "0Ranger Krenn'an#404e^0d2fb8a4c5~Ranger Krenn'an#404e^2fb8f4bd@250 25~2fba14a3b9746fbb741cbc83e6bc83e6bbe3c8bbb3b2bc2396b90475bbe396bc5370b6c262b8f305b9d3e7bca3f7~2fb9a4a1b84485bbe3c8bd136ab85257b7b27ab64289b422cfb8b483b90475bf6345b8029bb8f305b9d3e7bcf446",
+			[18565] = "0Magister Kaendris#3f6f^112f8cb7ce~Ranger Vynna#3f4b^2fb7e535",
+			[49427] = "0Lady Sylvanas Windrunner#952d^509b79d328~~",
+			[1619] = "0Neeru Fireblade#c90^0c447ee80f~Ak'Zeloth#dc1^619f7334@75 1f",
+			[23811] = "0Archmage Berinand#62e2^507a54657b~~",
+			[18717] = "0Marniel Amberlight#3c25^0d2b6fbb65~Ranger Sareyn#3e46^2b77eb78@10 25",
+			[1625] = "0Rhinag#c76^50266ba268~Rhinag#c76^266bb268@350 1f~",
+			[49715] = "0Dirt-stained Map#oc04^503fa1bd35~Chief Hawkwind#ba5^3f70ec27@250 3e~",
+			[1627] = "0Kor'ghan#c75^504478a88f~Kor'ghan#c75^4478f888~2668c2b165e2ee6332cd5da4007f32d18e825f8ee1ee9162578e12f1",
+			[23883] = "0Scintillating Fragment^507a55757f~Raelorasz#6605^7a551583@250 3b~",
+			[18789] = "0Apprentice Loralthalis#3e34^0d2bad6909~Groundskeeper Wyllithen#3e61^2bafa77f@10 25",
+			[17775] = "0Captain Kelisendra's Lost Rutters^0c2b470951~Captain Kelisendra#3e31^2b5ceaa6@250 25~",
+			[17783] = "0Magister Duskwither's Journal#o2c313^0e2bb1184e~Magister Duskwither#3e4f^2b99d9d3@250 25~",
+			[17791] = "0Magister Jaronis#3c3a^0c2b78c764~Ley-Keeper Caidanis#3c2d^2b72387d@25 25~",
+			[23939] = "0Raelorasz#6605^507a551583~Raelorasz#6605^7a551583@250 3b~7a551583",
+			[23947] = "0Raelorasz#6605^507a551583~~",
+			[1633] = "0Misha Tor'kren#c79^50266e44d9~Misha Tor'kren#c79^266e34d6@250 1f~265ea389",
+			[28163] = "0Riding Training Pamphlet^142f7a74fa~Perascamin#3f98^2b9ce89f~",
 			[16937] = "0Wanted: Thaelis the Hungerer#o2c2b6^0c2b7b2764~Sergeant Kan'ren#421c^2b7a0770@250 25~2b742618",
+			[16945] = "0Magister Jaronis#3c3a^0c2b78b764~Magister Jaronis#3c3a^2b78c764@250 25~2b7ab6ad79e64075162077a61674a6af72f745",
+			[16953] = "0Lieutenant Dawnrunner#3c27^0d2b9a2a08~Lieutenant Dawnrunner#3c27^2b9a3a08@250 25~2ba4aab3a63abfa1fcb79e5cb1affc36a49ab5a58abea37cc1a06cb79f3cb4~2baf5b8bb12baf9e5cb1a20cc6b10b99b0fb989eacbdb0ab9bb1eba7af6b91",
+			[16961] = "0Velendris Whitemorn#3c2c^0d2b5ceaa6~Velendris Whitemorn#3c2c^2b5cfaac@250 25~2b4d6ade4f4ae24fcb2c505b5450eb08537abc58cada507b55",
+			[16977] = "~Apprentice Mirveda#3c2a^2b8acb58@250 25~2b8a9b5d",
+			[26191] = "0Librarian Serrah#65fe^507a55857d~~",
+			[23133] = "0King Mrgl-Mrgl#626d^507a6f1239~King Mrgl-Mrgl#626d^7a6f3239@350 8~7a603464",
+			[23141] = "0Lurgglbr#6278^507a60a3ad~King Mrgl-Mrgl#626d^7a6f323a@250 8~7a699291",
+			[23149] = "~Librarian Donathan#62ae^7a73b555~",
+			[24179] = "0p^507d879a52~Captain Gort#67fa^7d5b87ba@350 43~7d369a11",
+			[23165] = "0Librarian Garren#62cb^507a731557~Librarian Garren#62cb^7a731556@150 18~7a701496",
+			[18071] = "0Apprentice Ralen#3e45^0c2b73a905~Apprentice Meledor#3e49^2b72b9be@10 25",
+			[26255] = "~~8a5aa8a5",
+			[18135] = "0Lord Saltheril#3f10^0c2b619bbd~Lord Saltheril#3f10^2b619bbd@250 25~~~",
+			[26319] = "0Warden Alturas#7968^507c9c6a16~Warden Alturas#7968^7c9cea1c@500 18~8b823879",
+			[17129] = "0Magistrix Erona#3bae^0c2b61435c~Matron Arena#3bb4^2b64a347@75 25",
+			[27357] = "0Magister Edien Sunhollow#8306^5080c2f3e5~~",
+			[23293] = "0Librarian Donathan#62ae^507a73c554~Librarian Normantis#6388^7a76853e@25 18",
+			[1655] = "0Margoz#c88^0b26902336~Margoz#c88^26902333@250 1f~268c818f8be1808be16688e15b88714d8751378c71898c11678ae1718a5170894164898163",
+			[1657] = "0Orgnil Soulscar#c46^0b268586e2~Margoz#c88^26902336@10 1f",
+			[26415] = "0Brann Bronzebeard#6da6^508db4e7c8~~8d7f9213",
+			[1659] = "0Margoz#c88^0c26902333~Neeru Fireblade#c90^447ee80f@75 1f~",
+			[18271] = "0Skymistress Gloaming#3f40^0f2b8b181c~Quartermaster Lymel#3f3b^2f7904b2@250 40~",
+			[18279] = "0Arcanist Vandril#3f45^0e2f765489~Arcanist Vandril#3f45^2f765488@1000 40~2f4932b548e28b46f23643d21c3f92413ba2c448c28c4942524642094192183e02543ae2ce~2f4b12c148e29c48f26e48524f48d2c849f2734bb22f42e238",
+			[18287] = "0Ranger Valanna#3f5b^0d2fb1326b~Ranger Valanna#3f5b^2fb16269@250 25~2fc0316ac41183c301bdc201edbf71fabea1febc1252bbf1e9bee1debc624fbc7252c531f1",
+			[18295] = "0Apothecary Thedra#3f44^0c2b7d4e39~Apothecary Thedra#3f44^2b7d5e3c@1000 40~2f7e12167e22157c82507cc25d7c220a7d621b7e620e7c6242",
+			[18303] = "0Magister Darenis#3f47^112f75c51a~Magister Idonis#3f4c^2f8c47bf@250 40~",
+			[18311] = "0Deathstalker Rathiel#3f48^0e2f75a55a~Deathstalker Rathiel#3f48^2f75d55e@1000 40~2f6944c26844b264b4f56564e461a52a62757963258c6495845ee6ac6006b064656965354a67357d66b53d65053d~2f67e4b56754c96305036195366205c062a5c85ed6545f56985e86ac5f16e663b53360757066b4b668748b65d4db",
+			[18319] = "0Farstrider Sedina#3f4a^0e2fb93525~Farstrider Sedina#3f4a^2fb95526@250 25~2f3cd5e03d36083d36083dc6823dc6823cd6cc44b66449d6434a463c4d76473db5ed43567b4156973e963d3bb628~2f3d861f3d86283d164e3ef71841470243471545d6cc46b6c346c65f46d6893f66883ec6743d66583875e640c715",
+			[18327] = "0Dame Auriferous#3f67^102f72c531~Dame Auriferous#3f67^2f72a52f@1000 40~2f23543f231439~2f20a405209407~2f1af39c1af39d",
+			[19357] = "0Knight-Lord Bloodvalor#4535^0d51e485a9~Knight-Lord Bloodvalor#4535^51e485ac~2faed135",
+			[18343] = "0Master Chef Mouldier#3f7d^0e2f7bb4f4~Master Chef Mouldier#3f7d^2f7bc4f1@1000 40~2f3d164e41470245d6cc46e6654916473902a443050246c65f46d6893f6688",
+			[1665] = "0Eye of Burning Shadow^0b2683b17e~Neeru Fireblade#c90^447ee80f@150 1f~",
+			[19381] = "0Knight-Lord Bloodvalor#4535^1451e465a3~Master Kelerun Bloodmourn#458f^2b6d9493@10 25",
+			[1667] = "0Lorekeeper Raintotem#ca1^503f991419~Lorekeeper Raintotem#ca1^3f991414@150 3e~3f9dd3789e83999e139b9e23939d337a9d63779d83a59c83a4",
+			[18399] = "0Deathstalker Maltendis#3f7b^0e2f72752a~Deathstalker Maltendis#3f7b^2f72852a@1000 40~2f9023de9304209ed48ea29498a044aaa0b483a084d2a094c4add49faf04c8aa2493a7c495a7c48ea8148fa49491",
+			[49015] = "0Lady Sylvanas Windrunner#907e^509b68ccbc~Gorkun Ironskull#92d8^9b9d68d5@500 43~9b7f0b0c7d6b0b80bad2879a628eea7b8f7a6a8dca309d37ef9557c68db69d8dd62d8d46118bc5e7717907740953~9baf495e",
+			[1669] = "0Rezlak#cdd^50267693a6~Rezlak#cdd^2676a3ac@250 1f~267f844381d42780041c84546e7db39b",
+			[18431] = "0Wanted Poster: Kel'gash the Wicked#o2c3a1^112fb8a4fc~Captain Helios#3f5c^2fb904bd@350 25~2fa6ccbaa6fcb0",
+			[1671] = "0Rezlak#cdd^502676a3ac~Rezlak#cdd^2676a3ab@250 1f~268a14718a245989e3f789d3e98823f386e3db83f3c885b3ce89d39f8a439586b36e853351~2682f3c782c3bc82c3b98853d78a439588137885136f844332",
+			[27661] = "0Marcia Chase#7046^507c86fa6e~~",
+			[27677] = "0Galathia Brightdawn#837b^5080c2f3e6~Galathia Brightdawn#837b^80c2f3e6~80bb2312~80bbb3f5bb23f6",
+			[19517] = "0High Executor Mavren#3f7c^0f2f72a52e~Arcanist Vandril#3f45^2f76948b@250 40",
+			[1675] = "~Gar'Thok#c43^2684f6ef@150 1f~~~2663487164087664f880639895~2663b87864b89863989561d89b",
+			[18551] = "0Apothecary Venustus#4050^112fb9e50c~Apothecary Venustus#4050^2fb9c50b@1000 40~2fa60aa6a5faa7~2fa0ebf6a12c05~2fae393bae3945",
+			[1681] = "0Takrin Pathseeker#d08^50268226f6~Kargal Battlescar#d09^619f3318@75 1f~",
+			[18631] = "0Dying Blood Elf#40d9^0f2f930266~Arcanist Vandril#3f45^2f765489@1000 40~2f94428999322d",
+			[18655] = "0Arcanist Vandril#3f45^0d2f76c486~High Executor Mavren#3f7c^2f72952e@250 40",
+			[1685] = "0Kargal Battlescar#d09^50619f3318~Sergra Darkthorn#d0a^618594f3@250 1f~",
+			[16651] = "0Magistrix Erona#3bae^0c2b61435c~Magistrix Erona#3bae^2b61335d@250 25~2b5c73315c83335c83335c83335c83335c83335c332c5c6332",
+			[23821] = "0Archmage Berinand#62e2^507a54457f~Archmage Berinand#62e2^7a54557b@250 18~7a4e94f258b46350d3a3~7a5944b24c34ca54e3f8",
+			[23829] = "0Librarian Serrah#65fe^507a55857e~Librarian Serrah#65fe^7a55857d@250 18~",
+			[23837] = "0Raelorasz#6605^507a552582~Raelorasz#6605^7a551582@250 3b~7a5094f059749f5853ad50d3cd4dd3cf54948552d48952945a5494594df4a0",
+			[16691] = "0Well Watcher Solanian#3bbf^0c2b63231b~Well Watcher Solanian#3bbf^2b632319@250 25~2b4bd31b",
+			[11447] = "0Rahauro#2e39^5068b3a4ae~~~",
+			[23893] = "0Keristrasza#665e^507a55857d~Keristrasza#665e^7a55857d@10 3b~",
+			[17769] = "0Hathvelion Sungaze#3e30^0c2b4c8958~Hathvelion Sungaze#3e30^2b4c6955@250 25~2b48c91748591947691148b93e48a94046e95c47394848294a",
+			[17777] = "0Magister Duskwither#3e4f^0d2b99d9d3~Apprentice Loralthalis#3e34^2bad6909@10 25",
+			[17785] = "0Ranger Degolien#3e43^0d2b6edb4f~Ranger Degolien#3e43^2b6edb50@250 25~2b4f7b1b4f7b1b4c0b1452aae4561b28~2b593ad24f5b1b4f7b1b507b534e5b17",
+			[11523] = "0Neeru Fireblade#c90^50447ed818~Neeru Fireblade#c90^447eb817~45000000",
+			[18975] = "0Arcanist Vandril#3f45^0f2f76b487~Arcanist Vandril#3f45^2f76b48b~2fc4a2e2c65306c82324c81326c9e331cc831ac7e335c78351",
+			[16947] = "0Larianna Riverwind#3c26^0c2b571cca~Larianna Riverwind#3c26^2b56fcc9@250 25~2b585cff590d3159ed4859ed485ced915cad8b5aed8d589d69584d61559d29570cf158ed1c59dd2659dd415aed68",
+			[16955] = "0Arathel Sunforge#3c28^0d2b9839ff~Arathel Sunforge#3c28^2b982a00@250 25~2bb13baeb1eba5",
+			[23119] = "0King Mrgl-Mrgl#626d^507a6f4238~Ahlurglgr#6276^7a6df231~7a66d28969e24069f22669421668c200",
+			[23127] = "0Mrmrglmr#6275^507a6b620c~Mrmrglmr#6275^7a6b520b~7a631173",
+			[23143] = "~King Mrgl-Mrgl#626d^7a6f4238@250 8~7a6d82c1",
+			[23189] = "0Grunt Ragefist#62f8^507a7bb326~Grunt Ragefist#62f8^7a7ba328@250 43~7a7b93577cb36b7df3797e43637f73658023887ed3a37ed3a27d73c77e93da7e93da7e83f37ee4088023f780c41a",
+			[23175] = "0Librarian Donathan#62ae^507a73c556~Librarian Donathan#62ae^7a73b556@250 18~7a6b06cc",
+			[26249] = "0Raelorasz#6605^507a551582~~",
+			[23259] = "~Spirit Talker Snarlfang#62fb^7a80718e@10 43~",
+			[1535] = "0Baine Bloodhoof#bb1^503f79699f~Zarlman Two-Moons#bee^3f7a0935@25 3e",
+			[23405] = "0Supply Master Taz'ishi#6488^507a7d31a5~",
+			[16673] = "0Arcanist Ithanas#3bc0^0c2b61d310~Arcanist Ithanas#3bc0^2b61c30f@250 25~2b593346593346593346593346593346593346",
+			[23249] = "0Spirit Talker Snarlfang#62fb^507a80818c~Imperean#6320^7a77117e",
+			[23915] = "0Keristrasza#665e^507a5334dc~Keristrasza#665e^7a37d3b4@250 3b~7a36f387",
+			[18129] = "0Apprentice Meledor#3e49^0c2b72b9c1~Instructor Antheol#3e62^2b8e68b4@25 25~",
+			[18153] = "0Velendris Whitemorn#3c2c^0d2b5cfaac~Velendris Whitemorn#3c2c^2b5cdaad@250 25~2b53fb19",
+			[23255] = "0Imperean#6320^507a77117e~~7a81d278~7a756217",
+			[23263] = "0Spirit Talker Snarlfang#62fb^507a80718e~~",
+			[7525] = "0Innkeeper Pala#1a5a^506874fa4a~Arch Druid Hamuul Runetotem#1689^68c8e492@10 3e",
+			[18335] = "0Magister Kaendris#3f6f^132f8cf7d0~Magister Kaendris#3f6f^2f8cb7cf@4749 40~2f549cff",
+			[49365] = "~Lady Sylvanas Windrunner#907e^9b68ccbc~",
+			[3313] = "0Antur Fallow#1a77^503f626d09~Innkeeper Kauth#1a5b^3f7749c2@25 3e~",
+			[18351] = "0The Lady's Necklace^102f239904~High Executor Mavren#3f7c^2f72a52f@1000 40~",
+			[18387] = "0Advisor Valwyn#3fa1^0e2f72a53a~Advisor Valwyn#3fa1^2f72a53a@2000 40~2fa0c4f4a094f4~2f95947c95447296e48895547396549296e48c96849596e48a96849396e48ca7c495a88499a6b48aa7e49aa3949a",
+			[1547] = "0Seer Wiserunner#ba8^503f53a5c3~Ancestral Spirit#bb2^3f9d035e@250 3e",
+			[23327] = "0Librarian Normantis#6388^507a768540~Librarian Donathan#62ae^7a73c556@10 18~",
+			[1721] = "0Melor Stonehoof#d71^50689d3ce1~",
+			[23343] = "0Librarian Donathan#62ae^507a73c556~Librarian Donathan#62ae^7a73b554@250 18~7a6b0636",
+			[26495] = "0Archmage Lan'dalock#50ff^507c935aad~~8a7cdde7",
+			[23359] = "0Librarian Donathan#62ae^507a73b554~Surristrasz#60db^7a73c588~",
+			[1723] = "0Skorn Whitecloud#bec^503f77a99f~Melor Stonehoof#d71^689ccce8@250 3e~3f80d2899172d98951c786c1c2",
+			[18415] = "0Apprentice Shatharia#3fa5^0f2f5047b7~Magister Quallestis#3fa3^2f8c87c5@1000 40~2f48b80e49e80448f81146b7ac47378b47878a4d27db4d27db4d17dd4c47974c47a448e7d6",
+			[18361] = "0High Executor Mavren#3f7c^102f72a52c~Lady Sylvanas Windrunner#27c5^6c945eae@250 41~",
+			[18281] = "0Arcanist Vandril#3f45^102f765488~Arcanist Vandril#3f45^2f769485@3000 40~2f29a6bb32e6f23306ec33d72733876f34a7712a16dc34f71635d79e33b7a13407c934c7f2~2f36173e36e73730a7792f47b32c46b830d6b135e6a936b761",
+			[20333] = "0Larianna Riverwind#3c26^0c2b56fcc9~Whitebark's Spirit#4c00^2b5ecda4@250 25~",
+			[18297] = "0Courier Dawnstrider#3f37^0d2b7d3e37~Arcanist Vandril#3f45^2f76c486@250 40~",
+			[18305] = "0Rathis Tomber#3f60^0f2f785483~Rathis Tomber#3f60^2f787484@1000 40~2f55c43755c438",
+			[18313] = "0Wanted Poster#o2c39b^0e2f7b750f~Deathstalker Rathiel#3f48^2f75b559@3000 40~2f673757~2f5c5b3d",
+			[18321] = "0Dame Auriferous#3f67^0e2f72c531~Dame Auriferous#3f67^2f72c531@1000 40~2f5ec2b35fa2a7~2f6052e06002d35f32c75f22b05e82ac5dd2825d82655d12535d82515dc2305f72296032245fe2cc5fe2cc5fc28a",
+			[48859] = "0Head of Onyxia^50448e1a53~Neeru Fireblade#c90^447eb80e@500 1f~",
+			[26513] = "0Archmage Lan'dalock#50ff^507c93aaab~Archmage Lan'dalock#50ff^7c935aac~8b82c879",
+			[18345] = "0Ranger Vynna#3f4b^112fb7e535~Magister Kaendris#3f6f^2f8cb7cf@250 40~",
+			[18353] = "0Magister Kaendris#3f6f^122f8cb7cf~Magister Kaendris#3f6f^2f8cf7d0@2000 40~2f6737f666b7ec~2f57b79957e79b",
+			[19383] = "0Master Kelerun Bloodmourn#458f^142b6da493~Knight-Lord Bloodvalor#4535^51e465a6",
+			[23935] = "0Keristrasza#665e^507a37d3b4~Raelorasz#6605^7a551583@75 3b~",
+			[18329] = "0Apothecary Renzithen#3f46^132f7a158f~Arcanist Janeda#3f70^2f8c37bd@3000 40~2f51fbcd524bc0~2f686d46684d49~2f53de5b53ce4c",
+			[18385] = "0Deathstalker Maltendis#3f7b^0e2f72852b~Deathstalker Maltendis#3f7b^2f72852a@1000 40~2f4ff7af4e17cf4db7cb4af7d24957fb49f8084897d54807c94d37e14d47dc4618324548784a98784d882350a729~2f4cf7ce4a67d44b47cd47e7964537c148c84e4c379e4798734fd7f54d66f247e71d44e7b0~2f4e47ca4ba7c14b37b94b07d34d67e04c17a748f7d5462833",
+			[16973] = "0Ley-Keeper Velania#3c29^0c2b5dd931~Ley-Keeper Velania#3c29^2b5dd92f@250 25~2b59f9925979ae5719bc56a9ed5969b0~2b56b9ca55e9ca56a9ea56a9ea55f9e9",
+			[27269] = "0Crusader Rhydalla#8289^5080b183af~~",
+			[1501] = "0Grull Hawkwind#ba4^503f72dc4a~Grull Hawkwind#ba4^3f72cc55@250 3e~3f6e2e3f6d9e25720e42700e67709e6771ae886feeb971fecd72ae95752e74",
+			[18333] = "0Dame Auriferous#3f67^102f72a52f~Magister Sylastor#3f6d^2f9a25b4@250 40~",
+			[18425] = "0Ranger Lilatha#3fa7^122fa0d536~Captain Helios#3f5c^2fb924bf@250 25~2fb94523b8451f",
+			[18433] = "0Magistrix Aminel#3f4d^102f7d0501~Magistrix Aminel#3f4d^2f7d1502@500 40~2f63781761d8d562391a60090e6559c35f0b175f6a046784cd67451b66553565952b671579",
+			[18441] = "0Magister Idonis#3f4c^112f8c47bf~Magister Idonis#3f4c^2f8c37bf@3000 40~2f5c5b3d5cdb3d5f1c67604cc15efd255d3b695b9b6a5b6c7d622cec5cfd3d~2f5aac1d5c7c3e5f8c19615c39627c5a622ced5c6c405e9c6a64dcbd624c74621c495ebc04~2f5a0be45dbc715bbcc25e5cc25e6cba5e7d12584c055a4c995d9cc65f9d2f61ccc9604c85",
+			[18791] = "0Magistrix Landra Dawnstrider#3f52^0b2b708b4f~Lord Saltheril#3f10^2b619bbd@10 25",
+			[22545] = "0High Executor Anselm#5ce4^507fc8f4fe~~",
+			[11455] = "0Thrall#1355^0c44517609~Thrall#1355^4451a609@75 1f~447ed818",
+			[11457] = "0Thrall#1355^504451a609~Thrall#1355^4451360e@500 1f~45000000~45000000",
+			[27679] = "0Amariel Sunsworn#837a^5080c303e4~Amariel Sunsworn#837a^80c303e6~80b9d306~80ba8404ba7404",
+			[25457] = "0Librarian Garren#62cb^507a731556~~7a669327",
+			[17723] = "~Innkeeper Pala#1a5a^68753a57@250 3e~",
+			[18505] = "0Ranger Sareyn#3e46^0d2b77eb78~Ranger Sareyn#3e46^2b77db76@250 25~2b81cca9822ca281cccc81bcd6~2b81cca9827cb7826cb2825cfc",
+			[18513] = "0Aeldon Sunbrand#3c2b^0d2b7b175a~Ranger Degolien#3e43^2b6edb4f@75 25~",
+			[18341] = "0Magister Idonis#3f4c^132f8c37bf~Magister Idonis#3f4c^2f8c37bd@3000 40~2f5f4ce0629cb5~2f53ce3e538e3e~2f518bda521bdf~2f5ace2c5b7e29",
+			[23839] = "0Raelorasz#6605^507a551582~Raelorasz#6605^7a552582@250 3b~7a551580",
+			[18721] = "0Amani Invasion Plans^0b2ba05cb9~Lieutenant Dawnrunner#3c27^2b9a3a07@250 25~",
+			[16669] = "0Lanthan Perilon#3bb1^0c2b5a6397~Lanthan Perilon#3bb1^2b5a8395@250 25~2b5a54ae5a34ae59e49e59e49e573481573481573481~2b5a24af5a54ac5a54ac59e49e59e49e573481565462",
+			[18553] = "0Farstrider Solanna#404f^112fb8e500~Farstrider Solanna#404f^2fb8c500@250 25~2fc745aac306ddc316e1c1f6f1c1f76fc036d2c386a8c42610cb863ccba657cba650c8e671c82665c34692c4069b~2fc345f3c316e1c2e707c2f74bbd9766bee717c3b693c24655cde554ce55c8cd75ecc9666fc3868cc246e2c106e8",
+			[16661] = "0Well Watcher Solanian#3bbf^0c2b63231b~Well Watcher Solanian#3bbf^2b632319@250 25~2b59e49f~2b5033a5~2b6053f8",
+			[1487] = "0Ruul Eagletalon#ba9^503f78e9e8~Ruul Eagletalon#ba9^3f7919e7@250 3e~3fa72b07a86af0a93b14a8fb35aa7b2aaaaaeeac7b40ac6b43",
+			[16653] = "0Magistrix Erona#3bae^0c2b61335d~Magistrix Erona#3bae^2b613359@250 25~2b5d33ca5d33ca5d33ca5d33c95d23c959c3f659c3f659c3f6",
+			[18239] = "0Ley-Keeper Caidanis#3c2d^0c2b72387d~Ley-Keeper Velania#3c29^2b5dd931@250 25~",
+			[23903] = "0Keristrasza#665e^507a55857d~Keristrasza#665e^7a5334dc@250 3b~7a49d4c74b34a04a150949f52d4845154815584034a54093fb",
+			[1489] = "0Eyahn Eagletalon#bab^506860998e~Eyahn Eagletalon#bab^6860a994@250 3e~3f8e92b890128a8d21e58b01b18880f78470db~3f8ef28d8ff2228e51f48590fc82c0d98160d5",
+			[26489] = "0Archmage Timear#7acf^507ca318ca~~",
+			[11459] = "0Thrall#1355^504451360e~Neeru Fireblade#c90^447ea817",
+			[19369] = "0Magister Astalor Bloodsworn#4536^0f51eb85cf~Knight-Lord Bloodvalor#4535^51e435a6~51eb85cf",
+			[1491] = "0Baine Bloodhoof#bb1^503f79699f~Baine Bloodhoof#bb1^3f79799f@250 3e~3f8d7bab877bba86eb88895b958aeba97e2b6d7cdb6c7b8b807b7b7d~3f8c7ba2881bb3865bad7bdb807b8b827a9b63791b8d7a3ba7~3f8a3b878abb7d8d7bab8d5bab86cb87",
+			[23759] = "0Khu'nok the Behemoth#6506^507a9814e4~Arch Druid Lathorius#64d1^7a91c714@350 8~7a89d3de",
+			[26825] = "0Librarian Serrah#65fe^507a55857d~Corastrasza#7f24^7a4b73f8@25 3b~",
+			[18657] = "0Magister Kaendris#3f6f^122f8cb7cf~Lor'themar Theron#41a2^518a2344@75 25~",
+			[1493] = "0Baine Bloodhoof#bb1^503f79799f~Baine Bloodhoof#bb1^3f79599e@250 3e~3f5007f65007f65007f65007f65007f6",
+			[1531] = "0Morin Cloudstalker#bac^503f9219c8~Morin Cloudstalker#bac^3f9249c8@250 3e~3fa5d6ec",
+			[26481] = "0Archmage Timear#7acf^507ca498ad~Archmage Timear#7acf^7ca488c2~",
+			[6753] = "0Brave Windfeather#c89^503f727c52~Brave Windfeather#c89^3f72ac5b@500 3e~3fa56c6a",
+			[1495] = "0Grull Hawkwind#ba4^503f72bc53~Grull Hawkwind#ba4^3f72dc51@250 3e~3f773c8179aca37b0cfc7bad4179ad66780d1e778cfb~3f773c8179aca37cacbe7bacdc7b0cfc7bad4179ad66",
+			[18705] = "0Aeldon Sunbrand#3c2b^0c2b7b275a~Ley-Keeper Velania#3c29^2b5dd92f@250 25~2b56c9c9",
+			[23823] = "0Archmage Berinand#62e2^507a54657b~~",
+			[16677] = "0Tainted Arcane Sliver^0c2b4f143f~Arcanist Helion#3bc1^2b5f130a@250 25~",
+			[1497] = "0Mull Thunderhorn#b84^503f7c09a7~Mull Thunderhorn#b84^3f7c29a8@250 3e~3f7bab2b79db0d817ae7835ad683bab488daee~3f8b2b017d0aa286e9a98c193d",
+			[16671] = "0Lanthan Perilon#3bb1^0c2b5a8395~Lanthan Perilon#3bb1^2b5a5397@350 25~2b51947b51947b51947b51947b5064b15064b14f546d4ef439~2b5064b14f546d~2b4e246f",
+			[16701] = "0Outrunner Alarion#3bc5^0c2b677527~Innkeeper Delaniel#3c49^2b7af79d@25 25~",
+			[23863] = "0Raelorasz#6605^507a552582~Raelorasz#6605^7a551583@250 3b~7a58045c5a344655c434~7a53b472",
+			[1499] = "0Morin Cloudstalker#bac^503f9239c8~Sealed Supply Crate#ob5c^3f8977b5@150 3e",
+			[23181] = "0Librarian Donathan#62ae^507a73b556~Librarian Donathan#62ae^7a73c554@250 18~7a6e0662",
+			[23887] = "0Raelorasz#6605^507a552582~Raelorasz#6605^7a551582@250 3b~7a3dd4ba~",
+			[18719] = "0Ranger Degolien#3e43^0d2b6edb50~Lieutenant Dawnrunner#3c27^2b9a2a08",
+			[17771] = "0Hathvelion Sungaze#3e30^0c2b4c6955~Hathvelion Sungaze#3e30^2b4c8958@350 25~2b41fa9a",
+			[17779] = "0Apprentice Loralthalis#3e34^0d2bad6909~Apprentice Loralthalis#3e34^2bad6904@150 25~2bb0184a~2bb0284d~2bb22883",
+			[11461] = "0Neeru Fireblade#c90^50447ea817~Thrall#1355^4451560b@350 1f",
+			[18289] = "0Magistrix Landra Dawnstrider#3f52^0d2b708b4e~Courier Dawnstrider#3f37^2b7d4e39@75 25",
+			[1503] = "0Sealed Supply Crate#ob5c^503f8977b5~Morin Cloudstalker#bac^3f9219c8@150 3e~",
+			[18437] = "0Magistrix Aminel#3f4d^102f7d0501~Magistrix Aminel#3f4d^2f7d2503@500 40~2f5d8aa85d5ab85f6a0661e9ae60a92e6439056488dd5f988e5e4aad5c2b0061f88b6509045d0ac45e3ac260f9ce",
+			[24973] = "~Spirit Talker Snarlfang#62fb^7a80818c@10 43",
+			[18511] = "0Apprentice Mirveda#3c2a^0d2b8acb58~Magistrix Landra Dawnstrider#3f52^2b708b4f@75 25~",
+			[1505] = "0Chief Hawkwind#ba5^503f70ec27~Greatmother Hawkwind#baf^3f7fdcf7@75 3e~",
+			[19755] = "0Arcanist Janeda#3f70^132f8c37bf~Apothecary Renzithen#3f46^2f7a158f@250 40",
+			[18349] = "0Geranis Whitemorn#3f49^0d2fb9130a~Geranis Whitemorn#3f49^2fb91309@250 25~2fb6f26eb6c25f",
+			[19373] = "0Master Kelerun Bloodmourn#458f^142b6d9493~Master Kelerun Bloodmourn#458f^2b6da493~2b6ec491",
+			[1507] = "0Greatmother Hawkwind#baf^503f7fdcf7~Chief Hawkwind#ba5^3f70fc27@250 3e~3f804d00",
+			[2863] = "0Craven Drok#1607^504470a885~",
+			[7523] = "0Arch Druid Hamuul Runetotem#1689^5068c8e492~~",
+			[18727] = "0Lieutenant Dawnrunner#3c27^0b2b9a3a07~Ranger Degolien#3e43^2b6edb50@250 25~",
+			[1527] = "0Chief Hawkwind#ba5^503f70ec27~Baine Bloodhoof#bb1^3f79699f@150 3e~",
+			[1663] = "~Vol'jin#292c^4457b5d4@250 1f~",
+			[23365] = "0Archmage Evanor#64b9^507a76952e~Surristrasz#60db^7a73f57f@75 18~",
+			[23183] = "0Overlord Bor'gorok#62ee^507a7ee1b3~Grunt Ragefist#62f8^7a7bc325@10 39",
+			[1511] = "0Chief Hawkwind#ba5^503f70fc27~Seer Graytongue#ba6^3f6cdeb9@250 3e",
+			[18315] = "0Geranis Whitemorn#3f49^0d2fb9030a~Geranis Whitemorn#3f49^2fb9130a@1000 40~2fb6e49eb94470bba3fbbbb3b2bc2396bc837bb4f239b59236b6d4a0b7d48bb9546cba2442bb73fdbb83adbc1392",
+			[23125] = "0King Mrgl-Mrgl#626d^507a6f323a~Mrmrglmr#6275^7a6b620c",
 		},
 		["Version"] = 0.5,
 		["NPC"] = {
@@ -13724,173 +13833,136 @@ NxData = {
 			["|cff3fbf3f7|r Humanoid~Sergeant Kan'ren~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f6 Wanted: Thaelis the Hungerer"] = "43^7a0770^1^G",
 			["Farstriders~Farstrider Sedina~Silvermoon City"] = "47^b93522^1^G",
 			["|cffffff0012|r Humanoid~Hathvelion Sungaze~"] = "43^4c8958^1^G",
-			["|cffff191920|r Humanoid~High Executor Mavren~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 The Forsaken"] = "47^72952e^1^G",
-			["Magatha's Servant~Rahauro~Thunder Bluff"] = "104^b3a4ae^1^G",
+			["Bowyer~Narina~Silvermoon City"] = "47^b8351f^1^M1",
+			["Guns & Ammunition~Kaja~Orgrimmar"] = "68^8569f4^1^M1",
 			["Innkeeper~Innkeeper Kauth~Orgrimmar"] = "63^7749c2^1^M0",
 			["Farstriders~Ranger Valanna~Silvermoon City"] = "47^b15266^1^G",
 			["|cff3fbf3f7|r Humanoid~Prospector Anvilward~ - Prospector Anvilward's Head: 1/1"] = "43^720884^1^G",
-			["|cff7f7f7f4|r Humanoid~Grull Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 The Battleboars"] = "63^72bc55^1^G",
+			["|cffff191930|r Humanoid~Larianna Riverwind~|cffffffffQ|cffc0c0ffuest: |cffffff0010 The Scorched Grove"] = "43^571cca^1^G",
 			["|cff7f7f7f37|r Humanoid~Neeru Fireblade~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f12 Burning Shadows"] = "68^7ed818^1^G",
 			["|cffff191930|r Humanoid~Instructor Antheol~"] = "43^8e68b4^1^G",
-			["Tinkers' Union~Rezlak~Ratchet"] = "38^76a3ab^1^G",
-			["|cffffff0014|r Humanoid~Arcanist Vandril~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Delivery to Tranquillien"] = "47^76c486^1^G",
-			["Tailoring & Leatherworking Supplies~Yonada~Thunder Bluff"] = "97^72f97b^1^M0",
-			["Blacksmithing Supplies~Taur Stonehoof~Thunder Bluff"] = "104^66f8e0^1^M1",
-			["|cff7f7f7f37|r Humanoid~Neeru Fireblade~"] = "68^7e8810^1^G",
-			["|cff7f7f7f62|r Humanoid~Arch Druid Hamuul Runetotem~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f50 Assisting Arch Druid Runetotem"] = "104^c8e492^1^G",
+			["Farstriders~Lieutenant Dawnrunner~Silvermoon City"] = "43^9a2a07^1^G",
+			["|cffffff0011|r Humanoid~Captain Kelisendra~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f8 Grimscale Pirates!"] = "43^5ceaa6^1^G",
+			["|cffff191930|r Humanoid~Ranger Degolien~|cffffffffQ|cffc0c0ffuest: |cffffff0011 Warning Fairbreeze Village"] = "43^6edb50^1^G",
+			["Fishing Trainer~Drathen~Silvermoon City"] = "81^c3dadd^1^T",
+			["Darkmoon Faire Barker~Kruban Darkblade~Darkmoon Faire"] = "68^869aa6^1^G",
+			["Gunsmith~Kennah Hawkseye~Thunder Bluff"] = "63^746956^1^M1",
 			["Warrior Trainer~Krang Stonehoof~Thunder Bluff"] = "63^7e89ae^1^G",
 			["Warrior Trainer~Torm Ragetotem~Thunder Bluff"] = "104^92bdfa^1^G",
-			["Warchief~Thrall~"] = "68^51660c^1^G",
-			["|cff7f7f7f5|r Humanoid~Outrunner Alarion~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f5 Package Recovery"] = "43^677527^1^G",
-			["First Aid Trainer~Pand Stonebinder~Thunder Bluff"] = "104^4ad35e^1^T",
+			["|cff7f7f7f36|r Humanoid~Chief Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f3 A Humble Task"] = "63^70dc28^1^G",
+			["|cff7f7f7f5|r Humanoid~Lanthan Perilon~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 Aggression"] = "43^5a8395^1^G",
+			["|cff7f7f7f6|r Humanoid~Apprentice Loralthalis~"] = "43^ad6909^1^G",
 			["|cff7f7f7f32|r Humanoid~Jorn Skyseer~"] = "97^72b972^1^G",
-			["Cooking Trainer~Quarelestra~Silvermoon City"] = "43^7c5785^1^T",
+			["|cffffff0015|r Humanoid~Ranger Sareyn~Targeted By: (|cffffffff1|r): |cff0070ddKagoma"] = "43^780b77^1^G",
 			["|cffff191930|r Humanoid~Runewarden Deryan~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Runewarden Deryan"] = "43^713da7^1^G",
-			["|cffff191930|r Humanoid~Ley-Keeper Velania~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f6 Arcane Instability"] = "43^5dd92f^1^G",
-			["Warchief~Thrall~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f16 Hidden Enemies"] = "68^51560b^1^G",
-			["Armorsmith~Faraden Thelryn~Silvermoon City"] = "43^604303^1^M1",
+			["First Aid Trainer~Alestus~Silvermoon City"] = "81^c6eb59^1^T",
+			["|cff3fbf3f72|r|cffAF5050+|r Humanoid~High Executor Anselm~"] = "127^c8f4fe^1^G",
+			["|cffffff0012|r Humanoid~Ardeyn Riverwind~Targeted By: (|cffffffff1|r): |cff0070ddKagoma"] = "43^6fab5f^1^G",
 			["|cffff191930|r Humanoid~Larianna Riverwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f9 A Somber Task"] = "43^571cc8^1^G",
-			["|cff7f7f7f5|r Humanoid~Lanthan Perilon~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f5 Felendren the Banished"] = "43^5a7397^1^G",
+			["Grand Master Fishing Trainer & Supplies~Marcia Chase~Kirin Tor"] = "124^86da67^1^M0",
 			["Horde Cloth Quartermaster~Sorim Lightsong~Silvermoon City"] = "81^90f864^1^G",
 			["|cff7f7f7f5|r Humanoid~Lanthan Perilon~"] = "43^5a6395^1^G",
 			["Innkeeper~Innkeeper Kalarin~Silvermoon City"] = "47^7ce52e^1^M0",
 			["Cloth Armor Merchant~Rueben Lauren~Kirin Tor"] = "124^70f7d3^1^M1",
 			["Cooking Supplies~Naal Mistrunner~Thunder Bluff"] = "104^824855^1^M0",
-			["|cffffff0012|r Humanoid~Velendris Whitemorn~"] = "43^5ceaa6^1^G",
+			["Skinning Trainer~Dranh~Thunder Bluff"] = "97^73396e^1^T",
 			["Warchief~Thrall~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f30 Alliance Relations"] = "68^51360e^1^G",
 			["Wands~Librarian Whitley~Kirin Tor"] = "122^76f531^1^M1",
 			["|cffffff0080|r|cffAF5050+|r Humanoid~Archmage Timear~"] = "124^a3b8ce^1^G",
 			["|cffffff0012|r Humanoid~Courier Dawnstrider~"] = "43^7d3e37^1^G",
 			["Kodo Mounts~Harb Clawhoof~Thunder Bluff"] = "63^79895a^1^G",
-			["|cffff191930|r Humanoid~Runewarden Deryan~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Powering our Defenses"] = "43^712da7^1^G",
+			["?~Sealed Supply Crate"] = "63^8977b5^1^G",
 			["|cff7f7f7f6|r Humanoid~Apprentice Loralthalis~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 The Magister's Apprentice"] = "43^ad6909^1^G",
-			["|cffff7f3f16|r Humanoid~Magister Duskwither~"] = "43^99d9d3^1^G",
+			["Leatherworking Trainer~Sathein~Silvermoon City"] = "43^89382d^1^T",
 			["?~Carefully Wrapped Present"] = "68^860b1f^1^G",
-			["Fishing Supplies~Sewa Mistrunner~Thunder Bluff"] = "104^8f1783^1^M0",
+			["Innkeeper~Amisi Azuregaze~Kirin Tor"] = "124^7fd63b^1^M0",
 			["Trade Goods~Wunna Darkmane~Thunder Bluff"] = "63^76094f^1^M0",
 			["|cff3fbf3f72|r Humanoid~Librarian Garren~"] = "122^731556^1^G",
 			["|cffffff0017|r Humanoid~Magister Quallestis~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f14 Underlight Ore Samples"] = "47^8c87c3^1^G",
 			["Leader of the Kirin Tor~Rhonin~Kirin Tor"] = "124^4f67b4^1^G",
 			["|cffffff0012|r Humanoid~Ardeyn Riverwind~"] = "43^6f8b5f^1^G",
-			["Warlock Trainer~Zanien~Silvermoon City"] = "81^baf742^1^T",
-			["|cff3fbf3f75|r Humanoid~Bluffwatcher~"] = "104^7279b5^1^G",
+			["|cffffff0080|r|cffAF5050+|r Humanoid~Horde Warbringer~"] = "104^959c5a^1^G",
+			["|cff3fbf3f8|r Humanoid~Groundskeeper Wyllithen~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Where's Wyllithen?"] = "43^afb780^1^G",
 			["Food & Drink~Aegalas~Warsong Offensive"] = "125^5d2783^1^M0",
-			["Priest Trainer~Matron Arena~Silvermoon City"] = "43^64a342^1^G",
-			["|cff7f7f7f6|r Humanoid~Arcanist Ithanas~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 A Fistful of Slivers"] = "43^61c30f^1^G",
+			["Leatherworking Trainer~Krulmoo Fullmoon~Thunder Bluff"] = "97^72a97e^1^G",
+			["Butcher~Gahroot~Thunder Bluff"] = "97^72697d^1^M0",
 			["|cffff191930|r Humanoid~Well Watcher Solanian~"] = "43^63231b^1^G",
 			["|cff7f7f7f4|r Humanoid~Grull Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f3 The Hunt Continues"] = "63^72cc55^1^G",
-			["|cffffff0012|r Humanoid~Hathvelion Sungaze~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f7 Fish Heads, Fish Heads..."] = "43^4c6955^1^G",
+			["|cffffff0015|r Humanoid~Ranger Sareyn~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f9 Ranger Sareyn"] = "43^77eb78^1^G",
 			["|cff3fbf3f12|r Humanoid~Apothecary Thedra~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 The Fallen Courier"] = "43^7d2e3b^1^G",
 			["Emblem of Heroism Quartermaster~Magistrix Lambriesse~The Sunreavers"] = "124^a773c3^1^M0",
 			["|cff3fbf3f12|r Humanoid~Apothecary Thedra~"] = "43^7d6e38^1^G",
 			["Maces & Staves~Archmage Berinand~Kirin Tor"] = "122^54557c^1^G",
-			["General Goods~Sheri~Silvermoon City"] = "43^7b178e^1^M0",
+			["Riding Trainer~Kar Stormsinger~Thunder Bluff"] = "63^79b956^1^G",
 			["Farstriders~Ranger Lethvalin~Silvermoon City"] = "47^74552e^1^G",
-			["Seneschal of the Argent Tournament~Justicar Mariel Trueheart~Argent Crusade"] = "128^b223a6^1^G",
+			["Banker~Novia~Silvermoon City"] = "81^e376ed^1^G",
 			["General Goods~Quartermaster Lymel~Tranquillien"] = "47^78f4a8^1^M0",
-			["Armorer & Shieldcrafter~Wuark~Orgrimmar"] = "38^84d694^1^M1",
+			["Smokywood Pastures~Kaymard Copperpinch~|cffffffffQ|cffc0c0ffuest: |cffffff0080 Metzen the Reindeer"] = "68^87ba96^1^G",
 			["Farstriders~Farstrider Solanna~Silvermoon City"] = "47^b8c4ff^1^G",
 			["|cff7f7f7f22|r Humanoid~Kirge Sternhorn~"] = "97^72b95e^1^G",
-			["|cff3fbf3f72|r|cffAF5050+|r Humanoid~High Executor Anselm~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f71 Disarmament"] = "127^c8f4fe^1^G",
+			["Cloth & Leather Merchant~Jainthess Thelryn~Silvermoon City"] = "43^5ee30f^1^M1",
 			["Warrior Trainer~Harutt Thunderhorn~Thunder Bluff"] = "63^70ec27^1^G",
 			["Farstriders~Captain Helios~Silvermoon City"] = "47^b904be^1^G",
 			["|cff7f7f7f8|r Humanoid~Lorekeeper Raintotem~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f10 A Sacred Burial"] = "63^991414^1^G",
-			["|cffffff0015|r Humanoid~Ranger Sareyn~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f9 Defending Fairbreeze Village"] = "43^780b77^1^G",
 			["|cffffff0018|r Humanoid~Magister Idonis~|cffffffffQ|cffc0c0ffuest: |cffffff0020 The Sanctum of the Sun"] = "47^8c47bd^1^G",
-			["|cff7f7f7f??|r|cffAF5050 Boss|r Humanoid~Vol'jin~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f7 The Admiral's Orders"] = "68^57b5d4^1^G",
+			["|cffffff0015|r Humanoid~Ranger Sareyn~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f9 Defending Fairbreeze Village"] = "43^780b77^1^G",
 			["Cooking Trainer~Aska Mistrunner~Thunder Bluff"] = "104^830878^1^T",
+			["|cff7f7f7f??|r|cffAF5050 Boss|r Humanoid~Vol'jin~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f7 The Admiral's Orders"] = "68^57b5d4^1^G",
 			["|cffff191930|r Humanoid~Ranger Jaela~"] = "43^80c81d^1^G",
-			["Cloth & Leather Merchant~Jainthess Thelryn~Silvermoon City"] = "43^5ee30f^1^M1",
+			["|cff3fbf3f72|r|cffAF5050+|r Humanoid~High Executor Anselm~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f71 Disarmament"] = "127^c8f4fe^1^G",
 			["|cffffff0080|r|cffAF5050+|r Humanoid (PvP)~Brann Bronzebeard~"] = "141^b537bf^1^G",
-			["Smokywood Pastures~Kaymard Copperpinch~|cffffffffQ|cffc0c0ffuest: |cffffff0080 Metzen the Reindeer"] = "68^87ba96^1^G",
-			["Banker~Novia~Silvermoon City"] = "81^e376ed^1^G",
-			["Riding Trainer~Kar Stormsinger~Thunder Bluff"] = "63^79b956^1^G",
+			["Armorer & Shieldcrafter~Wuark~Orgrimmar"] = "38^84d694^1^M1",
+			["Seneschal of the Argent Tournament~Justicar Mariel Trueheart~Argent Crusade"] = "128^b223a6^1^G",
+			["General Goods~Sheri~Silvermoon City"] = "43^7b178e^1^M0",
 			["Food & Drink~Zalene Firstlight~"] = "43^9a49f8^1^M0",
-			["|cffffff0015|r Humanoid~Ranger Sareyn~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f9 Ranger Sareyn"] = "43^77eb78^1^G",
+			["|cffffff0012|r Humanoid~Hathvelion Sungaze~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f7 Fish Heads, Fish Heads..."] = "43^4c6955^1^G",
 			["|cff7f7f7f60|r Humanoid~Mokvar~"] = "68^597616^1^G",
-			["Butcher~Gahroot~Thunder Bluff"] = "97^72697d^1^M0",
-			["Leatherworking Trainer~Krulmoo Fullmoon~Thunder Bluff"] = "97^72a97e^1^G",
-			["|cff3fbf3f8|r Humanoid~Groundskeeper Wyllithen~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Where's Wyllithen?"] = "43^afb780^1^G",
-			["|cffffff0080|r|cffAF5050+|r Humanoid~Horde Warbringer~"] = "104^959c5a^1^G",
+			["|cff7f7f7f6|r Humanoid~Arcanist Ithanas~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 A Fistful of Slivers"] = "43^61c30f^1^G",
+			["Priest Trainer~Matron Arena~Silvermoon City"] = "43^64a342^1^G",
+			["|cff3fbf3f75|r Humanoid~Bluffwatcher~"] = "104^7279b5^1^G",
+			["Warlock Trainer~Zanien~Silvermoon City"] = "81^baf742^1^T",
 			["Blacksmithing Trainer~Arathel Sunforge~Silvermoon City"] = "43^982a00^1^G",
 			["|cffff191930|r Humanoid~Larianna Riverwind~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 The Scorched Grove"] = "43^56fcc8^1^G",
 			["|cff7f7f7f36|r Humanoid~Chief Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 Attack on Camp Narache"] = "63^70ec27^1^G",
-			["Innkeeper~Amisi Azuregaze~Kirin Tor"] = "124^7fd63b^1^M0",
-			["Leatherworking Trainer~Sathein~Silvermoon City"] = "43^89382d^1^T",
-			["?~Sealed Supply Crate"] = "63^8977b5^1^G",
+			["Fishing Supplies~Sewa Mistrunner~Thunder Bluff"] = "104^8f1783^1^M0",
+			["|cffff7f3f16|r Humanoid~Magister Duskwither~"] = "43^99d9d3^1^G",
+			["|cffff191930|r Humanoid~Runewarden Deryan~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Powering our Defenses"] = "43^712da7^1^G",
 			["|cffff191930|r Humanoid~Ley-Keeper Velania~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f5 Malfunction at the West Sanctum"] = "43^5dd931^1^G",
 			["|cffffff0080|r|cffAF5050+|r Dragonkin~Surristrasz~    |cff00c000Donathan wants you to speak to Surristrasz on Amber Ledge."] = "122^73c588^1^G",
-			["Skinning Trainer~Dranh~Thunder Bluff"] = "97^73396e^1^T",
+			["|cffffff0012|r Humanoid~Velendris Whitemorn~"] = "43^5ceaa6^1^G",
 			["Herbalism Supplies~Nida Winterhoof~Thunder Bluff"] = "104^7fa65b^1^M0",
-			["Grand Master Fishing Trainer & Supplies~Marcia Chase~Kirin Tor"] = "124^86da67^1^M0",
-			["|cffffff0012|r Humanoid~Ardeyn Riverwind~Targeted By: (|cffffffff1|r): |cff0070ddKagoma"] = "43^6fab5f^1^G",
-			["|cff3fbf3f72|r|cffAF5050+|r Humanoid~High Executor Anselm~"] = "127^c8f4fe^1^G",
-			["First Aid Trainer~Alestus~Silvermoon City"] = "81^c6eb59^1^T",
+			["|cff7f7f7f5|r Humanoid~Lanthan Perilon~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f5 Felendren the Banished"] = "43^5a7397^1^G",
+			["Armorsmith~Faraden Thelryn~Silvermoon City"] = "43^604303^1^M1",
+			["Warchief~Thrall~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f16 Hidden Enemies"] = "68^51560b^1^G",
+			["|cffff191930|r Humanoid~Ley-Keeper Velania~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f6 Arcane Instability"] = "43^5dd92f^1^G",
 			["|cff7f7f7f6|r Humanoid~Arcanist Ithanas~"] = "43^61d313^1^G",
-			["|cffffff0015|r Humanoid~Ranger Sareyn~Targeted By: (|cffffffff1|r): |cff0070ddKagoma"] = "43^780b77^1^G",
-			["|cff7f7f7f6|r Humanoid~Apprentice Loralthalis~"] = "43^ad6909^1^G",
-			["|cff7f7f7f5|r Humanoid~Lanthan Perilon~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 Aggression"] = "43^5a8395^1^G",
-			["|cff7f7f7f36|r Humanoid~Chief Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f3 A Humble Task"] = "63^70dc28^1^G",
+			["Cooking Trainer~Quarelestra~Silvermoon City"] = "43^7c5785^1^T",
+			["First Aid Trainer~Pand Stonebinder~Thunder Bluff"] = "104^4ad35e^1^T",
+			["|cff7f7f7f5|r Humanoid~Outrunner Alarion~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f5 Package Recovery"] = "43^677527^1^G",
+			["Warchief~Thrall~"] = "68^51660c^1^G",
 			["|cffff191930|r Humanoid~Ley-Keeper Caidanis~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f6 Delivery to the North Sanctum"] = "43^72387d^1^G",
-			["Gunsmith~Kennah Hawkseye~Thunder Bluff"] = "63^746956^1^M1",
-			["Darkmoon Faire Barker~Kruban Darkblade~Darkmoon Faire"] = "68^869aa6^1^G",
-			["Fishing Trainer~Drathen~Silvermoon City"] = "81^c3dadd^1^T",
-			["|cffff191930|r Humanoid~Ranger Degolien~|cffffffffQ|cffc0c0ffuest: |cffffff0011 Warning Fairbreeze Village"] = "43^6edb50^1^G",
-			["|cffffff0011|r Humanoid~Captain Kelisendra~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f8 Grimscale Pirates!"] = "43^5ceaa6^1^G",
-			["Farstriders~Lieutenant Dawnrunner~Silvermoon City"] = "43^9a2a07^1^G",
+			["|cff7f7f7f62|r Humanoid~Arch Druid Hamuul Runetotem~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f50 Assisting Arch Druid Runetotem"] = "104^c8e492^1^G",
+			["|cff7f7f7f37|r Humanoid~Neeru Fireblade~"] = "68^7e8810^1^G",
+			["Blacksmithing Supplies~Taur Stonehoof~Thunder Bluff"] = "104^66f8e0^1^M1",
+			["Tailoring & Leatherworking Supplies~Yonada~Thunder Bluff"] = "97^72f97b^1^M0",
+			["|cffffff0014|r Humanoid~Arcanist Vandril~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 Delivery to Tranquillien"] = "47^76c486^1^G",
+			["Tinkers' Union~Rezlak~Ratchet"] = "38^76a3ab^1^G",
 			["|cffff191960|r Humanoid~Spirit Healer~"] = "38^7922dc^1^G",
-			["|cffff191930|r Humanoid~Larianna Riverwind~|cffffffffQ|cffc0c0ffuest: |cffffff0010 The Scorched Grove"] = "43^571cca^1^G",
+			["|cff7f7f7f4|r Humanoid~Grull Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f4 The Battleboars"] = "63^72bc55^1^G",
 			["|cffff191930|r Humanoid~Larianna Riverwind~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f9 A Somber Task"] = "43^56fcc9^1^G",
 			["|cffffff0080|r|cffAF5050+|r Humanoid~Archmage Lan'dalock~|cffffffffQ|cffc0c0ffuest: |cffffff0080 Proof of Demise: Cyanigosa"] = "124^935aac^1^G",
 			["|cff7f7f7f4|r Humanoid~Grull Hawkwind~|cffffffffQ|cffc0c0ffuest: |cff7f7f7f2 The Hunt Begins"] = "63^72dc4a^1^G",
-			["Guns & Ammunition~Kaja~Orgrimmar"] = "68^8569f4^1^M1",
-			["Bowyer~Narina~Silvermoon City"] = "47^b8351f^1^M1",
+			["Magatha's Servant~Rahauro~Thunder Bluff"] = "104^b3a4ae^1^G",
+			["|cffff191920|r Humanoid~High Executor Mavren~|cffffffffQ|cffc0c0ffuest: |cff3fbf3f10 The Forsaken"] = "47^72952e^1^G",
 		},
 	},
-	["NXQOpts"] = {
-		["NXShowHeaders"] = true,
-		["NXWHideDist"] = 20000,
-		["NXWPriGroup"] = -100,
-		["NXShowObj"] = false,
-		["NXWPriLevel"] = 20,
-		["NXWPriDist"] = 1,
-		["NXWPriComplete"] = 50,
-		["NXWHideNotInZone"] = false,
-		["NXWHideGroup"] = false,
-		["NXSortWatchMode"] = 1,
-		["NXWWatchParty"] = true,
-		["NXWHideUnfinished"] = false,
-		["NXWShowOnMap"] = true,
-		["NXWHideNotInCont"] = false,
-		["Version"] = 0.12,
-		["NXWVisMax"] = 9,
-	},
-	["NXFav"] = {
-		["Version"] = 0.13,
-	},
-	["NXVendorVVersion"] = 0.012,
-	["NXInfo"] = {
-		{
-			["Items"] = {
-				"<IfLTOrCombat;1;Health%><Health><c>HP <t> <HealthChange><c><t> <IfCombat>|cffff4040* <Threat%;player><c><t>", -- [1]
-				"<IfLTOrCombat;1;Health%>     <Health%><c><t>%<BarH%;G;Health%><t>", -- [2]
-				"<IfMana><Mana><c>MP <t> <ManaChange><c><t>", -- [3]
-				"<IfMana>     <Mana%><c><t>%<BarH%;B;Mana%><t>", -- [4]
-				"<Combo><c><t>", -- [5]
-				"<Cooldown><c><t>", -- [6]
-				"<Cast><c><t>", -- [7]
+	["NXWare"] = {
+		["Version"] = 0.1,
+		["TrueWoW"] = {
+			["Slash Gee Quit"] = {
+				["Money"] = 78535661,
 			},
-		}, -- [1]
-		{
-			["Items"] = {
-				"<THealth><c>HP <t>", -- [1]
-				"     <THealth%><c><t>%<BarH%;G;THealth%><t>", -- [2]
-				"<TMana><c>MP <t>", -- [3]
-				"     <TMana%><c><t>%<BarH%;B;TMana%><t>", -- [4]
-				"<Cast;target><c><t>", -- [5]
-			},
-		}, -- [2]
-		["Version"] = 0.24,
+		},
 	},
 }
 NxCombatOpts = {
@@ -13901,59 +13973,59 @@ NxMapOpts = {
 	["NXMaps"] = {
 		{
 			[0] = {
-				["NXMapPosX"] = 871.4131199655533,
+				["NXMapPosX"] = 2292.137711695525,
 				["NXPlyrFollow"] = true,
 				["NXWorldShow"] = true,
-				["NXMapPosY"] = 138.7218801221848,
+				["NXMapPosY"] = -3112.092077373542,
 				["NXScale"] = 0.02854482943957153,
 			},
 			[9002] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
 			["NXDotRaidScale"] = 1,
 			["NXShowUnexplored"] = false,
 			[9003] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
 			["NXDotPalScale"] = 1,
-			["NXUnexploredAlpha"] = 0.35,
-			[9009] = {
-				["NXWorldShow"] = false,
-				["NXPlyrFollow"] = false,
-			},
+			["NXAutoScaleMin"] = 0.01,
+			["NXIconScale"] = 1,
 			[9004] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
 			},
-			["NXIconNavScale"] = 1,
+			[9001] = {
+				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
+			},
 			["NXBackgndAlphaFade"] = 0.4,
 			["NXBackgndAlphaFull"] = 1,
 			["NXMMDockScale"] = 0.4,
-			["NXMMFull"] = false,
+			["NXMMDockOnAtScale"] = 0.6,
 			["NXDotZoneScale"] = 1,
-			["NXMMDockScaleBG"] = 0.4,
-			["NXDetailScale"] = 2,
+			["NXDotPartyScale"] = 1,
+			["NXPOIAtScale"] = 1,
 			["NXMMAlpha"] = 0.1,
 			["NXDetailAlpha"] = 1,
-			["NXPOIAtScale"] = 1,
+			["NXDetailScale"] = 2,
 			["NXAutoScaleOn"] = false,
 			["NXMMDockAlpha"] = 1,
 			["NXAutoScaleMax"] = 4,
 			["NXKillShow"] = false,
 			[9008] = {
-				["NXWorldShow"] = false,
 				["NXPlyrFollow"] = false,
-			},
-			["NXDotPartyScale"] = 1,
-			["NXMMDockOnAtScale"] = 0.6,
-			[9001] = {
 				["NXWorldShow"] = false,
-				["NXPlyrFollow"] = false,
 			},
-			["NXIconScale"] = 1,
-			["NXAutoScaleMin"] = 0.01,
+			["NXMMDockScaleBG"] = 0.4,
+			["NXMMFull"] = false,
+			["NXIconNavScale"] = 1,
+			[9009] = {
+				["NXPlyrFollow"] = false,
+				["NXWorldShow"] = false,
+			},
+			["NXUnexploredAlpha"] = 0.35,
 		}, -- [1]
 	},
 }

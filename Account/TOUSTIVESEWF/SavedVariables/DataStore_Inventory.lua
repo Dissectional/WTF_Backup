@@ -3,37 +3,36 @@ DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.TrueWoW.Duglazerp"] = {
+			["Default.TrueWoW.Pastafarian"] = {
 				["Inventory"] = {
-					49320, -- [1]
-					40679, -- [2]
-					44312, -- [3]
-					6125, -- [4]
-					39611, -- [5]
-					49853, -- [6]
-					43500, -- [7]
-					37618, -- [8]
-					37217, -- [9]
-					39622, -- [10]
-					37784, -- [11]
-					50447, -- [12]
-					49487, -- [13]
-					40683, -- [14]
-					41238, -- [15]
-					49783, -- [16]
-					42508, -- [17]
-					50444, -- [18]
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					53, -- [4]
+					23399, -- [5]
+					4919, -- [6]
+					6713, -- [7]
+					14086, -- [8]
+					9744, -- [9]
+					4767, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					4944, -- [15]
+					4938, -- [16]
+					[18] = 11287,
 				},
-				["averageItemLvl"] = 212.3529411764706,
-				["lastUpdate"] = 1451306757,
+				["averageItemLvl"] = 10.55555555555556,
+				["lastUpdate"] = 1451303045,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["Inventory"] = {
@@ -98,6 +97,20 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 17,
 				["lastUpdate"] = 1451296473,
 			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Inventory"] = {
+					[5] = 28157,
+					[6] = 28158,
+					[7] = 4909,
+					[9] = 28147,
+					[16] = 6365,
+					[15] = 28150,
+					[8] = 23414,
+					[10] = 10413,
+				},
+				["averageItemLvl"] = 14.625,
+				["lastUpdate"] = 1451257659,
+			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Inventory"] = {
 					nil, -- [1]
@@ -122,42 +135,29 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 16.88888888888889,
 				["lastUpdate"] = 1451257482,
 			},
-			["Default.TrueWoW.Shiftace"] = {
+			["Default.TrueWoW.Duglazerp"] = {
 				["Inventory"] = {
-					[5] = 28157,
-					[6] = 28158,
-					[7] = 4909,
-					[9] = 28147,
-					[10] = 10413,
-					[8] = 23414,
-					[15] = 28150,
-					[16] = 6365,
+					49320, -- [1]
+					40679, -- [2]
+					44312, -- [3]
+					6125, -- [4]
+					39611, -- [5]
+					49853, -- [6]
+					43500, -- [7]
+					37618, -- [8]
+					37217, -- [9]
+					39622, -- [10]
+					37784, -- [11]
+					50447, -- [12]
+					40683, -- [13]
+					49487, -- [14]
+					41238, -- [15]
+					49783, -- [16]
+					42508, -- [17]
+					50444, -- [18]
 				},
-				["averageItemLvl"] = 14.625,
-				["lastUpdate"] = 1451257659,
-			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["Inventory"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					53, -- [4]
-					23399, -- [5]
-					4919, -- [6]
-					6713, -- [7]
-					14086, -- [8]
-					9744, -- [9]
-					4767, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					4944, -- [15]
-					4938, -- [16]
-					[18] = 11287,
-				},
-				["averageItemLvl"] = 10.55555555555556,
-				["lastUpdate"] = 1451303045,
+				["averageItemLvl"] = 212.3529411764706,
+				["lastUpdate"] = 1451387118,
 			},
 		},
 		["Guilds"] = {
@@ -173,7 +173,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 17,
 					},
 					["Duglazerp"] = {
-						["averageItemLvl"] = 215,
+						["averageItemLvl"] = 218,
 					},
 					["Ellipsis"] = {
 						["averageItemLvl"] = 16,
@@ -181,23 +181,23 @@ DataStore_InventoryDB = {
 					["Cryogenics"] = {
 						["averageItemLvl"] = 19,
 					},
-					["Todgami"] = {
-						["averageItemLvl"] = 76,
+					["Kirabeast"] = {
+						["averageItemLvl"] = 28,
 					},
 					["Maggy"] = {
 						["averageItemLvl"] = 243,
 					},
-					["Pastafarian"] = {
-						["averageItemLvl"] = 10,
+					["Mahoukage"] = {
+						["averageItemLvl"] = 5,
 					},
 					["Fola"] = {
 						["averageItemLvl"] = 30,
 					},
-					["Mahoukage"] = {
-						["averageItemLvl"] = 5,
+					["Pastafarian"] = {
+						["averageItemLvl"] = 10,
 					},
-					["Kirabeast"] = {
-						["averageItemLvl"] = 28,
+					["Todgami"] = {
+						["averageItemLvl"] = 76,
 					},
 				},
 			},

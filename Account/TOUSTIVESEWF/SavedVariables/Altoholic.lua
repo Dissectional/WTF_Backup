@@ -3,28 +3,24 @@ AltoholicDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "S25KNLD58HJW29EAHSON",
+			["Lola"] = "V22CELY06UBN30R@LVOE",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
 		["Characters"] = {
-			["Default.TrueWoW.Duglazerp"] = {
+			["Default.TrueWoW.Pastafarian"] = {
 				["Friends"] = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
-				},
-				["SavedInstance"] = {
-					["The Nexus 5 Player (Heroic)|927"] = "62456|1451306344|1|1",
-					["Onyxia's Lair|624"] = "148856|1451306344|1|0",
 				},
 			},
 			["Default.TrueWoW.Cryogenics"] = {
@@ -46,22 +42,27 @@ AltoholicDB = {
 					"Lowlypoop", -- [3]
 				},
 			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Friends"] = {
+					"Lowlypoop", -- [1]
+				},
+			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Friends"] = {
 					"Magistratus", -- [1]
 					"Pastafarian", -- [2]
 				},
 			},
-			["Default.TrueWoW.Shiftace"] = {
-				["Friends"] = {
-					"Lowlypoop", -- [1]
-				},
-			},
-			["Default.TrueWoW.Pastafarian"] = {
+			["Default.TrueWoW.Duglazerp"] = {
 				["Friends"] = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
+				},
+				["SavedInstance"] = {
+					["The Oculus 5 Player (Heroic)|1347"] = "68480|1451386722|1|1",
+					["Halls of Lightning 5 Player (Heroic)|1241"] = "68480|1451386722|1|1",
+					["Onyxia's Lair|624"] = "68480|1451386722|1|0",
 				},
 			},
 		},

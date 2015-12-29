@@ -13,17 +13,18 @@ FriendShare_RemovedFriends = {
 FriendShare_Alts = {
 	["TrueWoW-Horde"] = {
 		["Cryogenics"] = "Cryogenics",
-		["Ellipsis"] = "Ellipsis",
+		["Pastafarian"] = "Pastafarian",
 		["Magistratus"] = "Magistratus",
 		["Shiftace"] = "Shiftace",
 		["Lichmydk"] = "Lichmydk",
 		["Duglazerp"] = "Duglazerp",
-		["Pastafarian"] = "Pastafarian",
+		["Ellipsis"] = "Ellipsis",
 	},
 }
 FriendShare_AutoAlts = false
 IgnoreShare_GlobalIgnores = {
 	["TrueWoW-Horde"] = {
+		["Woolea"] = "Woolea",
 		["Frukwan"] = "Frukwan",
 	},
 }

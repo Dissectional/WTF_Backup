@@ -3,8 +3,8 @@ TalentedDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -30,6 +30,8 @@ TalentedDB = {
 				},
 			},
 		},
+		["Shiftace - TrueWoW"] = {
+		},
 		["Cryogenics - TrueWoW"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
@@ -39,8 +41,6 @@ TalentedDB = {
 					["anchorTo"] = "CENTER",
 				},
 			},
-		},
-		["Shiftace - TrueWoW"] = {
 		},
 		["Lichmydk - TrueWoW"] = {
 		},

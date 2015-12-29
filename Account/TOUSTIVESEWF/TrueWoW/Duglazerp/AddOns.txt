@@ -222,3 +222,4 @@ WindowLib: enabled
 LibStub: enabled
 StatFrameLib: enabled
 SyncFriends: disabled
+TourGuide_FlawsGuides: enabled

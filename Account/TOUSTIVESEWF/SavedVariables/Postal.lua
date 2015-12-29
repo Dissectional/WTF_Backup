@@ -1,14 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
-		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -21,6 +12,15 @@ Postal3DB = {
 			},
 		},
 	},
+	["profileKeys"] = {
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
+	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
 			["BlackBook"] = {
@@ -31,18 +31,18 @@ Postal3DB = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
+		["Shiftace - TrueWoW"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Duglazerp", -- [1]
+				},
+			},
+		},
 		["Cryogenics - TrueWoW"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Ellipsis", -- [1]
 					"Duglazerp", -- [2]
-				},
-			},
-		},
-		["Shiftace - TrueWoW"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Duglazerp", -- [1]
 				},
 			},
 		},

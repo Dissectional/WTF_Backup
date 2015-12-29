@@ -1,6 +1,10 @@
 MACRO 6 "FreeShit" INV_Misc_QuestionMark
 /tar Sandras
 END
+MACRO 9 "KissFrogs" INV_Misc_QuestionMark
+/tar Lake Frog
+/kiss
+END
 MACRO 4 "Mount" ability_mount_nightmarehorse
 /rmount
 END
@@ -19,7 +23,7 @@ MACRO 7 "Trinket1" INV_Misc_QuestionMark
 /use 13
 END
 MACRO 8 "Trinkets" INV_Misc_QuestionMark
-#showtooltip
-/use [nomod] 13
-/use [mod:shift] 14
+#showtooltip Lavanthor's Talisman
+/use 13
+/use 14
 END

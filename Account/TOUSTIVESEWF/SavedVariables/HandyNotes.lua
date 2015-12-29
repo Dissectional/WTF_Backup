@@ -3,8 +3,8 @@ HandyNotesDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -14,9 +14,9 @@ HandyNotesDB = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
 		["Shiftace - TrueWoW"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Lichmydk - TrueWoW"] = {
 		},
@@ -30,8 +30,8 @@ HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -41,9 +41,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
 		["Shiftace - TrueWoW"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Lichmydk - TrueWoW"] = {
 		},

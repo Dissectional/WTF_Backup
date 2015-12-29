@@ -8,9 +8,9 @@ Overachiever_Tabs_Settings = {
 	["WatchLists_General"] = {
 	},
 	["Version"] = "0.56",
+	["WatchedList"] = 0,
 	["AchFilters"] = {
 	},
-	["WatchedList"] = 0,
 	["WatchLists"] = {
 	},
 }

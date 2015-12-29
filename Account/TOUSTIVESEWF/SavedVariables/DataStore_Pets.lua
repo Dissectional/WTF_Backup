@@ -3,24 +3,18 @@ DataStore_PetsDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1451306344,
+			["Default.TrueWoW.Pastafarian"] = {
+				["lastUpdate"] = 1451303045,
 				["CRITTER"] = {
-					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
-					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
-					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
-				},
-				["MOUNT"] = {
-					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
-					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
+					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [1]
 				},
 			},
 			["Default.TrueWoW.Cryogenics"] = {
@@ -44,16 +38,22 @@ DataStore_PetsDB = {
 					"20029|Thalassian Warhorse|34769|Spell_Nature_Swiftness", -- [5]
 				},
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
-			},
 			["Default.TrueWoW.Shiftace"] = {
 				["lastUpdate"] = 1451257659,
 			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1451303045,
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1451257482,
+			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1451386721,
+				["MOUNT"] = {
+					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
+					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
+				},
 				["CRITTER"] = {
-					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [1]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
+					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
+					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
 				},
 			},
 		},

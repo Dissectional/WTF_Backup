@@ -10,13 +10,13 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARLOCK",
 		},
-		["Cryogenics - TrueWoW"] = {
-			["AlwaysShow"] = false,
-			["Class"] = "MAGE",
-		},
 		["Shiftace - TrueWoW"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "DRUID",
+		},
+		["Cryogenics - TrueWoW"] = {
+			["AlwaysShow"] = false,
+			["Class"] = "MAGE",
 		},
 		["Lichmydk - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -25,7 +25,7 @@ SavedInstancesDB = {
 		["Duglazerp - TrueWoW"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
-			["Daily2"] = 1451322000,
+			["Daily1"] = 1451408400,
 		},
 		["Magistratus - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -33,6 +33,16 @@ SavedInstancesDB = {
 		},
 	},
 	["Lockouts"] = {
+		[1241] = {
+			["Encounters"] = {
+			},
+			["Name"] = "Halls of Lightning",
+			["Members"] = {
+				["Duglazerp"] = {
+					["Class"] = "WARRIOR",
+				},
+			},
+		},
 		[624] = {
 			["Encounters"] = {
 			},
@@ -43,10 +53,10 @@ SavedInstancesDB = {
 				},
 			},
 		},
-		[927] = {
+		[1347] = {
 			["Encounters"] = {
 			},
-			["Name"] = "The Nexus",
+			["Name"] = "The Oculus",
 			["Members"] = {
 				["Duglazerp"] = {
 					["Class"] = "WARRIOR",
@@ -55,54 +65,30 @@ SavedInstancesDB = {
 		},
 	},
 	["Tooltip"] = {
-		["ReverseInstances"] = false,
-		["CategorySort"] = "EXPANSION",
 		["ShowSoloCategory"] = false,
+		["CategorySort"] = "EXPANSION",
+		["RecentHistory"] = false,
 		["Details"] = false,
-		["ShowCategories"] = false,
-		["CategorySpaces"] = false,
+		["NewFirst"] = true,
+		["ColumnStyle"] = "NORMAL",
+		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
+		["ShowHints"] = true,
+		["ShowEncounters"] = false,
+		["TrackRandom"] = false,
 		["AltColumnColor"] = {
 			0.2, -- [1]
 			0.2, -- [2]
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["RaidsFirst"] = true,
-		["ShowHints"] = true,
-		["ShowEncounters"] = false,
-		["TrackRandom"] = false,
-		["NewInstanceShow"] = false,
-		["ColumnStyle"] = "NORMAL",
-		["NewFirst"] = true,
-		["RecentHistory"] = false,
+		["CategorySpaces"] = false,
+		["ShowCategories"] = false,
+		["ReverseInstances"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Keep"] = {
 			["LFDID"] = 202,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["The Nexus"] = {
-			["LFDID"] = 225,
-			["Expansion"] = 2,
-			["Duglazerp - TrueWoW"] = {
-				[2] = {
-					["ID"] = 927,
-					["Expires"] = 1451368800,
-				},
-			},
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Gundrak"] = {
-			["LFDID"] = 216,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -119,59 +105,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Lightning"] = {
-			["LFDID"] = 207,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Halls of Stone"] = {
-			["LFDID"] = 208,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Onyxia's Lair"] = {
-			["LFDID"] = 257,
-			["Expansion"] = 2,
-			["Duglazerp - TrueWoW"] = {
-				{
-					["ID"] = 624,
-					["Expires"] = 1451455200,
-				}, -- [1]
-			},
-			["Encounters"] = {
-			},
-			["Raid"] = true,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Violet Hold"] = {
-			["LFDID"] = 220,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["The Oculus"] = {
-			["LFDID"] = 211,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Azjol-Nerub"] = {
-			["LFDID"] = 204,
+		["Gundrak"] = {
+			["LFDID"] = 216,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -188,11 +123,94 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Azjol-Nerub"] = {
+			["LFDID"] = 204,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Onyxia's Lair"] = {
+			["LFDID"] = 257,
+			["Expansion"] = 2,
+			["Show"] = false,
+			["Encounters"] = {
+			},
+			["Raid"] = true,
+			["LFDupdated"] = "12340",
+			["Duglazerp - TrueWoW"] = {
+				{
+					["ID"] = 624,
+					["Expires"] = 1451455202,
+				}, -- [1]
+			},
+		},
+		["The Oculus"] = {
+			["LFDID"] = 211,
+			["Expansion"] = 2,
+			["Show"] = false,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 1347,
+					["Expires"] = 1451455202,
+				},
+			},
+			["LFDupdated"] = "12340",
+		},
+		["The Nexus"] = {
+			["LFDID"] = 225,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Violet Hold"] = {
+			["LFDID"] = 220,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
+			["Expansion"] = 2,
+			["Show"] = false,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 1241,
+					["Expires"] = 1451455202,
+				},
+			},
+			["LFDupdated"] = "12340",
+		},
 	},
 	["History"] = {
 	},
 	["Broker"] = {
 		["HistoryText"] = false,
+	},
+	["MinimapIcon"] = {
 	},
 	["Indicators"] = {
 		["D1Indicator"] = "BLANK",
@@ -225,14 +243,14 @@ SavedInstancesDB = {
 		["D2ClassColor"] = true,
 		["R4ClassColor"] = true,
 		["R3ClassColor"] = true,
-		["R1ClassColor"] = true,
+		["R4Text"] = "25+",
 		["D2Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D2Text"] = "5+",
+		["R3Text"] = "10+",
 		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
@@ -240,16 +258,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
-		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]
 			0, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["R3Text"] = "10+",
-		["R4Text"] = "25+",
-	},
-	["MinimapIcon"] = {
+		["R2Indicator"] = "BLANK",
+		["D2Text"] = "5+",
+		["R1ClassColor"] = true,
 	},
 }

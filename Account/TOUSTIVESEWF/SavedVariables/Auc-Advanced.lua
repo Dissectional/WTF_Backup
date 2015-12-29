@@ -40,24 +40,24 @@ AucAdvancedData = {
 	["Stats"] = {
 	},
 	["UtilSearchUiData"] = {
-		["Global"] = {
-			["configator.left"] = 510.0000201058484,
-			["configator.top"] = 790.0000764569337,
-		},
+		["Version"] = 1,
 		["Current"] = {
 			["resale.adjust.deplength"] = 12,
 			["general.name"] = "bag",
 			["columnsortcurSort"] = 2,
-			["resale.allow.bid"] = false,
-			["resale.profit.min"] = 100000,
+			["snatch.columnsortcurSort"] = 1,
+			["milling.allow.bid"] = false,
 			["snatch.itemsList"] = {
 			},
 			["columnsortcurDir"] = 1,
 			["snatch.columnsortcurDir"] = 1,
-			["milling.allow.bid"] = false,
-			["snatch.columnsortcurSort"] = 1,
+			["resale.allow.bid"] = false,
+			["resale.profit.min"] = 100000,
 		},
-		["Version"] = 1,
+		["Global"] = {
+			["configator.left"] = 510.0000201058484,
+			["configator.top"] = 790.0000764569337,
+		},
 		["SavedSearches"] = {
 		},
 	},
