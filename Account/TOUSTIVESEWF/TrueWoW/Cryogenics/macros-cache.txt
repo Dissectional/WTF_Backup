@@ -1,8 +1,0 @@
-MACRO 16777217 "Conjure Food" INV_Misc_QuestionMark
-#showtooltip Conjured Bread
-/cast [button:2] Conjure food; Conjured Bread
-END
-MACRO 16777218 "Conjure Water" INV_Misc_QuestionMark
-#showtooltip Conjured Fresh Water
-/cast [button:2] Conjure water; Conjured Fresh Water
-END

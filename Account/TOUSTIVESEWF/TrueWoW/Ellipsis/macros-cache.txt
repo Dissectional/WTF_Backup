@@ -1,8 +1,0 @@
-MACRO 16777217 "Curse" INV_Misc_QuestionMark
-#showtooltip
-/cast [mod:shift] Curse of Weakness;Curse of Agony
-END
-MACRO 16777218 "Sacrifice" INV_Misc_QuestionMark
-#showtooltip
-/cast Sacrifice
-END
