@@ -110,7 +110,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeDamage"] = {
+				["ActiveTime"] = {
 					408.9599999999999, -- [1]
 				},
 				["Damage"] = {
@@ -119,7 +119,7 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					449, -- [1]
 				},
-				["ActiveTime"] = {
+				["TimeDamage"] = {
 					408.9599999999999, -- [1]
 				},
 			},
@@ -160,241 +160,679 @@ RecountPerCharDB = {
 				[48] = 7.299270072992701,
 				[49] = 7.299270072992701,
 				[26] = 0.8333333333333334,
-				[36] = 0.8333333333333334,
-				[28] = 0.8333333333333334,
 				[24] = 0.8333333333333334,
+				[28] = 0.8333333333333334,
+				[36] = 0.8333333333333334,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 215941.608,
-			["LastEventTimes"] = {
-				190718.26, -- [1]
-				190718.377, -- [2]
-				190719.31, -- [3]
-				190720.31, -- [4]
-				190720.41, -- [5]
-				190721.36, -- [6]
-				190722.31, -- [7]
-				190725.31, -- [8]
-				190728.31, -- [9]
-				190731.31, -- [10]
-				191300.655, -- [11]
-				191308.054, -- [12]
-				191311.054, -- [13]
-				191314.054, -- [14]
-				191317.105, -- [15]
-				191320.054, -- [16]
-				190044.284, -- [17]
-				190044.284, -- [18]
-				190046.333, -- [19]
-				190047.184, -- [20]
-				190054.917, -- [21]
-				190056.833, -- [22]
-				190058.584, -- [23]
-				190059.233, -- [24]
-				190059.634, -- [25]
-				190061.333, -- [26]
-				190062.583, -- [27]
-				190062.833, -- [28]
-				190063.383, -- [29]
-				190065.484, -- [30]
-				190065.584, -- [31]
-				190065.784, -- [32]
-				190067.483, -- [33]
-				190068.484, -- [34]
-				190068.784, -- [35]
-				190071.834, -- [36]
-				190192.033, -- [37]
-				190705.811, -- [38]
-				190707.66, -- [39]
-				190708.26, -- [40]
-				190708.611, -- [41]
-				190711.21, -- [42]
-				190711.511, -- [43]
-				190712.31, -- [44]
-				190713.11, -- [45]
-				190713.227, -- [46]
-				190714.51, -- [47]
-				190715.31, -- [48]
-				190716.31, -- [49]
-				190717.46, -- [50]
-			},
+			["LastActive"] = 1451452700,
+			["UnitLockout"] = 1451450599,
 			["Owner"] = false,
-			["LastDamageTaken"] = 3,
-			["NextEventNum"] = 17,
-			["LastEventHealthNum"] = {
-				70.80291970802919, -- [1]
-				58.39416058394161, -- [2]
-				56.2043795620438, -- [3]
-				56.2043795620438, -- [4]
-				52.55474452554745, -- [5]
-				45.98540145985402, -- [6]
-				43.06569343065694, -- [7]
-				60.58394160583941, -- [8]
-				67.88321167883211, -- [9]
-				85.4014598540146, -- [10]
-				100, -- [11]
-				98.05194805194805, -- [12]
-				98.05194805194805, -- [13]
-				98.05194805194805, -- [14]
-				98.05194805194805, -- [15]
-				98.05194805194805, -- [16]
-				99.16666666666667, -- [17]
-				99.16666666666667, -- [18]
-				99.16666666666667, -- [19]
-				98.33333333333333, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				99.16666666666667, -- [25]
-				100, -- [26]
-				100, -- [27]
-				99.16666666666667, -- [28]
-				99.16666666666667, -- [29]
-				99.16666666666667, -- [30]
-				97.5, -- [31]
-				96.66666666666667, -- [32]
-				97.5, -- [33]
-				96.66666666666667, -- [34]
-				96.66666666666667, -- [35]
-				99.16666666666667, -- [36]
-				90.51094890510949, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				97.08029197080292, -- [41]
-				97.81021897810219, -- [42]
-				94.16058394160584, -- [43]
-				86.86131386861314, -- [44]
-				87.59124087591241, -- [45]
-				87.59124087591241, -- [46]
-				83.94160583941606, -- [47]
-				77.37226277372263, -- [48]
-				70.07299270072993, -- [49]
-				70.80291970802919, -- [50]
-			},
-			["LastEvents"] = {
-				"Yarrog Baneshadow Melee Wajawamedo Hit -7 (Physical)", -- [1]
-				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [2]
-				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [3]
-				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [4]
-				"Wajawamedo Raptor Strike Yarrog Baneshadow Hit -14 (Physical)", -- [5]
-				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [6]
-				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [7]
-				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [8]
-				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [9]
-				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [10]
-				"Clattering Scorpid Melee Wajawamedo Dodge", -- [11]
-				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [12]
-				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [13]
-				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [14]
-				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [15]
-				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [16]
-				"Wajawamedo Melee Scorpid Worker Hit -9 (Physical)", -- [17]
-				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [18]
-				"Scorpid Worker Melee Wajawamedo Hit -2 (Physical)", -- [19]
-				"Wajawamedo Melee Scorpid Worker Hit -9 (Physical)", -- [20]
-				"Wajawamedo Auto Shot Scorpid Worker Hit -15 (Physical)", -- [21]
-				"Wajawamedo Auto Shot Scorpid Worker Hit -13 (Physical)", -- [22]
-				"Wajawamedo Auto Shot Scorpid Worker Hit -13 (Physical)", -- [23]
-				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [24]
-				"Wajawamedo Raptor Strike Scorpid Worker Hit -14 (Physical)", -- [25]
-				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [26]
-				"Wajawamedo Melee Scorpid Worker Miss", -- [27]
-				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [28]
-				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [29]
-				"Scorpid Worker Melee Wajawamedo Hit -2 (Physical)", -- [30]
-				"Wajawamedo Melee Scorpid Worker Hit -11 (Physical)", -- [31]
-				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [32]
-				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [33]
-				"Wajawamedo Raptor Strike Scorpid Worker Hit -15 (Physical)", -- [34]
-				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [35]
-				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [36]
-				"Environment Fire Wajawamedo Hit -13 (Fire)", -- [37]
-				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -13 (Physical)", -- [38]
-				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -13 (Physical)", -- [39]
-				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [40]
-				"Wajawamedo Melee Yarrog Baneshadow Hit -10 (Physical)", -- [41]
-				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [42]
-				"Wajawamedo Raptor Strike Yarrog Baneshadow Crit -28 (Physical)", -- [43]
-				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [44]
-				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -14 (Physical)", -- [45]
-				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [46]
-				"Wajawamedo Melee Yarrog Baneshadow Miss", -- [47]
-				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [48]
-				"Yarrog Baneshadow Immolate Wajawamedo Hit -10 (Fire)", -- [49]
-				"Wajawamedo Melee Yarrog Baneshadow Hit -10 (Physical)", -- [50]
-			},
-			["Name"] = "Wajawamedo",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				true, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				true, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				false, -- [38]
-				false, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				true, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1451452100,
-				["TimeDamage"] = 1451452100,
-				["OVERALL"] = 1451452700,
-				["DamageTaken"] = 1451452700,
-				["Damage"] = 1451452100,
-			},
 			["Fights"] = {
-				["Fight3"] = {
-					["DOTs"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 2,
+						["Physical"] = 5,
 					},
-					["ElementDoneResist"] = {
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 80,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 86,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
 					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 9,
-					["RageGainedFrom"] = {
+					["ElementDone"] = {
+						["Melee"] = 426,
+						["Physical"] = 1626,
+					},
+					["DamagedWho"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 263,
+								},
+								["Raptor Strike"] = {
+									["count"] = 66,
+								},
+								["Melee"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 441,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 381,
+								},
+								["Raptor Strike"] = {
+									["count"] = 142,
+								},
+								["Melee"] = {
+									["count"] = 256,
+								},
+							},
+							["amount"] = 779,
+						},
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 32,
+								},
+								["Raptor Strike"] = {
+									["count"] = 29,
+								},
+								["Melee"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 99,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 40,
+								},
+								["Raptor Strike"] = {
+									["count"] = 42,
+								},
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 102,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 618,
+								},
+								["Raptor Strike"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 631,
+						},
+					},
+					["TimeDamaging"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 49.35000000000001,
+								},
+								["Raptor Strike"] = {
+									["count"] = 11.05,
+								},
+								["Melee"] = {
+									["count"] = 34.05,
+								},
+							},
+							["amount"] = 94.45,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 65.69999999999999,
+								},
+								["Raptor Strike"] = {
+									["count"] = 27.42,
+								},
+								["Melee"] = {
+									["count"] = 66.38999999999999,
+								},
+							},
+							["amount"] = 159.5100000000001,
+						},
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.15,
+								},
+								["Raptor Strike"] = {
+									["count"] = 5.92,
+								},
+								["Melee"] = {
+									["count"] = 10.38,
+								},
+							},
+							["amount"] = 23.45,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.949999999999999,
+								},
+								["Raptor Strike"] = {
+									["count"] = 5.85,
+								},
+								["Melee"] = {
+									["count"] = 5.3,
+								},
+							},
+							["amount"] = 18.1,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 110.95,
+								},
+								["Raptor Strike"] = {
+									["count"] = 2.5,
+								},
+							},
+							["amount"] = 113.45,
+						},
+					},
+					["TimeSpent"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 49.35000000000001,
+								},
+								["Raptor Strike"] = {
+									["count"] = 11.05,
+								},
+								["Melee"] = {
+									["count"] = 34.05,
+								},
+							},
+							["amount"] = 94.45,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 65.69999999999999,
+								},
+								["Raptor Strike"] = {
+									["count"] = 27.42,
+								},
+								["Melee"] = {
+									["count"] = 66.38999999999999,
+								},
+							},
+							["amount"] = 159.5100000000001,
+						},
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.15,
+								},
+								["Raptor Strike"] = {
+									["count"] = 5.92,
+								},
+								["Melee"] = {
+									["count"] = 10.38,
+								},
+							},
+							["amount"] = 23.45,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.949999999999999,
+								},
+								["Raptor Strike"] = {
+									["count"] = 5.85,
+								},
+								["Melee"] = {
+									["count"] = 5.3,
+								},
+							},
+							["amount"] = 18.1,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 110.95,
+								},
+								["Raptor Strike"] = {
+									["count"] = 2.5,
+								},
+							},
+							["amount"] = 113.45,
+						},
+					},
+					["DamageTaken"] = 449,
+					["ActiveTime"] = 408.9599999999999,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 12,
+									["min"] = 10,
+									["count"] = 3,
+									["amount"] = 33,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 22,
+									["count"] = 6,
+									["amount"] = 158,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 9,
+									["count"] = 91,
+									["amount"] = 1143,
+								},
+							},
+							["count"] = 100,
+							["amount"] = 1334,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 14,
+									["min"] = 11,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 13,
+									["count"] = 17,
+									["amount"] = 239,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 292,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 9,
+									["min"] = 8,
+									["count"] = 3,
+									["amount"] = 26,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 10,
+									["min"] = 8,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 20,
+									["min"] = 18,
+									["count"] = 3,
+									["amount"] = 56,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 7,
+									["count"] = 36,
+									["amount"] = 326,
+								},
+							},
+							["count"] = 50,
+							["amount"] = 426,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 86,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 86,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 120,
+						},
+					},
+					["TimeDamage"] = 408.9599999999999,
+					["WhoDamaged"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 95,
+						},
+						["Sarkoth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 20,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 40,
+								},
+								["Melee"] = {
+									["count"] = 27,
+								},
+								["Immolate"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 97,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Fire"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 169,
+								},
+							},
+							["amount"] = 169,
+						},
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 40,
+						["Fire"] = 212,
+						["Melee"] = 144,
+						["Nature"] = 53,
+					},
+					["PartialResist"] = {
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 86,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 86,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 2052,
+				},
+				["Fight5"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 1,
 					},
 					["ElementHitsTaken"] = {
 						["Fire"] = {
@@ -411,486 +849,23 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
 									["count"] = 3,
 								},
 							},
 							["amount"] = 3,
 						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Melee"] = 6,
-						["Nature"] = 3,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 81,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Mottled Boar"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 41,
-								},
-								["Raptor Strike"] = {
-									["count"] = 29,
-								},
-								["Melee"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 81,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 11,
-						["Physical"] = 70,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
+								["Tick"] = {
+									["count"] = 2,
 								},
 							},
 							["amount"] = 2,
 						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6,
-								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 1,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 17.07,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.17,
-								},
-								["Raptor Strike"] = {
-									["count"] = 3.95,
-								},
-								["Melee"] = {
-									["count"] = 5.95,
-								},
-							},
-							["amount"] = 17.07,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Auto Shot"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 41,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 41,
-						},
-						["Raptor Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 14,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 29,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 11,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 17.07,
-					["TimeDamaging"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.17,
-								},
-								["Raptor Strike"] = {
-									["count"] = 3.95,
-								},
-								["Melee"] = {
-									["count"] = 5.95,
-								},
-							},
-							["amount"] = 17.07,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["ElementDoneBlock"] = {
-						["Physical"] = 1,
 					},
 					["ElementDone"] = {
 						["Melee"] = 19,
 						["Physical"] = 54,
-					},
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 6.55,
-								},
-								["Raptor Strike"] = {
-									["count"] = 2.95,
-								},
-								["Melee"] = {
-									["count"] = 4.35,
-								},
-							},
-							["amount"] = 13.85,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DamagedWho"] = {
 						["Mottled Boar"] = {
@@ -930,9 +905,15 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDamaged"] = {
+					["TimeDamaging"] = {
 						["Mottled Boar"] = {
 							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -941,55 +922,67 @@ RecountPerCharDB = {
 						},
 						["Scorpid Worker"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
+								["Auto Shot"] = {
+									["count"] = 6.55,
 								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 2,
+								["Raptor Strike"] = {
+									["count"] = 2.95,
+								},
+								["Melee"] = {
+									["count"] = 4.35,
 								},
 							},
-							["amount"] = 7,
+							["amount"] = 13.85,
 						},
 						["Vile Familiar"] = {
 							["Details"] = {
-								["Fireball"] = {
+								["Auto Shot"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
+					["TimeSpent"] = {
+						["Mottled Boar"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Scorpid Worker"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
+								["Auto Shot"] = {
+									["count"] = 6.55,
 								},
-								["Dodge"] = {
+								["Raptor Strike"] = {
+									["count"] = 2.95,
+								},
+								["Melee"] = {
+									["count"] = 4.35,
+								},
+							},
+							["amount"] = 13.85,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 3,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
 					},
 					["DamageTaken"] = 7,
-					["TimeDamage"] = 13.85,
+					["ActiveTime"] = 13.85,
 					["Attacks"] = {
 						["Auto Shot"] = {
 							["Details"] = {
@@ -1108,16 +1101,10 @@ RecountPerCharDB = {
 							["amount"] = 4,
 						},
 					},
-					["ActiveTime"] = 13.85,
-					["TimeDamaging"] = {
+					["TimeDamage"] = 13.85,
+					["WhoDamaged"] = {
 						["Mottled Boar"] = {
 							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -1126,21 +1113,18 @@ RecountPerCharDB = {
 						},
 						["Scorpid Worker"] = {
 							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 6.55,
-								},
-								["Raptor Strike"] = {
-									["count"] = 2.95,
-								},
 								["Melee"] = {
-									["count"] = 4.35,
+									["count"] = 5,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 13.85,
+							["amount"] = 7,
 						},
 						["Vile Familiar"] = {
 							["Details"] = {
-								["Auto Shot"] = {
+								["Fireball"] = {
 									["count"] = 0,
 								},
 							},
@@ -1229,16 +1213,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
 						["Melee"] = 0,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -1248,55 +1231,16 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Melee"] = 0,
 						["Physical"] = 0,
 					},
-					["RunicPowerGainedFrom"] = {
+					["ManaGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -1304,10 +1248,10 @@ RecountPerCharDB = {
 								["Glancing"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Dodge"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -1322,20 +1266,20 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGainedFrom"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
-						["Mottled Boar"] = {
+						["Clattering Scorpid"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Poison (DoT)"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Clattering Scorpid"] = {
+						["Mottled Boar"] = {
 							["Details"] = {
-								["Poison (DoT)"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -1363,53 +1307,22 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
+					["Dispelled"] = 0,
 					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Physical"] = 0,
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
 					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
+					["CCBreak"] = 0,
 					["PartialAbsorb"] = {
 						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -1433,9 +1346,94 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
 					},
 					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Mottled Boar"] = {
 							["Details"] = {
@@ -1477,71 +1475,17 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
 					["Heals"] = {
 					},
-					["Interrupts"] = 0,
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RageGained"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Auto Shot"] = {
@@ -1582,13 +1526,13 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Dodge"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -1597,8 +1541,47 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
@@ -1642,8 +1625,1544 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 3,
+					},
 					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 8,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Melee"] = 7,
+						["Nature"] = 1,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 76,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 38,
+						["Physical"] = 38,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Sarkoth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Weak Poison (DoT)"] = {
+									["count"] = 1,
+								},
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 17.3,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.1,
+								},
+								["Melee"] = {
+									["count"] = 10.2,
+								},
+							},
+							["amount"] = 17.3,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 38,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 38,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 38,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 38,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 38,
+								},
+								["Melee"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 76,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 17.3,
+					["TimeDamaging"] = {
+						["Sarkoth"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.1,
+								},
+								["Melee"] = {
+									["count"] = 10.2,
+								},
+							},
+							["amount"] = 17.3,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Clattering Scorpid"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -1657,17 +3176,6 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
 						["Shadow"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -1675,6 +3183,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -1695,17 +3214,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Fire"] = 14,
 						["Shadow"] = 30,
+						["Fire"] = 14,
 						["Melee"] = 27,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["Damage"] = 102,
 					["ElementDoneAbsorb"] = {
 					},
@@ -1715,69 +3233,25 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 40,
-								},
-								["Raptor Strike"] = {
-									["count"] = 42,
-								},
-								["Melee"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 102,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
 						["Melee"] = 20,
 						["Physical"] = 82,
 					},
-					["RunicPowerGainedFrom"] = {
+					["ManaGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
 								["Miss"] = {
 									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
 							["amount"] = 3,
@@ -1794,7 +3268,7 @@ RecountPerCharDB = {
 							["amount"] = 5,
 						},
 					},
-					["ManaGainedFrom"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Mottled Boar"] = {
@@ -1826,17 +3300,17 @@ RecountPerCharDB = {
 						},
 						["Yarrog Baneshadow"] = {
 							["Details"] = {
-								["Immolate"] = {
-									["count"] = 10,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 4,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 30,
 								},
 								["Melee"] = {
 									["count"] = 27,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 30,
+								["Immolate"] = {
+									["count"] = 10,
 								},
 							},
 							["amount"] = 71,
@@ -1852,26 +3326,19 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
+					["Dispelled"] = 0,
 					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
 					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
+					["CCBreak"] = 0,
 					["PartialAbsorb"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -1909,18 +3376,6 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -1931,18 +3386,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Fire"] = {
@@ -1957,66 +3400,32 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 					},
 					["ActiveTime"] = 18.1,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 6.949999999999999,
-								},
-								["Raptor Strike"] = {
-									["count"] = 5.85,
-								},
-								["Melee"] = {
-									["count"] = 5.3,
-								},
-							},
-							["amount"] = 18.1,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -2054,18 +3463,6 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -2076,18 +3473,6 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Fire"] = {
@@ -2102,11 +3487,100 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Yarrog Baneshadow"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 6.949999999999999,
+								},
+								["Raptor Strike"] = {
+									["count"] = 5.85,
+								},
+								["Melee"] = {
+									["count"] = 5.3,
+								},
+							},
+							["amount"] = 18.1,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RageGained"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["OverHeals"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Auto Shot"] = {
@@ -2147,1732 +3621,23 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 10,
 									["min"] = 0,
 									["count"] = 2,
 									["amount"] = 20,
 								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
 							},
 							["count"] = 3,
 							["amount"] = 20,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 18.1,
-					["TimeDamaging"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 6.949999999999999,
-								},
-								["Raptor Strike"] = {
-									["count"] = 5.85,
-								},
-								["Melee"] = {
-									["count"] = 5.3,
-								},
-							},
-							["amount"] = 18.1,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 8,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Melee"] = 7,
-						["Nature"] = 1,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 76,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 38,
-								},
-								["Melee"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 76,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
 					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 38,
-						["Physical"] = 38,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Weak Poison (DoT)"] = {
-									["count"] = 1,
-								},
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 17.3,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.1,
-								},
-								["Melee"] = {
-									["count"] = 10.2,
-								},
-							},
-							["amount"] = 17.3,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Auto Shot"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 38,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 38,
-						},
-						["Raptor Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 38,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 38,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 17.3,
-					["TimeDamaging"] = {
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.1,
-								},
-								["Melee"] = {
-									["count"] = 10.2,
-								},
-							},
-							["amount"] = 17.3,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 3,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 3,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
 					["DamagedWho"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Clattering Scorpid"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Auto Shot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Raptor Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 3,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Nature"] = 3,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Clattering Scorpid"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Auto Shot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Raptor Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-								["Raptor Strike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 2,
-						["Physical"] = 5,
-					},
-					["ElementDone"] = {
-						["Melee"] = 426,
-						["Physical"] = 1626,
-					},
-					["TimeSpent"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 49.35000000000001,
-								},
-								["Raptor Strike"] = {
-									["count"] = 11.05,
-								},
-								["Melee"] = {
-									["count"] = 34.05,
-								},
-							},
-							["amount"] = 94.45,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 65.69999999999999,
-								},
-								["Raptor Strike"] = {
-									["count"] = 27.42,
-								},
-								["Melee"] = {
-									["count"] = 66.38999999999999,
-								},
-							},
-							["amount"] = 159.5100000000001,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.15,
-								},
-								["Raptor Strike"] = {
-									["count"] = 5.92,
-								},
-								["Melee"] = {
-									["count"] = 10.38,
-								},
-							},
-							["amount"] = 23.45,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 6.949999999999999,
-								},
-								["Raptor Strike"] = {
-									["count"] = 5.85,
-								},
-								["Melee"] = {
-									["count"] = 5.3,
-								},
-							},
-							["amount"] = 18.1,
-						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 110.95,
-								},
-								["Raptor Strike"] = {
-									["count"] = 2.5,
-								},
-							},
-							["amount"] = 113.45,
-						},
-					},
-					["DamagedWho"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 263,
-								},
-								["Raptor Strike"] = {
-									["count"] = 66,
-								},
-								["Melee"] = {
-									["count"] = 112,
-								},
-							},
-							["amount"] = 441,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 381,
-								},
-								["Raptor Strike"] = {
-									["count"] = 142,
-								},
-								["Melee"] = {
-									["count"] = 256,
-								},
-							},
-							["amount"] = 779,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 32,
-								},
-								["Raptor Strike"] = {
-									["count"] = 29,
-								},
-								["Melee"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 99,
-						},
 						["Yarrog Baneshadow"] = {
 							["Details"] = {
 								["Auto Shot"] = {
@@ -3887,399 +3652,39 @@ RecountPerCharDB = {
 							},
 							["amount"] = 102,
 						},
-						["Vile Familiar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 618,
-								},
-								["Raptor Strike"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 631,
-						},
-					},
-					["WhoDamaged"] = {
 						["Mottled Boar"] = {
 							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
-									["count"] = 24,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 0,
 						},
 						["Scorpid Worker"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 67,
-								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 95,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26,
-								},
-								["Poison (DoT)"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Yarrog Baneshadow"] = {
-							["Details"] = {
-								["Immolate"] = {
-									["count"] = 10,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 20,
+								["Auto Shot"] = {
+									["count"] = 0,
 								},
 								["Melee"] = {
-									["count"] = 27,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 40,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 97,
-						},
-						["Clattering Scorpid"] = {
-							["Details"] = {
-								["Poison (DoT)"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Fire"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
+							["amount"] = 0,
 						},
 						["Vile Familiar"] = {
 							["Details"] = {
-								["Fireball"] = {
-									["count"] = 169,
+								["Auto Shot"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 169,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 86,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-					},
-					["DamageTaken"] = 449,
-					["TimeDamage"] = 408.9599999999999,
-					["Attacks"] = {
-						["Auto Shot"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 12,
-									["min"] = 10,
-									["count"] = 3,
-									["amount"] = 33,
-								},
-								["Crit"] = {
-									["max"] = 28,
-									["min"] = 22,
-									["count"] = 6,
-									["amount"] = 158,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 9,
-									["count"] = 91,
-									["amount"] = 1143,
-								},
-							},
-							["count"] = 100,
-							["amount"] = 1334,
-						},
-						["Raptor Strike"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 14,
-									["min"] = 11,
-									["count"] = 2,
-									["amount"] = 25,
-								},
-								["Crit"] = {
-									["max"] = 28,
-									["min"] = 28,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 13,
-									["count"] = 17,
-									["amount"] = 239,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 292,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 9,
-									["min"] = 8,
-									["count"] = 3,
-									["amount"] = 26,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 10,
-									["min"] = 8,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 7,
-									["count"] = 36,
-									["amount"] = 326,
-								},
-								["Crit"] = {
-									["max"] = 20,
-									["min"] = 18,
-									["count"] = 3,
-									["amount"] = 56,
-								},
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 50,
-							["amount"] = 426,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 86,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 86,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 28,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 28,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 38,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 50,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 120,
-						},
-					},
-					["ActiveTime"] = 408.9599999999999,
+					["TimeDamage"] = 18.1,
 					["TimeDamaging"] = {
-						["Mottled Boar"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 49.35000000000001,
-								},
-								["Raptor Strike"] = {
-									["count"] = 11.05,
-								},
-								["Melee"] = {
-									["count"] = 34.05,
-								},
-							},
-							["amount"] = 94.45,
-						},
-						["Scorpid Worker"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 65.69999999999999,
-								},
-								["Raptor Strike"] = {
-									["count"] = 27.42,
-								},
-								["Melee"] = {
-									["count"] = 66.38999999999999,
-								},
-							},
-							["amount"] = 159.5100000000001,
-						},
-						["Sarkoth"] = {
-							["Details"] = {
-								["Auto Shot"] = {
-									["count"] = 7.15,
-								},
-								["Raptor Strike"] = {
-									["count"] = 5.92,
-								},
-								["Melee"] = {
-									["count"] = 10.38,
-								},
-							},
-							["amount"] = 23.45,
-						},
 						["Yarrog Baneshadow"] = {
 							["Details"] = {
 								["Auto Shot"] = {
@@ -4294,71 +3699,257 @@ RecountPerCharDB = {
 							},
 							["amount"] = 18.1,
 						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Vile Familiar"] = {
 							["Details"] = {
 								["Auto Shot"] = {
-									["count"] = 110.95,
-								},
-								["Raptor Strike"] = {
-									["count"] = 2.5,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 113.45,
-						},
-					},
-					["ElementTaken"] = {
-						["Fire"] = 212,
-						["Shadow"] = 40,
-						["Melee"] = 144,
-						["Nature"] = 53,
-					},
-					["PartialResist"] = {
-						["Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 10,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
 							["amount"] = 0,
 						},
-						["Corruption (DoT)"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 9,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Melee"] = 6,
+						["Nature"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 81,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 11,
+						["Physical"] = 70,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Sarkoth"] = {
+							["Details"] = {
+								["Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 1,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 86,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 86,
+							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 17.07,
+					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Weak Poison (DoT)"] = {
@@ -4366,14 +3957,14 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 28,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 28,
+							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Immolate (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -4385,36 +3976,445 @@ RecountPerCharDB = {
 							["count"] = 5,
 							["amount"] = 0,
 						},
-						["Immolate"] = {
+						["Poison (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["Damage"] = 2052,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.17,
+								},
+								["Raptor Strike"] = {
+									["count"] = 3.95,
+								},
+								["Melee"] = {
+									["count"] = 5.95,
+								},
+							},
+							["amount"] = 17.07,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 41,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 41,
+						},
+						["Raptor Strike"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 14,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 11,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 41,
+								},
+								["Raptor Strike"] = {
+									["count"] = 29,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 81,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 17.07,
+					["TimeDamaging"] = {
+						["Mottled Boar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Raptor Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scorpid Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7.17,
+								},
+								["Raptor Strike"] = {
+									["count"] = 3.95,
+								},
+								["Melee"] = {
+									["count"] = 5.95,
+								},
+							},
+							["amount"] = 17.07,
+						},
+						["Vile Familiar"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
 				},
 			},
-			["UnitLockout"] = 1451450599,
-			["LastActive"] = 1451452700,
+			["NextEventNum"] = 17,
+			["LastEventHealthNum"] = {
+				70.80291970802919, -- [1]
+				58.39416058394161, -- [2]
+				56.2043795620438, -- [3]
+				56.2043795620438, -- [4]
+				52.55474452554745, -- [5]
+				45.98540145985402, -- [6]
+				43.06569343065694, -- [7]
+				60.58394160583941, -- [8]
+				67.88321167883211, -- [9]
+				85.4014598540146, -- [10]
+				100, -- [11]
+				98.05194805194805, -- [12]
+				98.05194805194805, -- [13]
+				98.05194805194805, -- [14]
+				98.05194805194805, -- [15]
+				98.05194805194805, -- [16]
+				99.16666666666667, -- [17]
+				99.16666666666667, -- [18]
+				99.16666666666667, -- [19]
+				98.33333333333333, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				99.16666666666667, -- [25]
+				100, -- [26]
+				100, -- [27]
+				99.16666666666667, -- [28]
+				99.16666666666667, -- [29]
+				99.16666666666667, -- [30]
+				97.5, -- [31]
+				96.66666666666667, -- [32]
+				97.5, -- [33]
+				96.66666666666667, -- [34]
+				96.66666666666667, -- [35]
+				99.16666666666667, -- [36]
+				90.51094890510949, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				97.08029197080292, -- [41]
+				97.81021897810219, -- [42]
+				94.16058394160584, -- [43]
+				86.86131386861314, -- [44]
+				87.59124087591241, -- [45]
+				87.59124087591241, -- [46]
+				83.94160583941606, -- [47]
+				77.37226277372263, -- [48]
+				70.07299270072993, -- [49]
+				70.80291970802919, -- [50]
+			},
+			["LastEvents"] = {
+				"Yarrog Baneshadow Melee Wajawamedo Hit -7 (Physical)", -- [1]
+				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [2]
+				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [3]
+				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [4]
+				"Wajawamedo Raptor Strike Yarrog Baneshadow Hit -14 (Physical)", -- [5]
+				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [6]
+				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [7]
+				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [8]
+				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [9]
+				"Yarrog Baneshadow Immolate (DoT) Wajawamedo Tick -4 (Fire)", -- [10]
+				"Clattering Scorpid Melee Wajawamedo Dodge", -- [11]
+				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [12]
+				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [13]
+				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [14]
+				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [15]
+				"Clattering Scorpid Poison (DoT) Wajawamedo Tick -3 (Nature)", -- [16]
+				"Wajawamedo Melee Scorpid Worker Hit -9 (Physical)", -- [17]
+				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [18]
+				"Scorpid Worker Melee Wajawamedo Hit -2 (Physical)", -- [19]
+				"Wajawamedo Melee Scorpid Worker Hit -9 (Physical)", -- [20]
+				"Wajawamedo Auto Shot Scorpid Worker Hit -15 (Physical)", -- [21]
+				"Wajawamedo Auto Shot Scorpid Worker Hit -13 (Physical)", -- [22]
+				"Wajawamedo Auto Shot Scorpid Worker Hit -13 (Physical)", -- [23]
+				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [24]
+				"Wajawamedo Raptor Strike Scorpid Worker Hit -14 (Physical)", -- [25]
+				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [26]
+				"Wajawamedo Melee Scorpid Worker Miss", -- [27]
+				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [28]
+				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [29]
+				"Scorpid Worker Melee Wajawamedo Hit -2 (Physical)", -- [30]
+				"Wajawamedo Melee Scorpid Worker Hit -11 (Physical)", -- [31]
+				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [32]
+				"Scorpid Worker Melee Wajawamedo Hit -1 (Physical)", -- [33]
+				"Wajawamedo Raptor Strike Scorpid Worker Hit -15 (Physical)", -- [34]
+				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [35]
+				"Scorpid Worker Weak Poison (DoT) Wajawamedo Tick -1 (Nature)", -- [36]
+				"Environment Fire Wajawamedo Hit -13 (Fire)", -- [37]
+				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -13 (Physical)", -- [38]
+				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -13 (Physical)", -- [39]
+				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [40]
+				"Wajawamedo Melee Yarrog Baneshadow Hit -10 (Physical)", -- [41]
+				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [42]
+				"Wajawamedo Raptor Strike Yarrog Baneshadow Crit -28 (Physical)", -- [43]
+				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [44]
+				"Wajawamedo Auto Shot Yarrog Baneshadow Hit -14 (Physical)", -- [45]
+				"Yarrog Baneshadow Melee Wajawamedo Hit -5 (Physical)", -- [46]
+				"Wajawamedo Melee Yarrog Baneshadow Miss", -- [47]
+				"Yarrog Baneshadow Corruption (DoT) Wajawamedo Tick -10 (Shadow)", -- [48]
+				"Yarrog Baneshadow Immolate Wajawamedo Hit -10 (Fire)", -- [49]
+				"Wajawamedo Melee Yarrog Baneshadow Hit -10 (Physical)", -- [50]
+			},
+			["Name"] = "Wajawamedo",
+			["TimeLast"] = {
+				["ActiveTime"] = 1451452100,
+				["TimeDamage"] = 1451452100,
+				["OVERALL"] = 1451452700,
+				["DamageTaken"] = 1451452700,
+				["Damage"] = 1451452100,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 3,
+			["LastEventTimes"] = {
+				190718.26, -- [1]
+				190718.377, -- [2]
+				190719.31, -- [3]
+				190720.31, -- [4]
+				190720.41, -- [5]
+				190721.36, -- [6]
+				190722.31, -- [7]
+				190725.31, -- [8]
+				190728.31, -- [9]
+				190731.31, -- [10]
+				191300.655, -- [11]
+				191308.054, -- [12]
+				191311.054, -- [13]
+				191314.054, -- [14]
+				191317.105, -- [15]
+				191320.054, -- [16]
+				190044.284, -- [17]
+				190044.284, -- [18]
+				190046.333, -- [19]
+				190047.184, -- [20]
+				190054.917, -- [21]
+				190056.833, -- [22]
+				190058.584, -- [23]
+				190059.233, -- [24]
+				190059.634, -- [25]
+				190061.333, -- [26]
+				190062.583, -- [27]
+				190062.833, -- [28]
+				190063.383, -- [29]
+				190065.484, -- [30]
+				190065.584, -- [31]
+				190065.784, -- [32]
+				190067.483, -- [33]
+				190068.484, -- [34]
+				190068.784, -- [35]
+				190071.834, -- [36]
+				190192.033, -- [37]
+				190705.811, -- [38]
+				190707.66, -- [39]
+				190708.26, -- [40]
+				190708.611, -- [41]
+				190711.21, -- [42]
+				190711.511, -- [43]
+				190712.31, -- [44]
+				190713.11, -- [45]
+				190713.227, -- [46]
+				190714.51, -- [47]
+				190715.31, -- [48]
+				190716.31, -- [49]
+				190717.46, -- [50]
+			},
+			["LastAbility"] = 968.936,
 		},
 	},
 	["FightNum"] = 29,

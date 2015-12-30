@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: TourGuideItemFrame
 FrameLevel: 1
 Anchor: BOTTOMLEFT
@@ -42,7 +42,7 @@ Y: -231
 W: 25
 H: 25
 Frame: Recount_MainWindow
-FrameLevel: 22
+FrameLevel: 30
 Anchor: BOTTOMRIGHT
 X: -7
 Y: 30

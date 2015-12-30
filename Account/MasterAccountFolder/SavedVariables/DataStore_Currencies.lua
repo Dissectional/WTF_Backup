@@ -26,16 +26,16 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1451257585,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
+				["lastUpdate"] = 1451480481,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1451288547,
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477673,
+				["lastUpdate"] = 1451481005,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477533,
+				["lastUpdate"] = 1451480759,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Currencies"] = {
@@ -52,10 +52,10 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1451459200,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451476893,
+				["lastUpdate"] = 1451480779,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302278,
@@ -67,7 +67,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1451257482,
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480952,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451303256,

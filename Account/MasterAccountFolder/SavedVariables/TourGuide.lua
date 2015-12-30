@@ -15,16 +15,16 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Tirisfal Glades (1-12)",
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
+			["currentguide"] = "Durotar (1-12)",
 			["turnins"] = {
 				["Durotar (1-12)"] = {
 				},
 			},
-			["currentguide"] = "Durotar (1-12)",
+			["showstatusframe"] = false,
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
 			["currentguide"] = "Mulgore (1-12)",
+			["showstatusframe"] = false,
 			["turnins"] = {
 				["Mulgore (1-12)"] = {
 					["Kill Swoops...@2@"] = true,
@@ -91,13 +91,20 @@ TourGuideAlphaDB = {
 				},
 				["The Barrens (12-20)"] = {
 				},
-				["No Guide"] = {
+				["vvvvvvv Flaw's Guides vvvvvvv"] = {
+					["Flaw's Guides Begin@1@"] = true,
 				},
 				["Mulgore (1-12)"] = {
 					["Kill Swoops...@2@"] = true,
 					["Bloodhoof Village@1@"] = true,
 					["Cook your ass off!@3@"] = true,
 					["Drink up!@4@"] = true,
+				},
+				["No Guide"] = {
+				},
+				["Argent Crusade (80-H)"] = {
+					["Pre-Check (Addon Suggestion)@2@"] = true,
+					["Welcome!@1@"] = true,
 				},
 				["Argent Tournament [Aspirants] (80-H)"] = {
 					["Sunreaver Pavilian@3@"] = true,
@@ -108,13 +115,6 @@ TourGuideAlphaDB = {
 					["Welcome!@1@"] = true,
 					["Sunreaver Pavilian@7@"] = true,
 					["End of Guide@8@"] = true,
-				},
-				["Argent Crusade (80-H)"] = {
-					["Pre-Check (Addon Suggestion)@2@"] = true,
-					["Welcome!@1@"] = true,
-				},
-				["vvvvvvv Flaw's Guides vvvvvvv"] = {
-					["Flaw's Guides Begin@1@"] = true,
 				},
 				["Desolace (32-34)"] = {
 				},
@@ -137,10 +137,6 @@ TourGuideAlphaDB = {
 			["alwaysmapnotecoords"] = true,
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
-			["completion"] = {
-				["No Guide"] = 0,
-			},
 			["turnins"] = {
 				["No Guide"] = {
 				},
@@ -151,6 +147,10 @@ TourGuideAlphaDB = {
 					["Brill@2@"] = true,
 					["Samuel Fipps@1@"] = true,
 				},
+			},
+			["showstatusframe"] = false,
+			["completion"] = {
+				["No Guide"] = 0,
 			},
 			["currentguide"] = "Tirisfal Glades (1-12)",
 			["hearth"] = "Gallows' End Tavern",
@@ -289,7 +289,7 @@ TourGuideAlphaDB = {
 			["hearth"] = "Tranquillien",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
+			["currentguide"] = "Tirisfal Glades (1-12)",
 			["completion"] = {
 				["No Guide"] = 0,
 			},
@@ -299,7 +299,7 @@ TourGuideAlphaDB = {
 				["Tirisfal Glades (1-12)"] = {
 				},
 			},
-			["currentguide"] = "Tirisfal Glades (1-12)",
+			["showstatusframe"] = false,
 		},
 		["Iamsham - PrimalWoW (Progressive)"] = {
 			["currentguide"] = "Durotar (1-12)",
@@ -334,9 +334,9 @@ TourGuideAlphaDB = {
 					["Tranquillien@6@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
-					["Suntouched Special Reserve@14@"] = true,
 					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
+					["Suntouched Special Reserve@14@"] = true,
 					["Training?@16@"] = true,
 				},
 				["The Barrens (20)"] = {

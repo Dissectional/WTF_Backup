@@ -19,6 +19,49 @@ DataStore_CraftsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.TrueWoW.Pastafarian"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:2550:36:75:1D42B3:HAAAQABAEAAAIAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
+						["isSecondary"] = true,
+						["Crafts"] = {
+							"0|Food & Drink", -- [1]
+							"1|2539", -- [2]
+							"1|33276", -- [3]
+							"1|8604", -- [4]
+							"1|2540", -- [5]
+							"1|7751", -- [6]
+							"1|2538", -- [7]
+							"3|37836", -- [8]
+						},
+						["NumCrafts"] = 7,
+					},
+					["Skinning"] = {
+						["isPrimary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+						["NumCrafts"] = 1,
+						["Crafts"] = {
+							"0|Metal & Stone", -- [1]
+							"2|2657", -- [2]
+						},
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:3273:1:75:1D42B3:FAAAAA|h[First Aid]|h|r",
+						["isSecondary"] = true,
+						["Crafts"] = {
+							"0|Bandage", -- [1]
+							"1|3275", -- [2]
+						},
+						["NumCrafts"] = 1,
+					},
+				},
+				["lastUpdate"] = 1451302980,
+			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["Professions"] = {
 					["First Aid"] = {
@@ -203,49 +246,6 @@ DataStore_CraftsDB = {
 					},
 				},
 				["lastUpdate"] = 1451303937,
-			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["Professions"] = {
-					["Cooking"] = {
-						["FullLink"] = "|cffffd000|Htrade:2550:36:75:1D42B3:HAAAQABAEAAAIAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
-						["isSecondary"] = true,
-						["Crafts"] = {
-							"0|Food & Drink", -- [1]
-							"1|2539", -- [2]
-							"1|33276", -- [3]
-							"1|8604", -- [4]
-							"1|2540", -- [5]
-							"1|7751", -- [6]
-							"1|2538", -- [7]
-							"3|37836", -- [8]
-						},
-						["NumCrafts"] = 7,
-					},
-					["Skinning"] = {
-						["isPrimary"] = true,
-					},
-					["Fishing"] = {
-						["isSecondary"] = true,
-					},
-					["Mining"] = {
-						["isPrimary"] = true,
-						["NumCrafts"] = 1,
-						["Crafts"] = {
-							"0|Metal & Stone", -- [1]
-							"2|2657", -- [2]
-						},
-					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:3273:1:75:1D42B3:FAAAAA|h[First Aid]|h|r",
-						["isSecondary"] = true,
-						["Crafts"] = {
-							"0|Bandage", -- [1]
-							"1|3275", -- [2]
-						},
-						["NumCrafts"] = 1,
-					},
-				},
-				["lastUpdate"] = 1451302980,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Professions"] = {
@@ -444,7 +444,7 @@ DataStore_CraftsDB = {
 							"|cffffd000|Htrade:7411:1:75:1001E:pCAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r", -- [1]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1451479451,
+						["lastUpdate"] = 1451480928,
 					},
 					["Lilleth"] = {
 						["Professions"] = {

@@ -171,8 +171,12 @@ DataStore_ContainersDB = {
 				["numFreeBagSlots"] = 3,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477329,
+				["lastUpdate"] = 1451480481,
 				["Containers"] = {
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 					["Bag0"] = {
 						["size"] = 16,
 						["ids"] = {
@@ -185,10 +189,6 @@ DataStore_ContainersDB = {
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 13,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
 					},
 					["Bag1"] = {
 						["ids"] = {
@@ -373,12 +373,8 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 44,
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477733,
+				["lastUpdate"] = 1451481004,
 				["Containers"] = {
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
@@ -387,13 +383,21 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 15,
 					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 				},
 				["numFreeBagSlots"] = 15,
 				["numBagSlots"] = 16,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477532,
+				["lastUpdate"] = 1451480759,
 				["Containers"] = {
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 					["Bag0"] = {
 						["size"] = 16,
 						["ids"] = {
@@ -405,10 +409,6 @@ DataStore_ContainersDB = {
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 14,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
 					},
 				},
 				["numFreeBagSlots"] = 14,
@@ -805,17 +805,14 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 16,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479408,
+				["lastUpdate"] = 1451480988,
 				["Containers"] = {
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
 					["Bag0"] = {
 						["size"] = 16,
 						["ids"] = {
 							2672, -- [1]
 							21519, -- [2]
+							34191, -- [3]
 							[12] = 12737,
 							[14] = 6948,
 							[15] = 159,
@@ -824,17 +821,22 @@ DataStore_ContainersDB = {
 						["counts"] = {
 							2, -- [1]
 							5, -- [2]
+							5, -- [3]
 							[12] = 3,
 							[15] = 7,
 						},
-						["freeslots"] = 11,
+						["freeslots"] = 10,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 				},
-				["numFreeBagSlots"] = 11,
+				["numFreeBagSlots"] = 10,
 				["numBagSlots"] = 16,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451477272,
+				["lastUpdate"] = 1451480841,
 				["numFreeBagSlots"] = 13,
 				["Containers"] = {
 					["Bag0"] = {
@@ -845,11 +847,8 @@ DataStore_ContainersDB = {
 							[12] = 6948,
 							[14] = 4540,
 						},
-						["cooldowns"] = {
-							[12] = "215414.635|1800|1",
-						},
 						["counts"] = {
-							[2] = 5,
+							[2] = 10,
 							[14] = 9,
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
@@ -1186,7 +1185,7 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 44,
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479444,
+				["lastUpdate"] = 1451480951,
 				["numFreeBagSlots"] = 8,
 				["Containers"] = {
 					["Bag-2"] = {
@@ -1194,6 +1193,7 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 					["Bag0"] = {
+						["freeslots"] = 8,
 						["ids"] = {
 							159, -- [1]
 							2320, -- [2]
@@ -1212,7 +1212,6 @@ DataStore_ContainersDB = {
 							2589, -- [15]
 							118, -- [16]
 						},
-						["freeslots"] = 8,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							nil, -- [1]

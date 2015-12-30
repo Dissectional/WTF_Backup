@@ -90,7 +90,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
+				["lastUpdate"] = 1451480050,
 				["Spells"] = {
 					["Marksmanship"] = {
 						"75|", -- [1]
@@ -170,7 +170,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477581,
+				["lastUpdate"] = 1451481005,
 				["Spells"] = {
 					["Fire"] = {
 						"133|Rank 1", -- [1]
@@ -190,7 +190,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477476,
+				["lastUpdate"] = 1451480601,
 				["Spells"] = {
 					["Arms"] = {
 						"2457|", -- [1]
@@ -310,11 +310,15 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 				["Spells"] = {
 					["Demonology"] = {
 						"687|Rank 1", -- [1]
 						"688|Summon", -- [2]
+					},
+					["Destruction"] = {
+						"348|Rank 1", -- [1]
+						"686|Rank 1", -- [2]
 					},
 					["Affliction"] = {
 						"172|Rank 1", -- [1]
@@ -330,14 +334,10 @@ DataStore_SpellsDB = {
 						"5227|Racial Passive", -- [7]
 						"7744|Racial", -- [8]
 					},
-					["Destruction"] = {
-						"348|Rank 1", -- [1]
-						"686|Rank 1", -- [2]
-					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451476859,
+				["lastUpdate"] = 1451480779,
 				["Spells"] = {
 					["Balance"] = {
 						"8921|Rank 1", -- [1]
@@ -371,6 +371,19 @@ DataStore_SpellsDB = {
 						"697|Summon", -- [7]
 						"5697|", -- [8]
 					},
+					["Affliction"] = {
+						"172|Rank 1", -- [1]
+						"6222|Rank 2", -- [2]
+						"980|Rank 1", -- [3]
+						"1014|Rank 2", -- [4]
+						"702|Rank 1", -- [5]
+						"1108|Rank 2", -- [6]
+						"689|Rank 1", -- [7]
+						"1120|Rank 1", -- [8]
+						"5782|Rank 1", -- [9]
+						"1454|Rank 1", -- [10]
+						"1455|Rank 2", -- [11]
+					},
 					["General"] = {
 						"28877|Racial Passive", -- [1]
 						"28730|Racial", -- [2]
@@ -393,19 +406,6 @@ DataStore_SpellsDB = {
 						"686|Rank 1", -- [4]
 						"695|Rank 2", -- [5]
 						"705|Rank 3", -- [6]
-					},
-					["Affliction"] = {
-						"172|Rank 1", -- [1]
-						"6222|Rank 2", -- [2]
-						"980|Rank 1", -- [3]
-						"1014|Rank 2", -- [4]
-						"702|Rank 1", -- [5]
-						"1108|Rank 2", -- [6]
-						"689|Rank 1", -- [7]
-						"1120|Rank 1", -- [8]
-						"5782|Rank 1", -- [9]
-						"1454|Rank 1", -- [10]
-						"1455|Rank 2", -- [11]
 					},
 				},
 			},
@@ -498,7 +498,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 				["Spells"] = {
 					["Shadow Magic"] = {
 						"589|Rank 1", -- [1]

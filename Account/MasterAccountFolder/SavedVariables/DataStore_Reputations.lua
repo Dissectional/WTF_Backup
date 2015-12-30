@@ -41,7 +41,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
+				["lastUpdate"] = 1451480050,
 				["Factions"] = {
 					["Undercity"] = "0|3000|2044",
 					["Darkspear Trolls"] = "3000|9000|7913",
@@ -62,7 +62,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477581,
+				["lastUpdate"] = 1451481005,
 				["Factions"] = {
 					["Undercity"] = "3000|9000|4000",
 					["Darkspear Trolls"] = "0|3000|500",
@@ -72,7 +72,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477476,
+				["lastUpdate"] = 1451480601,
 				["Factions"] = {
 					["Undercity"] = "0|3000|1194",
 					["Darkspear Trolls"] = "3000|9000|3794",
@@ -117,7 +117,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 				["Factions"] = {
 					["Undercity"] = "3000|9000|6775",
 					["Darkspear Trolls"] = "0|3000|1188",
@@ -127,13 +127,13 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451477266,
+				["lastUpdate"] = 1451480779,
 				["Factions"] = {
-					["Undercity"] = "0|3000|500",
-					["Darkspear Trolls"] = "3000|9000|3100",
+					["Undercity"] = "0|3000|1188",
+					["Darkspear Trolls"] = "3000|9000|3788",
 					["Thunder Bluff"] = "3000|9000|6775",
-					["Silvermoon City"] = "0|3000|400",
-					["Orgrimmar"] = "3000|9000|3100",
+					["Silvermoon City"] = "0|3000|1088",
+					["Orgrimmar"] = "3000|9000|3788",
 				},
 			},
 			["Default.TrueWoW.Lichmydk"] = {
@@ -171,7 +171,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 				["Factions"] = {
 					["Undercity"] = "3000|9000|7775",
 					["Darkspear Trolls"] = "0|3000|1435",

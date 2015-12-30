@@ -1273,6 +1273,10 @@ LoremasterDB = {
 			},
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Horde",
+			},
 			["history"] = {
 				["Deathknell"] = {
 					[364] = {
@@ -1422,10 +1426,6 @@ LoremasterDB = {
 						["achname"] = "Loremaster of Eastern Kingdoms",
 					},
 				},
-			},
-			["settings"] = {
-				["version"] = "v2.033 20100226",
-				["faction"] = "Horde",
 			},
 		},
 		["Pastafarian - TrueWoW"] = {
@@ -3331,12 +3331,12 @@ LoremasterDB = {
 					},
 				},
 				["Paladin"] = {
-					[9684] = {
+					[9677] = {
 						["achievement"] = 0,
-						["uid"] = 9684,
-						["title"] = "Claiming the Light",
+						["uid"] = 9677,
+						["title"] = "Summons from Knight-Lord Bloodvalor",
 						["lmver"] = "v2.033 20100226",
-						["time"] = 1451265503,
+						["time"] = 1451256637,
 					},
 					[9686] = {
 						["achievement"] = 0,
@@ -3359,12 +3359,12 @@ LoremasterDB = {
 						["time"] = 1451275609,
 						["lmver"] = "v2.033 20100226",
 					},
-					[9691] = {
+					[9684] = {
 						["achievement"] = 0,
-						["uid"] = 9691,
-						["title"] = "Return to Silvermoon",
+						["uid"] = 9684,
+						["title"] = "Claiming the Light",
 						["lmver"] = "v2.033 20100226",
-						["time"] = 1451296461,
+						["time"] = 1451265503,
 					},
 					[9681] = {
 						["achievement"] = 0,
@@ -3380,12 +3380,12 @@ LoremasterDB = {
 						["lmver"] = "v2.033 20100226",
 						["time"] = 1451265404,
 					},
-					[9677] = {
+					[9691] = {
 						["achievement"] = 0,
-						["uid"] = 9677,
-						["title"] = "Summons from Knight-Lord Bloodvalor",
+						["uid"] = 9691,
+						["title"] = "Return to Silvermoon",
 						["lmver"] = "v2.033 20100226",
-						["time"] = 1451256637,
+						["time"] = 1451296461,
 					},
 				},
 				["Undercity"] = {

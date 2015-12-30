@@ -454,7 +454,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -465,7 +465,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -529,12 +529,12 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["CategoryID"] = "Accessory",
+				["ScriptID"] = "Caster",
 				["ScriptSettings"] = {
 					["DisableBG"] = false,
 					["DisablePVP"] = false,
 					["DisableInstance"] = false,
 				},
-				["ScriptID"] = "Caster",
 				["Name"] = "Druid: Caster Form",
 			}, -- [5]
 			{
@@ -615,9 +615,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["Name"] = "Riding",
-				["CategoryID"] = "Accessory",
 				["ScriptLockupCount"] = 0,
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
+				["CategoryID"] = "Accessory",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -625,12 +629,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
 				["ScriptID"] = "Riding",
+				["Name"] = "Riding",
 			}, -- [12]
 			{
 				["Items"] = {

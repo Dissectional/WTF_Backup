@@ -340,11 +340,11 @@ BeanCounterDB = {
 	},
 	["ItemIDArray"] = {
 		["6377:0"] = "cff1eff00;Formula: Enchant Boots - Minor Agility",
-		["12410:0"] = "cff1eff00;Thorium Helm",
+		["41599:0"] = "cff1eff00;Frostweave Bag",
 		["14496:0"] = "cff1eff00;Pattern: Felcloth Hood",
 		["6037:0"] = "cff1eff00;Truesilver Bar",
+		["12410:0"] = "cff1eff00;Thorium Helm",
 		["15747:0"] = "cff1eff00;Pattern: Frostsaber Leggings",
-		["41599:0"] = "cff1eff00;Frostweave Bag",
 		["3864:0"] = "cff1eff00;Citrine",
 	},
 	["PrimalWoW (Progressive)"] = {

@@ -63,7 +63,7 @@ DataStore_InventoryDB = {
 					[15] = 4920,
 				},
 				["averageItemLvl"] = 3.8,
-				["lastUpdate"] = 1451477329,
+				["lastUpdate"] = 1451480050,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Inventory"] = {
@@ -94,7 +94,7 @@ DataStore_InventoryDB = {
 					[4] = 6096,
 				},
 				["averageItemLvl"] = 1.25,
-				["lastUpdate"] = 1451477733,
+				["lastUpdate"] = 1451481005,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["Inventory"] = {
@@ -106,7 +106,7 @@ DataStore_InventoryDB = {
 					[10] = 4910,
 				},
 				["averageItemLvl"] = 5.6,
-				["lastUpdate"] = 1451477484,
+				["lastUpdate"] = 1451480601,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Inventory"] = {
@@ -156,7 +156,7 @@ DataStore_InventoryDB = {
 					[16] = 3277,
 				},
 				["averageItemLvl"] = 4.375,
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480988,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
 				["Inventory"] = {
@@ -168,7 +168,7 @@ DataStore_InventoryDB = {
 					[16] = 5776,
 				},
 				["averageItemLvl"] = 4.333333333333333,
-				["lastUpdate"] = 1451477239,
+				["lastUpdate"] = 1451480779,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["Inventory"] = {
@@ -243,7 +243,7 @@ DataStore_InventoryDB = {
 					[15] = 9761,
 				},
 				["averageItemLvl"] = 7.25,
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["Inventory"] = {
@@ -272,8 +272,8 @@ DataStore_InventoryDB = {
 		["Guilds"] = {
 			["Default.PrimalWoW (Progressive).Bloody Oath"] = {
 				["Members"] = {
-					["Suenami"] = {
-						["averageItemLvl"] = 22,
+					["Nickie"] = {
+						["averageItemLvl"] = 37,
 					},
 					["Dana"] = {
 						["averageItemLvl"] = 67,
@@ -281,8 +281,8 @@ DataStore_InventoryDB = {
 					["Lilleth"] = {
 						["averageItemLvl"] = 32,
 					},
-					["Polly"] = {
-						["averageItemLvl"] = 23,
+					["Suenami"] = {
+						["averageItemLvl"] = 22,
 					},
 					["Unbearabull"] = {
 						["averageItemLvl"] = 4,
@@ -293,8 +293,8 @@ DataStore_InventoryDB = {
 					["Mittens"] = {
 						["averageItemLvl"] = 7,
 					},
-					["Nickie"] = {
-						["averageItemLvl"] = 37,
+					["Polly"] = {
+						["averageItemLvl"] = 23,
 					},
 				},
 			},

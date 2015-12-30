@@ -36,12 +36,12 @@ DataStore_QuestsDB = {
 					[8326] = true,
 					[9216] = true,
 					[9207] = true,
-					[9363] = true,
+					[8474] = true,
 					[9066] = true,
 					[8463] = true,
 					[9360] = true,
 					[9212] = true,
-					[9488] = true,
+					[8472] = true,
 					[8325] = true,
 					[9215] = true,
 					[8327] = true,
@@ -50,25 +50,25 @@ DataStore_QuestsDB = {
 					[8330] = true,
 					[9220] = true,
 					[8473] = true,
-					[8474] = true,
+					[8347] = true,
 					[8334] = true,
 					[8335] = true,
 					[8336] = true,
 					[8488] = true,
 					[8338] = true,
-					[8894] = true,
+					[9275] = true,
 					[8884] = true,
 					[8468] = true,
 					[9358] = true,
 					[9359] = true,
 					[9487] = true,
-					[8345] = true,
+					[9488] = true,
 					[8346] = true,
-					[8347] = true,
+					[9363] = true,
 					[8475] = true,
 					[8476] = true,
 					[8350] = true,
-					[8885] = true,
+					[24882] = true,
 					[8479] = true,
 					[9877] = true,
 					[9394] = true,
@@ -91,10 +91,10 @@ DataStore_QuestsDB = {
 					[9133] = true,
 					[9134] = true,
 					[9135] = true,
-					[9148] = true,
-					[10166] = true,
+					[8894] = true,
+					[9277] = true,
 					[9138] = true,
-					[9139] = true,
+					[8885] = true,
 					[9140] = true,
 					[9395] = true,
 					[8888] = true,
@@ -103,9 +103,9 @@ DataStore_QuestsDB = {
 					[9145] = true,
 					[9146] = true,
 					[9274] = true,
-					[9275] = true,
-					[8895] = true,
-					[9150] = true,
+					[9148] = true,
+					[9149] = true,
+					[10166] = true,
 					[9151] = true,
 					[9152] = true,
 					[9035] = true,
@@ -133,19 +133,19 @@ DataStore_QuestsDB = {
 					[9175] = true,
 					[9176] = true,
 					[8490] = true,
-					[9277] = true,
-					[9149] = true,
+					[9150] = true,
+					[9276] = true,
 					[9180] = true,
 					[8891] = true,
 					[8890] = true,
 					[8889] = true,
-					[24882] = true,
-					[9276] = true,
+					[9139] = true,
+					[8895] = true,
 					[8491] = true,
 					[8480] = true,
 					[9315] = true,
 					[9062] = true,
-					[8472] = true,
+					[8345] = true,
 					[9064] = true,
 					[9192] = true,
 					[9193] = true,
@@ -172,8 +172,8 @@ DataStore_QuestsDB = {
 				["HistoryLastUpdate"] = 1451257589,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
-				["HistoryLastUpdate"] = 1451477328,
+				["lastUpdate"] = 1451480050,
+				["HistoryLastUpdate"] = 1451480486,
 				["QuestLinks"] = {
 					nil, -- [1]
 					"|cffffff00|Hquest:818:7|h[A Solvent Spirit]|h|r", -- [2]
@@ -227,7 +227,7 @@ DataStore_QuestsDB = {
 				["HistoryLastUpdate"] = 1451296326,
 				["History"] = {
 					[9705] = true,
-					[8347] = true,
+					[8474] = true,
 					[9199] = true,
 					[9327] = true,
 					[8325] = true,
@@ -238,9 +238,9 @@ DataStore_QuestsDB = {
 					[8345] = true,
 					[9207] = true,
 					[8346] = true,
-					[9363] = true,
+					[8347] = true,
 					[8480] = true,
-					[8894] = true,
+					[9148] = true,
 					[9212] = true,
 					[9758] = true,
 					[9214] = true,
@@ -255,7 +255,7 @@ DataStore_QuestsDB = {
 					[8334] = true,
 					[8335] = true,
 					[9352] = true,
-					[9140] = true,
+					[9394] = true,
 					[8338] = true,
 					[8887] = true,
 					[8890] = true,
@@ -265,7 +265,7 @@ DataStore_QuestsDB = {
 					[9360] = true,
 					[8472] = true,
 					[8473] = true,
-					[8474] = true,
+					[9363] = true,
 					[8475] = true,
 					[8476] = true,
 					[8477] = true,
@@ -276,7 +276,7 @@ DataStore_QuestsDB = {
 					[8482] = true,
 					[8483] = true,
 					[9119] = true,
-					[9148] = true,
+					[9275] = true,
 					[8486] = true,
 					[8487] = true,
 					[8488] = true,
@@ -296,7 +296,7 @@ DataStore_QuestsDB = {
 					[9155] = true,
 					[8884] = true,
 					[8885] = true,
-					[8886] = true,
+					[9140] = true,
 					[9395] = true,
 					[8888] = true,
 					[8889] = true,
@@ -304,7 +304,7 @@ DataStore_QuestsDB = {
 					[8891] = true,
 					[8892] = true,
 					[9147] = true,
-					[9275] = true,
+					[8894] = true,
 					[9276] = true,
 					[10166] = true,
 					[9151] = true,
@@ -339,7 +339,7 @@ DataStore_QuestsDB = {
 					[9180] = true,
 					[9143] = true,
 					[9690] = true,
-					[9394] = true,
+					[8886] = true,
 					[9277] = true,
 					[14081] = true,
 					[9253] = true,
@@ -382,7 +382,7 @@ DataStore_QuestsDB = {
 				["lastUpdate"] = 1451296473,
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["HistoryLastUpdate"] = 1451477735,
+				["HistoryLastUpdate"] = 1451481009,
 				["QuestLinks"] = {
 					[2] = "|cffffff00|Hquest:363:1|h[Rude Awakening]|h|r",
 				},
@@ -391,11 +391,11 @@ DataStore_QuestsDB = {
 					"0|Deathknell", -- [1]
 					"1||0|0|0", -- [2]
 				},
-				["lastUpdate"] = 1451477796,
+				["lastUpdate"] = 1451481005,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["HistoryBuild"] = "12340",
-				["HistoryLastUpdate"] = 1451477537,
+				["HistoryLastUpdate"] = 1451480760,
 				["QuestLinks"] = {
 					nil, -- [1]
 					"|cffffff00|Hquest:748:5|h[Poison Water]|h|r", -- [2]
@@ -410,7 +410,7 @@ DataStore_QuestsDB = {
 					[3] = "r|4960|25|1",
 					[8] = "c|4972|1|1,c|4973|1|1",
 				},
-				["lastUpdate"] = 1451477476,
+				["lastUpdate"] = 1451480601,
 				["HistorySize"] = 13,
 				["Quests"] = {
 					"0|Mulgore", -- [1]
@@ -783,7 +783,7 @@ DataStore_QuestsDB = {
 				["HistoryLastUpdate"] = 1451459261,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["HistoryLastUpdate"] = 1451479414,
+				["HistoryLastUpdate"] = 1451480976,
 				["History"] = {
 					[364] = true,
 					[380] = true,
@@ -808,7 +808,7 @@ DataStore_QuestsDB = {
 					"|cffff8040|Hquest:398:10|h[Wanted: Maggot Eye]|h|r", -- [7]
 				},
 				["HistorySize"] = 12,
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 				["Rewards"] = {
 					[3] = "r|3382|3|1",
 					[7] = "c|5941|1|0,c|3444|1|0",
@@ -825,10 +825,11 @@ DataStore_QuestsDB = {
 				["HistoryBuild"] = "12340",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["HistoryLastUpdate"] = 1451476897,
+				["HistoryLastUpdate"] = 1451480783,
 				["History"] = {
 					[757] = true,
 					[3376] = true,
+					[763] = true,
 					[750] = true,
 					[752] = true,
 					[3094] = true,
@@ -851,7 +852,7 @@ DataStore_QuestsDB = {
 					[4] = "r|4960|25|1",
 				},
 				["HistoryBuild"] = "12340",
-				["HistorySize"] = 10,
+				["HistorySize"] = 12,
 				["Quests"] = {
 					"0|Mulgore", -- [1]
 					"1||0|0|0", -- [2]
@@ -860,7 +861,7 @@ DataStore_QuestsDB = {
 					"1||0|250|0", -- [5]
 					"1||0|225|0", -- [6]
 				},
-				["lastUpdate"] = 1451477266,
+				["lastUpdate"] = 1451480779,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["HistoryBuild"] = "12340",
@@ -1270,7 +1271,7 @@ DataStore_QuestsDB = {
 					"|cffff8040|Hquest:354:11|h[Deaths in the Family]|h|r", -- [11]
 				},
 				["HistorySize"] = 18,
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 				["Rewards"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -1294,7 +1295,7 @@ DataStore_QuestsDB = {
 					"1||0|350|0", -- [10]
 					"1||0|400|0", -- [11]
 				},
-				["HistoryLastUpdate"] = 1451479449,
+				["HistoryLastUpdate"] = 1451480956,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["HistoryLastUpdate"] = 1451303260,

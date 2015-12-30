@@ -3295,7 +3295,7 @@ TitanSettings = {
 			},
 		},
 	},
-	["Player"] = "Mittens@PrimalWoW (Progressive)",
+	["Player"] = "Nerfed@PrimalWoW (Progressive)",
 	["Version"] = "4.3.8.30300",
 }
 TitanSkins = {

@@ -48,7 +48,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477329,
+				["lastUpdate"] = 1451480050,
 				["Stats"] = {
 					["Ranged"] = "13-19|1.9990000949474|30|0|6.2380003929138",
 					["Spell"] = "0|0|0|4.7449998855591|0|22",
@@ -76,7 +76,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477733,
+				["lastUpdate"] = 1451481005,
 				["Stats"] = {
 					["Ranged"] = "2-4|2.0000000949949|8|0|4.6454005241394",
 					["Spell"] = "0|0|0|4.3452000617981|0|38",
@@ -90,7 +90,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477484,
+				["lastUpdate"] = 1451480601,
 				["Stats"] = {
 					["Ranged"] = "2-4|2.0000000949949|13|0|6.2642998695374",
 					["Spell"] = "0|0|0|0|0|0",
@@ -132,21 +132,21 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480988,
 				["Stats"] = {
 					["Ranged"] = "2-4|2.0000000949949|10|0|3.5840001106262",
 					["Spell"] = "0|0|0|4.8772001266479|0|31",
 					["Melee"] = "8-12|2.9000001377426|10|0|4.1040000915527|0",
 					["MaxPower"] = "0|236",
 					["PVP"] = "0|0|0|0",
-					["HealthMax"] = 138,
+					["HealthMax"] = 158,
 					["Resistances"] = "0|0|0|0|0|0",
 					["Base"] = "20|20|25|26|33|78",
 					["Defense"] = "78|24|4.0047001838684|0|0|0",
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451477239,
+				["lastUpdate"] = 1451480779,
 				["Stats"] = {
 					["Ranged"] = "2-3|2.0000000949949|7|0|8.4270992279053",
 					["Spell"] = "0|0|0|4.3945999145508|0|27",
@@ -202,7 +202,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 				["Stats"] = {
 					["Ranged"] = "2-4|2.0000000949949|9|0|3.4257001876831",
 					["Spell"] = "0|0|0|4.8691000938416|0|32",

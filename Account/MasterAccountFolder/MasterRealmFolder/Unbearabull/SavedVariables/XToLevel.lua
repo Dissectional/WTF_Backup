@@ -41,26 +41,6 @@ sConfig = {
 	["ldb"] = {
 		["showLabel"] = false,
 		["showIcon"] = true,
-		["text"] = {
-			["bgo"] = false,
-			["restedp"] = true,
-			["petxpnum"] = true,
-			["kills"] = true,
-			["petxp"] = true,
-			["xpnum"] = true,
-			["rested"] = true,
-			["pet"] = true,
-			["xp"] = true,
-			["dungeons"] = true,
-			["colorValues"] = true,
-			["xpCountdown"] = false,
-			["xpAsBars"] = false,
-			["xpnumFormat"] = true,
-			["timer"] = true,
-			["verbose"] = true,
-			["quests"] = true,
-			["bgs"] = true,
-		},
 		["allowTextColor"] = true,
 		["tooltip"] = {
 			["showPetInfo"] = true,
@@ -69,6 +49,26 @@ sConfig = {
 			["showDungeonInfo"] = true,
 			["showBGInfo"] = true,
 			["showDetails"] = true,
+		},
+		["text"] = {
+			["bgo"] = false,
+			["restedp"] = true,
+			["petxpnum"] = true,
+			["kills"] = true,
+			["petxp"] = true,
+			["xpnum"] = true,
+			["rested"] = true,
+			["xp"] = true,
+			["verbose"] = true,
+			["dungeons"] = true,
+			["colorValues"] = true,
+			["xpCountdown"] = false,
+			["xpAsBars"] = false,
+			["xpnumFormat"] = true,
+			["timer"] = true,
+			["pet"] = true,
+			["quests"] = true,
+			["bgs"] = true,
 		},
 		["textPattern"] = "default",
 		["showText"] = true,
@@ -95,10 +95,10 @@ sConfig = {
 				0.73, -- [2]
 				1, -- [3]
 			},
-			["playerBattleground"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
+			["playerLevel"] = {
+				0.35, -- [1]
+				1, -- [2]
+				0.35, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -110,10 +110,10 @@ sConfig = {
 				0.75, -- [2]
 				0.35, -- [3]
 			},
-			["playerLevel"] = {
-				0.35, -- [1]
-				1, -- [2]
-				0.35, -- [3]
+			["playerBattleground"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
 			},
 		},
 	},
@@ -315,9 +315,9 @@ sData = {
 			}, -- [44]
 		},
 		["timer"] = {
-			["start"] = 1451476892,
-			["total"] = 495,
-			["xpPerSec"] = 1.195652173913044,
+			["start"] = 1451480778,
+			["total"] = 0,
+			["xpPerSec"] = 2.6875,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {

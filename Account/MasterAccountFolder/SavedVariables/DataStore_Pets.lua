@@ -31,7 +31,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
+				["lastUpdate"] = 1451480050,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1451295516,
@@ -44,10 +44,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477581,
+				["lastUpdate"] = 1451481005,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477476,
+				["lastUpdate"] = 1451480601,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["lastUpdate"] = 1451386721,
@@ -65,10 +65,10 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1451459163,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451475137,
+				["lastUpdate"] = 1451480779,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302134,
@@ -80,7 +80,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1451257482,
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451303045,

@@ -15,9 +15,9 @@ W: 365
 H: 200
 Frame: TourGuideItemFrame
 FrameLevel: 1
-Anchor: BOTTOMLEFT
-X: 389
-Y: 186
+Anchor: RIGHT
+X: -254
+Y: 184
 W: 36
 H: 36
 Frame: SilverDragonPopupButton
@@ -42,7 +42,7 @@ Y: -231
 W: 25
 H: 25
 Frame: Recount_MainWindow
-FrameLevel: 22
+FrameLevel: 30
 Anchor: BOTTOMRIGHT
 X: -7
 Y: 30

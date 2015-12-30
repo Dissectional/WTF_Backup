@@ -73,7 +73,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451477324,
+				["lastUpdate"] = 1451480050,
 				["Skills"] = {
 					["Languages"] = {
 						["Language: Troll"] = "300|300",
@@ -85,11 +85,11 @@ DataStore_SkillsDB = {
 					},
 					["Weapon Skills"] = {
 						["Defense"] = "14|25",
-						["Unarmed"] = "1|25",
 						["Swords"] = "1|25",
-						["Daggers"] = "1|25",
+						["Unarmed"] = "1|25",
 						["Bows"] = "12|25",
 						["Axes"] = "1|25",
+						["Daggers"] = "1|25",
 						["Two-Handed Axes"] = "15|25",
 					},
 					["Class Skills"] = {
@@ -136,7 +136,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451477581,
+				["lastUpdate"] = 1451481005,
 				["Skills"] = {
 					["Languages"] = {
 						["Language: Orcish"] = "300|300",
@@ -159,7 +159,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451477476,
+				["lastUpdate"] = 1451480601,
 				["Skills"] = {
 					["Languages"] = {
 						["Language: Taurahe"] = "300|300",
@@ -167,22 +167,22 @@ DataStore_SkillsDB = {
 					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
-						["Shield"] = "1|1",
-						["Mail"] = "1|1",
 						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Shield"] = "1|1",
 					},
 					["Class Skills"] = {
 						["Fury"] = "1|1",
-						["Protection"] = "1|1",
 						["Arms"] = "1|1",
+						["Protection"] = "1|1",
 					},
 					["Weapon Skills"] = {
 						["Two-Handed Maces"] = "20|25",
 						["Defense"] = "21|25",
-						["Unarmed"] = "1|25",
 						["Swords"] = "1|25",
-						["Axes"] = "1|25",
+						["Unarmed"] = "1|25",
 						["Maces"] = "1|25",
+						["Axes"] = "1|25",
 						["Two-Handed Swords"] = "1|25",
 						["Two-Handed Axes"] = "1|25",
 					},
@@ -260,7 +260,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451479409,
+				["lastUpdate"] = 1451480971,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["First Aid"] = "1|75",
@@ -287,7 +287,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451476706,
+				["lastUpdate"] = 1451480779,
 				["Skills"] = {
 					["Languages"] = {
 						["Language: Taurahe"] = "300|300",
@@ -303,10 +303,10 @@ DataStore_SkillsDB = {
 						["Feral Combat"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Defense"] = "20|5",
-						["Maces"] = "1|5",
-						["Staves"] = "7|5",
-						["Unarmed"] = "1|5",
+						["Defense"] = "20|25",
+						["Maces"] = "1|25",
+						["Staves"] = "7|25",
+						["Unarmed"] = "1|25",
 					},
 				},
 			},
@@ -409,7 +409,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451479445,
+				["lastUpdate"] = 1451480858,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["First Aid"] = "1|75",

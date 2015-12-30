@@ -66,15 +66,16 @@ AUCTIONATOR_TOONS = {
 	["Nerfed"] = {
 		["firstSeen"] = 1451477580,
 		["firstVersion"] = "2.6.3",
-		["guid"] = "0x0000000000010030",
 	},
 	["Wajawamedo"] = {
 		["firstSeen"] = 1451450025,
+		["guid"] = "0x000000000001000D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Mittens"] = {
 		["firstSeen"] = 1451458371,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x000000000001001E",
 	},
 	["Cryogenics"] = {
 		["firstSeen"] = 1450617047,
@@ -92,7 +93,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Unbearabull"] = {
 		["firstSeen"] = 1451474148,
-		["guid"] = "0x000000000001002E",
 		["firstVersion"] = "2.6.3",
 	},
 	["Lichmydk"] = {
@@ -102,8 +102,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Wafflestomp"] = {
 		["firstSeen"] = 1451458971,
-		["firstVersion"] = "2.6.3",
 		["guid"] = "0x000000000001001F",
+		["firstVersion"] = "2.6.3",
 	},
 	["Saptack"] = {
 		["firstSeen"] = 1451459162,

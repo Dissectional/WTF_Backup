@@ -19,7 +19,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "H40LLLA44HYB31MAMHOL",
+			["Lola"] = "M39SYLG10MTQ31VBGMOY",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
