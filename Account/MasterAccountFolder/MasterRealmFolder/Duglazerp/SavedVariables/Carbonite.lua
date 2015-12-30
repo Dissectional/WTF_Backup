@@ -1,0 +1,28 @@
+
+NxCData = {
+	["Version"] = 0.1,
+	["Taxi"] = {
+		["Crossroads"] = true,
+		["Ulduar"] = true,
+		["Transitus Shield"] = true,
+		["Ratchet"] = true,
+		["Venomspite"] = true,
+		["Conquest Hold"] = true,
+		["Argent Tournament Grounds"] = true,
+		["Dalaran"] = true,
+		["Orgrimmar"] = true,
+		["Agmar's Hammer"] = true,
+		["Vengeance Landing"] = true,
+		["Warsong Hold"] = true,
+		["Bor'gorok Outpost"] = true,
+		["Amber Ledge"] = true,
+		["K3"] = true,
+		["Taunka'le Village"] = true,
+		["Wyrmrest Temple"] = true,
+		["Bouldercrag's Refuge"] = true,
+		["Thunder Bluff"] = true,
+		["Camp Taurajo"] = true,
+		["Moa'ki"] = true,
+		["Camp Oneqwah"] = true,
+	},
+}

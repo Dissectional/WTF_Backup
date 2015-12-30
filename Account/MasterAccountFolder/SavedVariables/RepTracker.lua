@@ -1,0 +1,47 @@
+
+RepTrackerDB = {
+	["profileKeys"] = {
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
+		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
+	},
+	["faction"] = {
+		["Horde"] = {
+			["lastWatched"] = 7,
+			["sticky"] = false,
+			["ZoneToFaction"] = {
+				["Undercity"] = "undercity",
+				["Dragonblight"] = "warsong offensive",
+				["Pit of Saron"] = "warsong offensive",
+				["Mulgore"] = "thunder bluff",
+				["Borean Tundra"] = "the wyrmrest accord",
+				["Durotar"] = "darkspear trolls",
+				["Thunder Bluff"] = "thunder bluff",
+				["The Barrens"] = "darkspear trolls",
+				["Eversong Woods"] = "silvermoon city",
+				["Silvermoon City"] = "silvermoon city",
+				["Dalaran"] = "kirin tor",
+				["Ghostlands"] = "tranquillien",
+				["Orgrimmar"] = "orgrimmar",
+			},
+			["factions"] = {
+				["undercity"] = 7,
+				["darkspear trolls"] = 3,
+				["thunder bluff"] = 6,
+				["orgrimmar"] = 4,
+				["silvermoon city"] = 5,
+				["none"] = 0,
+			},
+		},
+	},
+}
