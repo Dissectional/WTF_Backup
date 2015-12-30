@@ -26,9 +26,17 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
 		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+			["AlwaysShow"] = false,
+			["Class"] = "PRIEST",
+		},
 		["Pastafarian - TrueWoW"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "PRIEST",
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["AlwaysShow"] = false,
+			["Class"] = "DRUID",
 		},
 		["Ellipsis - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -42,13 +50,13 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "MAGE",
 		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+			["AlwaysShow"] = false,
+			["Class"] = "MAGE",
+		},
 		["Iamsham - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "SHAMAN",
-		},
-		["Mittens - PrimalWoW (Progressive)"] = {
-			["AlwaysShow"] = false,
-			["Class"] = "PRIEST",
 		},
 		["Magistratus - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -58,10 +66,10 @@ SavedInstancesDB = {
 	["Lockouts"] = {
 	},
 	["Tooltip"] = {
-		["Details"] = false,
-		["CategorySort"] = "EXPANSION",
-		["RecentHistory"] = false,
 		["ReverseInstances"] = false,
+		["CategorySort"] = "EXPANSION",
+		["ShowSoloCategory"] = false,
+		["Details"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -70,14 +78,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["ShowSoloCategory"] = false,
+		["RecentHistory"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Keep"] = {
@@ -89,8 +97,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Stone"] = {
-			["LFDID"] = 208,
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -107,8 +115,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Utgarde Pinnacle"] = {
-			["LFDID"] = 203,
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -116,8 +124,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Lightning"] = {
-			["LFDID"] = 207,
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -170,8 +178,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Utgarde Pinnacle"] = {
+			["LFDID"] = 203,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -223,14 +231,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
+		["D2Text"] = "5+",
+		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D1Text"] = "5",
-		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

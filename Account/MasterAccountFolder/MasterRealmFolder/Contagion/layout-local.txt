@@ -20,6 +20,13 @@ X: 389
 Y: 186
 W: 36
 H: 36
+Frame: NxQuestWatch
+FrameLevel: 1
+Anchor: RIGHT
+X: -78
+Y: 199
+W: 282
+H: 19
 Frame: SilverDragonPopupButton
 FrameLevel: 0
 Anchor: RIGHT
@@ -42,7 +49,7 @@ Y: -231
 W: 25
 H: 25
 Frame: Recount_MainWindow
-FrameLevel: 19
+FrameLevel: 22
 Anchor: BOTTOMRIGHT
 X: -7
 Y: 30

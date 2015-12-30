@@ -7,16 +7,21 @@ DataStore_PetsDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459314,
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1451257585,
 				["CRITTER"] = {
@@ -24,6 +29,9 @@ DataStore_PetsDB = {
 					"21064|Red Dragonhawk Hatchling|36028|Ability_Hunter_Pet_DragonHawk", -- [2]
 					"21063|Silver Dragonhawk Hatchling|36029|Ability_Hunter_Pet_DragonHawk", -- [3]
 				},
+			},
+			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["lastUpdate"] = 1451477324,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1451295516,
@@ -35,11 +43,11 @@ DataStore_PetsDB = {
 					"20029|Thalassian Warhorse|34769|Spell_Nature_Swiftness", -- [5]
 				},
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1451459163,
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1451477581,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451462775,
+				["lastUpdate"] = 1451477476,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["lastUpdate"] = 1451386721,
@@ -53,23 +61,26 @@ DataStore_PetsDB = {
 					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
 				},
 			},
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1451459163,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451459450,
+				["lastUpdate"] = 1451479409,
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1451257659,
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1451475137,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302134,
 			},
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1451257659,
+			},
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1451257482,
+			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451464759,
+				["lastUpdate"] = 1451479445,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451303045,

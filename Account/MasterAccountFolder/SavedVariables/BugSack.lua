@@ -1,9 +1,9 @@
 
 BugSackDB = {
-	["auto"] = false,
 	["soundMedia"] = "BugSack: Fatality",
-	["mute"] = false,
 	["filterAddonMistakes"] = true,
+	["mute"] = false,
+	["auto"] = false,
 	["chatframe"] = false,
 }
 BugSackLDBIconDB = {

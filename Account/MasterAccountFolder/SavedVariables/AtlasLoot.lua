@@ -8,12 +8,14 @@ AtlasLootDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -37,7 +39,13 @@ AtlasLootDB = {
 			["ItemSpam"] = true,
 			["AtlasType"] = "Unknown",
 		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+			["AtlasType"] = "Unknown",
+		},
 		["Pastafarian - TrueWoW"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Ellipsis - TrueWoW"] = {
@@ -49,10 +57,10 @@ AtlasLootDB = {
 		["Cryogenics - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Iamsham - PrimalWoW (Progressive)"] = {
+		["Nerfed - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Magistratus - TrueWoW"] = {
@@ -73,19 +81,19 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Magistratus"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
 		["Contagion"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+		},
+		["Magistratus"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -101,12 +109,26 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Wafflestomp"] = {
+		["Nerfed"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+		},
+		["Wajawamedo"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Mittens"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Cryogenics"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -129,12 +151,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Wajawamedo"] = {
+		["Unbearabull"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Lichmydk"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -143,12 +165,12 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Mittens"] = {
+		["Wafflestomp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Saptack"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -163,9 +185,9 @@ AtlasLootWishList = {
 	["Own"] = {
 		["Shiftace"] = {
 		},
-		["Magistratus"] = {
-		},
 		["Contagion"] = {
+		},
+		["Magistratus"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -219,7 +241,11 @@ AtlasLootWishList = {
 		},
 		["Pastafarian"] = {
 		},
-		["Wafflestomp"] = {
+		["Nerfed"] = {
+		},
+		["Wajawamedo"] = {
+		},
+		["Mittens"] = {
 		},
 		["Cryogenics"] = {
 		},
@@ -227,11 +253,11 @@ AtlasLootWishList = {
 		},
 		["Ellipsis"] = {
 		},
-		["Wajawamedo"] = {
+		["Unbearabull"] = {
 		},
 		["Lichmydk"] = {
 		},
-		["Mittens"] = {
+		["Wafflestomp"] = {
 		},
 		["Saptack"] = {
 		},

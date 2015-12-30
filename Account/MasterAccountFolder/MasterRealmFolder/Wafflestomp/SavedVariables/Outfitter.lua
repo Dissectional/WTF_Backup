@@ -593,7 +593,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -604,7 +604,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -660,13 +660,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Riding",
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
+				["Name"] = "Riding",
+				["ScriptID"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -674,8 +674,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["Name"] = "Riding",
 				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Accessory",
 			}, -- [3]
 			{
 				["Items"] = {

@@ -7,12 +7,14 @@ Postal3DB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -23,9 +25,11 @@ Postal3DB = {
 				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [3]
 				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [4]
 				"Magistratus|TrueWoW|Horde|19|PALADIN", -- [5]
-				"Pastafarian|TrueWoW|Horde|15|PRIEST", -- [6]
-				"Shiftace|TrueWoW|Horde|18|DRUID", -- [7]
-				"Wafflestomp|PrimalWoW (Progressive)|Horde|5|WARRIOR", -- [8]
+				"Mittens|PrimalWoW (Progressive)|Horde|7|PRIEST", -- [6]
+				"Pastafarian|TrueWoW|Horde|15|PRIEST", -- [7]
+				"Shiftace|TrueWoW|Horde|18|DRUID", -- [8]
+				"Unbearabull|PrimalWoW (Progressive)|Horde|5|DRUID", -- [9]
+				"Wafflestomp|PrimalWoW (Progressive)|Horde|5|WARRIOR", -- [10]
 			},
 		},
 	},
@@ -58,12 +62,16 @@ Postal3DB = {
 				},
 			},
 		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+		},
 		["Pastafarian - TrueWoW"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Ellipsis", -- [1]
 				},
 			},
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
@@ -77,9 +85,9 @@ Postal3DB = {
 				},
 			},
 		},
-		["Iamsham - PrimalWoW (Progressive)"] = {
+		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 			["BlackBook"] = {

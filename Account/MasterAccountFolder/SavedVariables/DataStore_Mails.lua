@@ -7,12 +7,14 @@ DataStore_MailsDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -184,6 +186,10 @@ DataStore_MailsDB = {
 					}, -- [5]
 				},
 				["lastVisitDate"] = "2015/12/29 23:13",
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1451477226,
+				["lastVisitDate"] = "2015/12/31 01:07",
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["lastUpdate"] = 1451295200,
@@ -1074,6 +1080,10 @@ DataStore_MailsDB = {
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451302434,
 				["lastVisitDate"] = "2015/12/29 00:33",
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1451470828,
+				["lastVisitDate"] = "2015/12/30 23:20",
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["lastUpdate"] = 1451462316,

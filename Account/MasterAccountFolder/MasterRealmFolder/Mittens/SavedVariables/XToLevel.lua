@@ -43,6 +43,26 @@ sConfig = {
 		["showIcon"] = true,
 		["showText"] = true,
 		["textPattern"] = "default",
+		["text"] = {
+			["bgo"] = false,
+			["restedp"] = true,
+			["petxpnum"] = true,
+			["kills"] = true,
+			["petxp"] = true,
+			["bgs"] = true,
+			["quests"] = true,
+			["verbose"] = true,
+			["pet"] = true,
+			["dungeons"] = true,
+			["colorValues"] = true,
+			["xpnumFormat"] = true,
+			["xpAsBars"] = false,
+			["xpCountdown"] = false,
+			["timer"] = true,
+			["xp"] = true,
+			["rested"] = true,
+			["xpnum"] = true,
+		},
 		["tooltip"] = {
 			["showPetInfo"] = true,
 			["showExperience"] = true,
@@ -52,26 +72,6 @@ sConfig = {
 			["showDungeonInfo"] = true,
 		},
 		["allowTextColor"] = true,
-		["text"] = {
-			["bgo"] = false,
-			["restedp"] = true,
-			["petxpnum"] = true,
-			["kills"] = true,
-			["petxp"] = true,
-			["bgs"] = true,
-			["quests"] = true,
-			["xp"] = true,
-			["verbose"] = true,
-			["dungeons"] = true,
-			["colorValues"] = true,
-			["xpnumFormat"] = true,
-			["xpAsBars"] = false,
-			["xpCountdown"] = false,
-			["timer"] = true,
-			["pet"] = true,
-			["rested"] = true,
-			["xpnum"] = true,
-		},
 	},
 	["messages"] = {
 		["playerFloating"] = true,
@@ -121,242 +121,442 @@ sConfig = {
 sData = {
 	["player"] = {
 		["questList"] = {
-			450, -- [1]
-			450, -- [2]
-			320, -- [3]
-			320, -- [4]
-			170, -- [5]
-			220, -- [6]
-			40, -- [7]
+			160, -- [1]
+			550, -- [2]
+			625, -- [3]
+			700, -- [4]
+			410, -- [5]
+			55, -- [6]
+			110, -- [7]
+			110, -- [8]
+			230, -- [9]
+			340, -- [10]
+			45, -- [11]
+			45, -- [12]
+			65, -- [13]
+			45, -- [14]
+			675, -- [15]
+			360, -- [16]
+			450, -- [17]
+			450, -- [18]
+			320, -- [19]
+			320, -- [20]
+			170, -- [21]
+			220, -- [22]
+			40, -- [23]
 		},
-		["killAverage"] = 56.2,
+		["killAverage"] = 72.8,
 		["killList"] = {
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 65,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 75,
 			}, -- [1]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 75,
 			}, -- [2]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 65,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 75,
 			}, -- [3]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 75,
 			}, -- [4]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 52,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 79,
 			}, -- [5]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 60,
 			}, -- [6]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 75,
 			}, -- [7]
 			{
-				["mob"] = "Samuel Fipps",
-				["xp"] = 68,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 75,
 			}, -- [8]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Lost Soul",
+				["xp"] = 79,
 			}, -- [9]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 60,
 			}, -- [10]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 75,
 			}, -- [11]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Rotting Dead",
+				["xp"] = 60,
 			}, -- [12]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 65,
+				["mob"] = "Rotting Dead",
+				["xp"] = 60,
 			}, -- [13]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 39,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 79,
 			}, -- [14]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 79,
 			}, -- [15]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Ravaged Corpse",
+				["xp"] = 75,
 			}, -- [16]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Rotting Dead",
+				["xp"] = 61,
 			}, -- [17]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 75,
 			}, -- [18]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Cursed Darkhound",
+				["xp"] = 83,
 			}, -- [19]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 75,
 			}, -- [20]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 75,
 			}, -- [21]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 48,
+				["mob"] = "Bayne",
+				["xp"] = 90,
 			}, -- [22]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 48,
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 60,
 			}, -- [23]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 75,
 			}, -- [24]
 			{
-				["mob"] = "Rattlecage Skeleton",
+				["mob"] = "Decrepit Darkhound",
 				["xp"] = 60,
 			}, -- [25]
 			{
-				["mob"] = "Rattlecage Skeleton",
+				["mob"] = "Decrepit Darkhound",
 				["xp"] = 60,
 			}, -- [26]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 75,
 			}, -- [27]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 75,
 			}, -- [28]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 75,
 			}, -- [29]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 75,
 			}, -- [30]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 75,
 			}, -- [31]
+			{
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 79,
+			}, -- [32]
+			{
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 79,
+			}, -- [33]
+			{
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 79,
+			}, -- [34]
+			{
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 79,
+			}, -- [35]
+			{
+				["mob"] = "Scarlet Warrior",
+				["xp"] = 79,
+			}, -- [36]
+			{
+				["mob"] = "Tirisfal Farmhand",
+				["xp"] = 60,
+			}, -- [37]
+			{
+				["mob"] = "Farmer Solliden",
+				["xp"] = 83,
+			}, -- [38]
+			{
+				["mob"] = "Tirisfal Farmer",
+				["xp"] = 75,
+			}, -- [39]
+			{
+				["mob"] = "Tirisfal Farmhand",
+				["xp"] = 60,
+			}, -- [40]
+			{
+				["mob"] = "Tirisfal Farmer",
+				["xp"] = 75,
+			}, -- [41]
+			{
+				["mob"] = "Greater Duskbat",
+				["xp"] = 77,
+			}, -- [42]
+			{
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 70,
+			}, -- [43]
+			{
+				["mob"] = "Decrepit Darkhound",
+				["xp"] = 70,
+			}, -- [44]
+			{
+				["mob"] = "Greater Duskbat",
+				["xp"] = 74,
+			}, -- [45]
+			{
+				["mob"] = "Greater Duskbat",
+				["xp"] = 74,
+			}, -- [46]
+			{
+				["mob"] = "Greater Duskbat",
+				["xp"] = 74,
+			}, -- [47]
+			{
+				["mob"] = "Meven Korgal",
+				["xp"] = 70,
+			}, -- [48]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [49]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [50]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 56,
+			}, -- [51]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [52]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 56,
+			}, -- [53]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [54]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 56,
+			}, -- [55]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [56]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 42,
+			}, -- [57]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 53,
+			}, -- [58]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 65,
+			}, -- [59]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 52,
+			}, -- [60]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 65,
+			}, -- [61]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 52,
+			}, -- [62]
+			{
+				["mob"] = "Scarlet Initiate",
+				["xp"] = 52,
+			}, -- [63]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 52,
+			}, -- [64]
+			{
+				["mob"] = "Scarlet Convert",
+				["xp"] = 52,
+			}, -- [65]
+			{
+				["mob"] = "Samuel Fipps",
+				["xp"] = 68,
+			}, -- [66]
+			{
+				["mob"] = "Night Web Spider",
+				["xp"] = 52,
+			}, -- [67]
+			{
+				["mob"] = "Night Web Spider",
+				["xp"] = 52,
+			}, -- [68]
+			{
+				["mob"] = "Night Web Spider",
+				["xp"] = 52,
+			}, -- [69]
+			{
+				["mob"] = "Night Web Spider",
+				["xp"] = 52,
+			}, -- [70]
+			{
+				["mob"] = "Night Web Spider",
+				["xp"] = 65,
+			}, -- [71]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 39,
+			}, -- [72]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 52,
+			}, -- [73]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 60,
+			}, -- [74]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 48,
+			}, -- [75]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 60,
+			}, -- [76]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 60,
+			}, -- [77]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 48,
+			}, -- [78]
+			{
+				["mob"] = "Young Night Web Spider",
+				["xp"] = 48,
+			}, -- [79]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 48,
-			}, -- [32]
+			}, -- [80]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 48,
+			}, -- [81]
 			{
 				["mob"] = "Rattlecage Skeleton",
 				["xp"] = 60,
-			}, -- [33]
+			}, -- [82]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 60,
+			}, -- [83]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 60,
+			}, -- [84]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 60,
+			}, -- [85]
+			{
+				["mob"] = "Young Scavenger",
+				["xp"] = 36,
+			}, -- [86]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 60,
+			}, -- [87]
+			{
+				["mob"] = "Young Scavenger",
+				["xp"] = 36,
+			}, -- [88]
+			{
+				["mob"] = "Young Scavenger",
+				["xp"] = 36,
+			}, -- [89]
+			{
+				["mob"] = "Duskbat",
+				["xp"] = 48,
+			}, -- [90]
+			{
+				["mob"] = "Rattlecage Skeleton",
+				["xp"] = 60,
+			}, -- [91]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 55,
-			}, -- [34]
+			}, -- [92]
 			{
 				["mob"] = "Rattlecage Skeleton",
 				["xp"] = 58,
-			}, -- [35]
+			}, -- [93]
 			{
 				["mob"] = "Young Scavenger",
 				["xp"] = 44,
-			}, -- [36]
+			}, -- [94]
 			{
 				["mob"] = "Young Scavenger",
 				["xp"] = 44,
-			}, -- [37]
+			}, -- [95]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 44,
-			}, -- [38]
+			}, -- [96]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 55,
-			}, -- [39]
+			}, -- [97]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 44,
-			}, -- [40]
+			}, -- [98]
 			{
 				["mob"] = "Young Scavenger",
 				["xp"] = 44,
-			}, -- [41]
+			}, -- [99]
 			{
 				["mob"] = "Duskbat",
 				["xp"] = 55,
-			}, -- [42]
-			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 44,
-			}, -- [43]
-			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 44,
-			}, -- [44]
-			{
-				["mob"] = "Wretched Ghoul",
-				["xp"] = 55,
-			}, -- [45]
-			{
-				["mob"] = "Wretched Ghoul",
-				["xp"] = 55,
-			}, -- [46]
-			{
-				["mob"] = "Mindless Zombie",
-				["xp"] = 50,
-			}, -- [47]
-			{
-				["mob"] = "Wretched Ghoul",
-				["xp"] = 50,
-			}, -- [48]
-			{
-				["mob"] = "Mindless Zombie",
-				["xp"] = 50,
-			}, -- [49]
-			{
-				["mob"] = "Wretched Ghoul",
-				["xp"] = 50,
-			}, -- [50]
-			{
-				["mob"] = "Mindless Zombie",
-				["xp"] = 50,
-			}, -- [51]
-			{
-				["mob"] = "Wretched Ghoul",
-				["xp"] = 50,
-			}, -- [52]
-			{
-				["mob"] = "Mindless Zombie",
-				["xp"] = 50,
-			}, -- [53]
-			{
-				["mob"] = "Mindless Zombie",
-				["xp"] = 51,
-			}, -- [54]
+			}, -- [100]
 		},
 		["timer"] = {
-			["start"] = 1451466010,
+			["start"] = 1451479444,
 			["total"] = 0,
-			["xpPerSec"] = 4.028716216216216,
+			["xpPerSec"] = 4.549450549450549,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {
 		},
-		["questAverage"] = 281.4285714285714,
+		["questAverage"] = 329,
 		["bgList"] = {
 		},
 	},

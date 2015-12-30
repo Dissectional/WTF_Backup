@@ -25,9 +25,11 @@ FriendShare_Alts = {
 		["Pastafarian"] = "Pastafarian",
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+		["Wafflestomp"] = "Wafflestomp",
 		["Contagion"] = "Contagion",
 		["Iamsham"] = "Iamsham",
-		["Wafflestomp"] = "Wafflestomp",
+		["Nerfed"] = "Nerfed",
+		["Unbearabull"] = "Unbearabull",
 		["Saptack"] = "Saptack",
 		["Mittens"] = "Mittens",
 		["Wajawamedo"] = "Wajawamedo",

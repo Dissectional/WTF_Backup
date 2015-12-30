@@ -50,10 +50,10 @@ AucAdvancedData = {
 			["general.name"] = "bag",
 			["columnsortcurSort"] = 2,
 			["resale.profit.min"] = 100000,
-			["resale.allow.bid"] = false,
+			["columnsortcurDir"] = 1,
 			["snatch.itemsList"] = {
 			},
-			["columnsortcurDir"] = 1,
+			["resale.allow.bid"] = false,
 			["snatch.columnsortcurDir"] = 1,
 			["milling.allow.bid"] = false,
 			["snatch.columnsortcurSort"] = 1,

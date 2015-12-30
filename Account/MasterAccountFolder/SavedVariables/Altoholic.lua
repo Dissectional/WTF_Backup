@@ -7,17 +7,19 @@ AltoholicDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "L12RVLO00ZUK30XVJLOV",
+			["Lola"] = "H40LLLA44HYB31MAMHOL",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 		},
@@ -41,6 +43,11 @@ AltoholicDB = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["Calendar"] = {
+					"2016-01-09|02:30|Raid|1|8", -- [1]
 				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {

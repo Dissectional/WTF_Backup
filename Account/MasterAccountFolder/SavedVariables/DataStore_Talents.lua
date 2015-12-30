@@ -7,16 +7,35 @@ DataStore_TalentsDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459314,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["Glyphs"] = {
 					"1|1|||0", -- [1]
@@ -44,6 +63,23 @@ DataStore_TalentsDB = {
 					},
 				},
 				["PointsSpent"] = "0,0,10,0,0,0",
+			},
+			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["lastUpdate"] = 1451477324,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Glyphs"] = {
@@ -73,8 +109,8 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "0,11,0,0,0,0",
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1451459163,
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1451477581,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -91,7 +127,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451462775,
+				["lastUpdate"] = 1451477476,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -193,8 +229,8 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "15,5,51,3,68,0",
 			},
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1451459163,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -211,7 +247,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451459450,
+				["lastUpdate"] = 1451479409,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -226,6 +262,71 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [11]
 					"0|0|||0", -- [12]
 				},
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1451475137,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.TrueWoW.Lichmydk"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1451300494,
+				["Class"] = "DEATHKNIGHT",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1451257659,
+				["Class"] = "DRUID",
+				["TalentTrees"] = {
+					["Feral Combat|1"] = {
+						5, -- [1]
+						nil, -- [2]
+						2, -- [3]
+						2, -- [4]
+					},
+				},
+				["PointsSpent"] = "0,9,0,0,0,0",
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Glyphs"] = {
@@ -259,56 +360,8 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "6,3,0,0,0,0",
 			},
-			["Default.TrueWoW.Shiftace"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1451257659,
-				["Class"] = "DRUID",
-				["TalentTrees"] = {
-					["Feral Combat|1"] = {
-						5, -- [1]
-						nil, -- [2]
-						2, -- [3]
-						2, -- [4]
-					},
-				},
-				["PointsSpent"] = "0,9,0,0,0,0",
-			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"1|2|||0", -- [3]
-					"1|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1451300494,
-				["Class"] = "DEATHKNIGHT",
-				["PointsSpent"] = "0,0,0,0,0,0",
-			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451464759,
+				["lastUpdate"] = 1451479445,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -364,12 +417,14 @@ DataStore_TalentsRefDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -1093,8 +1148,8 @@ DataStore_TalentsRefDB = {
 						[17] = "4|2",
 						[11] = "3|3",
 						[27] = "9|2",
-						[29] = "10|2",
 						[22] = "7|2",
+						[29] = "10|2",
 					},
 					["background"] = "DruidFeralCombat",
 					["icon"] = "Ability_Racial_BearForm",

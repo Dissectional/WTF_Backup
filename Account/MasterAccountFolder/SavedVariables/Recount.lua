@@ -14,6 +14,8 @@ RecountDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Default",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Iamsham - PrimalWoW (Progressive)"] = "Default",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
+		["Nerfed - PrimalWoW (Progressive)"] = "Default",
 		["Magistratus - TrueWoW"] = "Default",
 	},
 	["profiles"] = {

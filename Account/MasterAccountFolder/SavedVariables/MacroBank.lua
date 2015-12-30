@@ -3,11 +3,13 @@ MacroBankDB = {
 	["profileKeys"] = {
 		["Saptack - PrimalWoW (Progressive)"] = "Default",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
+		["Nerfed - PrimalWoW (Progressive)"] = "Default",
 		["Iamsham - PrimalWoW (Progressive)"] = "Default",
 		["Duglazerp - TrueWoW"] = "Default",
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 	},
 	["DBVersion"] = 4,
 	["global"] = {

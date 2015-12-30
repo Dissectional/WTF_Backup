@@ -7,16 +7,28 @@ DataStore_InventoryDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["Inventory"] = {
+					[7] = 153,
+					[17] = 2362,
+					[16] = 36,
+					[4] = 154,
+				},
+				["averageItemLvl"] = 1.333333333333333,
+				["lastUpdate"] = 1451459375,
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["Inventory"] = {
 					nil, -- [1]
@@ -51,7 +63,7 @@ DataStore_InventoryDB = {
 					[15] = 4920,
 				},
 				["averageItemLvl"] = 3.8,
-				["lastUpdate"] = 1451452806,
+				["lastUpdate"] = 1451477329,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Inventory"] = {
@@ -73,17 +85,16 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 17,
 				["lastUpdate"] = 1451296473,
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
 				["Inventory"] = {
-					[16] = 2092,
-					[7] = 120,
-					[17] = 50055,
-					[18] = 28979,
-					[4] = 2105,
-					[8] = 121,
+					[5] = 6140,
+					[16] = 35,
+					[7] = 1395,
+					[8] = 55,
+					[4] = 6096,
 				},
-				["averageItemLvl"] = 1.8,
-				["lastUpdate"] = 1451459250,
+				["averageItemLvl"] = 1.25,
+				["lastUpdate"] = 1451477733,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["Inventory"] = {
@@ -95,7 +106,7 @@ DataStore_InventoryDB = {
 					[10] = 4910,
 				},
 				["averageItemLvl"] = 5.6,
-				["lastUpdate"] = 1451464620,
+				["lastUpdate"] = 1451477484,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Inventory"] = {
@@ -121,15 +132,17 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 212.3529411764706,
 				["lastUpdate"] = 1451387118,
 			},
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
+			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["Inventory"] = {
-					[7] = 153,
-					[17] = 2362,
-					[16] = 36,
-					[4] = 154,
+					[16] = 2092,
+					[7] = 120,
+					[17] = 50055,
+					[18] = 28979,
+					[4] = 2105,
+					[8] = 121,
 				},
-				["averageItemLvl"] = 1.333333333333333,
-				["lastUpdate"] = 1451459375,
+				["averageItemLvl"] = 1.8,
+				["lastUpdate"] = 1451459250,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["Inventory"] = {
@@ -143,7 +156,52 @@ DataStore_InventoryDB = {
 					[16] = 3277,
 				},
 				["averageItemLvl"] = 4.375,
-				["lastUpdate"] = 1451462678,
+				["lastUpdate"] = 1451479409,
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["Inventory"] = {
+					[5] = 6059,
+					[6] = 4954,
+					[7] = 6124,
+					[9] = 4908,
+					[10] = 10636,
+					[16] = 5776,
+				},
+				["averageItemLvl"] = 4.333333333333333,
+				["lastUpdate"] = 1451477239,
+			},
+			["Default.TrueWoW.Lichmydk"] = {
+				["Inventory"] = {
+					34652, -- [1]
+					34657, -- [2]
+					34655, -- [3]
+					nil, -- [4]
+					34650, -- [5]
+					34651, -- [6]
+					34656, -- [7]
+					34648, -- [8]
+					34653, -- [9]
+					34649, -- [10]
+					34658, -- [11]
+					38147, -- [12]
+					[15] = 34659,
+				},
+				["averageItemLvl"] = 60,
+				["lastUpdate"] = 1451300786,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Inventory"] = {
+					[5] = 28157,
+					[6] = 28158,
+					[7] = 4909,
+					[9] = 28147,
+					[10] = 10413,
+					[8] = 23414,
+					[15] = 28150,
+					[16] = 6365,
+				},
+				["averageItemLvl"] = 14.625,
+				["lastUpdate"] = 1451257659,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Inventory"] = {
@@ -169,52 +227,23 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 16.88888888888889,
 				["lastUpdate"] = 1451257482,
 			},
-			["Default.TrueWoW.Shiftace"] = {
-				["Inventory"] = {
-					[5] = 28157,
-					[6] = 28158,
-					[7] = 4909,
-					[9] = 28147,
-					[10] = 10413,
-					[8] = 23414,
-					[15] = 28150,
-					[16] = 6365,
-				},
-				["averageItemLvl"] = 14.625,
-				["lastUpdate"] = 1451257659,
-			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["Inventory"] = {
-					34652, -- [1]
-					34657, -- [2]
-					34655, -- [3]
-					nil, -- [4]
-					34650, -- [5]
-					34651, -- [6]
-					34656, -- [7]
-					34648, -- [8]
-					34653, -- [9]
-					34649, -- [10]
-					34658, -- [11]
-					38147, -- [12]
-					[15] = 34659,
-				},
-				["averageItemLvl"] = 60,
-				["lastUpdate"] = 1451300786,
-			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["Inventory"] = {
-					[5] = 3270,
-					[6] = 11848,
-					[7] = 52,
-					[9] = 6060,
-					[4] = 53,
-					[10] = 3275,
-					[8] = 3274,
-					[16] = 35,
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					53, -- [4]
+					3270, -- [5]
+					11848, -- [6]
+					4261, -- [7]
+					1427, -- [8]
+					3373, -- [9]
+					3275, -- [10]
+					[16] = 3277,
+					[15] = 9761,
 				},
-				["averageItemLvl"] = 4,
-				["lastUpdate"] = 1451465996,
+				["averageItemLvl"] = 7.25,
+				["lastUpdate"] = 1451479445,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["Inventory"] = {
@@ -241,6 +270,34 @@ DataStore_InventoryDB = {
 			},
 		},
 		["Guilds"] = {
+			["Default.PrimalWoW (Progressive).Bloody Oath"] = {
+				["Members"] = {
+					["Suenami"] = {
+						["averageItemLvl"] = 22,
+					},
+					["Dana"] = {
+						["averageItemLvl"] = 67,
+					},
+					["Lilleth"] = {
+						["averageItemLvl"] = 32,
+					},
+					["Polly"] = {
+						["averageItemLvl"] = 23,
+					},
+					["Unbearabull"] = {
+						["averageItemLvl"] = 4,
+					},
+					["Mabel"] = {
+						["averageItemLvl"] = 34,
+					},
+					["Mittens"] = {
+						["averageItemLvl"] = 7,
+					},
+					["Nickie"] = {
+						["averageItemLvl"] = 37,
+					},
+				},
+			},
 			["Default.TrueWoW.Slash Gee Quit"] = {
 				["Members"] = {
 					["Shiftace"] = {

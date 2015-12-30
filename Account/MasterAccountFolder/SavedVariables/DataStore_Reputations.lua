@@ -7,16 +7,28 @@ DataStore_ReputationsDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459314,
+				["Factions"] = {
+					["Undercity"] = "0|3000|500",
+					["Darkspear Trolls"] = "3000|9000|3100",
+					["Thunder Bluff"] = "3000|9000|3100",
+					["Silvermoon City"] = "0|3000|400",
+					["Orgrimmar"] = "3000|9000|4000",
+				},
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1451257585,
 				["Factions"] = {
@@ -29,13 +41,13 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451452806,
+				["lastUpdate"] = 1451477324,
 				["Factions"] = {
-					["Undercity"] = "0|3000|500",
-					["Darkspear Trolls"] = "3000|9000|7150",
-					["Thunder Bluff"] = "3000|9000|3100",
-					["Silvermoon City"] = "0|3000|400",
-					["Orgrimmar"] = "3000|9000|6175",
+					["Undercity"] = "0|3000|2044",
+					["Darkspear Trolls"] = "3000|9000|7913",
+					["Thunder Bluff"] = "3000|9000|4644",
+					["Silvermoon City"] = "0|3000|1944",
+					["Orgrimmar"] = "3000|9000|6956",
 				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
@@ -49,8 +61,8 @@ DataStore_ReputationsDB = {
 					["Orgrimmar"] = "3000|9000|4159",
 				},
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1451459163,
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1451477581,
 				["Factions"] = {
 					["Undercity"] = "3000|9000|4000",
 					["Darkspear Trolls"] = "0|3000|500",
@@ -60,13 +72,13 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451464647,
+				["lastUpdate"] = 1451477476,
 				["Factions"] = {
-					["Undercity"] = "0|3000|500",
-					["Darkspear Trolls"] = "3000|9000|3100",
+					["Undercity"] = "0|3000|1194",
+					["Darkspear Trolls"] = "3000|9000|3794",
 					["Thunder Bluff"] = "3000|9000|6800",
-					["Silvermoon City"] = "0|3000|400",
-					["Orgrimmar"] = "3000|9000|3100",
+					["Silvermoon City"] = "0|3000|1094",
+					["Orgrimmar"] = "3000|9000|3794",
 				},
 			},
 			["Default.TrueWoW.Duglazerp"] = {
@@ -84,8 +96,8 @@ DataStore_ReputationsDB = {
 					["Gadgetzan"] = "0|3000|775",
 					["Argent Crusade"] = "0|3000|0",
 					["The Sunreavers"] = "21000|42000|25319",
-					["Kirin Tor"] = "3000|9000|3240",
 					["Warsong Offensive"] = "21000|42000|28950",
+					["Kirin Tor"] = "3000|9000|3240",
 					["The Hand of Vengeance"] = "21000|42000|25613",
 					["Darkmoon Faire"] = "0|3000|0",
 					["Thunder Bluff"] = "9000|21000|18930",
@@ -94,35 +106,44 @@ DataStore_ReputationsDB = {
 					["Everlook"] = "0|3000|775",
 				},
 			},
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1451459163,
 				["Factions"] = {
-					["Undercity"] = "0|3000|500",
-					["Darkspear Trolls"] = "3000|9000|3100",
-					["Thunder Bluff"] = "3000|9000|3100",
-					["Silvermoon City"] = "0|3000|400",
-					["Orgrimmar"] = "3000|9000|4000",
-				},
-			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451462336,
-				["Factions"] = {
-					["Undercity"] = "3000|9000|6775",
+					["Undercity"] = "3000|9000|4000",
 					["Darkspear Trolls"] = "0|3000|500",
 					["Thunder Bluff"] = "0|3000|500",
 					["Silvermoon City"] = "3000|9000|3100",
 					["Orgrimmar"] = "0|3000|500",
 				},
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1451479409,
 				["Factions"] = {
-					["Undercity"] = "3000|9000|6531",
-					["Darkspear Trolls"] = "3000|9000|3988",
-					["Silvermoon City"] = "9000|21000|17819",
-					["Thunder Bluff"] = "3000|9000|3931",
-					["Tranquillien"] = "21000|42000|21250",
-					["Orgrimmar"] = "3000|9000|3931",
+					["Undercity"] = "3000|9000|6775",
+					["Darkspear Trolls"] = "0|3000|1188",
+					["Thunder Bluff"] = "0|3000|1188",
+					["Silvermoon City"] = "3000|9000|3788",
+					["Orgrimmar"] = "0|3000|1188",
+				},
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1451477266,
+				["Factions"] = {
+					["Undercity"] = "0|3000|500",
+					["Darkspear Trolls"] = "3000|9000|3100",
+					["Thunder Bluff"] = "3000|9000|6775",
+					["Silvermoon City"] = "0|3000|400",
+					["Orgrimmar"] = "3000|9000|3100",
+				},
+			},
+			["Default.TrueWoW.Lichmydk"] = {
+				["lastUpdate"] = 1451300494,
+				["Factions"] = {
+					["Undercity"] = "0|3000|500",
+					["Darkspear Trolls"] = "3000|9000|3100",
+					["Thunder Bluff"] = "3000|9000|3100",
+					["Silvermoon City"] = "0|3000|400",
+					["Orgrimmar"] = "3000|9000|4000",
 				},
 			},
 			["Default.TrueWoW.Shiftace"] = {
@@ -138,24 +159,25 @@ DataStore_ReputationsDB = {
 					["Orgrimmar"] = "3000|9000|8678",
 				},
 			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["lastUpdate"] = 1451300494,
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1451257482,
 				["Factions"] = {
-					["Undercity"] = "0|3000|500",
-					["Darkspear Trolls"] = "3000|9000|3100",
-					["Thunder Bluff"] = "3000|9000|3100",
-					["Silvermoon City"] = "0|3000|400",
-					["Orgrimmar"] = "3000|9000|4000",
+					["Undercity"] = "3000|9000|6531",
+					["Darkspear Trolls"] = "3000|9000|3988",
+					["Silvermoon City"] = "9000|21000|17819",
+					["Thunder Bluff"] = "3000|9000|3931",
+					["Tranquillien"] = "21000|42000|21250",
+					["Orgrimmar"] = "3000|9000|3931",
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451465833,
+				["lastUpdate"] = 1451479445,
 				["Factions"] = {
-					["Undercity"] = "3000|9000|5775",
-					["Darkspear Trolls"] = "0|3000|500",
-					["Thunder Bluff"] = "0|3000|500",
-					["Silvermoon City"] = "3000|9000|3100",
-					["Orgrimmar"] = "0|3000|500",
+					["Undercity"] = "3000|9000|7775",
+					["Darkspear Trolls"] = "0|3000|1435",
+					["Thunder Bluff"] = "0|3000|1435",
+					["Silvermoon City"] = "3000|9000|4035",
+					["Orgrimmar"] = "0|3000|1435",
 				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {
@@ -165,12 +187,12 @@ DataStore_ReputationsDB = {
 					["Gadgetzan"] = "0|3000|750",
 					["Darkmoon Faire"] = "0|3000|0",
 					["Ratchet"] = "0|3000|1000",
-					["Tranquillien"] = "0|3000|1750",
 					["Darkspear Trolls"] = "9000|21000|16763",
-					["Booty Bay"] = "0|3000|750",
-					["Silvermoon City"] = "9000|21000|15715",
+					["Tranquillien"] = "0|3000|1750",
 					["Thunder Bluff"] = "9000|21000|9875",
+					["Booty Bay"] = "0|3000|750",
 					["Everlook"] = "0|3000|750",
+					["Silvermoon City"] = "9000|21000|15715",
 					["Orgrimmar"] = "9000|21000|15937",
 				},
 			},

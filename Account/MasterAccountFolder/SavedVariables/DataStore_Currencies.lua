@@ -7,30 +7,35 @@ DataStore_CurrenciesDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459344,
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1451257585,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451450838,
+				["lastUpdate"] = 1451477324,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1451288547,
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1451459200,
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1451477673,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451464451,
+				["lastUpdate"] = 1451477533,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Currencies"] = {
@@ -43,23 +48,26 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1451386721,
 			},
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459344,
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1451459200,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451461994,
+				["lastUpdate"] = 1451479409,
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1451257659,
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1451476893,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302278,
 			},
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1451257659,
+			},
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1451257482,
+			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451466012,
+				["lastUpdate"] = 1451479445,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451303256,

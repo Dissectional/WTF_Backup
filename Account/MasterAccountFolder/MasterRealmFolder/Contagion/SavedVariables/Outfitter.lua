@@ -391,16 +391,16 @@ gOutfitter_Settings = {
 				},
 				["MainHandSlot"] = {
 					["JewelCode4"] = 0,
-					["Link"] = "|cffffffff|Hitem:3277:0:0:0:0:0:0:0:5|h[Executor Staff]|h|r",
 					["InvType"] = "INVTYPE_2HWEAPON",
-					["Code"] = 3277,
+					["Link"] = "|cffffffff|Hitem:3277:0:0:0:0:0:0:0:5|h[Executor Staff]|h|r",
 					["SubCode"] = 0,
 					["MetaSlotName"] = "TwoHandSlot",
 					["JewelCode2"] = 0,
-					["UniqueID"] = 0,
+					["Code"] = 3277,
 					["JewelCode1"] = 0,
-					["EnchantCode"] = 0,
+					["UniqueID"] = 0,
 					["Name"] = "Executor Staff",
+					["EnchantCode"] = 0,
 					["SubType"] = "Staves",
 					["Level"] = 5,
 					["JewelCode3"] = 0,
@@ -625,7 +625,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -636,7 +636,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -669,13 +669,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
+				["ScriptID"] = "Riding",
 				["ScriptLockupCount"] = 0,
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
-				["CategoryID"] = "Accessory",
+				["Name"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -683,8 +679,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
-				["ScriptID"] = "Riding",
-				["Name"] = "Riding",
+				["CategoryID"] = "Accessory",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 			}, -- [3]
 			{
 				["Items"] = {

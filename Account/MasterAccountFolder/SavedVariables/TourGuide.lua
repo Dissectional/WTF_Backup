@@ -15,12 +15,12 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Tirisfal Glades (1-12)",
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["currentguide"] = "Durotar (1-12)",
+			["showstatusframe"] = false,
 			["turnins"] = {
 				["Durotar (1-12)"] = {
 				},
 			},
-			["showstatusframe"] = false,
+			["currentguide"] = "Durotar (1-12)",
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["showstatusframe"] = false,
@@ -126,15 +126,34 @@ TourGuideAlphaDB = {
 				["Eversong Woods (1-13)"] = 0.1988950276243094,
 				["Durotar (1-12)"] = 1,
 				["The Barrens (12-20)"] = 0.0352112676056338,
-				["vvvvvvv Flaw's Guides vvvvvvv"] = 1,
-				["Mulgore (1-12)"] = 0.8823529411764706,
 				["No Guide"] = 0,
+				["Mulgore (1-12)"] = 0.8823529411764706,
+				["vvvvvvv Flaw's Guides vvvvvvv"] = 1,
 				["Argent Tournament [Aspirants] (80-H)"] = 1,
 				["Argent Crusade (80-H)"] = 0.03571428571428571,
 				["Howling Fjord (70-72)"] = 0.1396103896103896,
 			},
 			["currentguide"] = "Borean Tundra (70-72)",
 			["alwaysmapnotecoords"] = true,
+		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+			["showstatusframe"] = false,
+			["completion"] = {
+				["No Guide"] = 0,
+			},
+			["turnins"] = {
+				["No Guide"] = {
+				},
+				["Tirisfal Glades (1-12)"] = {
+					["Brill@4@"] = true,
+					["[Coarse Thread]@5@"] = true,
+					["Gallows' End Tavern@3@"] = true,
+					["Brill@2@"] = true,
+					["Samuel Fipps@1@"] = true,
+				},
+			},
+			["currentguide"] = "Tirisfal Glades (1-12)",
+			["hearth"] = "Gallows' End Tavern",
 		},
 		["Pastafarian - TrueWoW"] = {
 			["turnins"] = {
@@ -174,6 +193,16 @@ TourGuideAlphaDB = {
 			},
 			["currentguide"] = "Ghostlands (13-20)",
 			["hearth"] = "Tranquillien",
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["showstatusframe"] = false,
+			["currentguide"] = "Mulgore (1-12)",
+			["turnins"] = {
+				["Mulgore (1-12)"] = {
+					["Bloodhoof Village@1@"] = true,
+				},
+			},
+			["hearth"] = "Bloodhoof Village",
 		},
 		["Ellipsis - TrueWoW"] = {
 			["currentguide"] = "Ghostlands (13-20)",
@@ -259,16 +288,8 @@ TourGuideAlphaDB = {
 			["showstatusframe"] = false,
 			["hearth"] = "Tranquillien",
 		},
-		["Iamsham - PrimalWoW (Progressive)"] = {
-			["currentguide"] = "Durotar (1-12)",
-			["turnins"] = {
-				["Durotar (1-12)"] = {
-				},
-			},
+		["Nerfed - PrimalWoW (Progressive)"] = {
 			["showstatusframe"] = false,
-		},
-		["Mittens - PrimalWoW (Progressive)"] = {
-			["currentguide"] = "Tirisfal Glades (1-12)",
 			["completion"] = {
 				["No Guide"] = 0,
 			},
@@ -276,7 +297,14 @@ TourGuideAlphaDB = {
 				["No Guide"] = {
 				},
 				["Tirisfal Glades (1-12)"] = {
-					["Samuel Fipps@1@"] = true,
+				},
+			},
+			["currentguide"] = "Tirisfal Glades (1-12)",
+		},
+		["Iamsham - PrimalWoW (Progressive)"] = {
+			["currentguide"] = "Durotar (1-12)",
+			["turnins"] = {
+				["Durotar (1-12)"] = {
 				},
 			},
 			["showstatusframe"] = false,
@@ -324,12 +352,14 @@ TourGuideAlphaDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -357,10 +387,14 @@ TourGuideAlphaDB = {
 			["itemframepoint"] = "BOTTOMLEFT",
 			["itemframex"] = 381,
 		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+		},
 		["Pastafarian - TrueWoW"] = {
 			["itemframey"] = 184,
 			["itemframepoint"] = "BOTTOMLEFT",
 			["itemframex"] = 390,
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
@@ -371,9 +405,9 @@ TourGuideAlphaDB = {
 			["itemframepoint"] = "BOTTOMLEFT",
 			["itemframex"] = 390,
 		},
-		["Iamsham - PrimalWoW (Progressive)"] = {
+		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 			["itemframey"] = 186,

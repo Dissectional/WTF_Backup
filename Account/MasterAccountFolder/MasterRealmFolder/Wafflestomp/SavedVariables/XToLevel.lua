@@ -43,6 +43,26 @@ sConfig = {
 		["showIcon"] = true,
 		["showText"] = true,
 		["textPattern"] = "default",
+		["text"] = {
+			["bgo"] = false,
+			["restedp"] = true,
+			["petxpnum"] = true,
+			["kills"] = true,
+			["petxp"] = true,
+			["bgs"] = true,
+			["quests"] = true,
+			["verbose"] = true,
+			["pet"] = true,
+			["dungeons"] = true,
+			["colorValues"] = true,
+			["xpnumFormat"] = true,
+			["xpAsBars"] = false,
+			["xpCountdown"] = false,
+			["timer"] = true,
+			["xp"] = true,
+			["rested"] = true,
+			["xpnum"] = true,
+		},
 		["tooltip"] = {
 			["showPetInfo"] = true,
 			["showExperience"] = true,
@@ -52,26 +72,6 @@ sConfig = {
 			["showDungeonInfo"] = true,
 		},
 		["allowTextColor"] = true,
-		["text"] = {
-			["bgo"] = false,
-			["restedp"] = true,
-			["petxpnum"] = true,
-			["kills"] = true,
-			["petxp"] = true,
-			["bgs"] = true,
-			["quests"] = true,
-			["xp"] = true,
-			["verbose"] = true,
-			["dungeons"] = true,
-			["colorValues"] = true,
-			["xpnumFormat"] = true,
-			["xpAsBars"] = false,
-			["xpCountdown"] = false,
-			["timer"] = true,
-			["pet"] = true,
-			["rested"] = true,
-			["xpnum"] = true,
-		},
 	},
 	["messages"] = {
 		["playerFloating"] = true,
@@ -85,15 +85,15 @@ sConfig = {
 				1, -- [2]
 				0.7, -- [3]
 			},
-			["playerBattleground"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
-			},
 			["playerLevel"] = {
 				0.35, -- [1]
 				1, -- [2]
 				0.35, -- [3]
+			},
+			["playerBattleground"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -312,9 +312,9 @@ sData = {
 			}, -- [43]
 		},
 		["timer"] = {
-			["start"] = 1451464450,
-			["total"] = 550,
-			["xpPerSec"] = 1.870748299319728,
+			["start"] = 1451477532,
+			["total"] = 0,
+			["xpPerSec"] = 2.656742556917688,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {

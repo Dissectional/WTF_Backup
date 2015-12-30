@@ -14,8 +14,8 @@ MSBTProfiles_SavedVars = {
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
 					["behavior"] = "MSBT_NORMAL",
-					["animationStyle"] = "Straight",
 					["offsetX"] = -290,
+					["animationStyle"] = "Straight",
 				},
 			},
 			["normalFontName"] = "ElvUI Font",
