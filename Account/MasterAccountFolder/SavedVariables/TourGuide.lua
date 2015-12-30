@@ -91,20 +91,13 @@ TourGuideAlphaDB = {
 				},
 				["The Barrens (12-20)"] = {
 				},
-				["vvvvvvv Flaw's Guides vvvvvvv"] = {
-					["Flaw's Guides Begin@1@"] = true,
+				["No Guide"] = {
 				},
 				["Mulgore (1-12)"] = {
 					["Kill Swoops...@2@"] = true,
 					["Bloodhoof Village@1@"] = true,
 					["Cook your ass off!@3@"] = true,
 					["Drink up!@4@"] = true,
-				},
-				["No Guide"] = {
-				},
-				["Argent Crusade (80-H)"] = {
-					["Pre-Check (Addon Suggestion)@2@"] = true,
-					["Welcome!@1@"] = true,
 				},
 				["Argent Tournament [Aspirants] (80-H)"] = {
 					["Sunreaver Pavilian@3@"] = true,
@@ -116,6 +109,13 @@ TourGuideAlphaDB = {
 					["Sunreaver Pavilian@7@"] = true,
 					["End of Guide@8@"] = true,
 				},
+				["Argent Crusade (80-H)"] = {
+					["Pre-Check (Addon Suggestion)@2@"] = true,
+					["Welcome!@1@"] = true,
+				},
+				["vvvvvvv Flaw's Guides vvvvvvv"] = {
+					["Flaw's Guides Begin@1@"] = true,
+				},
 				["Desolace (32-34)"] = {
 				},
 			},
@@ -126,9 +126,9 @@ TourGuideAlphaDB = {
 				["Eversong Woods (1-13)"] = 0.1988950276243094,
 				["Durotar (1-12)"] = 1,
 				["The Barrens (12-20)"] = 0.0352112676056338,
-				["No Guide"] = 0,
-				["Mulgore (1-12)"] = 0.8823529411764706,
 				["vvvvvvv Flaw's Guides vvvvvvv"] = 1,
+				["Mulgore (1-12)"] = 0.8823529411764706,
+				["No Guide"] = 0,
 				["Argent Tournament [Aspirants] (80-H)"] = 1,
 				["Argent Crusade (80-H)"] = 0.03571428571428571,
 				["Howling Fjord (70-72)"] = 0.1396103896103896,
@@ -137,6 +137,10 @@ TourGuideAlphaDB = {
 			["alwaysmapnotecoords"] = true,
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
+			["showstatusframe"] = false,
+			["completion"] = {
+				["No Guide"] = 0,
+			},
 			["turnins"] = {
 				["No Guide"] = {
 				},
@@ -147,10 +151,6 @@ TourGuideAlphaDB = {
 					["Brill@2@"] = true,
 					["Samuel Fipps@1@"] = true,
 				},
-			},
-			["showstatusframe"] = false,
-			["completion"] = {
-				["No Guide"] = 0,
 			},
 			["currentguide"] = "Tirisfal Glades (1-12)",
 			["hearth"] = "Gallows' End Tavern",
@@ -194,15 +194,47 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Ghostlands (13-20)",
 			["hearth"] = "Tranquillien",
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
-			["currentguide"] = "Mulgore (1-12)",
+		["Cryogenics - TrueWoW"] = {
 			["turnins"] = {
-				["Mulgore (1-12)"] = {
-					["Bloodhoof Village@1@"] = true,
+				["Ghostlands (13-20)"] = {
+					["Drink up!@11@"] = true,
+					["Tranquillien@1@"] = true,
+					["Tranquillien@5@"] = true,
+					["Tranquillien@4@"] = true,
+					["Sanctum of the Sun@6@"] = true,
+					["Deatholme@10@"] = true,
+					["Farstrider Enclave@3@"] = true,
+					["Drink up!@12@"] = true,
+					["Tranquillien@2@"] = true,
+					["Tranquillien@9@"] = true,
+					["Undercity@13@"] = true,
+				},
+				["The Barrens (20)"] = {
+				},
+				["No Guide"] = {
+				},
+				["Eversong Woods (1-13)"] = {
+					["Training?@16@"] = true,
+					["Well Watcher Solanian@1@"] = true,
+					["Silvermoon City@13@"] = true,
+					["Springpaw Appetizers@17@"] = true,
+					["Bundle of Fireworks@19@"] = true,
+					["Suntouched Special Reserve@14@"] = true,
+					["Class Quests?@15@"] = true,
+					["Fairbreeze Village@18@"] = true,
+				},
+				["Stranglethorn Vale (34-36)"] = {
 				},
 			},
-			["hearth"] = "Bloodhoof Village",
+			["currentguide"] = "The Barrens (20)",
+			["completion"] = {
+				["Stranglethorn Vale (34-36)"] = 0,
+				["Ghostlands (13-20)"] = 1,
+				["Eversong Woods (1-13)"] = 1,
+				["No Guide"] = 0,
+			},
+			["showstatusframe"] = false,
+			["hearth"] = "Tranquillien",
 		},
 		["Ellipsis - TrueWoW"] = {
 			["currentguide"] = "Ghostlands (13-20)",
@@ -246,47 +278,15 @@ TourGuideAlphaDB = {
 			["currentguide"] = "Tirisfal Glades (1-12)",
 			["hearth"] = "Gallows' End Tavern",
 		},
-		["Cryogenics - TrueWoW"] = {
-			["turnins"] = {
-				["Ghostlands (13-20)"] = {
-					["Drink up!@11@"] = true,
-					["Tranquillien@1@"] = true,
-					["Tranquillien@5@"] = true,
-					["Tranquillien@4@"] = true,
-					["Sanctum of the Sun@6@"] = true,
-					["Deatholme@10@"] = true,
-					["Farstrider Enclave@3@"] = true,
-					["Drink up!@12@"] = true,
-					["Tranquillien@2@"] = true,
-					["Tranquillien@9@"] = true,
-					["Undercity@13@"] = true,
-				},
-				["The Barrens (20)"] = {
-				},
-				["No Guide"] = {
-				},
-				["Eversong Woods (1-13)"] = {
-					["Training?@16@"] = true,
-					["Well Watcher Solanian@1@"] = true,
-					["Silvermoon City@13@"] = true,
-					["Springpaw Appetizers@17@"] = true,
-					["Bundle of Fireworks@19@"] = true,
-					["Suntouched Special Reserve@14@"] = true,
-					["Class Quests?@15@"] = true,
-					["Fairbreeze Village@18@"] = true,
-				},
-				["Stranglethorn Vale (34-36)"] = {
-				},
-			},
-			["currentguide"] = "The Barrens (20)",
-			["completion"] = {
-				["Stranglethorn Vale (34-36)"] = 0,
-				["Ghostlands (13-20)"] = 1,
-				["Eversong Woods (1-13)"] = 1,
-				["No Guide"] = 0,
-			},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["showstatusframe"] = false,
-			["hearth"] = "Tranquillien",
+			["currentguide"] = "Mulgore (1-12)",
+			["turnins"] = {
+				["Mulgore (1-12)"] = {
+					["Bloodhoof Village@1@"] = true,
+				},
+			},
+			["hearth"] = "Bloodhoof Village",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["currentguide"] = "Tirisfal Glades (1-12)",
@@ -334,9 +334,9 @@ TourGuideAlphaDB = {
 					["Tranquillien@6@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
+					["Suntouched Special Reserve@14@"] = true,
 					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
-					["Suntouched Special Reserve@14@"] = true,
 					["Training?@16@"] = true,
 				},
 				["The Barrens (20)"] = {
@@ -354,10 +354,10 @@ TourGuideAlphaDB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -394,16 +394,16 @@ TourGuideAlphaDB = {
 			["itemframepoint"] = "BOTTOMLEFT",
 			["itemframex"] = 390,
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
+			["itemframey"] = 186,
+			["itemframepoint"] = "BOTTOMLEFT",
+			["itemframex"] = 390,
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-			["itemframey"] = 186,
-			["itemframepoint"] = "BOTTOMLEFT",
-			["itemframex"] = 390,
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},

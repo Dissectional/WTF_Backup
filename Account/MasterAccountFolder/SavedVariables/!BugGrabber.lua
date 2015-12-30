@@ -4,13 +4,6 @@ BugGrabberDB = {
 	["limit"] = 50,
 	["errors"] = {
 		{
-			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
-			["type"] = "error",
-			["time"] = "2015/12/30 21:39:21",
-			["session"] = 263,
-			["counter"] = 1,
-		}, -- [1]
-		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
 				"ned @Interface\\AddOns\\ElvUI\\core\\core.lua:279\n SetupTheme = <function> defined @Interface\\AddOns\\ElvUI\\core\\install.lua:202\n media = <table> {\n }\n SetUpAnimGroup = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:6\n bags = <table> {\n }\n data = <table> {\n }\n Role = \"Caster\"\n UIScale = <function> defined @Interface\\AddOns\\ElvUI\\core\\pixelperfect.lua:12\n db = <table> {\n }\n ToggleConfigMode = <function> defined @Interface\\AddOns\\ElvUI\\core\\config.lua:54\n SetEnabledState = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:455\n Hook = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceHook-3.0\\AceHook-3.0.lua:274\n Options = <table> {\n }\n Layout = <table> {\n }\n tDeleteItem = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:280\n LoadCommands = <function> defined @Interface\\AddOns\\ElvUI\\core\\commands.lua:143\n HiddenFrame = <unnamed> {\n }\n DisableAddon = <function> defined @Interface\\AddOns\\ElvUI\\core\\commands.lua:28\n NewM", -- [2]
@@ -22,35 +15,35 @@ BugGrabberDB = {
 			["time"] = "2015/12/30 21:40:09",
 			["session"] = 263,
 			["counter"] = 1,
-		}, -- [2]
+		}, -- [1]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/30 21:43:01",
 			["session"] = 264,
 			["counter"] = 5,
-		}, -- [3]
+		}, -- [2]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/30 22:00:05",
 			["session"] = 264,
 			["counter"] = 2,
-		}, -- [4]
+		}, -- [3]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/30 22:32:42",
 			["session"] = 266,
 			["counter"] = 7,
-		}, -- [5]
+		}, -- [4]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/30 22:50:56",
 			["session"] = 267,
 			["counter"] = 12,
-		}, -- [6]
+		}, -- [5]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -63,7 +56,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 00:16:05",
 			["session"] = 268,
 			["counter"] = 1,
-		}, -- [7]
+		}, -- [6]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -73,42 +66,42 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 00:16:37",
 			["session"] = 269,
 			["counter"] = 2,
-		}, -- [8]
+		}, -- [7]
 		{
 			["message"] = "ElvUI-5.19\\modules\\chat\\chat.lua:1410: attempt to compare number with nil\nCallbackHandler-1.0-6 (Ace3):147: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[14]\":4: in function <[string \"safecall Dispatcher[14]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[14]\":13: in function `?'\nCallbackHandler-1.0-6 (Ace3):92: in function `Fire'\nAceEvent-3.0-3 (Ace3):120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 00:16:41",
 			["session"] = 269,
 			["counter"] = 13,
-		}, -- [9]
+		}, -- [8]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 00:22:02",
 			["session"] = 271,
 			["counter"] = 1,
-		}, -- [10]
+		}, -- [9]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 00:38:39",
 			["session"] = 275,
 			["counter"] = 6,
-		}, -- [11]
+		}, -- [10]
 		{
 			["message"] = "ElvUI-5.19\\modules\\nameplates\\nameplates.lua:662: attempt to index field 'healthBar' (a nil value)\n\nLocals:|r\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:01:27",
 			["session"] = 275,
 			["counter"] = 2,
-		}, -- [12]
+		}, -- [11]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:02:21",
 			["session"] = 276,
 			["counter"] = 6,
-		}, -- [13]
+		}, -- [12]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -118,14 +111,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:19",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [14]
+		}, -- [13]
 		{
 			["message"] = "ElvUI-5.19\\modules\\tooltip\\tooltip.lua:231: attempt to index field 'visibility' (a nil value)\n(tail call): ?:\n<in C code>: in function `GameTooltip_SetDefaultAnchor'\n<string>:\"*:OnTooltipSetDefaultAnchor\":1: in function <[string \"*:OnTooltipSetDefaultAnchor\"]:1>\n\nLocals:|r\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:09:24",
 			["session"] = 277,
 			["counter"] = 2,
-		}, -- [15]
+		}, -- [14]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\auras\\auras.lua:344: attempt to index local 'db' (a nil value)\nElvUI-5.19\\modules\\auras\\auras.lua:415: in function <Interface\\AddOns\\ElvUI\\modules\\auras\\auras.lua:411>\n\nLocals:|r\nself = ElvUIPlayerBuffs {\n 0 = <userdata>\n mover = BuffsMover {\n }\n filter = \"HELPFUL\"\n unit = \"player\"\n}\nevent = \"UNIT_AURA\"\nunit = \"player\"\nA = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n Enable = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:325\n NewModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:266\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n GetModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:241\n IterateEmbeds = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:473\n SecureHookS", -- [1]
@@ -138,7 +131,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:27",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [16]
+		}, -- [15]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\auras\\auras.lua:344: attempt to index local 'db' (a nil value)\nElvUI-5.19\\modules\\auras\\auras.lua:415: in function <Interface\\AddOns\\ElvUI\\modules\\auras\\auras.lua:411>\n\nLocals:|r\nself = ElvUIPlayerDebuffs {\n 0 = <userdata>\n mover = DebuffsMover {\n }\n filter = \"HARMFUL\"\n unit = \"player\"\n}\nevent = \"UNIT_AURA\"\nunit = \"player\"\nA = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n Enable = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:325\n NewModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:266\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n GetModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:241\n IterateEmbeds = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:473\n SecureH", -- [1]
@@ -151,7 +144,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:27",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [17]
+		}, -- [16]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\unitframes\\elements\\aurabars.lua:102: attempt to index local 'db' (a nil value)\n...ElvUI\\libs\\oUF_Plugins\\oUF_AuraBars\\oUF_AuraBars.lua:238: in function `func':\nElvUI-5.19\\libs\\oUF\\ouf.lua:69: in function <Interface\\AddOns\\ElvUI\\libs\\oUF\\ouf.lua:67>\n(tail call): ?:\n\nLocals:|r\nself = ElvUF_Player {\n CombatFade = true\n UNIT_SPELLCAST_CHANNEL_START = <table> {\n }\n __mousetags = <table> {\n }\n Resting = <unnamed> {\n }\n UNIT_MAXHEALTH = <table> {\n }\n PLAYER_UPDATE_RESTING = <function> defined @Interface\\AddOns\\ElvUI\\libs\\oUF\\elements\\resting.lua:22\n UNIT_MAXENERGY = <function> defined @Interface\\AddOns\\ElvUI\\libs\\oUF\\elements\\power.lua:73\n Portrait3D = <unnamed> {\n }\n HealCommBar = <table> {\n }\n PLAYER_REGEN_DISABLED = <table> {\n }\n RaisedElementParent = <unnamed> {\n }\n style = \"ElvUF\"\n RAID_TARGET_UPDATE = <function> defined @Interface\\AddOns\\ElvUI\\libs\\oUF\\elements\\ricons.lua:27\n UNIT_CONNECTION = <table> {\n }\n Debuffs = <unnamed> {\n }\n Update = <func", -- [1]
@@ -164,7 +157,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:27",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [18]
+		}, -- [17]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\tooltip\\tooltip.lua:231: attempt to index field 'visibility' (a nil value)\nElvUI-5.19\\modules\\bags\\bags.lua:1098: in function `OpenBags'\nElvUI-5.19\\modules\\bags\\bags.lua:1079: in function <Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:1073>\n(tail call): ?:\n<in C code>: in function `ToggleBag'\nInterface\\FrameXML\\ContainerFrame.lua:94: in function <Interface\\FrameXML\\ContainerFrame.lua:77>:\n<in C code>: in function `ToggleBackpack'\nInterface\\FrameXML\\ContainerFrame.lua:817: in function <Interface\\FrameXML\\ContainerFrame.lua:794>:\n<in C code>: in function `OpenAllBags'\n<string>:\"OPENALLBAGS\":1: in function <[string \"OPENALLBAGS\"]:1>\n\nLocals:|r\nself = <table> {\n DisableBlizzard = <function> defined @Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:108\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363", -- [1]
@@ -177,7 +170,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [19]
+		}, -- [18]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\bags\\bags.lua:332: attempt to perform arithmetic on local 'buttonSize' (a nil value)\nElvUI-5.19\\modules\\bags\\bags.lua:662: in function <Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:625>\n(tail call): ?:\n<in C code>: in function `BackpackTokenFrame_Update'\nInterface\\FrameXML\\ContainerFrame.lua:97: in function <Interface\\FrameXML\\ContainerFrame.lua:77>:\n<in C code>: in function `ToggleBackpack'\nInterface\\FrameXML\\ContainerFrame.lua:817: in function <Interface\\FrameXML\\ContainerFrame.lua:794>:\n<in C code>: in function `OpenAllBags'\n<string>:\"OPENALLBAGS\":1: in function <[string \"OPENALLBAGS\"]:1>\n\nLocals:|r\nself = <table> {\n DisableBlizzard = <function> defined @Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:108\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n CancelTimer ", -- [1]
@@ -190,7 +183,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [20]
+		}, -- [19]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\tooltip\\tooltip.lua:231: attempt to index field 'visibility' (a nil value)\nElvUI-5.19\\modules\\bags\\bags.lua:1098: in function `OpenBags'\nElvUI-5.19\\modules\\bags\\bags.lua:1089: in function <Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:1083>\n(tail call): ?:\n<in C code>: in function `ToggleBackpack'\nInterface\\FrameXML\\ContainerFrame.lua:817: in function <Interface\\FrameXML\\ContainerFrame.lua:794>:\n<in C code>: in function `OpenAllBags'\n<string>:\"OPENALLBAGS\":1: in function <[string \"OPENALLBAGS\"]:1>\n\nLocals:|r\nself = <table> {\n DisableBlizzard = <function> defined @Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:108\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n IterateEmbeds = <f", -- [1]
@@ -203,7 +196,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [21]
+		}, -- [20]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\tooltip\\tooltip.lua:231: attempt to index field 'visibility' (a nil value)\nElvUI-5.19\\modules\\bags\\bags.lua:1098: in function `OpenBags'\nElvUI-5.19\\modules\\bags\\bags.lua:1089: in function <Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:1083>\n(tail call): ?:\n<in C code>: in function `OpenAllBags'\n<string>:\"OPENALLBAGS\":1: in function <[string \"OPENALLBAGS\"]:1>\n\nLocals:|r\nself = <table> {\n DisableBlizzard = <function> defined @Interface\\AddOns\\ElvUI\\modules\\bags\\bags.lua:108\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n IterateEmbeds = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:473\n SecureHook = <function> defined @Interface\\AddOns\\ElvUI\\libs\\", -- [1]
@@ -216,7 +209,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 1,
-		}, -- [22]
+		}, -- [21]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\tooltip\\tooltip.lua:590: attempt to index field 'visibility' (a nil value)\nAceHook-3.0-8 (ElvUI):90: in function <...erface\\AddOns\\ElvUI\\libs\\AceHook-3.0\\AceHook-3.0.lua:87>\n<in C code>: ?\n<in C code>: ?\nAuc-Advanced-5.8.4723 (CreepyKangaroo)\\Libs\\LibExtraTip\\LibExtraTip.lua:279: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:273>\n<in C code>: ?\n<in C code>: ?\n<in C code>: in function `Outfitter_OrigSetBagItem'\nOutfitter-5.0b8\\Outfitter.lua:7498: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:774: in function `ContainerFrameItemButton_OnEnter':\n<string>:\"*:OnEnter\":1: in function <[string \"*:OnEnter\"]:1>\n\nLocals:|r\nactives = <table> {\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = ", -- [1]
@@ -229,7 +222,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 2,
-		}, -- [23]
+		}, -- [22]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\tooltip\\tooltip.lua:590: attempt to index field 'visibility' (a nil value)\nAceHook-3.0-8 (ElvUI):90: in function <...erface\\AddOns\\ElvUI\\libs\\AceHook-3.0\\AceHook-3.0.lua:87>\n<in C code>: ?\n<in C code>: ?\nAuc-Advanced-5.8.4723 (CreepyKangaroo)\\Libs\\LibExtraTip\\LibExtraTip.lua:279: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:273>\n<in C code>: ?\n<in C code>: ?\n<in C code>: in function `Outfitter_OrigSetBagItem'\nOutfitter-5.0b8\\Outfitter.lua:7498: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:774: in function `UpdateTooltip':\nInterface\\FrameXML\\GameTooltip.lua:195: in function <Interface\\FrameXML\\GameTooltip.lua:185>:\n(tail call): ?:\n\nLocals:|r\nactives = <table> {\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = true\n (null) = ", -- [1]
@@ -242,7 +235,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:09:28",
 			["session"] = 277,
 			["counter"] = 18,
-		}, -- [24]
+		}, -- [23]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):574: in function `CopyProfile'\nAceDBOptions-3.0-14:296: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:295>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua", -- [1]
@@ -252,7 +245,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:10:16",
 			["session"] = 279,
 			["counter"] = 1,
-		}, -- [25]
+		}, -- [24]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -265,7 +258,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:10:36",
 			["session"] = 280,
 			["counter"] = 1,
-		}, -- [26]
+		}, -- [25]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...fig\\libs\\AceGUI-3.0\\widgets", -- [1]
@@ -275,7 +268,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:11:46",
 			["session"] = 282,
 			["counter"] = 1,
-		}, -- [27]
+		}, -- [26]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):574: in function `CopyProfile'\nAceDBOptions-3.0-14:296: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:295>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua", -- [1]
@@ -285,7 +278,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:11:52",
 			["session"] = 282,
 			["counter"] = 1,
-		}, -- [28]
+		}, -- [27]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -298,7 +291,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:11:58",
 			["session"] = 282,
 			["counter"] = 1,
-		}, -- [29]
+		}, -- [28]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\unitframes\\unitframes.lua:384: attempt to index field '?' (a nil value)\nElvUI-5.19\\core\\install.lua:647: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:616>\nElvUI-5.19\\core\\install.lua:781: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:781>\n\nLocals:|r\nstyle = true\nE = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n Pr", -- [1]
@@ -311,7 +304,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:12:01",
 			["session"] = 282,
 			["counter"] = 1,
-		}, -- [30]
+		}, -- [29]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -324,7 +317,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:08",
 			["session"] = 284,
 			["counter"] = 1,
-		}, -- [31]
+		}, -- [30]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -334,7 +327,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:26",
 			["session"] = 285,
 			["counter"] = 1,
-		}, -- [32]
+		}, -- [31]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...fig\\libs\\AceGUI-3.0\\widgets", -- [1]
@@ -344,7 +337,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:35",
 			["session"] = 285,
 			["counter"] = 1,
-		}, -- [33]
+		}, -- [32]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):574: in function `CopyProfile'\nAceDBOptions-3.0-14:296: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:295>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua", -- [1]
@@ -354,7 +347,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:41",
 			["session"] = 285,
 			["counter"] = 1,
-		}, -- [34]
+		}, -- [33]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -367,7 +360,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:50",
 			["session"] = 285,
 			["counter"] = 1,
-		}, -- [35]
+		}, -- [34]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\unitframes\\unitframes.lua:384: attempt to index field 'units' (a nil value)\nElvUI-5.19\\core\\install.lua:647: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:616>\nElvUI-5.19\\core\\install.lua:781: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:781>\n\nLocals:|r\nstyle = true\nE = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276", -- [1]
@@ -380,14 +373,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:13:53",
 			["session"] = 285,
 			["counter"] = 1,
-		}, -- [36]
+		}, -- [35]
 		{
 			["message"] = "TourGuide_Recorder-4.0.0.9\\TourGuide_Recorder.lua:119: attempt to call global 'GetNumAutoQuestPopUps' (a nil value)\n(tail call): ?:\n\nLocals:|r\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = \"QUEST_LOG_UPDATE\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:16:35",
 			["session"] = 287,
 			["counter"] = 1,
-		}, -- [37]
+		}, -- [36]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -397,7 +390,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:17:23",
 			["session"] = 288,
 			["counter"] = 1,
-		}, -- [38]
+		}, -- [37]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -407,14 +400,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:17:47",
 			["session"] = 289,
 			["counter"] = 1,
-		}, -- [39]
+		}, -- [38]
 		{
 			["message"] = "ElvUI-5.19\\modules\\chat\\chat.lua:1410: attempt to compare number with nil\nCallbackHandler-1.0-6 (Ace3):147: in function <...Ons\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[14]\":4: in function <[string \"safecall Dispatcher[14]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[14]\":13: in function `?'\nCallbackHandler-1.0-6 (Ace3):92: in function `Fire'\nAceEvent-3.0-3 (Ace3):120: in function <Interface\\AddOns\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:19:15",
 			["session"] = 289,
 			["counter"] = 1,
-		}, -- [40]
+		}, -- [39]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -427,7 +420,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:19:17",
 			["session"] = 289,
 			["counter"] = 1,
-		}, -- [41]
+		}, -- [40]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\unitframes\\unitframes.lua:384: attempt to index field '?' (a nil value)\nElvUI-5.19\\core\\install.lua:647: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:616>\nElvUI-5.19\\core\\install.lua:781: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:781>\n\nLocals:|r\nstyle = true\nE = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n Pr", -- [1]
@@ -440,7 +433,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:19:21",
 			["session"] = 289,
 			["counter"] = 1,
-		}, -- [42]
+		}, -- [41]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):462: in function `SetProfile'\nAceDBOptions-3.0-14:255: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:254>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua:", -- [1]
@@ -450,7 +443,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:19:57",
 			["session"] = 291,
 			["counter"] = 1,
-		}, -- [43]
+		}, -- [42]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nCallbackHandler-1.0-6:147: in function <...agon\\lib\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n<string>:\"safecall Dispatcher[3]\":4: in function <[string \"safecall Dispatcher[3]\"]:4>\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":13: in function `?'\nCallbackHandler-1.0-6:92: in function `Fire'\nAceDB-3.0-26 (ElvUI):574: in function `CopyProfile'\nAceDBOptions-3.0-14:296: in function <...UI_Config\\libs\\AceDBOptions-3.0\\AceDBOptions-3.0.lua:295>\n(tail call): ?:\n<in C code>: ?\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceConfigDialog-3.0-50:794: in function <...nfig-3.0\\AceConfigDialog-3.0\\AceConfigDialog-3.0.lua:614>\n...:\n<string>:\"safecall Dispatcher[3]\":9: in function <[string \"safecall Dispatcher[3]\"]:5>\n(tail call): ?:\nAceGUI-3.0-34 (ElvUI_Config):314: in function `Fire'\n...ig\\libs\\AceGUI-3.0\\widgets\\AceGUIWidget-DropDown.lua", -- [1]
@@ -460,14 +453,14 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:20:04",
 			["session"] = 291,
 			["counter"] = 1,
-		}, -- [44]
+		}, -- [43]
 		{
 			["message"] = "ElvUI-5.19\\modules\\tooltip\\tooltip.lua:231: attempt to index field 'visibility' (a nil value)\n(tail call): ?:\n<in C code>: in function `GameTooltip_SetDefaultAnchor'\n<string>:\"*:OnTooltipSetDefaultAnchor\":1: in function <[string \"*:OnTooltipSetDefaultAnchor\"]:1>\n\nLocals:|r\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n\n  ---",
 			["type"] = "error",
 			["time"] = "2015/12/31 01:20:07",
 			["session"] = 291,
 			["counter"] = 1,
-		}, -- [45]
+		}, -- [44]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -480,7 +473,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:20:10",
 			["session"] = 291,
 			["counter"] = 1,
-		}, -- [46]
+		}, -- [45]
 		{
 			["message"] = {
 				"ElvUI-5.19\\modules\\unitframes\\unitframes.lua:384: attempt to index field '?' (a nil value)\nElvUI-5.19\\core\\install.lua:647: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:616>\nElvUI-5.19\\core\\install.lua:781: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:781>\n\nLocals:|r\nstyle = true\nE = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n Pr", -- [1]
@@ -493,7 +486,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:20:13",
 			["session"] = 291,
 			["counter"] = 1,
-		}, -- [47]
+		}, -- [46]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -506,7 +499,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 01:50:05",
 			["session"] = 295,
 			["counter"] = 1,
-		}, -- [48]
+		}, -- [47]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -519,7 +512,7 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 02:08:22",
 			["session"] = 303,
 			["counter"] = 1,
-		}, -- [49]
+		}, -- [48]
 		{
 			["message"] = {
 				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
@@ -532,8 +525,21 @@ BugGrabberDB = {
 			["time"] = "2015/12/31 02:09:01",
 			["session"] = 304,
 			["counter"] = 1,
+		}, -- [49]
+		{
+			["message"] = {
+				"ElvUI-5.19\\core\\core.lua:446: attempt to index field 'skins' (a nil value)\nElvUI-5.19\\core\\install.lua:244: in function `SetupTheme'\nElvUI-5.19\\core\\install.lua:739: in function <Interface\\AddOns\\ElvUI\\core\\install.lua:739>\n\nLocals:|r\nself = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:260\n Bags = <table> {\n }\n privateVars = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:311\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:286\n StaticPopup_EscapePressed = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:319\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:368\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\core\\movers.lua:394\n ScheduleTimer = <function> defined @Interface\\AddOns\\Ace3\\AceTimer-3.0\\AceTimer-3.0.lua:276\n PriestColors = <table> {\n }\n RegisterModule = <function> defi", -- [1]
+				"ned @Interface\\AddOns\\ElvUI\\core\\core.lua:279\n SetupTheme = <function> defined @Interface\\AddOns\\ElvUI\\core\\install.lua:202\n media = <table> {\n }\n SetUpAnimGroup = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:6\n bags = <table> {\n }\n data = <table> {\n }\n Role = \"Caster\"\n UIScale = <function> defined @Interface\\AddOns\\ElvUI\\core\\pixelperfect.lua:12\n db = <table> {\n }\n ToggleConfigMode = <function> defined @Interface\\AddOns\\ElvUI\\core\\config.lua:54\n SetEnabledState = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:455\n Hook = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceHook-3.0\\AceHook-3.0.lua:274\n Options = <table> {\n }\n Layout = <table> {\n }\n tDeleteItem = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:280\n LoadCommands = <function> defined @Interface\\AddOns\\ElvUI\\core\\commands.lua:143\n HiddenFrame = <unnamed> {\n }\n DisableAddon = <function> defined @Interface\\AddOns\\ElvUI\\core\\commands.lua:28\n NewM", -- [2]
+				"odule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:266\n UIFrameFade = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:216\n MinimapWidth = 176\n StaticPopup_IsLastDisplayedFrame = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:380\n EndAprilFoolsDay2014 = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:779\n UpdateBackdropColors = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:220\n StaticPopup_OnHide = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:420\n name = \"ElvUI\"\n WorldMap = <table> {\n }\n StopMassiveShake = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:550\n Disable = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:345\n TimeColors = <table> {\n }\n SlideOut = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:161\n Unhook = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceHook-3.0\\AceHook-3.0.lua:418\n Print = <fun", -- [3]
+				"ction> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:88\n Install = <function> defined @Interface\\AddOns\\ElvUI\\core\\install.lua:812\n RegisterCooldown = <function> defined @Interface\\AddOns\\ElvUI\\core\\cooldowns.lua:126\n TimeFormats = <table> {\n }\n RGBToHex = <function> defined @Interface\\AddOns\\ElvUI\\core\\math.lua:52\n StaticPopup_Resize = <function> defined @Interface\\AddOns\\ElvUI\\core\\staticpopups.lua:557\n Cooldown_StopTimer = <function> defined @Interface\\AddOns\\ElvUI\\core\\cooldowns.lua:73\n BeginFoolsDayEvent = <function> defined @Interface\\AddOns\\ElvUI\\core\\core.lua:587\n UpdateNudgeFrame = <function> defined @Interface\\AddOns\\ElvUI\\core\\config.lua:195\n GetCPUImpact = <function> defined @Interface\\AddOns\\ElvUI\\core\\commands.lua:125\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:398\n SlideIn = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:150\n NudgeFrame = <function> defined @Interface\\AddOns", -- [4]
+				"\\ElvUI\\core\\config.lua:165\n wowbuild = 12340\n RegisteredInitialModules = <table> {\n }\n EnableModule = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:363\n IterateEmbeds = <function> defined @Interface\\AddOns\\ElvUI\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:473\n Shake = <function> defined @Interface\\AddOns\\ElvUI\\core\\animation.lua:106\n RawHookScript = <function> defined @Interface\\AddOn\n  ---", -- [5]
+			},
+			["type"] = "error",
+			["time"] = "2015/12/31 02:11:38",
+			["session"] = 308,
+			["counter"] = 1,
 		}, -- [50]
 	},
 	["save"] = true,
-	["session"] = 307,
+	["session"] = 309,
 }

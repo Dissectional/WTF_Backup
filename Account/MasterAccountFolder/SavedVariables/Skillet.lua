@@ -229,8 +229,8 @@ SkilletDB = {
 						[24] = ";ffffff|2575|Red Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2604|Red Dye;",
 						[30] = ";ffffff|2996|Bolt of Linen Cloth;t1;;2;ffffff|2589|Linen Cloth;",
 						[25] = ";ffffff|6786|Simple Dress;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;1;ffffff|2324|Bleach;",
-						[29] = ";ffffff|2997|Bolt of Woolen Cloth;m1;;3;ffffff|2592|Wool Cloth;",
 						[22] = ";ffffff|2579|Green Linen Shirt;o1;;3;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2321|Fine Thread;1;ffffff|2605|Green Dye;",
+						[29] = ";ffffff|2997|Bolt of Woolen Cloth;m1;;3;ffffff|2592|Wool Cloth;",
 					},
 					["Enchanting"] = {
 						nil, -- [1]

@@ -10,10 +10,10 @@ AtlasLootDB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -45,7 +45,7 @@ AtlasLootDB = {
 		["Pastafarian - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Ellipsis - TrueWoW"] = {
@@ -54,7 +54,7 @@ AtlasLootDB = {
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
@@ -95,12 +95,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Duglazerp"] = {
+		["Nerfed"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Pastafarian"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -109,14 +109,14 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Nerfed"] = {
+		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -165,7 +165,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -188,6 +188,10 @@ AtlasLootWishList = {
 		["Contagion"] = {
 		},
 		["Magistratus"] = {
+		},
+		["Nerfed"] = {
+		},
+		["Pastafarian"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -239,11 +243,7 @@ AtlasLootWishList = {
 				},
 			}, -- [2]
 		},
-		["Pastafarian"] = {
-		},
-		["Nerfed"] = {
-		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 		},
 		["Mittens"] = {
 		},
@@ -257,7 +257,7 @@ AtlasLootWishList = {
 		},
 		["Lichmydk"] = {
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 		},
 		["Saptack"] = {
 		},

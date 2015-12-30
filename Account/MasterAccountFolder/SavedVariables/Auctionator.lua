@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_10000"] = 200,
+	["_200000"] = 1000,
 	["_50000"] = 500,
-	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -55,27 +55,27 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1450616169,
 		["firstVersion"] = "2.6.3",
 	},
-	["Duglazerp"] = {
-		["firstSeen"] = 1450617778,
+	["Nerfed"] = {
+		["firstSeen"] = 1451477580,
 		["firstVersion"] = "2.6.3",
 	},
 	["Ellipsis"] = {
 		["firstSeen"] = 1450613965,
 		["firstVersion"] = "2.6.3",
 	},
-	["Nerfed"] = {
-		["firstSeen"] = 1451477580,
+	["Duglazerp"] = {
+		["firstSeen"] = 1450617778,
 		["firstVersion"] = "2.6.3",
 	},
-	["Wajawamedo"] = {
-		["firstSeen"] = 1451450025,
-		["guid"] = "0x000000000001000D",
+	["Wafflestomp"] = {
+		["firstSeen"] = 1451458971,
+		["guid"] = "0x000000000001001F",
 		["firstVersion"] = "2.6.3",
 	},
 	["Mittens"] = {
 		["firstSeen"] = 1451458371,
-		["firstVersion"] = "2.6.3",
 		["guid"] = "0x000000000001001E",
+		["firstVersion"] = "2.6.3",
 	},
 	["Cryogenics"] = {
 		["firstSeen"] = 1450617047,
@@ -100,9 +100,9 @@ AUCTIONATOR_TOONS = {
 		["firstVersion"] = "2.6.3",
 		["guid"] = "0x00000000001D558B",
 	},
-	["Wafflestomp"] = {
-		["firstSeen"] = 1451458971,
-		["guid"] = "0x000000000001001F",
+	["Wajawamedo"] = {
+		["firstSeen"] = 1451450025,
+		["guid"] = "0x000000000001000D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Saptack"] = {

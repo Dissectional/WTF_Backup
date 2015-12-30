@@ -9,10 +9,10 @@ LightHeadedDB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -34,13 +34,13 @@ LightHeadedDB = {
 		},
 		["Pastafarian - TrueWoW"] = {
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},

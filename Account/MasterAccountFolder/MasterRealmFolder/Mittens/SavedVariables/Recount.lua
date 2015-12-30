@@ -137,13 +137,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -152,33 +153,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -186,14 +186,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -205,12 +204,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -222,8 +223,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -240,13 +240,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -255,33 +256,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -289,14 +289,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -308,12 +307,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -325,8 +326,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -439,22 +439,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Melee"] = 5,
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
 					["DamagedWho"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -471,6 +455,22 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
 						},
 					},
 					["TimeDamage"] = 16.52,
@@ -1100,7 +1100,7 @@ RecountPerCharDB = {
 				206712.137, -- [32]
 				206714.137, -- [33]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Calvin Montague"] = {
 			["GUID"] = "0xF130001A80002071",
@@ -1181,7 +1181,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["LastEventTimes"] = {
 				207701.727, -- [1]
 				207703.71, -- [2]
@@ -1288,13 +1288,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -1303,33 +1304,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -1337,14 +1337,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -1356,12 +1355,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -1373,8 +1374,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1391,13 +1391,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -1406,33 +1407,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -1440,14 +1440,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -1459,12 +1458,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -1476,8 +1477,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1593,33 +1593,24 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 27,
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
+					["Attacks"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 20,
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
-								["Smite"] = {
-									["count"] = 68,
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 4,
+									["count"] = 6,
+									["amount"] = 27,
 								},
 							},
-							["amount"] = 88,
-						},
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 27,
-								},
-							},
+							["count"] = 7,
 							["amount"] = 27,
 						},
 					},
-					["TimeDamage"] = 17.93,
 					["TimeDamaging"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -1643,23 +1634,32 @@ RecountPerCharDB = {
 							["amount"] = 7,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
+					["TimeDamage"] = 17.93,
+					["WhoDamaged"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 20,
 								},
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 4,
-									["count"] = 6,
-									["amount"] = 27,
+								["Smite"] = {
+									["count"] = 68,
 								},
 							},
-							["count"] = 7,
+							["amount"] = 88,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27,
+								},
+							},
 							["amount"] = 27,
 						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 27,
 					},
 					["FDamage"] = 4,
 				},
@@ -1734,7 +1734,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 1,
 			["LastDamageAbility"] = "Smite",
 			["LastFightIn"] = 76,
@@ -2052,13 +2052,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2067,33 +2068,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -2101,14 +2101,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -2120,12 +2119,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -2137,8 +2138,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -2155,13 +2155,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -2170,33 +2171,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -2204,14 +2204,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -2223,12 +2222,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -2240,77 +2241,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 41,
-					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20.12,
-								},
-							},
-							["amount"] = 20.12,
-						},
-					},
-					["ActiveTime"] = 20.12,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20.12,
-								},
-							},
-							["amount"] = 20.12,
-						},
-					},
-					["DamageTaken"] = 242,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 41,
-								},
-							},
-							["amount"] = 41,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -2329,18 +2264,84 @@ RecountPerCharDB = {
 							["amount"] = 41,
 						},
 					},
-					["DeathCount"] = 2,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["TimeSpent"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
+								["Melee"] = {
+									["count"] = 20.12,
 								},
+							},
+							["amount"] = 20.12,
+						},
+					},
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.12,
+								},
+							},
+							["amount"] = 20.12,
+						},
+					},
+					["ActiveTime"] = 20.12,
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
 								["Miss"] = {
 									["count"] = 1,
 								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
 							},
-							["amount"] = 6,
+							["amount"] = 13,
+						},
+					},
+					["DamageTaken"] = 242,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 41,
+					},
+					["DeathCount"] = 2,
+					["PartialAbsorb"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
 						},
 					},
 					["TimeDamage"] = 20.12,
@@ -2357,18 +2358,17 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Holy"] = 242,
 					},
-					["PartialAbsorb"] = {
-						["Smite"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["count"] = 13,
-							["amount"] = 0,
+							["amount"] = 6,
 						},
 					},
 					["Damage"] = 41,
@@ -2376,1285 +2376,6 @@ RecountPerCharDB = {
 			},
 			["UnitLockout"] = 1451469177,
 			["LastActive"] = 1451469333,
-		},
-		["Greater Duskbat"] = {
-			["GUID"] = "0xF1300006110016BC",
-			["LastEventHealth"] = {
-				"41 (29%)", -- [1]
-				"26 (18%)", -- [2]
-				"26 (18%)", -- [3]
-				"26 (18%)", -- [4]
-				"26 (18%)", -- [5]
-				"8 (5%)", -- [6]
-				"8 (5%)", -- [7]
-				"8 (5%)", -- [8]
-				"8 (5%)", -- [9]
-				"3 (2%)", -- [10]
-				"3 (2%)", -- [11]
-				"3 (2%)", -- [12]
-				"3 (2%)", -- [13]
-				"3 (2%)", -- [14]
-				"0 (0%)", -- [15]
-				"72 (60%)", -- [16]
-				"55 (45%)", -- [17]
-				"55 (45%)", -- [18]
-				"39 (32%)", -- [19]
-				"39 (32%)", -- [20]
-				"20 (16%)", -- [21]
-				"20 (16%)", -- [22]
-				"3 (2%)", -- [23]
-				"3 (2%)", -- [24]
-				"3 (2%)", -- [25]
-				"3 (2%)", -- [26]
-				"0 (0%)", -- [27]
-				"102 (85%)", -- [28]
-				"85 (70%)", -- [29]
-				"69 (57%)", -- [30]
-				"69 (57%)", -- [31]
-				"54 (45%)", -- [32]
-				"54 (45%)", -- [33]
-				"37 (30%)", -- [34]
-				"37 (30%)", -- [35]
-				"18 (15%)", -- [36]
-				"18 (15%)", -- [37]
-				"18 (15%)", -- [38]
-				"18 (15%)", -- [39]
-				"1 (0%)", -- [40]
-				"0 (0%)", -- [41]
-				"122 (89%)", -- [42]
-				"106 (77%)", -- [43]
-				"91 (66%)", -- [44]
-				"91 (66%)", -- [45]
-				"76 (55%)", -- [46]
-				"76 (55%)", -- [47]
-				"57 (41%)", -- [48]
-				"57 (41%)", -- [49]
-				"41 (29%)", -- [50]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"MISC", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"MISC", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"MISC", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
-			},
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					4, -- [1]
-				},
-				["ActiveTime"] = {
-					59.18, -- [1]
-				},
-				["TimeDamage"] = {
-					59.18, -- [1]
-				},
-				["DamageTaken"] = {
-					504, -- [1]
-				},
-				["Damage"] = {
-					185, -- [1]
-				},
-			},
-			["enClass"] = "MOB",
-			["unit"] = "playertarget",
-			["LastActive"] = 1451468811,
-			["level"] = 6,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 70,
-			["LastEventNum"] = {
-				nil, -- [1]
-				10.94890510948905, -- [2]
-				nil, -- [3]
-				nil, -- [4]
-				nil, -- [5]
-				13.13868613138686, -- [6]
-				nil, -- [7]
-				nil, -- [8]
-				3.64963503649635, -- [9]
-				nil, -- [10]
-				nil, -- [11]
-				nil, -- [12]
-				nil, -- [13]
-				2.91970802919708, -- [14]
-				nil, -- [15]
-				nil, -- [16]
-				14.16666666666667, -- [17]
-				nil, -- [18]
-				13.33333333333333, -- [19]
-				nil, -- [20]
-				15.83333333333333, -- [21]
-				nil, -- [22]
-				14.16666666666667, -- [23]
-				nil, -- [24]
-				nil, -- [25]
-				6.666666666666667, -- [26]
-				nil, -- [27]
-				15, -- [28]
-				14.16666666666667, -- [29]
-				13.33333333333333, -- [30]
-				nil, -- [31]
-				12.5, -- [32]
-				[34] = 14.16666666666667,
-				[36] = 15.83333333333333,
-				[40] = 15.83333333333333,
-				[42] = 10.94890510948905,
-				[44] = 10.94890510948905,
-				[46] = 10.94890510948905,
-				[48] = 13.86861313868613,
-				[50] = 11.67883211678832,
-				[43] = 11.67883211678832,
-			},
-			["type"] = "Nontrivial",
-			["FightsSaved"] = 5,
-			["UnitLockout"] = 1451468679,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 3,
-									["min"] = 3,
-									["count"] = 2,
-									["amount"] = 6,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 6,
-						},
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.98,
-								},
-								["Ravage"] = {
-									["count"] = 6.199999999999999,
-								},
-							},
-							["amount"] = 59.18,
-						},
-					},
-					["DamageTaken"] = 504,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 4,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 59.18,
-					["ElementTaken"] = {
-						["Melee"] = 17,
-						["Holy"] = 487,
-					},
-					["Damage"] = 185,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 10,
-									["min"] = 5,
-									["count"] = 22,
-									["amount"] = 154,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 154,
-						},
-						["Ravage"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 10,
-									["count"] = 3,
-									["amount"] = 31,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 31,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 154,
-						["Physical"] = 31,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 154,
-								},
-								["Ravage"] = {
-									["count"] = 31,
-								},
-							},
-							["amount"] = 185,
-						},
-					},
-					["TimeDamage"] = 59.18,
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.98,
-								},
-								["Ravage"] = {
-									["count"] = 6.199999999999999,
-								},
-							},
-							["amount"] = 59.18,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 22,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 17,
-								},
-								["Smite"] = {
-									["count"] = 487,
-								},
-							},
-							["amount"] = 504,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 6,
-					},
-				},
-			},
-			["Owner"] = false,
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-						false, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
-						false, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						false, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-					},
-					["Messages"] = {
-						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [1]
-						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [2]
-						"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [3]
-						"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [4]
-						"Mittens Melee Greater Duskbat Miss", -- [5]
-						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [6]
-						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [7]
-						"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [8]
-						"Mittens Melee Greater Duskbat Hit -5 (Physical)", -- [9]
-						"Greater Duskbat Ravage Mittens Hit -11 (Physical)", -- [10]
-						"Mittens Melee Greater Duskbat Miss", -- [11]
-						"Greater Duskbat Melee Mittens Miss", -- [12]
-						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [13]
-						"Mittens Melee Greater Duskbat Hit -4 (Physical)", -- [14]
-						"Greater Duskbat dies.", -- [15]
-					},
-					["DeathAt"] = 1451468813,
-					["HealthNum"] = {
-						29.92700729927007, -- [1]
-						18.97810218978102, -- [2]
-						18.97810218978102, -- [3]
-						18.97810218978102, -- [4]
-						18.97810218978102, -- [5]
-						5.839416058394161, -- [6]
-						5.839416058394161, -- [7]
-						5.839416058394161, -- [8]
-						5.839416058394161, -- [9]
-						2.18978102189781, -- [10]
-						2.18978102189781, -- [11]
-						2.18978102189781, -- [12]
-						2.18978102189781, -- [13]
-						2.18978102189781, -- [14]
-						0, -- [15]
-					},
-					["MessageTimes"] = {
-						-14.81400000001304, -- [1]
-						-13.31300000002375, -- [2]
-						-12.73000000001048, -- [3]
-						-10.64700000002631, -- [4]
-						-10.46400000000722, -- [5]
-						-8.779999999998836, -- [6]
-						-8.614000000001397, -- [7]
-						-6.63100000002305, -- [8]
-						-5.864000000001397, -- [9]
-						-4.564000000013039, -- [10]
-						-2.980999999999767, -- [11]
-						-2.51400000002468, -- [12]
-						-0.4480000000039581, -- [13]
-						-0.01400000002468005, -- [14]
-						0, -- [15]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"41 (29%)", -- [1]
-						"26 (18%)", -- [2]
-						"26 (18%)", -- [3]
-						"26 (18%)", -- [4]
-						"26 (18%)", -- [5]
-						"8 (5%)", -- [6]
-						"8 (5%)", -- [7]
-						"8 (5%)", -- [8]
-						"8 (5%)", -- [9]
-						"3 (2%)", -- [10]
-						"3 (2%)", -- [11]
-						"3 (2%)", -- [12]
-						"3 (2%)", -- [13]
-						"3 (2%)", -- [14]
-						"0 (0%)", -- [15]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						10.94890510948905, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						13.13868613138686, -- [6]
-						0, -- [7]
-						0, -- [8]
-						3.64963503649635, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						2.91970802919708, -- [14]
-						0, -- [15]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"MISC", -- [15]
-					},
-				}, -- [1]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						false, -- [12]
-						true, -- [13]
-						true, -- [14]
-					},
-					["Messages"] = {
-						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [1]
-						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [2]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [3]
-						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [4]
-						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [5]
-						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [6]
-						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [7]
-						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [8]
-						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
-						"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [10]
-						"Mittens Melee Greater Duskbat Miss", -- [11]
-						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [12]
-						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [13]
-						"Greater Duskbat dies.", -- [14]
-					},
-					["DeathAt"] = 1451468729,
-					["HealthNum"] = {
-						85, -- [1]
-						70.83333333333333, -- [2]
-						57.5, -- [3]
-						57.5, -- [4]
-						45, -- [5]
-						45, -- [6]
-						30.83333333333333, -- [7]
-						30.83333333333333, -- [8]
-						15, -- [9]
-						15, -- [10]
-						15, -- [11]
-						15, -- [12]
-						0.8333333333333334, -- [13]
-						0, -- [14]
-					},
-					["MessageTimes"] = {
-						-14.3410000000149, -- [1]
-						-12.85700000001816, -- [2]
-						-11.15700000000652, -- [3]
-						-10.29099999999744, -- [4]
-						-8.940000000002328, -- [5]
-						-8.24100000000908, -- [6]
-						-6.907999999995809, -- [7]
-						-6.14100000000326, -- [8]
-						-4.858000000007451, -- [9]
-						-4.089999999996508, -- [10]
-						-2.00700000001234, -- [11]
-						-2.00600000002305, -- [12]
-						-0.007000000012340024, -- [13]
-						0, -- [14]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"102 (85%)", -- [1]
-						"85 (70%)", -- [2]
-						"69 (57%)", -- [3]
-						"69 (57%)", -- [4]
-						"54 (45%)", -- [5]
-						"54 (45%)", -- [6]
-						"37 (30%)", -- [7]
-						"37 (30%)", -- [8]
-						"18 (15%)", -- [9]
-						"18 (15%)", -- [10]
-						"18 (15%)", -- [11]
-						"18 (15%)", -- [12]
-						"1 (0%)", -- [13]
-						"0 (0%)", -- [14]
-					},
-					["EventNum"] = {
-						15, -- [1]
-						14.16666666666667, -- [2]
-						13.33333333333333, -- [3]
-						0, -- [4]
-						12.5, -- [5]
-						0, -- [6]
-						14.16666666666667, -- [7]
-						0, -- [8]
-						15.83333333333333, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						15.83333333333333, -- [13]
-						0, -- [14]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"MISC", -- [14]
-					},
-				}, -- [2]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						false, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-					},
-					["Messages"] = {
-						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [1]
-						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [2]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [3]
-						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [4]
-						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [5]
-						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [6]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [7]
-						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [8]
-						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
-						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [10]
-						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [11]
-						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [12]
-						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [13]
-						"Mittens Melee Greater Duskbat Hit -8 (Physical)", -- [14]
-						"Greater Duskbat dies.", -- [15]
-					},
-					["DeathAt"] = 1451468710,
-					["HealthNum"] = {
-						87.5, -- [1]
-						73.33333333333333, -- [2]
-						60, -- [3]
-						60, -- [4]
-						45.83333333333334, -- [5]
-						45.83333333333334, -- [6]
-						32.5, -- [7]
-						32.5, -- [8]
-						16.66666666666667, -- [9]
-						16.66666666666667, -- [10]
-						2.5, -- [11]
-						2.5, -- [12]
-						2.5, -- [13]
-						2.5, -- [14]
-						0, -- [15]
-					},
-					["MessageTimes"] = {
-						-13.71900000001187, -- [1]
-						-12.01900000000023, -- [2]
-						-10.51900000000023, -- [3]
-						-10.51800000001094, -- [4]
-						-8.603000000002794, -- [5]
-						-8.502999999996973, -- [6]
-						-6.952000000019325, -- [7]
-						-6.453000000008615, -- [8]
-						-4.919000000023516, -- [9]
-						-4.419000000023516, -- [10]
-						-2.869999999995343, -- [11]
-						-2.303000000014436, -- [12]
-						-0.2529999999969732, -- [13]
-						-0.02000000001862645, -- [14]
-						0, -- [15]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"105 (87%)", -- [1]
-						"88 (73%)", -- [2]
-						"72 (60%)", -- [3]
-						"72 (60%)", -- [4]
-						"55 (45%)", -- [5]
-						"55 (45%)", -- [6]
-						"39 (32%)", -- [7]
-						"39 (32%)", -- [8]
-						"20 (16%)", -- [9]
-						"20 (16%)", -- [10]
-						"3 (2%)", -- [11]
-						"3 (2%)", -- [12]
-						"3 (2%)", -- [13]
-						"3 (2%)", -- [14]
-						"0 (0%)", -- [15]
-					},
-					["EventNum"] = {
-						12.5, -- [1]
-						14.16666666666667, -- [2]
-						13.33333333333333, -- [3]
-						0, -- [4]
-						14.16666666666667, -- [5]
-						0, -- [6]
-						13.33333333333333, -- [7]
-						0, -- [8]
-						15.83333333333333, -- [9]
-						0, -- [10]
-						14.16666666666667, -- [11]
-						0, -- [12]
-						0, -- [13]
-						6.666666666666667, -- [14]
-						0, -- [15]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"MISC", -- [15]
-					},
-				}, -- [3]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						true, -- [12]
-					},
-					["Messages"] = {
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [1]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [2]
-						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [3]
-						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [4]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [5]
-						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [6]
-						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [7]
-						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [8]
-						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
-						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [10]
-						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [11]
-						"Greater Duskbat dies.", -- [12]
-					},
-					["DeathAt"] = 1451468692,
-					["HealthNum"] = {
-						86.66666666666667, -- [1]
-						73.33333333333333, -- [2]
-						57.5, -- [3]
-						57.5, -- [4]
-						44.16666666666666, -- [5]
-						44.16666666666666, -- [6]
-						29.16666666666667, -- [7]
-						29.16666666666667, -- [8]
-						13.33333333333333, -- [9]
-						13.33333333333333, -- [10]
-						0.8333333333333334, -- [11]
-						0, -- [12]
-					},
-					["MessageTimes"] = {
-						-11.11200000002282, -- [1]
-						-9.546000000002096, -- [2]
-						-7.846000000019558, -- [3]
-						-7.746000000013737, -- [4]
-						-6.246000000013737, -- [5]
-						-5.663000000000466, -- [6]
-						-4.062000000005355, -- [7]
-						-3.596000000019558, -- [8]
-						-2.096000000019558, -- [9]
-						-1.596000000019558, -- [10]
-						-0.01200000001699664, -- [11]
-						0, -- [12]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"104 (86%)", -- [1]
-						"88 (73%)", -- [2]
-						"69 (57%)", -- [3]
-						"69 (57%)", -- [4]
-						"53 (44%)", -- [5]
-						"53 (44%)", -- [6]
-						"35 (29%)", -- [7]
-						"35 (29%)", -- [8]
-						"16 (13%)", -- [9]
-						"16 (13%)", -- [10]
-						"1 (0%)", -- [11]
-						"0 (0%)", -- [12]
-					},
-					["EventNum"] = {
-						13.33333333333333, -- [1]
-						13.33333333333333, -- [2]
-						15.83333333333333, -- [3]
-						0, -- [4]
-						13.33333333333333, -- [5]
-						0, -- [6]
-						15, -- [7]
-						0, -- [8]
-						15.83333333333333, -- [9]
-						0, -- [10]
-						13.33333333333333, -- [11]
-						0, -- [12]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"MISC", -- [12]
-					},
-				}, -- [4]
-			},
-			["NextEventNum"] = 16,
-			["LastEventHealthNum"] = {
-				29.92700729927007, -- [1]
-				18.97810218978102, -- [2]
-				18.97810218978102, -- [3]
-				18.97810218978102, -- [4]
-				18.97810218978102, -- [5]
-				5.839416058394161, -- [6]
-				5.839416058394161, -- [7]
-				5.839416058394161, -- [8]
-				5.839416058394161, -- [9]
-				2.18978102189781, -- [10]
-				2.18978102189781, -- [11]
-				2.18978102189781, -- [12]
-				2.18978102189781, -- [13]
-				2.18978102189781, -- [14]
-				0, -- [15]
-				60, -- [16]
-				45.83333333333334, -- [17]
-				45.83333333333334, -- [18]
-				32.5, -- [19]
-				32.5, -- [20]
-				16.66666666666667, -- [21]
-				16.66666666666667, -- [22]
-				2.5, -- [23]
-				2.5, -- [24]
-				2.5, -- [25]
-				2.5, -- [26]
-				0, -- [27]
-				85, -- [28]
-				70.83333333333333, -- [29]
-				57.5, -- [30]
-				57.5, -- [31]
-				45, -- [32]
-				45, -- [33]
-				30.83333333333333, -- [34]
-				30.83333333333333, -- [35]
-				15, -- [36]
-				15, -- [37]
-				15, -- [38]
-				15, -- [39]
-				0.8333333333333334, -- [40]
-				0, -- [41]
-				89.05109489051095, -- [42]
-				77.37226277372263, -- [43]
-				66.42335766423358, -- [44]
-				66.42335766423358, -- [45]
-				55.47445255474452, -- [46]
-				55.47445255474452, -- [47]
-				41.60583941605839, -- [48]
-				41.60583941605839, -- [49]
-				29.92700729927007, -- [50]
-			},
-			["LastEvents"] = {
-				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [1]
-				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [2]
-				"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [3]
-				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [4]
-				"Mittens Melee Greater Duskbat Miss", -- [5]
-				"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [6]
-				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [7]
-				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [8]
-				"Mittens Melee Greater Duskbat Hit -5 (Physical)", -- [9]
-				"Greater Duskbat Ravage Mittens Hit -11 (Physical)", -- [10]
-				"Mittens Melee Greater Duskbat Miss", -- [11]
-				"Greater Duskbat Melee Mittens Miss", -- [12]
-				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [13]
-				"Mittens Melee Greater Duskbat Hit -4 (Physical)", -- [14]
-				"Greater Duskbat dies.", -- [15]
-				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [16]
-				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [17]
-				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [18]
-				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [19]
-				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [20]
-				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [21]
-				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [22]
-				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [23]
-				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [24]
-				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [25]
-				"Mittens Melee Greater Duskbat Hit -8 (Physical)", -- [26]
-				"Greater Duskbat dies.", -- [27]
-				"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [28]
-				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [29]
-				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [30]
-				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [31]
-				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [32]
-				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [33]
-				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [34]
-				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [35]
-				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [36]
-				"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [37]
-				"Mittens Melee Greater Duskbat Miss", -- [38]
-				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [39]
-				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [40]
-				"Greater Duskbat dies.", -- [41]
-				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [42]
-				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [43]
-				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [44]
-				"Greater Duskbat Melee Mittens Hit -10 (Physical)", -- [45]
-				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [46]
-				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [47]
-				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [48]
-				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [49]
-				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [50]
-			},
-			["Name"] = "Greater Duskbat",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				false, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				true, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["TimeLast"] = {
-				["DeathCount"] = 1451468811,
-				["ActiveTime"] = 1451468811,
-				["TimeDamage"] = 1451468811,
-				["OVERALL"] = 1451468811,
-				["DamageTaken"] = 1451468811,
-				["Damage"] = 1451468811,
-			},
-			["LastDamageTaken"] = 4,
-			["LastEventTimes"] = {
-				207416.88, -- [1]
-				207418.381, -- [2]
-				207418.964, -- [3]
-				207421.047, -- [4]
-				207421.23, -- [5]
-				207422.914, -- [6]
-				207423.08, -- [7]
-				207425.063, -- [8]
-				207425.83, -- [9]
-				207427.13, -- [10]
-				207428.713, -- [11]
-				207429.18, -- [12]
-				207431.246, -- [13]
-				207431.68, -- [14]
-				207431.694, -- [15]
-				207318.266, -- [16]
-				207320.181, -- [17]
-				207320.281, -- [18]
-				207321.832, -- [19]
-				207322.331, -- [20]
-				207323.865, -- [21]
-				207324.365, -- [22]
-				207325.914, -- [23]
-				207326.481, -- [24]
-				207328.531, -- [25]
-				207328.764, -- [26]
-				207328.784, -- [27]
-				207332.981, -- [28]
-				207334.465, -- [29]
-				207336.165, -- [30]
-				207337.031, -- [31]
-				207338.382, -- [32]
-				207339.081, -- [33]
-				207340.414, -- [34]
-				207341.181, -- [35]
-				207342.464, -- [36]
-				207343.232, -- [37]
-				207345.315, -- [38]
-				207345.316, -- [39]
-				207347.315, -- [40]
-				207347.322, -- [41]
-				207407.314, -- [42]
-				207409.014, -- [43]
-				207410.764, -- [44]
-				207410.764, -- [45]
-				207412.431, -- [46]
-				207412.78, -- [47]
-				207414.33, -- [48]
-				207414.88, -- [49]
-				207416.381, -- [50]
-			},
-			["LastAbility"] = 1439.17,
 		},
 		["Ravaged Corpse"] = {
 			["DeathLogs"] = {
@@ -4421,7 +3142,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 9,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 6,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 113,
@@ -4757,14 +3478,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 24,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Holy"] = 145,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 24,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -4772,22 +3494,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 24,
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
@@ -4799,9 +3505,25 @@ RecountPerCharDB = {
 							["amount"] = 24,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 24,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -4815,22 +3537,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Smite"] = {
@@ -4846,24 +3571,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 7.67,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Mittens"] = {
@@ -4883,12 +3591,26 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 7.67,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -4920,8 +3642,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -4938,13 +3659,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -4953,33 +3675,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -4987,14 +3708,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5006,12 +3726,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -5023,8 +3745,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5052,14 +3773,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 5,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Holy"] = 124,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 5,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5067,6 +3789,22 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 5,
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -5081,25 +3819,9 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 5,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -5113,22 +3835,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Smite"] = {
@@ -5144,24 +3869,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 5.6,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Mittens"] = {
@@ -5181,12 +3889,26 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 5.6,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -5222,8 +3944,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5251,14 +3972,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 16,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Holy"] = 124,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 16,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5266,22 +3988,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 16,
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
@@ -5293,9 +3999,25 @@ RecountPerCharDB = {
 							["amount"] = 16,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 16,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -5309,22 +4031,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Smite"] = {
@@ -5340,24 +4065,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 5.6,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Mittens"] = {
@@ -5377,12 +4085,26 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 5.6,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -5414,8 +4136,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5448,15 +4169,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 25,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 9,
 						["Holy"] = 117,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 25,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5464,22 +4186,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 25,
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
@@ -5491,9 +4197,25 @@ RecountPerCharDB = {
 							["amount"] = 25,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 25,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -5510,22 +4232,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -5553,6 +4278,29 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 9.649999999999999,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.649999999999999,
+								},
+							},
+							["amount"] = 9.649999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -5579,35 +4327,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.649999999999999,
-								},
-							},
-							["amount"] = 9.649999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 9.649999999999999,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -5639,8 +4361,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5673,15 +4394,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 25,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 9,
 						["Holy"] = 117,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 25,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -5689,22 +4411,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 25,
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
@@ -5716,9 +4422,25 @@ RecountPerCharDB = {
 							["amount"] = 25,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 25,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -5735,22 +4457,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -5778,6 +4503,29 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 9.649999999999999,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.649999999999999,
+								},
+							},
+							["amount"] = 9.649999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -5804,35 +4552,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.649999999999999,
-								},
-							},
-							["amount"] = 9.649999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 9.649999999999999,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -5864,62 +4586,29 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 250,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 86.35999999999997,
-								},
-							},
-							["amount"] = 86.35999999999997,
-						},
-					},
-					["PartialResist"] = {
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
+								["Miss"] = {
+									["count"] = 1,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 43,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 5,
+									["count"] = 34,
+									["amount"] = 250,
 								},
 							},
-							["count"] = 43,
-							["amount"] = 0,
+							["count"] = 35,
+							["amount"] = 250,
 						},
 					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 86.35999999999997,
-								},
-							},
-							["amount"] = 86.35999999999997,
-						},
-					},
-					["ActiveTime"] = 86.35999999999997,
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -5950,6 +4639,30 @@ RecountPerCharDB = {
 							["amount"] = 43,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 250,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 86.35999999999997,
+								},
+							},
+							["amount"] = 86.35999999999997,
+						},
+					},
+					["ActiveTime"] = 86.35999999999997,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 86.35999999999997,
+								},
+							},
+							["amount"] = 86.35999999999997,
+						},
+					},
 					["DamageTaken"] = 1112,
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -5964,25 +4677,61 @@ RecountPerCharDB = {
 							["amount"] = 35,
 						},
 					},
-					["Attacks"] = {
+					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 10,
-									["min"] = 5,
-									["count"] = 34,
-									["amount"] = 250,
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 43,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 35,
-							["amount"] = 250,
+							["count"] = 43,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 8,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 250,
+								},
+							},
+							["amount"] = 250,
+						},
+					},
+					["TimeDamage"] = 86.35999999999997,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29,
+								},
+								["Smite"] = {
+									["count"] = 1083,
+								},
+							},
+							["amount"] = 1112,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 29,
+						["Holy"] = 1083,
+					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -6009,93 +4758,1344 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["TimeDamage"] = 86.35999999999997,
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 29,
-								},
-								["Smite"] = {
-									["count"] = 1083,
-								},
-							},
-							["amount"] = 1112,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 29,
-						["Holy"] = 1083,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 250,
-								},
-							},
-							["amount"] = 250,
-						},
-					},
 					["Damage"] = 250,
 				},
 			},
 			["UnitLockout"] = 1451470296,
 			["LastActive"] = 1451470652,
 		},
-		["Night Web Spider"] = {
-			["GUID"] = "0xF1300005E1005419",
+		["Greater Duskbat"] = {
+			["GUID"] = "0xF1300006110016BC",
 			["LastEventHealth"] = {
-				"20 (28%)", -- [1]
-				"16 (22%)", -- [2]
-				"16 (22%)", -- [3]
-				"1 (1%)", -- [4]
-				"1 (1%)", -- [5]
-				"1 (1%)", -- [6]
-				"1 (1%)", -- [7]
-				"1 (1%)", -- [8]
-				"1 (1%)", -- [9]
-				"1 (1%)", -- [10]
+				"41 (29%)", -- [1]
+				"26 (18%)", -- [2]
+				"26 (18%)", -- [3]
+				"26 (18%)", -- [4]
+				"26 (18%)", -- [5]
+				"8 (5%)", -- [6]
+				"8 (5%)", -- [7]
+				"8 (5%)", -- [8]
+				"8 (5%)", -- [9]
+				"3 (2%)", -- [10]
+				"3 (2%)", -- [11]
+				"3 (2%)", -- [12]
+				"3 (2%)", -- [13]
+				"3 (2%)", -- [14]
+				"0 (0%)", -- [15]
+				"72 (60%)", -- [16]
+				"55 (45%)", -- [17]
+				"55 (45%)", -- [18]
+				"39 (32%)", -- [19]
+				"39 (32%)", -- [20]
+				"20 (16%)", -- [21]
+				"20 (16%)", -- [22]
+				"3 (2%)", -- [23]
+				"3 (2%)", -- [24]
+				"3 (2%)", -- [25]
+				"3 (2%)", -- [26]
+				"0 (0%)", -- [27]
+				"102 (85%)", -- [28]
+				"85 (70%)", -- [29]
+				"69 (57%)", -- [30]
+				"69 (57%)", -- [31]
+				"54 (45%)", -- [32]
+				"54 (45%)", -- [33]
+				"37 (30%)", -- [34]
+				"37 (30%)", -- [35]
+				"18 (15%)", -- [36]
+				"18 (15%)", -- [37]
+				"18 (15%)", -- [38]
+				"18 (15%)", -- [39]
+				"1 (0%)", -- [40]
+				"0 (0%)", -- [41]
+				"122 (89%)", -- [42]
+				"106 (77%)", -- [43]
+				"91 (66%)", -- [44]
+				"91 (66%)", -- [45]
+				"76 (55%)", -- [46]
+				"76 (55%)", -- [47]
+				"57 (41%)", -- [48]
+				"57 (41%)", -- [49]
+				"41 (29%)", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"MISC", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"MISC", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"MISC", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					4, -- [1]
+				},
+				["ActiveTime"] = {
+					59.18, -- [1]
+				},
+				["TimeDamage"] = {
+					59.18, -- [1]
+				},
+				["DamageTaken"] = {
+					504, -- [1]
+				},
+				["Damage"] = {
+					185, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["unit"] = "playertarget",
+			["LastActive"] = 1451468811,
+			["level"] = 6,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 70,
+			["LastEventNum"] = {
+				nil, -- [1]
+				10.94890510948905, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				13.13868613138686, -- [6]
+				nil, -- [7]
+				nil, -- [8]
+				3.64963503649635, -- [9]
+				nil, -- [10]
+				nil, -- [11]
+				nil, -- [12]
+				nil, -- [13]
+				2.91970802919708, -- [14]
+				nil, -- [15]
+				nil, -- [16]
+				14.16666666666667, -- [17]
+				nil, -- [18]
+				13.33333333333333, -- [19]
+				nil, -- [20]
+				15.83333333333333, -- [21]
+				nil, -- [22]
+				14.16666666666667, -- [23]
+				nil, -- [24]
+				nil, -- [25]
+				6.666666666666667, -- [26]
+				nil, -- [27]
+				15, -- [28]
+				14.16666666666667, -- [29]
+				13.33333333333333, -- [30]
+				nil, -- [31]
+				12.5, -- [32]
+				[34] = 14.16666666666667,
+				[36] = 15.83333333333333,
+				[40] = 15.83333333333333,
+				[42] = 10.94890510948905,
+				[44] = 10.94890510948905,
+				[46] = 10.94890510948905,
+				[48] = 13.86861313868613,
+				[50] = 11.67883211678832,
+				[43] = 11.67883211678832,
+			},
+			["type"] = "Nontrivial",
+			["FightsSaved"] = 5,
+			["UnitLockout"] = 1451468679,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 2,
+									["amount"] = 6,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6,
+						},
+					},
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.98,
+								},
+								["Ravage"] = {
+									["count"] = 6.199999999999999,
+								},
+							},
+							["amount"] = 59.18,
+						},
+					},
+					["DamageTaken"] = 504,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 4,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 59.18,
+					["ElementTaken"] = {
+						["Melee"] = 17,
+						["Holy"] = 487,
+					},
+					["Damage"] = 185,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 5,
+									["count"] = 22,
+									["amount"] = 154,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 154,
+						},
+						["Ravage"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 10,
+									["count"] = 3,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 31,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 154,
+						["Physical"] = 31,
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 154,
+								},
+								["Ravage"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 185,
+						},
+					},
+					["TimeDamage"] = 59.18,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+								["Smite"] = {
+									["count"] = 487,
+								},
+							},
+							["amount"] = 504,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.98,
+								},
+								["Ravage"] = {
+									["count"] = 6.199999999999999,
+								},
+							},
+							["amount"] = 59.18,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 6,
+					},
+				},
+			},
+			["Owner"] = false,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+						false, -- [3]
+						false, -- [4]
+						true, -- [5]
+						true, -- [6]
+						false, -- [7]
+						false, -- [8]
+						true, -- [9]
+						false, -- [10]
+						true, -- [11]
+						false, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+					},
+					["Messages"] = {
+						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [1]
+						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [2]
+						"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [3]
+						"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [4]
+						"Mittens Melee Greater Duskbat Miss", -- [5]
+						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [6]
+						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [7]
+						"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [8]
+						"Mittens Melee Greater Duskbat Hit -5 (Physical)", -- [9]
+						"Greater Duskbat Ravage Mittens Hit -11 (Physical)", -- [10]
+						"Mittens Melee Greater Duskbat Miss", -- [11]
+						"Greater Duskbat Melee Mittens Miss", -- [12]
+						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [13]
+						"Mittens Melee Greater Duskbat Hit -4 (Physical)", -- [14]
+						"Greater Duskbat dies.", -- [15]
+					},
+					["DeathAt"] = 1451468813,
+					["HealthNum"] = {
+						29.92700729927007, -- [1]
+						18.97810218978102, -- [2]
+						18.97810218978102, -- [3]
+						18.97810218978102, -- [4]
+						18.97810218978102, -- [5]
+						5.839416058394161, -- [6]
+						5.839416058394161, -- [7]
+						5.839416058394161, -- [8]
+						5.839416058394161, -- [9]
+						2.18978102189781, -- [10]
+						2.18978102189781, -- [11]
+						2.18978102189781, -- [12]
+						2.18978102189781, -- [13]
+						2.18978102189781, -- [14]
+						0, -- [15]
+					},
+					["MessageTimes"] = {
+						-14.81400000001304, -- [1]
+						-13.31300000002375, -- [2]
+						-12.73000000001048, -- [3]
+						-10.64700000002631, -- [4]
+						-10.46400000000722, -- [5]
+						-8.779999999998836, -- [6]
+						-8.614000000001397, -- [7]
+						-6.63100000002305, -- [8]
+						-5.864000000001397, -- [9]
+						-4.564000000013039, -- [10]
+						-2.980999999999767, -- [11]
+						-2.51400000002468, -- [12]
+						-0.4480000000039581, -- [13]
+						-0.01400000002468005, -- [14]
+						0, -- [15]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"41 (29%)", -- [1]
+						"26 (18%)", -- [2]
+						"26 (18%)", -- [3]
+						"26 (18%)", -- [4]
+						"26 (18%)", -- [5]
+						"8 (5%)", -- [6]
+						"8 (5%)", -- [7]
+						"8 (5%)", -- [8]
+						"8 (5%)", -- [9]
+						"3 (2%)", -- [10]
+						"3 (2%)", -- [11]
+						"3 (2%)", -- [12]
+						"3 (2%)", -- [13]
+						"3 (2%)", -- [14]
+						"0 (0%)", -- [15]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						10.94890510948905, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						13.13868613138686, -- [6]
+						0, -- [7]
+						0, -- [8]
+						3.64963503649635, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						2.91970802919708, -- [14]
+						0, -- [15]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"MISC", -- [15]
+					},
+				}, -- [1]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						false, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						false, -- [10]
+						true, -- [11]
+						false, -- [12]
+						true, -- [13]
+						true, -- [14]
+					},
+					["Messages"] = {
+						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [1]
+						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [2]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [3]
+						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [4]
+						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [5]
+						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [6]
+						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [7]
+						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [8]
+						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
+						"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [10]
+						"Mittens Melee Greater Duskbat Miss", -- [11]
+						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [12]
+						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [13]
+						"Greater Duskbat dies.", -- [14]
+					},
+					["DeathAt"] = 1451468729,
+					["HealthNum"] = {
+						85, -- [1]
+						70.83333333333333, -- [2]
+						57.5, -- [3]
+						57.5, -- [4]
+						45, -- [5]
+						45, -- [6]
+						30.83333333333333, -- [7]
+						30.83333333333333, -- [8]
+						15, -- [9]
+						15, -- [10]
+						15, -- [11]
+						15, -- [12]
+						0.8333333333333334, -- [13]
+						0, -- [14]
+					},
+					["MessageTimes"] = {
+						-14.3410000000149, -- [1]
+						-12.85700000001816, -- [2]
+						-11.15700000000652, -- [3]
+						-10.29099999999744, -- [4]
+						-8.940000000002328, -- [5]
+						-8.24100000000908, -- [6]
+						-6.907999999995809, -- [7]
+						-6.14100000000326, -- [8]
+						-4.858000000007451, -- [9]
+						-4.089999999996508, -- [10]
+						-2.00700000001234, -- [11]
+						-2.00600000002305, -- [12]
+						-0.007000000012340024, -- [13]
+						0, -- [14]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"102 (85%)", -- [1]
+						"85 (70%)", -- [2]
+						"69 (57%)", -- [3]
+						"69 (57%)", -- [4]
+						"54 (45%)", -- [5]
+						"54 (45%)", -- [6]
+						"37 (30%)", -- [7]
+						"37 (30%)", -- [8]
+						"18 (15%)", -- [9]
+						"18 (15%)", -- [10]
+						"18 (15%)", -- [11]
+						"18 (15%)", -- [12]
+						"1 (0%)", -- [13]
+						"0 (0%)", -- [14]
+					},
+					["EventNum"] = {
+						15, -- [1]
+						14.16666666666667, -- [2]
+						13.33333333333333, -- [3]
+						0, -- [4]
+						12.5, -- [5]
+						0, -- [6]
+						14.16666666666667, -- [7]
+						0, -- [8]
+						15.83333333333333, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						15.83333333333333, -- [13]
+						0, -- [14]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"MISC", -- [14]
+					},
+				}, -- [2]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						false, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						false, -- [10]
+						true, -- [11]
+						false, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+					},
+					["Messages"] = {
+						"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [1]
+						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [2]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [3]
+						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [4]
+						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [5]
+						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [6]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [7]
+						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [8]
+						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
+						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [10]
+						"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [11]
+						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [12]
+						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [13]
+						"Mittens Melee Greater Duskbat Hit -8 (Physical)", -- [14]
+						"Greater Duskbat dies.", -- [15]
+					},
+					["DeathAt"] = 1451468710,
+					["HealthNum"] = {
+						87.5, -- [1]
+						73.33333333333333, -- [2]
+						60, -- [3]
+						60, -- [4]
+						45.83333333333334, -- [5]
+						45.83333333333334, -- [6]
+						32.5, -- [7]
+						32.5, -- [8]
+						16.66666666666667, -- [9]
+						16.66666666666667, -- [10]
+						2.5, -- [11]
+						2.5, -- [12]
+						2.5, -- [13]
+						2.5, -- [14]
+						0, -- [15]
+					},
+					["MessageTimes"] = {
+						-13.71900000001187, -- [1]
+						-12.01900000000023, -- [2]
+						-10.51900000000023, -- [3]
+						-10.51800000001094, -- [4]
+						-8.603000000002794, -- [5]
+						-8.502999999996973, -- [6]
+						-6.952000000019325, -- [7]
+						-6.453000000008615, -- [8]
+						-4.919000000023516, -- [9]
+						-4.419000000023516, -- [10]
+						-2.869999999995343, -- [11]
+						-2.303000000014436, -- [12]
+						-0.2529999999969732, -- [13]
+						-0.02000000001862645, -- [14]
+						0, -- [15]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"105 (87%)", -- [1]
+						"88 (73%)", -- [2]
+						"72 (60%)", -- [3]
+						"72 (60%)", -- [4]
+						"55 (45%)", -- [5]
+						"55 (45%)", -- [6]
+						"39 (32%)", -- [7]
+						"39 (32%)", -- [8]
+						"20 (16%)", -- [9]
+						"20 (16%)", -- [10]
+						"3 (2%)", -- [11]
+						"3 (2%)", -- [12]
+						"3 (2%)", -- [13]
+						"3 (2%)", -- [14]
+						"0 (0%)", -- [15]
+					},
+					["EventNum"] = {
+						12.5, -- [1]
+						14.16666666666667, -- [2]
+						13.33333333333333, -- [3]
+						0, -- [4]
+						14.16666666666667, -- [5]
+						0, -- [6]
+						13.33333333333333, -- [7]
+						0, -- [8]
+						15.83333333333333, -- [9]
+						0, -- [10]
+						14.16666666666667, -- [11]
+						0, -- [12]
+						0, -- [13]
+						6.666666666666667, -- [14]
+						0, -- [15]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"MISC", -- [15]
+					},
+				}, -- [3]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						false, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						false, -- [10]
+						true, -- [11]
+						true, -- [12]
+					},
+					["Messages"] = {
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [1]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [2]
+						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [3]
+						"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [4]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [5]
+						"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [6]
+						"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [7]
+						"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [8]
+						"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [9]
+						"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [10]
+						"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [11]
+						"Greater Duskbat dies.", -- [12]
+					},
+					["DeathAt"] = 1451468692,
+					["HealthNum"] = {
+						86.66666666666667, -- [1]
+						73.33333333333333, -- [2]
+						57.5, -- [3]
+						57.5, -- [4]
+						44.16666666666666, -- [5]
+						44.16666666666666, -- [6]
+						29.16666666666667, -- [7]
+						29.16666666666667, -- [8]
+						13.33333333333333, -- [9]
+						13.33333333333333, -- [10]
+						0.8333333333333334, -- [11]
+						0, -- [12]
+					},
+					["MessageTimes"] = {
+						-11.11200000002282, -- [1]
+						-9.546000000002096, -- [2]
+						-7.846000000019558, -- [3]
+						-7.746000000013737, -- [4]
+						-6.246000000013737, -- [5]
+						-5.663000000000466, -- [6]
+						-4.062000000005355, -- [7]
+						-3.596000000019558, -- [8]
+						-2.096000000019558, -- [9]
+						-1.596000000019558, -- [10]
+						-0.01200000001699664, -- [11]
+						0, -- [12]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"104 (86%)", -- [1]
+						"88 (73%)", -- [2]
+						"69 (57%)", -- [3]
+						"69 (57%)", -- [4]
+						"53 (44%)", -- [5]
+						"53 (44%)", -- [6]
+						"35 (29%)", -- [7]
+						"35 (29%)", -- [8]
+						"16 (13%)", -- [9]
+						"16 (13%)", -- [10]
+						"1 (0%)", -- [11]
+						"0 (0%)", -- [12]
+					},
+					["EventNum"] = {
+						13.33333333333333, -- [1]
+						13.33333333333333, -- [2]
+						15.83333333333333, -- [3]
+						0, -- [4]
+						13.33333333333333, -- [5]
+						0, -- [6]
+						15, -- [7]
+						0, -- [8]
+						15.83333333333333, -- [9]
+						0, -- [10]
+						13.33333333333333, -- [11]
+						0, -- [12]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"MISC", -- [12]
+					},
+				}, -- [4]
+			},
+			["NextEventNum"] = 16,
+			["LastEventHealthNum"] = {
+				29.92700729927007, -- [1]
+				18.97810218978102, -- [2]
+				18.97810218978102, -- [3]
+				18.97810218978102, -- [4]
+				18.97810218978102, -- [5]
+				5.839416058394161, -- [6]
+				5.839416058394161, -- [7]
+				5.839416058394161, -- [8]
+				5.839416058394161, -- [9]
+				2.18978102189781, -- [10]
+				2.18978102189781, -- [11]
+				2.18978102189781, -- [12]
+				2.18978102189781, -- [13]
+				2.18978102189781, -- [14]
+				0, -- [15]
+				60, -- [16]
+				45.83333333333334, -- [17]
+				45.83333333333334, -- [18]
+				32.5, -- [19]
+				32.5, -- [20]
+				16.66666666666667, -- [21]
+				16.66666666666667, -- [22]
+				2.5, -- [23]
+				2.5, -- [24]
+				2.5, -- [25]
+				2.5, -- [26]
+				0, -- [27]
+				85, -- [28]
+				70.83333333333333, -- [29]
+				57.5, -- [30]
+				57.5, -- [31]
+				45, -- [32]
+				45, -- [33]
+				30.83333333333333, -- [34]
+				30.83333333333333, -- [35]
+				15, -- [36]
+				15, -- [37]
+				15, -- [38]
+				15, -- [39]
+				0.8333333333333334, -- [40]
+				0, -- [41]
+				89.05109489051095, -- [42]
+				77.37226277372263, -- [43]
+				66.42335766423358, -- [44]
+				66.42335766423358, -- [45]
+				55.47445255474452, -- [46]
+				55.47445255474452, -- [47]
+				41.60583941605839, -- [48]
+				41.60583941605839, -- [49]
+				29.92700729927007, -- [50]
+			},
+			["LastEvents"] = {
+				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [1]
+				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [2]
+				"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [3]
+				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [4]
+				"Mittens Melee Greater Duskbat Miss", -- [5]
+				"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [6]
+				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [7]
+				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [8]
+				"Mittens Melee Greater Duskbat Hit -5 (Physical)", -- [9]
+				"Greater Duskbat Ravage Mittens Hit -11 (Physical)", -- [10]
+				"Mittens Melee Greater Duskbat Miss", -- [11]
+				"Greater Duskbat Melee Mittens Miss", -- [12]
+				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [13]
+				"Mittens Melee Greater Duskbat Hit -4 (Physical)", -- [14]
+				"Greater Duskbat dies.", -- [15]
+				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [16]
+				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [17]
+				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [18]
+				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [19]
+				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [20]
+				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [21]
+				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [22]
+				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [23]
+				"Greater Duskbat Melee Mittens Hit -7 (Physical)", -- [24]
+				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [25]
+				"Mittens Melee Greater Duskbat Hit -8 (Physical)", -- [26]
+				"Greater Duskbat dies.", -- [27]
+				"Mittens Smite Greater Duskbat Hit -18 (Holy)", -- [28]
+				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [29]
+				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [30]
+				"Greater Duskbat Melee Mittens Hit -5 (Physical)", -- [31]
+				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [32]
+				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [33]
+				"Mittens Smite Greater Duskbat Hit -17 (Holy)", -- [34]
+				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [35]
+				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [36]
+				"Greater Duskbat Ravage Mittens Hit -10 (Physical)", -- [37]
+				"Mittens Melee Greater Duskbat Miss", -- [38]
+				"Greater Duskbat Melee Mittens Hit -6 (Physical)", -- [39]
+				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [40]
+				"Greater Duskbat dies.", -- [41]
+				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [42]
+				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [43]
+				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [44]
+				"Greater Duskbat Melee Mittens Hit -10 (Physical)", -- [45]
+				"Mittens Smite Greater Duskbat Hit -15 (Holy)", -- [46]
+				"Greater Duskbat Melee Mittens Hit -9 (Physical)", -- [47]
+				"Mittens Smite Greater Duskbat Hit -19 (Holy)", -- [48]
+				"Greater Duskbat Melee Mittens Hit -8 (Physical)", -- [49]
+				"Mittens Smite Greater Duskbat Hit -16 (Holy)", -- [50]
+			},
+			["Name"] = "Greater Duskbat",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["DeathCount"] = 1451468811,
+				["ActiveTime"] = 1451468811,
+				["TimeDamage"] = 1451468811,
+				["OVERALL"] = 1451468811,
+				["DamageTaken"] = 1451468811,
+				["Damage"] = 1451468811,
+			},
+			["LastDamageTaken"] = 4,
+			["LastEventTimes"] = {
+				207416.88, -- [1]
+				207418.381, -- [2]
+				207418.964, -- [3]
+				207421.047, -- [4]
+				207421.23, -- [5]
+				207422.914, -- [6]
+				207423.08, -- [7]
+				207425.063, -- [8]
+				207425.83, -- [9]
+				207427.13, -- [10]
+				207428.713, -- [11]
+				207429.18, -- [12]
+				207431.246, -- [13]
+				207431.68, -- [14]
+				207431.694, -- [15]
+				207318.266, -- [16]
+				207320.181, -- [17]
+				207320.281, -- [18]
+				207321.832, -- [19]
+				207322.331, -- [20]
+				207323.865, -- [21]
+				207324.365, -- [22]
+				207325.914, -- [23]
+				207326.481, -- [24]
+				207328.531, -- [25]
+				207328.764, -- [26]
+				207328.784, -- [27]
+				207332.981, -- [28]
+				207334.465, -- [29]
+				207336.165, -- [30]
+				207337.031, -- [31]
+				207338.382, -- [32]
+				207339.081, -- [33]
+				207340.414, -- [34]
+				207341.181, -- [35]
+				207342.464, -- [36]
+				207343.232, -- [37]
+				207345.315, -- [38]
+				207345.316, -- [39]
+				207347.315, -- [40]
+				207347.322, -- [41]
+				207407.314, -- [42]
+				207409.014, -- [43]
+				207410.764, -- [44]
+				207410.764, -- [45]
+				207412.431, -- [46]
+				207412.78, -- [47]
+				207414.33, -- [48]
+				207414.88, -- [49]
+				207416.381, -- [50]
+			},
+			["LastAbility"] = 1640.821,
+		},
+		["Young Night Web Spider"] = {
+			["GUID"] = "0xF1300005E000540A",
+			["LastEventHealth"] = {
+				"41 (57%)", -- [1]
+				"23 (32%)", -- [2]
+				"23 (32%)", -- [3]
+				"7 (9%)", -- [4]
+				"7 (9%)", -- [5]
+				"7 (9%)", -- [6]
+				"7 (9%)", -- [7]
+				"3 (4%)", -- [8]
+				"3 (4%)", -- [9]
+				"3 (4%)", -- [10]
 				"0 (0%)", -- [11]
-				"0 (0%)", -- [12]
-				"71 (100%)", -- [13]
-				"71 (100%)", -- [14]
-				"53 (74%)", -- [15]
-				"53 (74%)", -- [16]
-				"36 (50%)", -- [17]
-				"22 (30%)", -- [18]
-				"22 (30%)", -- [19]
-				"8 (11%)", -- [20]
-				"8 (11%)", -- [21]
-				"1 (1%)", -- [22]
-				"0 (0%)", -- [23]
-				"???", -- [24]
-				"???", -- [25]
-				"???", -- [26]
-				"???", -- [27]
-				"39 (54%)", -- [28]
-				"39 (54%)", -- [29]
-				"39 (54%)", -- [30]
-				"21 (29%)", -- [31]
-				"21 (29%)", -- [32]
-				"21 (29%)", -- [33]
-				"6 (8%)", -- [34]
-				"6 (8%)", -- [35]
-				"1 (1%)", -- [36]
-				"0 (0%)", -- [37]
-				"???", -- [38]
-				"53 (74%)", -- [39]
-				"38 (53%)", -- [40]
-				"23 (32%)", -- [41]
-				"23 (32%)", -- [42]
-				"23 (32%)", -- [43]
-				"23 (32%)", -- [44]
-				"23 (32%)", -- [45]
-				"23 (32%)", -- [46]
-				"23 (32%)", -- [47]
-				"20 (28%)", -- [48]
-				"20 (28%)", -- [49]
-				"20 (28%)", -- [50]
+				"71 (100%)", -- [12]
+				"53 (74%)", -- [13]
+				"38 (53%)", -- [14]
+				"38 (53%)", -- [15]
+				"38 (53%)", -- [16]
+				"24 (33%)", -- [17]
+				"24 (33%)", -- [18]
+				"24 (33%)", -- [19]
+				"10 (14%)", -- [20]
+				"10 (14%)", -- [21]
+				"10 (14%)", -- [22]
+				"6 (8%)", -- [23]
+				"6 (8%)", -- [24]
+				"6 (8%)", -- [25]
+				"6 (8%)", -- [26]
+				"6 (8%)", -- [27]
+				"6 (8%)", -- [28]
+				"6 (8%)", -- [29]
+				"1 (1%)", -- [30]
+				"1 (1%)", -- [31]
+				"1 (1%)", -- [32]
+				"1 (1%)", -- [33]
+				"0 (0%)", -- [34]
+				"???", -- [35]
+				"37 (67%)", -- [36]
+				"20 (36%)", -- [37]
+				"20 (36%)", -- [38]
+				"3 (5%)", -- [39]
+				"3 (5%)", -- [40]
+				"3 (5%)", -- [41]
+				"0 (0%)", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"9 (16%)", -- [47]
+				"1 (1%)", -- [48]
+				"0 (0%)", -- [49]
+				"56 (78%)", -- [50]
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
@@ -6120,7 +6120,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [20]
 				"DAMAGE", -- [21]
 				"DAMAGE", -- [22]
-				"MISC", -- [23]
+				"DAMAGE", -- [23]
 				"DAMAGE", -- [24]
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
@@ -6131,71 +6131,74 @@ RecountPerCharDB = {
 				"DAMAGE", -- [31]
 				"DAMAGE", -- [32]
 				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
+				"MISC", -- [34]
 				"DAMAGE", -- [35]
 				"DAMAGE", -- [36]
-				"MISC", -- [37]
+				"DAMAGE", -- [37]
 				"DAMAGE", -- [38]
 				"DAMAGE", -- [39]
 				"DAMAGE", -- [40]
 				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
+				"MISC", -- [42]
 				"DAMAGE", -- [43]
 				"DAMAGE", -- [44]
 				"DAMAGE", -- [45]
 				"DAMAGE", -- [46]
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
+				"MISC", -- [49]
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
 				["DeathCount"] = {
-					5, -- [1]
+					8, -- [1]
 				},
 				["ActiveTime"] = {
-					79.94999999999999, -- [1]
+					101.45, -- [1]
 				},
 				["TimeDamage"] = {
-					79.94999999999999, -- [1]
+					101.45, -- [1]
 				},
 				["DamageTaken"] = {
-					412, -- [1]
+					530, -- [1]
 				},
 				["DOT_Time"] = {
-					60, -- [1]
+					72, -- [1]
 				},
 				["Damage"] = {
-					78, -- [1]
+					48, -- [1]
 				},
 			},
 			["enClass"] = "MOB",
-			["LastDamageTaken"] = 17,
-			["level"] = 4,
-			["LastDamageAbility"] = "Smite",
-			["LastFightIn"] = 46,
+			["LastDamageTaken"] = 4,
+			["level"] = 2,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 41,
 			["LastEventNum"] = {
-				5.633802816901408, -- [1]
-				[47] = 4.225352112676056,
-				[34] = 21.12676056338028,
-				[36] = 21.12676056338028,
-				[28] = 22.53521126760563,
-				[40] = 21.12676056338028,
-				[39] = 25.35211267605634,
-				[15] = 25.35211267605634,
-				[31] = 25.35211267605634,
-				[17] = 23.94366197183098,
-				[18] = 19.71830985915493,
-				[10] = 5.633802816901408,
+				21.12676056338028, -- [1]
+				25.35211267605634, -- [2]
+				nil, -- [3]
+				22.53521126760563, -- [4]
+				[36] = 32.72727272727273,
+				[10] = 7.042253521126761,
+				[13] = 25.35211267605634,
+				[17] = 19.71830985915493,
+				[14] = 21.12676056338028,
+				[7] = 5.633802816901408,
+				[39] = 30.90909090909091,
+				[33] = 4.225352112676056,
+				[48] = 25.45454545454545,
+				[50] = 21.12676056338028,
+				[37] = 30.90909090909091,
 				[20] = 19.71830985915493,
-				[41] = 21.12676056338028,
-				[22] = 23.94366197183098,
-				[4] = 21.12676056338028,
+				[41] = 7.272727272727273,
+				[22] = 5.633802816901408,
+				[29] = 7.042253521126761,
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1451465617,
-			["UnitLockout"] = 1451465617,
+			["LastActive"] = 1451465535,
+			["UnitLockout"] = 1451465535,
 			["Owner"] = false,
 			["Fights"] = {
 				["LastFightData"] = {
@@ -6211,13 +6214,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -6226,33 +6230,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -6260,14 +6263,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -6279,12 +6281,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -6296,8 +6300,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -6314,13 +6317,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -6329,33 +6333,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -6363,14 +6366,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -6382,12 +6384,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -6399,8 +6403,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -6409,37 +6412,37 @@ RecountPerCharDB = {
 						["Weak Poison (DoT)"] = {
 							["Details"] = {
 								["Mittens"] = {
-									["count"] = 60,
+									["count"] = 72,
 								},
 							},
-							["amount"] = 60,
+							["amount"] = 72,
 						},
 					},
 					["TimeSpent"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 39.38,
+									["count"] = 49.08000000000001,
 								},
 								["Weak Poison (DoT)"] = {
-									["count"] = 40.57,
+									["count"] = 52.37,
 								},
 							},
-							["amount"] = 79.94999999999999,
+							["amount"] = 101.45,
 						},
 					},
-					["DamageTaken"] = 412,
+					["DamageTaken"] = 530,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Smite"] = {
@@ -6447,26 +6450,26 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 25,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 25,
+							["count"] = 31,
 							["amount"] = 0,
 						},
 					},
-					["DeathCount"] = 5,
+					["DeathCount"] = 8,
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Smite"] = {
@@ -6474,268 +6477,254 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 25,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 25,
+							["count"] = 31,
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 79.94999999999999,
+					["ActiveTime"] = 101.45,
 					["ElementTaken"] = {
-						["Melee"] = 11,
-						["Holy"] = 401,
+						["Melee"] = 29,
+						["Holy"] = 501,
 					},
-					["DOT_Time"] = 60,
-					["Damage"] = 78,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 58,
-						["Nature"] = 20,
-					},
+					["DOT_Time"] = 72,
+					["Damage"] = 48,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 4,
+									["max"] = 2,
 									["min"] = 1,
-									["count"] = 20,
-									["amount"] = 58,
+									["count"] = 21,
+									["amount"] = 24,
 								},
 								["Miss"] = {
-									["count"] = 2,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 22,
-							["amount"] = 58,
+							["count"] = 25,
+							["amount"] = 24,
 						},
 						["Weak Poison (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 1,
 									["min"] = 1,
-									["count"] = 20,
-									["amount"] = 20,
+									["count"] = 24,
+									["amount"] = 24,
 								},
 							},
-							["count"] = 20,
-							["amount"] = 20,
+							["count"] = 24,
+							["amount"] = 24,
 						},
 					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 11,
+								["Hit"] = {
+									["count"] = 7,
 								},
-								["Smite"] = {
-									["count"] = 401,
+								["Dodge"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 412,
+							["amount"] = 8,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 31,
 						},
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 58,
+									["count"] = 24,
 								},
 								["Weak Poison (DoT)"] = {
-									["count"] = 20,
+									["count"] = 24,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 48,
 						},
 					},
-					["TimeDamage"] = 79.94999999999999,
+					["TimeDamage"] = 101.45,
 					["TimeDamaging"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 39.38,
+									["count"] = 49.08000000000001,
 								},
 								["Weak Poison (DoT)"] = {
-									["count"] = 40.57,
+									["count"] = 52.37,
 								},
 							},
-							["amount"] = 79.94999999999999,
+							["amount"] = 101.45,
 						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 24,
+						["Nature"] = 24,
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 20,
+									["count"] = 21,
 								},
 								["Miss"] = {
-									["count"] = 2,
+									["count"] = 4,
 								},
 							},
-							["amount"] = 22,
+							["amount"] = 25,
 						},
 						["Nature"] = {
 							["Details"] = {
 								["Tick"] = {
-									["count"] = 20,
+									["count"] = 24,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 24,
 						},
 					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 1,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
+					["WhoDamaged"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Blocked"] = {
-									["max"] = 1,
-									["min"] = 1,
-									["count"] = 1,
-									["amount"] = 1,
+								["Melee"] = {
+									["count"] = 29,
+								},
+								["Smite"] = {
+									["count"] = 501,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1,
+							["amount"] = 530,
 						},
 					},
 				},
 			},
-			["NextEventNum"] = 28,
+			["NextEventNum"] = 47,
 			["LastEventHealthNum"] = {
-				28.16901408450704, -- [1]
-				22.53521126760563, -- [2]
-				22.53521126760563, -- [3]
-				1.408450704225352, -- [4]
-				1.408450704225352, -- [5]
-				1.408450704225352, -- [6]
-				1.408450704225352, -- [7]
-				1.408450704225352, -- [8]
-				1.408450704225352, -- [9]
-				1.408450704225352, -- [10]
+				57.74647887323944, -- [1]
+				32.3943661971831, -- [2]
+				32.3943661971831, -- [3]
+				9.859154929577464, -- [4]
+				9.859154929577464, -- [5]
+				9.859154929577464, -- [6]
+				9.859154929577464, -- [7]
+				4.225352112676056, -- [8]
+				4.225352112676056, -- [9]
+				4.225352112676056, -- [10]
 				0, -- [11]
-				0, -- [12]
-				100, -- [13]
-				100, -- [14]
-				74.64788732394366, -- [15]
-				74.64788732394366, -- [16]
-				50.70422535211268, -- [17]
-				30.98591549295775, -- [18]
-				30.98591549295775, -- [19]
-				11.26760563380282, -- [20]
-				11.26760563380282, -- [21]
-				1.408450704225352, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				0, -- [27]
-				54.92957746478874, -- [28]
-				54.92957746478874, -- [29]
-				54.92957746478874, -- [30]
-				29.5774647887324, -- [31]
-				29.5774647887324, -- [32]
-				29.5774647887324, -- [33]
-				8.450704225352112, -- [34]
-				8.450704225352112, -- [35]
-				1.408450704225352, -- [36]
-				0, -- [37]
-				0, -- [38]
-				74.64788732394366, -- [39]
-				53.52112676056338, -- [40]
-				32.3943661971831, -- [41]
-				32.3943661971831, -- [42]
-				32.3943661971831, -- [43]
-				32.3943661971831, -- [44]
-				32.3943661971831, -- [45]
-				32.3943661971831, -- [46]
-				32.3943661971831, -- [47]
-				28.16901408450704, -- [48]
-				28.16901408450704, -- [49]
-				28.16901408450704, -- [50]
+				100, -- [12]
+				74.64788732394366, -- [13]
+				53.52112676056338, -- [14]
+				53.52112676056338, -- [15]
+				53.52112676056338, -- [16]
+				33.80281690140845, -- [17]
+				33.80281690140845, -- [18]
+				33.80281690140845, -- [19]
+				14.08450704225352, -- [20]
+				14.08450704225352, -- [21]
+				14.08450704225352, -- [22]
+				8.450704225352112, -- [23]
+				8.450704225352112, -- [24]
+				8.450704225352112, -- [25]
+				8.450704225352112, -- [26]
+				8.450704225352112, -- [27]
+				8.450704225352112, -- [28]
+				8.450704225352112, -- [29]
+				1.408450704225352, -- [30]
+				1.408450704225352, -- [31]
+				1.408450704225352, -- [32]
+				1.408450704225352, -- [33]
+				0, -- [34]
+				0, -- [35]
+				67.27272727272727, -- [36]
+				36.36363636363637, -- [37]
+				36.36363636363637, -- [38]
+				5.454545454545454, -- [39]
+				5.454545454545454, -- [40]
+				5.454545454545454, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				16.36363636363636, -- [47]
+				1.818181818181818, -- [48]
+				0, -- [49]
+				78.87323943661971, -- [50]
 			},
 			["LastEvents"] = {
-				"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [1]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
-				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [3]
-				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [4]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [6]
-				"Mittens Melee Night Web Spider Miss", -- [7]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [9]
-				"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [10]
-				"Night Web Spider dies.", -- [11]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [12]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
-				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [15]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
-				"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [17]
-				"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [18]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [19]
-				"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [20]
-				"Night Web Spider Melee Mittens Miss", -- [21]
-				"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [22]
-				"Night Web Spider dies.", -- [23]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [24]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [25]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [26]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [27]
-				"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [28]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [29]
-				"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [30]
-				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [31]
-				"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [32]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [33]
-				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [34]
-				"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [35]
-				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [36]
-				"Night Web Spider dies.", -- [37]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [38]
-				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [39]
-				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [40]
-				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [41]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [42]
-				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [43]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [44]
-				"Mittens Melee Night Web Spider Miss", -- [45]
-				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [46]
-				"Mittens Melee Night Web Spider Hit -3 (Physical)", -- [47]
-				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [48]
-				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [49]
-				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [50]
+				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [1]
+				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [2]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
+				"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [4]
+				"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [5]
+				"Young Night Web Spider Melee Mittens Miss", -- [6]
+				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [7]
+				"Young Night Web Spider Melee Mittens Miss", -- [8]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
+				"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [10]
+				"Young Night Web Spider dies.", -- [11]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [12]
+				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [13]
+				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [14]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [15]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [16]
+				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [17]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [18]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [19]
+				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [20]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [21]
+				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [22]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [23]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [24]
+				"Young Night Web Spider Melee Mittens Miss", -- [25]
+				"Mittens Melee Young Night Web Spider Dodge", -- [26]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [27]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [28]
+				"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [29]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [30]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [31]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [32]
+				"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [33]
+				"Young Night Web Spider dies.", -- [34]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [35]
+				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [36]
+				"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [37]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [38]
+				"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [39]
+				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [40]
+				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [41]
+				"Young Night Web Spider dies.", -- [42]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [43]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [44]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [45]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [46]
+				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [47]
+				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [48]
+				"Young Night Web Spider dies.", -- [49]
+				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [50]
 			},
-			["Name"] = "Night Web Spider",
+			["Name"] = "Young Night Web Spider",
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
 						false, -- [1]
 						false, -- [2]
-						false, -- [3]
+						true, -- [3]
 						true, -- [4]
 						false, -- [5]
 						true, -- [6]
@@ -6748,79 +6737,79 @@ RecountPerCharDB = {
 						false, -- [13]
 					},
 					["Messages"] = {
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
-						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [4]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [6]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [7]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [9]
-						"Night Web Spider Melee Mittens Miss", -- [10]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [11]
-						"Night Web Spider dies.", -- [12]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [2]
+						"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [3]
+						"Young Night Web Spider dies.", -- [4]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
+						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [6]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [7]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [9]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [10]
+						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [11]
+						"Young Night Web Spider dies.", -- [12]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
 					},
-					["DeathAt"] = 1451465610,
+					["DeathAt"] = 1451465528,
 					["HealthNum"] = {
-						0, -- [1]
-						100, -- [2]
-						100, -- [3]
-						74.64788732394366, -- [4]
-						74.64788732394366, -- [5]
-						50.70422535211268, -- [6]
-						30.98591549295775, -- [7]
-						30.98591549295775, -- [8]
-						11.26760563380282, -- [9]
-						11.26760563380282, -- [10]
-						1.408450704225352, -- [11]
+						1.408450704225352, -- [1]
+						1.408450704225352, -- [2]
+						1.408450704225352, -- [3]
+						0, -- [4]
+						0, -- [5]
+						67.27272727272727, -- [6]
+						36.36363636363637, -- [7]
+						36.36363636363637, -- [8]
+						5.454545454545454, -- [9]
+						5.454545454545454, -- [10]
+						5.454545454545454, -- [11]
 						0, -- [12]
 						0, -- [13]
 					},
 					["MessageTimes"] = {
-						-14.4660000000149, -- [1]
-						-11.80300000001444, -- [2]
-						-8.836999999999534, -- [3]
-						-7.103000000002794, -- [4]
-						-5.853999999992084, -- [5]
-						-5.553000000014436, -- [6]
-						-3.953000000008615, -- [7]
-						-3.502999999996973, -- [8]
-						-1.902999999991152, -- [9]
-						-1.504000000015367, -- [10]
-						-0.002999999996973202, -- [11]
+						-14.30400000000373, -- [1]
+						-13.35399999999208, -- [2]
+						-12.95299999997951, -- [3]
+						-12.94999999998254, -- [4]
+						-11.35399999999208, -- [5]
+						-7.052999999985332, -- [6]
+						-5.402999999991152, -- [7]
+						-3.552999999985332, -- [8]
+						-2.752999999996973, -- [9]
+						-1.503999999986263, -- [10]
+						-0.003999999986262992, -- [11]
 						0, -- [12]
-						0.3470000000088476, -- [13]
+						0.2960000000020955, -- [13]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"0 (0%)", -- [1]
-						"71 (100%)", -- [2]
-						"71 (100%)", -- [3]
-						"53 (74%)", -- [4]
-						"53 (74%)", -- [5]
-						"36 (50%)", -- [6]
-						"22 (30%)", -- [7]
-						"22 (30%)", -- [8]
-						"8 (11%)", -- [9]
-						"8 (11%)", -- [10]
-						"1 (1%)", -- [11]
+						"1 (1%)", -- [1]
+						"1 (1%)", -- [2]
+						"1 (1%)", -- [3]
+						"0 (0%)", -- [4]
+						"???", -- [5]
+						"37 (67%)", -- [6]
+						"20 (36%)", -- [7]
+						"20 (36%)", -- [8]
+						"3 (5%)", -- [9]
+						"3 (5%)", -- [10]
+						"3 (5%)", -- [11]
 						"0 (0%)", -- [12]
 						"???", -- [13]
 					},
 					["EventNum"] = {
 						0, -- [1]
 						0, -- [2]
-						0, -- [3]
-						25.35211267605634, -- [4]
+						4.225352112676056, -- [3]
+						0, -- [4]
 						0, -- [5]
-						23.94366197183098, -- [6]
-						19.71830985915493, -- [7]
+						32.72727272727273, -- [6]
+						30.90909090909091, -- [7]
 						0, -- [8]
-						19.71830985915493, -- [9]
+						30.90909090909091, -- [9]
 						0, -- [10]
-						23.94366197183098, -- [11]
+						7.272727272727273, -- [11]
 						0, -- [12]
 						0, -- [13]
 					},
@@ -6828,7 +6817,7 @@ RecountPerCharDB = {
 						"DAMAGE", -- [1]
 						"DAMAGE", -- [2]
 						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
+						"MISC", -- [4]
 						"DAMAGE", -- [5]
 						"DAMAGE", -- [6]
 						"DAMAGE", -- [7]
@@ -6843,20 +6832,20 @@ RecountPerCharDB = {
 				{
 					["MessageIncoming"] = {
 						false, -- [1]
-						false, -- [2]
-						true, -- [3]
+						true, -- [2]
+						false, -- [3]
 						false, -- [4]
 						true, -- [5]
 						false, -- [6]
-						false, -- [7]
+						true, -- [7]
 						false, -- [8]
-						true, -- [9]
+						false, -- [9]
 						false, -- [10]
-						false, -- [11]
-						true, -- [12]
+						true, -- [11]
+						false, -- [12]
 						false, -- [13]
-						false, -- [14]
-						true, -- [15]
+						true, -- [14]
+						false, -- [15]
 						false, -- [16]
 						false, -- [17]
 						true, -- [18]
@@ -6864,43 +6853,43 @@ RecountPerCharDB = {
 						false, -- [20]
 					},
 					["Messages"] = {
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [1]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
-						"Mittens Melee Night Web Spider Miss", -- [3]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [4]
-						"Mittens Melee Night Web Spider Hit -3 (Physical)", -- [5]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [7]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [8]
-						"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [9]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [11]
-						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [12]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [14]
-						"Mittens Melee Night Web Spider Miss", -- [15]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [16]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [17]
-						"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [18]
-						"Night Web Spider dies.", -- [19]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [20]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [2]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [4]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [5]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
+						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [7]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
+						"Young Night Web Spider Melee Mittens Miss", -- [10]
+						"Mittens Melee Young Night Web Spider Dodge", -- [11]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [12]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+						"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [14]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [15]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [17]
+						"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [18]
+						"Young Night Web Spider dies.", -- [19]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [20]
 					},
-					["DeathAt"] = 1451465595,
+					["DeathAt"] = 1451465515,
 					["HealthNum"] = {
-						32.3943661971831, -- [1]
-						32.3943661971831, -- [2]
-						32.3943661971831, -- [3]
-						32.3943661971831, -- [4]
-						32.3943661971831, -- [5]
-						28.16901408450704, -- [6]
-						28.16901408450704, -- [7]
-						28.16901408450704, -- [8]
-						28.16901408450704, -- [9]
-						22.53521126760563, -- [10]
-						22.53521126760563, -- [11]
-						1.408450704225352, -- [12]
-						1.408450704225352, -- [13]
-						1.408450704225352, -- [14]
+						53.52112676056338, -- [1]
+						33.80281690140845, -- [2]
+						33.80281690140845, -- [3]
+						33.80281690140845, -- [4]
+						14.08450704225352, -- [5]
+						14.08450704225352, -- [6]
+						14.08450704225352, -- [7]
+						8.450704225352112, -- [8]
+						8.450704225352112, -- [9]
+						8.450704225352112, -- [10]
+						8.450704225352112, -- [11]
+						8.450704225352112, -- [12]
+						8.450704225352112, -- [13]
+						8.450704225352112, -- [14]
 						1.408450704225352, -- [15]
 						1.408450704225352, -- [16]
 						1.408450704225352, -- [17]
@@ -6909,69 +6898,69 @@ RecountPerCharDB = {
 						0, -- [20]
 					},
 					["MessageTimes"] = {
-						-14.75299999999697, -- [1]
-						-14.30300000001444, -- [2]
-						-14.30300000001444, -- [3]
-						-13.05300000001444, -- [4]
-						-11.35300000000279, -- [5]
-						-11.25299999999697, -- [6]
-						-11.05300000001444, -- [7]
-						-9.053000000014436, -- [8]
-						-8.453000000008615, -- [9]
-						-8.252999999996973, -- [10]
-						-7.002999999996973, -- [11]
-						-5.803000000014436, -- [12]
-						-5.203000000008615, -- [13]
-						-4.953000000008615, -- [14]
-						-2.903000000020256, -- [15]
-						-2.903000000020256, -- [16]
-						-0.9040000000095461, -- [17]
+						-14.90300000002026, -- [1]
+						-14.1020000000135, -- [2]
+						-13.10300000000279, -- [3]
+						-12.90300000002026, -- [4]
+						-11.6359999999986, -- [5]
+						-10.80300000001444, -- [6]
+						-8.803000000014436, -- [7]
+						-8.703000000008615, -- [8]
+						-7.304000000003725, -- [9]
+						-6.654000000009546, -- [10]
+						-5.787000000011176, -- [11]
+						-4.653000000020256, -- [12]
+						-4.354000000021188, -- [13]
+						-2.903000000020256, -- [14]
+						-2.554000000003725, -- [15]
+						-1.354000000021188, -- [16]
+						-0.4040000000095461, -- [17]
 						-0.002999999996973202, -- [18]
 						0, -- [19]
-						0.6839999999792781, -- [20]
+						1.595999999990454, -- [20]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"23 (32%)", -- [1]
-						"23 (32%)", -- [2]
-						"23 (32%)", -- [3]
-						"23 (32%)", -- [4]
-						"23 (32%)", -- [5]
-						"20 (28%)", -- [6]
-						"20 (28%)", -- [7]
-						"20 (28%)", -- [8]
-						"20 (28%)", -- [9]
-						"16 (22%)", -- [10]
-						"16 (22%)", -- [11]
-						"1 (1%)", -- [12]
-						"1 (1%)", -- [13]
-						"1 (1%)", -- [14]
+						"38 (53%)", -- [1]
+						"24 (33%)", -- [2]
+						"24 (33%)", -- [3]
+						"24 (33%)", -- [4]
+						"10 (14%)", -- [5]
+						"10 (14%)", -- [6]
+						"10 (14%)", -- [7]
+						"6 (8%)", -- [8]
+						"6 (8%)", -- [9]
+						"6 (8%)", -- [10]
+						"6 (8%)", -- [11]
+						"6 (8%)", -- [12]
+						"6 (8%)", -- [13]
+						"6 (8%)", -- [14]
 						"1 (1%)", -- [15]
 						"1 (1%)", -- [16]
 						"1 (1%)", -- [17]
 						"1 (1%)", -- [18]
 						"0 (0%)", -- [19]
-						"0 (0%)", -- [20]
+						"???", -- [20]
 					},
 					["EventNum"] = {
 						0, -- [1]
-						0, -- [2]
+						19.71830985915493, -- [2]
 						0, -- [3]
 						0, -- [4]
-						4.225352112676056, -- [5]
+						19.71830985915493, -- [5]
 						0, -- [6]
-						0, -- [7]
+						5.633802816901408, -- [7]
 						0, -- [8]
-						5.633802816901408, -- [9]
+						0, -- [9]
 						0, -- [10]
 						0, -- [11]
-						21.12676056338028, -- [12]
+						0, -- [12]
 						0, -- [13]
-						0, -- [14]
+						7.042253521126761, -- [14]
 						0, -- [15]
 						0, -- [16]
 						0, -- [17]
-						5.633802816901408, -- [18]
+						4.225352112676056, -- [18]
 						0, -- [19]
 						0, -- [20]
 					},
@@ -7000,150 +6989,90 @@ RecountPerCharDB = {
 				}, -- [2]
 				{
 					["MessageIncoming"] = {
-						false, -- [1]
+						true, -- [1]
 						true, -- [2]
-						false, -- [3]
+						true, -- [3]
 						false, -- [4]
 						true, -- [5]
-						true, -- [6]
+						false, -- [6]
 						false, -- [7]
 						true, -- [8]
-						true, -- [9]
+						false, -- [9]
 						false, -- [10]
 						true, -- [11]
 						true, -- [12]
-						false, -- [13]
-						false, -- [14]
-						true, -- [15]
-						false, -- [16]
-						false, -- [17]
-						true, -- [18]
-						false, -- [19]
-						true, -- [20]
-						true, -- [21]
-						false, -- [22]
 					},
 					["Messages"] = {
-						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
-						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [2]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
-						"Night Web Spider Melee Mittens Miss", -- [4]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [5]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [6]
-						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [7]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [8]
-						"Night Web Spider dies.", -- [9]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [11]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [12]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
-						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [14]
-						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [15]
-						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [16]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [17]
-						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [18]
-						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [19]
-						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [20]
-						"Night Web Spider dies.", -- [21]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [22]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [1]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
+						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [3]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [4]
+						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [5]
+						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [6]
+						"Young Night Web Spider Melee Mittens Miss", -- [7]
+						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [8]
+						"Young Night Web Spider Melee Mittens Miss", -- [9]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
+						"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [11]
+						"Young Night Web Spider dies.", -- [12]
 					},
-					["DeathAt"] = 1451465569,
+					["DeathAt"] = 1451465493,
 					["HealthNum"] = {
-						77.46478873239437, -- [1]
-						52.11267605633803, -- [2]
-						52.11267605633803, -- [3]
-						52.11267605633803, -- [4]
-						32.3943661971831, -- [5]
-						8.450704225352112, -- [6]
-						8.450704225352112, -- [7]
-						100, -- [8]
-						100, -- [9]
-						100, -- [10]
-						77.46478873239437, -- [11]
-						54.92957746478874, -- [12]
-						54.92957746478874, -- [13]
-						54.92957746478874, -- [14]
-						29.5774647887324, -- [15]
-						29.5774647887324, -- [16]
-						29.5774647887324, -- [17]
-						8.450704225352112, -- [18]
-						8.450704225352112, -- [19]
-						1.408450704225352, -- [20]
-						0, -- [21]
-						0, -- [22]
+						78.87323943661971, -- [1]
+						57.74647887323944, -- [2]
+						32.3943661971831, -- [3]
+						32.3943661971831, -- [4]
+						9.859154929577464, -- [5]
+						9.859154929577464, -- [6]
+						9.859154929577464, -- [7]
+						9.859154929577464, -- [8]
+						4.225352112676056, -- [9]
+						4.225352112676056, -- [10]
+						4.225352112676056, -- [11]
+						0, -- [12]
 					},
 					["MessageTimes"] = {
-						-14.80499999999302, -- [1]
-						-14.00399999998626, -- [2]
-						-13.45499999998719, -- [3]
-						-12.80499999999302, -- [4]
-						-12.30399999997462, -- [5]
-						-10.80399999997462, -- [6]
-						-10.80399999997462, -- [7]
-						-9.003999999986263, -- [8]
-						-9.00199999997858, -- [9]
-						-8.803999999974622, -- [10]
-						-7.403999999980442, -- [11]
-						-5.904999999998836, -- [12]
-						-5.788000000000466, -- [13]
-						-5.703999999997905, -- [14]
-						-4.103999999992084, -- [15]
-						-3.553999999974622, -- [16]
-						-2.704999999987194, -- [17]
-						-2.003999999986263, -- [18]
-						-0.9049999999988359, -- [19]
-						-0.004999999975552782, -- [20]
-						0, -- [21]
-						0.1950000000069849, -- [22]
+						-11.36699999999837, -- [1]
+						-9.700000000011642, -- [2]
+						-7.766999999992549, -- [3]
+						-7.417000000015833, -- [4]
+						-5.817000000010012, -- [5]
+						-5.36699999999837, -- [6]
+						-3.36699999999837, -- [7]
+						-2.99900000001071, -- [8]
+						-1.284000000014203, -- [9]
+						-0.1670000000158325, -- [10]
+						-0.01699999999254942, -- [11]
+						0, -- [12]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"55 (77%)", -- [1]
-						"37 (52%)", -- [2]
-						"37 (52%)", -- [3]
-						"37 (52%)", -- [4]
-						"23 (32%)", -- [5]
-						"6 (8%)", -- [6]
-						"6 (8%)", -- [7]
-						"71 (100%)", -- [8]
-						"71 (100%)", -- [9]
-						"71 (100%)", -- [10]
-						"55 (77%)", -- [11]
-						"39 (54%)", -- [12]
-						"39 (54%)", -- [13]
-						"39 (54%)", -- [14]
-						"21 (29%)", -- [15]
-						"21 (29%)", -- [16]
-						"21 (29%)", -- [17]
-						"6 (8%)", -- [18]
-						"6 (8%)", -- [19]
-						"1 (1%)", -- [20]
-						"0 (0%)", -- [21]
-						"???", -- [22]
+						"56 (78%)", -- [1]
+						"41 (57%)", -- [2]
+						"23 (32%)", -- [3]
+						"23 (32%)", -- [4]
+						"7 (9%)", -- [5]
+						"7 (9%)", -- [6]
+						"7 (9%)", -- [7]
+						"7 (9%)", -- [8]
+						"3 (4%)", -- [9]
+						"3 (4%)", -- [10]
+						"3 (4%)", -- [11]
+						"0 (0%)", -- [12]
 					},
 					["EventNum"] = {
-						0, -- [1]
-						25.35211267605634, -- [2]
-						0, -- [3]
+						21.12676056338028, -- [1]
+						21.12676056338028, -- [2]
+						25.35211267605634, -- [3]
 						0, -- [4]
-						19.71830985915493, -- [5]
-						23.94366197183098, -- [6]
+						22.53521126760563, -- [5]
+						0, -- [6]
 						0, -- [7]
-						23.94366197183098, -- [8]
+						5.633802816901408, -- [8]
 						0, -- [9]
 						0, -- [10]
-						22.53521126760563, -- [11]
-						22.53521126760563, -- [12]
-						0, -- [13]
-						0, -- [14]
-						25.35211267605634, -- [15]
-						0, -- [16]
-						0, -- [17]
-						21.12676056338028, -- [18]
-						0, -- [19]
-						21.12676056338028, -- [20]
-						0, -- [21]
-						0, -- [22]
+						7.042253521126761, -- [11]
+						0, -- [12]
 					},
 					["MessageType"] = {
 						"DAMAGE", -- [1]
@@ -7154,158 +7083,130 @@ RecountPerCharDB = {
 						"DAMAGE", -- [6]
 						"DAMAGE", -- [7]
 						"DAMAGE", -- [8]
-						"MISC", -- [9]
+						"DAMAGE", -- [9]
 						"DAMAGE", -- [10]
 						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"MISC", -- [21]
-						"DAMAGE", -- [22]
+						"MISC", -- [12]
 					},
 				}, -- [3]
 				{
 					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
+						false, -- [1]
+						true, -- [2]
 						false, -- [3]
-						true, -- [4]
+						false, -- [4]
 						true, -- [5]
-						false, -- [6]
+						true, -- [6]
 						false, -- [7]
-						true, -- [8]
-						false, -- [9]
-						true, -- [10]
-						false, -- [11]
-						false, -- [12]
-						true, -- [13]
-						true, -- [14]
-						false, -- [15]
+						false, -- [8]
+						true, -- [9]
+						false, -- [10]
+						true, -- [11]
+						true, -- [12]
+						false, -- [13]
+						false, -- [14]
+						true, -- [15]
 						true, -- [16]
-						true, -- [17]
-						false, -- [18]
-						true, -- [19]
 					},
 					["Messages"] = {
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [1]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [2]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [4]
-						"Night Web Spider dies.", -- [5]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [8]
-						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [9]
-						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [10]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
-						"Night Web Spider Melee Mittens Miss", -- [12]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [13]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [14]
-						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [15]
-						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [16]
-						"Night Web Spider dies.", -- [17]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [18]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [19]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
+						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [4]
+						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [5]
+						"Young Night Web Spider dies.", -- [6]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [8]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [9]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
+						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [11]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [12]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [15]
+						"Young Night Web Spider dies.", -- [16]
 					},
-					["DeathAt"] = 1451465560,
+					["DeathAt"] = 1451465478,
 					["HealthNum"] = {
-						4.651162790697675, -- [1]
-						4.651162790697675, -- [2]
-						4.651162790697675, -- [3]
-						1.162790697674419, -- [4]
-						0, -- [5]
+						26.76056338028169, -- [1]
+						5.633802816901408, -- [2]
+						5.633802816901408, -- [3]
+						5.633802816901408, -- [4]
+						5.633802816901408, -- [5]
 						0, -- [6]
-						100, -- [7]
-						77.46478873239437, -- [8]
-						77.46478873239437, -- [9]
-						52.11267605633803, -- [10]
-						52.11267605633803, -- [11]
-						52.11267605633803, -- [12]
-						32.3943661971831, -- [13]
-						8.450704225352112, -- [14]
-						8.450704225352112, -- [15]
-						100, -- [16]
-						100, -- [17]
-						100, -- [18]
-						77.46478873239437, -- [19]
+						0, -- [7]
+						100, -- [8]
+						74.54545454545455, -- [9]
+						74.54545454545455, -- [10]
+						41.81818181818182, -- [11]
+						16.36363636363636, -- [12]
+						16.36363636363636, -- [13]
+						16.36363636363636, -- [14]
+						1.818181818181818, -- [15]
+						0, -- [16]
 					},
 					["MessageTimes"] = {
-						-14.45200000001933, -- [1]
-						-13.85300000000279, -- [2]
-						-13.50200000000768, -- [3]
-						-12.30199999999604, -- [4]
-						-12.29899999999907, -- [5]
-						-10.45200000001933, -- [6]
-						-7.453000000008615, -- [7]
-						-7.002000000007683, -- [8]
-						-5.803000000014436, -- [9]
-						-5.002000000007683, -- [10]
-						-4.453000000008615, -- [11]
-						-3.803000000014436, -- [12]
-						-3.301999999996042, -- [13]
-						-1.801999999996042, -- [14]
-						-1.801999999996042, -- [15]
-						-0.002000000007683411, -- [16]
-						0, -- [17]
-						0.1980000000039581, -- [18]
-						1.597999999998137, -- [19]
+						-14.70300000000862, -- [1]
+						-13.15300000002026, -- [2]
+						-12.70300000000862, -- [3]
+						-10.65300000002026, -- [4]
+						-10.35300000000279, -- [5]
+						-10.33600000001025, -- [6]
+						-10.00299999999697, -- [7]
+						-6.952000000019325, -- [8]
+						-5.502000000007683, -- [9]
+						-4.002999999996973, -- [10]
+						-3.903000000020256, -- [11]
+						-2.302000000025146, -- [12]
+						-1.303000000014436, -- [13]
+						-1.002999999996973, -- [14]
+						-0.002000000007683411, -- [15]
+						0, -- [16]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"4 (4%)", -- [1]
-						"4 (4%)", -- [2]
-						"4 (4%)", -- [3]
-						"1 (1%)", -- [4]
-						"0 (0%)", -- [5]
-						"???", -- [6]
-						"71 (100%)", -- [7]
-						"55 (77%)", -- [8]
-						"55 (77%)", -- [9]
-						"37 (52%)", -- [10]
-						"37 (52%)", -- [11]
-						"37 (52%)", -- [12]
-						"23 (32%)", -- [13]
-						"6 (8%)", -- [14]
-						"6 (8%)", -- [15]
-						"71 (100%)", -- [16]
-						"71 (100%)", -- [17]
-						"71 (100%)", -- [18]
-						"55 (77%)", -- [19]
+						"19 (26%)", -- [1]
+						"4 (5%)", -- [2]
+						"4 (5%)", -- [3]
+						"4 (5%)", -- [4]
+						"4 (5%)", -- [5]
+						"0 (0%)", -- [6]
+						"???", -- [7]
+						"55 (100%)", -- [8]
+						"41 (74%)", -- [9]
+						"41 (74%)", -- [10]
+						"23 (41%)", -- [11]
+						"9 (16%)", -- [12]
+						"9 (16%)", -- [13]
+						"9 (16%)", -- [14]
+						"1 (1%)", -- [15]
+						"0 (0%)", -- [16]
 					},
 					["EventNum"] = {
-						18.6046511627907, -- [1]
-						0, -- [2]
+						0, -- [1]
+						21.12676056338028, -- [2]
 						0, -- [3]
-						16.27906976744186, -- [4]
-						0, -- [5]
+						0, -- [4]
+						5.633802816901408, -- [5]
 						0, -- [6]
 						0, -- [7]
-						22.53521126760563, -- [8]
-						0, -- [9]
-						25.35211267605634, -- [10]
-						0, -- [11]
-						0, -- [12]
-						19.71830985915493, -- [13]
-						23.94366197183098, -- [14]
-						0, -- [15]
-						23.94366197183098, -- [16]
-						0, -- [17]
-						0, -- [18]
-						22.53521126760563, -- [19]
+						0, -- [8]
+						25.45454545454545, -- [9]
+						0, -- [10]
+						32.72727272727273, -- [11]
+						25.45454545454545, -- [12]
+						0, -- [13]
+						0, -- [14]
+						25.45454545454545, -- [15]
+						0, -- [16]
 					},
 					["MessageType"] = {
 						"DAMAGE", -- [1]
 						"DAMAGE", -- [2]
 						"DAMAGE", -- [3]
 						"DAMAGE", -- [4]
-						"MISC", -- [5]
-						"DAMAGE", -- [6]
+						"DAMAGE", -- [5]
+						"MISC", -- [6]
 						"DAMAGE", -- [7]
 						"DAMAGE", -- [8]
 						"DAMAGE", -- [9]
@@ -7315,19 +7216,16 @@ RecountPerCharDB = {
 						"DAMAGE", -- [13]
 						"DAMAGE", -- [14]
 						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"MISC", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
+						"MISC", -- [16]
 					},
 				}, -- [4]
 				{
 					["MessageIncoming"] = {
-						true, -- [1]
+						false, -- [1]
 						false, -- [2]
 						true, -- [3]
-						false, -- [4]
-						true, -- [5]
+						true, -- [4]
+						false, -- [5]
 						false, -- [6]
 						true, -- [7]
 						false, -- [8]
@@ -7339,84 +7237,84 @@ RecountPerCharDB = {
 						false, -- [14]
 					},
 					["Messages"] = {
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [1]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [2]
-						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [3]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [4]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [5]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [6]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [7]
-						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
-						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [9]
-						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [10]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
-						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [12]
-						"Night Web Spider dies.", -- [13]
-						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
+						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [3]
+						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [4]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
+						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [6]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [9]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [10]
+						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [11]
+						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [12]
+						"Young Night Web Spider dies.", -- [13]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
 					},
-					["DeathAt"] = 1451465548,
+					["DeathAt"] = 1451465468,
 					["HealthNum"] = {
-						81.3953488372093, -- [1]
-						81.3953488372093, -- [2]
-						60.46511627906977, -- [3]
-						60.46511627906977, -- [4]
-						41.86046511627907, -- [5]
-						41.86046511627907, -- [6]
-						23.25581395348837, -- [7]
-						23.25581395348837, -- [8]
-						4.651162790697675, -- [9]
-						4.651162790697675, -- [10]
-						4.651162790697675, -- [11]
-						1.162790697674419, -- [12]
+						0, -- [1]
+						100, -- [2]
+						69.01408450704226, -- [3]
+						46.47887323943662, -- [4]
+						46.47887323943662, -- [5]
+						46.47887323943662, -- [6]
+						26.76056338028169, -- [7]
+						26.76056338028169, -- [8]
+						5.633802816901408, -- [9]
+						5.633802816901408, -- [10]
+						5.633802816901408, -- [11]
+						5.633802816901408, -- [12]
 						0, -- [13]
 						0, -- [14]
 					},
 					["MessageTimes"] = {
-						-10.60300000000279, -- [1]
-						-9.854000000021188, -- [2]
-						-8.452000000019325, -- [3]
-						-7.754000000015367, -- [4]
-						-6.203000000008615, -- [5]
-						-5.703999999997905, -- [6]
-						-4.103000000002794, -- [7]
-						-3.654000000009546, -- [8]
-						-2.153000000020256, -- [9]
-						-1.554000000003725, -- [10]
-						-1.203000000008615, -- [11]
-						-0.002999999996973202, -- [12]
+						-12.51699999999255, -- [1]
+						-9.516999999992549, -- [2]
+						-8.416999999986729, -- [3]
+						-6.76600000000326, -- [4]
+						-6.467000000004191, -- [5]
+						-6.466000000014901, -- [6]
+						-4.915999999997439, -- [7]
+						-4.36699999999837, -- [8]
+						-2.817000000010012, -- [9]
+						-2.36699999999837, -- [10]
+						-0.3170000000100117, -- [11]
+						-0.01699999999254942, -- [12]
 						0, -- [13]
-						1.846999999979744, -- [14]
+						0.3330000000132714, -- [14]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"70 (81%)", -- [1]
-						"70 (81%)", -- [2]
-						"52 (60%)", -- [3]
-						"52 (60%)", -- [4]
-						"36 (41%)", -- [5]
-						"36 (41%)", -- [6]
-						"20 (23%)", -- [7]
-						"20 (23%)", -- [8]
-						"4 (4%)", -- [9]
-						"4 (4%)", -- [10]
-						"4 (4%)", -- [11]
-						"1 (1%)", -- [12]
+						"???", -- [1]
+						"71 (100%)", -- [2]
+						"49 (69%)", -- [3]
+						"33 (46%)", -- [4]
+						"33 (46%)", -- [5]
+						"33 (46%)", -- [6]
+						"19 (26%)", -- [7]
+						"19 (26%)", -- [8]
+						"4 (5%)", -- [9]
+						"4 (5%)", -- [10]
+						"4 (5%)", -- [11]
+						"4 (5%)", -- [12]
 						"0 (0%)", -- [13]
 						"???", -- [14]
 					},
 					["EventNum"] = {
-						18.6046511627907, -- [1]
+						0, -- [1]
 						0, -- [2]
-						20.93023255813954, -- [3]
-						0, -- [4]
-						18.6046511627907, -- [5]
+						30.98591549295775, -- [3]
+						22.53521126760563, -- [4]
+						0, -- [5]
 						0, -- [6]
-						18.6046511627907, -- [7]
+						19.71830985915493, -- [7]
 						0, -- [8]
-						18.6046511627907, -- [9]
+						21.12676056338028, -- [9]
 						0, -- [10]
 						0, -- [11]
-						16.27906976744186, -- [12]
+						5.633802816901408, -- [12]
 						0, -- [13]
 						0, -- [14]
 					},
@@ -7437,10 +7335,351 @@ RecountPerCharDB = {
 						"DAMAGE", -- [14]
 					},
 				}, -- [5]
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						true, -- [5]
+						false, -- [6]
+						false, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						false, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						false, -- [16]
+					},
+					["Messages"] = {
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
+						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [2]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
+						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [4]
+						"Young Night Web Spider dies.", -- [5]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [8]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [9]
+						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [10]
+						"Young Night Web Spider Melee Mittens Miss", -- [11]
+						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [12]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [14]
+						"Young Night Web Spider dies.", -- [15]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
+					},
+					["DeathAt"] = 1451465452,
+					["HealthNum"] = {
+						69.09090909090909, -- [1]
+						29.09090909090909, -- [2]
+						29.09090909090909, -- [3]
+						1.818181818181818, -- [4]
+						0, -- [5]
+						0, -- [6]
+						100, -- [7]
+						80.28169014084507, -- [8]
+						60.56338028169014, -- [9]
+						38.0281690140845, -- [10]
+						38.0281690140845, -- [11]
+						15.49295774647887, -- [12]
+						15.49295774647887, -- [13]
+						1.408450704225352, -- [14]
+						0, -- [15]
+						0, -- [16]
+					},
+					["MessageTimes"] = {
+						-14.45299999997951, -- [1]
+						-13.70199999999022, -- [2]
+						-13.50200000000768, -- [3]
+						-11.95199999999022, -- [4]
+						-11.94999999998254, -- [5]
+						-11.50299999999697, -- [6]
+						-8.452999999979511, -- [7]
+						-7.103000000002794, -- [8]
+						-5.353000000002794, -- [9]
+						-3.752000000007683, -- [10]
+						-2.853000000002794, -- [11]
+						-2.201999999990221, -- [12]
+						-0.8029999999853317, -- [13]
+						-0.002999999996973202, -- [14]
+						0, -- [15]
+						0.2470000000030268, -- [16]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"38 (69%)", -- [1]
+						"16 (29%)", -- [2]
+						"16 (29%)", -- [3]
+						"1 (1%)", -- [4]
+						"0 (0%)", -- [5]
+						"0 (0%)", -- [6]
+						"71 (100%)", -- [7]
+						"57 (80%)", -- [8]
+						"43 (60%)", -- [9]
+						"27 (38%)", -- [10]
+						"27 (38%)", -- [11]
+						"11 (15%)", -- [12]
+						"11 (15%)", -- [13]
+						"1 (1%)", -- [14]
+						"0 (0%)", -- [15]
+						"???", -- [16]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						40, -- [2]
+						0, -- [3]
+						32.72727272727273, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						19.71830985915493, -- [8]
+						19.71830985915493, -- [9]
+						22.53521126760563, -- [10]
+						0, -- [11]
+						22.53521126760563, -- [12]
+						0, -- [13]
+						23.94366197183098, -- [14]
+						0, -- [15]
+						0, -- [16]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"MISC", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"MISC", -- [15]
+						"DAMAGE", -- [16]
+					},
+				}, -- [6]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						false, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						false, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						false, -- [16]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [1]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [4]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [5]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
+						"Young Night Web Spider dies.", -- [8]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [10]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
+						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [12]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
+						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [14]
+						"Young Night Web Spider dies.", -- [15]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
+					},
+					["DeathAt"] = 1451465440,
+					["HealthNum"] = {
+						69.09090909090909, -- [1]
+						41.81818181818182, -- [2]
+						41.81818181818182, -- [3]
+						10.90909090909091, -- [4]
+						10.90909090909091, -- [5]
+						10.90909090909091, -- [6]
+						1.818181818181818, -- [7]
+						0, -- [8]
+						100, -- [9]
+						69.09090909090909, -- [10]
+						69.09090909090909, -- [11]
+						29.09090909090909, -- [12]
+						29.09090909090909, -- [13]
+						1.818181818181818, -- [14]
+						0, -- [15]
+						0, -- [16]
+					},
+					["MessageTimes"] = {
+						-13.80200000002515, -- [1]
+						-12.25200000000768, -- [2]
+						-12.25200000000768, -- [3]
+						-10.50200000000768, -- [4]
+						-10.20200000001933, -- [5]
+						-8.203000000008615, -- [6]
+						-7.052000000025146, -- [7]
+						-7.050000000017462, -- [8]
+						-5.502000000007683, -- [9]
+						-3.303000000014436, -- [10]
+						-2.502999999996973, -- [11]
+						-1.752000000007683, -- [12]
+						-1.552000000025146, -- [13]
+						-0.002000000007683411, -- [14]
+						0, -- [15]
+						0.4469999999855645, -- [16]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"38 (69%)", -- [1]
+						"23 (41%)", -- [2]
+						"23 (41%)", -- [3]
+						"6 (10%)", -- [4]
+						"6 (10%)", -- [5]
+						"6 (10%)", -- [6]
+						"1 (1%)", -- [7]
+						"0 (0%)", -- [8]
+						"55 (100%)", -- [9]
+						"38 (69%)", -- [10]
+						"38 (69%)", -- [11]
+						"16 (29%)", -- [12]
+						"16 (29%)", -- [13]
+						"1 (1%)", -- [14]
+						"0 (0%)", -- [15]
+						"0 (0%)", -- [16]
+					},
+					["EventNum"] = {
+						30.90909090909091, -- [1]
+						27.27272727272727, -- [2]
+						0, -- [3]
+						30.90909090909091, -- [4]
+						0, -- [5]
+						0, -- [6]
+						25.45454545454545, -- [7]
+						0, -- [8]
+						0, -- [9]
+						30.90909090909091, -- [10]
+						0, -- [11]
+						40, -- [12]
+						0, -- [13]
+						32.72727272727273, -- [14]
+						0, -- [15]
+						0, -- [16]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"MISC", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"MISC", -- [15]
+						"DAMAGE", -- [16]
+					},
+				}, -- [7]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						false, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [1]
+						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
+						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [4]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [5]
+						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
+						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
+						"Young Night Web Spider dies.", -- [8]
+						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
+					},
+					["DeathAt"] = 1451465433,
+					["HealthNum"] = {
+						69.09090909090909, -- [1]
+						41.81818181818182, -- [2]
+						41.81818181818182, -- [3]
+						10.90909090909091, -- [4]
+						10.90909090909091, -- [5]
+						10.90909090909091, -- [6]
+						1.818181818181818, -- [7]
+						0, -- [8]
+						100, -- [9]
+					},
+					["MessageTimes"] = {
+						-6.752000000007683, -- [1]
+						-5.201999999990221, -- [2]
+						-5.201999999990221, -- [3]
+						-3.451999999990221, -- [4]
+						-3.152000000001863, -- [5]
+						-1.152999999991152, -- [6]
+						-0.002000000007683411, -- [7]
+						0, -- [8]
+						1.548000000009779, -- [9]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"38 (69%)", -- [1]
+						"23 (41%)", -- [2]
+						"23 (41%)", -- [3]
+						"6 (10%)", -- [4]
+						"6 (10%)", -- [5]
+						"6 (10%)", -- [6]
+						"1 (1%)", -- [7]
+						"0 (0%)", -- [8]
+						"55 (100%)", -- [9]
+					},
+					["EventNum"] = {
+						30.90909090909091, -- [1]
+						27.27272727272727, -- [2]
+						0, -- [3]
+						30.90909090909091, -- [4]
+						0, -- [5]
+						0, -- [6]
+						25.45454545454545, -- [7]
+						0, -- [8]
+						0, -- [9]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"MISC", -- [8]
+						"DAMAGE", -- [9]
+					},
+				}, -- [8]
 			},
 			["LastEventIncoming"] = {
 				true, -- [1]
-				false, -- [2]
+				true, -- [2]
 				false, -- [3]
 				true, -- [4]
 				false, -- [5]
@@ -7451,107 +7690,107 @@ RecountPerCharDB = {
 				true, -- [10]
 				true, -- [11]
 				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				true, -- [15]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
 				false, -- [16]
 				true, -- [17]
-				true, -- [18]
+				false, -- [18]
 				false, -- [19]
 				true, -- [20]
 				false, -- [21]
 				true, -- [22]
-				true, -- [23]
+				false, -- [23]
 				false, -- [24]
 				false, -- [25]
-				false, -- [26]
+				true, -- [26]
 				false, -- [27]
-				true, -- [28]
-				false, -- [29]
+				false, -- [28]
+				true, -- [29]
 				false, -- [30]
-				true, -- [31]
+				false, -- [31]
 				false, -- [32]
-				false, -- [33]
+				true, -- [33]
 				true, -- [34]
 				false, -- [35]
 				true, -- [36]
 				true, -- [37]
 				false, -- [38]
 				true, -- [39]
-				true, -- [40]
+				false, -- [40]
 				true, -- [41]
-				false, -- [42]
+				true, -- [42]
 				false, -- [43]
 				false, -- [44]
-				true, -- [45]
+				false, -- [45]
 				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
 			},
 			["TimeLast"] = {
-				["DeathCount"] = 1451465608,
-				["TimeDamage"] = 1451465617,
-				["ActiveTime"] = 1451465617,
-				["DamageTaken"] = 1451465608,
-				["OVERALL"] = 1451465617,
-				["DOT_Time"] = 1451465617,
-				["Damage"] = 1451465617,
+				["DeathCount"] = 1451465526,
+				["TimeDamage"] = 1451465535,
+				["ActiveTime"] = 1451465535,
+				["DamageTaken"] = 1451465526,
+				["OVERALL"] = 1451465535,
+				["DOT_Time"] = 1451465535,
+				["Damage"] = 1451465535,
 			},
 			["LastEventTimes"] = {
-				204204.744, -- [1]
-				204204.944, -- [2]
-				204206.194, -- [3]
-				204207.394, -- [4]
-				204207.994, -- [5]
-				204208.244, -- [6]
-				204210.294, -- [7]
-				204210.294, -- [8]
-				204212.293, -- [9]
-				204213.194, -- [10]
-				204213.197, -- [11]
-				204213.881, -- [12]
-				204216.544, -- [13]
-				204219.51, -- [14]
-				204221.244, -- [15]
-				204222.493, -- [16]
-				204222.794, -- [17]
-				204224.394, -- [18]
-				204224.844, -- [19]
-				204226.444, -- [20]
-				204226.843, -- [21]
-				204228.344, -- [22]
-				204228.347, -- [23]
-				204228.694, -- [24]
-				204231.643, -- [25]
-				204234.593, -- [26]
-				204237.644, -- [27]
-				204181.544, -- [28]
-				204181.661, -- [29]
-				204181.745, -- [30]
-				204183.345, -- [31]
-				204183.895, -- [32]
-				204184.744, -- [33]
-				204185.445, -- [34]
-				204186.544, -- [35]
-				204187.444, -- [36]
-				204187.449, -- [37]
-				204187.644, -- [38]
-				204192.645, -- [39]
-				204194.444, -- [40]
-				204196.045, -- [41]
-				204196.045, -- [42]
-				204198.444, -- [43]
-				204198.894, -- [44]
-				204198.894, -- [45]
-				204200.144, -- [46]
-				204201.844, -- [47]
-				204201.944, -- [48]
-				204202.144, -- [49]
-				204204.144, -- [50]
+				204101.962, -- [1]
+				204103.895, -- [2]
+				204104.245, -- [3]
+				204105.845, -- [4]
+				204106.295, -- [5]
+				204108.295, -- [6]
+				204108.663, -- [7]
+				204110.378, -- [8]
+				204111.495, -- [9]
+				204111.645, -- [10]
+				204111.662, -- [11]
+				204114.495, -- [12]
+				204115.645, -- [13]
+				204117.395, -- [14]
+				204117.545, -- [15]
+				204118.745, -- [16]
+				204119.546, -- [17]
+				204120.545, -- [18]
+				204120.745, -- [19]
+				204122.012, -- [20]
+				204122.845, -- [21]
+				204124.845, -- [22]
+				204124.945, -- [23]
+				204126.344, -- [24]
+				204126.994, -- [25]
+				204127.861, -- [26]
+				204128.995, -- [27]
+				204129.294, -- [28]
+				204130.745, -- [29]
+				204131.094, -- [30]
+				204132.294, -- [31]
+				204133.244, -- [32]
+				204133.645, -- [33]
+				204133.648, -- [34]
+				204135.244, -- [35]
+				204139.545, -- [36]
+				204141.195, -- [37]
+				204143.045, -- [38]
+				204143.845, -- [39]
+				204145.094, -- [40]
+				204146.594, -- [41]
+				204146.598, -- [42]
+				204146.894, -- [43]
+				204149.895, -- [44]
+				204152.895, -- [45]
+				204155.845, -- [46]
+				204095.645, -- [47]
+				204096.646, -- [48]
+				204096.648, -- [49]
+				204100.295, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Wretched Ghoul"] = {
 			["GUID"] = "0xF1300005DE0053EA",
@@ -7677,13 +7916,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -7692,33 +7932,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -7726,14 +7965,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -7745,12 +7983,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -7762,8 +8002,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -7780,13 +8019,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -7795,33 +8035,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -7829,14 +8068,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -7848,12 +8086,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -7865,8 +8105,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -7997,6 +8236,27 @@ RecountPerCharDB = {
 							["amount"] = 4,
 						},
 					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.1,
+								},
+							},
+							["amount"] = 11.1,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamage"] = 11.1,
 					["WhoDamaged"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -8010,6 +8270,9 @@ RecountPerCharDB = {
 							["amount"] = 253,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 4,
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -8021,30 +8284,6 @@ RecountPerCharDB = {
 								},
 								["Hit"] = {
 									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["TimeDamage"] = 11.1,
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11.1,
-								},
-							},
-							["amount"] = 11.1,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 4,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4,
 								},
 							},
 							["amount"] = 4,
@@ -8513,7 +8752,7 @@ RecountPerCharDB = {
 				203563.85, -- [26]
 				203563.852, -- [27]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Farmer Solliden"] = {
 			["GUID"] = "0xF130000790002097",
@@ -8590,7 +8829,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 8,
 			["LastDamageAbility"] = "Smite",
 			["LastFightIn"] = 75,
@@ -8609,8 +8848,8 @@ RecountPerCharDB = {
 				[9] = 9.615384615384615,
 				[19] = 3.205128205128205,
 				[20] = 10.25641025641026,
-				[11] = 3.205128205128205,
 				[22] = 3.205128205128205,
+				[11] = 3.205128205128205,
 				[24] = 10.25641025641026,
 			},
 			["type"] = "Nontrivial",
@@ -8909,13 +9148,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -8924,33 +9164,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -8958,14 +9197,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -8977,12 +9215,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -8994,8 +9234,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -9012,13 +9251,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -9027,33 +9267,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -9061,14 +9300,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -9080,12 +9318,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -9097,100 +9337,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["PartialResist"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.95,
-								},
-							},
-							["amount"] = 21.95,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 107,
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 30,
-								},
-								["Smite"] = {
-									["count"] = 131,
-								},
-							},
-							["amount"] = 161,
-						},
-					},
-					["TimeDamage"] = 21.95,
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DamageTaken"] = 161,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -9215,19 +9366,65 @@ RecountPerCharDB = {
 							["amount"] = 107,
 						},
 					},
-					["DeathCount"] = 1,
-					["DamagedWho"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 107,
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 107,
+							["amount"] = 8,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
 						},
 					},
-					["ActiveTime"] = 21.95,
-					["TimeDamaging"] = {
+					["PartialResist"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 30,
+								},
+								["Smite"] = {
+									["count"] = 131,
+								},
+							},
+							["amount"] = 161,
+						},
+					},
+					["TimeDamage"] = 21.95,
+					["TimeSpent"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -9237,10 +9434,27 @@ RecountPerCharDB = {
 							["amount"] = 21.95,
 						},
 					},
-					["ElementTaken"] = {
-						["Holy"] = 131,
-						["Shadow"] = 30,
+					["DamageTaken"] = 161,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 10,
+						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 107,
+					},
+					["DeathCount"] = 1,
 					["PartialAbsorb"] = {
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -9265,6 +9479,31 @@ RecountPerCharDB = {
 							},
 							["count"] = 8,
 							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 21.95,
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.95,
+								},
+							},
+							["amount"] = 21.95,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 131,
+						["Shadow"] = 30,
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 107,
 						},
 					},
 					["Damage"] = 107,
@@ -10920,58 +11159,7 @@ RecountPerCharDB = {
 				"Mittens Melee Decrepit Darkhound Hit -4 (Physical)", -- [49]
 				"Decrepit Darkhound Melee Mittens Hit -8 (Physical)", -- [50]
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				true, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				true, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
+			["Name"] = "Decrepit Darkhound",
 			["LastEventHealth"] = {
 				"8 (6%)", -- [1]
 				"0 (0%)", -- [2]
@@ -11038,13 +11226,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -11053,33 +11242,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -11087,14 +11275,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -11106,12 +11293,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -11123,8 +11312,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11149,14 +11337,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 42,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 173,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 42,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -11164,6 +11353,22 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 42,
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -11181,25 +11386,9 @@ RecountPerCharDB = {
 							["amount"] = 8,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 42,
-					},
-					["DamagedWho"] = {
-						["Rat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 42,
-								},
-							},
-							["amount"] = 42,
-						},
-					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Deathguard Terrence"] = {
@@ -11213,22 +11402,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -11244,24 +11436,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 26.05,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Deathguard Terrence"] = {
@@ -11289,12 +11464,26 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 26.05,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -11344,8 +11533,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11500,34 +11688,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Melee"] = 341,
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 43,
-								},
-								["Crushing"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 6,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 61,
-						},
-					},
 					["DamagedWho"] = {
 						["Rabbit"] = {
 							["Details"] = {
@@ -11552,6 +11712,34 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 69,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 43,
+								},
+								["Crushing"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 61,
 						},
 					},
 					["TimeDamage"] = 153.4399999999999,
@@ -11632,6 +11820,10 @@ RecountPerCharDB = {
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 8,
 									["min"] = 4,
@@ -11643,10 +11835,6 @@ RecountPerCharDB = {
 									["min"] = 7,
 									["count"] = 3,
 									["amount"] = 26,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 6,
@@ -11711,7 +11899,58 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["Name"] = "Decrepit Darkhound",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
 			["LastEventTimes"] = {
 				208591.102, -- [1]
 				208591.108, -- [2]
@@ -11764,7 +12003,7 @@ RecountPerCharDB = {
 				208588.202, -- [49]
 				208590.035, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Scarlet Warrior"] = {
 			["DeathLogs"] = {
@@ -12847,7 +13086,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 9,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 7,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 86,
@@ -13183,13 +13422,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -13198,33 +13438,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -13232,14 +13471,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13251,12 +13489,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -13268,8 +13508,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -13286,13 +13525,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -13301,33 +13541,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -13335,14 +13574,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13354,12 +13592,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -13371,109 +13611,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 342,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 114.34,
-								},
-							},
-							["amount"] = 114.34,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 76,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 76,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 114.34,
-								},
-							},
-							["amount"] = 114.34,
-						},
-					},
-					["ActiveTime"] = 114.34,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 69,
-								},
-							},
-							["amount"] = 76,
-						},
-					},
-					["DamageTaken"] = 1338,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 39,
-								},
-							},
-							["amount"] = 46,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -13502,7 +13644,132 @@ RecountPerCharDB = {
 							["amount"] = 342,
 						},
 					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 76,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 342,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 114.34,
+								},
+							},
+							["amount"] = 114.34,
+						},
+					},
+					["ActiveTime"] = 114.34,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 114.34,
+								},
+							},
+							["amount"] = 114.34,
+						},
+					},
+					["DamageTaken"] = 1338,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 76,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 76,
+							["amount"] = 0,
+						},
+					},
 					["DeathCount"] = 10,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 342,
+								},
+							},
+							["amount"] = 342,
+						},
+					},
+					["TimeDamage"] = 114.34,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 104,
+								},
+								["Smite"] = {
+									["count"] = 1234,
+								},
+							},
+							["amount"] = 1338,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 104,
+						["Holy"] = 1234,
+					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -13527,34 +13794,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 76,
 							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 114.34,
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 104,
-								},
-								["Smite"] = {
-									["count"] = 1234,
-								},
-							},
-							["amount"] = 1338,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 104,
-						["Holy"] = 1234,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 342,
-								},
-							},
-							["amount"] = 342,
 						},
 					},
 					["Damage"] = 342,
@@ -13642,13 +13881,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -13657,33 +13897,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -13691,14 +13930,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13710,12 +13948,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -13727,8 +13967,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -13745,13 +13984,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -13760,33 +14000,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -13794,14 +14033,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13813,12 +14051,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -13830,15 +14070,60 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 4,
+									["count"] = 4,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 18,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
 					["ElementDone"] = {
 						["Melee"] = 18,
 					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 113,
+						},
+					},
+					["TimeDamage"] = 9.649999999999999,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.649999999999999,
+								},
+							},
+							["amount"] = 9.649999999999999,
+						},
+					},
+					["DamageTaken"] = 113,
 					["PartialAbsorb"] = {
 						["Smite"] = {
 							["Details"] = {
@@ -13867,52 +14152,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 113,
-						},
-					},
-					["TimeDamage"] = 9.649999999999999,
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["DamageTaken"] = 113,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 4,
-									["count"] = 4,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 18,
-						},
-					},
 					["DeathCount"] = 1,
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -13938,14 +14177,14 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Holy"] = 113,
 					},
-					["TimeSpent"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.649999999999999,
+								["Hit"] = {
+									["count"] = 7,
 								},
 							},
-							["amount"] = 9.649999999999999,
+							["amount"] = 7,
 						},
 					},
 					["Damage"] = 18,
@@ -14123,7 +14362,7 @@ RecountPerCharDB = {
 				204326.743, -- [11]
 				204326.746, -- [12]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Rotting Dead"] = {
 			["DeathLogs"] = {
@@ -14806,7 +15045,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 9,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 5,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 112,
@@ -15154,15 +15393,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["Damage"] = 22,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 9,
 						["Holy"] = 112,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 22,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -15170,22 +15410,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 22,
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
@@ -15197,9 +15421,25 @@ RecountPerCharDB = {
 							["amount"] = 22,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 22,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -15216,22 +15456,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -15259,6 +15502,29 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 7.55,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.55,
+								},
+							},
+							["amount"] = 7.55,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -15285,35 +15551,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.55,
-								},
-							},
-							["amount"] = 7.55,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 7.55,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -15345,8 +15585,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -15371,14 +15610,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Holy"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -15387,10 +15627,10 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -15403,10 +15643,10 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Melee"] = 0,
 					},
-					["DamagedWho"] = {
-						["Mittens"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -15415,7 +15655,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Mittens"] = {
@@ -15429,22 +15669,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Smite"] = {
@@ -15460,24 +15703,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Mittens"] = {
@@ -15497,12 +15723,26 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -15534,29 +15774,15 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["CurrentFightData"] = {
-					["ElementDone"] = {
-						["Melee"] = 0,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
+					["Attacks"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
+								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -15566,6 +15792,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+					},
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
 					},
 					["TimeDamaging"] = {
 						["Mittens"] = {
@@ -15578,10 +15817,10 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 0,
-					["ElementHitsTaken"] = {
-						["Holy"] = {
+					["TimeSpent"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
@@ -15599,10 +15838,10 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
+					["PartialResist"] = {
+						["Smite"] = {
 							["Details"] = {
-								["Hit"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -15614,17 +15853,13 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 0,
-					["PartialAbsorb"] = {
-						["Smite"] = {
+					["DamagedWho"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Melee"] = {
 									["count"] = 0,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
@@ -15642,69 +15877,37 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Holy"] = 0,
 					},
-					["DamagedWho"] = {
-						["Mittens"] = {
+					["PartialAbsorb"] = {
+						["Smite"] = {
 							["Details"] = {
-								["Melee"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
 					["Damage"] = 0,
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 114,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.36,
-								},
-							},
-							["amount"] = 52.36,
-						},
-					},
-					["PartialResist"] = {
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 4,
+									["count"] = 20,
+									["amount"] = 114,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 34,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 34,
-							["amount"] = 0,
+							["count"] = 20,
+							["amount"] = 114,
 						},
 					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 52.36,
-								},
-							},
-							["amount"] = 52.36,
-						},
-					},
-					["ActiveTime"] = 52.36,
 					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -15723,6 +15926,30 @@ RecountPerCharDB = {
 							["amount"] = 34,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 114,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.36,
+								},
+							},
+							["amount"] = 52.36,
+						},
+					},
+					["ActiveTime"] = 52.36,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 52.36,
+								},
+							},
+							["amount"] = 52.36,
+						},
+					},
 					["DamageTaken"] = 949,
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -15734,25 +15961,10 @@ RecountPerCharDB = {
 							["amount"] = 20,
 						},
 					},
-					["Attacks"] = {
+					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 8,
-									["min"] = 4,
-									["count"] = 20,
-									["amount"] = 114,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 114,
-						},
-					},
-					["DeathCount"] = 8,
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 1,
@@ -15764,7 +15976,7 @@ RecountPerCharDB = {
 						},
 						["Smite"] = {
 							["Details"] = {
-								["No Absorb"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 34,
@@ -15773,6 +15985,17 @@ RecountPerCharDB = {
 							},
 							["count"] = 34,
 							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 8,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 114,
+								},
+							},
+							["amount"] = 114,
 						},
 					},
 					["TimeDamage"] = 52.36,
@@ -15793,14 +16016,30 @@ RecountPerCharDB = {
 						["Melee"] = 9,
 						["Holy"] = 940,
 					},
-					["DamagedWho"] = {
-						["Mittens"] = {
+					["PartialAbsorb"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 114,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 114,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 34,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 34,
+							["amount"] = 0,
 						},
 					},
 					["Damage"] = 114,
@@ -15995,13 +16234,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -16010,33 +16250,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -16044,14 +16283,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -16063,12 +16301,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -16080,8 +16320,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -16098,13 +16337,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -16113,33 +16353,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -16147,14 +16386,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -16166,12 +16404,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -16183,16 +16423,79 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 4,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 8,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 21,
+									["count"] = 12,
+									["amount"] = 300,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 300,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+								["Fireball"] = {
+									["count"] = 300,
+								},
+							},
+							["amount"] = 308,
+						},
+					},
 					["ElementDone"] = {
 						["Melee"] = 8,
 						["Fire"] = 300,
 					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 670,
+								},
+							},
+							["amount"] = 670,
+						},
+					},
+					["TimeDamage"] = 46.41,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+								["Fireball"] = {
+									["count"] = 32.41,
+								},
+							},
+							["amount"] = 46.41,
+						},
+					},
+					["DamageTaken"] = 670,
 					["PartialAbsorb"] = {
 						["Smite"] = {
 							["Details"] = {
@@ -16219,70 +16522,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 41,
 							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 670,
-								},
-							},
-							["amount"] = 670,
-						},
-					},
-					["TimeDamage"] = 46.41,
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 41,
-						},
-					},
-					["DamageTaken"] = 670,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8,
-								},
-								["Fireball"] = {
-									["count"] = 300,
-								},
-							},
-							["amount"] = 308,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2,
-									["min"] = 2,
-									["count"] = 4,
-									["amount"] = 8,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 8,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 29,
-									["min"] = 21,
-									["count"] = 12,
-									["amount"] = 300,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 300,
 						},
 					},
 					["DeathCount"] = 8,
@@ -16321,17 +16560,17 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Holy"] = 670,
 					},
-					["TimeSpent"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 14,
+								["Crit"] = {
+									["count"] = 1,
 								},
-								["Fireball"] = {
-									["count"] = 32.41,
+								["Hit"] = {
+									["count"] = 40,
 								},
 							},
-							["amount"] = 46.41,
+							["amount"] = 41,
 						},
 					},
 					["Damage"] = 308,
@@ -17193,281 +17432,1277 @@ RecountPerCharDB = {
 				206163.663, -- [49]
 				206183.359, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
-		["Deathguard Terrence"] = {
-			["GUID"] = "0xF1300006CA0016B2",
+		["Young Scavenger"] = {
+			["GUID"] = "0xF1300005E4005404",
 			["LastEventHealth"] = {
 				"???", -- [1]
 				"???", -- [2]
 				"???", -- [3]
-				"???", -- [4]
-				"???", -- [5]
+				"0 (0%)", -- [4]
+				"25 (59%)", -- [5]
+				"25 (59%)", -- [6]
+				"25 (59%)", -- [7]
+				"9 (21%)", -- [8]
+				"9 (21%)", -- [9]
+				"1 (2%)", -- [10]
+				"0 (0%)", -- [11]
+				"0 (0%)", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"42 (100%)", -- [19]
+				"29 (69%)", -- [20]
+				"13 (30%)", -- [21]
+				"13 (30%)", -- [22]
+				"42 (100%)", -- [23]
+				"42 (100%)", -- [24]
+				"25 (59%)", -- [25]
+				"8 (19%)", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"26 (61%)", -- [29]
+				"12 (28%)", -- [30]
+				"1 (2%)", -- [31]
+				"0 (0%)", -- [32]
+				"???", -- [33]
+				"26 (61%)", -- [34]
+				"12 (28%)", -- [35]
+				"12 (28%)", -- [36]
+				"1 (2%)", -- [37]
+				"0 (0%)", -- [38]
+				"26 (61%)", -- [39]
+				"12 (28%)", -- [40]
+				"1 (2%)", -- [41]
+				"0 (0%)", -- [42]
+				"25 (59%)", -- [43]
+				"11 (26%)", -- [44]
+				"1 (2%)", -- [45]
+				"0 (0%)", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
 				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
+				"MISC", -- [4]
 				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"MISC", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"MISC", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"MISC", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"MISC", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"MISC", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"MISC", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"MISC", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
+				["DeathCount"] = {
+					8, -- [1]
+				},
 				["ActiveTime"] = {
-					7.6, -- [1]
+					53.98, -- [1]
 				},
 				["TimeDamage"] = {
-					7.6, -- [1]
+					53.98, -- [1]
+				},
+				["DamageTaken"] = {
+					378, -- [1]
 				},
 				["Damage"] = {
-					173, -- [1]
+					22, -- [1]
 				},
 			},
 			["enClass"] = "MOB",
+			["LastDamageTaken"] = 17,
 			["level"] = 1,
-			["LastFightIn"] = 114,
+			["LastDamageAbility"] = "Smite",
+			["LastFightIn"] = 33,
+			["LastEventNum"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				40.47619047619047, -- [5]
+				nil, -- [6]
+				nil, -- [7]
+				38.0952380952381, -- [8]
+				[29] = 38.0952380952381,
+				[30] = 33.33333333333334,
+				[31] = 35.71428571428572,
+				[35] = 33.33333333333334,
+				[37] = 33.33333333333334,
+				[39] = 38.0952380952381,
+				[20] = 30.95238095238095,
+				[10] = 38.0952380952381,
+				[21] = 38.0952380952381,
+				[43] = 40.47619047619047,
+				[44] = 33.33333333333334,
+				[45] = 40.47619047619047,
+				[23] = 35.71428571428572,
+				[25] = 40.47619047619047,
+				[26] = 40.47619047619047,
+				[41] = 42.85714285714285,
+				[40] = 33.33333333333334,
+			},
 			["type"] = "Nontrivial",
-			["LastActive"] = 1451479814,
+			["FightsSaved"] = 5,
+			["LastActive"] = 1451465309,
+			["UnitLockout"] = 1451465309,
 			["Owner"] = false,
-			["UnitLockout"] = 1451479814,
-			["NextEventNum"] = 6,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+								["Hit"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 20,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 22,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 22,
+					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 378,
+								},
+							},
+							["amount"] = 378,
+						},
+					},
+					["TimeDamage"] = 53.98,
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["DamageTaken"] = 378,
+					["PartialAbsorb"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 8,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["ActiveTime"] = 53.98,
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.68,
+								},
+							},
+							["amount"] = 16.68,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.3,
+								},
+							},
+							["amount"] = 37.3,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 378,
+					},
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.68,
+								},
+							},
+							["amount"] = 16.68,
+						},
+						["Rat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37.3,
+								},
+							},
+							["amount"] = 37.3,
+						},
+					},
+					["Damage"] = 22,
+				},
+			},
+			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				0, -- [4]
-				0, -- [5]
+				59.52380952380953, -- [5]
+				59.52380952380953, -- [6]
+				59.52380952380953, -- [7]
+				21.42857142857143, -- [8]
+				21.42857142857143, -- [9]
+				2.380952380952381, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				100, -- [19]
+				69.04761904761905, -- [20]
+				30.95238095238095, -- [21]
+				30.95238095238095, -- [22]
+				100, -- [23]
+				100, -- [24]
+				59.52380952380953, -- [25]
+				19.04761904761905, -- [26]
+				0, -- [27]
+				0, -- [28]
+				61.90476190476191, -- [29]
+				28.57142857142857, -- [30]
+				2.380952380952381, -- [31]
+				0, -- [32]
+				0, -- [33]
+				61.90476190476191, -- [34]
+				28.57142857142857, -- [35]
+				28.57142857142857, -- [36]
+				2.380952380952381, -- [37]
+				0, -- [38]
+				61.90476190476191, -- [39]
+				28.57142857142857, -- [40]
+				2.380952380952381, -- [41]
+				0, -- [42]
+				59.52380952380953, -- [43]
+				26.19047619047619, -- [44]
+				2.380952380952381, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
 			},
 			["LastEvents"] = {
-				"Deathguard Terrence Melee Decrepit Darkhound Crushing -58 (Physical)", -- [1]
-				"Decrepit Darkhound Melee Deathguard Terrence Miss", -- [2]
-				"Deathguard Terrence Melee Decrepit Darkhound Crushing -57 (Physical)", -- [3]
-				"Decrepit Darkhound Melee Deathguard Terrence Miss", -- [4]
-				"Deathguard Terrence Melee Decrepit Darkhound Crushing -58 (Physical)", -- [5]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [1]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [2]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [3]
+				"Young Scavenger dies.", -- [4]
+				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [5]
+				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [6]
+				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [7]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [8]
+				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [9]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [10]
+				"Young Scavenger dies.", -- [11]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [12]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [13]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [14]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [15]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [16]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [17]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [18]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [19]
+				"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [20]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [21]
+				"Young Scavenger Melee Mittens Crit -2 (Physical)", -- [22]
+				"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [23]
+				"Young Scavenger dies.", -- [24]
+				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [25]
+				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [26]
+				"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [27]
+				"Young Scavenger dies.", -- [28]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [29]
+				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [30]
+				"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [31]
+				"Young Scavenger dies.", -- [32]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [33]
+				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [34]
+				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [35]
+				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [36]
+				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [37]
+				"Young Scavenger dies.", -- [38]
+				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [39]
+				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [40]
+				"Mittens Smite Young Scavenger Hit -18 (Holy)", -- [41]
+				"Young Scavenger dies.", -- [42]
+				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [43]
+				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [44]
+				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [45]
+				"Young Scavenger dies.", -- [46]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [47]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [48]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [49]
+				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [50]
 			},
-			["Name"] = "Deathguard Terrence",
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["TimeSpent"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.6,
-								},
-							},
-							["amount"] = 7.6,
-						},
+			["Name"] = "Young Scavenger",
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [2]
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [3]
+						"Young Scavenger dies.", -- [4]
 					},
-					["ElementDone"] = {
-						["Melee"] = 173,
+					["DeathAt"] = 1451465223,
+					["HealthNum"] = {
+						59.52380952380953, -- [1]
+						26.19047619047619, -- [2]
+						2.380952380952381, -- [3]
+						0, -- [4]
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["MessageTimes"] = {
+						-2.884999999980209, -- [1]
+						-1.701999999990221, -- [2]
+						-0.001999999978579581, -- [3]
+						0, -- [4]
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["max"] = 58,
-									["min"] = 57,
-									["count"] = 3,
-									["amount"] = 173,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 173,
-						},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"25 (59%)", -- [1]
+						"11 (26%)", -- [2]
+						"1 (2%)", -- [3]
+						"0 (0%)", -- [4]
 					},
-					["ActiveTime"] = 7.6,
-					["DamagedWho"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 173,
-								},
-							},
-							["amount"] = 173,
-						},
+					["EventNum"] = {
+						40.47619047619047, -- [1]
+						33.33333333333334, -- [2]
+						40.47619047619047, -- [3]
+						0, -- [4]
 					},
-					["TimeDamage"] = 7.6,
-					["TimeDamaging"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.6,
-								},
-							},
-							["amount"] = 7.6,
-						},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"MISC", -- [4]
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
+				}, -- [1]
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
+					["Messages"] = {
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [1]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [2]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [3]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [4]
+						"Young Scavenger dies.", -- [5]
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [6]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [7]
+						"Mittens Smite Young Scavenger Hit -18 (Holy)", -- [8]
+						"Young Scavenger dies.", -- [9]
 					},
-					["Damage"] = 173,
-				},
-				["OverallData"] = {
-					["TimeSpent"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.6,
-								},
-							},
-							["amount"] = 7.6,
-						},
+					["DeathAt"] = 1451465198,
+					["HealthNum"] = {
+						61.90476190476191, -- [1]
+						28.57142857142857, -- [2]
+						28.57142857142857, -- [3]
+						2.380952380952381, -- [4]
+						0, -- [5]
+						61.90476190476191, -- [6]
+						28.57142857142857, -- [7]
+						2.380952380952381, -- [8]
+						0, -- [9]
 					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
+					["MessageTimes"] = {
+						-13.55299999998533, -- [1]
+						-12.70199999999022, -- [2]
+						-11.45199999999022, -- [3]
+						-10.50200000000768, -- [4]
+						-10.49899999998161, -- [5]
+						-3.701999999990221, -- [6]
+						-1.502000000007683, -- [7]
+						-0.002000000007683411, -- [8]
+						0, -- [9]
 					},
-					["ElementDone"] = {
-						["Melee"] = 173,
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"26 (61%)", -- [1]
+						"12 (28%)", -- [2]
+						"12 (28%)", -- [3]
+						"1 (2%)", -- [4]
+						"0 (0%)", -- [5]
+						"26 (61%)", -- [6]
+						"12 (28%)", -- [7]
+						"1 (2%)", -- [8]
+						"0 (0%)", -- [9]
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["EventNum"] = {
+						0, -- [1]
+						33.33333333333334, -- [2]
+						0, -- [3]
+						33.33333333333334, -- [4]
+						0, -- [5]
+						38.0952380952381, -- [6]
+						33.33333333333334, -- [7]
+						42.85714285714285, -- [8]
+						0, -- [9]
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["max"] = 58,
-									["min"] = 57,
-									["count"] = 3,
-									["amount"] = 173,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 173,
-						},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"MISC", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"MISC", -- [9]
 					},
-					["ActiveTime"] = 7.6,
-					["DamagedWho"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 173,
-								},
-							},
-							["amount"] = 173,
-						},
+				}, -- [2]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						false, -- [4]
+						true, -- [5]
+						true, -- [6]
 					},
-					["TimeDamage"] = 7.6,
-					["TimeDamaging"] = {
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.6,
-								},
-							},
-							["amount"] = 7.6,
-						},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [1]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [2]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [3]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [4]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [5]
+						"Young Scavenger dies.", -- [6]
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
+					["DeathAt"] = 1451465188,
+					["HealthNum"] = {
+						0, -- [1]
+						61.90476190476191, -- [2]
+						28.57142857142857, -- [3]
+						28.57142857142857, -- [4]
+						2.380952380952381, -- [5]
+						0, -- [6]
 					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
+					["MessageTimes"] = {
+						-6.803000000014436, -- [1]
+						-3.054000000003725, -- [2]
+						-2.203000000008615, -- [3]
+						-0.9530000000086147, -- [4]
+						-0.003000000026077032, -- [5]
+						0, -- [6]
 					},
-					["Damage"] = 173,
-				},
-			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1451479814,
-				["OVERALL"] = 1451479814,
-				["TimeDamage"] = 1451479814,
-				["Damage"] = 1451479814,
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"???", -- [1]
+						"26 (61%)", -- [2]
+						"12 (28%)", -- [3]
+						"12 (28%)", -- [4]
+						"1 (2%)", -- [5]
+						"0 (0%)", -- [6]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						33.33333333333334, -- [3]
+						0, -- [4]
+						33.33333333333334, -- [5]
+						0, -- [6]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"MISC", -- [6]
+					},
+				}, -- [3]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [2]
+						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
+						"Young Scavenger dies.", -- [4]
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [5]
+						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [6]
+						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [7]
+						"Young Scavenger dies.", -- [8]
+					},
+					["DeathAt"] = 1451465120,
+					["HealthNum"] = {
+						59.52380952380953, -- [1]
+						19.04761904761905, -- [2]
+						0, -- [3]
+						0, -- [4]
+						61.90476190476191, -- [5]
+						28.57142857142857, -- [6]
+						2.380952380952381, -- [7]
+						0, -- [8]
+					},
+					["MessageTimes"] = {
+						-10.35099999999511, -- [1]
+						-8.800999999977648, -- [2]
+						-7.100999999995111, -- [3]
+						-7.099999999976717, -- [4]
+						-3.201999999990221, -- [5]
+						-1.600999999995111, -- [6]
+						-0.0009999999892897904, -- [7]
+						0, -- [8]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"25 (59%)", -- [1]
+						"8 (19%)", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"26 (61%)", -- [5]
+						"12 (28%)", -- [6]
+						"1 (2%)", -- [7]
+						"0 (0%)", -- [8]
+					},
+					["EventNum"] = {
+						40.47619047619047, -- [1]
+						40.47619047619047, -- [2]
+						0, -- [3]
+						0, -- [4]
+						38.0952380952381, -- [5]
+						33.33333333333334, -- [6]
+						35.71428571428572, -- [7]
+						0, -- [8]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"MISC", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"MISC", -- [8]
+					},
+				}, -- [4]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [2]
+						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
+						"Young Scavenger dies.", -- [4]
+					},
+					["DeathAt"] = 1451465113,
+					["HealthNum"] = {
+						59.52380952380953, -- [1]
+						19.04761904761905, -- [2]
+						0, -- [3]
+						0, -- [4]
+					},
+					["MessageTimes"] = {
+						-3.251000000018394, -- [1]
+						-1.701000000000931, -- [2]
+						-0.001000000018393621, -- [3]
+						0, -- [4]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"25 (59%)", -- [1]
+						"8 (19%)", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+					},
+					["EventNum"] = {
+						40.47619047619047, -- [1]
+						40.47619047619047, -- [2]
+						0, -- [3]
+						0, -- [4]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"MISC", -- [4]
+					},
+				}, -- [5]
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						false, -- [4]
+						false, -- [5]
+						true, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+					},
+					["Messages"] = {
+						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [1]
+						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [2]
+						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [3]
+						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [4]
+						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [5]
+						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [6]
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [7]
+						"Young Scavenger Melee Mittens Crit -2 (Physical)", -- [8]
+						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [9]
+						"Young Scavenger dies.", -- [10]
+					},
+					["DeathAt"] = 1451465066,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						100, -- [5]
+						69.04761904761905, -- [6]
+						30.95238095238095, -- [7]
+						30.95238095238095, -- [8]
+						100, -- [9]
+						100, -- [10]
+					},
+					["MessageTimes"] = {
+						-14.80199999999604, -- [1]
+						-12.70200000001933, -- [2]
+						-9.402000000001863, -- [3]
+						-7.252000000007683, -- [4]
+						-5.251000000018394, -- [5]
+						-3.801999999996042, -- [6]
+						-2.002000000007683, -- [7]
+						-1.602000000013504, -- [8]
+						-0.002000000007683411, -- [9]
+						0, -- [10]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"42 (100%)", -- [5]
+						"29 (69%)", -- [6]
+						"13 (30%)", -- [7]
+						"13 (30%)", -- [8]
+						"42 (100%)", -- [9]
+						"42 (100%)", -- [10]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						30.95238095238095, -- [6]
+						38.0952380952381, -- [7]
+						0, -- [8]
+						35.71428571428572, -- [9]
+						0, -- [10]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"MISC", -- [10]
+					},
+				}, -- [6]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						false, -- [5]
+						false, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [1]
+						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [2]
+						"Young Scavenger dies.", -- [3]
+						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [4]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [5]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [6]
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [7]
+						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [8]
+						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [9]
+						"Young Scavenger dies.", -- [10]
+					},
+					["DeathAt"] = 1451465041,
+					["HealthNum"] = {
+						4.761904761904762, -- [1]
+						2.380952380952381, -- [2]
+						0, -- [3]
+						59.52380952380953, -- [4]
+						59.52380952380953, -- [5]
+						59.52380952380953, -- [6]
+						21.42857142857143, -- [7]
+						21.42857142857143, -- [8]
+						2.380952380952381, -- [9]
+						0, -- [10]
+					},
+					["MessageTimes"] = {
+						-13.61600000000908, -- [1]
+						-11.91500000000815, -- [2]
+						-11.89900000000489, -- [3]
+						-7.600000000005821, -- [4]
+						-5.600000000005821, -- [5]
+						-3.550000000017462, -- [6]
+						-2, -- [7]
+						-1.516999999992549, -- [8]
+						-0.01600000000325963, -- [9]
+						0, -- [10]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"2 (4%)", -- [1]
+						"1 (2%)", -- [2]
+						"0 (0%)", -- [3]
+						"25 (59%)", -- [4]
+						"25 (59%)", -- [5]
+						"25 (59%)", -- [6]
+						"9 (21%)", -- [7]
+						"9 (21%)", -- [8]
+						"1 (2%)", -- [9]
+						"0 (0%)", -- [10]
+					},
+					["EventNum"] = {
+						35.71428571428572, -- [1]
+						30.95238095238095, -- [2]
+						0, -- [3]
+						40.47619047619047, -- [4]
+						0, -- [5]
+						0, -- [6]
+						38.0952380952381, -- [7]
+						0, -- [8]
+						38.0952380952381, -- [9]
+						0, -- [10]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"MISC", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"MISC", -- [10]
+					},
+				}, -- [7]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+					},
+					["Messages"] = {
+						"Mittens Smite Young Scavenger Crit -25 (Holy)", -- [1]
+						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [2]
+						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
+						"Young Scavenger dies.", -- [4]
+					},
+					["DeathAt"] = 1451465029,
+					["HealthNum"] = {
+						40.47619047619047, -- [1]
+						4.761904761904762, -- [2]
+						2.380952380952381, -- [3]
+						0, -- [4]
+					},
+					["MessageTimes"] = {
+						-3.201000000000931, -- [1]
+						-1.717000000004191, -- [2]
+						-0.01600000000325963, -- [3]
+						0, -- [4]
+					},
+					["KilledBy"] = "Mittens",
+					["Health"] = {
+						"17 (40%)", -- [1]
+						"2 (4%)", -- [2]
+						"1 (2%)", -- [3]
+						"0 (0%)", -- [4]
+					},
+					["EventNum"] = {
+						59.52380952380953, -- [1]
+						35.71428571428572, -- [2]
+						30.95238095238095, -- [3]
+						0, -- [4]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"MISC", -- [4]
+					},
+				}, -- [8]
 			},
 			["LastEventIncoming"] = {
 				false, -- [1]
-				true, -- [2]
+				false, -- [2]
 				false, -- [3]
 				true, -- [4]
-				false, -- [5]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["DeathCount"] = 1451465221,
+				["ActiveTime"] = 1451465309,
+				["TimeDamage"] = 1451465309,
+				["OVERALL"] = 1451465309,
+				["DamageTaken"] = 1451465221,
+				["Damage"] = 1451465309,
 			},
 			["LastEventTimes"] = {
-				298.513, -- [1]
-				298.513, -- [2]
-				300.513, -- [3]
-				300.513, -- [4]
-				302.612, -- [5]
+				203924.463, -- [1]
+				203926.846, -- [2]
+				203929.146, -- [3]
+				203647.35, -- [4]
+				203651.649, -- [5]
+				203653.649, -- [6]
+				203655.699, -- [7]
+				203657.249, -- [8]
+				203657.732, -- [9]
+				203659.233, -- [10]
+				203659.249, -- [11]
+				203663.599, -- [12]
+				203665.649, -- [13]
+				203667.749, -- [14]
+				203669.849, -- [15]
+				203671.949, -- [16]
+				203675.249, -- [17]
+				203677.399, -- [18]
+				203679.4, -- [19]
+				203680.849, -- [20]
+				203682.649, -- [21]
+				203683.049, -- [22]
+				203684.649, -- [23]
+				203684.651, -- [24]
+				203728.299, -- [25]
+				203729.849, -- [26]
+				203731.549, -- [27]
+				203731.55, -- [28]
+				203735.448, -- [29]
+				203737.049, -- [30]
+				203738.649, -- [31]
+				203738.65, -- [32]
+				203799.448, -- [33]
+				203803.197, -- [34]
+				203804.048, -- [35]
+				203805.298, -- [36]
+				203806.248, -- [37]
+				203806.251, -- [38]
+				203813.048, -- [39]
+				203815.248, -- [40]
+				203816.748, -- [41]
+				203816.75, -- [42]
+				203838.265, -- [43]
+				203839.448, -- [44]
+				203841.148, -- [45]
+				203841.15, -- [46]
+				203914.646, -- [47]
+				203918.046, -- [48]
+				203920.147, -- [49]
+				203922.197, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Lost Soul"] = {
 			["GUID"] = "0xF1300005FB001948",
@@ -17518,7 +18753,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 7,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 105,
@@ -17721,13 +18956,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -17736,33 +18972,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -17770,14 +19005,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -17789,12 +19023,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -17806,8 +19042,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -17824,13 +19059,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -17839,33 +19075,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -17873,14 +19108,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -17892,12 +19126,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -17909,94 +19145,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 35,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11.65,
-								},
-							},
-							["amount"] = 11.65,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11.65,
-								},
-							},
-							["amount"] = 11.65,
-						},
-					},
-					["ActiveTime"] = 11.65,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DamageTaken"] = 139,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -18015,11 +19168,66 @@ RecountPerCharDB = {
 							["amount"] = 35,
 						},
 					},
-					["DeathCount"] = 1,
-					["PartialAbsorb"] = {
+					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Absorb"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 35,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.65,
+								},
+							},
+							["amount"] = 11.65,
+						},
+					},
+					["ActiveTime"] = 11.65,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.65,
+								},
+							},
+							["amount"] = 11.65,
+						},
+					},
+					["DamageTaken"] = 139,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 1,
@@ -18031,7 +19239,7 @@ RecountPerCharDB = {
 						},
 						["Smite"] = {
 							["Details"] = {
-								["No Absorb"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 5,
@@ -18040,6 +19248,17 @@ RecountPerCharDB = {
 							},
 							["count"] = 5,
 							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 35,
 						},
 					},
 					["TimeDamage"] = 11.65,
@@ -18060,14 +19279,30 @@ RecountPerCharDB = {
 						["Melee"] = 6,
 						["Holy"] = 133,
 					},
-					["DamagedWho"] = {
-						["Mittens"] = {
+					["PartialAbsorb"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 35,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 35,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
 						},
 					},
 					["Damage"] = 35,
@@ -18161,7 +19396,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 8,
 			["LastDamageAbility"] = "Smite",
 			["LastFightIn"] = 94,
@@ -18472,13 +19707,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -18487,33 +19723,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -18521,14 +19756,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -18540,12 +19774,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -18557,8 +19793,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -18575,13 +19810,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -18590,33 +19826,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -18624,14 +19859,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -18643,12 +19877,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -18660,74 +19896,29 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 112,
-					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["PartialResist"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
+								["Dodge"] = {
+									["count"] = 1,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 9,
+									["count"] = 11,
+									["amount"] = 112,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 0,
+							["count"] = 12,
+							["amount"] = 112,
 						},
 					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["ActiveTime"] = 26,
 					["ElementHitsTaken"] = {
 						["Holy"] = {
 							["Details"] = {
@@ -18754,6 +19945,30 @@ RecountPerCharDB = {
 							["amount"] = 6,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 112,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["ActiveTime"] = 26,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
 					["DamageTaken"] = 166,
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -18768,25 +19983,77 @@ RecountPerCharDB = {
 							["amount"] = 12,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
+					["PartialResist"] = {
+						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
 									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 9,
-									["count"] = 11,
-									["amount"] = 112,
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 112,
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 1,
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["TimeDamage"] = 26,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 30,
+								},
+								["Melee"] = {
+									["count"] = 35,
+								},
+								["Smite"] = {
+									["count"] = 101,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["ElementTaken"] = {
+						["Holy"] = 101,
+						["Melee"] = 35,
+						["Shadow"] = 30,
+					},
 					["PartialAbsorb"] = {
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -18823,38 +20090,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 6,
 							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 26,
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 30,
-								},
-								["Melee"] = {
-									["count"] = 35,
-								},
-								["Smite"] = {
-									["count"] = 101,
-								},
-							},
-							["amount"] = 166,
-						},
-					},
-					["ElementTaken"] = {
-						["Holy"] = 101,
-						["Melee"] = 35,
-						["Shadow"] = 30,
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 112,
-								},
-							},
-							["amount"] = 112,
 						},
 					},
 					["Damage"] = 112,
@@ -19027,13 +20262,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -19042,33 +20278,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -19076,14 +20311,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -19095,12 +20329,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -19112,8 +20348,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -19130,13 +20365,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -19145,33 +20381,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -19179,14 +20414,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -19198,12 +20432,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -19215,116 +20451,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 11,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15,
-								},
-								["Smite"] = {
-									["count"] = 379,
-								},
-							},
-							["amount"] = 394,
-						},
-					},
-					["TimeDamage"] = 28.22,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["DamageTaken"] = 394,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -19343,6 +20474,96 @@ RecountPerCharDB = {
 							},
 							["count"] = 10,
 							["amount"] = 11,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 11,
+					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+								["Smite"] = {
+									["count"] = 379,
+								},
+							},
+							["amount"] = 394,
+						},
+					},
+					["TimeDamage"] = 28.22,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28.22,
+								},
+							},
+							["amount"] = 28.22,
+						},
+					},
+					["DamageTaken"] = 394,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 7,
@@ -19374,14 +20595,28 @@ RecountPerCharDB = {
 						["Melee"] = 15,
 						["Holy"] = 379,
 					},
-					["TimeSpent"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 28.22,
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 28.22,
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 24,
 						},
 					},
 					["Damage"] = 11,
@@ -20050,7 +21285,7 @@ RecountPerCharDB = {
 				203924.797, -- [42]
 				203924.803, -- [43]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Rattlecage Skeleton"] = {
 			["DeathLogs"] = {
@@ -20866,13 +22101,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -20881,33 +22117,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -20915,14 +22150,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -20934,12 +22168,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -20951,8 +22187,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -20969,13 +22204,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -20984,33 +22220,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -21018,14 +22253,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -21037,12 +22271,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -21054,8 +22290,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -21189,30 +22424,6 @@ RecountPerCharDB = {
 							["amount"] = 21,
 						},
 					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7,
-								},
-								["Smite"] = {
-									["count"] = 598,
-								},
-							},
-							["amount"] = 605,
-						},
-					},
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["TimeDamage"] = 46.42999999999999,
 					["TimeDamaging"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -21222,9 +22433,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 46.42999999999999,
 						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 21,
 					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -21240,6 +22448,33 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 17,
+						},
+					},
+					["TimeDamage"] = 46.42999999999999,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+								["Smite"] = {
+									["count"] = 598,
+								},
+							},
+							["amount"] = 605,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 21,
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
 						},
 					},
 					["ElementTakenBlock"] = {
@@ -21512,7 +22747,7 @@ RecountPerCharDB = {
 				203888.497, -- [49]
 				203889.547, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Bayne"] = {
 			["GUID"] = "0xF1300028740020EF",
@@ -21616,7 +22851,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 10,
 			["LastDamageAbility"] = "Shadow Word: Pain (DoT)",
 			["LastFightIn"] = 91,
@@ -21639,12 +22874,12 @@ RecountPerCharDB = {
 				2.525252525252525, -- [16]
 				[26] = 2.525252525252525,
 				[36] = 2.525252525252525,
-				[32] = 2.525252525252525,
-				[33] = 9.595959595959595,
 				[28] = 9.595959595959595,
+				[33] = 9.595959595959595,
+				[21] = 2.525252525252525,
 				[18] = 9.090909090909092,
 				[22] = 9.090909090909092,
-				[21] = 2.525252525252525,
+				[32] = 2.525252525252525,
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
@@ -22012,13 +23247,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -22027,33 +23263,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -22061,14 +23296,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22080,12 +23314,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -22097,8 +23333,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22115,13 +23350,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -22130,33 +23366,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -22164,14 +23399,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22183,12 +23417,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -22200,8 +23436,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22340,6 +23575,19 @@ RecountPerCharDB = {
 							["amount"] = 20,
 						},
 					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 126,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 146,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -22358,31 +23606,18 @@ RecountPerCharDB = {
 							["amount"] = 5,
 						},
 					},
-					["DamagedWho"] = {
+					["TimeDamage"] = 23.69,
+					["TimeDamaging"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 126,
+									["count"] = 17.59,
 								},
 								["Rend (DoT)"] = {
-									["count"] = 20,
+									["count"] = 6.1,
 								},
 							},
-							["amount"] = 146,
-						},
-					},
-					["TimeDamage"] = 23.69,
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 40,
-								},
-								["Smite"] = {
-									["count"] = 161,
-								},
-							},
-							["amount"] = 201,
+							["amount"] = 23.69,
 						},
 					},
 					["ElementDone"] = {
@@ -22416,17 +23651,17 @@ RecountPerCharDB = {
 							["amount"] = 11,
 						},
 					},
-					["TimeDamaging"] = {
+					["WhoDamaged"] = {
 						["Mittens"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 17.59,
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 40,
 								},
-								["Rend (DoT)"] = {
-									["count"] = 6.1,
+								["Smite"] = {
+									["count"] = 161,
 								},
 							},
-							["amount"] = 23.69,
+							["amount"] = 201,
 						},
 					},
 				},
@@ -22479,7 +23714,7 @@ RecountPerCharDB = {
 					["DeathCount"] = 1,
 				},
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Ragged Scavenger"] = {
 			["GUID"] = "0xF1300005E5002CA6",
@@ -22646,13 +23881,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -22661,33 +23897,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -22695,14 +23930,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22714,12 +23948,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -22731,8 +23967,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22749,13 +23984,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -22764,33 +24000,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -22798,14 +24033,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22817,12 +24051,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -22834,8 +24070,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22995,7 +24230,7 @@ RecountPerCharDB = {
 				207720.027, -- [29]
 				207722.077, -- [30]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Mittens"] = {
 			["GUID"] = "0x000000000001001E",
@@ -23161,7 +24396,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["LastEventTimes"] = {
 				209272.979, -- [1]
 				209150.88, -- [2]
@@ -23215,7 +24450,58 @@ RecountPerCharDB = {
 				209272.195, -- [50]
 			},
 			["Owner"] = false,
-			["Name"] = "Mittens",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
 			["NextEventNum"] = 2,
 			["LastEventHealthNum"] = {
 				85.87570621468926, -- [1]
@@ -23321,58 +24607,7 @@ RecountPerCharDB = {
 				"Ravaged Corpse Melee Mittens Hit -6 (Physical)", -- [49]
 				"Ravaged Corpse Melee Mittens Hit -5 (Physical)", -- [50]
 			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				true, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				true, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				true, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
+			["Name"] = "Mittens",
 			["TimeLast"] = {
 				["TimeHeal"] = 1451469938,
 				["OVERALL"] = 1451470652,
@@ -23443,17 +24678,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
 						["Melee"] = 25,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 126,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -23494,133 +24728,36 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Calvin Montague"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Duskbat"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
-						["Rattlecage Skeleton"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Smite"] = {
+								["Miss"] = {
 									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Duskbat"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Night Web Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wretched Ghoul"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
-								},
-								["Smite"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 126,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rotting Dead"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Initiate"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Scavenger"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
 					},
 					["RageGained"] = {
@@ -23739,17 +24876,58 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 14.4,
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -23788,15 +24966,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 14.4,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -23935,52 +25109,15 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -24031,36 +25168,133 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Calvin Montague"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Duskbat"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Smite"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Rattlecage Skeleton"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Smite"] = {
 									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Duskbat"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Night Web Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+								["Smite"] = {
+									["count"] = 117,
+								},
+							},
+							["amount"] = 126,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotting Dead"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Initiate"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeDamage"] = 14.4,
@@ -24194,7 +25428,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 126,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -24260,7 +25495,8 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 145,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
@@ -24268,9 +25504,9 @@ RecountPerCharDB = {
 						["Melee"] = 24,
 						["Nature"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 145,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -24278,52 +25514,6 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Holy"] = 145,
 					},
 					["DamagedWho"] = {
 						["Mindless Zombie"] = {
@@ -24456,9 +25646,55 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Holy"] = 145,
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Mindless Zombie"] = {
@@ -24583,9 +25819,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -24599,8 +25835,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -24623,6 +25858,10 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Ravage"] = {
@@ -24686,72 +25925,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialResist"] = {
-						["Ravage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 13.78,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Mindless Zombie"] = {
@@ -24792,7 +25966,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Young Night Web Spider"] = {
+						["Night Web Spider"] = {
 							["Details"] = {
 								["Smite"] = {
 									["count"] = 0,
@@ -24811,7 +25985,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Night Web Spider"] = {
+						["Young Night Web Spider"] = {
 							["Details"] = {
 								["Smite"] = {
 									["count"] = 0,
@@ -24819,8 +25993,11 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Wretched Ghoul"] = {
+						["Scarlet Convert"] = {
 							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
 								["Smite"] = {
 									["count"] = 0,
 								},
@@ -24886,11 +26063,8 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Convert"] = {
+						["Wretched Ghoul"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
 								["Smite"] = {
 									["count"] = 0,
 								},
@@ -24918,12 +26092,74 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 13.78,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+						["Ravage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -25130,8 +26366,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -25210,12 +26445,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Warrior"] = {
+						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -25232,9 +26464,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Rat"] = {
+						["Scarlet Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -25366,41 +26601,6 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Shadow"] = 0,
 					},
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["DamagedWho"] = {
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -25462,12 +26662,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Warrior"] = {
+						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -25484,9 +26681,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Rat"] = {
+						["Scarlet Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -25522,6 +26722,41 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -25590,12 +26825,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Warrior"] = {
+						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -25612,9 +26844,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Rat"] = {
+						["Scarlet Warrior"] = {
 							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -26091,25 +27326,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 28.33000000000001,
 						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 41.12000000000001,
-								},
-								["Smite"] = {
-									["count"] = 174.9,
-								},
-							},
-							["amount"] = 216.02,
-						},
-						["Samuel Fipps"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 15.45,
-								},
-							},
-							["amount"] = 15.45,
-						},
 						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -26131,6 +27347,25 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 44.94000000000001,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 41.12000000000001,
+								},
+								["Smite"] = {
+									["count"] = 174.9,
+								},
+							},
+							["amount"] = 216.02,
+						},
+						["Samuel Fipps"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 15.45,
+								},
+							},
+							["amount"] = 15.45,
 						},
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -26520,25 +27755,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 28.33000000000001,
 						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 41.12000000000001,
-								},
-								["Smite"] = {
-									["count"] = 174.9,
-								},
-							},
-							["amount"] = 216.02,
-						},
-						["Samuel Fipps"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 15.45,
-								},
-							},
-							["amount"] = 15.45,
-						},
 						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -26560,6 +27776,25 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 44.94000000000001,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 41.12000000000001,
+								},
+								["Smite"] = {
+									["count"] = 174.9,
+								},
+							},
+							["amount"] = 216.02,
+						},
+						["Samuel Fipps"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 15.45,
+								},
+							},
+							["amount"] = 15.45,
 						},
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -26936,25 +28171,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 201,
 						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 104,
-								},
-								["Smite"] = {
-									["count"] = 1234,
-								},
-							},
-							["amount"] = 1338,
-						},
-						["Samuel Fipps"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 113,
-								},
-							},
-							["amount"] = 113,
-						},
 						["Rat"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -26976,6 +28192,25 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 255,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 104,
+								},
+								["Smite"] = {
+									["count"] = 1234,
+								},
+							},
+							["amount"] = 1338,
+						},
+						["Samuel Fipps"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 113,
+								},
+							},
+							["amount"] = 113,
 						},
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -27152,13 +28387,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3,
 						},
-						["Samuel Fipps"] = {
+						["Tirisfal Farmer"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 18,
+									["count"] = 116,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 116,
 						},
 						["Scarlet Warrior"] = {
 							["Details"] = {
@@ -27179,13 +28414,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 146,
 						},
-						["Tirisfal Farmer"] = {
+						["Samuel Fipps"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 116,
+									["count"] = 18,
 								},
 							},
-							["amount"] = 116,
+							["amount"] = 18,
 						},
 						["Meven Korgal"] = {
 							["Details"] = {
@@ -27311,16 +28546,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 16,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 124,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -27341,122 +28575,35 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Mindless Zombie"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Smite"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Duskbat"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlecage Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 124,
-								},
-							},
-							["amount"] = 124,
-						},
-						["Night Web Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tirisfal Farmer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rotting Dead"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Scavenger"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -27555,18 +28702,47 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 11.33,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -27593,15 +28769,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 11.33,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -27733,40 +28905,15 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -27827,35 +28974,122 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Mindless Zombie"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Duskbat"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						["Night Web Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tirisfal Farmer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotting Dead"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -27986,7 +29220,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 124,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -28047,17 +29282,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
 						["Melee"] = 25,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 126,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -28098,133 +29332,36 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Calvin Montague"] = {
+					["ElementHitsDone"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Duskbat"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1,
 						},
-						["Rattlecage Skeleton"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Smite"] = {
+								["Miss"] = {
 									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Duskbat"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Night Web Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wretched Ghoul"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
-								},
-								["Smite"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 126,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rotting Dead"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Initiate"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Scavenger"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 4,
 						},
 					},
 					["RageGained"] = {
@@ -28343,17 +29480,58 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 14.4,
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -28392,15 +29570,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 14.4,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -28539,52 +29713,15 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -28635,36 +29772,133 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
+					["DamagedWho"] = {
+						["Calvin Montague"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Duskbat"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
+								["Smite"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Rattlecage Skeleton"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Smite"] = {
 									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Duskbat"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Night Web Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+								["Smite"] = {
+									["count"] = 117,
+								},
+							},
+							["amount"] = 126,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotting Dead"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Initiate"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Scavenger"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["TimeDamage"] = 14.4,
@@ -28798,7 +30032,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 126,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -28861,7 +30096,8 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
@@ -28869,10 +30105,8 @@ RecountPerCharDB = {
 						["Melee"] = 22,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 121,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -28893,6 +30127,540 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Cursed Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Weak Poison (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Ravage"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Night Web Spider"] = {
+							["Details"] = {
+								["Weak Poison (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tirisfal Farmhand"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Samuel Fipps"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotting Dead"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Scarlet Initiate"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Meven Korgal"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Ravage"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 12.65,
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Ravage"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mindless Zombie"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rattlecage Skeleton"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Duskbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Tirisfal Farmhand"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Cursed Darkhound"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Samuel Fipps"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rotting Dead"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.82,
+								},
+								["Smite"] = {
+									["count"] = 9.829999999999998,
+								},
+							},
+							["amount"] = 12.65,
+						},
+						["Scarlet Initiate"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Meven Korgal"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["Attacks"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 112,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 112,
+						},
+					},
+					["HealingTaken"] = 0,
 					["DamagedWho"] = {
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -28929,7 +30697,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Greater Duskbat"] = {
+						["Ravaged Corpse"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -28940,7 +30708,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Ravaged Corpse"] = {
+						["Greater Duskbat"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -28962,7 +30730,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Wretched Ghoul"] = {
+						["Scarlet Convert"] = {
 							["Details"] = {
 								["Smite"] = {
 									["count"] = 0,
@@ -29038,543 +30806,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RageGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Cursed Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Duskbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlecage Skeleton"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Night Web Spider"] = {
-							["Details"] = {
-								["Weak Poison (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Duskbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Ravage"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Weak Poison (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wretched Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tirisfal Farmhand"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Samuel Fipps"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rotting Dead"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Scarlet Initiate"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Meven Korgal"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ravage"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 12.65,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Mindless Zombie"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Duskbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rattlecage Skeleton"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Duskbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Wretched Ghoul"] = {
 							["Details"] = {
 								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Tirisfal Farmhand"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cursed Darkhound"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Samuel Fipps"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rotting Dead"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.82,
-								},
-								["Smite"] = {
-									["count"] = 9.829999999999998,
-								},
-							},
-							["amount"] = 12.65,
-						},
-						["Scarlet Initiate"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Meven Korgal"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Ravage"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 112,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 112,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -29618,7 +30852,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Greater Duskbat"] = {
+						["Ravaged Corpse"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -29629,7 +30863,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Ravaged Corpse"] = {
+						["Greater Duskbat"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -29651,7 +30885,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Wretched Ghoul"] = {
+						["Scarlet Convert"] = {
 							["Details"] = {
 								["Smite"] = {
 									["count"] = 0,
@@ -29727,7 +30961,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Scarlet Convert"] = {
+						["Wretched Ghoul"] = {
 							["Details"] = {
 								["Smite"] = {
 									["count"] = 0,
@@ -29737,7 +30971,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 121,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -29798,17 +31033,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 						["Fire"] = 0,
 						["Melee"] = 5,
 						["Nature"] = 0,
 					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
+					["DOT_Time"] = 0,
+					["Damage"] = 124,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -29829,125 +31063,44 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["DamagedWho"] = {
-						["Duskbat"] = {
+					["ElementHitsDone"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Evade"] = {
 									["count"] = 0,
 								},
-								["Smite"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Rattlecage Skeleton"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Decrepit Darkhound"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ravaged Corpse"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 124,
-								},
-							},
-							["amount"] = 124,
-						},
-						["Night Web Spider"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Convert"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Farmer Solliden"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Warrior"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Young Night Web Spider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Scarlet Initiate"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wretched Ghoul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Lost Soul"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Smite"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -30054,18 +31207,59 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["OverHeals"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
 					},
 					["TimeHealing"] = {
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Weak Poison (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 10.9,
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -30104,15 +31298,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["ActiveTime"] = 10.9,
+					["Interrupts"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -30247,52 +31437,15 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Weak Poison (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["Attacks"] = {
 						["Shadow Word: Pain (DoT)"] = {
@@ -30369,44 +31522,125 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Duskbat"] = {
 							["Details"] = {
-								["Evade"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadow"] = {
+						["Rattlecage Skeleton"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ravaged Corpse"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						["Night Web Spider"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Convert"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Farmer Solliden"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Warrior"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Young Night Web Spider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Scarlet Initiate"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wretched Ghoul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lost Soul"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Smite"] = {
 									["count"] = 0,
 								},
 							},
@@ -30540,7 +31774,8 @@ RecountPerCharDB = {
 						},
 					},
 					["RunicPowerGain"] = 0,
-					["Damage"] = 124,
+					["ElementTakenBlock"] = {
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -30729,13 +31964,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -30744,33 +31980,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -30778,14 +32013,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -30797,12 +32031,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -30814,8 +32050,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -30832,13 +32067,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -30847,33 +32083,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -30881,14 +32116,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -30900,12 +32134,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -30917,148 +32153,11 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 45,
-					},
-					["PartialAbsorb"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 39,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 39,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 40,
-								},
-								["Melee"] = {
-									["count"] = 19,
-								},
-								["Smite"] = {
-									["count"] = 660,
-								},
-							},
-							["amount"] = 719,
-						},
-					},
-					["TimeDamage"] = 72.09999999999999,
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 39,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["DamageTaken"] = 719,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -31081,6 +32180,123 @@ RecountPerCharDB = {
 							},
 							["count"] = 31,
 							["amount"] = 45,
+						},
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 45,
+					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 40,
+								},
+								["Melee"] = {
+									["count"] = 19,
+								},
+								["Smite"] = {
+									["count"] = 660,
+								},
+							},
+							["amount"] = 719,
+						},
+					},
+					["TimeDamage"] = 72.09999999999999,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 72.09999999999999,
+								},
+							},
+							["amount"] = 72.09999999999999,
+						},
+					},
+					["DamageTaken"] = 719,
+					["PartialAbsorb"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 39,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 39,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 0,
 						},
 					},
 					["DeathCount"] = 9,
@@ -31116,14 +32332,33 @@ RecountPerCharDB = {
 						["Melee"] = 19,
 						["Shadow"] = 40,
 					},
-					["TimeSpent"] = {
-						["Mittens"] = {
+					["ElementHitsTaken"] = {
+						["Holy"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 72.09999999999999,
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 37,
 								},
 							},
-							["amount"] = 72.09999999999999,
+							["amount"] = 39,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
 						},
 					},
 					["Damage"] = 45,
@@ -32206,7 +33441,7 @@ RecountPerCharDB = {
 				206122.126, -- [49]
 				206126.809, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Frankienbone"] = {
 			["GUID"] = "0x0000000000010029",
@@ -32298,13 +33533,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -32313,33 +33549,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -32347,14 +33582,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -32366,12 +33600,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -32383,8 +33619,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -32401,13 +33636,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -32416,33 +33652,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -32450,14 +33685,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -32469,12 +33703,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -32486,8 +33722,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -32556,19 +33791,6 @@ RecountPerCharDB = {
 					["ElementDone"] = {
 						["Fire"] = 62,
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Tick"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
 					["DamagedWho"] = {
 						["Mindless Zombie"] = {
 							["Details"] = {
@@ -32580,6 +33802,19 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 62,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
 						},
 					},
 					["TimeDamage"] = 14.2,
@@ -32674,7 +33909,7 @@ RecountPerCharDB = {
 				206712.137, -- [8]
 				206714.137, -- [9]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Rabbit"] = {
 			["GUID"] = "0xF1300002D10018F6",
@@ -32705,7 +33940,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 65,
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["UnitLockout"] = 1451468234,
 			["Owner"] = false,
 			["DeathLogs"] = {
@@ -32801,7 +34036,12 @@ RecountPerCharDB = {
 				"Decrepit Darkhound Melee Rabbit Hit -8 (Physical)", -- [3]
 				"Rabbit dies.", -- [4]
 			},
-			["Name"] = "Rabbit",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -32816,13 +34056,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -32831,33 +34072,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -32865,14 +34105,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -32884,12 +34123,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -32901,8 +34142,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -32919,13 +34159,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -32934,33 +34175,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -32968,14 +34208,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -32987,12 +34226,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -33004,8 +34245,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -33073,12 +34313,7 @@ RecountPerCharDB = {
 				["DamageTaken"] = 1451468234,
 				["DeathCount"] = 1451468234,
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-			},
+			["Name"] = "Rabbit",
 			["LastEventTimes"] = {
 				206847.936, -- [1]
 				206847.936, -- [2]
@@ -33182,7 +34417,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "playertarget",
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 			["level"] = 6,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 74,
@@ -33631,13 +34866,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -33646,33 +34882,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -33680,14 +34915,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -33699,12 +34933,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -33716,8 +34952,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -33734,13 +34969,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -33749,33 +34985,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -33783,14 +35018,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -33802,12 +35036,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -33819,80 +35055,25 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["PartialResist"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 10,
+									["count"] = 11,
+									["amount"] = 116,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
+							["count"] = 11,
+							["amount"] = 116,
 						},
 					},
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 36.33,
-								},
-							},
-							["amount"] = 36.33,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 116,
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Shadow Word: Pain (DoT)"] = {
-									["count"] = 30,
-								},
-								["Melee"] = {
-									["count"] = 14,
-								},
-								["Smite"] = {
-									["count"] = 211,
-								},
-							},
-							["amount"] = 255,
-						},
-					},
-					["TimeDamage"] = 36.33,
 					["ElementHitsTaken"] = {
 						["Shadow"] = {
 							["Details"] = {
@@ -33928,6 +35109,71 @@ RecountPerCharDB = {
 							["amount"] = 13,
 						},
 					},
+					["PartialResist"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Smite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Shadow Word: Pain (DoT)"] = {
+									["count"] = 30,
+								},
+								["Melee"] = {
+									["count"] = 14,
+								},
+								["Smite"] = {
+									["count"] = 211,
+								},
+							},
+							["amount"] = 255,
+						},
+					},
+					["TimeDamage"] = 36.33,
+					["TimeSpent"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36.33,
+								},
+							},
+							["amount"] = 36.33,
+						},
+					},
 					["DamageTaken"] = 255,
 					["ElementHitsDone"] = {
 						["Melee"] = {
@@ -33939,47 +35185,10 @@ RecountPerCharDB = {
 							["amount"] = 11,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 12,
-									["min"] = 10,
-									["count"] = 11,
-									["amount"] = 116,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 116,
-						},
+					["ElementDone"] = {
+						["Melee"] = 116,
 					},
 					["DeathCount"] = 2,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 116,
-								},
-							},
-							["amount"] = 116,
-						},
-					},
-					["ActiveTime"] = 36.33,
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 36.33,
-								},
-							},
-							["amount"] = 36.33,
-						},
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 30,
-						["Melee"] = 14,
-						["Holy"] = 211,
-					},
 					["PartialAbsorb"] = {
 						["Shadow Word: Pain (DoT)"] = {
 							["Details"] = {
@@ -34016,6 +35225,32 @@ RecountPerCharDB = {
 							},
 							["count"] = 13,
 							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 36.33,
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36.33,
+								},
+							},
+							["amount"] = 36.33,
+						},
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 30,
+						["Melee"] = 14,
+						["Holy"] = 211,
+					},
+					["DamagedWho"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 116,
+								},
+							},
+							["amount"] = 116,
 						},
 					},
 					["Damage"] = 116,
@@ -35010,13 +36245,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -35025,33 +36261,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -35059,14 +36294,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -35078,12 +36312,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -35095,8 +36331,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35124,14 +36359,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 3,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Melee"] = 42,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -35140,18 +36376,18 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Decrepit Darkhound"] = {
@@ -35165,22 +36401,25 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -35196,6 +36435,21 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -35210,27 +36464,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -35242,8 +36478,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35340,7 +36575,7 @@ RecountPerCharDB = {
 				},
 			},
 			["UnitLockout"] = 1451479836,
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Deathguard Lundmark"] = {
 			["GUID"] = "0xF13000165D001704",
@@ -35415,13 +36650,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -35430,33 +36666,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -35464,14 +36699,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -35483,12 +36717,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -35500,8 +36736,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35518,13 +36753,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -35533,33 +36769,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -35567,14 +36802,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -35586,12 +36820,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -35603,8 +36839,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35624,55 +36859,6 @@ RecountPerCharDB = {
 						},
 					},
 					["Damage"] = 139,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Crushing"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 42,
-									["min"] = 42,
-									["count"] = 1,
-									["amount"] = 42,
-								},
-								["Crushing"] = {
-									["max"] = 39,
-									["min"] = 28,
-									["count"] = 3,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 139,
-						},
-					},
 					["DamagedWho"] = {
 						["Decrepit Darkhound"] = {
 							["Details"] = {
@@ -35681,6 +36867,16 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 139,
+						},
+					},
+					["TimeSpent"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
 						},
 					},
 					["PartialResist"] = {
@@ -35696,6 +36892,22 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Crushing"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 139,
 					},
 					["ActiveTime"] = 9,
 					["PartialAbsorb"] = {
@@ -35723,17 +36935,40 @@ RecountPerCharDB = {
 							["amount"] = 9,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 139,
-					},
-					["TimeSpent"] = {
-						["Decrepit Darkhound"] = {
+					["Attacks"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9,
+								["Crit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+								["Crushing"] = {
+									["max"] = 39,
+									["min"] = 28,
+									["count"] = 3,
+									["amount"] = 97,
 								},
 							},
-							["amount"] = 9,
+							["count"] = 4,
+							["amount"] = 139,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
 						},
 					},
 					["ElementTakenBlock"] = {
@@ -35765,1277 +37000,281 @@ RecountPerCharDB = {
 				207006.101, -- [6]
 				207007.501, -- [7]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
-		["Young Scavenger"] = {
-			["GUID"] = "0xF1300005E4005404",
+		["Deathguard Terrence"] = {
+			["GUID"] = "0xF1300006CA0016B2",
 			["LastEventHealth"] = {
 				"???", -- [1]
 				"???", -- [2]
 				"???", -- [3]
-				"0 (0%)", -- [4]
-				"25 (59%)", -- [5]
-				"25 (59%)", -- [6]
-				"25 (59%)", -- [7]
-				"9 (21%)", -- [8]
-				"9 (21%)", -- [9]
-				"1 (2%)", -- [10]
-				"0 (0%)", -- [11]
-				"0 (0%)", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"42 (100%)", -- [19]
-				"29 (69%)", -- [20]
-				"13 (30%)", -- [21]
-				"13 (30%)", -- [22]
-				"42 (100%)", -- [23]
-				"42 (100%)", -- [24]
-				"25 (59%)", -- [25]
-				"8 (19%)", -- [26]
-				"???", -- [27]
-				"???", -- [28]
-				"26 (61%)", -- [29]
-				"12 (28%)", -- [30]
-				"1 (2%)", -- [31]
-				"0 (0%)", -- [32]
-				"???", -- [33]
-				"26 (61%)", -- [34]
-				"12 (28%)", -- [35]
-				"12 (28%)", -- [36]
-				"1 (2%)", -- [37]
-				"0 (0%)", -- [38]
-				"26 (61%)", -- [39]
-				"12 (28%)", -- [40]
-				"1 (2%)", -- [41]
-				"0 (0%)", -- [42]
-				"25 (59%)", -- [43]
-				"11 (26%)", -- [44]
-				"1 (2%)", -- [45]
-				"0 (0%)", -- [46]
-				"???", -- [47]
-				"???", -- [48]
-				"???", -- [49]
-				"???", -- [50]
+				"???", -- [4]
+				"???", -- [5]
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
 				"DAMAGE", -- [2]
 				"DAMAGE", -- [3]
-				"MISC", -- [4]
+				"DAMAGE", -- [4]
 				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"MISC", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"MISC", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
-				"MISC", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"MISC", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"MISC", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"MISC", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"MISC", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["DeathCount"] = {
-					8, -- [1]
-				},
 				["ActiveTime"] = {
-					53.98, -- [1]
+					7.6, -- [1]
 				},
 				["TimeDamage"] = {
-					53.98, -- [1]
-				},
-				["DamageTaken"] = {
-					378, -- [1]
+					7.6, -- [1]
 				},
 				["Damage"] = {
-					22, -- [1]
+					173, -- [1]
 				},
 			},
 			["enClass"] = "MOB",
-			["LastDamageTaken"] = 17,
 			["level"] = 1,
-			["LastDamageAbility"] = "Smite",
-			["LastFightIn"] = 33,
-			["LastEventNum"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				nil, -- [4]
-				40.47619047619047, -- [5]
-				nil, -- [6]
-				nil, -- [7]
-				38.0952380952381, -- [8]
-				[29] = 38.0952380952381,
-				[30] = 33.33333333333334,
-				[31] = 35.71428571428572,
-				[35] = 33.33333333333334,
-				[37] = 33.33333333333334,
-				[39] = 38.0952380952381,
-				[20] = 30.95238095238095,
-				[10] = 38.0952380952381,
-				[21] = 38.0952380952381,
-				[43] = 40.47619047619047,
-				[44] = 33.33333333333334,
-				[45] = 40.47619047619047,
-				[23] = 35.71428571428572,
-				[25] = 40.47619047619047,
-				[26] = 40.47619047619047,
-				[41] = 42.85714285714285,
-				[40] = 33.33333333333334,
-			},
+			["LastFightIn"] = 114,
 			["type"] = "Nontrivial",
-			["FightsSaved"] = 5,
-			["LastActive"] = 1451465309,
-			["UnitLockout"] = 1451465309,
+			["LastActive"] = 1451479814,
 			["Owner"] = false,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["CCBroken"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 22,
-					},
-					["PartialAbsorb"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 378,
-								},
-							},
-							["amount"] = 378,
-						},
-					},
-					["TimeDamage"] = 53.98,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.68,
-								},
-							},
-							["amount"] = 16.68,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 37.3,
-								},
-							},
-							["amount"] = 37.3,
-						},
-					},
-					["DamageTaken"] = 378,
-					["DamagedWho"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2,
-									["min"] = 2,
-									["count"] = 1,
-									["amount"] = 2,
-								},
-								["Hit"] = {
-									["max"] = 1,
-									["min"] = 1,
-									["count"] = 20,
-									["amount"] = 20,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 22,
-						},
-					},
-					["DeathCount"] = 8,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["ActiveTime"] = 53.98,
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.68,
-								},
-							},
-							["amount"] = 16.68,
-						},
-						["Rat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 37.3,
-								},
-							},
-							["amount"] = 37.3,
-						},
-					},
-					["ElementTaken"] = {
-						["Holy"] = 378,
-					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["Damage"] = 22,
-				},
-			},
-			["NextEventNum"] = 4,
+			["UnitLockout"] = 1451479814,
+			["NextEventNum"] = 6,
 			["LastEventHealthNum"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				0, -- [4]
-				59.52380952380953, -- [5]
-				59.52380952380953, -- [6]
-				59.52380952380953, -- [7]
-				21.42857142857143, -- [8]
-				21.42857142857143, -- [9]
-				2.380952380952381, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				100, -- [19]
-				69.04761904761905, -- [20]
-				30.95238095238095, -- [21]
-				30.95238095238095, -- [22]
-				100, -- [23]
-				100, -- [24]
-				59.52380952380953, -- [25]
-				19.04761904761905, -- [26]
-				0, -- [27]
-				0, -- [28]
-				61.90476190476191, -- [29]
-				28.57142857142857, -- [30]
-				2.380952380952381, -- [31]
-				0, -- [32]
-				0, -- [33]
-				61.90476190476191, -- [34]
-				28.57142857142857, -- [35]
-				28.57142857142857, -- [36]
-				2.380952380952381, -- [37]
-				0, -- [38]
-				61.90476190476191, -- [39]
-				28.57142857142857, -- [40]
-				2.380952380952381, -- [41]
-				0, -- [42]
-				59.52380952380953, -- [43]
-				26.19047619047619, -- [44]
-				2.380952380952381, -- [45]
-				0, -- [46]
-				0, -- [47]
-				0, -- [48]
-				0, -- [49]
-				0, -- [50]
+				0, -- [5]
 			},
 			["LastEvents"] = {
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [1]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [2]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [3]
-				"Young Scavenger dies.", -- [4]
-				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [5]
-				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [6]
-				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [7]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [8]
-				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [9]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [10]
-				"Young Scavenger dies.", -- [11]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [12]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [13]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [14]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [15]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [16]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [17]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [18]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [19]
-				"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [20]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [21]
-				"Young Scavenger Melee Mittens Crit -2 (Physical)", -- [22]
-				"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [23]
-				"Young Scavenger dies.", -- [24]
-				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [25]
-				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [26]
-				"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [27]
-				"Young Scavenger dies.", -- [28]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [29]
-				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [30]
-				"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [31]
-				"Young Scavenger dies.", -- [32]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [33]
-				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [34]
-				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [35]
-				"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [36]
-				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [37]
-				"Young Scavenger dies.", -- [38]
-				"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [39]
-				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [40]
-				"Mittens Smite Young Scavenger Hit -18 (Holy)", -- [41]
-				"Young Scavenger dies.", -- [42]
-				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [43]
-				"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [44]
-				"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [45]
-				"Young Scavenger dies.", -- [46]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [47]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [48]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [49]
-				"Young Scavenger Melee Rat Hit -1 (Physical)", -- [50]
+				"Deathguard Terrence Melee Decrepit Darkhound Crushing -58 (Physical)", -- [1]
+				"Decrepit Darkhound Melee Deathguard Terrence Miss", -- [2]
+				"Deathguard Terrence Melee Decrepit Darkhound Crushing -57 (Physical)", -- [3]
+				"Decrepit Darkhound Melee Deathguard Terrence Miss", -- [4]
+				"Deathguard Terrence Melee Decrepit Darkhound Crushing -58 (Physical)", -- [5]
 			},
-			["Name"] = "Young Scavenger",
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
+			["Name"] = "Deathguard Terrence",
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.6,
+								},
+							},
+							["amount"] = 7.6,
+						},
 					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [2]
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [3]
-						"Young Scavenger dies.", -- [4]
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
 					},
-					["DeathAt"] = 1451465223,
-					["HealthNum"] = {
-						59.52380952380953, -- [1]
-						26.19047619047619, -- [2]
-						2.380952380952381, -- [3]
-						0, -- [4]
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["max"] = 58,
+									["min"] = 57,
+									["count"] = 3,
+									["amount"] = 173,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 173,
+						},
 					},
-					["MessageTimes"] = {
-						-2.884999999980209, -- [1]
-						-1.701999999990221, -- [2]
-						-0.001999999978579581, -- [3]
-						0, -- [4]
+					["DamagedWho"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 173,
+								},
+							},
+							["amount"] = 173,
+						},
 					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"25 (59%)", -- [1]
-						"11 (26%)", -- [2]
-						"1 (2%)", -- [3]
-						"0 (0%)", -- [4]
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
 					},
-					["EventNum"] = {
-						40.47619047619047, -- [1]
-						33.33333333333334, -- [2]
-						40.47619047619047, -- [3]
-						0, -- [4]
+					["ActiveTime"] = 7.6,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
 					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"MISC", -- [4]
+					["TimeDamage"] = 7.6,
+					["TimeDamaging"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.6,
+								},
+							},
+							["amount"] = 7.6,
+						},
 					},
-				}, -- [1]
-				{
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-						true, -- [9]
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
-					["Messages"] = {
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [1]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [2]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [3]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [4]
-						"Young Scavenger dies.", -- [5]
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [6]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [7]
-						"Mittens Smite Young Scavenger Hit -18 (Holy)", -- [8]
-						"Young Scavenger dies.", -- [9]
+					["ElementDone"] = {
+						["Melee"] = 173,
 					},
-					["DeathAt"] = 1451465198,
-					["HealthNum"] = {
-						61.90476190476191, -- [1]
-						28.57142857142857, -- [2]
-						28.57142857142857, -- [3]
-						2.380952380952381, -- [4]
-						0, -- [5]
-						61.90476190476191, -- [6]
-						28.57142857142857, -- [7]
-						2.380952380952381, -- [8]
-						0, -- [9]
+					["Damage"] = 173,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.6,
+								},
+							},
+							["amount"] = 7.6,
+						},
 					},
-					["MessageTimes"] = {
-						-13.55299999998533, -- [1]
-						-12.70199999999022, -- [2]
-						-11.45199999999022, -- [3]
-						-10.50200000000768, -- [4]
-						-10.49899999998161, -- [5]
-						-3.701999999990221, -- [6]
-						-1.502000000007683, -- [7]
-						-0.002000000007683411, -- [8]
-						0, -- [9]
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
 					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"26 (61%)", -- [1]
-						"12 (28%)", -- [2]
-						"12 (28%)", -- [3]
-						"1 (2%)", -- [4]
-						"0 (0%)", -- [5]
-						"26 (61%)", -- [6]
-						"12 (28%)", -- [7]
-						"1 (2%)", -- [8]
-						"0 (0%)", -- [9]
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["max"] = 58,
+									["min"] = 57,
+									["count"] = 3,
+									["amount"] = 173,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 173,
+						},
 					},
-					["EventNum"] = {
-						0, -- [1]
-						33.33333333333334, -- [2]
-						0, -- [3]
-						33.33333333333334, -- [4]
-						0, -- [5]
-						38.0952380952381, -- [6]
-						33.33333333333334, -- [7]
-						42.85714285714285, -- [8]
-						0, -- [9]
+					["DamagedWho"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 173,
+								},
+							},
+							["amount"] = 173,
+						},
 					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"MISC", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"MISC", -- [9]
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
 					},
-				}, -- [2]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
+					["ActiveTime"] = 7.6,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
 					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [1]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [2]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [3]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [4]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [5]
-						"Young Scavenger dies.", -- [6]
+					["TimeDamage"] = 7.6,
+					["TimeDamaging"] = {
+						["Decrepit Darkhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.6,
+								},
+							},
+							["amount"] = 7.6,
+						},
 					},
-					["DeathAt"] = 1451465188,
-					["HealthNum"] = {
-						0, -- [1]
-						61.90476190476191, -- [2]
-						28.57142857142857, -- [3]
-						28.57142857142857, -- [4]
-						2.380952380952381, -- [5]
-						0, -- [6]
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
-					["MessageTimes"] = {
-						-6.803000000014436, -- [1]
-						-3.054000000003725, -- [2]
-						-2.203000000008615, -- [3]
-						-0.9530000000086147, -- [4]
-						-0.003000000026077032, -- [5]
-						0, -- [6]
+					["ElementDone"] = {
+						["Melee"] = 173,
 					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"???", -- [1]
-						"26 (61%)", -- [2]
-						"12 (28%)", -- [3]
-						"12 (28%)", -- [4]
-						"1 (2%)", -- [5]
-						"0 (0%)", -- [6]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						33.33333333333334, -- [3]
-						0, -- [4]
-						33.33333333333334, -- [5]
-						0, -- [6]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"MISC", -- [6]
-					},
-				}, -- [3]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [2]
-						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
-						"Young Scavenger dies.", -- [4]
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [5]
-						"Mittens Smite Young Scavenger Hit -14 (Holy)", -- [6]
-						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [7]
-						"Young Scavenger dies.", -- [8]
-					},
-					["DeathAt"] = 1451465120,
-					["HealthNum"] = {
-						59.52380952380953, -- [1]
-						19.04761904761905, -- [2]
-						0, -- [3]
-						0, -- [4]
-						61.90476190476191, -- [5]
-						28.57142857142857, -- [6]
-						2.380952380952381, -- [7]
-						0, -- [8]
-					},
-					["MessageTimes"] = {
-						-10.35099999999511, -- [1]
-						-8.800999999977648, -- [2]
-						-7.100999999995111, -- [3]
-						-7.099999999976717, -- [4]
-						-3.201999999990221, -- [5]
-						-1.600999999995111, -- [6]
-						-0.0009999999892897904, -- [7]
-						0, -- [8]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"25 (59%)", -- [1]
-						"8 (19%)", -- [2]
-						"???", -- [3]
-						"???", -- [4]
-						"26 (61%)", -- [5]
-						"12 (28%)", -- [6]
-						"1 (2%)", -- [7]
-						"0 (0%)", -- [8]
-					},
-					["EventNum"] = {
-						40.47619047619047, -- [1]
-						40.47619047619047, -- [2]
-						0, -- [3]
-						0, -- [4]
-						38.0952380952381, -- [5]
-						33.33333333333334, -- [6]
-						35.71428571428572, -- [7]
-						0, -- [8]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"MISC", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"MISC", -- [8]
-					},
-				}, -- [4]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [1]
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [2]
-						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
-						"Young Scavenger dies.", -- [4]
-					},
-					["DeathAt"] = 1451465113,
-					["HealthNum"] = {
-						59.52380952380953, -- [1]
-						19.04761904761905, -- [2]
-						0, -- [3]
-						0, -- [4]
-					},
-					["MessageTimes"] = {
-						-3.251000000018394, -- [1]
-						-1.701000000000931, -- [2]
-						-0.001000000018393621, -- [3]
-						0, -- [4]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"25 (59%)", -- [1]
-						"8 (19%)", -- [2]
-						"???", -- [3]
-						"???", -- [4]
-					},
-					["EventNum"] = {
-						40.47619047619047, -- [1]
-						40.47619047619047, -- [2]
-						0, -- [3]
-						0, -- [4]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"MISC", -- [4]
-					},
-				}, -- [5]
-				{
-					["MessageIncoming"] = {
-						false, -- [1]
-						false, -- [2]
-						false, -- [3]
-						false, -- [4]
-						false, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-					},
-					["Messages"] = {
-						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [1]
-						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [2]
-						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [3]
-						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [4]
-						"Young Scavenger Melee Rat Hit -1 (Physical)", -- [5]
-						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [6]
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [7]
-						"Young Scavenger Melee Mittens Crit -2 (Physical)", -- [8]
-						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [9]
-						"Young Scavenger dies.", -- [10]
-					},
-					["DeathAt"] = 1451465066,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						100, -- [5]
-						69.04761904761905, -- [6]
-						30.95238095238095, -- [7]
-						30.95238095238095, -- [8]
-						100, -- [9]
-						100, -- [10]
-					},
-					["MessageTimes"] = {
-						-14.80199999999604, -- [1]
-						-12.70200000001933, -- [2]
-						-9.402000000001863, -- [3]
-						-7.252000000007683, -- [4]
-						-5.251000000018394, -- [5]
-						-3.801999999996042, -- [6]
-						-2.002000000007683, -- [7]
-						-1.602000000013504, -- [8]
-						-0.002000000007683411, -- [9]
-						0, -- [10]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-						"???", -- [4]
-						"42 (100%)", -- [5]
-						"29 (69%)", -- [6]
-						"13 (30%)", -- [7]
-						"13 (30%)", -- [8]
-						"42 (100%)", -- [9]
-						"42 (100%)", -- [10]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						30.95238095238095, -- [6]
-						38.0952380952381, -- [7]
-						0, -- [8]
-						35.71428571428572, -- [9]
-						0, -- [10]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"MISC", -- [10]
-					},
-				}, -- [6]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						false, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [1]
-						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [2]
-						"Young Scavenger dies.", -- [3]
-						"Mittens Smite Young Scavenger Hit -17 (Holy)", -- [4]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [5]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [6]
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [7]
-						"Young Scavenger Melee Mittens Hit -1 (Physical)", -- [8]
-						"Mittens Smite Young Scavenger Hit -16 (Holy)", -- [9]
-						"Young Scavenger dies.", -- [10]
-					},
-					["DeathAt"] = 1451465041,
-					["HealthNum"] = {
-						4.761904761904762, -- [1]
-						2.380952380952381, -- [2]
-						0, -- [3]
-						59.52380952380953, -- [4]
-						59.52380952380953, -- [5]
-						59.52380952380953, -- [6]
-						21.42857142857143, -- [7]
-						21.42857142857143, -- [8]
-						2.380952380952381, -- [9]
-						0, -- [10]
-					},
-					["MessageTimes"] = {
-						-13.61600000000908, -- [1]
-						-11.91500000000815, -- [2]
-						-11.89900000000489, -- [3]
-						-7.600000000005821, -- [4]
-						-5.600000000005821, -- [5]
-						-3.550000000017462, -- [6]
-						-2, -- [7]
-						-1.516999999992549, -- [8]
-						-0.01600000000325963, -- [9]
-						0, -- [10]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"2 (4%)", -- [1]
-						"1 (2%)", -- [2]
-						"0 (0%)", -- [3]
-						"25 (59%)", -- [4]
-						"25 (59%)", -- [5]
-						"25 (59%)", -- [6]
-						"9 (21%)", -- [7]
-						"9 (21%)", -- [8]
-						"1 (2%)", -- [9]
-						"0 (0%)", -- [10]
-					},
-					["EventNum"] = {
-						35.71428571428572, -- [1]
-						30.95238095238095, -- [2]
-						0, -- [3]
-						40.47619047619047, -- [4]
-						0, -- [5]
-						0, -- [6]
-						38.0952380952381, -- [7]
-						0, -- [8]
-						38.0952380952381, -- [9]
-						0, -- [10]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"MISC", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"MISC", -- [10]
-					},
-				}, -- [7]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Scavenger Crit -25 (Holy)", -- [1]
-						"Mittens Smite Young Scavenger Hit -15 (Holy)", -- [2]
-						"Mittens Smite Young Scavenger Hit -13 (Holy)", -- [3]
-						"Young Scavenger dies.", -- [4]
-					},
-					["DeathAt"] = 1451465029,
-					["HealthNum"] = {
-						40.47619047619047, -- [1]
-						4.761904761904762, -- [2]
-						2.380952380952381, -- [3]
-						0, -- [4]
-					},
-					["MessageTimes"] = {
-						-3.201000000000931, -- [1]
-						-1.717000000004191, -- [2]
-						-0.01600000000325963, -- [3]
-						0, -- [4]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"17 (40%)", -- [1]
-						"2 (4%)", -- [2]
-						"1 (2%)", -- [3]
-						"0 (0%)", -- [4]
-					},
-					["EventNum"] = {
-						59.52380952380953, -- [1]
-						35.71428571428572, -- [2]
-						30.95238095238095, -- [3]
-						0, -- [4]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"MISC", -- [4]
-					},
-				}, -- [8]
+					["Damage"] = 173,
+				},
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 1451479814,
+				["OVERALL"] = 1451479814,
+				["TimeDamage"] = 1451479814,
+				["Damage"] = 1451479814,
 			},
 			["LastEventIncoming"] = {
 				false, -- [1]
-				false, -- [2]
+				true, -- [2]
 				false, -- [3]
 				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				true, -- [8]
-				false, -- [9]
-				true, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["TimeLast"] = {
-				["DeathCount"] = 1451465221,
-				["ActiveTime"] = 1451465309,
-				["TimeDamage"] = 1451465309,
-				["OVERALL"] = 1451465309,
-				["DamageTaken"] = 1451465221,
-				["Damage"] = 1451465309,
+				false, -- [5]
 			},
 			["LastEventTimes"] = {
-				203924.463, -- [1]
-				203926.846, -- [2]
-				203929.146, -- [3]
-				203647.35, -- [4]
-				203651.649, -- [5]
-				203653.649, -- [6]
-				203655.699, -- [7]
-				203657.249, -- [8]
-				203657.732, -- [9]
-				203659.233, -- [10]
-				203659.249, -- [11]
-				203663.599, -- [12]
-				203665.649, -- [13]
-				203667.749, -- [14]
-				203669.849, -- [15]
-				203671.949, -- [16]
-				203675.249, -- [17]
-				203677.399, -- [18]
-				203679.4, -- [19]
-				203680.849, -- [20]
-				203682.649, -- [21]
-				203683.049, -- [22]
-				203684.649, -- [23]
-				203684.651, -- [24]
-				203728.299, -- [25]
-				203729.849, -- [26]
-				203731.549, -- [27]
-				203731.55, -- [28]
-				203735.448, -- [29]
-				203737.049, -- [30]
-				203738.649, -- [31]
-				203738.65, -- [32]
-				203799.448, -- [33]
-				203803.197, -- [34]
-				203804.048, -- [35]
-				203805.298, -- [36]
-				203806.248, -- [37]
-				203806.251, -- [38]
-				203813.048, -- [39]
-				203815.248, -- [40]
-				203816.748, -- [41]
-				203816.75, -- [42]
-				203838.265, -- [43]
-				203839.448, -- [44]
-				203841.148, -- [45]
-				203841.15, -- [46]
-				203914.646, -- [47]
-				203918.046, -- [48]
-				203920.147, -- [49]
-				203922.197, -- [50]
+				298.513, -- [1]
+				298.513, -- [2]
+				300.513, -- [3]
+				300.513, -- [4]
+				302.612, -- [5]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 		["Meven Korgal"] = {
 			["GUID"] = "0xF130000683001FCB",
@@ -37116,13 +37355,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -37131,33 +37371,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -37165,14 +37404,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37184,12 +37422,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -37201,8 +37441,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -37219,13 +37458,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -37234,33 +37474,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -37268,14 +37507,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37287,12 +37525,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -37304,12 +37544,28 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
+					["ElementDone"] = {
+						["Melee"] = 19,
+					},
+					["PartialAbsorb"] = {
+						["Smite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
 					["PartialResist"] = {
 						["Smite"] = {
 							["Details"] = {
@@ -37324,6 +37580,28 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Smite"] = {
+									["count"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["TimeDamage"] = 9.550000000000001,
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamageTaken"] = 102,
 					["DamagedWho"] = {
 						["Mittens"] = {
 							["Details"] = {
@@ -37347,45 +37625,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 19,
 						},
-					},
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Smite"] = {
-									["count"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-					},
-					["TimeDamage"] = 9.550000000000001,
-					["TimeSpent"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.550000000000001,
-								},
-							},
-							["amount"] = 9.550000000000001,
-						},
-					},
-					["DamageTaken"] = 102,
-					["PartialAbsorb"] = {
-						["Smite"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 19,
 					},
 					["DeathCount"] = 1,
 					["ElementHitsDone"] = {
@@ -37412,14 +37651,14 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Holy"] = 102,
 					},
-					["ElementHitsTaken"] = {
-						["Holy"] = {
+					["TimeSpent"] = {
+						["Mittens"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
+								["Melee"] = {
+									["count"] = 9.550000000000001,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 9.550000000000001,
 						},
 					},
 					["Damage"] = 19,
@@ -37586,61 +37825,61 @@ RecountPerCharDB = {
 				206526.172, -- [10]
 				206526.188, -- [11]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
-		["Young Night Web Spider"] = {
-			["GUID"] = "0xF1300005E000540A",
+		["Night Web Spider"] = {
+			["GUID"] = "0xF1300005E1005419",
 			["LastEventHealth"] = {
-				"41 (57%)", -- [1]
-				"23 (32%)", -- [2]
-				"23 (32%)", -- [3]
-				"7 (9%)", -- [4]
-				"7 (9%)", -- [5]
-				"7 (9%)", -- [6]
-				"7 (9%)", -- [7]
-				"3 (4%)", -- [8]
-				"3 (4%)", -- [9]
-				"3 (4%)", -- [10]
+				"20 (28%)", -- [1]
+				"16 (22%)", -- [2]
+				"16 (22%)", -- [3]
+				"1 (1%)", -- [4]
+				"1 (1%)", -- [5]
+				"1 (1%)", -- [6]
+				"1 (1%)", -- [7]
+				"1 (1%)", -- [8]
+				"1 (1%)", -- [9]
+				"1 (1%)", -- [10]
 				"0 (0%)", -- [11]
-				"71 (100%)", -- [12]
-				"53 (74%)", -- [13]
-				"38 (53%)", -- [14]
-				"38 (53%)", -- [15]
-				"38 (53%)", -- [16]
-				"24 (33%)", -- [17]
-				"24 (33%)", -- [18]
-				"24 (33%)", -- [19]
-				"10 (14%)", -- [20]
-				"10 (14%)", -- [21]
-				"10 (14%)", -- [22]
-				"6 (8%)", -- [23]
-				"6 (8%)", -- [24]
-				"6 (8%)", -- [25]
-				"6 (8%)", -- [26]
-				"6 (8%)", -- [27]
-				"6 (8%)", -- [28]
-				"6 (8%)", -- [29]
-				"1 (1%)", -- [30]
-				"1 (1%)", -- [31]
-				"1 (1%)", -- [32]
-				"1 (1%)", -- [33]
-				"0 (0%)", -- [34]
-				"???", -- [35]
-				"37 (67%)", -- [36]
-				"20 (36%)", -- [37]
-				"20 (36%)", -- [38]
-				"3 (5%)", -- [39]
-				"3 (5%)", -- [40]
-				"3 (5%)", -- [41]
-				"0 (0%)", -- [42]
-				"???", -- [43]
-				"???", -- [44]
-				"???", -- [45]
-				"???", -- [46]
-				"9 (16%)", -- [47]
-				"1 (1%)", -- [48]
-				"0 (0%)", -- [49]
-				"56 (78%)", -- [50]
+				"0 (0%)", -- [12]
+				"71 (100%)", -- [13]
+				"71 (100%)", -- [14]
+				"53 (74%)", -- [15]
+				"53 (74%)", -- [16]
+				"36 (50%)", -- [17]
+				"22 (30%)", -- [18]
+				"22 (30%)", -- [19]
+				"8 (11%)", -- [20]
+				"8 (11%)", -- [21]
+				"1 (1%)", -- [22]
+				"0 (0%)", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"39 (54%)", -- [28]
+				"39 (54%)", -- [29]
+				"39 (54%)", -- [30]
+				"21 (29%)", -- [31]
+				"21 (29%)", -- [32]
+				"21 (29%)", -- [33]
+				"6 (8%)", -- [34]
+				"6 (8%)", -- [35]
+				"1 (1%)", -- [36]
+				"0 (0%)", -- [37]
+				"???", -- [38]
+				"53 (74%)", -- [39]
+				"38 (53%)", -- [40]
+				"23 (32%)", -- [41]
+				"23 (32%)", -- [42]
+				"23 (32%)", -- [43]
+				"23 (32%)", -- [44]
+				"23 (32%)", -- [45]
+				"23 (32%)", -- [46]
+				"23 (32%)", -- [47]
+				"20 (28%)", -- [48]
+				"20 (28%)", -- [49]
+				"20 (28%)", -- [50]
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
@@ -37665,7 +37904,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [20]
 				"DAMAGE", -- [21]
 				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
+				"MISC", -- [23]
 				"DAMAGE", -- [24]
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
@@ -37676,74 +37915,71 @@ RecountPerCharDB = {
 				"DAMAGE", -- [31]
 				"DAMAGE", -- [32]
 				"DAMAGE", -- [33]
-				"MISC", -- [34]
+				"DAMAGE", -- [34]
 				"DAMAGE", -- [35]
 				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
+				"MISC", -- [37]
 				"DAMAGE", -- [38]
 				"DAMAGE", -- [39]
 				"DAMAGE", -- [40]
 				"DAMAGE", -- [41]
-				"MISC", -- [42]
+				"DAMAGE", -- [42]
 				"DAMAGE", -- [43]
 				"DAMAGE", -- [44]
 				"DAMAGE", -- [45]
 				"DAMAGE", -- [46]
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
-				"MISC", -- [49]
+				"DAMAGE", -- [49]
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
 				["DeathCount"] = {
-					8, -- [1]
+					5, -- [1]
 				},
 				["ActiveTime"] = {
-					101.45, -- [1]
+					79.94999999999999, -- [1]
 				},
 				["TimeDamage"] = {
-					101.45, -- [1]
+					79.94999999999999, -- [1]
 				},
 				["DamageTaken"] = {
-					530, -- [1]
+					412, -- [1]
 				},
 				["DOT_Time"] = {
-					72, -- [1]
+					60, -- [1]
 				},
 				["Damage"] = {
-					48, -- [1]
+					78, -- [1]
 				},
 			},
 			["enClass"] = "MOB",
-			["LastDamageTaken"] = 4,
-			["level"] = 2,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 41,
+			["LastDamageTaken"] = 17,
+			["level"] = 4,
+			["LastDamageAbility"] = "Smite",
+			["LastFightIn"] = 46,
 			["LastEventNum"] = {
-				21.12676056338028, -- [1]
-				25.35211267605634, -- [2]
-				nil, -- [3]
-				22.53521126760563, -- [4]
-				[13] = 25.35211267605634,
-				[39] = 30.90909090909091,
-				[36] = 32.72727272727273,
-				[33] = 4.225352112676056,
-				[14] = 21.12676056338028,
-				[29] = 7.042253521126761,
+				5.633802816901408, -- [1]
+				[47] = 4.225352112676056,
+				[34] = 21.12676056338028,
+				[36] = 21.12676056338028,
+				[40] = 21.12676056338028,
+				[28] = 22.53521126760563,
 				[20] = 19.71830985915493,
-				[48] = 25.45454545454545,
-				[17] = 19.71830985915493,
-				[50] = 21.12676056338028,
-				[37] = 30.90909090909091,
-				[10] = 7.042253521126761,
-				[41] = 7.272727272727273,
-				[22] = 5.633802816901408,
-				[7] = 5.633802816901408,
+				[15] = 25.35211267605634,
+				[31] = 25.35211267605634,
+				[4] = 21.12676056338028,
+				[18] = 19.71830985915493,
+				[39] = 25.35211267605634,
+				[10] = 5.633802816901408,
+				[41] = 21.12676056338028,
+				[22] = 23.94366197183098,
+				[17] = 23.94366197183098,
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1451465535,
-			["UnitLockout"] = 1451465535,
+			["LastActive"] = 1451465617,
+			["UnitLockout"] = 1451465617,
 			["Owner"] = false,
 			["Fights"] = {
 				["LastFightData"] = {
@@ -37759,13 +37995,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -37774,33 +38011,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -37808,14 +38044,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37827,12 +38062,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -37844,8 +38081,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -37862,13 +38098,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -37877,33 +38114,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 0,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
@@ -37911,14 +38147,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37930,12 +38165,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -37947,8 +38184,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -37957,37 +38193,37 @@ RecountPerCharDB = {
 						["Weak Poison (DoT)"] = {
 							["Details"] = {
 								["Mittens"] = {
-									["count"] = 72,
+									["count"] = 60,
 								},
 							},
-							["amount"] = 72,
+							["amount"] = 60,
 						},
 					},
 					["TimeSpent"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 49.08000000000001,
+									["count"] = 39.38,
 								},
 								["Weak Poison (DoT)"] = {
-									["count"] = 52.37,
+									["count"] = 40.57,
 								},
 							},
-							["amount"] = 101.45,
+							["amount"] = 79.94999999999999,
 						},
 					},
-					["DamageTaken"] = 530,
+					["DamageTaken"] = 412,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Smite"] = {
@@ -37995,26 +38231,26 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 31,
+							["count"] = 25,
 							["amount"] = 0,
 						},
 					},
-					["DeathCount"] = 8,
+					["DeathCount"] = 5,
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 8,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 8,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Smite"] = {
@@ -38022,254 +38258,268 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 31,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 101.45,
-					["ElementTaken"] = {
-						["Melee"] = 29,
-						["Holy"] = 501,
-					},
-					["DOT_Time"] = 72,
-					["Damage"] = 48,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2,
-									["min"] = 1,
-									["count"] = 21,
-									["amount"] = 24,
-								},
-								["Miss"] = {
-									["count"] = 4,
+									["count"] = 25,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 25,
-							["amount"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 79.94999999999999,
+					["ElementTaken"] = {
+						["Melee"] = 11,
+						["Holy"] = 401,
+					},
+					["DOT_Time"] = 60,
+					["Damage"] = 78,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4,
+									["min"] = 1,
+									["count"] = 20,
+									["amount"] = 58,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 58,
 						},
 						["Weak Poison (DoT)"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 1,
 									["min"] = 1,
-									["count"] = 24,
-									["amount"] = 24,
+									["count"] = 20,
+									["amount"] = 20,
 								},
 							},
-							["count"] = 24,
-							["amount"] = 24,
+							["count"] = 20,
+							["amount"] = 20,
 						},
 					},
-					["ElementHitsTaken"] = {
+					["ElementDone"] = {
+						["Melee"] = 58,
+						["Nature"] = 20,
+					},
+					["TimeDamaging"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 39.38,
+								},
+								["Weak Poison (DoT)"] = {
+									["count"] = 40.57,
+								},
+							},
+							["amount"] = 79.94999999999999,
+						},
+					},
+					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 7,
+									["count"] = 20,
 								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
+								["Miss"] = {
 									["count"] = 2,
 								},
-								["Hit"] = {
-									["count"] = 29,
+							},
+							["amount"] = 22,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 20,
 								},
 							},
-							["amount"] = 31,
+							["amount"] = 20,
+						},
+					},
+					["TimeDamage"] = 79.94999999999999,
+					["WhoDamaged"] = {
+						["Mittens"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Smite"] = {
+									["count"] = 401,
+								},
+							},
+							["amount"] = 412,
 						},
 					},
 					["DamagedWho"] = {
 						["Mittens"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 24,
+									["count"] = 58,
 								},
 								["Weak Poison (DoT)"] = {
-									["count"] = 24,
+									["count"] = 20,
 								},
 							},
-							["amount"] = 48,
+							["amount"] = 78,
 						},
 					},
-					["TimeDamage"] = 101.45,
-					["WhoDamaged"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 29,
-								},
-								["Smite"] = {
-									["count"] = 501,
-								},
-							},
-							["amount"] = 530,
-						},
+					["ElementTakenBlock"] = {
+						["Melee"] = 1,
 					},
-					["ElementDone"] = {
-						["Melee"] = 24,
-						["Nature"] = 24,
-					},
-					["ElementHitsDone"] = {
+					["PartialBlock"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 21,
-								},
-								["Miss"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 25,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 24,
+								["Blocked"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 1,
+									["amount"] = 1,
 								},
 							},
-							["amount"] = 24,
-						},
-					},
-					["TimeDamaging"] = {
-						["Mittens"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 49.08000000000001,
-								},
-								["Weak Poison (DoT)"] = {
-									["count"] = 52.37,
-								},
-							},
-							["amount"] = 101.45,
+							["count"] = 1,
+							["amount"] = 1,
 						},
 					},
 				},
 			},
-			["NextEventNum"] = 47,
+			["NextEventNum"] = 28,
 			["LastEventHealthNum"] = {
-				57.74647887323944, -- [1]
-				32.3943661971831, -- [2]
-				32.3943661971831, -- [3]
-				9.859154929577464, -- [4]
-				9.859154929577464, -- [5]
-				9.859154929577464, -- [6]
-				9.859154929577464, -- [7]
-				4.225352112676056, -- [8]
-				4.225352112676056, -- [9]
-				4.225352112676056, -- [10]
+				28.16901408450704, -- [1]
+				22.53521126760563, -- [2]
+				22.53521126760563, -- [3]
+				1.408450704225352, -- [4]
+				1.408450704225352, -- [5]
+				1.408450704225352, -- [6]
+				1.408450704225352, -- [7]
+				1.408450704225352, -- [8]
+				1.408450704225352, -- [9]
+				1.408450704225352, -- [10]
 				0, -- [11]
-				100, -- [12]
-				74.64788732394366, -- [13]
-				53.52112676056338, -- [14]
-				53.52112676056338, -- [15]
-				53.52112676056338, -- [16]
-				33.80281690140845, -- [17]
-				33.80281690140845, -- [18]
-				33.80281690140845, -- [19]
-				14.08450704225352, -- [20]
-				14.08450704225352, -- [21]
-				14.08450704225352, -- [22]
-				8.450704225352112, -- [23]
-				8.450704225352112, -- [24]
-				8.450704225352112, -- [25]
-				8.450704225352112, -- [26]
-				8.450704225352112, -- [27]
-				8.450704225352112, -- [28]
-				8.450704225352112, -- [29]
-				1.408450704225352, -- [30]
-				1.408450704225352, -- [31]
-				1.408450704225352, -- [32]
-				1.408450704225352, -- [33]
-				0, -- [34]
-				0, -- [35]
-				67.27272727272727, -- [36]
-				36.36363636363637, -- [37]
-				36.36363636363637, -- [38]
-				5.454545454545454, -- [39]
-				5.454545454545454, -- [40]
-				5.454545454545454, -- [41]
-				0, -- [42]
-				0, -- [43]
-				0, -- [44]
-				0, -- [45]
-				0, -- [46]
-				16.36363636363636, -- [47]
-				1.818181818181818, -- [48]
-				0, -- [49]
-				78.87323943661971, -- [50]
+				0, -- [12]
+				100, -- [13]
+				100, -- [14]
+				74.64788732394366, -- [15]
+				74.64788732394366, -- [16]
+				50.70422535211268, -- [17]
+				30.98591549295775, -- [18]
+				30.98591549295775, -- [19]
+				11.26760563380282, -- [20]
+				11.26760563380282, -- [21]
+				1.408450704225352, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				54.92957746478874, -- [28]
+				54.92957746478874, -- [29]
+				54.92957746478874, -- [30]
+				29.5774647887324, -- [31]
+				29.5774647887324, -- [32]
+				29.5774647887324, -- [33]
+				8.450704225352112, -- [34]
+				8.450704225352112, -- [35]
+				1.408450704225352, -- [36]
+				0, -- [37]
+				0, -- [38]
+				74.64788732394366, -- [39]
+				53.52112676056338, -- [40]
+				32.3943661971831, -- [41]
+				32.3943661971831, -- [42]
+				32.3943661971831, -- [43]
+				32.3943661971831, -- [44]
+				32.3943661971831, -- [45]
+				32.3943661971831, -- [46]
+				32.3943661971831, -- [47]
+				28.16901408450704, -- [48]
+				28.16901408450704, -- [49]
+				28.16901408450704, -- [50]
 			},
 			["LastEvents"] = {
-				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [1]
-				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [2]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
-				"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [4]
-				"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [5]
-				"Young Night Web Spider Melee Mittens Miss", -- [6]
-				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [7]
-				"Young Night Web Spider Melee Mittens Miss", -- [8]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
-				"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [10]
-				"Young Night Web Spider dies.", -- [11]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [12]
-				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [13]
-				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [14]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [15]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [16]
-				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [17]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [18]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [19]
-				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [20]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [21]
-				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [22]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [23]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [24]
-				"Young Night Web Spider Melee Mittens Miss", -- [25]
-				"Mittens Melee Young Night Web Spider Dodge", -- [26]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [27]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [28]
-				"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [29]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [30]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [31]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [32]
-				"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [33]
-				"Young Night Web Spider dies.", -- [34]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [35]
-				"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [36]
-				"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [37]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [38]
-				"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [39]
-				"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [40]
-				"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [41]
-				"Young Night Web Spider dies.", -- [42]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [43]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [44]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [45]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [46]
-				"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [47]
-				"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [48]
-				"Young Night Web Spider dies.", -- [49]
-				"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [50]
+				"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [1]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
+				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [3]
+				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [4]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [6]
+				"Mittens Melee Night Web Spider Miss", -- [7]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [9]
+				"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [10]
+				"Night Web Spider dies.", -- [11]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [12]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
+				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [15]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
+				"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [17]
+				"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [18]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [19]
+				"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [20]
+				"Night Web Spider Melee Mittens Miss", -- [21]
+				"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [22]
+				"Night Web Spider dies.", -- [23]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [24]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [25]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [26]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [27]
+				"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [28]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [29]
+				"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [30]
+				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [31]
+				"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [32]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [33]
+				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [34]
+				"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [35]
+				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [36]
+				"Night Web Spider dies.", -- [37]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [38]
+				"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [39]
+				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [40]
+				"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [41]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [42]
+				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [43]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [44]
+				"Mittens Melee Night Web Spider Miss", -- [45]
+				"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [46]
+				"Mittens Melee Night Web Spider Hit -3 (Physical)", -- [47]
+				"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [48]
+				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [49]
+				"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [50]
 			},
-			["Name"] = "Young Night Web Spider",
+			["Name"] = "Night Web Spider",
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
 						false, -- [1]
 						false, -- [2]
-						true, -- [3]
+						false, -- [3]
 						true, -- [4]
 						false, -- [5]
 						true, -- [6]
@@ -38282,79 +38532,79 @@ RecountPerCharDB = {
 						false, -- [13]
 					},
 					["Messages"] = {
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [2]
-						"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [3]
-						"Young Night Web Spider dies.", -- [4]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
-						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [6]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [7]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [9]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [10]
-						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [11]
-						"Young Night Web Spider dies.", -- [12]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
+						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [4]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [6]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [7]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [9]
+						"Night Web Spider Melee Mittens Miss", -- [10]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [11]
+						"Night Web Spider dies.", -- [12]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
 					},
-					["DeathAt"] = 1451465528,
+					["DeathAt"] = 1451465610,
 					["HealthNum"] = {
-						1.408450704225352, -- [1]
-						1.408450704225352, -- [2]
-						1.408450704225352, -- [3]
-						0, -- [4]
-						0, -- [5]
-						67.27272727272727, -- [6]
-						36.36363636363637, -- [7]
-						36.36363636363637, -- [8]
-						5.454545454545454, -- [9]
-						5.454545454545454, -- [10]
-						5.454545454545454, -- [11]
+						0, -- [1]
+						100, -- [2]
+						100, -- [3]
+						74.64788732394366, -- [4]
+						74.64788732394366, -- [5]
+						50.70422535211268, -- [6]
+						30.98591549295775, -- [7]
+						30.98591549295775, -- [8]
+						11.26760563380282, -- [9]
+						11.26760563380282, -- [10]
+						1.408450704225352, -- [11]
 						0, -- [12]
 						0, -- [13]
 					},
 					["MessageTimes"] = {
-						-14.30400000000373, -- [1]
-						-13.35399999999208, -- [2]
-						-12.95299999997951, -- [3]
-						-12.94999999998254, -- [4]
-						-11.35399999999208, -- [5]
-						-7.052999999985332, -- [6]
-						-5.402999999991152, -- [7]
-						-3.552999999985332, -- [8]
-						-2.752999999996973, -- [9]
-						-1.503999999986263, -- [10]
-						-0.003999999986262992, -- [11]
+						-14.4660000000149, -- [1]
+						-11.80300000001444, -- [2]
+						-8.836999999999534, -- [3]
+						-7.103000000002794, -- [4]
+						-5.853999999992084, -- [5]
+						-5.553000000014436, -- [6]
+						-3.953000000008615, -- [7]
+						-3.502999999996973, -- [8]
+						-1.902999999991152, -- [9]
+						-1.504000000015367, -- [10]
+						-0.002999999996973202, -- [11]
 						0, -- [12]
-						0.2960000000020955, -- [13]
+						0.3470000000088476, -- [13]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"1 (1%)", -- [1]
-						"1 (1%)", -- [2]
-						"1 (1%)", -- [3]
-						"0 (0%)", -- [4]
-						"???", -- [5]
-						"37 (67%)", -- [6]
-						"20 (36%)", -- [7]
-						"20 (36%)", -- [8]
-						"3 (5%)", -- [9]
-						"3 (5%)", -- [10]
-						"3 (5%)", -- [11]
+						"0 (0%)", -- [1]
+						"71 (100%)", -- [2]
+						"71 (100%)", -- [3]
+						"53 (74%)", -- [4]
+						"53 (74%)", -- [5]
+						"36 (50%)", -- [6]
+						"22 (30%)", -- [7]
+						"22 (30%)", -- [8]
+						"8 (11%)", -- [9]
+						"8 (11%)", -- [10]
+						"1 (1%)", -- [11]
 						"0 (0%)", -- [12]
 						"???", -- [13]
 					},
 					["EventNum"] = {
 						0, -- [1]
 						0, -- [2]
-						4.225352112676056, -- [3]
-						0, -- [4]
+						0, -- [3]
+						25.35211267605634, -- [4]
 						0, -- [5]
-						32.72727272727273, -- [6]
-						30.90909090909091, -- [7]
+						23.94366197183098, -- [6]
+						19.71830985915493, -- [7]
 						0, -- [8]
-						30.90909090909091, -- [9]
+						19.71830985915493, -- [9]
 						0, -- [10]
-						7.272727272727273, -- [11]
+						23.94366197183098, -- [11]
 						0, -- [12]
 						0, -- [13]
 					},
@@ -38362,7 +38612,7 @@ RecountPerCharDB = {
 						"DAMAGE", -- [1]
 						"DAMAGE", -- [2]
 						"DAMAGE", -- [3]
-						"MISC", -- [4]
+						"DAMAGE", -- [4]
 						"DAMAGE", -- [5]
 						"DAMAGE", -- [6]
 						"DAMAGE", -- [7]
@@ -38377,20 +38627,20 @@ RecountPerCharDB = {
 				{
 					["MessageIncoming"] = {
 						false, -- [1]
-						true, -- [2]
-						false, -- [3]
+						false, -- [2]
+						true, -- [3]
 						false, -- [4]
 						true, -- [5]
 						false, -- [6]
-						true, -- [7]
+						false, -- [7]
 						false, -- [8]
-						false, -- [9]
+						true, -- [9]
 						false, -- [10]
-						true, -- [11]
-						false, -- [12]
+						false, -- [11]
+						true, -- [12]
 						false, -- [13]
-						true, -- [14]
-						false, -- [15]
+						false, -- [14]
+						true, -- [15]
 						false, -- [16]
 						false, -- [17]
 						true, -- [18]
@@ -38398,43 +38648,43 @@ RecountPerCharDB = {
 						false, -- [20]
 					},
 					["Messages"] = {
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [2]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [4]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [5]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
-						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [7]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
-						"Young Night Web Spider Melee Mittens Miss", -- [10]
-						"Mittens Melee Young Night Web Spider Dodge", -- [11]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [12]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
-						"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [14]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [15]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [17]
-						"Mittens Melee Young Night Web Spider Hit -3 (Physical)", -- [18]
-						"Young Night Web Spider dies.", -- [19]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [20]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [1]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
+						"Mittens Melee Night Web Spider Miss", -- [3]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [4]
+						"Mittens Melee Night Web Spider Hit -3 (Physical)", -- [5]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [7]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [8]
+						"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [9]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [11]
+						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [12]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [14]
+						"Mittens Melee Night Web Spider Miss", -- [15]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [16]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [17]
+						"Mittens Melee Night Web Spider Hit -4 (Physical)", -- [18]
+						"Night Web Spider dies.", -- [19]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [20]
 					},
-					["DeathAt"] = 1451465515,
+					["DeathAt"] = 1451465595,
 					["HealthNum"] = {
-						53.52112676056338, -- [1]
-						33.80281690140845, -- [2]
-						33.80281690140845, -- [3]
-						33.80281690140845, -- [4]
-						14.08450704225352, -- [5]
-						14.08450704225352, -- [6]
-						14.08450704225352, -- [7]
-						8.450704225352112, -- [8]
-						8.450704225352112, -- [9]
-						8.450704225352112, -- [10]
-						8.450704225352112, -- [11]
-						8.450704225352112, -- [12]
-						8.450704225352112, -- [13]
-						8.450704225352112, -- [14]
+						32.3943661971831, -- [1]
+						32.3943661971831, -- [2]
+						32.3943661971831, -- [3]
+						32.3943661971831, -- [4]
+						32.3943661971831, -- [5]
+						28.16901408450704, -- [6]
+						28.16901408450704, -- [7]
+						28.16901408450704, -- [8]
+						28.16901408450704, -- [9]
+						22.53521126760563, -- [10]
+						22.53521126760563, -- [11]
+						1.408450704225352, -- [12]
+						1.408450704225352, -- [13]
+						1.408450704225352, -- [14]
 						1.408450704225352, -- [15]
 						1.408450704225352, -- [16]
 						1.408450704225352, -- [17]
@@ -38443,69 +38693,69 @@ RecountPerCharDB = {
 						0, -- [20]
 					},
 					["MessageTimes"] = {
-						-14.90300000002026, -- [1]
-						-14.1020000000135, -- [2]
-						-13.10300000000279, -- [3]
-						-12.90300000002026, -- [4]
-						-11.6359999999986, -- [5]
-						-10.80300000001444, -- [6]
-						-8.803000000014436, -- [7]
-						-8.703000000008615, -- [8]
-						-7.304000000003725, -- [9]
-						-6.654000000009546, -- [10]
-						-5.787000000011176, -- [11]
-						-4.653000000020256, -- [12]
-						-4.354000000021188, -- [13]
-						-2.903000000020256, -- [14]
-						-2.554000000003725, -- [15]
-						-1.354000000021188, -- [16]
-						-0.4040000000095461, -- [17]
+						-14.75299999999697, -- [1]
+						-14.30300000001444, -- [2]
+						-14.30300000001444, -- [3]
+						-13.05300000001444, -- [4]
+						-11.35300000000279, -- [5]
+						-11.25299999999697, -- [6]
+						-11.05300000001444, -- [7]
+						-9.053000000014436, -- [8]
+						-8.453000000008615, -- [9]
+						-8.252999999996973, -- [10]
+						-7.002999999996973, -- [11]
+						-5.803000000014436, -- [12]
+						-5.203000000008615, -- [13]
+						-4.953000000008615, -- [14]
+						-2.903000000020256, -- [15]
+						-2.903000000020256, -- [16]
+						-0.9040000000095461, -- [17]
 						-0.002999999996973202, -- [18]
 						0, -- [19]
-						1.595999999990454, -- [20]
+						0.6839999999792781, -- [20]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"38 (53%)", -- [1]
-						"24 (33%)", -- [2]
-						"24 (33%)", -- [3]
-						"24 (33%)", -- [4]
-						"10 (14%)", -- [5]
-						"10 (14%)", -- [6]
-						"10 (14%)", -- [7]
-						"6 (8%)", -- [8]
-						"6 (8%)", -- [9]
-						"6 (8%)", -- [10]
-						"6 (8%)", -- [11]
-						"6 (8%)", -- [12]
-						"6 (8%)", -- [13]
-						"6 (8%)", -- [14]
+						"23 (32%)", -- [1]
+						"23 (32%)", -- [2]
+						"23 (32%)", -- [3]
+						"23 (32%)", -- [4]
+						"23 (32%)", -- [5]
+						"20 (28%)", -- [6]
+						"20 (28%)", -- [7]
+						"20 (28%)", -- [8]
+						"20 (28%)", -- [9]
+						"16 (22%)", -- [10]
+						"16 (22%)", -- [11]
+						"1 (1%)", -- [12]
+						"1 (1%)", -- [13]
+						"1 (1%)", -- [14]
 						"1 (1%)", -- [15]
 						"1 (1%)", -- [16]
 						"1 (1%)", -- [17]
 						"1 (1%)", -- [18]
 						"0 (0%)", -- [19]
-						"???", -- [20]
+						"0 (0%)", -- [20]
 					},
 					["EventNum"] = {
 						0, -- [1]
-						19.71830985915493, -- [2]
+						0, -- [2]
 						0, -- [3]
 						0, -- [4]
-						19.71830985915493, -- [5]
+						4.225352112676056, -- [5]
 						0, -- [6]
-						5.633802816901408, -- [7]
+						0, -- [7]
 						0, -- [8]
-						0, -- [9]
+						5.633802816901408, -- [9]
 						0, -- [10]
 						0, -- [11]
-						0, -- [12]
+						21.12676056338028, -- [12]
 						0, -- [13]
-						7.042253521126761, -- [14]
+						0, -- [14]
 						0, -- [15]
 						0, -- [16]
 						0, -- [17]
-						4.225352112676056, -- [18]
+						5.633802816901408, -- [18]
 						0, -- [19]
 						0, -- [20]
 					},
@@ -38534,90 +38784,150 @@ RecountPerCharDB = {
 				}, -- [2]
 				{
 					["MessageIncoming"] = {
-						true, -- [1]
+						false, -- [1]
 						true, -- [2]
-						true, -- [3]
+						false, -- [3]
 						false, -- [4]
 						true, -- [5]
-						false, -- [6]
+						true, -- [6]
 						false, -- [7]
 						true, -- [8]
-						false, -- [9]
+						true, -- [9]
 						false, -- [10]
 						true, -- [11]
 						true, -- [12]
+						false, -- [13]
+						false, -- [14]
+						true, -- [15]
+						false, -- [16]
+						false, -- [17]
+						true, -- [18]
+						false, -- [19]
+						true, -- [20]
+						true, -- [21]
+						false, -- [22]
 					},
 					["Messages"] = {
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [1]
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
-						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [3]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [4]
-						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [5]
-						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [6]
-						"Young Night Web Spider Melee Mittens Miss", -- [7]
-						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [8]
-						"Young Night Web Spider Melee Mittens Miss", -- [9]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
-						"Mittens Melee Young Night Web Spider Hit -5 (Physical)", -- [11]
-						"Young Night Web Spider dies.", -- [12]
+						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
+						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [2]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
+						"Night Web Spider Melee Mittens Miss", -- [4]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [5]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [6]
+						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [7]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [8]
+						"Night Web Spider dies.", -- [9]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [11]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [12]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [13]
+						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [14]
+						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [15]
+						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [16]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [17]
+						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [18]
+						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [19]
+						"Mittens Smite Night Web Spider Hit -15 (Holy)", -- [20]
+						"Night Web Spider dies.", -- [21]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [22]
 					},
-					["DeathAt"] = 1451465493,
+					["DeathAt"] = 1451465569,
 					["HealthNum"] = {
-						78.87323943661971, -- [1]
-						57.74647887323944, -- [2]
-						32.3943661971831, -- [3]
-						32.3943661971831, -- [4]
-						9.859154929577464, -- [5]
-						9.859154929577464, -- [6]
-						9.859154929577464, -- [7]
-						9.859154929577464, -- [8]
-						4.225352112676056, -- [9]
-						4.225352112676056, -- [10]
-						4.225352112676056, -- [11]
-						0, -- [12]
+						77.46478873239437, -- [1]
+						52.11267605633803, -- [2]
+						52.11267605633803, -- [3]
+						52.11267605633803, -- [4]
+						32.3943661971831, -- [5]
+						8.450704225352112, -- [6]
+						8.450704225352112, -- [7]
+						100, -- [8]
+						100, -- [9]
+						100, -- [10]
+						77.46478873239437, -- [11]
+						54.92957746478874, -- [12]
+						54.92957746478874, -- [13]
+						54.92957746478874, -- [14]
+						29.5774647887324, -- [15]
+						29.5774647887324, -- [16]
+						29.5774647887324, -- [17]
+						8.450704225352112, -- [18]
+						8.450704225352112, -- [19]
+						1.408450704225352, -- [20]
+						0, -- [21]
+						0, -- [22]
 					},
 					["MessageTimes"] = {
-						-11.36699999999837, -- [1]
-						-9.700000000011642, -- [2]
-						-7.766999999992549, -- [3]
-						-7.417000000015833, -- [4]
-						-5.817000000010012, -- [5]
-						-5.36699999999837, -- [6]
-						-3.36699999999837, -- [7]
-						-2.99900000001071, -- [8]
-						-1.284000000014203, -- [9]
-						-0.1670000000158325, -- [10]
-						-0.01699999999254942, -- [11]
-						0, -- [12]
+						-14.80499999999302, -- [1]
+						-14.00399999998626, -- [2]
+						-13.45499999998719, -- [3]
+						-12.80499999999302, -- [4]
+						-12.30399999997462, -- [5]
+						-10.80399999997462, -- [6]
+						-10.80399999997462, -- [7]
+						-9.003999999986263, -- [8]
+						-9.00199999997858, -- [9]
+						-8.803999999974622, -- [10]
+						-7.403999999980442, -- [11]
+						-5.904999999998836, -- [12]
+						-5.788000000000466, -- [13]
+						-5.703999999997905, -- [14]
+						-4.103999999992084, -- [15]
+						-3.553999999974622, -- [16]
+						-2.704999999987194, -- [17]
+						-2.003999999986263, -- [18]
+						-0.9049999999988359, -- [19]
+						-0.004999999975552782, -- [20]
+						0, -- [21]
+						0.1950000000069849, -- [22]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"56 (78%)", -- [1]
-						"41 (57%)", -- [2]
-						"23 (32%)", -- [3]
-						"23 (32%)", -- [4]
-						"7 (9%)", -- [5]
-						"7 (9%)", -- [6]
-						"7 (9%)", -- [7]
-						"7 (9%)", -- [8]
-						"3 (4%)", -- [9]
-						"3 (4%)", -- [10]
-						"3 (4%)", -- [11]
-						"0 (0%)", -- [12]
+						"55 (77%)", -- [1]
+						"37 (52%)", -- [2]
+						"37 (52%)", -- [3]
+						"37 (52%)", -- [4]
+						"23 (32%)", -- [5]
+						"6 (8%)", -- [6]
+						"6 (8%)", -- [7]
+						"71 (100%)", -- [8]
+						"71 (100%)", -- [9]
+						"71 (100%)", -- [10]
+						"55 (77%)", -- [11]
+						"39 (54%)", -- [12]
+						"39 (54%)", -- [13]
+						"39 (54%)", -- [14]
+						"21 (29%)", -- [15]
+						"21 (29%)", -- [16]
+						"21 (29%)", -- [17]
+						"6 (8%)", -- [18]
+						"6 (8%)", -- [19]
+						"1 (1%)", -- [20]
+						"0 (0%)", -- [21]
+						"???", -- [22]
 					},
 					["EventNum"] = {
-						21.12676056338028, -- [1]
-						21.12676056338028, -- [2]
-						25.35211267605634, -- [3]
+						0, -- [1]
+						25.35211267605634, -- [2]
+						0, -- [3]
 						0, -- [4]
-						22.53521126760563, -- [5]
-						0, -- [6]
+						19.71830985915493, -- [5]
+						23.94366197183098, -- [6]
 						0, -- [7]
-						5.633802816901408, -- [8]
+						23.94366197183098, -- [8]
 						0, -- [9]
 						0, -- [10]
-						7.042253521126761, -- [11]
-						0, -- [12]
+						22.53521126760563, -- [11]
+						22.53521126760563, -- [12]
+						0, -- [13]
+						0, -- [14]
+						25.35211267605634, -- [15]
+						0, -- [16]
+						0, -- [17]
+						21.12676056338028, -- [18]
+						0, -- [19]
+						21.12676056338028, -- [20]
+						0, -- [21]
+						0, -- [22]
 					},
 					["MessageType"] = {
 						"DAMAGE", -- [1]
@@ -38628,130 +38938,158 @@ RecountPerCharDB = {
 						"DAMAGE", -- [6]
 						"DAMAGE", -- [7]
 						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
+						"MISC", -- [9]
 						"DAMAGE", -- [10]
 						"DAMAGE", -- [11]
-						"MISC", -- [12]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"MISC", -- [21]
+						"DAMAGE", -- [22]
 					},
 				}, -- [3]
 				{
 					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
+						true, -- [1]
+						false, -- [2]
 						false, -- [3]
-						false, -- [4]
+						true, -- [4]
 						true, -- [5]
-						true, -- [6]
+						false, -- [6]
 						false, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						true, -- [12]
-						false, -- [13]
-						false, -- [14]
-						true, -- [15]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						false, -- [11]
+						false, -- [12]
+						true, -- [13]
+						true, -- [14]
+						false, -- [15]
 						true, -- [16]
+						true, -- [17]
+						false, -- [18]
+						true, -- [19]
 					},
 					["Messages"] = {
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [1]
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
-						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [4]
-						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [5]
-						"Young Night Web Spider dies.", -- [6]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [8]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [9]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [10]
-						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [11]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [12]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [15]
-						"Young Night Web Spider dies.", -- [16]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [1]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [2]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [3]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [4]
+						"Night Web Spider dies.", -- [5]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [8]
+						"Night Web Spider Melee Mittens Hit -1 (Physical)", -- [9]
+						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [10]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
+						"Night Web Spider Melee Mittens Miss", -- [12]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [13]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [14]
+						"Night Web Spider Melee Mittens Hit -2 (Physical)", -- [15]
+						"Mittens Smite Night Web Spider Hit -17 (Holy)", -- [16]
+						"Night Web Spider dies.", -- [17]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [18]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [19]
 					},
-					["DeathAt"] = 1451465478,
+					["DeathAt"] = 1451465560,
 					["HealthNum"] = {
-						26.76056338028169, -- [1]
-						5.633802816901408, -- [2]
-						5.633802816901408, -- [3]
-						5.633802816901408, -- [4]
-						5.633802816901408, -- [5]
+						4.651162790697675, -- [1]
+						4.651162790697675, -- [2]
+						4.651162790697675, -- [3]
+						1.162790697674419, -- [4]
+						0, -- [5]
 						0, -- [6]
-						0, -- [7]
-						100, -- [8]
-						74.54545454545455, -- [9]
-						74.54545454545455, -- [10]
-						41.81818181818182, -- [11]
-						16.36363636363636, -- [12]
-						16.36363636363636, -- [13]
-						16.36363636363636, -- [14]
-						1.818181818181818, -- [15]
-						0, -- [16]
+						100, -- [7]
+						77.46478873239437, -- [8]
+						77.46478873239437, -- [9]
+						52.11267605633803, -- [10]
+						52.11267605633803, -- [11]
+						52.11267605633803, -- [12]
+						32.3943661971831, -- [13]
+						8.450704225352112, -- [14]
+						8.450704225352112, -- [15]
+						100, -- [16]
+						100, -- [17]
+						100, -- [18]
+						77.46478873239437, -- [19]
 					},
 					["MessageTimes"] = {
-						-14.70300000000862, -- [1]
-						-13.15300000002026, -- [2]
-						-12.70300000000862, -- [3]
-						-10.65300000002026, -- [4]
-						-10.35300000000279, -- [5]
-						-10.33600000001025, -- [6]
-						-10.00299999999697, -- [7]
-						-6.952000000019325, -- [8]
-						-5.502000000007683, -- [9]
-						-4.002999999996973, -- [10]
-						-3.903000000020256, -- [11]
-						-2.302000000025146, -- [12]
-						-1.303000000014436, -- [13]
-						-1.002999999996973, -- [14]
-						-0.002000000007683411, -- [15]
-						0, -- [16]
+						-14.45200000001933, -- [1]
+						-13.85300000000279, -- [2]
+						-13.50200000000768, -- [3]
+						-12.30199999999604, -- [4]
+						-12.29899999999907, -- [5]
+						-10.45200000001933, -- [6]
+						-7.453000000008615, -- [7]
+						-7.002000000007683, -- [8]
+						-5.803000000014436, -- [9]
+						-5.002000000007683, -- [10]
+						-4.453000000008615, -- [11]
+						-3.803000000014436, -- [12]
+						-3.301999999996042, -- [13]
+						-1.801999999996042, -- [14]
+						-1.801999999996042, -- [15]
+						-0.002000000007683411, -- [16]
+						0, -- [17]
+						0.1980000000039581, -- [18]
+						1.597999999998137, -- [19]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"19 (26%)", -- [1]
-						"4 (5%)", -- [2]
-						"4 (5%)", -- [3]
-						"4 (5%)", -- [4]
-						"4 (5%)", -- [5]
-						"0 (0%)", -- [6]
-						"???", -- [7]
-						"55 (100%)", -- [8]
-						"41 (74%)", -- [9]
-						"41 (74%)", -- [10]
-						"23 (41%)", -- [11]
-						"9 (16%)", -- [12]
-						"9 (16%)", -- [13]
-						"9 (16%)", -- [14]
-						"1 (1%)", -- [15]
-						"0 (0%)", -- [16]
+						"4 (4%)", -- [1]
+						"4 (4%)", -- [2]
+						"4 (4%)", -- [3]
+						"1 (1%)", -- [4]
+						"0 (0%)", -- [5]
+						"???", -- [6]
+						"71 (100%)", -- [7]
+						"55 (77%)", -- [8]
+						"55 (77%)", -- [9]
+						"37 (52%)", -- [10]
+						"37 (52%)", -- [11]
+						"37 (52%)", -- [12]
+						"23 (32%)", -- [13]
+						"6 (8%)", -- [14]
+						"6 (8%)", -- [15]
+						"71 (100%)", -- [16]
+						"71 (100%)", -- [17]
+						"71 (100%)", -- [18]
+						"55 (77%)", -- [19]
 					},
 					["EventNum"] = {
-						0, -- [1]
-						21.12676056338028, -- [2]
+						18.6046511627907, -- [1]
+						0, -- [2]
 						0, -- [3]
-						0, -- [4]
-						5.633802816901408, -- [5]
+						16.27906976744186, -- [4]
+						0, -- [5]
 						0, -- [6]
 						0, -- [7]
-						0, -- [8]
-						25.45454545454545, -- [9]
-						0, -- [10]
-						32.72727272727273, -- [11]
-						25.45454545454545, -- [12]
-						0, -- [13]
-						0, -- [14]
-						25.45454545454545, -- [15]
-						0, -- [16]
+						22.53521126760563, -- [8]
+						0, -- [9]
+						25.35211267605634, -- [10]
+						0, -- [11]
+						0, -- [12]
+						19.71830985915493, -- [13]
+						23.94366197183098, -- [14]
+						0, -- [15]
+						23.94366197183098, -- [16]
+						0, -- [17]
+						0, -- [18]
+						22.53521126760563, -- [19]
 					},
 					["MessageType"] = {
 						"DAMAGE", -- [1]
 						"DAMAGE", -- [2]
 						"DAMAGE", -- [3]
 						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"MISC", -- [6]
+						"MISC", -- [5]
+						"DAMAGE", -- [6]
 						"DAMAGE", -- [7]
 						"DAMAGE", -- [8]
 						"DAMAGE", -- [9]
@@ -38761,16 +39099,19 @@ RecountPerCharDB = {
 						"DAMAGE", -- [13]
 						"DAMAGE", -- [14]
 						"DAMAGE", -- [15]
-						"MISC", -- [16]
+						"DAMAGE", -- [16]
+						"MISC", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
 					},
 				}, -- [4]
 				{
 					["MessageIncoming"] = {
-						false, -- [1]
+						true, -- [1]
 						false, -- [2]
 						true, -- [3]
-						true, -- [4]
-						false, -- [5]
+						false, -- [4]
+						true, -- [5]
 						false, -- [6]
 						true, -- [7]
 						false, -- [8]
@@ -38782,84 +39123,84 @@ RecountPerCharDB = {
 						false, -- [14]
 					},
 					["Messages"] = {
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [2]
-						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [3]
-						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [4]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [5]
-						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [6]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [8]
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [9]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [10]
-						"Young Night Web Spider Melee Mittens Hit -2 (Physical)", -- [11]
-						"Mittens Melee Young Night Web Spider Hit -4 (Physical)", -- [12]
-						"Young Night Web Spider dies.", -- [13]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [1]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [2]
+						"Mittens Smite Night Web Spider Hit -18 (Holy)", -- [3]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [4]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [5]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [6]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [7]
+						"Night Web Spider Melee Mittens Hit -3 (Physical)", -- [8]
+						"Mittens Smite Night Web Spider Hit -16 (Holy)", -- [9]
+						"Night Web Spider Melee Mittens Hit -4 (Physical)", -- [10]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
+						"Mittens Smite Night Web Spider Hit -14 (Holy)", -- [12]
+						"Night Web Spider dies.", -- [13]
+						"Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [14]
 					},
-					["DeathAt"] = 1451465468,
+					["DeathAt"] = 1451465548,
 					["HealthNum"] = {
-						0, -- [1]
-						100, -- [2]
-						69.01408450704226, -- [3]
-						46.47887323943662, -- [4]
-						46.47887323943662, -- [5]
-						46.47887323943662, -- [6]
-						26.76056338028169, -- [7]
-						26.76056338028169, -- [8]
-						5.633802816901408, -- [9]
-						5.633802816901408, -- [10]
-						5.633802816901408, -- [11]
-						5.633802816901408, -- [12]
+						81.3953488372093, -- [1]
+						81.3953488372093, -- [2]
+						60.46511627906977, -- [3]
+						60.46511627906977, -- [4]
+						41.86046511627907, -- [5]
+						41.86046511627907, -- [6]
+						23.25581395348837, -- [7]
+						23.25581395348837, -- [8]
+						4.651162790697675, -- [9]
+						4.651162790697675, -- [10]
+						4.651162790697675, -- [11]
+						1.162790697674419, -- [12]
 						0, -- [13]
 						0, -- [14]
 					},
 					["MessageTimes"] = {
-						-12.51699999999255, -- [1]
-						-9.516999999992549, -- [2]
-						-8.416999999986729, -- [3]
-						-6.76600000000326, -- [4]
-						-6.467000000004191, -- [5]
-						-6.466000000014901, -- [6]
-						-4.915999999997439, -- [7]
-						-4.36699999999837, -- [8]
-						-2.817000000010012, -- [9]
-						-2.36699999999837, -- [10]
-						-0.3170000000100117, -- [11]
-						-0.01699999999254942, -- [12]
+						-10.60300000000279, -- [1]
+						-9.854000000021188, -- [2]
+						-8.452000000019325, -- [3]
+						-7.754000000015367, -- [4]
+						-6.203000000008615, -- [5]
+						-5.703999999997905, -- [6]
+						-4.103000000002794, -- [7]
+						-3.654000000009546, -- [8]
+						-2.153000000020256, -- [9]
+						-1.554000000003725, -- [10]
+						-1.203000000008615, -- [11]
+						-0.002999999996973202, -- [12]
 						0, -- [13]
-						0.3330000000132714, -- [14]
+						1.846999999979744, -- [14]
 					},
 					["KilledBy"] = "Mittens",
 					["Health"] = {
-						"???", -- [1]
-						"71 (100%)", -- [2]
-						"49 (69%)", -- [3]
-						"33 (46%)", -- [4]
-						"33 (46%)", -- [5]
-						"33 (46%)", -- [6]
-						"19 (26%)", -- [7]
-						"19 (26%)", -- [8]
-						"4 (5%)", -- [9]
-						"4 (5%)", -- [10]
-						"4 (5%)", -- [11]
-						"4 (5%)", -- [12]
+						"70 (81%)", -- [1]
+						"70 (81%)", -- [2]
+						"52 (60%)", -- [3]
+						"52 (60%)", -- [4]
+						"36 (41%)", -- [5]
+						"36 (41%)", -- [6]
+						"20 (23%)", -- [7]
+						"20 (23%)", -- [8]
+						"4 (4%)", -- [9]
+						"4 (4%)", -- [10]
+						"4 (4%)", -- [11]
+						"1 (1%)", -- [12]
 						"0 (0%)", -- [13]
 						"???", -- [14]
 					},
 					["EventNum"] = {
-						0, -- [1]
+						18.6046511627907, -- [1]
 						0, -- [2]
-						30.98591549295775, -- [3]
-						22.53521126760563, -- [4]
-						0, -- [5]
+						20.93023255813954, -- [3]
+						0, -- [4]
+						18.6046511627907, -- [5]
 						0, -- [6]
-						19.71830985915493, -- [7]
+						18.6046511627907, -- [7]
 						0, -- [8]
-						21.12676056338028, -- [9]
+						18.6046511627907, -- [9]
 						0, -- [10]
 						0, -- [11]
-						5.633802816901408, -- [12]
+						16.27906976744186, -- [12]
 						0, -- [13]
 						0, -- [14]
 					},
@@ -38880,351 +39221,10 @@ RecountPerCharDB = {
 						"DAMAGE", -- [14]
 					},
 				}, -- [5]
-				{
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						true, -- [5]
-						false, -- [6]
-						false, -- [7]
-						true, -- [8]
-						true, -- [9]
-						true, -- [10]
-						false, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-						false, -- [16]
-					},
-					["Messages"] = {
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [1]
-						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [2]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
-						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [4]
-						"Young Night Web Spider dies.", -- [5]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [6]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [7]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [8]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [9]
-						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [10]
-						"Young Night Web Spider Melee Mittens Miss", -- [11]
-						"Mittens Smite Young Night Web Spider Hit -16 (Holy)", -- [12]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [14]
-						"Young Night Web Spider dies.", -- [15]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
-					},
-					["DeathAt"] = 1451465452,
-					["HealthNum"] = {
-						69.09090909090909, -- [1]
-						29.09090909090909, -- [2]
-						29.09090909090909, -- [3]
-						1.818181818181818, -- [4]
-						0, -- [5]
-						0, -- [6]
-						100, -- [7]
-						80.28169014084507, -- [8]
-						60.56338028169014, -- [9]
-						38.0281690140845, -- [10]
-						38.0281690140845, -- [11]
-						15.49295774647887, -- [12]
-						15.49295774647887, -- [13]
-						1.408450704225352, -- [14]
-						0, -- [15]
-						0, -- [16]
-					},
-					["MessageTimes"] = {
-						-14.45299999997951, -- [1]
-						-13.70199999999022, -- [2]
-						-13.50200000000768, -- [3]
-						-11.95199999999022, -- [4]
-						-11.94999999998254, -- [5]
-						-11.50299999999697, -- [6]
-						-8.452999999979511, -- [7]
-						-7.103000000002794, -- [8]
-						-5.353000000002794, -- [9]
-						-3.752000000007683, -- [10]
-						-2.853000000002794, -- [11]
-						-2.201999999990221, -- [12]
-						-0.8029999999853317, -- [13]
-						-0.002999999996973202, -- [14]
-						0, -- [15]
-						0.2470000000030268, -- [16]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"38 (69%)", -- [1]
-						"16 (29%)", -- [2]
-						"16 (29%)", -- [3]
-						"1 (1%)", -- [4]
-						"0 (0%)", -- [5]
-						"0 (0%)", -- [6]
-						"71 (100%)", -- [7]
-						"57 (80%)", -- [8]
-						"43 (60%)", -- [9]
-						"27 (38%)", -- [10]
-						"27 (38%)", -- [11]
-						"11 (15%)", -- [12]
-						"11 (15%)", -- [13]
-						"1 (1%)", -- [14]
-						"0 (0%)", -- [15]
-						"???", -- [16]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						40, -- [2]
-						0, -- [3]
-						32.72727272727273, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						19.71830985915493, -- [8]
-						19.71830985915493, -- [9]
-						22.53521126760563, -- [10]
-						0, -- [11]
-						22.53521126760563, -- [12]
-						0, -- [13]
-						23.94366197183098, -- [14]
-						0, -- [15]
-						0, -- [16]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"MISC", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"MISC", -- [15]
-						"DAMAGE", -- [16]
-					},
-				}, -- [6]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						false, -- [5]
-						false, -- [6]
-						true, -- [7]
-						true, -- [8]
-						false, -- [9]
-						true, -- [10]
-						false, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-						false, -- [16]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [1]
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [4]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [5]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
-						"Young Night Web Spider dies.", -- [8]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [10]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [11]
-						"Mittens Smite Young Night Web Spider Crit -22 (Holy)", -- [12]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [13]
-						"Mittens Smite Young Night Web Spider Hit -18 (Holy)", -- [14]
-						"Young Night Web Spider dies.", -- [15]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [16]
-					},
-					["DeathAt"] = 1451465440,
-					["HealthNum"] = {
-						69.09090909090909, -- [1]
-						41.81818181818182, -- [2]
-						41.81818181818182, -- [3]
-						10.90909090909091, -- [4]
-						10.90909090909091, -- [5]
-						10.90909090909091, -- [6]
-						1.818181818181818, -- [7]
-						0, -- [8]
-						100, -- [9]
-						69.09090909090909, -- [10]
-						69.09090909090909, -- [11]
-						29.09090909090909, -- [12]
-						29.09090909090909, -- [13]
-						1.818181818181818, -- [14]
-						0, -- [15]
-						0, -- [16]
-					},
-					["MessageTimes"] = {
-						-13.80200000002515, -- [1]
-						-12.25200000000768, -- [2]
-						-12.25200000000768, -- [3]
-						-10.50200000000768, -- [4]
-						-10.20200000001933, -- [5]
-						-8.203000000008615, -- [6]
-						-7.052000000025146, -- [7]
-						-7.050000000017462, -- [8]
-						-5.502000000007683, -- [9]
-						-3.303000000014436, -- [10]
-						-2.502999999996973, -- [11]
-						-1.752000000007683, -- [12]
-						-1.552000000025146, -- [13]
-						-0.002000000007683411, -- [14]
-						0, -- [15]
-						0.4469999999855645, -- [16]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"38 (69%)", -- [1]
-						"23 (41%)", -- [2]
-						"23 (41%)", -- [3]
-						"6 (10%)", -- [4]
-						"6 (10%)", -- [5]
-						"6 (10%)", -- [6]
-						"1 (1%)", -- [7]
-						"0 (0%)", -- [8]
-						"55 (100%)", -- [9]
-						"38 (69%)", -- [10]
-						"38 (69%)", -- [11]
-						"16 (29%)", -- [12]
-						"16 (29%)", -- [13]
-						"1 (1%)", -- [14]
-						"0 (0%)", -- [15]
-						"0 (0%)", -- [16]
-					},
-					["EventNum"] = {
-						30.90909090909091, -- [1]
-						27.27272727272727, -- [2]
-						0, -- [3]
-						30.90909090909091, -- [4]
-						0, -- [5]
-						0, -- [6]
-						25.45454545454545, -- [7]
-						0, -- [8]
-						0, -- [9]
-						30.90909090909091, -- [10]
-						0, -- [11]
-						40, -- [12]
-						0, -- [13]
-						32.72727272727273, -- [14]
-						0, -- [15]
-						0, -- [16]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"MISC", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"MISC", -- [15]
-						"DAMAGE", -- [16]
-					},
-				}, -- [7]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						false, -- [5]
-						false, -- [6]
-						true, -- [7]
-						true, -- [8]
-						false, -- [9]
-					},
-					["Messages"] = {
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [1]
-						"Mittens Smite Young Night Web Spider Hit -15 (Holy)", -- [2]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [3]
-						"Mittens Smite Young Night Web Spider Hit -17 (Holy)", -- [4]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [5]
-						"Young Night Web Spider Melee Mittens Hit -1 (Physical)", -- [6]
-						"Mittens Smite Young Night Web Spider Hit -14 (Holy)", -- [7]
-						"Young Night Web Spider dies.", -- [8]
-						"Young Night Web Spider Weak Poison (DoT) Mittens Tick -1 (Nature)", -- [9]
-					},
-					["DeathAt"] = 1451465433,
-					["HealthNum"] = {
-						69.09090909090909, -- [1]
-						41.81818181818182, -- [2]
-						41.81818181818182, -- [3]
-						10.90909090909091, -- [4]
-						10.90909090909091, -- [5]
-						10.90909090909091, -- [6]
-						1.818181818181818, -- [7]
-						0, -- [8]
-						100, -- [9]
-					},
-					["MessageTimes"] = {
-						-6.752000000007683, -- [1]
-						-5.201999999990221, -- [2]
-						-5.201999999990221, -- [3]
-						-3.451999999990221, -- [4]
-						-3.152000000001863, -- [5]
-						-1.152999999991152, -- [6]
-						-0.002000000007683411, -- [7]
-						0, -- [8]
-						1.548000000009779, -- [9]
-					},
-					["KilledBy"] = "Mittens",
-					["Health"] = {
-						"38 (69%)", -- [1]
-						"23 (41%)", -- [2]
-						"23 (41%)", -- [3]
-						"6 (10%)", -- [4]
-						"6 (10%)", -- [5]
-						"6 (10%)", -- [6]
-						"1 (1%)", -- [7]
-						"0 (0%)", -- [8]
-						"55 (100%)", -- [9]
-					},
-					["EventNum"] = {
-						30.90909090909091, -- [1]
-						27.27272727272727, -- [2]
-						0, -- [3]
-						30.90909090909091, -- [4]
-						0, -- [5]
-						0, -- [6]
-						25.45454545454545, -- [7]
-						0, -- [8]
-						0, -- [9]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"MISC", -- [8]
-						"DAMAGE", -- [9]
-					},
-				}, -- [8]
 			},
 			["LastEventIncoming"] = {
 				true, -- [1]
-				true, -- [2]
+				false, -- [2]
 				false, -- [3]
 				true, -- [4]
 				false, -- [5]
@@ -39235,107 +39235,107 @@ RecountPerCharDB = {
 				true, -- [10]
 				true, -- [11]
 				false, -- [12]
-				true, -- [13]
-				true, -- [14]
-				false, -- [15]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
 				false, -- [16]
 				true, -- [17]
-				false, -- [18]
+				true, -- [18]
 				false, -- [19]
 				true, -- [20]
 				false, -- [21]
 				true, -- [22]
-				false, -- [23]
+				true, -- [23]
 				false, -- [24]
 				false, -- [25]
-				true, -- [26]
+				false, -- [26]
 				false, -- [27]
-				false, -- [28]
-				true, -- [29]
+				true, -- [28]
+				false, -- [29]
 				false, -- [30]
-				false, -- [31]
+				true, -- [31]
 				false, -- [32]
-				true, -- [33]
+				false, -- [33]
 				true, -- [34]
 				false, -- [35]
 				true, -- [36]
 				true, -- [37]
 				false, -- [38]
 				true, -- [39]
-				false, -- [40]
+				true, -- [40]
 				true, -- [41]
-				true, -- [42]
+				false, -- [42]
 				false, -- [43]
 				false, -- [44]
-				false, -- [45]
+				true, -- [45]
 				false, -- [46]
-				false, -- [47]
-				true, -- [48]
-				true, -- [49]
-				true, -- [50]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
 			},
 			["TimeLast"] = {
-				["DeathCount"] = 1451465526,
-				["TimeDamage"] = 1451465535,
-				["ActiveTime"] = 1451465535,
-				["DamageTaken"] = 1451465526,
-				["OVERALL"] = 1451465535,
-				["DOT_Time"] = 1451465535,
-				["Damage"] = 1451465535,
+				["DeathCount"] = 1451465608,
+				["TimeDamage"] = 1451465617,
+				["ActiveTime"] = 1451465617,
+				["DamageTaken"] = 1451465608,
+				["OVERALL"] = 1451465617,
+				["DOT_Time"] = 1451465617,
+				["Damage"] = 1451465617,
 			},
 			["LastEventTimes"] = {
-				204101.962, -- [1]
-				204103.895, -- [2]
-				204104.245, -- [3]
-				204105.845, -- [4]
-				204106.295, -- [5]
-				204108.295, -- [6]
-				204108.663, -- [7]
-				204110.378, -- [8]
-				204111.495, -- [9]
-				204111.645, -- [10]
-				204111.662, -- [11]
-				204114.495, -- [12]
-				204115.645, -- [13]
-				204117.395, -- [14]
-				204117.545, -- [15]
-				204118.745, -- [16]
-				204119.546, -- [17]
-				204120.545, -- [18]
-				204120.745, -- [19]
-				204122.012, -- [20]
-				204122.845, -- [21]
-				204124.845, -- [22]
-				204124.945, -- [23]
-				204126.344, -- [24]
-				204126.994, -- [25]
-				204127.861, -- [26]
-				204128.995, -- [27]
-				204129.294, -- [28]
-				204130.745, -- [29]
-				204131.094, -- [30]
-				204132.294, -- [31]
-				204133.244, -- [32]
-				204133.645, -- [33]
-				204133.648, -- [34]
-				204135.244, -- [35]
-				204139.545, -- [36]
-				204141.195, -- [37]
-				204143.045, -- [38]
-				204143.845, -- [39]
-				204145.094, -- [40]
-				204146.594, -- [41]
-				204146.598, -- [42]
-				204146.894, -- [43]
-				204149.895, -- [44]
-				204152.895, -- [45]
-				204155.845, -- [46]
-				204095.645, -- [47]
-				204096.646, -- [48]
-				204096.648, -- [49]
-				204100.295, -- [50]
+				204204.744, -- [1]
+				204204.944, -- [2]
+				204206.194, -- [3]
+				204207.394, -- [4]
+				204207.994, -- [5]
+				204208.244, -- [6]
+				204210.294, -- [7]
+				204210.294, -- [8]
+				204212.293, -- [9]
+				204213.194, -- [10]
+				204213.197, -- [11]
+				204213.881, -- [12]
+				204216.544, -- [13]
+				204219.51, -- [14]
+				204221.244, -- [15]
+				204222.493, -- [16]
+				204222.794, -- [17]
+				204224.394, -- [18]
+				204224.844, -- [19]
+				204226.444, -- [20]
+				204226.843, -- [21]
+				204228.344, -- [22]
+				204228.347, -- [23]
+				204228.694, -- [24]
+				204231.643, -- [25]
+				204234.593, -- [26]
+				204237.644, -- [27]
+				204181.544, -- [28]
+				204181.661, -- [29]
+				204181.745, -- [30]
+				204183.345, -- [31]
+				204183.895, -- [32]
+				204184.744, -- [33]
+				204185.445, -- [34]
+				204186.544, -- [35]
+				204187.444, -- [36]
+				204187.449, -- [37]
+				204187.644, -- [38]
+				204192.645, -- [39]
+				204194.444, -- [40]
+				204196.045, -- [41]
+				204196.045, -- [42]
+				204198.444, -- [43]
+				204198.894, -- [44]
+				204198.894, -- [45]
+				204200.144, -- [46]
+				204201.844, -- [47]
+				204201.944, -- [48]
+				204202.144, -- [49]
+				204204.144, -- [50]
 			},
-			["LastAbility"] = 1439.17,
+			["LastAbility"] = 1640.821,
 		},
 	},
 	["FightNum"] = 114,

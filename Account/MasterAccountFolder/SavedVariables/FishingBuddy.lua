@@ -27,6 +27,14 @@ FishingBuddy_Info = {
 			[13002] = 12,
 			[5001] = 6,
 		},
+		["FishingSkill"] = {
+			[4008] = 0,
+			[5001] = 0,
+			[13002] = 0,
+			[31014] = 0,
+			[19017] = 0,
+			[9003] = 0,
+		},
 		["SubZones"] = {
 			[5013] = "Magus Commerce Exchange",
 			[9001] = "The Pools of Vision",
@@ -291,9 +299,9 @@ FishingBuddy_Info = {
 			[3005] = "Tor'kren Farm",
 			[2009] = "Inner Sanctum",
 			[28006] = "Amberpine Lodge",
-			[27008] = "Silent Vigil",
-			[27000] = 16,
 			[33002] = "Befouled Terrace",
+			[27000] = 16,
+			[27008] = "Silent Vigil",
 			[27016] = "Quel'Delar's Rest",
 			[26002] = "Axis of Alignment",
 			[6003] = "Far Watch Post",
@@ -375,14 +383,6 @@ FishingBuddy_Info = {
 			[3019] = "Sen'jin Village",
 			[5011] = "The Violet Hold",
 			[11019] = "Emerald Dragonshrine",
-		},
-		["FishingSkill"] = {
-			[4008] = 0,
-			[5001] = 0,
-			[13002] = 0,
-			[31014] = 0,
-			[19017] = 0,
-			[9003] = 0,
 		},
 		["FishingHoles"] = {
 			[4008] = {

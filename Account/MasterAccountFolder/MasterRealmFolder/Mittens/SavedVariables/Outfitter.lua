@@ -111,6 +111,17 @@ gOutfitter_Settings = {
 					["EnchantCode"] = 0,
 					["JewelCode3"] = 0,
 				},
+				["TabardSlot"] = {
+					["JewelCode4"] = 0,
+					["Code"] = 0,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["JewelCode1"] = 0,
+					["Name"] = "",
+					["UniqueID"] = 0,
+					["EnchantCode"] = 0,
+					["JewelCode3"] = 0,
+				},
 				["ShirtSlot"] = {
 					["JewelCode4"] = 0,
 					["InvType"] = "INVTYPE_BODY",
@@ -126,17 +137,6 @@ gOutfitter_Settings = {
 					["Level"] = 1,
 					["UniqueID"] = 0,
 					["Quality"] = 1,
-				},
-				["TabardSlot"] = {
-					["JewelCode4"] = 0,
-					["Code"] = 0,
-					["SubCode"] = 0,
-					["JewelCode2"] = 0,
-					["JewelCode1"] = 0,
-					["Name"] = "",
-					["UniqueID"] = 0,
-					["EnchantCode"] = 0,
-					["JewelCode3"] = 0,
 				},
 				["FeetSlot"] = {
 					["JewelCode4"] = 0,
@@ -181,22 +181,6 @@ gOutfitter_Settings = {
 					["EnchantCode"] = 0,
 					["JewelCode3"] = 0,
 				},
-				["WaistSlot"] = {
-					["JewelCode4"] = 0,
-					["InvType"] = "INVTYPE_WAIST",
-					["Code"] = 11848,
-					["SubCode"] = 0,
-					["JewelCode2"] = 0,
-					["Link"] = "|cffffffff|Hitem:11848:0:0:0:0:0:0:0:4|h[Flax Belt]|h|r",
-					["JewelCode1"] = 0,
-					["JewelCode3"] = 0,
-					["Name"] = "Flax Belt",
-					["EnchantCode"] = 0,
-					["SubType"] = "Cloth",
-					["Level"] = 5,
-					["UniqueID"] = 0,
-					["Quality"] = 1,
-				},
 				["HandsSlot"] = {
 					["JewelCode4"] = 0,
 					["InvType"] = "INVTYPE_HAND",
@@ -207,6 +191,22 @@ gOutfitter_Settings = {
 					["JewelCode1"] = 0,
 					["JewelCode3"] = 0,
 					["Name"] = "Flax Gloves",
+					["EnchantCode"] = 0,
+					["SubType"] = "Cloth",
+					["Level"] = 5,
+					["UniqueID"] = 0,
+					["Quality"] = 1,
+				},
+				["WaistSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_WAIST",
+					["Code"] = 11848,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cffffffff|Hitem:11848:0:0:0:0:0:0:0:4|h[Flax Belt]|h|r",
+					["JewelCode1"] = 0,
+					["JewelCode3"] = 0,
+					["Name"] = "Flax Belt",
 					["EnchantCode"] = 0,
 					["SubType"] = "Cloth",
 					["Level"] = 5,
@@ -254,7 +254,8 @@ gOutfitter_Settings = {
 				},
 			}, -- [1]
 			{
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+				},
 				["didUnequip"] = false,
 				["Items"] = {
 					["RangedSlot"] = {
@@ -334,7 +335,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -345,7 +346,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -395,8 +396,7 @@ gOutfitter_Settings = {
 				["OutfitBar"] = {
 				},
 				["ScriptID"] = "FALLING",
-				["ScriptSettings"] = {
-				},
+				["ScriptLockupCount"] = 0,
 			}, -- [2]
 			{
 				["Items"] = {
@@ -414,13 +414,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
-				["ScriptLockupCount"] = 0,
 				["Name"] = "Riding",
+				["ScriptID"] = "Riding",
+				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -428,8 +424,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["ScriptID"] = "Riding",
 				["CategoryID"] = "Accessory",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 			}, -- [4]
 			{
 				["Items"] = {

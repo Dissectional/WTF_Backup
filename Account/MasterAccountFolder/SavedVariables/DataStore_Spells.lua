@@ -9,10 +9,10 @@ DataStore_SpellsDB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -316,10 +316,6 @@ DataStore_SpellsDB = {
 						"687|Rank 1", -- [1]
 						"688|Summon", -- [2]
 					},
-					["Destruction"] = {
-						"348|Rank 1", -- [1]
-						"686|Rank 1", -- [2]
-					},
 					["Affliction"] = {
 						"172|Rank 1", -- [1]
 						"702|Rank 1", -- [2]
@@ -333,6 +329,10 @@ DataStore_SpellsDB = {
 						"5019|", -- [6]
 						"5227|Racial Passive", -- [7]
 						"7744|Racial", -- [8]
+					},
+					["Destruction"] = {
+						"348|Rank 1", -- [1]
+						"686|Rank 1", -- [2]
 					},
 				},
 			},
@@ -358,54 +358,35 @@ DataStore_SpellsDB = {
 					},
 				},
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
+			["Default.TrueWoW.Lichmydk"] = {
+				["lastUpdate"] = 1451300494,
 				["Spells"] = {
-					["Demonology"] = {
-						"6201|Rank 1", -- [1]
-						"693|Rank 1", -- [2]
-						"687|Rank 1", -- [3]
-						"696|Rank 2", -- [4]
-						"755|Rank 1", -- [5]
-						"688|Summon", -- [6]
-						"697|Summon", -- [7]
-						"5697|", -- [8]
+					["Unholy"] = {
+						"59879|Passive", -- [1]
+						"47541|Rank 1", -- [2]
+						"49576|", -- [3]
+						"45462|Rank 1", -- [4]
 					},
-					["Affliction"] = {
-						"172|Rank 1", -- [1]
-						"6222|Rank 2", -- [2]
-						"980|Rank 1", -- [3]
-						"1014|Rank 2", -- [4]
-						"702|Rank 1", -- [5]
-						"1108|Rank 2", -- [6]
-						"689|Rank 1", -- [7]
-						"1120|Rank 1", -- [8]
-						"5782|Rank 1", -- [9]
-						"1454|Rank 1", -- [10]
-						"1455|Rank 2", -- [11]
+					["Frost"] = {
+						"59921|Passive", -- [1]
+						"45477|Rank 1", -- [2]
+						"61455|Passive", -- [3]
 					},
 					["General"] = {
-						"28877|Racial Passive", -- [1]
-						"28730|Racial", -- [2]
-						"6603|", -- [3]
-						"818|", -- [4]
-						"2550|Apprentice", -- [5]
-						"13262|", -- [6]
-						"81|Passive", -- [7]
-						"7412|Journeyman", -- [8]
-						"3273|Apprentice", -- [9]
-						"7731|Journeyman", -- [10]
-						"822|Racial Passive", -- [11]
-						"5019|", -- [12]
-						"3909|Journeyman", -- [13]
+						"6603|", -- [1]
+						"20574|Racial Passive", -- [2]
+						"20572|Racial", -- [3]
+						"54562|Racial Passive", -- [4]
+						"81|Passive", -- [5]
+						"674|Passive", -- [6]
+						"10846|Artisan", -- [7]
+						"20573|Racial Passive", -- [8]
+						"3127|Passive", -- [9]
 					},
-					["Destruction"] = {
-						"348|Rank 1", -- [1]
-						"707|Rank 2", -- [2]
-						"5676|Rank 1", -- [3]
-						"686|Rank 1", -- [4]
-						"695|Rank 2", -- [5]
-						"705|Rank 3", -- [6]
+					["Blood"] = {
+						"48266|", -- [1]
+						"45902|Rank 1", -- [2]
+						"49410|Passive", -- [3]
 					},
 				},
 			},
@@ -465,40 +446,59 @@ DataStore_SpellsDB = {
 					},
 				},
 			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["lastUpdate"] = 1451300494,
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1451257482,
 				["Spells"] = {
-					["Unholy"] = {
-						"59879|Passive", -- [1]
-						"47541|Rank 1", -- [2]
-						"49576|", -- [3]
-						"45462|Rank 1", -- [4]
-					},
-					["Frost"] = {
-						"59921|Passive", -- [1]
-						"45477|Rank 1", -- [2]
-						"61455|Passive", -- [3]
+					["Demonology"] = {
+						"6201|Rank 1", -- [1]
+						"693|Rank 1", -- [2]
+						"687|Rank 1", -- [3]
+						"696|Rank 2", -- [4]
+						"755|Rank 1", -- [5]
+						"688|Summon", -- [6]
+						"697|Summon", -- [7]
+						"5697|", -- [8]
 					},
 					["General"] = {
-						"6603|", -- [1]
-						"20574|Racial Passive", -- [2]
-						"20572|Racial", -- [3]
-						"54562|Racial Passive", -- [4]
-						"81|Passive", -- [5]
-						"674|Passive", -- [6]
-						"10846|Artisan", -- [7]
-						"20573|Racial Passive", -- [8]
-						"3127|Passive", -- [9]
+						"28877|Racial Passive", -- [1]
+						"28730|Racial", -- [2]
+						"6603|", -- [3]
+						"818|", -- [4]
+						"2550|Apprentice", -- [5]
+						"13262|", -- [6]
+						"81|Passive", -- [7]
+						"7412|Journeyman", -- [8]
+						"3273|Apprentice", -- [9]
+						"7731|Journeyman", -- [10]
+						"822|Racial Passive", -- [11]
+						"5019|", -- [12]
+						"3909|Journeyman", -- [13]
 					},
-					["Blood"] = {
-						"48266|", -- [1]
-						"45902|Rank 1", -- [2]
-						"49410|Passive", -- [3]
+					["Destruction"] = {
+						"348|Rank 1", -- [1]
+						"707|Rank 2", -- [2]
+						"5676|Rank 1", -- [3]
+						"686|Rank 1", -- [4]
+						"695|Rank 2", -- [5]
+						"705|Rank 3", -- [6]
+					},
+					["Affliction"] = {
+						"172|Rank 1", -- [1]
+						"6222|Rank 2", -- [2]
+						"980|Rank 1", -- [3]
+						"1014|Rank 2", -- [4]
+						"702|Rank 1", -- [5]
+						"1108|Rank 2", -- [6]
+						"689|Rank 1", -- [7]
+						"1120|Rank 1", -- [8]
+						"5782|Rank 1", -- [9]
+						"1454|Rank 1", -- [10]
+						"1455|Rank 2", -- [11]
 					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451480858,
+				["lastUpdate"] = 1451481089,
 				["Spells"] = {
 					["Shadow Magic"] = {
 						"589|Rank 1", -- [1]

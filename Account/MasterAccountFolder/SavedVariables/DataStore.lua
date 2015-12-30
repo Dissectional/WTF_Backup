@@ -9,10 +9,10 @@ DataStoreDB = {
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
@@ -53,15 +53,15 @@ DataStoreDB = {
 				["guildName"] = "Bloody Oath",
 				["faction"] = "Horde",
 			},
-			["Default.TrueWoW.Lichmydk"] = {
+			["Default.TrueWoW.Ellipsis"] = {
+				["guildName"] = "Slash Gee Quit",
 				["faction"] = "Horde",
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Slash Gee Quit",
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["guildName"] = "Slash Gee Quit",
+			["Default.TrueWoW.Lichmydk"] = {
 				["faction"] = "Horde",
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
