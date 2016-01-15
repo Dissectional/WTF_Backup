@@ -2,10 +2,27 @@
 SilverDragon2DB = {
 	["namespaces"] = {
 		["ClickTarget"] = {
+			["profiles"] = {
+				["Default"] = {
+					["camera"] = 1,
+					["sources"] = {
+						["target"] = true,
+					},
+				},
+				["Mittens - PrimalWoW (Progressive)"] = {
+					["sources"] = {
+						["target"] = true,
+					},
+					["camera"] = 1,
+				},
+			},
 		},
 		["LDB"] = {
 			["profiles"] = {
 				["Shiftace - TrueWoW"] = {
+					["show_lastseen"] = true,
+				},
+				["Mittens - PrimalWoW (Progressive)"] = {
 					["show_lastseen"] = true,
 				},
 			},
@@ -17,6 +34,12 @@ SilverDragon2DB = {
 				["Shiftace - TrueWoW"] = {
 					["sink_opts"] = {
 						["sink20OutputSink"] = "RaidWarning",
+					},
+				},
+				["Mittens - PrimalWoW (Progressive)"] = {
+					["sink_opts"] = {
+						["sink20OutputSink"] = "MikSBT",
+						["sink20ScrollArea"] = "Party",
 					},
 				},
 			},
@@ -178,15 +201,16 @@ SilverDragon2DB = {
 			["Doomsayer Jurim"] = 64,
 			["Lady Moongazer"] = 17,
 			["Fenissa the Assassin"] = 18,
+			["Gnarl Leafbrother"] = 44,
 			["Pridewing Patriarch"] = 25,
 			["Collidus the Warp-Watcher"] = 68,
 			["Deathsworn Captain"] = 21,
-			["Voidhunter Yar"] = 68,
+			["Cranky Benj"] = 32,
 			["Foreman Rigger"] = 24,
 			["Shanda the Spinner"] = 19,
 			["Achellios the Banished"] = 31,
-			["Cranky Benj"] = 32,
-			["Flagglemurk the Cruel"] = 16,
+			["Voidhunter Yar"] = 68,
+			["Creepthess"] = 24,
 			["Digger Flameforge"] = 24,
 			["Lady Sesspira"] = 51,
 			["Kazon"] = 27,
@@ -195,29 +219,29 @@ SilverDragon2DB = {
 			["Brack"] = 19,
 			["Faulty War Golem"] = 46,
 			["Ravage"] = 51,
-			["Creepthess"] = 24,
+			["Scargil"] = 30,
 			["Taskmaster Whipfang"] = 22,
 			["Jalinde Summerdrake"] = 49,
 			["Vigdis the War Maiden"] = 71,
-			["Scargil"] = 30,
+			["Tamra Stormpike"] = 28,
 			["Nal'taszar"] = 30,
 			["Shadikith the Glider"] = 73,
-			["Tamra Stormpike"] = 28,
+			["Thora Feathermoon"] = 25,
 			["Panzor the Invincible"] = 56,
 			["Brimgore"] = 41,
-			["Time-Lost Proto Drake"] = 80,
 			["Watch Commander Zalaphil"] = 9,
 			["Lady Hederine"] = 61,
+			["Scarlet Interrogator"] = 61,
 			["Scarlet Judge"] = 60,
-			["Threggil"] = 6,
-			["Gondria"] = 77,
 			["General Colbatann"] = 57,
+			["Gondria"] = 77,
 			["Mezzir the Howler"] = 55,
-			["Rumbler"] = 45,
 			["Grizzle Snowpaw"] = 59,
-			["Dreadscorn"] = 57,
-			["Brokespear"] = 17,
+			["Rumbler"] = 45,
+			["Kashoch the Reaver"] = 60,
 			["Razortalon"] = 44,
+			["Brokespear"] = 17,
+			["Deviate Faerie Dragon"] = 19,
 			["Antilus the Soarer"] = 48,
 			["Hed'mush the Rotting"] = 57,
 			["Siege Golem"] = 40,
@@ -236,9 +260,9 @@ SilverDragon2DB = {
 			["Rippa"] = 44,
 			["Ragepaw"] = 51,
 			["Goretooth"] = 65,
-			["Skoll"] = 80,
-			["Swiftmane"] = 21,
 			["Vultros"] = 26,
+			["Swiftmane"] = 21,
+			["Skoll"] = 80,
 			["Lord Condar"] = 16,
 			["Dalaran Spellscribe"] = 21,
 			["Lord Sakrasis"] = 45,
@@ -249,8 +273,8 @@ SilverDragon2DB = {
 			["Gluggle"] = 37,
 			["Ever-Core the Punisher"] = 68,
 			["Narg the Taskmaster"] = 10,
-			["Big Samras"] = 27,
 			["Oozeworm"] = 38,
+			["Big Samras"] = 27,
 			["Accursed Slitherblade"] = 35,
 			["Magister Hawkhelm"] = 52,
 			["Great Father Arctikus"] = 11,
@@ -264,10 +288,10 @@ SilverDragon2DB = {
 			["Terrowulf Packlord"] = 32,
 			["Lapress"] = 60,
 			["Hyakiss the Lurker"] = 73,
-			["Aean Swiftriver"] = 22,
+			["Bloodroar the Stalker"] = 48,
 			["Felweaver Scornn"] = 11,
 			["Molok the Crusher"] = 39,
-			["Bloodroar the Stalker"] = 48,
+			["Aean Swiftriver"] = 22,
 			["Gilmorian"] = 43,
 			["Anathemus"] = 45,
 			["Dirkee"] = 80,
@@ -282,8 +306,8 @@ SilverDragon2DB = {
 			["Veyzhak the Cannibal"] = 48,
 			["Azurous"] = 59,
 			["Heggin Stonewhisker"] = 24,
-			["Magosh"] = 21,
-			["Takk the Leaper"] = 19,
+			["Arcturis"] = 74,
+			["Molt Thorn"] = 42,
 			["Sentinel Amarassan"] = 27,
 			["Sludginn"] = 30,
 			["Scarlet Smith"] = 59,
@@ -305,8 +329,8 @@ SilverDragon2DB = {
 			["Foreman Marcrid"] = 58,
 			["Lady Szallah"] = 46,
 			["Foe Reaper 4000"] = 20,
-			["Spirestone Lord Magus"] = 58,
 			["Kaskk"] = 40,
+			["Spirestone Lord Magus"] = 58,
 			["Deeb"] = 12,
 			["Scald"] = 49,
 			["Ursol'lok"] = 31,
@@ -325,7 +349,7 @@ SilverDragon2DB = {
 			["Clack the Reaver"] = 53,
 			["Singer"] = 34,
 			["Magronos the Unyielding"] = 56,
-			["Scalebeard"] = 52,
+			["Bayne"] = 10,
 			["Mazzranache"] = 9,
 			["Warlord Thresh'jin"] = 58,
 			["Seeker Aqualon"] = 21,
@@ -371,7 +395,7 @@ SilverDragon2DB = {
 			["Leprithus"] = 19,
 			["Duggan Wildhammer"] = 55,
 			["Gruff"] = 57,
-			["Bayne"] = 10,
+			["Scalebeard"] = 52,
 			["Shadowforge Commander"] = 40,
 			["Jade"] = 47,
 			["Mojo the Twisted"] = 48,
@@ -389,8 +413,8 @@ SilverDragon2DB = {
 			["Silithid Harvester"] = 24,
 			["Hahk'Zor"] = 54,
 			["Hammerspine"] = 12,
-			["Molt Thorn"] = 42,
-			["Arcturis"] = 74,
+			["Takk the Leaper"] = 19,
+			["Magosh"] = 21,
 			["Darkmist Widow"] = 38,
 			["Sorrow Wing"] = 27,
 			["Bannok Grimaxe"] = 59,
@@ -418,18 +442,18 @@ SilverDragon2DB = {
 			["Crystal Fang"] = 60,
 			["Sludge Beast"] = 19,
 			["Ruul Onestone"] = 39,
-			["Gnarl Leafbrother"] = 44,
+			["Dreadscorn"] = 57,
 			["Timber"] = 10,
-			["Kashoch the Reaver"] = 60,
 			["Dragonmaw Battlemaster"] = 25,
 			["Thunderstomp"] = 24,
+			["Threggil"] = 6,
 			["Garneg Charskull"] = 29,
-			["Scarlet Interrogator"] = 61,
 			["Humar the Pridelord"] = 23,
+			["Time-Lost Proto Drake"] = 80,
 			["Crippler"] = 65,
 			["Naraxis"] = 27,
-			["Thora Feathermoon"] = 25,
 			["Lost One Cook"] = 37,
+			["Flagglemurk the Cruel"] = 16,
 			["Licillin"] = 14,
 			["Smoldar"] = 50,
 			["Death Howl"] = 49,
@@ -646,9 +670,9 @@ SilverDragon2DB = {
 			["Rippa"] = 14490,
 			["Ragepaw"] = 14342,
 			["Goretooth"] = 17144,
-			["Skoll"] = 35189,
-			["Swiftmane"] = 5831,
 			["Vultros"] = 462,
+			["Swiftmane"] = 5831,
+			["Skoll"] = 35189,
 			["Lord Condar"] = 14268,
 			["Dalaran Spellscribe"] = 1920,
 			["Lord Sakrasis"] = 2541,
@@ -659,8 +683,8 @@ SilverDragon2DB = {
 			["Gluggle"] = 14487,
 			["Ever-Core the Punisher"] = 18698,
 			["Narg the Taskmaster"] = 79,
-			["Big Samras"] = 14280,
 			["Oozeworm"] = 14237,
+			["Big Samras"] = 14280,
 			["Accursed Slitherblade"] = 14229,
 			["Magister Hawkhelm"] = 6647,
 			["Great Father Arctikus"] = 1260,
@@ -674,10 +698,10 @@ SilverDragon2DB = {
 			["Terrowulf Packlord"] = 3792,
 			["Lapress"] = 14473,
 			["Hyakiss the Lurker"] = 16179,
-			["Aean Swiftriver"] = 5797,
+			["Bloodroar the Stalker"] = 5346,
 			["Felweaver Scornn"] = 5822,
 			["Molok the Crusher"] = 2604,
-			["Bloodroar the Stalker"] = 5346,
+			["Aean Swiftriver"] = 5797,
 			["Gilmorian"] = 14447,
 			["Anathemus"] = 2754,
 			["Dirkee"] = 32500,
@@ -692,8 +716,8 @@ SilverDragon2DB = {
 			["Veyzhak the Cannibal"] = 5399,
 			["Azurous"] = 10202,
 			["Heggin Stonewhisker"] = 5847,
-			["Magosh"] = 1399,
-			["Takk the Leaper"] = 5842,
+			["Arcturis"] = 38453,
+			["Molt Thorn"] = 14448,
 			["Sentinel Amarassan"] = 5916,
 			["Sludginn"] = 14433,
 			["Scarlet Smith"] = 1885,
@@ -715,8 +739,8 @@ SilverDragon2DB = {
 			["Foreman Marcrid"] = 1844,
 			["Lady Szallah"] = 5343,
 			["Foe Reaper 4000"] = 573,
-			["Spirestone Lord Magus"] = 9217,
 			["Kaskk"] = 14226,
+			["Spirestone Lord Magus"] = 9217,
 			["Deeb"] = 1911,
 			["Scald"] = 8281,
 			["Ursol'lok"] = 12037,
@@ -735,7 +759,7 @@ SilverDragon2DB = {
 			["Clack the Reaver"] = 8301,
 			["Singer"] = 2600,
 			["Magronos the Unyielding"] = 8297,
-			["Scalebeard"] = 13896,
+			["Bayne"] = 10356,
 			["Mazzranache"] = 3068,
 			["Warlord Thresh'jin"] = 10822,
 			["Seeker Aqualon"] = 14269,
@@ -781,7 +805,7 @@ SilverDragon2DB = {
 			["Leprithus"] = 572,
 			["Duggan Wildhammer"] = 10817,
 			["Gruff"] = 6583,
-			["Bayne"] = 10356,
+			["Scalebeard"] = 13896,
 			["Shadowforge Commander"] = 2744,
 			["Jade"] = 1063,
 			["Mojo the Twisted"] = 8296,
@@ -799,8 +823,8 @@ SilverDragon2DB = {
 			["Silithid Harvester"] = 3253,
 			["Hahk'Zor"] = 9602,
 			["Hammerspine"] = 1119,
-			["Molt Thorn"] = 14448,
-			["Arcturis"] = 38453,
+			["Takk the Leaper"] = 5842,
+			["Magosh"] = 1399,
 			["Darkmist Widow"] = 4380,
 			["Sorrow Wing"] = 5928,
 			["Bannok Grimaxe"] = 9596,
@@ -981,12 +1005,12 @@ SilverDragon2DB = {
 				["Clack the Reaver"] = 0,
 			},
 			["Mulgore"] = {
-				["Enforcer Emilgund"] = 1451037332,
-				["Ghost Howl"] = 1451037325,
-				["Mazzranache"] = 0,
+				["Enforcer Emilgund"] = 1451885017,
+				["Ghost Howl"] = 1451885047,
+				["Mazzranache"] = 1451692061,
 				["The Rake"] = 1451037484,
-				["Snagglespear"] = 0,
 				["Sister Hatelash"] = 0,
+				["Snagglespear"] = 1451973586,
 			},
 			["Felwood"] = {
 				["Ragepaw"] = 0,
@@ -995,13 +1019,13 @@ SilverDragon2DB = {
 				["Mongress"] = 0,
 				["Alshirr Banebreath"] = 0,
 				["Immolatus"] = 0,
-				["Death Howl"] = 0,
 				["Dessecus"] = 0,
+				["Death Howl"] = 0,
 			},
 			["Silverpine"] = {
 				["Snarlmane"] = 0,
-				["Gorefang"] = 0,
-				["Old Vicejaw"] = 0,
+				["Gorefang"] = 1451897088,
+				["Old Vicejaw"] = 1452507871,
 				["Rot Hide Bruiser"] = 0,
 				["Krethis Shadowspinner"] = 0,
 				["Dalaran Spellscribe"] = 0,
@@ -1012,7 +1036,7 @@ SilverDragon2DB = {
 				["Eldinarcus"] = 1451112923,
 			},
 			["Shadowfang Keep"] = {
-				["Deathsworn Captain"] = 0,
+				["Deathsworn Captain"] = 1452826468,
 			},
 			["Wetlands"] = {
 				["Sludginn"] = 0,
@@ -1086,8 +1110,8 @@ SilverDragon2DB = {
 				["Flagglemurk the Cruel"] = 0,
 				["Strider Clutchmother"] = 0,
 				["Shadowclaw"] = 0,
-				["Lady Moongazer"] = 0,
 				["Licillin"] = 0,
+				["Lady Moongazer"] = 0,
 				["Lord Sinslayer"] = 0,
 				["Lady Vespira"] = 0,
 				["Firecaller Radison"] = 0,
@@ -1111,16 +1135,17 @@ SilverDragon2DB = {
 				["Nimar the Slayer"] = 0,
 			},
 			["Durotar"] = {
-				["Death Flayer"] = 1450857029,
-				["Watch Commander Zalaphil"] = 0,
-				["Captain Flat Tusk"] = 1450857013,
-				["Warlord Kolkanis"] = 0,
-				["Geolord Mottle"] = 1450861630,
-				["Felweaver Scornn"] = 1451091134,
+				["Death Flayer"] = 1451783897,
+				["Watch Commander Zalaphil"] = 1451865612,
+				["Captain Flat Tusk"] = 1451712764,
+				["Warlord Kolkanis"] = 1451711865,
+				["Geolord Mottle"] = 1451868795,
+				["Felweaver Scornn"] = 1451873381,
 			},
 			["Wailing Caverns"] = {
 				["Trigore the Lasher"] = 0,
 				["Boahn"] = 0,
+				["Deviate Faerie Dragon"] = 1452820629,
 			},
 			["SwampOfSorrows"] = {
 				["Fingat"] = 0,
@@ -1170,10 +1195,10 @@ SilverDragon2DB = {
 				["Achellios the Banished"] = 0,
 				["Gibblesnik"] = 0,
 			},
-			["Zangarmarsh"] = {
-				["Marticar"] = 0,
-				["Coilfang Emissary"] = 0,
-				["Bog Lurker"] = 0,
+			["TerokkarForest"] = {
+				["Crippler"] = 0,
+				["Okrek"] = 0,
+				["Doomsayer Jurim"] = 0,
 			},
 			["Uldaman"] = {
 				["Digmaster Shovelphlange"] = 0,
@@ -1181,28 +1206,29 @@ SilverDragon2DB = {
 			["Ghostlands"] = {
 				["Dr. Whitherlimb"] = 1451292774,
 			},
-			["TerokkarForest"] = {
-				["Crippler"] = 0,
-				["Okrek"] = 0,
-				["Doomsayer Jurim"] = 0,
+			["Zangarmarsh"] = {
+				["Marticar"] = 0,
+				["Coilfang Emissary"] = 0,
+				["Bog Lurker"] = 0,
 			},
 			["Barrens"] = {
 				["Humar the Pridelord"] = 1451203054,
 				["Digger Flameforge"] = 0,
-				["Rathorian"] = 0,
+				["Elder Mystic Razorsnout"] = 1451906779,
+				["Boahn"] = 1451890199,
 				["Ambassador Bloodrage"] = 0,
-				["Stonearm"] = 0,
+				["Stonearm"] = 1452808826,
 				["Brokespear"] = 0,
 				["Heggin Stonewhisker"] = 0,
-				["Gesharahan"] = 0,
-				["Engineer Whirleygig"] = 0,
+				["Gesharahan"] = 1451887305,
+				["Engineer Whirleygig"] = 1451734104,
 				["Swiftmane"] = 1451203051,
 				["Geopriest Gukk'rok"] = 0,
-				["Elder Mystic Razorsnout"] = 0,
-				["Rocklance"] = 0,
-				["Sludge Beast"] = 0,
+				["Rathorian"] = 0,
+				["Sister Rathtalon"] = 0,
+				["Sludge Beast"] = 1451734100,
 				["Hagg Taurenbane"] = 0,
-				["Foreman Grills"] = 0,
+				["Foreman Grills"] = 1451803744,
 				["Malgin Barleybrew"] = 0,
 				["Swinegart Spearhide"] = 0,
 				["Silithid Harvester"] = 0,
@@ -1214,10 +1240,17 @@ SilverDragon2DB = {
 				["Aean Swiftriver"] = 0,
 				["Captain Gerogg Hammertoe"] = 0,
 				["Hannah Bladeleaf"] = 0,
-				["Dishu"] = 0,
-				["Sister Rathtalon"] = 0,
-				["Takk the Leaper"] = 1450860991,
+				["Dishu"] = 1451731965,
+				["Rocklance"] = 1451774719,
+				["Takk the Leaper"] = 1451795681,
 				["Thora Feathermoon"] = 0,
+			},
+			["UngoroCrater"] = {
+				["Gruff"] = 0,
+				["King Mosh"] = 0,
+				["Uhk'loc"] = 0,
+				["Clutchmother Zavas"] = 0,
+				["Ravasaur Matriarch"] = 0,
 			},
 			["Feralas"] = {
 				["Qirot"] = 0,
@@ -1227,16 +1260,9 @@ SilverDragon2DB = {
 				["Gnarl Leafbrother"] = 0,
 				["Arash-ethis"] = 0,
 				["Snarler"] = 0,
-				["Lady Szallah"] = 0,
-				["The Razza"] = 0,
 				["Old Grizzlegut"] = 0,
-			},
-			["UngoroCrater"] = {
-				["Gruff"] = 0,
-				["King Mosh"] = 0,
-				["Uhk'loc"] = 0,
-				["Clutchmother Zavas"] = 0,
-				["Ravasaur Matriarch"] = 0,
+				["The Razza"] = 0,
+				["Lady Szallah"] = 0,
 			},
 			["ShadowmoonValley"] = {
 				["Collidus the Warp-Watcher"] = 0,
@@ -1300,15 +1326,15 @@ SilverDragon2DB = {
 				["Fury Shelda"] = 0,
 			},
 			["Tirisfal"] = {
-				["Deeb"] = 0,
+				["Deeb"] = 1451721004,
 				["Bayne"] = 1451469899,
-				["Fellicent's Shade"] = 0,
-				["Tormented Spirit"] = 0,
+				["Fellicent's Shade"] = 1451725256,
+				["Tormented Spirit"] = 1451724228,
 				["Farmer Solliden"] = 1451469127,
 				["Muad"] = 0,
-				["Sri'skulk"] = 0,
+				["Sri'skulk"] = 1451735738,
 				["Ressan the Needler"] = 0,
-				["Lost Soul"] = 1451470473,
+				["Lost Soul"] = 1452762993,
 			},
 			["Hellfire"] = {
 				["Fulgorge"] = 0,
@@ -1561,119 +1587,120 @@ SilverDragon2DB = {
 			["Vigdis the War Maiden"] = "Humanoid",
 			["Nal'taszar"] = "Dragonkin",
 			["Shadikith the Glider"] = "Beast",
-			["Darkmist Widow"] = "Beast",
+			["Scald"] = "Elemental",
 			["Scarlet Judge"] = "Humanoid",
+			["Darkmist Widow"] = "Beast",
 			["Gondria"] = "Beast",
-			["Voidhunter Yar"] = "Demon",
 			["Cranky Benj"] = "Beast",
+			["Scarlet Interrogator"] = "Humanoid",
 			["Boahn"] = "Humanoid",
-			["Ro'Bark"] = "Humanoid",
 			["Creepthess"] = "Beast",
+			["Gatekeeper Rageroar"] = "Humanoid",
 			["Brokespear"] = "Humanoid",
+			["Deviate Faerie Dragon"] = "Dragonkin",
+			["Ro'Bark"] = "Humanoid",
 			["Antilus the Soarer"] = "Beast",
 			["Scargil"] = "Humanoid",
 			["Tamra Stormpike"] = "Humanoid",
-			["Panzor the Invincible"] = "Elemental",
-			["Old Crystalbark"] = "Elemental",
 			["Rathorian"] = "Demon",
 			["Rocklance"] = "Humanoid",
-			["Time-Lost Proto Drake"] = "Dragonkin",
+			["Panzor the Invincible"] = "Elemental",
 			["Fury Shelda"] = "Humanoid",
-			["Rippa"] = "Beast",
+			["Old Crystalbark"] = "Elemental",
 			["Prince Nazjak"] = "Humanoid",
 			["Gretheer"] = "Beast",
-			["Lady Hederine"] = "Demon",
+			["Time-Lost Proto Drake"] = "Dragonkin",
 			["Marticar"] = "Beast",
 			["Hayoc"] = "Beast",
 			["Mugglefin"] = "Humanoid",
-			["Watch Commander Zalaphil"] = "Humanoid",
-			["Ragepaw"] = "Humanoid",
+			["Rippa"] = "Beast",
+			["Oakpaw"] = "Humanoid",
 			["Goretooth"] = "Beast",
-			["Mezzir the Howler"] = "Humanoid",
+			["Lady Hederine"] = "Demon",
 			["Swiftmane"] = "Beast",
 			["Skoll"] = "Beast",
 			["Lord Condar"] = "Beast",
 			["Thuros Lightfingers"] = "Humanoid",
-			["Akkrilus"] = "Demon",
+			["Watch Commander Zalaphil"] = "Humanoid",
 			["Lord Sakrasis"] = "Humanoid",
+			["Vultros"] = "Beast",
+			["Gnarl Leafbrother"] = "Elemental",
 			["Grizzle Snowpaw"] = "Humanoid",
-			["Master Digger"] = "Humanoid",
-			["Foreman Jerris"] = "Humanoid",
 			["Gluggle"] = "Humanoid",
 			["Ever-Core the Punisher"] = "Elemental",
 			["Narg the Taskmaster"] = "Humanoid",
-			["Big Samras"] = "Beast",
+			["Master Digger"] = "Humanoid",
 			["Oozeworm"] = "Beast",
-			["Shadowclaw"] = "Beast",
+			["Foreman Jerris"] = "Humanoid",
 			["Magister Hawkhelm"] = "Humanoid",
-			["Rorgish Jowl"] = "Humanoid",
+			["Shadowclaw"] = "Beast",
 			["Lady Zephris"] = "Humanoid",
 			["Nerubian Overseer"] = "Undead",
 			["Snagglespear"] = "Humanoid",
-			["Ghok Bashguud"] = "Humanoid",
+			["Ghost Howl"] = "Beast",
 			["Warder Stilgiss"] = "Humanoid",
 			["Silithid Ravager"] = "Beast",
-			["Firecaller Radison"] = "Humanoid",
+			["Ghok Bashguud"] = "Humanoid",
 			["Terrowulf Packlord"] = "Humanoid",
-			["Marcus Bel"] = "Humanoid",
+			["Varo'then's Ghost"] = "Undead",
 			["Hyakiss the Lurker"] = "Beast",
-			["Bloodroar the Stalker"] = "Humanoid",
+			["Firecaller Radison"] = "Humanoid",
 			["Felweaver Scornn"] = "Humanoid",
 			["Molok the Crusher"] = "Humanoid",
 			["Aean Swiftriver"] = "Humanoid",
 			["Gilmorian"] = "Humanoid",
-			["Lapress"] = "Beast",
+			["Bloodroar the Stalker"] = "Humanoid",
 			["Dirkee"] = "Mechanical",
+			["Twilight Lord Everun"] = "Humanoid",
 			["Prince Kellen"] = "Demon",
 			["Ambassador Bloodrage"] = "Undead",
 			["Magronos the Unyielding"] = "Humanoid",
 			["Accursed Slitherblade"] = "Humanoid",
-			["Death Flayer"] = "Beast",
 			["Setis"] = "Humanoid",
 			["Kurmokk"] = "Beast",
 			["Large Loch Crocolisk"] = "Beast",
-			["Molt Thorn"] = "Elemental",
+			["Death Flayer"] = "Beast",
 			["Azurous"] = "Dragonkin",
 			["Heggin Stonewhisker"] = "Humanoid",
-			["Magosh"] = "Humanoid",
+			["Arcturis"] = "Beast",
 			["Takk the Leaper"] = "Beast",
+			["Molt Thorn"] = "Elemental",
 			["Boulderheart"] = "Giant",
-			["Blackmoss the Fetid"] = "Elemental",
 			["Scarlet Smith"] = "Humanoid",
 			["Eldinarcus"] = "Elemental",
 			["Edan the Howler"] = "Humanoid",
-			["Threggil"] = "Demon",
+			["Blackmoss the Fetid"] = "Elemental",
 			["Dart"] = "Beast",
 			["Malgin Barleybrew"] = "Humanoid",
 			["King Krush"] = "Beast",
+			["Threggil"] = "Demon",
 			["Sentinel Amarassan"] = "Humanoid",
 			["Singer"] = "Humanoid",
 			["Syreian the Bonecarver"] = "Humanoid",
-			["Squiddic"] = "Humanoid",
 			["Leech Widow"] = "Beast",
 			["Geomancer Flintdagger"] = "Humanoid",
-			["Thauris Balgarr"] = "Humanoid",
+			["Squiddic"] = "Humanoid",
 			["Mirelow"] = "Elemental",
 			["Gish the Unmoving"] = "Undead",
 			["Foreman Marcrid"] = "Humanoid",
-			["Lady Szallah"] = "Humanoid",
+			["Broken Tooth"] = "Beast",
 			["Foe Reaper 4000"] = "Mechanical",
-			["Monnos the Elder"] = "Giant",
+			["Lady Szallah"] = "Humanoid",
+			["Kaskk"] = "Demon",
 			["Spirestone Lord Magus"] = "Humanoid",
 			["Deathmaw"] = "Beast",
 			["Dragonmaw Battlemaster"] = "Humanoid",
-			["Brimgore"] = "Dragonkin",
 			["Vile Sting"] = "Beast",
 			["Lady Vespia"] = "Humanoid",
-			["Hahk'Zor"] = "Humanoid",
+			["Brimgore"] = "Dragonkin",
 			["Greater Firebird"] = "Beast",
-			["Thora Feathermoon"] = "Humanoid",
+			["Hahk'Zor"] = "Humanoid",
 			["The Rake"] = "Beast",
-			["Burning Felguard"] = "Demon",
-			["Mekthorg the Wild"] = "Humanoid",
+			["Shadowforge Commander"] = "Humanoid",
+			["Thora Feathermoon"] = "Humanoid",
 			["Hemathion"] = "Dragonkin",
+			["Mekthorg the Wild"] = "Humanoid",
 			["Vorakem Doomspeaker"] = "Demon",
-			["Rekk'tilac"] = "Beast",
 			["Deatheye"] = "Beast",
 			["Foulbelly"] = "Humanoid",
 			["Mist Howler"] = "Beast",
@@ -1685,95 +1712,95 @@ SilverDragon2DB = {
 			["Clack the Reaver"] = "Beast",
 			["Okrek"] = "Humanoid",
 			["The Husk"] = "Elemental",
-			["Sri'skulk"] = "Beast",
+			["High Thane Jorfus"] = "Undead",
 			["Hannah Bladeleaf"] = "Humanoid",
 			["Kraator"] = "Demon",
 			["Bro'Gaz the Clanless"] = "Humanoid",
 			["Old Vicejaw"] = "Beast",
-			["Mojo the Twisted"] = "Humanoid",
+			["Deathsworn Captain"] = "Undead",
 			["Ribchaser"] = "Humanoid",
-			["Thunderstomp"] = "Beast",
+			["Mojo the Twisted"] = "Humanoid",
 			["Crusty"] = "Beast",
-			["Zekkis"] = "Undead",
+			["Thunderstomp"] = "Beast",
 			["Cyclok the Mad"] = "Humanoid",
-			["Goraluk Anvilcrack"] = "Humanoid",
+			["Scale Belly"] = "Beast",
 			["Loque'nahak"] = "Beast",
 			["Ripscale"] = "Beast",
-			["Veyzhak the Cannibal"] = "Humanoid",
+			["Gibblewilt"] = "Humanoid",
 			["Warlord Thresh'jin"] = "Humanoid",
-			["Ambassador Jerrikar"] = "Demon",
+			["Veyzhak the Cannibal"] = "Humanoid",
 			["Gnawbone"] = "Humanoid",
-			["Bjarn"] = "Beast",
+			["Morcrush"] = "Giant",
 			["Geolord Mottle"] = "Humanoid",
+			["Bjarn"] = "Beast",
 			["Nimar the Slayer"] = "Humanoid",
-			["Gibblesnik"] = "Humanoid",
 			["Captain Flat Tusk"] = "Humanoid",
 			["Rumbler"] = "Elemental",
-			["Great Father Arctikus"] = "Humanoid",
+			["Mazzranache"] = "Beast",
 			["Haarka the Ravenous"] = "Beast",
 			["Swinegart Spearhide"] = "Humanoid",
-			["Chatter"] = "Beast",
+			["Great Father Arctikus"] = "Humanoid",
 			["Highlord Mastrogonde"] = "Humanoid",
 			["High General Abbendis"] = "Humanoid",
-			["Mazzranache"] = "Beast",
+			["Chatter"] = "Beast",
 			["Lady Vespira"] = "Humanoid",
 			["Captain Gerogg Hammertoe"] = "Humanoid",
-			["Morcrush"] = "Giant",
+			["Gibblesnik"] = "Humanoid",
 			["7:XT"] = "Mechanical",
 			["Master Feardred"] = "Demon",
-			["Gibblewilt"] = "Humanoid",
+			["Ambassador Jerrikar"] = "Demon",
 			["Duggan Wildhammer"] = "Humanoid",
 			["Gruff"] = "Beast",
-			["Deathsworn Captain"] = "Undead",
-			["Scale Belly"] = "Beast",
+			["Zekkis"] = "Undead",
+			["Goraluk Anvilcrack"] = "Humanoid",
 			["Jade"] = "Dragonkin",
-			["High Thane Jorfus"] = "Undead",
+			["Sri'skulk"] = "Beast",
 			["Stonearm"] = "Humanoid",
 			["Gruff Swiftbite"] = "Humanoid",
 			["Tormented Spirit"] = "Undead",
 			["Harb Foulmountain"] = "Humanoid",
 			["Engineer Whirleygig"] = "Humanoid",
 			["Lord Angler"] = "Humanoid",
-			["Dreadscorn"] = "Humanoid",
+			["Rekk'tilac"] = "Beast",
 			["Perobas the Bloodthirster"] = "Humanoid",
+			["Dreadscorn"] = "Humanoid",
 			["Ursol'lok"] = "Beast",
-			["Oakpaw"] = "Humanoid",
+			["Burning Felguard"] = "Demon",
 			["Sorrow Wing"] = "Beast",
-			["Shadowforge Commander"] = "Humanoid",
 			["Eck'alom"] = "Elemental",
 			["Hammerspine"] = "Humanoid",
+			["Monnos the Elder"] = "Giant",
+			["Thauris Balgarr"] = "Humanoid",
 			["Gruklash"] = "Humanoid",
 			["General Colbatann"] = "Dragonkin",
-			["Kaskk"] = "Demon",
-			["Broken Tooth"] = "Beast",
 			["Bannok Grimaxe"] = "Humanoid",
 			["Brontus"] = "Beast",
 			["Hildana Deathstealer"] = "Undead",
-			["Scald"] = "Elemental",
 			["Skhowl"] = "Humanoid",
+			["Magosh"] = "Humanoid",
 			["Dalaran Spellscribe"] = "Humanoid",
 			["Fumblub Gearwind"] = "Mechanical",
 			["Dessecus"] = "Elemental",
-			["Arcturis"] = "Beast",
 			["Ravasaur Matriarch"] = "Beast",
 			["Uruson"] = "Humanoid",
 			["Muad"] = "Humanoid",
+			["Lapress"] = "Beast",
 			["Rohh the Silent"] = "Humanoid",
-			["Twilight Lord Everun"] = "Humanoid",
+			["Marcus Bel"] = "Humanoid",
 			["Volchan"] = "Giant",
 			["Sister Hatelash"] = "Humanoid",
-			["Varo'then's Ghost"] = "Undead",
 			["Giggler"] = "Beast",
 			["Humar the Pridelord"] = "Beast",
-			["Ghost Howl"] = "Beast",
+			["Big Samras"] = "Beast",
+			["Rorgish Jowl"] = "Humanoid",
 			["Ironeye the Invincible"] = "Beast",
 			["Lord Malathrom"] = "Undead",
 			["Crystal Fang"] = "Beast",
-			["Gatekeeper Rageroar"] = "Humanoid",
+			["Akkrilus"] = "Demon",
 			["Ruul Onestone"] = "Humanoid",
-			["Gnarl Leafbrother"] = "Elemental",
+			["Ragepaw"] = "Humanoid",
 			["Timber"] = "Beast",
-			["Vultros"] = "Beast",
+			["Mezzir the Howler"] = "Humanoid",
 			["Kashoch the Reaver"] = "Giant",
 			["Olm the Wise"] = "Beast",
 			["Garneg Charskull"] = "Humanoid",
@@ -1781,30 +1808,51 @@ SilverDragon2DB = {
 			["Siege Golem"] = "Elemental",
 			["Crippler"] = "Undead",
 			["Naraxis"] = "Beast",
-			["Scarlet Interrogator"] = "Humanoid",
 			["High Priestess Hai'watna"] = "Humanoid",
+			["Voidhunter Yar"] = "Demon",
 			["Licillin"] = "Demon",
 			["Smoldar"] = "Elemental",
 			["Death Howl"] = "Beast",
 			["Spiteflayer"] = "Beast",
 		},
 		["mob_count"] = {
-			["Lost Soul"] = 1,
-			["Enforcer Emilgund"] = 1,
+			["Enforcer Emilgund"] = 2,
+			["Deathsworn Captain"] = 4,
+			["Stonearm"] = 3,
+			["Tormented Spirit"] = 1,
+			["The Rake"] = 1,
+			["Elder Mystic Razorsnout"] = 1,
+			["Snagglespear"] = 3,
+			["Foreman Grills"] = 1,
 			["Tregla"] = 2,
 			["Bayne"] = 1,
-			["The Rake"] = 1,
-			["Geolord Mottle"] = 1,
-			["Dr. Whitherlimb"] = 6,
-			["Felweaver Scornn"] = 2,
-			["Farmer Solliden"] = 1,
-			["Takk the Leaper"] = 1,
-			["Death Flayer"] = 1,
-			["Swiftmane"] = 1,
-			["Captain Flat Tusk"] = 1,
-			["Eldinarcus"] = 1,
-			["Ghost Howl"] = 1,
+			["Fellicent's Shade"] = 1,
+			["Warlord Kolkanis"] = 1,
+			["Felweaver Scornn"] = 5,
+			["Death Flayer"] = 4,
+			["Gesharahan"] = 2,
+			["Sri'skulk"] = 1,
 			["Humar the Pridelord"] = 1,
+			["Boahn"] = 2,
+			["Deviate Faerie Dragon"] = 4,
+			["Farmer Solliden"] = 1,
+			["Takk the Leaper"] = 2,
+			["Ghost Howl"] = 3,
+			["Watch Commander Zalaphil"] = 3,
+			["Rocklance"] = 1,
+			["Sludge Beast"] = 1,
+			["Lost Soul"] = 4,
+			["Gorefang"] = 1,
+			["Engineer Whirleygig"] = 1,
+			["Eldinarcus"] = 1,
+			["Captain Flat Tusk"] = 2,
+			["Geolord Mottle"] = 2,
+			["Dr. Whitherlimb"] = 6,
+			["Swiftmane"] = 1,
+			["Dishu"] = 1,
+			["Deeb"] = 1,
+			["Mazzranache"] = 1,
+			["Old Vicejaw"] = 1,
 		},
 		["mob_elite"] = {
 			["Spirestone Lord Magus"] = true,
@@ -1826,76 +1874,77 @@ SilverDragon2DB = {
 			["Brimgore"] = true,
 			["Hannah Bladeleaf"] = true,
 			["Gesharahan"] = true,
+			["Putridus the Ancient"] = true,
 			["Icehorn"] = true,
 			["Gondria"] = true,
 			["King Mosh"] = true,
-			["Putridus the Ancient"] = true,
-			["Scarlet Highlord Daion"] = true,
 			["General Colbatann"] = true,
+			["Scarlet Highlord Daion"] = true,
+			["Monnos the Elder"] = true,
 			["Goraluk Anvilcrack"] = true,
 			["Loque'nahak"] = true,
 			["Time-Lost Proto Drake"] = true,
-			["Monnos the Elder"] = true,
 			["Emogg the Crusher"] = true,
+			["Syreian the Bonecarver"] = true,
 			["Putridius"] = true,
-			["Aotona"] = true,
 			["Lapress"] = true,
+			["Terror Spinner"] = true,
 			["Rocklance"] = true,
-			["Taskmaster Whipfang"] = true,
-			["Brother Ravenoak"] = true,
 			["Vile Sting"] = true,
+			["Brother Ravenoak"] = true,
+			["Zaricotl"] = true,
+			["Swinegart Spearhide"] = true,
 			["High General Abbendis"] = true,
 			["Rex Ashil"] = true,
-			["Skoll"] = true,
 			["Griegen"] = true,
-			["Foulbelly"] = true,
+			["Skoll"] = true,
 			["Highlord Mastrogonde"] = true,
 			["Nuramoc"] = true,
 			["Scarlet High Clerist"] = true,
-			["Panzor the Invincible"] = true,
+			["Foulbelly"] = true,
 			["Captain Gerogg Hammertoe"] = true,
 			["Swiftmane"] = true,
 			["Captain Flat Tusk"] = true,
-			["Hearthsinger Forresten"] = true,
+			["Panzor the Invincible"] = true,
 			["Crazed Indu'le Survivor"] = true,
-			["Elder Mystic Razorsnout"] = true,
-			["Gruff"] = true,
 			["Tamra Stormpike"] = true,
+			["Gruff"] = true,
+			["Hematos"] = true,
 			["Sister Riven"] = true,
 			["Verek"] = true,
-			["Hematos"] = true,
-			["Mith'rethis the Enchanter"] = true,
+			["Elder Mystic Razorsnout"] = true,
 			["Warleader Krazzilak"] = true,
+			["Setis"] = true,
 			["Kashoch the Reaver"] = true,
 			["Heartrazor"] = true,
 			["Zul'drak Sentinel"] = true,
 			["High Priestess Hai'watna"] = true,
-			["Hyakiss the Lurker"] = true,
-			["Perobas the Bloodthirster"] = true,
 			["Grimungous"] = true,
-			["Felweaver Scornn"] = true,
+			["Perobas the Bloodthirster"] = true,
+			["Hyakiss the Lurker"] = true,
 			["Anathemus"] = true,
+			["Bannok Grimaxe"] = true,
 			["Warder Stilgiss"] = true,
-			["Setis"] = true,
 			["Lady Hederine"] = true,
 			["Azurous"] = true,
+			["Hearthsinger Forresten"] = true,
 			["Marcus Bel"] = true,
 			["Immolatus"] = true,
-			["Jin'Zallah the Sandbringer"] = true,
-			["Bannok Grimaxe"] = true,
-			["Dessecus"] = true,
 			["King Ping"] = true,
-			["Thora Feathermoon"] = true,
+			["Mith'rethis the Enchanter"] = true,
+			["Dirkee"] = true,
+			["Hildana Deathstealer"] = true,
+			["The Razza"] = true,
 			["High Thane Jorfus"] = true,
 			["Scarlet Executioner"] = true,
 			["Fumblub Gearwind"] = true,
-			["The Razza"] = true,
+			["Dessecus"] = true,
 			["Humar the Pridelord"] = true,
-			["Zaricotl"] = true,
 			["Aean Swiftriver"] = true,
 			["Siege Golem"] = true,
+			["Thora Feathermoon"] = true,
 			["Rokad the Ravager"] = true,
-			["Dirkee"] = true,
+			["Jin'Zallah the Sandbringer"] = true,
 			["Volchan"] = true,
 			["Sister Hatelash"] = true,
 			["Miner Johnson"] = true,
@@ -1903,7 +1952,7 @@ SilverDragon2DB = {
 			["Takk the Leaper"] = true,
 			["Nerubian Overseer"] = true,
 			["Ironeye the Invincible"] = true,
-			["Hildana Deathstealer"] = true,
+			["Felweaver Scornn"] = true,
 			["Crystal Fang"] = true,
 			["Scarlet Interrogator"] = true,
 			["Ruul Onestone"] = true,
@@ -1915,12 +1964,12 @@ SilverDragon2DB = {
 			["Mushgog"] = true,
 			["Seething Hate"] = true,
 			["Ghok Bashguud"] = true,
-			["Swinegart Spearhide"] = true,
+			["Taskmaster Whipfang"] = true,
 			["Old Crystalbark"] = true,
-			["Terror Spinner"] = true,
+			["Aotona"] = true,
 			["Pyromancer Loregrain"] = true,
-			["Syreian the Bonecarver"] = true,
 			["Narillasanz"] = true,
+			["Deviate Faerie Dragon"] = true,
 			["Burning Felguard"] = true,
 			["Tukemuth"] = true,
 		},
@@ -1993,6 +2042,7 @@ SilverDragon2DB = {
 				46301800, -- [1]
 				46302570, -- [2]
 				59400770, -- [3]
+				59911089, -- [4]
 			},
 			["Bog Lurker"] = {
 				22502690, -- [1]
@@ -2068,6 +2118,7 @@ SilverDragon2DB = {
 				44204040, -- [1]
 				49103530, -- [2]
 				53104990, -- [3]
+				54004364, -- [4]
 			},
 			["Fingat"] = {
 				62108740, -- [1]
@@ -2488,6 +2539,7 @@ SilverDragon2DB = {
 			["Dishu"] = {
 				49402710, -- [1]
 				49601570, -- [2]
+				51361871, -- [3]
 			},
 			["Arash-ethis"] = {
 				38302170, -- [1]
@@ -2893,6 +2945,7 @@ SilverDragon2DB = {
 			},
 			["Rocklance"] = {
 				52904320, -- [1]
+				56414040, -- [2]
 			},
 			["General Colbatann"] = {
 				54605120, -- [1]
@@ -2957,6 +3010,16 @@ SilverDragon2DB = {
 				55702700, -- [4]
 				75007640, -- [5]
 			},
+			["Skoll"] = {
+				17301670, -- [1]
+				27805160, -- [2]
+				30206460, -- [3]
+				45506280, -- [4]
+				53702910, -- [5]
+			},
+			["Swiftmane"] = {
+				59903140, -- [1]
+			},
 			["Vultros"] = {
 				34906940, -- [1]
 				44305990, -- [2]
@@ -2970,16 +3033,6 @@ SilverDragon2DB = {
 				55802320, -- [10]
 				61607510, -- [11]
 				64105760, -- [12]
-			},
-			["Swiftmane"] = {
-				59903140, -- [1]
-			},
-			["Skoll"] = {
-				17301670, -- [1]
-				27805160, -- [2]
-				30206460, -- [3]
-				45506280, -- [4]
-				53702910, -- [5]
 			},
 			["Lord Condar"] = {
 				61207650, -- [1]
@@ -3141,6 +3194,7 @@ SilverDragon2DB = {
 			["Death Flayer"] = {
 				35305100, -- [1]
 				36305600, -- [2]
+				38685272, -- [3]
 			},
 			["Setis"] = {
 				19708250, -- [1]
@@ -3267,13 +3321,8 @@ SilverDragon2DB = {
 			["Geomancer Flintdagger"] = {
 				82903260, -- [1]
 			},
-			["Broken Tooth"] = {
-				43103800, -- [1]
-				43303210, -- [2]
-				48603390, -- [3]
-				53001990, -- [4]
-				53901480, -- [5]
-				61103120, -- [6]
+			["Lady Szallah"] = {
+				24907280, -- [1]
 			},
 			["Mirelow"] = {
 				19403110, -- [1]
@@ -3290,8 +3339,13 @@ SilverDragon2DB = {
 				43203500, -- [1]
 				48503180, -- [2]
 			},
-			["Lady Szallah"] = {
-				24907280, -- [1]
+			["Broken Tooth"] = {
+				43103800, -- [1]
+				43303210, -- [2]
+				48603390, -- [3]
+				53001990, -- [4]
+				53901480, -- [5]
+				61103120, -- [6]
 			},
 			["Foe Reaper 4000"] = {
 				38205080, -- [1]
@@ -3300,17 +3354,17 @@ SilverDragon2DB = {
 				51006770, -- [4]
 				63006040, -- [5]
 			},
-			["Kaskk"] = {
-				50007210, -- [1]
-				50308150, -- [2]
-				55407640, -- [3]
-			},
 			["Monnos the Elder"] = {
 				54508010, -- [1]
 				56008660, -- [2]
 				71002220, -- [3]
 				76002070, -- [4]
 				81301830, -- [5]
+			},
+			["Kaskk"] = {
+				50007210, -- [1]
+				50308150, -- [2]
+				55407640, -- [3]
 			},
 			["Deathmaw"] = {
 				74903330, -- [1]
@@ -3407,13 +3461,15 @@ SilverDragon2DB = {
 				31002590, -- [1]
 				32503120, -- [2]
 			},
-			["Scalebeard"] = {
-				53404990, -- [1]
+			["Bayne"] = {
+				39404260, -- [1]
+				40205300, -- [2]
+				45305190, -- [3]
+				50405110, -- [4]
+				56104190, -- [5]
 			},
-			["Mazzranache"] = {
-				39104440, -- [1]
-				44404240, -- [2]
-				55904130, -- [3]
+			["Morgaine the Sly"] = {
+				30806490, -- [1]
 			},
 			["Dreadscorn"] = {
 				39103380, -- [1]
@@ -3483,16 +3539,16 @@ SilverDragon2DB = {
 				34408230, -- [4]
 				99307000, -- [5]
 			},
-			["Crusty"] = {
-				27803470, -- [1]
-				29702460, -- [2]
-				30101800, -- [3]
-			},
 			["The Reak"] = {
 				45803970, -- [1]
 				47905330, -- [2]
 				49204720, -- [3]
 				57204270, -- [4]
+			},
+			["Crusty"] = {
+				27803470, -- [1]
+				29702460, -- [2]
+				30101800, -- [3]
 			},
 			["Brontus"] = {
 				44307980, -- [1]
@@ -3528,13 +3584,11 @@ SilverDragon2DB = {
 			["Zekkis"] = {
 				54407880, -- [1]
 			},
-			["Ambassador Jerrikar"] = {
-				28204880, -- [1]
-				29305560, -- [2]
-				45002900, -- [3]
-				45606750, -- [4]
-				56003830, -- [5]
-				68306200, -- [6]
+			["Gnawbone"] = {
+				30302880, -- [1]
+				33003390, -- [2]
+				38302940, -- [3]
+				38503470, -- [4]
 			},
 			["Gruff"] = {
 				31007260, -- [1]
@@ -3542,11 +3596,13 @@ SilverDragon2DB = {
 				35306540, -- [3]
 				37207660, -- [4]
 			},
-			["Gnawbone"] = {
-				30302880, -- [1]
-				33003390, -- [2]
-				38302940, -- [3]
-				38503470, -- [4]
+			["Ambassador Jerrikar"] = {
+				28204880, -- [1]
+				29305560, -- [2]
+				45002900, -- [3]
+				45606750, -- [4]
+				56003830, -- [5]
+				68306200, -- [6]
 			},
 			["High Priestess Hai'watna"] = {
 				50801650, -- [1]
@@ -3560,10 +3616,12 @@ SilverDragon2DB = {
 				59807410, -- [2]
 				65107500, -- [3]
 			},
-			["Gibblesnik"] = {
-				51204350, -- [1]
-				59304720, -- [2]
-				60305900, -- [3]
+			["Nimar the Slayer"] = {
+				52604720, -- [1]
+				60407400, -- [2]
+				62506480, -- [3]
+				68406430, -- [4]
+				73606730, -- [5]
 			},
 			["Bjarn"] = {
 				53105860, -- [1]
@@ -3630,12 +3688,10 @@ SilverDragon2DB = {
 				61802570, -- [1]
 				65701770, -- [2]
 			},
-			["Nimar the Slayer"] = {
-				52604720, -- [1]
-				60407400, -- [2]
-				62506480, -- [3]
-				68406430, -- [4]
-				73606730, -- [5]
+			["Gibblesnik"] = {
+				51204350, -- [1]
+				59304720, -- [2]
+				60305900, -- [3]
 			},
 			["Duggan Wildhammer"] = {
 				12207260, -- [1]
@@ -3687,20 +3743,19 @@ SilverDragon2DB = {
 			["Lord Angler"] = {
 				55006290, -- [1]
 			},
-			["Morgaine the Sly"] = {
-				30806490, -- [1]
+			["Mazzranache"] = {
+				39104440, -- [1]
+				44404240, -- [2]
+				55904130, -- [3]
+				51214477, -- [4]
 			},
 			["Perobas the Bloodthirster"] = {
 				52401180, -- [1]
 				60702070, -- [2]
 				68301740, -- [3]
 			},
-			["Bayne"] = {
-				39404260, -- [1]
-				40205300, -- [2]
-				45305190, -- [3]
-				50405110, -- [4]
-				56104190, -- [5]
+			["Scalebeard"] = {
+				53404990, -- [1]
 			},
 			["Ursol'lok"] = {
 				82804810, -- [1]
@@ -4007,50 +4062,64 @@ SilverDragon2DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
-		["Saptack - PrimalWoW (Progressive)"] = {
-		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
-		},
-		["Shiftace - TrueWoW"] = {
+			["nameplates"] = true,
+			["cache"] = true,
+			["taxi"] = true,
+			["targets"] = true,
+			["mouseover"] = true,
+			["instances"] = true,
 		},
 		["Lichmydk - TrueWoW"] = {
 		},
 		["Duglazerp - TrueWoW"] = {
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
-		},
 		["Pastafarian - TrueWoW"] = {
-		},
-		["Cryogenics - TrueWoW"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+		},
+		["Saptack - PrimalWoW (Progressive)"] = {
+		},
+		["Iamsham - PrimalWoW (Progressive)"] = {
+		},
+		["Shiftace - TrueWoW"] = {
+		},
+		["Magistratus - PrimalWoW (Progressive)"] = {
+		},
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		},
+		["Parimman - TrueWoW"] = {
+		},
+		["Default"] = {
+		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Iamsham - PrimalWoW (Progressive)"] = {
+		["Mittens - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},

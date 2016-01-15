@@ -1,6 +1,10 @@
 
 EveryQuestDBPC = nil
 EQ2DBPC = {
+	["namespaces"] = {
+		["QuestGivers"] = {
+		},
+	},
 	["profileKeys"] = {
 		["Contagion - PrimalWoW (Progressive)"] = "global",
 	},
@@ -56,7 +60,7 @@ EQ2DBPC = {
 						["completed"] = 1451460412,
 						["status"] = 2,
 					},
-					[427] = {
+					[367] = {
 						["status"] = 0,
 					},
 					[6395] = {
@@ -66,7 +70,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451461042,
 					},
-					[367] = {
+					[427] = {
 						["status"] = 0,
 					},
 				},

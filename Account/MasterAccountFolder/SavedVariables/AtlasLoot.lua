@@ -2,78 +2,113 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
-		["Saptack - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
-		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Shiftace - TrueWoW"] = {
-			["AtlasType"] = "Unknown",
+			["HidePanel"] = true,
+			["AllLinks"] = false,
+			["ItemSpam"] = true,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Lichmydk - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Duglazerp - TrueWoW"] = {
-			["CraftingLink"] = 2,
-			["ItemSpam"] = true,
-			["AtlasType"] = "Unknown",
-		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
+			["AllLinks"] = false,
+			["ItemSpam"] = true,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Pastafarian - TrueWoW"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Cryogenics - TrueWoW"] = {
-			["AtlasType"] = "Unknown",
+			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Ellipsis - TrueWoW"] = {
-			["AtlasType"] = "Unknown",
-		},
-		["Contagion - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
+			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
+			["ItemSpam"] = true,
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
+		["Saptack - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Iamsham - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
 		},
+		["Shiftace - TrueWoW"] = {
+			["CraftingLink"] = 2,
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+		["Magistratus - PrimalWoW (Progressive)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+		["Duglazerp - TrueWoW"] = {
+			["CraftingLink"] = 2,
+			["AllLinks"] = false,
+			["ItemSpam"] = true,
+			["AtlasLootVersion"] = "51104",
+		},
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
+			["AllLinks"] = false,
+			["ItemSpam"] = true,
+			["AtlasLootVersion"] = "51104",
+		},
+		["Contagion - PrimalWoW (Progressive)"] = {
+			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
+		},
+		["Cryogenics - TrueWoW"] = {
+			["CraftingLink"] = 2,
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+			["AllLinks"] = false,
+			["LastBoss"] = "CRAFTINGMENU",
+			["AtlasLootVersion"] = "51104",
+		},
+		["Parimman - TrueWoW"] = {
+			["AtlasType"] = "Unknown",
+		},
 		["Magistratus - TrueWoW"] = {
 			["EquipCompare"] = true,
+			["AllLinks"] = false,
 			["ItemSpam"] = true,
+			["AtlasLootVersion"] = "51104",
 			["CraftingLink"] = 2,
-			["AtlasType"] = "Unknown",
-			["LastBoss"] = "CRAFTINGMENU",
 		},
 	},
 }
 AtlasLootWishList = {
 	["Options"] = {
+		["Parimman"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
 		["Shiftace"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
@@ -95,12 +130,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Nerfed"] = {
+		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Pastafarian"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -109,14 +144,14 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Duglazerp"] = {
+		["Nerfed"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -165,7 +200,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -183,15 +218,13 @@ AtlasLootWishList = {
 	["Shared"] = {
 	},
 	["Own"] = {
+		["Parimman"] = {
+		},
 		["Shiftace"] = {
 		},
 		["Contagion"] = {
 		},
 		["Magistratus"] = {
-		},
-		["Nerfed"] = {
-		},
-		["Pastafarian"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -243,7 +276,11 @@ AtlasLootWishList = {
 				},
 			}, -- [2]
 		},
-		["Wafflestomp"] = {
+		["Pastafarian"] = {
+		},
+		["Nerfed"] = {
+		},
+		["Wajawamedo"] = {
 		},
 		["Mittens"] = {
 		},
@@ -257,7 +294,7 @@ AtlasLootWishList = {
 		},
 		["Lichmydk"] = {
 		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 		},
 		["Saptack"] = {
 		},

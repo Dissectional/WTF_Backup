@@ -6,7 +6,6 @@ EQ2DBPC = {
 			["profiles"] = {
 				["global"] = {
 					["filters"] = {
-						["Horde"] = false,
 						["SideBoth"] = false,
 					},
 				},
@@ -14,11 +13,12 @@ EQ2DBPC = {
 		},
 	},
 	["profileKeys"] = {
+		["Magistratus - PrimalWoW (Progressive)"] = "global",
 		["Magistratus - TrueWoW"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
-			["zoneid"] = 3433,
+			["zoneid"] = 12,
 			["history"] = {
 				[-141] = {
 					[9676] = {
@@ -53,10 +53,10 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9692] = {
+					[9691] = {
 						["status"] = 0,
 					},
-					[9691] = {
+					[9692] = {
 						["status"] = 0,
 					},
 				},
@@ -81,15 +81,15 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[14081] = {
-						["completed"] = 1451296194,
+					[8894] = {
 						["status"] = 2,
+						["imported"] = 3,
 					},
 					[8327] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9395] = {
+					[8892] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -101,7 +101,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9253] = {
+					[9394] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -117,7 +117,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8890] = {
+					[9064] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -125,7 +125,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9255] = {
+					[9066] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -133,7 +133,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9035] = {
+					[8468] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -145,7 +145,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9256] = {
+					[9067] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -153,7 +153,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8476] = {
+					[8350] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -161,7 +161,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8346] = {
+					[8887] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -185,11 +185,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9064] = {
+					[9253] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9076] = {
+					[9359] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -197,27 +197,27 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8477] = {
+					[8886] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9066] = {
+					[9255] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8468] = {
+					[9035] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9067] = {
+					[9256] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9705] = {
+					[8476] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9358] = {
+					[9704] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -233,15 +233,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8885] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
 					[8472] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8347] = {
+					[8346] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -249,13 +245,17 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8892] = {
+					[8347] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
 					[8474] = {
 						["status"] = 2,
 						["imported"] = 3,
+					},
+					[14081] = {
+						["completed"] = 1451296194,
+						["status"] = 2,
 					},
 					[8884] = {
 						["status"] = 2,
@@ -265,23 +265,23 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9704] = {
+					[8885] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8350] = {
+					[9358] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8886] = {
+					[9705] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9359] = {
+					[8477] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8887] = {
+					[9076] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -305,7 +305,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9394] = {
+					[8890] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -313,7 +313,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8894] = {
+					[9395] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -386,32 +386,32 @@ EQ2DBPC = {
 						["completed"] = 1451275609,
 						["status"] = 2,
 					},
-					[9214] = {
-						["completed"] = 1451279905,
-						["status"] = 2,
-					},
-					[9327] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
-					[9220] = {
-						["status"] = 2,
-						["completed"] = 1451291660,
-					},
-					[9155] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
 					[9274] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9156] = {
-						["status"] = 0,
-					},
 					[9212] = {
 						["status"] = 2,
 						["completed"] = 1451278508,
+					},
+					[9275] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9281] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9207] = {
+						["status"] = 2,
+						["completed"] = 1451276139,
+					},
+					[9156] = {
+						["status"] = 0,
+					},
+					[9277] = {
+						["status"] = 2,
+						["completed"] = 1451279875,
 					},
 					[9157] = {
 						["completed"] = 1451259282,
@@ -425,9 +425,9 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9207] = {
+					[9130] = {
 						["status"] = 2,
-						["completed"] = 1451276139,
+						["imported"] = 3,
 					},
 					[9159] = {
 						["completed"] = 1451276715,
@@ -457,17 +457,17 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451277748,
 					},
-					[9277] = {
+					[9215] = {
+						["completed"] = 1451294910,
 						["status"] = 2,
-						["completed"] = 1451279875,
 					},
 					[9163] = {
 						["completed"] = 1451274246,
 						["status"] = 2,
 					},
-					[9215] = {
-						["completed"] = 1451294910,
+					[9276] = {
 						["status"] = 2,
+						["imported"] = 3,
 					},
 					[9164] = {
 						["status"] = 2,
@@ -477,9 +477,9 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9276] = {
+					[9282] = {
 						["status"] = 2,
-						["imported"] = 3,
+						["completed"] = 1451276973,
 					},
 					[9134] = {
 						["status"] = 2,
@@ -500,19 +500,19 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451281835,
 					},
-					[9282] = {
-						["status"] = 2,
-						["completed"] = 1451276973,
-					},
 					[9218] = {
 						["status"] = 2,
 						["completed"] = 1451291231,
+					},
+					[9138] = {
+						["status"] = 2,
+						["imported"] = 3,
 					},
 					[9169] = {
 						["status"] = 2,
 						["completed"] = 1451280152,
 					},
-					[9138] = {
+					[9327] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -536,15 +536,15 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451280267,
 					},
-					[9275] = {
+					[9220] = {
 						["status"] = 2,
-						["imported"] = 3,
+						["completed"] = 1451291660,
 					},
 					[9173] = {
 						["status"] = 2,
 						["completed"] = 1451274246,
 					},
-					[9130] = {
+					[9155] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -552,9 +552,9 @@ EQ2DBPC = {
 						["completed"] = 1451260070,
 						["status"] = 2,
 					},
-					[9281] = {
+					[9214] = {
+						["completed"] = 1451279905,
 						["status"] = 2,
-						["imported"] = 3,
 					},
 				},
 			},

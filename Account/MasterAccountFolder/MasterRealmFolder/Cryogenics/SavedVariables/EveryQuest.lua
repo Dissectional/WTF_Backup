@@ -371,13 +371,13 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9155] = {
-						["status"] = 2,
-						["imported"] = 3,
-					},
 					[9281] = {
 						["status"] = 2,
 						["imported"] = 3,
+					},
+					[9218] = {
+						["status"] = 2,
+						["completed"] = 1451210169,
 					},
 					[9274] = {
 						["status"] = 2,
@@ -523,9 +523,9 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9218] = {
+					[9155] = {
 						["status"] = 2,
-						["completed"] = 1451210169,
+						["imported"] = 3,
 					},
 					[9174] = {
 						["status"] = 2,

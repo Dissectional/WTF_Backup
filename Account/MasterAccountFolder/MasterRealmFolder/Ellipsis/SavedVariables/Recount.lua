@@ -1485,7 +1485,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 24,
-			["LastAbility"] = 40558.743,
+			["LastActive"] = 1450866780,
 			["level"] = 15,
 			["LastDamageAbility"] = "Corruption (DoT)",
 			["LastFightIn"] = 7,
@@ -1529,61 +1529,756 @@ RecountPerCharDB = {
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastEventTimes"] = {
-				8029.56, -- [1]
-				8029.914, -- [2]
-				8031.980000000001, -- [3]
-				8031.981, -- [4]
-				8033.069, -- [5]
-				8034.02, -- [6]
-				8034.02, -- [7]
-				8036.02, -- [8]
-				8036.02, -- [9]
-				8038.163000000001, -- [10]
-				8040.219, -- [11]
-				8042.326, -- [12]
-				8044.76, -- [13]
-				8045.173, -- [14]
-				7992.459, -- [15]
-				7992.564, -- [16]
-				7993.014, -- [17]
-				7993.938, -- [18]
-				7994.063, -- [19]
-				7994.308, -- [20]
-				7994.617, -- [21]
-				7994.617, -- [22]
-				7994.756, -- [23]
-				7995.018, -- [24]
-				7995.369000000001, -- [25]
-				7995.369000000001, -- [26]
-				7996.714, -- [27]
-				7996.714, -- [28]
-				7997.019, -- [29]
-				7997.462, -- [30]
-				7997.76, -- [31]
-				7998.164, -- [32]
-				7998.407, -- [33]
-				7998.409000000001, -- [34]
-				8009.357, -- [35]
-				8009.357, -- [36]
-				8011.413000000001, -- [37]
-				8013.41, -- [38]
-				8015.411, -- [39]
-				8017.514, -- [40]
-				8019.009, -- [41]
-				8020.115, -- [42]
-				8021.01, -- [43]
-				8021.76, -- [44]
-				8023.865, -- [45]
-				8024.515, -- [46]
-				8025.865, -- [47]
-				8026.924, -- [48]
-				8027.924, -- [49]
-				8028.513, -- [50]
+			["UnitLockout"] = 1450866566,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 25,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 0,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 29,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 25,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 0,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Knockdown"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 41,
+									["count"] = 10,
+									["amount"] = 443,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 443,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 17,
+									["count"] = 35,
+									["amount"] = 719,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 44,
+									["count"] = 2,
+									["amount"] = 90,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 809,
+						},
+					},
+					["WhoDamaged"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 105,
+								},
+								["Firebolt"] = {
+									["count"] = 779,
+								},
+							},
+							["amount"] = 884,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 474,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 275,
+								},
+								["Immolate"] = {
+									["count"] = 200,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 290,
+								},
+								["Drain Life"] = {
+									["count"] = 374,
+								},
+								["Fire Shield"] = {
+									["count"] = 54,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 1744,
+						},
+					},
+					["TimeDamage"] = 106.59,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 39,
+								},
+								["Tick"] = {
+									["count"] = 25,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 71,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 47,
+								},
+								["Hit"] = {
+									["count"] = 29,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["DamageTaken"] = 2628,
+					["DamagedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 178,
+								},
+								["Melee"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 486,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 265,
+								},
+								["Melee"] = {
+									["count"] = 501,
+								},
+							},
+							["amount"] = 766,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 809,
+						["Physical"] = 443,
+					},
+					["DeathCount"] = 7,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 35,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ActiveTime"] = 106.59,
+					["TimeDamaging"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 14,
+								},
+								["Melee"] = {
+									["count"] = 27.18,
+								},
+							},
+							["amount"] = 41.18,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 16.65,
+								},
+								["Melee"] = {
+									["count"] = 48.76000000000001,
+								},
+							},
+							["amount"] = 65.41000000000001,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 1323,
+						["Melee"] = 105,
+						["Shadow"] = 1200,
+					},
+					["TimeSpent"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 14,
+								},
+								["Melee"] = {
+									["count"] = 27.18,
+								},
+							},
+							["amount"] = 41.18,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 16.65,
+								},
+								["Melee"] = {
+									["count"] = 48.76000000000001,
+								},
+							},
+							["amount"] = 65.41000000000001,
+						},
+					},
+					["Damage"] = 1252,
+				},
 			},
-			["unit"] = "playertarget",
 			["Owner"] = false,
-			["GUID"] = "0xF130003FD300573E",
+			["LastEventHealth"] = {
+				"291 (81%)", -- [1]
+				"291 (81%)", -- [2]
+				"278 (78%)", -- [3]
+				"278 (78%)", -- [4]
+				"265 (74%)", -- [5]
+				"252 (70%)", -- [6]
+				"252 (70%)", -- [7]
+				"252 (70%)", -- [8]
+				"252 (70%)", -- [9]
+				"252 (70%)", -- [10]
+				"252 (70%)", -- [11]
+				"252 (70%)", -- [12]
+				"228 (64%)", -- [13]
+				"228 (64%)", -- [14]
+				"248 (75%)", -- [15]
+				"217 (66%)", -- [16]
+				"207 (63%)", -- [17]
+				"189 (57%)", -- [18]
+				"189 (57%)", -- [19]
+				"189 (57%)", -- [20]
+				"189 (57%)", -- [21]
+				"182 (55%)", -- [22]
+				"166 (50%)", -- [23]
+				"156 (47%)", -- [24]
+				"126 (38%)", -- [25]
+				"93 (28%)", -- [26]
+				"93 (28%)", -- [27]
+				"86 (26%)", -- [28]
+				"76 (23%)", -- [29]
+				"58 (17%)", -- [30]
+				"42 (12%)", -- [31]
+				"13 (3%)", -- [32]
+				"1 (0%)", -- [33]
+				"0 (0%)", -- [34]
+				"328 (100%)", -- [35]
+				"328 (100%)", -- [36]
+				"328 (100%)", -- [37]
+				"356 (100%)", -- [38]
+				"356 (100%)", -- [39]
+				"356 (100%)", -- [40]
+				"343 (96%)", -- [41]
+				"330 (92%)", -- [42]
+				"317 (89%)", -- [43]
+				"317 (89%)", -- [44]
+				"317 (89%)", -- [45]
+				"317 (89%)", -- [46]
+				"317 (89%)", -- [47]
+				"317 (89%)", -- [48]
+				"317 (89%)", -- [49]
+				"304 (85%)", -- [50]
+			},
 			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
 				81.74157303370787, -- [1]
@@ -1742,460 +2437,504 @@ RecountPerCharDB = {
 				true, -- [50]
 			},
 			["Name"] = "Arcane Reaver",
-			["LastEventHealth"] = {
-				"291 (81%)", -- [1]
-				"291 (81%)", -- [2]
-				"278 (78%)", -- [3]
-				"278 (78%)", -- [4]
-				"265 (74%)", -- [5]
-				"252 (70%)", -- [6]
-				"252 (70%)", -- [7]
-				"252 (70%)", -- [8]
-				"252 (70%)", -- [9]
-				"252 (70%)", -- [10]
-				"252 (70%)", -- [11]
-				"252 (70%)", -- [12]
-				"228 (64%)", -- [13]
-				"228 (64%)", -- [14]
-				"248 (75%)", -- [15]
-				"217 (66%)", -- [16]
-				"207 (63%)", -- [17]
-				"189 (57%)", -- [18]
-				"189 (57%)", -- [19]
-				"189 (57%)", -- [20]
-				"189 (57%)", -- [21]
-				"182 (55%)", -- [22]
-				"166 (50%)", -- [23]
-				"156 (47%)", -- [24]
-				"126 (38%)", -- [25]
-				"93 (28%)", -- [26]
-				"93 (28%)", -- [27]
-				"86 (26%)", -- [28]
-				"76 (23%)", -- [29]
-				"58 (17%)", -- [30]
-				"42 (12%)", -- [31]
-				"13 (3%)", -- [32]
-				"1 (0%)", -- [33]
-				"0 (0%)", -- [34]
-				"328 (100%)", -- [35]
-				"328 (100%)", -- [36]
-				"328 (100%)", -- [37]
-				"356 (100%)", -- [38]
-				"356 (100%)", -- [39]
-				"356 (100%)", -- [40]
-				"343 (96%)", -- [41]
-				"330 (92%)", -- [42]
-				"317 (89%)", -- [43]
-				"317 (89%)", -- [44]
-				"317 (89%)", -- [45]
-				"317 (89%)", -- [46]
-				"317 (89%)", -- [47]
-				"317 (89%)", -- [48]
-				"317 (89%)", -- [49]
-				"304 (85%)", -- [50]
+			["GUID"] = "0xF130003FD300573E",
+			["unit"] = "playertarget",
+			["LastEventTimes"] = {
+				8029.56, -- [1]
+				8029.914, -- [2]
+				8031.980000000001, -- [3]
+				8031.981, -- [4]
+				8033.069, -- [5]
+				8034.02, -- [6]
+				8034.02, -- [7]
+				8036.02, -- [8]
+				8036.02, -- [9]
+				8038.163000000001, -- [10]
+				8040.219, -- [11]
+				8042.326, -- [12]
+				8044.76, -- [13]
+				8045.173, -- [14]
+				7992.459, -- [15]
+				7992.564, -- [16]
+				7993.014, -- [17]
+				7993.938, -- [18]
+				7994.063, -- [19]
+				7994.308, -- [20]
+				7994.617, -- [21]
+				7994.617, -- [22]
+				7994.756, -- [23]
+				7995.018, -- [24]
+				7995.369000000001, -- [25]
+				7995.369000000001, -- [26]
+				7996.714, -- [27]
+				7996.714, -- [28]
+				7997.019, -- [29]
+				7997.462, -- [30]
+				7997.76, -- [31]
+				7998.164, -- [32]
+				7998.407, -- [33]
+				7998.409000000001, -- [34]
+				8009.357, -- [35]
+				8009.357, -- [36]
+				8011.413000000001, -- [37]
+				8013.41, -- [38]
+				8015.411, -- [39]
+				8017.514, -- [40]
+				8019.009, -- [41]
+				8020.115, -- [42]
+				8021.01, -- [43]
+				8021.76, -- [44]
+				8023.865, -- [45]
+				8024.515, -- [46]
+				8025.865, -- [47]
+				8026.924, -- [48]
+				8027.924, -- [49]
+				8028.513, -- [50]
 			},
+			["LastAbility"] = 1017.844,
+		},
+		["Ellipsis"] = {
+			["GUID"] = "0x00000000001D41B0",
+			["LastEventHealth"] = {
+				"130 (29%)", -- [1]
+				"130 (29%)", -- [2]
+				"130 (29%)", -- [3]
+				"145 (33%)", -- [4]
+				"145 (33%)", -- [5]
+				"145 (33%)", -- [6]
+				"145 (33%)", -- [7]
+				"145 (33%)", -- [8]
+				"160 (36%)", -- [9]
+				"160 (36%)", -- [10]
+				"160 (36%)", -- [11]
+				"160 (36%)", -- [12]
+				"160 (36%)", -- [13]
+				"175 (39%)", -- [14]
+				"175 (39%)", -- [15]
+				"175 (39%)", -- [16]
+				"175 (39%)", -- [17]
+				"175 (39%)", -- [18]
+				"175 (39%)", -- [19]
+				"175 (39%)", -- [20]
+				"190 (43%)", -- [21]
+				"190 (43%)", -- [22]
+				"190 (43%)", -- [23]
+				"190 (43%)", -- [24]
+				"190 (43%)", -- [25]
+				"205 (46%)", -- [26]
+				"205 (46%)", -- [27]
+				"205 (46%)", -- [28]
+				"205 (46%)", -- [29]
+				"205 (46%)", -- [30]
+				"205 (46%)", -- [31]
+				"205 (46%)", -- [32]
+				"214 (48%)", -- [33]
+				"360 (82%)", -- [34]
+				"266 (60%)", -- [35]
+				"266 (60%)", -- [36]
+				"266 (60%)", -- [37]
+				"266 (60%)", -- [38]
+				"266 (60%)", -- [39]
+				"266 (60%)", -- [40]
+				"266 (60%)", -- [41]
+				"266 (60%)", -- [42]
+				"266 (60%)", -- [43]
+				"130 (29%)", -- [44]
+				"130 (29%)", -- [45]
+				"130 (29%)", -- [46]
+				"130 (29%)", -- [47]
+				"130 (29%)", -- [48]
+				"130 (29%)", -- [49]
+				"130 (29%)", -- [50]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"DAMAGE", -- [5]
+				"HEAL", -- [6]
+				"DAMAGE", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"DAMAGE", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"HEAL", -- [30]
+				"DAMAGE", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"DAMAGE", -- [38]
+				"HEAL", -- [39]
+				"DAMAGE", -- [40]
+				"HEAL", -- [41]
+				"DAMAGE", -- [42]
+				"HEAL", -- [43]
+				"DAMAGE", -- [44]
+				"HEAL", -- [45]
+				"DAMAGE", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"HEAL", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0.09999999999999999, -- [1]
+				},
+				["Healing"] = {
+					1987, -- [1]
+				},
+				["DamageTaken"] = {
+					1647, -- [1]
+				},
+				["HealingTaken"] = {
+					1538, -- [1]
+				},
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["Overhealing"] = {
+					252, -- [1]
+				},
+				["ActiveTime"] = {
+					402.0000000000001, -- [1]
+				},
+				["TimeDamage"] = {
+					401.9000000000002, -- [1]
+				},
+				["ManaGain"] = {
+					1478, -- [1]
+				},
+				["DOT_Time"] = {
+					683, -- [1]
+				},
+				["Damage"] = {
+					6329, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Ellipsis",
+			["LastActive"] = 1450867604,
+			["UnitLockout"] = 1450866374,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 25,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 39,
-								},
-							},
-							["amount"] = 71,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 29,
-								},
-								["Tick"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 77,
-						},
-					},
-					["Attacks"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 49,
-									["min"] = 41,
-									["count"] = 10,
-									["amount"] = 443,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 443,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 46,
-									["min"] = 44,
-									["count"] = 2,
-									["amount"] = 90,
-								},
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 17,
-									["count"] = 35,
-									["amount"] = 719,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 809,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 809,
-						["Physical"] = 443,
-					},
-					["TimeDamaging"] = {
+					["TimeHealing"] = {
 						["Gobrin <Ellipsis>"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 14,
-								},
-								["Melee"] = {
-									["count"] = 27.18,
+								["Fel Synergy"] = {
+									["count"] = 0.01,
 								},
 							},
-							["amount"] = 41.18,
+							["amount"] = 0.01,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.07000000000000001,
+								},
+							},
+							["amount"] = 0.07000000000000001,
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 16.65,
-								},
-								["Melee"] = {
-									["count"] = 48.76000000000001,
+								["Drain Life"] = {
+									["count"] = 0.02,
 								},
 							},
-							["amount"] = 65.41000000000001,
+							["amount"] = 0.02,
 						},
 					},
-					["ActiveTime"] = 106.59,
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 1,
+									["count"] = 128,
+									["amount"] = 237,
+								},
+							},
+							["count"] = 128,
+							["amount"] = 237,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 15,
+									["count"] = 1,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 15,
+						},
+					},
 					["TimeSpent"] = {
-						["Gobrin <Ellipsis>"] = {
+						["Arcane Reaver"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 14,
+								["Corruption"] = {
+									["count"] = 0.39,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 13.1,
 								},
 								["Melee"] = {
-									["count"] = 27.18,
+									["count"] = 4.15,
+								},
+								["Drain Life"] = {
+									["count"] = 24.14,
+								},
+								["Immolate"] = {
+									["count"] = 24.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 23.54999999999999,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 28.52,
+								},
+								["Fire Shield"] = {
+									["count"] = 7.64,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.34,
 								},
 							},
-							["amount"] = 41.18,
+							["amount"] = 126.3300000000001,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 29.65,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 7.629999999999998,
+								},
+								["Corruption"] = {
+									["count"] = 0.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 32.86,
+								},
+								["Drain Life"] = {
+									["count"] = 31.56,
+								},
+								["Immolate"] = {
+									["count"] = 24.85,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 26.41,
+								},
+							},
+							["amount"] = 153.46,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 16.65,
-								},
-								["Melee"] = {
-									["count"] = 48.76000000000001,
+								["Drain Life"] = {
+									["count"] = 0.02,
 								},
 							},
-							["amount"] = 65.41000000000001,
+							["amount"] = 0.02,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.07000000000000001,
+								},
+							},
+							["amount"] = 0.07000000000000001,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 22.85,
+								},
+								["Melee"] = {
+									["count"] = 2.2,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 29.08,
+								},
+								["Drain Life"] = {
+									["count"] = 21.45999999999999,
+								},
+								["Immolate"] = {
+									["count"] = 18.71,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 27.81,
+								},
+							},
+							["amount"] = 122.11,
 						},
 					},
-					["DamageTaken"] = 2628,
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 2,
+								["Fel Synergy"] = {
+									["count"] = 83,
 								},
-								["Miss"] = {
-									["count"] = 3,
+							},
+							["amount"] = 83,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 366,
 								},
-								["Crit"] = {
-									["count"] = 2,
+							},
+							["amount"] = 366,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 1538,
+								},
+							},
+							["amount"] = 1538,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 13,
 								},
 								["Hit"] = {
-									["count"] = 35,
+									["count"] = 28,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 42,
 						},
-						["Physical"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Absorb"] = {
 									["count"] = 10,
 								},
+								["Hit"] = {
+									["count"] = 31,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
 							},
-							["amount"] = 10,
+							["amount"] = 46,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 7,
 						},
 					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 1538,
+								},
+							},
+							["amount"] = 1538,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 360,
+						["Melee"] = 217,
+						["Shadow"] = 99,
+					},
 					["PartialResist"] = {
-						["Corruption"] = {
+						["Falling"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Corruption (DoT)"] = {
+						["Knockdown"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 19,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 19,
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 32,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -2203,112 +2942,610 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 7,
+									["count"] = 46,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 7,
+							["count"] = 46,
 							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 1014,
+								},
+							},
+							["amount"] = 1014,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 290,
+								},
+							},
+							["amount"] = 290,
+						},
+						["Restore Mana"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 18,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 33,
+									["min"] = 9,
+									["count"] = 14,
+									["amount"] = 360,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 360,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 26,
+									["min"] = 21,
+									["count"] = 4,
+									["amount"] = 99,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 99,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 36,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 25,
+									["min"] = 18,
+									["count"] = 10,
+									["amount"] = 217,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 217,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 402.0000000000001,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.39,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 13.1,
+								},
+								["Melee"] = {
+									["count"] = 4.15,
+								},
+								["Drain Life"] = {
+									["count"] = 24.14,
+								},
+								["Immolate"] = {
+									["count"] = 24.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 23.54999999999999,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 28.52,
+								},
+								["Fire Shield"] = {
+									["count"] = 7.64,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.34,
+								},
+							},
+							["amount"] = 126.3300000000001,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 22.85,
+								},
+								["Melee"] = {
+									["count"] = 2.2,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 29.08,
+								},
+								["Drain Life"] = {
+									["count"] = 21.45999999999999,
+								},
+								["Immolate"] = {
+									["count"] = 18.71,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 27.81,
+								},
+							},
+							["amount"] = 122.11,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 29.65,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 7.629999999999998,
+								},
+								["Corruption"] = {
+									["count"] = 0.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 32.86,
+								},
+								["Drain Life"] = {
+									["count"] = 31.56,
+								},
+								["Immolate"] = {
+									["count"] = 24.85,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 26.41,
+								},
+							},
+							["amount"] = 153.46,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 865,
+						["Melee"] = 719,
+						["Shadow"] = 63,
+					},
+					["DOT_Time"] = 683,
+					["Damage"] = 6329,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 28,
+								},
+								["Tick"] = {
+									["count"] = 79,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 114,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 181,
+								},
+								["Hit"] = {
+									["count"] = 105,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 288,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["TimeHeal"] = 0.09999999999999999,
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 474,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 275,
+								},
+								["Immolate"] = {
+									["count"] = 200,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 290,
+								},
+								["Drain Life"] = {
+									["count"] = 374,
+								},
+								["Fire Shield"] = {
+									["count"] = 54,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 1744,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 792,
+								},
+								["Melee"] = {
+									["count"] = 2,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 252,
+								},
+								["Drain Life"] = {
+									["count"] = 403,
+								},
+								["Immolate"] = {
+									["count"] = 182,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 437,
+								},
+							},
+							["amount"] = 2068,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 404,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 552,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 390,
+								},
+								["Drain Life"] = {
+									["count"] = 569,
+								},
+								["Immolate"] = {
+									["count"] = 208,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 394,
+								},
+							},
+							["amount"] = 2517,
+						},
+					},
+					["Heals"] = {
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 3,
+									["count"] = 103,
+									["amount"] = 1538,
+								},
+							},
+							["count"] = 103,
+							["amount"] = 1538,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 1,
+									["count"] = 280,
+									["amount"] = 449,
+								},
+							},
+							["count"] = 280,
+							["amount"] = 449,
+						},
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 33,
+									["min"] = 24,
+									["count"] = 75,
+									["amount"] = 1818,
+								},
+							},
+							["count"] = 75,
+							["amount"] = 1818,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 1,
+									["amount"] = 2,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 2,
 						},
 						["Drain Life"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 28,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 3,
+									["count"] = 104,
+									["amount"] = 1346,
 								},
 							},
-							["count"] = 28,
-							["amount"] = 0,
+							["count"] = 104,
+							["amount"] = 1346,
 						},
 						["Immolate"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 26,
+									["count"] = 18,
+									["amount"] = 473,
 								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 28,
-									["amount"] = 0,
+								["Crit"] = {
+									["max"] = 39,
+									["min"] = 39,
+									["count"] = 3,
+									["amount"] = 117,
 								},
-							},
-							["count"] = 28,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 25,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Miss"] = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 22,
+							["amount"] = 590,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 26,
+									["min"] = 8,
+									["count"] = 106,
+									["amount"] = 1106,
+								},
+							},
+							["count"] = 106,
+							["amount"] = 1106,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 14,
+									["count"] = 19,
+									["amount"] = 374,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 404,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 3,
+									["amount"] = 48,
+								},
+								["Tick"] = {
+									["max"] = 16,
+									["min"] = 11,
+									["count"] = 79,
+									["amount"] = 884,
+								},
+							},
+							["count"] = 82,
+							["amount"] = 932,
 						},
 						["Fire Shield"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Hit"] = {
+									["max"] = 7,
+									["min"] = 5,
 									["count"] = 10,
-									["amount"] = 0,
+									["amount"] = 54,
 								},
 							},
 							["count"] = 10,
-							["amount"] = 0,
+							["amount"] = 54,
 						},
-					},
-					["DeathCount"] = 7,
-					["DamagedWho"] = {
-						["Gobrin <Ellipsis>"] = {
+						["Shadow Bolt"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 178,
-								},
-								["Melee"] = {
-									["count"] = 308,
+								["Hit"] = {
+									["max"] = 77,
+									["min"] = 77,
+									["count"] = 1,
+									["amount"] = 77,
 								},
 							},
-							["amount"] = 486,
+							["count"] = 1,
+							["amount"] = 77,
 						},
+					},
+					["Healing"] = 1987,
+					["Overhealing"] = 252,
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 75,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 66,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 105,
+								},
+							},
+							["amount"] = 246,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 57,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 99,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 69,
+								},
+							},
+							["amount"] = 225,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 56,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 80,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 212,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 1576,
+						["Shadow"] = 4347,
+						["Melee"] = 2,
+						["Arcane"] = 404,
+					},
+					["HealingTaken"] = 1538,
+					["ManaGainedFrom"] = {
 						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 1014,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 290,
+								},
+								["Restore Mana"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 1478,
+						},
+					},
+					["TimeDamage"] = 401.9000000000002,
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
 							["Details"] = {
 								["Knockdown"] = {
 									["count"] = 265,
@@ -2319,2434 +3556,881 @@ RecountPerCharDB = {
 							},
 							["amount"] = 766,
 						},
-					},
-					["TimeDamage"] = 106.59,
-					["WhoDamaged"] = {
-						["Gobrin <Ellipsis>"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 95,
+								},
+							},
+							["amount"] = 95,
+						},
+						["Shadowpine Shadowcaster"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 105,
+									["count"] = 218,
 								},
-								["Firebolt"] = {
-									["count"] = 779,
+								["Mind Flay (DoT)"] = {
+									["count"] = 63,
 								},
 							},
-							["amount"] = 884,
+							["amount"] = 281,
 						},
-						["Ellipsis"] = {
+						["Shadowpine Headhunter"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 474,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 77,
-								},
-								["Fire Shield"] = {
-									["count"] = 54,
-								},
-								["Drain Life"] = {
-									["count"] = 374,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 290,
-								},
-								["Immolate"] = {
-									["count"] = 200,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 275,
+								["Throw"] = {
+									["count"] = 505,
 								},
 							},
-							["amount"] = 1744,
+							["amount"] = 505,
 						},
 					},
-					["ElementTaken"] = {
-						["Fire"] = 1323,
-						["Melee"] = 105,
-						["Shadow"] = 1200,
-					},
-					["PartialAbsorb"] = {
-						["Corruption"] = {
+					["ManaGain"] = 1478,
+					["DeathCount"] = 1,
+					["DamageTaken"] = 1647,
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 12,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["amount"] = 12,
 						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 9,
 								},
 							},
-							["count"] = 19,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 28,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 28,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
+							["amount"] = 9,
 						},
 						["Curse of Agony (DoT)"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 28,
-									["amount"] = 0,
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 0,
 								},
-							},
-							["count"] = 28,
-							["amount"] = 0,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 29,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 25,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Shadowpine Headhunter"] = {
 									["count"] = 10,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 0,
+							["amount"] = 10,
 						},
-					},
-					["Damage"] = 1252,
-				},
-			},
-			["UnitLockout"] = 1450866566,
-			["LastActive"] = 1450866780,
-		},
-		["Shadowpine Shadowcaster"] = {
-			["DeathLogs"] = {
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						false, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						false, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						false, -- [18]
-						false, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						false, -- [23]
-						true, -- [24]
-						true, -- [25]
-						true, -- [26]
-					},
-					["Messages"] = {
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [1]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [2]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [3]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [4]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [5]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [6]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -11 (Physical)", -- [7]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [8]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [11]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [12]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [13]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [14]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [15]
-						"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [16]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [17]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [18]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [19]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [21]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [23]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [24]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [25]
-						"Shadowpine Shadowcaster dies.", -- [26]
-					},
-					["DeathAt"] = 1450867499,
-					["HealthNum"] = {
-						100, -- [1]
-						100, -- [2]
-						66.84350132625995, -- [3]
-						61.27320954907162, -- [4]
-						61.27320954907162, -- [5]
-						55.70291777188329, -- [6]
-						55.70291777188329, -- [7]
-						52.78514588859417, -- [8]
-						46.41909814323608, -- [9]
-						44.29708222811671, -- [10]
-						44.29708222811671, -- [11]
-						38.46153846153846, -- [12]
-						36.3395225464191, -- [13]
-						29.97347480106101, -- [14]
-						29.97347480106101, -- [15]
-						19.62864721485411, -- [16]
-						17.50663129973475, -- [17]
-						17.50663129973475, -- [18]
-						17.50663129973475, -- [19]
-						11.14058355437666, -- [20]
-						11.14058355437666, -- [21]
-						3.448275862068965, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-					},
-					["MessageTimes"] = {
-						-14.41300000000047, -- [1]
-						-14.0619999999999, -- [2]
-						-12.35299999999916, -- [3]
-						-12.04999999999927, -- [4]
-						-10.24099999999999, -- [5]
-						-10.04399999999987, -- [6]
-						-8.2549999999992, -- [7]
-						-8.050999999999476, -- [8]
-						-7.913000000000466, -- [9]
-						-7.25, -- [10]
-						-6.158999999999651, -- [11]
-						-5.949999999998909, -- [12]
-						-5.245999999999185, -- [13]
-						-5.0049999999992, -- [14]
-						-4.104999999999563, -- [15]
-						-3.898999999999433, -- [16]
-						-3.305000000000291, -- [17]
-						-3.209999999999127, -- [18]
-						-2.164999999999054, -- [19]
-						-2.007999999999811, -- [20]
-						-2.007999999999811, -- [21]
-						-1.261000000000422, -- [22]
-						-1.164999999999054, -- [23]
-						-0.9040000000004511, -- [24]
-						-0.002000000000407454, -- [25]
-						0, -- [26]
-					},
-					["KilledBy"] = "Belkath <Ellipsis>",
-					["Health"] = {
-						"377 (100%)", -- [1]
-						"377 (100%)", -- [2]
-						"252 (66%)", -- [3]
-						"231 (61%)", -- [4]
-						"231 (61%)", -- [5]
-						"210 (55%)", -- [6]
-						"210 (55%)", -- [7]
-						"199 (52%)", -- [8]
-						"175 (46%)", -- [9]
-						"167 (44%)", -- [10]
-						"167 (44%)", -- [11]
-						"145 (38%)", -- [12]
-						"137 (36%)", -- [13]
-						"113 (29%)", -- [14]
-						"113 (29%)", -- [15]
-						"74 (19%)", -- [16]
-						"66 (17%)", -- [17]
-						"66 (17%)", -- [18]
-						"66 (17%)", -- [19]
-						"42 (11%)", -- [20]
-						"42 (11%)", -- [21]
-						"13 (3%)", -- [22]
-						"???", -- [23]
-						"???", -- [24]
-						"???", -- [25]
-						"???", -- [26]
-					},
-					["EventNum"] = {
-						5.039787798408488, -- [1]
-						0, -- [2]
-						5.570291777188329, -- [3]
-						0, -- [4]
-						5.570291777188329, -- [5]
-						0, -- [6]
-						2.917771883289125, -- [7]
-						0, -- [8]
-						6.36604774535809, -- [9]
-						2.122015915119364, -- [10]
-						5.835543766578249, -- [11]
-						0, -- [12]
-						2.122015915119364, -- [13]
-						6.36604774535809, -- [14]
-						0, -- [15]
-						10.3448275862069, -- [16]
-						2.122015915119364, -- [17]
-						0, -- [18]
-						0, -- [19]
-						6.36604774535809, -- [20]
-						5.570291777188329, -- [21]
-						2.122015915119364, -- [22]
-						0, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0, -- [26]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"MISC", -- [26]
-					},
-				}, -- [1]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-						false, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						false, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						true, -- [23]
-						false, -- [24]
-						true, -- [25]
-						true, -- [26]
-						true, -- [27]
-						false, -- [28]
-						true, -- [29]
-						true, -- [30]
-						true, -- [31]
-					},
-					["Messages"] = {
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [1]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Dodge", -- [2]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [3]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Dodge", -- [4]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [5]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [6]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [7]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [8]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [9]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [10]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [11]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [12]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (18 Absorbed)", -- [13]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [15]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [17]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [19]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -38 (Physical)", -- [21]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [22]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [23]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [24]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [25]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [26]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
-						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (21 Absorbed) (Shadow)", -- [28]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [29]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [30]
-						"Shadowpine Shadowcaster dies.", -- [31]
-					},
-					["DeathAt"] = 1450867443,
-					["HealthNum"] = {
-						100, -- [1]
-						93.89920424403184, -- [2]
-						87.53315649867373, -- [3]
-						87.53315649867373, -- [4]
-						85.41114058355437, -- [5]
-						83.28912466843501, -- [6]
-						76.92307692307692, -- [7]
-						74.80106100795756, -- [8]
-						74.80106100795756, -- [9]
-						74.80106100795756, -- [10]
-						63.92572944297082, -- [11]
-						61.80371352785146, -- [12]
-						61.80371352785146, -- [13]
-						58.3554376657825, -- [14]
-						58.3554376657825, -- [15]
-						54.90716180371353, -- [16]
-						50.39787798408488, -- [17]
-						44.03183023872679, -- [18]
-						44.03183023872679, -- [19]
-						40.58355437665782, -- [20]
-						40.58355437665782, -- [21]
-						27.05570291777188, -- [22]
-						22.54641909814324, -- [23]
-						22.54641909814324, -- [24]
-						22.54641909814324, -- [25]
-						14.3236074270557, -- [26]
-						7.957559681697613, -- [27]
-						7.957559681697613, -- [28]
-						3.448275862068965, -- [29]
-						0.2652519893899205, -- [30]
-						0, -- [31]
-					},
-					["MessageTimes"] = {
-						-14.55299999999988, -- [1]
-						-14.46500000000015, -- [2]
-						-13.15300000000025, -- [3]
-						-12.5619999999999, -- [4]
-						-12.40400000000045, -- [5]
-						-10.35300000000098, -- [6]
-						-10.1150000000016, -- [7]
-						-8.414000000000669, -- [8]
-						-8.158000000001266, -- [9]
-						-7.708000000000538, -- [10]
-						-7.054000000000087, -- [11]
-						-6.363000000001193, -- [12]
-						-6.109000000000378, -- [13]
-						-5.962000000001353, -- [14]
-						-5.71900000000096, -- [15]
-						-5.012000000000626, -- [16]
-						-4.414000000000669, -- [17]
-						-4.109000000000378, -- [18]
-						-4.108000000000175, -- [19]
-						-4.014000000001033, -- [20]
-						-3.610000000000582, -- [21]
-						-3.057000000000699, -- [22]
-						-2.415000000000873, -- [23]
-						-2.105000000001382, -- [24]
-						-1.606000000001586, -- [25]
-						-1.063000000000102, -- [26]
-						-1.051000000001295, -- [27]
-						-0.6600000000016735, -- [28]
-						-0.3630000000011933, -- [29]
-						-0.00300000000061118, -- [30]
-						0, -- [31]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"377 (100%)", -- [1]
-						"354 (93%)", -- [2]
-						"330 (87%)", -- [3]
-						"330 (87%)", -- [4]
-						"322 (85%)", -- [5]
-						"314 (83%)", -- [6]
-						"290 (76%)", -- [7]
-						"282 (74%)", -- [8]
-						"282 (74%)", -- [9]
-						"282 (74%)", -- [10]
-						"241 (63%)", -- [11]
-						"233 (61%)", -- [12]
-						"233 (61%)", -- [13]
-						"220 (58%)", -- [14]
-						"220 (58%)", -- [15]
-						"207 (54%)", -- [16]
-						"190 (50%)", -- [17]
-						"166 (44%)", -- [18]
-						"166 (44%)", -- [19]
-						"153 (40%)", -- [20]
-						"153 (40%)", -- [21]
-						"102 (27%)", -- [22]
-						"85 (22%)", -- [23]
-						"85 (22%)", -- [24]
-						"85 (22%)", -- [25]
-						"54 (14%)", -- [26]
-						"30 (7%)", -- [27]
-						"30 (7%)", -- [28]
-						"13 (3%)", -- [29]
-						"1 (0%)", -- [30]
-						"0 (0%)", -- [31]
-					},
-					["EventNum"] = {
-						6.10079575596817, -- [1]
-						0, -- [2]
-						6.36604774535809, -- [3]
-						0, -- [4]
-						2.122015915119364, -- [5]
-						2.122015915119364, -- [6]
-						6.36604774535809, -- [7]
-						2.122015915119364, -- [8]
-						0, -- [9]
-						4.509283819628648, -- [10]
-						6.36604774535809, -- [11]
-						2.122015915119364, -- [12]
-						0, -- [13]
-						3.448275862068965, -- [14]
-						0, -- [15]
-						3.448275862068965, -- [16]
-						4.509283819628648, -- [17]
-						6.36604774535809, -- [18]
-						0, -- [19]
-						3.448275862068965, -- [20]
-						10.07957559681698, -- [21]
-						3.448275862068965, -- [22]
-						4.509283819628648, -- [23]
-						0, -- [24]
-						4.774535809018568, -- [25]
-						3.448275862068965, -- [26]
-						6.36604774535809, -- [27]
-						0, -- [28]
-						4.509283819628648, -- [29]
-						3.448275862068965, -- [30]
-						0, -- [31]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"DAMAGE", -- [27]
-						"DAMAGE", -- [28]
-						"DAMAGE", -- [29]
-						"DAMAGE", -- [30]
-						"MISC", -- [31]
-					},
-				}, -- [2]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						true, -- [13]
-						false, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						false, -- [21]
-						true, -- [22]
-						true, -- [23]
-						true, -- [24]
-						true, -- [25]
-						true, -- [26]
-						true, -- [27]
-					},
-					["Messages"] = {
-						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [1]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [2]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [3]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [4]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [5]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [6]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [7]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [8]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [9]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [11]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Parry", -- [12]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [13]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -15 (Physical)", -- [14]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [15]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [17]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [18]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [19]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [21]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [23]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [24]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [25]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
-						"Shadowpine Shadowcaster dies.", -- [27]
-					},
-					["DeathAt"] = 1450867360,
-					["HealthNum"] = {
-						92.57142857142857, -- [1]
-						92.57142857142857, -- [2]
-						82.85714285714286, -- [3]
-						82.85714285714286, -- [4]
-						74.57142857142857, -- [5]
-						67.71428571428571, -- [6]
-						65.42857142857143, -- [7]
-						65.42857142857143, -- [8]
-						55.71428571428572, -- [9]
-						53.42857142857143, -- [10]
-						46.57142857142857, -- [11]
-						46.57142857142857, -- [12]
-						42.85714285714285, -- [13]
-						42.85714285714285, -- [14]
-						40.57142857142857, -- [15]
-						36.85714285714285, -- [16]
-						33.71428571428572, -- [17]
-						30, -- [18]
-						30, -- [19]
-						17.14285714285714, -- [20]
-						17.14285714285714, -- [21]
-						14.85714285714286, -- [22]
-						11.14285714285714, -- [23]
-						7.428571428571429, -- [24]
-						7.428571428571429, -- [25]
-						0.2857142857142857, -- [26]
-						0, -- [27]
-					},
-					["MessageTimes"] = {
-						-14.875, -- [1]
-						-13.67500000000109, -- [2]
-						-11.97700000000077, -- [3]
-						-8.981999999999971, -- [4]
-						-8.882999999999811, -- [5]
-						-8.778000000000247, -- [6]
-						-8.033999999999651, -- [7]
-						-6.972999999999956, -- [8]
-						-5.977000000000771, -- [9]
-						-5.976000000000568, -- [10]
-						-5.712999999999738, -- [11]
-						-4.877000000000408, -- [12]
-						-4.783999999999651, -- [13]
-						-4.40099999999984, -- [14]
-						-4.054000000000087, -- [15]
-						-3.822000000000116, -- [16]
-						-2.939000000000306, -- [17]
-						-2.827000000001135, -- [18]
-						-2.826000000000931, -- [19]
-						-2.683000000000902, -- [20]
-						-2.376000000000204, -- [21]
-						-2.02599999999984, -- [22]
-						-1.780000000000655, -- [23]
-						-0.8260000000009313, -- [24]
-						-0.7309999999997672, -- [25]
-						-0.01699999999982538, -- [26]
-						0, -- [27]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"324 (92%)", -- [1]
-						"324 (92%)", -- [2]
-						"290 (82%)", -- [3]
-						"290 (82%)", -- [4]
-						"261 (74%)", -- [5]
-						"237 (67%)", -- [6]
-						"229 (65%)", -- [7]
-						"229 (65%)", -- [8]
-						"195 (55%)", -- [9]
-						"187 (53%)", -- [10]
-						"163 (46%)", -- [11]
-						"163 (46%)", -- [12]
-						"150 (42%)", -- [13]
-						"150 (42%)", -- [14]
-						"142 (40%)", -- [15]
-						"129 (36%)", -- [16]
-						"118 (33%)", -- [17]
-						"105 (30%)", -- [18]
-						"105 (30%)", -- [19]
-						"60 (17%)", -- [20]
-						"60 (17%)", -- [21]
-						"52 (14%)", -- [22]
-						"39 (11%)", -- [23]
-						"26 (7%)", -- [24]
-						"26 (7%)", -- [25]
-						"1 (0%)", -- [26]
-						"0 (0%)", -- [27]
-					},
-					["EventNum"] = {
-						7.428571428571429, -- [1]
-						6.571428571428571, -- [2]
-						3.142857142857143, -- [3]
-						5.142857142857143, -- [4]
-						3.142857142857143, -- [5]
-						6.857142857142857, -- [6]
-						2.285714285714286, -- [7]
-						6.571428571428571, -- [8]
-						3.142857142857143, -- [9]
-						2.285714285714286, -- [10]
-						6.857142857142857, -- [11]
-						0, -- [12]
-						3.714285714285714, -- [13]
-						0, -- [14]
-						2.285714285714286, -- [15]
-						3.714285714285714, -- [16]
-						3.142857142857143, -- [17]
-						3.714285714285714, -- [18]
-						6, -- [19]
-						6.857142857142857, -- [20]
-						0, -- [21]
-						2.285714285714286, -- [22]
-						3.714285714285714, -- [23]
-						3.714285714285714, -- [24]
-						6.571428571428571, -- [25]
-						4.857142857142857, -- [26]
-						0, -- [27]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"MISC", -- [27]
-					},
-				}, -- [3]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-						false, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						false, -- [21]
-						true, -- [22]
-						true, -- [23]
-						false, -- [24]
-						false, -- [25]
-						true, -- [26]
-						true, -- [27]
-						false, -- [28]
-						true, -- [29]
-						true, -- [30]
-					},
-					["Messages"] = {
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -40 (Physical)", -- [1]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [2]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [3]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [4]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [6]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [7]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [8]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [9]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [10]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [12]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [13]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [15]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -18 (Physical)", -- [16]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [17]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [19]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
-						"Shadowpine Shadowcaster Melee Ellipsis Hit -24 (Physical)", -- [21]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [22]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [24]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [25]
-						"Ellipsis Melee Shadowpine Shadowcaster Hit -2 (Physical)", -- [26]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [27]
-						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [28]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [29]
-						"Shadowpine Shadowcaster dies.", -- [30]
-					},
-					["DeathAt"] = 1450867269,
-					["HealthNum"] = {
-						94.69496021220159, -- [1]
-						84.08488063660478, -- [2]
-						84.08488063660478, -- [3]
-						79.31034482758621, -- [4]
-						72.94429708222812, -- [5]
-						69.49602122015915, -- [6]
-						69.49602122015915, -- [7]
-						64.45623342175067, -- [8]
-						61.0079575596817, -- [9]
-						54.6419098143236, -- [10]
-						51.19363395225464, -- [11]
-						51.19363395225464, -- [12]
-						46.68435013262599, -- [13]
-						43.23607427055703, -- [14]
-						43.23607427055703, -- [15]
-						37.93103448275862, -- [16]
-						34.48275862068966, -- [17]
-						28.11671087533157, -- [18]
-						24.6684350132626, -- [19]
-						21.22015915119363, -- [20]
-						21.22015915119363, -- [21]
-						21.22015915119363, -- [22]
-						10.3448275862069, -- [23]
-						10.3448275862069, -- [24]
-						10.3448275862069, -- [25]
-						10.3448275862069, -- [26]
-						10.3448275862069, -- [27]
-						5.305039787798409, -- [28]
-						0.2652519893899205, -- [29]
-						0, -- [30]
-					},
-					["MessageTimes"] = {
-						-14.50400000000082, -- [1]
-						-14.35699999999997, -- [2]
-						-12.50600000000122, -- [3]
-						-12.29900000000089, -- [4]
-						-11.9940000000006, -- [5]
-						-10.90200000000004, -- [6]
-						-10.46199999999953, -- [7]
-						-10.25200000000041, -- [8]
-						-9.953000000001339, -- [9]
-						-9.052999999999884, -- [10]
-						-8.949000000000524, -- [11]
-						-8.353000000000975, -- [12]
-						-8.252000000000408, -- [13]
-						-7.906000000000859, -- [14]
-						-6.308000000000902, -- [15]
-						-6.156000000000859, -- [16]
-						-6.058000000000902, -- [17]
-						-6.057000000000699, -- [18]
-						-5.046000000000277, -- [19]
-						-4.097999999999956, -- [20]
-						-3.852000000000771, -- [21]
-						-3.351000000000568, -- [22]
-						-3, -- [23]
-						-2.505000000001019, -- [24]
-						-1.497999999999593, -- [25]
-						-1.253000000000611, -- [26]
-						-1.252000000000408, -- [27]
-						-0.5959999999995489, -- [28]
-						-0.00300000000061118, -- [29]
-						0, -- [30]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"357 (94%)", -- [1]
-						"317 (84%)", -- [2]
-						"317 (84%)", -- [3]
-						"299 (79%)", -- [4]
-						"275 (72%)", -- [5]
-						"262 (69%)", -- [6]
-						"262 (69%)", -- [7]
-						"243 (64%)", -- [8]
-						"230 (61%)", -- [9]
-						"206 (54%)", -- [10]
-						"193 (51%)", -- [11]
-						"193 (51%)", -- [12]
-						"176 (46%)", -- [13]
-						"163 (43%)", -- [14]
-						"163 (43%)", -- [15]
-						"143 (37%)", -- [16]
-						"130 (34%)", -- [17]
-						"106 (28%)", -- [18]
-						"93 (24%)", -- [19]
-						"80 (21%)", -- [20]
-						"80 (21%)", -- [21]
-						"80 (21%)", -- [22]
-						"39 (10%)", -- [23]
-						"39 (10%)", -- [24]
-						"39 (10%)", -- [25]
-						"39 (10%)", -- [26]
-						"39 (10%)", -- [27]
-						"20 (5%)", -- [28]
-						"1 (0%)", -- [29]
-						"0 (0%)", -- [30]
-					},
-					["EventNum"] = {
-						10.61007957559682, -- [1]
-						0, -- [2]
-						4.774535809018568, -- [3]
-						0, -- [4]
-						6.36604774535809, -- [5]
-						3.448275862068965, -- [6]
-						5.039787798408488, -- [7]
-						0, -- [8]
-						3.448275862068965, -- [9]
-						6.36604774535809, -- [10]
-						3.448275862068965, -- [11]
-						4.509283819628648, -- [12]
-						0, -- [13]
-						3.448275862068965, -- [14]
-						5.305039787798409, -- [15]
-						0, -- [16]
-						3.448275862068965, -- [17]
-						6.36604774535809, -- [18]
-						3.448275862068965, -- [19]
-						3.448275862068965, -- [20]
-						0, -- [21]
-						4.509283819628648, -- [22]
-						6.36604774535809, -- [23]
-						0, -- [24]
-						0, -- [25]
-						0.5305039787798409, -- [26]
-						4.509283819628648, -- [27]
-						0, -- [28]
-						6.36604774535809, -- [29]
-						0, -- [30]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"DAMAGE", -- [27]
-						"DAMAGE", -- [28]
-						"DAMAGE", -- [29]
-						"MISC", -- [30]
-					},
-				}, -- [4]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-						true, -- [4]
-						false, -- [5]
-						true, -- [6]
-						false, -- [7]
-						true, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						true, -- [23]
-						false, -- [24]
-						true, -- [25]
-						true, -- [26]
-						true, -- [27]
-					},
-					["Messages"] = {
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [1]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [2]
-						"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [3]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [4]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [5]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [6]
-						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [7]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [8]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [12]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [13]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [14]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [15]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [16]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [17]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [18]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [19]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [20]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [21]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [22]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
-						"Shadowpine Shadowcaster Melee Ellipsis Hit -21 (Physical)", -- [24]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [25]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [26]
-						"Shadowpine Shadowcaster dies.", -- [27]
-					},
-					["DeathAt"] = 1450867163,
-					["HealthNum"] = {
-						100, -- [1]
-						93.71428571428571, -- [2]
-						82.57142857142857, -- [3]
-						82.57142857142857, -- [4]
-						76.57142857142857, -- [5]
-						76.57142857142857, -- [6]
-						71.71428571428571, -- [7]
-						67.14285714285714, -- [8]
-						60.28571428571429, -- [9]
-						58, -- [10]
-						54.28571428571429, -- [11]
-						54.28571428571429, -- [12]
-						45.14285714285715, -- [13]
-						42.85714285714285, -- [14]
-						39.71428571428572, -- [15]
-						32.85714285714285, -- [16]
-						29.14285714285714, -- [17]
-						29.14285714285714, -- [18]
-						19.71428571428572, -- [19]
-						17.42857142857143, -- [20]
-						13.71428571428571, -- [21]
-						10.57142857142857, -- [22]
-						3.714285714285714, -- [23]
-						3.714285714285714, -- [24]
-						1.428571428571429, -- [25]
-						1.428571428571429, -- [26]
-						0, -- [27]
-					},
-					["MessageTimes"] = {
-						-11.30299999999988, -- [1]
-						-11.20099999999911, -- [2]
-						-9.84099999999853, -- [3]
-						-9.040999999999258, -- [4]
-						-9.040999999999258, -- [5]
-						-7.206999999998516, -- [6]
-						-7.044999999998254, -- [7]
-						-6.909999999999855, -- [8]
-						-6.703999999999724, -- [9]
-						-6.104999999999563, -- [10]
-						-5.208999999998923, -- [11]
-						-5.207999999998719, -- [12]
-						-4.20299999999952, -- [13]
-						-4.101999999998952, -- [14]
-						-3.862999999999374, -- [15]
-						-3.651999999998225, -- [16]
-						-3.196999999998297, -- [17]
-						-3.183999999999287, -- [18]
-						-2.200999999999112, -- [19]
-						-2.043999999999869, -- [20]
-						-1.256999999999607, -- [21]
-						-0.9489999999987049, -- [22]
-						-0.7459999999991851, -- [23]
-						-0.4009999999998399, -- [24]
-						-0.09799999999995634, -- [25]
-						-0.001999999998588464, -- [26]
-						0, -- [27]
-					},
-					["KilledBy"] = "Belkath <Ellipsis>",
-					["Health"] = {
-						"350 (100%)", -- [1]
-						"328 (93%)", -- [2]
-						"289 (82%)", -- [3]
-						"289 (82%)", -- [4]
-						"268 (76%)", -- [5]
-						"268 (76%)", -- [6]
-						"251 (71%)", -- [7]
-						"235 (67%)", -- [8]
-						"211 (60%)", -- [9]
-						"203 (58%)", -- [10]
-						"190 (54%)", -- [11]
-						"190 (54%)", -- [12]
-						"158 (45%)", -- [13]
-						"150 (42%)", -- [14]
-						"139 (39%)", -- [15]
-						"115 (32%)", -- [16]
-						"102 (29%)", -- [17]
-						"102 (29%)", -- [18]
-						"69 (19%)", -- [19]
-						"61 (17%)", -- [20]
-						"48 (13%)", -- [21]
-						"37 (10%)", -- [22]
-						"13 (3%)", -- [23]
-						"13 (3%)", -- [24]
-						"5 (1%)", -- [25]
-						"5 (1%)", -- [26]
-						"0 (0%)", -- [27]
-					},
-					["EventNum"] = {
-						6.285714285714286, -- [1]
-						0, -- [2]
-						11.14285714285714, -- [3]
-						6, -- [4]
-						0, -- [5]
-						4.857142857142857, -- [6]
-						0, -- [7]
-						4.571428571428571, -- [8]
-						6.857142857142857, -- [9]
-						2.285714285714286, -- [10]
-						3.714285714285714, -- [11]
-						5.428571428571429, -- [12]
-						3.714285714285714, -- [13]
-						2.285714285714286, -- [14]
-						3.142857142857143, -- [15]
-						6.857142857142857, -- [16]
-						3.714285714285714, -- [17]
-						5.714285714285714, -- [18]
-						3.714285714285714, -- [19]
-						2.285714285714286, -- [20]
-						3.714285714285714, -- [21]
-						3.142857142857143, -- [22]
-						6.857142857142857, -- [23]
-						0, -- [24]
-						2.285714285714286, -- [25]
-						5.142857142857143, -- [26]
-						0, -- [27]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"MISC", -- [27]
-					},
-				}, -- [5]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						true, -- [8]
-						false, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						false, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						false, -- [21]
-						true, -- [22]
-						true, -- [23]
-						true, -- [24]
-						false, -- [25]
-						true, -- [26]
-						true, -- [27]
-						false, -- [28]
-						true, -- [29]
-						true, -- [30]
-						true, -- [31]
-						false, -- [32]
-						true, -- [33]
-						true, -- [34]
-					},
-					["Messages"] = {
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [1]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [2]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [3]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [4]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [6]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [7]
-						"Shadowpine Shadowcaster dies.", -- [8]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [9]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [11]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [12]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [13]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [14]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [15]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [16]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [17]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [19]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
-						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [21]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [22]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [24]
-						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [25]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [27]
-						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [28]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [29]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [30]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [31]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [32]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -26 (Shadow)", -- [33]
-						"Shadowpine Shadowcaster dies.", -- [34]
-					},
-					["DeathAt"] = 1450867132,
-					["HealthNum"] = {
-						12.57142857142857, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						42.97082228116711, -- [18]
-						38.46153846153846, -- [19]
-						35.0132625994695, -- [20]
-						35.0132625994695, -- [21]
-						32.09549071618037, -- [22]
-						25.72944297082228, -- [23]
-						22.28116710875332, -- [24]
-						22.28116710875332, -- [25]
-						17.77188328912467, -- [26]
-						14.3236074270557, -- [27]
-						14.3236074270557, -- [28]
-						10.87533156498674, -- [29]
-						6.36604774535809, -- [30]
-						2.917771883289125, -- [31]
-						2.917771883289125, -- [32]
-						0, -- [33]
-						0, -- [34]
-					},
-					["MessageTimes"] = {
-						-14.9940000000006, -- [1]
-						-14.14400000000023, -- [2]
-						-14.14300000000003, -- [3]
-						-14.04000000000087, -- [4]
-						-13.69000000000051, -- [5]
-						-13.59500000000116, -- [6]
-						-13.20100000000093, -- [7]
-						-13.17900000000009, -- [8]
-						-12.33500000000095, -- [9]
-						-11.94700000000012, -- [10]
-						-11.14400000000023, -- [11]
-						-10.63700000000063, -- [12]
-						-10.29399999999987, -- [13]
-						-9.990999999999985, -- [14]
-						-8.192000000000917, -- [15]
-						-8.104000000001179, -- [16]
-						-7.980000000001382, -- [17]
-						-7.649000000001252, -- [18]
-						-5.997000000001208, -- [19]
-						-5.200000000000728, -- [20]
-						-5.096000000001368, -- [21]
-						-5.096000000001368, -- [22]
-						-4.587999999999738, -- [23]
-						-4.228000000000975, -- [24]
-						-4.075000000000728, -- [25]
-						-3.921000000000277, -- [26]
-						-3.203000000001339, -- [27]
-						-3.100000000000364, -- [28]
-						-2.199000000000524, -- [29]
-						-1.984000000000378, -- [30]
-						-1.194000000001324, -- [31]
-						-1.193000000001121, -- [32]
-						-0.001000000000203727, -- [33]
-						0, -- [34]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"44 (12%)", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-						"???", -- [4]
-						"???", -- [5]
-						"???", -- [6]
-						"???", -- [7]
-						"???", -- [8]
-						"???", -- [9]
-						"???", -- [10]
-						"???", -- [11]
-						"???", -- [12]
-						"???", -- [13]
-						"???", -- [14]
-						"???", -- [15]
-						"???", -- [16]
-						"???", -- [17]
-						"162 (42%)", -- [18]
-						"145 (38%)", -- [19]
-						"132 (35%)", -- [20]
-						"132 (35%)", -- [21]
-						"121 (32%)", -- [22]
-						"97 (25%)", -- [23]
-						"84 (22%)", -- [24]
-						"84 (22%)", -- [25]
-						"67 (17%)", -- [26]
-						"54 (14%)", -- [27]
-						"54 (14%)", -- [28]
-						"41 (10%)", -- [29]
-						"24 (6%)", -- [30]
-						"11 (2%)", -- [31]
-						"11 (2%)", -- [32]
-						"???", -- [33]
-						"???", -- [34]
-					},
-					["EventNum"] = {
-						4.857142857142857, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						0, -- [6]
-						0, -- [7]
-						0, -- [8]
-						0, -- [9]
-						0, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						6.36604774535809, -- [18]
-						4.509283819628648, -- [19]
-						3.448275862068965, -- [20]
-						0, -- [21]
-						2.917771883289125, -- [22]
-						6.36604774535809, -- [23]
-						3.448275862068965, -- [24]
-						0, -- [25]
-						4.509283819628648, -- [26]
-						3.448275862068965, -- [27]
-						0, -- [28]
-						3.448275862068965, -- [29]
-						4.509283819628648, -- [30]
-						3.448275862068965, -- [31]
-						0, -- [32]
-						0, -- [33]
-						0, -- [34]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"MISC", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"DAMAGE", -- [27]
-						"DAMAGE", -- [28]
-						"DAMAGE", -- [29]
-						"DAMAGE", -- [30]
-						"DAMAGE", -- [31]
-						"DAMAGE", -- [32]
-						"DAMAGE", -- [33]
-						"MISC", -- [34]
-					},
-				}, -- [6]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-						true, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						false, -- [23]
-						true, -- [24]
-						true, -- [25]
-						true, -- [26]
-						true, -- [27]
-						true, -- [28]
-						true, -- [29]
-						true, -- [30]
-						true, -- [31]
-						false, -- [32]
-						true, -- [33]
-					},
-					["Messages"] = {
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [1]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [2]
-						"Shadowpine Shadowcaster Melee Ellipsis Hit -23 (Physical)", -- [3]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [4]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [5]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [6]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [7]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (23 Absorbed)", -- [8]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [10]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [11]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [12]
-						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [13]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [14]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [15]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [16]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [17]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [18]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [19]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [21]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [23]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [24]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [25]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [26]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [27]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [28]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [29]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [30]
-						"Shadowpine Shadowcaster dies.", -- [31]
-						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [32]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [33]
-					},
-					["DeathAt"] = 1450867119,
-					["HealthNum"] = {
-						83.71428571428571, -- [1]
-						76.85714285714286, -- [2]
-						76.85714285714286, -- [3]
-						74.57142857142857, -- [4]
-						100, -- [5]
-						100, -- [6]
-						100, -- [7]
-						100, -- [8]
-						100, -- [9]
-						100, -- [10]
-						100, -- [11]
-						100, -- [12]
-						93.10344827586206, -- [13]
-						93.10344827586206, -- [14]
-						93.10344827586206, -- [15]
-						93.10344827586206, -- [16]
-						93.10344827586206, -- [17]
-						90.18567639257294, -- [18]
-						90.18567639257294, -- [19]
-						90.18567639257294, -- [20]
-						83.81962864721486, -- [21]
-						17.42857142857143, -- [22]
-						17.42857142857143, -- [23]
-						12.57142857142857, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						0, -- [29]
-						0, -- [30]
-						0, -- [31]
-						0, -- [32]
-						0, -- [33]
-					},
-					["MessageTimes"] = {
-						-12.90200000000004, -- [1]
-						-12.46900000000096, -- [2]
-						-11.96299999999974, -- [3]
-						-11.70700000000034, -- [4]
-						-10.47000000000116, -- [5]
-						-10.01400000000103, -- [6]
-						-9.715000000000146, -- [7]
-						-9.564000000000306, -- [8]
-						-9.415000000000873, -- [9]
-						-7.911000000000058, -- [10]
-						-7.768000000000029, -- [11]
-						-6.971999999999753, -- [12]
-						-6.8700000000008, -- [13]
-						-6.462999999999738, -- [14]
-						-5.876000000000204, -- [15]
-						-5.770000000000437, -- [16]
-						-4.019000000000233, -- [17]
-						-3.864000000001397, -- [18]
-						-3.753000000000611, -- [19]
-						-3.515000000001237, -- [20]
-						-3.412000000000262, -- [21]
-						-2.864000000001397, -- [22]
-						-2.273000000001048, -- [23]
-						-1.815000000000509, -- [24]
-						-0.9650000000001455, -- [25]
-						-0.9639999999999418, -- [26]
-						-0.8610000000007858, -- [27]
-						-0.511000000000422, -- [28]
-						-0.4160000000010768, -- [29]
-						-0.02200000000084401, -- [30]
-						0, -- [31]
-						0.8439999999991414, -- [32]
-						1.231999999999971, -- [33]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"293 (83%)", -- [1]
-						"269 (76%)", -- [2]
-						"269 (76%)", -- [3]
-						"261 (74%)", -- [4]
-						"377 (100%)", -- [5]
-						"377 (100%)", -- [6]
-						"377 (100%)", -- [7]
-						"377 (100%)", -- [8]
-						"377 (100%)", -- [9]
-						"377 (100%)", -- [10]
-						"377 (100%)", -- [11]
-						"377 (100%)", -- [12]
-						"351 (93%)", -- [13]
-						"351 (93%)", -- [14]
-						"351 (93%)", -- [15]
-						"351 (93%)", -- [16]
-						"351 (93%)", -- [17]
-						"340 (90%)", -- [18]
-						"340 (90%)", -- [19]
-						"340 (90%)", -- [20]
-						"316 (83%)", -- [21]
-						"61 (17%)", -- [22]
-						"61 (17%)", -- [23]
-						"44 (12%)", -- [24]
-						"???", -- [25]
-						"???", -- [26]
-						"???", -- [27]
-						"???", -- [28]
-						"???", -- [29]
-						"???", -- [30]
-						"???", -- [31]
-						"???", -- [32]
-						"???", -- [33]
-					},
-					["EventNum"] = {
-						3.142857142857143, -- [1]
-						6.857142857142857, -- [2]
-						0, -- [3]
-						2.285714285714286, -- [4]
-						4.509283819628648, -- [5]
-						2.917771883289125, -- [6]
-						2.122015915119364, -- [7]
-						0, -- [8]
-						6.36604774535809, -- [9]
-						5.305039787798409, -- [10]
-						2.122015915119364, -- [11]
-						2.917771883289125, -- [12]
-						6.896551724137931, -- [13]
-						6.36604774535809, -- [14]
-						4.509283819628648, -- [15]
-						2.122015915119364, -- [16]
-						2.917771883289125, -- [17]
-						2.917771883289125, -- [18]
-						4.509283819628648, -- [19]
-						6.36604774535809, -- [20]
-						6.36604774535809, -- [21]
-						2.285714285714286, -- [22]
-						0, -- [23]
-						4.857142857142857, -- [24]
-						0, -- [25]
-						0, -- [26]
-						0, -- [27]
-						0, -- [28]
-						0, -- [29]
-						0, -- [30]
-						0, -- [31]
-						0, -- [32]
-						0, -- [33]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"DAMAGE", -- [27]
-						"DAMAGE", -- [28]
-						"DAMAGE", -- [29]
-						"DAMAGE", -- [30]
-						"MISC", -- [31]
-						"DAMAGE", -- [32]
-						"DAMAGE", -- [33]
-					},
-				}, -- [7]
-				{
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						false, -- [3]
-						true, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						true, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						false, -- [18]
-						true, -- [19]
-						true, -- [20]
-						true, -- [21]
-						true, -- [22]
-						true, -- [23]
-						false, -- [24]
-						true, -- [25]
-						true, -- [26]
-						true, -- [27]
-						true, -- [28]
-					},
-					["Messages"] = {
-						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [1]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [2]
-						"Shadowpine Shadowcaster Melee Ellipsis Hit -22 (Physical)", -- [3]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [4]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [6]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -36 (Physical)", -- [7]
-						"Shadowpine Shadowcaster Melee Ellipsis Crit -38 (Physical)", -- [8]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [9]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [10]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [12]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [13]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [15]
-						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [17]
-						"Shadowpine Shadowcaster Melee Ellipsis Hit -23 (Physical)", -- [18]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [19]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [21]
-						"Ellipsis Melee Shadowpine Shadowcaster Dodge", -- [22]
-						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [23]
-						"Shadowpine Shadowcaster Melee Ellipsis Dodge", -- [24]
-						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [25]
-						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
-						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
-						"Shadowpine Shadowcaster dies.", -- [28]
-					},
-					["DeathAt"] = 1450867056,
-					["HealthNum"] = {
-						92.57142857142857, -- [1]
-						92.57142857142857, -- [2]
-						87.42857142857143, -- [3]
-						84.28571428571429, -- [4]
-						77.42857142857143, -- [5]
-						75.14285714285714, -- [6]
-						75.14285714285714, -- [7]
-						64.85714285714286, -- [8]
-						62.57142857142857, -- [9]
-						59.42857142857143, -- [10]
-						55.71428571428572, -- [11]
-						55.71428571428572, -- [12]
-						42.85714285714285, -- [13]
-						39.14285714285715, -- [14]
-						36.85714285714285, -- [15]
-						33.14285714285715, -- [16]
-						33.14285714285715, -- [17]
-						26.57142857142857, -- [18]
-						23.42857142857143, -- [19]
-						16.57142857142857, -- [20]
-						14.28571428571429, -- [21]
-						14.28571428571429, -- [22]
-						14.28571428571429, -- [23]
-						9.142857142857142, -- [24]
-						6, -- [25]
-						1.142857142857143, -- [26]
-						0.2857142857142857, -- [27]
-						0, -- [28]
-					},
-					["MessageTimes"] = {
-						-12.36599999999999, -- [1]
-						-10.27499999999964, -- [2]
-						-10.17100000000028, -- [3]
-						-9.416999999999462, -- [4]
-						-8.963999999999942, -- [5]
-						-8.424999999999272, -- [6]
-						-8.170000000000073, -- [7]
-						-8.075999999999112, -- [8]
-						-6.469999999999345, -- [9]
-						-6.372999999999593, -- [10]
-						-6.118999999998778, -- [11]
-						-6.118999999998778, -- [12]
-						-5.975999999998749, -- [13]
-						-5.154999999998836, -- [14]
-						-4.511999999998807, -- [15]
-						-4.158999999999651, -- [16]
-						-4.002000000000408, -- [17]
-						-3.528000000000247, -- [18]
-						-3.427999999999884, -- [19]
-						-2.981999999999971, -- [20]
-						-2.450999999999112, -- [21]
-						-1.995999999999185, -- [22]
-						-1.995999999999185, -- [23]
-						-1.505999999999403, -- [24]
-						-0.4539999999997235, -- [25]
-						-0.4539999999997235, -- [26]
-						-0.002000000000407454, -- [27]
-						0, -- [28]
-					},
-					["KilledBy"] = "Ellipsis",
-					["Health"] = {
-						"324 (92%)", -- [1]
-						"324 (92%)", -- [2]
-						"306 (87%)", -- [3]
-						"295 (84%)", -- [4]
-						"271 (77%)", -- [5]
-						"263 (75%)", -- [6]
-						"263 (75%)", -- [7]
-						"227 (64%)", -- [8]
-						"219 (62%)", -- [9]
-						"208 (59%)", -- [10]
-						"195 (55%)", -- [11]
-						"195 (55%)", -- [12]
-						"150 (42%)", -- [13]
-						"137 (39%)", -- [14]
-						"129 (36%)", -- [15]
-						"116 (33%)", -- [16]
-						"116 (33%)", -- [17]
-						"93 (26%)", -- [18]
-						"82 (23%)", -- [19]
-						"58 (16%)", -- [20]
-						"50 (14%)", -- [21]
-						"50 (14%)", -- [22]
-						"50 (14%)", -- [23]
-						"32 (9%)", -- [24]
-						"21 (6%)", -- [25]
-						"4 (1%)", -- [26]
-						"1 (0%)", -- [27]
-						"0 (0%)", -- [28]
-					},
-					["EventNum"] = {
-						7.428571428571429, -- [1]
-						5.142857142857143, -- [2]
-						0, -- [3]
-						3.142857142857143, -- [4]
-						6.857142857142857, -- [5]
-						2.285714285714286, -- [6]
-						10.28571428571429, -- [7]
-						0, -- [8]
-						2.285714285714286, -- [9]
-						3.142857142857143, -- [10]
-						3.714285714285714, -- [11]
-						6, -- [12]
-						6.857142857142857, -- [13]
-						3.714285714285714, -- [14]
-						2.285714285714286, -- [15]
-						3.714285714285714, -- [16]
-						6.571428571428571, -- [17]
-						0, -- [18]
-						3.142857142857143, -- [19]
-						6.857142857142857, -- [20]
-						2.285714285714286, -- [21]
-						0, -- [22]
-						5.142857142857143, -- [23]
-						0, -- [24]
-						3.142857142857143, -- [25]
-						4.857142857142857, -- [26]
-						6.857142857142857, -- [27]
-						0, -- [28]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"DAMAGE", -- [22]
-						"DAMAGE", -- [23]
-						"DAMAGE", -- [24]
-						"DAMAGE", -- [25]
-						"DAMAGE", -- [26]
-						"DAMAGE", -- [27]
-						"MISC", -- [28]
-					},
-				}, -- [8]
-			},
-			["TimeLast"] = {
-				["DeathCount"] = 1450867497,
-				["ActiveTime"] = 1450867496,
-				["TimeDamage"] = 1450867496,
-				["DOT_Time"] = 1450867496,
-				["OVERALL"] = 1450867497,
-				["DamageTaken"] = 1450867497,
-				["Damage"] = 1450867496,
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"MISC", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"MISC", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
-			},
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					8, -- [1]
-				},
-				["ActiveTime"] = {
-					113.77, -- [1]
-				},
-				["TimeDamage"] = {
-					113.77, -- [1]
-				},
-				["DOT_Time"] = {
-					27, -- [1]
-				},
-				["DamageTaken"] = {
-					3005, -- [1]
-				},
-				["Damage"] = {
-					640, -- [1]
-				},
-			},
-			["enClass"] = "MOB",
-			["LastDamageTaken"] = 18,
-			["level"] = 17,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 20,
-			["LastEventNum"] = {
-				6.36604774535809, -- [1]
-				nil, -- [2]
-				4.509283819628648, -- [3]
-				3.448275862068965, -- [4]
-				nil, -- [5]
-				nil, -- [6]
-				nil, -- [7]
-				nil, -- [8]
-				5.305039787798409, -- [9]
-				nil, -- [10]
-				nil, -- [11]
-				5.570291777188329, -- [12]
-				nil, -- [13]
-				5.570291777188329, -- [14]
-				6.10079575596817, -- [15]
-				5.570291777188329, -- [16]
-				nil, -- [17]
-				nil, -- [18]
-				5.039787798408488, -- [19]
-				nil, -- [20]
-				5.570291777188329, -- [21]
-				nil, -- [22]
-				5.570291777188329, -- [23]
-				nil, -- [24]
-				2.917771883289125, -- [25]
-				nil, -- [26]
-				6.36604774535809, -- [27]
-				2.122015915119364, -- [28]
-				5.835543766578249, -- [29]
-				nil, -- [30]
-				2.122015915119364, -- [31]
-				6.36604774535809, -- [32]
-				nil, -- [33]
-				10.3448275862069, -- [34]
-				2.122015915119364, -- [35]
-				nil, -- [36]
-				nil, -- [37]
-				6.36604774535809, -- [38]
-				5.570291777188329, -- [39]
-				2.122015915119364, -- [40]
-				[49] = 4.774535809018568,
-				[50] = 3.448275862068965,
-				[45] = 10.07957559681698,
-				[46] = 3.448275862068965,
-				[47] = 4.509283819628648,
-			},
-			["type"] = "Nontrivial",
-			["FightsSaved"] = 5,
-			["LastAbility"] = 40558.743,
-			["LastEventTimes"] = {
-				8705.918, -- [1]
-				8706.308999999999, -- [2]
-				8706.606, -- [3]
-				8706.966, -- [4]
-				8706.969000000001, -- [5]
-				8735.709000000001, -- [6]
-				8736.748, -- [7]
-				8737.752, -- [8]
-				8738.300000000001, -- [9]
-				8739.509, -- [10]
-				8739.852000000001, -- [11]
-				8740.356, -- [12]
-				8742.358, -- [13]
-				8742.447, -- [14]
-				8744.458000000001, -- [15]
-				8746.51, -- [16]
-				8747.008, -- [17]
-				8747.959000000001, -- [18]
-				8748.648999999999, -- [19]
-				8749, -- [20]
-				8750.709000000001, -- [21]
-				8751.012000000001, -- [22]
-				8752.821, -- [23]
-				8753.018, -- [24]
-				8754.807000000001, -- [25]
-				8755.011, -- [26]
-				8755.148999999999, -- [27]
-				8755.812, -- [28]
-				8756.903, -- [29]
-				8757.112000000001, -- [30]
-				8757.816000000001, -- [31]
-				8758.057000000001, -- [32]
-				8758.957, -- [33]
-				8759.163000000001, -- [34]
-				8759.757, -- [35]
-				8759.852000000001, -- [36]
-				8760.897000000001, -- [37]
-				8761.054, -- [38]
-				8761.054, -- [39]
-				8761.801, -- [40]
-				8761.897000000001, -- [41]
-				8762.157999999999, -- [42]
-				8763.06, -- [43]
-				8763.062, -- [44]
-				8703.359, -- [45]
-				8703.912, -- [46]
-				8704.554, -- [47]
-				8704.864, -- [48]
-				8705.362999999999, -- [49]
-				8705.906000000001, -- [50]
-			},
-			["Owner"] = false,
-			["GUID"] = "0xF13000405500570C",
-			["NextEventNum"] = 45,
-			["LastEventHealthNum"] = {
-				7.957559681697613, -- [1]
-				7.957559681697613, -- [2]
-				3.448275862068965, -- [3]
-				0.2652519893899205, -- [4]
-				0, -- [5]
-				0, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				66.84350132625995, -- [21]
-				61.27320954907162, -- [22]
-				61.27320954907162, -- [23]
-				55.70291777188329, -- [24]
-				55.70291777188329, -- [25]
-				52.78514588859417, -- [26]
-				46.41909814323608, -- [27]
-				44.29708222811671, -- [28]
-				44.29708222811671, -- [29]
-				38.46153846153846, -- [30]
-				36.3395225464191, -- [31]
-				29.97347480106101, -- [32]
-				29.97347480106101, -- [33]
-				19.62864721485411, -- [34]
-				17.50663129973475, -- [35]
-				17.50663129973475, -- [36]
-				17.50663129973475, -- [37]
-				11.14058355437666, -- [38]
-				11.14058355437666, -- [39]
-				3.448275862068965, -- [40]
-				0, -- [41]
-				0, -- [42]
-				0, -- [43]
-				0, -- [44]
-				40.58355437665782, -- [45]
-				27.05570291777188, -- [46]
-				22.54641909814324, -- [47]
-				22.54641909814324, -- [48]
-				22.54641909814324, -- [49]
-				14.3236074270557, -- [50]
-			},
-			["LastEvents"] = {
-				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [1]
-				"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (21 Absorbed) (Shadow)", -- [2]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [3]
-				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [4]
-				"Shadowpine Shadowcaster dies.", -- [5]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -15 (Physical)", -- [6]
-				"Shadowpine Shadowcaster Melee Ellipsis Hit -20 (Physical)", -- [7]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [8]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [9]
-				"Shadowpine Shadowcaster Melee Ellipsis Hit -22 (Physical)", -- [10]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [11]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [12]
-				"Shadowpine Shadowcaster Melee Ellipsis Hit -25 (Physical)", -- [13]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [14]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [15]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [16]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [17]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [18]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [19]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [20]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [21]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [22]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [23]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [24]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -11 (Physical)", -- [25]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [26]
-				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [28]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [29]
-				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [30]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [31]
-				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [32]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [33]
-				"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [34]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [35]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [36]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [37]
-				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [38]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [39]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [40]
-				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [41]
-				"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [42]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [43]
-				"Shadowpine Shadowcaster dies.", -- [44]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -38 (Physical)", -- [45]
-				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [46]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [47]
-				"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [48]
-				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [49]
-				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [50]
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
-			["Name"] = "Shadowpine Shadowcaster",
-			["LastEventHealth"] = {
-				"30 (7%)", -- [1]
-				"30 (7%)", -- [2]
-				"13 (3%)", -- [3]
-				"1 (0%)", -- [4]
-				"0 (0%)", -- [5]
-				"???", -- [6]
-				"377 (100%)", -- [7]
-				"377 (100%)", -- [8]
-				"377 (100%)", -- [9]
-				"377 (100%)", -- [10]
-				"377 (100%)", -- [11]
-				"377 (100%)", -- [12]
-				"377 (100%)", -- [13]
-				"377 (100%)", -- [14]
-				"377 (100%)", -- [15]
-				"377 (100%)", -- [16]
-				"377 (100%)", -- [17]
-				"377 (100%)", -- [18]
-				"377 (100%)", -- [19]
-				"377 (100%)", -- [20]
-				"252 (66%)", -- [21]
-				"231 (61%)", -- [22]
-				"231 (61%)", -- [23]
-				"210 (55%)", -- [24]
-				"210 (55%)", -- [25]
-				"199 (52%)", -- [26]
-				"175 (46%)", -- [27]
-				"167 (44%)", -- [28]
-				"167 (44%)", -- [29]
-				"145 (38%)", -- [30]
-				"137 (36%)", -- [31]
-				"113 (29%)", -- [32]
-				"113 (29%)", -- [33]
-				"74 (19%)", -- [34]
-				"66 (17%)", -- [35]
-				"66 (17%)", -- [36]
-				"66 (17%)", -- [37]
-				"42 (11%)", -- [38]
-				"42 (11%)", -- [39]
-				"13 (3%)", -- [40]
-				"???", -- [41]
-				"???", -- [42]
-				"???", -- [43]
-				"???", -- [44]
-				"153 (40%)", -- [45]
-				"102 (27%)", -- [46]
-				"85 (22%)", -- [47]
-				"85 (22%)", -- [48]
-				"85 (22%)", -- [49]
-				"54 (14%)", -- [50]
-			},
-			["Fights"] = {
-				["Fight2"] = {
-					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 377,
+					["DamageTaken"] = 23,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Melee"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Dodge"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
-								["Miss"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 31,
+					["ManaGain"] = 58,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 23,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.01,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 70,
+						["Shadow"] = 186,
+						["Arcane"] = 18,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 18,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 44,
+								},
+								["Drain Life"] = {
+									["count"] = 65,
+								},
+								["Immolate"] = {
+									["count"] = 26,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 274,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 51,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["ActiveTime"] = 15.44,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 1.7,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.94,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3,
+								},
+								["Drain Life"] = {
+									["count"] = 2.98,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3.31,
+								},
+							},
+							["amount"] = 15.43,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 29,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 75,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 75,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 27,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 51,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 51,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["Healing"] = 104,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 18,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 18,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 72,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 72,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 65,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 26,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 44,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 75,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
 								["Crit"] = {
-									["count"] = 1,
+									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 3,
+								["Tick"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 5,
 						},
 						["Shadow"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 6,
+									["count"] = 5,
 								},
 								["Tick"] = {
-									["count"] = 12,
+									["count"] = 8,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 13,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
 						},
 					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["TimeDamage"] = 15.43,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 1.7,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.94,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3,
+								},
+								["Drain Life"] = {
+									["count"] = 2.98,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3.31,
+								},
+							},
+							["amount"] = 15.43,
+						},
 					},
 					["RunicPowerGain"] = 0,
+					["Damage"] = 274,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 96,
-						["Shadow"] = 281,
+						["Physical"] = 0,
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
-						["Melee"] = 84,
-						["Shadow"] = 21,
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
@@ -4754,26 +4438,2704 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Arcane"] = 0,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 0,
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
 					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 3,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 9,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 8,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 120,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 69,
+					["ManaGain"] = 136,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 67,
+						["Physical"] = 53,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.04,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 206,
+						["Shadow"] = 413,
+						["Melee"] = 0,
+						["Arcane"] = 62,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 78,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 136,
+						},
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 11,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 39,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 154,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 62,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 96,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 104,
+								},
+								["Drain Life"] = {
+									["count"] = 164,
+								},
+								["Immolate"] = {
+									["count"] = 52,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 527,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+					},
+					["PartialResist"] = {
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 46,
+					},
+					["ActiveTime"] = 45.97000000000001,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.95,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.79,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 10.86,
+								},
+								["Drain Life"] = {
+									["count"] = 8.329999999999998,
+								},
+								["Immolate"] = {
+									["count"] = 6.9,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.59,
+								},
+							},
+							["amount"] = 35.42,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.04,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.36,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 1.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 10.51,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 45,
+									["amount"] = 74,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 74,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 189,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 189,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 46,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+					},
+					["Healing"] = 263,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 15,
+									["count"] = 3,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 62,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 168,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 168,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 99,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 115,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 164,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 164,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 52,
+								},
+								["Crit"] = {
+									["max"] = 39,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 39,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 91,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 81,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 81,
+						},
+					},
+					["HealingTaken"] = 189,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 16,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 45.93000000000001,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.04,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.36,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 1.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 10.51,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.95,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.79,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 10.86,
+								},
+								["Drain Life"] = {
+									["count"] = 8.329999999999998,
+								},
+								["Immolate"] = {
+									["count"] = 6.9,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.59,
+								},
+							},
+							["amount"] = 35.42,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 681,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 31,
+					["ManaGain"] = 156,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 70,
+						["Shadow"] = 186,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 156,
+								},
+							},
+							["amount"] = 156,
+						},
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 44,
+								},
+								["Drain Life"] = {
+									["count"] = 65,
+								},
+								["Immolate"] = {
+									["count"] = 26,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 256,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 9,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 156,
+								},
+							},
+							["amount"] = 156,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 18.33,
+					["Overhealing"] = 9,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 8.930000000000002,
+								},
+								["Drain Life"] = {
+									["count"] = 2.46,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.94,
+								},
+							},
+							["amount"] = 18.33,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 18,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 75,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 75,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["Healing"] = 93,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 72,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 72,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 44,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 26,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 65,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 65,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 75,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["TimeDamage"] = 18.33,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.5,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 8.930000000000002,
+								},
+								["Drain Life"] = {
+									["count"] = 2.46,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.94,
+								},
+							},
+							["amount"] = 18.33,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 256,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 3,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 27,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 9,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 8,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 120,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 69,
+					["ManaGain"] = 136,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 67,
+						["Physical"] = 53,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.04,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 206,
+						["Shadow"] = 413,
+						["Melee"] = 0,
+						["Arcane"] = 62,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 78,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 136,
+						},
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 11,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 39,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 154,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 62,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 96,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 104,
+								},
+								["Drain Life"] = {
+									["count"] = 164,
+								},
+								["Immolate"] = {
+									["count"] = 52,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 527,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+					},
+					["PartialResist"] = {
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 46,
+					},
+					["ActiveTime"] = 45.97000000000001,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.95,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.79,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 10.86,
+								},
+								["Drain Life"] = {
+									["count"] = 8.329999999999998,
+								},
+								["Immolate"] = {
+									["count"] = 6.9,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.59,
+								},
+							},
+							["amount"] = 35.42,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 0.04,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.04,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.36,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 1.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 10.51,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 45,
+									["amount"] = 74,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 74,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 189,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 189,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 23,
+									["min"] = 23,
+									["count"] = 2,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 46,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 189,
+								},
+							},
+							["amount"] = 189,
+						},
+					},
+					["Healing"] = 263,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 15,
+									["count"] = 3,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 62,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 168,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 168,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 99,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 115,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 164,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 164,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 52,
+								},
+								["Crit"] = {
+									["max"] = 39,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 39,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 91,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 81,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 81,
+						},
+					},
+					["HealingTaken"] = 189,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 16,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 45.93000000000001,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.04,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.36,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 1.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 10.51,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 2.95,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0.79,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 10.86,
+								},
+								["Drain Life"] = {
+									["count"] = 8.329999999999998,
+								},
+								["Immolate"] = {
+									["count"] = 6.9,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.59,
+								},
+							},
+							["amount"] = 35.42,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 681,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Shadowcaster"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
 								["Absorb"] = {
 									["count"] = 4,
 								},
 								["Dodge"] = {
-									["count"] = 1,
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 5,
+							["amount"] = 4,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -4784,18 +7146,88 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
-					["ManaGainedFrom"] = {
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 29,
+					["ManaGain"] = 330,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
 					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.01,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Shadow"] = 281,
+						["Arcane"] = 0,
+					},
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 96,
+								["Life Tap"] = {
+									["count"] = 156,
+								},
+								["Restore Mana"] = {
+									["count"] = 174,
 								},
 							},
-							["amount"] = 96,
+							["amount"] = 330,
 						},
-						["Ellipsis"] = {
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 120,
@@ -4810,185 +7242,104 @@ RecountPerCharDB = {
 							["amount"] = 281,
 						},
 					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 8,
+						},
 					},
 					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Drain Life"] = {
+						["Gobrin <Ellipsis>"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
+								["Fel Synergy"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 14.49,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["Fel Synergy"] = {
+									["count"] = 0.01,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 0.01,
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.550000000000001,
-								},
-								["Mind Flay"] = {
-									["count"] = 1.44,
+								["Drain Life"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 10.99,
+							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
 					},
 					["PartialResist"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
 									["count"] = 4,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
 							},
-							["count"] = 5,
+							["count"] = 4,
 							["amount"] = 0,
 						},
 						["Mind Flay"] = {
 							["Details"] = {
-								["Absorb"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 1,
 									["amount"] = 0,
 								},
@@ -4996,1011 +7347,962 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 14.49,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
+						["Knockdown"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-						["Ellipsis"] = {
+						["Throw"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 9.550000000000001,
-								},
-								["Mind Flay"] = {
-									["count"] = 1.44,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 10.99,
+							["count"] = 0,
+							["amount"] = 0,
 						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
 					},
 					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
 					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 156,
+								},
+							},
+							["amount"] = 156,
+						},
+						["Restore Mana"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 174,
+						},
 					},
-					["PartialAbsorb"] = {
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 84,
+						["Shadow"] = 21,
 					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ActiveTime"] = 16.65,
+					["Overhealing"] = 8,
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["ElementTakenResist"] = {
+					["WhoDispelled"] = {
 					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 364,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
+								["Curse of Agony (DoT)"] = {
 									["count"] = 0,
 								},
-								["Tick"] = {
-									["count"] = 4,
+								["Corruption (DoT)"] = {
+									["count"] = 0,
 								},
-							},
-							["amount"] = 5,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Tick"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 70,
-						["Melee"] = 108,
-						["Shadow"] = 186,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 29,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
 								["Melee"] = {
-									["count"] = 29,
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 29,
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.41,
+								},
+								["Drain Life"] = {
+									["count"] = 4.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 7.119999999999999,
+								},
+							},
+							["amount"] = 16.64,
+						},
+					},
+					["Heals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 23,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 90,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 22,
+									["min"] = 18,
+									["count"] = 4,
+									["amount"] = 84,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 84,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 21,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Gobrin <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+					},
+					["Healing"] = 113,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 120,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 120,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 78,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 78,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 83,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 90,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
+					["TimeDamage"] = 16.64,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 5.41,
+								},
+								["Drain Life"] = {
+									["count"] = 4.11,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 7.119999999999999,
+								},
+							},
+							["amount"] = 16.64,
+						},
 					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 29,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 281,
+					["DispelledWho"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+				},
+				["Fight3"] = {
+					["TimeHealing"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0.01,
+								},
+							},
+							["amount"] = 0.01,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.5,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 5.609999999999999,
+								},
+								["Drain Life"] = {
+									["count"] = 5.85,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.12,
+								},
+							},
+							["amount"] = 19.58,
+						},
+					},
+					["DamageTaken"] = 55,
+					["HealedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Ellipsis"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 33,
+									["min"] = 25,
+									["count"] = 3,
+									["amount"] = 88,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 88,
+						},
+					},
+					["ActiveTime"] = 19.59,
+					["TimeHeal"] = 0.01,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 55,
+					},
+					["DOT_Time"] = 29,
+					["Damage"] = 268,
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.5,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 5.609999999999999,
+								},
+								["Drain Life"] = {
+									["count"] = 5.85,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.12,
+								},
+							},
+							["amount"] = 19.58,
+						},
+					},
+					["Heals"] = {
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 120,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 120,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3,
+									["min"] = 1,
+									["count"] = 21,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 26,
+						},
 					},
 					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
 						["Melee"] = {
 							["Details"] = {
 								["Miss"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 2,
-								},
 							},
-							["amount"] = 2,
+							["amount"] = 0,
 						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 108,
+								["Tick"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 108,
+							["amount"] = 16,
 						},
-						["Ellipsis"] = {
+					},
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
-								["Drain Life"] = {
-									["count"] = 65,
+									["count"] = 0,
 								},
 								["Immolate (DoT)"] = {
-									["count"] = 44,
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Fire Shield"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 55,
+								},
+								["Drain Life"] = {
+									["count"] = 104,
 								},
 								["Immolate"] = {
 									["count"] = 26,
 								},
 								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
+									["count"] = 83,
 								},
 							},
-							["amount"] = 256,
+							["amount"] = 268,
 						},
 					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 5.52,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.52,
-								},
-							},
-							["amount"] = 5.52,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 29,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 29,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 5.52,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.52,
-								},
-							},
-							["amount"] = 5.52,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
 					["DOTs"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Belkath <Ellipsis>"] = {
-									["count"] = 18,
-								},
-								["Ellipsis"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.95,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 23.23,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.31,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.31,
-						},
-					},
-					["DamageTaken"] = 393,
-					["PartialResist"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 15,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["amount"] = 15,
 						},
-						["Immolate"] = {
+						["Corruption (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+								["Arcane Reaver"] = {
+									["count"] = 0,
+								},
+								["Shadowpine Headhunter"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 1,
-					["PartialAbsorb"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 28.54,
-					["ElementTaken"] = {
-						["Fire"] = 50,
-						["Melee"] = 239,
-						["Shadow"] = 104,
-					},
-					["DOT_Time"] = 18,
-					["Damage"] = 285,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 9,
-					},
-					["ElementDone"] = {
-						["Melee"] = 159,
-						["Shadow"] = 126,
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 239,
-								},
-							},
-							["amount"] = 239,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
-								["Melee"] = {
+								["Arcane Reaver"] = {
 									["count"] = 0,
 								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 11,
-								},
-								["Immolate"] = {
-									["count"] = 39,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 32,
+								["Shadowpine Headhunter"] = {
+									["count"] = 14,
 								},
 							},
-							["amount"] = 154,
+							["amount"] = 14,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["TimeDamage"] = 28.54,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.95,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 23.23,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.31,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.31,
-						},
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 92,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 218,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 67,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 67,
-						},
-					},
+					["Healing"] = 146,
 					["Attacks"] = {
-						["Melee"] = {
+						["Corruption"] = {
 							["Details"] = {
 								["Miss"] = {
 									["count"] = 1,
 									["amount"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 159,
-								},
 							},
-							["count"] = 10,
-							["amount"] = 159,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 126,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 126,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Belkath <Ellipsis>"] = {
-									["count"] = 18,
-								},
-								["Ellipsis"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.95,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 23.23,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.31,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.31,
-						},
-					},
-					["DamageTaken"] = 393,
-					["PartialResist"] = {
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
+								["Tick"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
@@ -6010,74 +8312,9 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 1,
-					["PartialAbsorb"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Miss"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -6087,717 +8324,543 @@ RecountPerCharDB = {
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
+								["Tick"] = {
+									["max"] = 11,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
+									["count"] = 5,
+									["amount"] = 55,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 5,
+							["amount"] = 55,
 						},
 						["Immolate"] = {
 							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
+								["Hit"] = {
+									["max"] = 26,
 									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 0,
+									["amount"] = 26,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 28.54,
-					["ElementTaken"] = {
-						["Fire"] = 50,
-						["Melee"] = 239,
-						["Shadow"] = 104,
-					},
-					["DOT_Time"] = 18,
-					["Damage"] = 285,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 9,
-					},
-					["ElementDone"] = {
-						["Melee"] = 159,
-						["Shadow"] = 126,
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 239,
-								},
-							},
-							["amount"] = 239,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 11,
-								},
-								["Immolate"] = {
-									["count"] = 39,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 154,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 10,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["TimeDamage"] = 28.54,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 12.95,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 23.23,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.31,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.31,
-						},
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 92,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 218,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 67,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 67,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 159,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 159,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 126,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 126,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-				},
-				["OverallData"] = {
-					["DOTs"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Belkath <Ellipsis>"] = {
-									["count"] = 18,
-								},
-								["Ellipsis"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 27,
-						},
-					},
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43.34,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 53.62000000000001,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Mind Flay"] = {
-									["count"] = 6.539999999999999,
-								},
-								["Melee"] = {
-									["count"] = 50.34999999999999,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 3.26,
-								},
-							},
-							["amount"] = 60.14999999999998,
-						},
-					},
-					["DamageTaken"] = 3005,
-					["ElementDoneAbsorb"] = {
-						["Melee"] = 217,
-						["Shadow"] = 99,
-					},
-					["PartialResist"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 51,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 51,
-							["amount"] = 0,
+							["amount"] = 26,
 						},
 						["Drain Life"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 31,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 31,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 8,
-					["PartialAbsorb"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 33,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 51,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 51,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 31,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 31,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 22,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 113.77,
-					["ElementTaken"] = {
-						["Fire"] = 434,
-						["Melee"] = 939,
-						["Shadow"] = 1632,
-					},
-					["DOT_Time"] = 27,
-					["Damage"] = 640,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 9,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 9,
-					},
-					["ElementDone"] = {
-						["Melee"] = 451,
-						["Shadow"] = 189,
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 937,
-								},
-							},
-							["amount"] = 937,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 792,
-								},
-								["Melee"] = {
-									["count"] = 2,
-								},
-								["Drain Life"] = {
-									["count"] = 403,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 252,
-								},
-								["Immolate"] = {
-									["count"] = 182,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 437,
-								},
-							},
-							["amount"] = 2068,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 10,
-								},
 								["Hit"] = {
-									["count"] = 23,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 2,
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 104,
 								},
 							},
-							["amount"] = 39,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 9,
-								},
-								["Absorb"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["TimeDamage"] = 113.77,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 43.34,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 10.28,
-								},
-							},
-							["amount"] = 53.62000000000001,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Mind Flay"] = {
-									["count"] = 6.539999999999999,
-								},
-								["Melee"] = {
-									["count"] = 50.34999999999999,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 3.26,
-								},
-							},
-							["amount"] = 60.14999999999998,
-						},
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 233,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 359,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 218,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 63,
-								},
-							},
-							["amount"] = 281,
-						},
-					},
-					["Attacks"] = {
-						["Mind Flay"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 10,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 14,
-									["count"] = 23,
-									["amount"] = 413,
-								},
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 38,
-									["min"] = 38,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 451,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 21,
-									["min"] = 21,
-									["count"] = 9,
-									["amount"] = 189,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 189,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 20,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 43,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 51,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 31,
-								},
-								["Tick"] = {
-									["count"] = 73,
-								},
-							},
+							["count"] = 8,
 							["amount"] = 104,
+						},
+						["Fire Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 83,
+						},
+					},
+					["Overhealing"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 81,
+						["Shadow"] = 187,
+					},
+					["HealingTaken"] = 120,
+					["ManaGainedFrom"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Life Tap"] = {
+									["count"] = 78,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 78,
+						},
+					},
+					["TimeDamage"] = 19.58,
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["ManaGain"] = 78,
+					["ElementTakenAbsorb"] = {
+						["Physical"] = 88,
+					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Drain Life"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1450867497,
-			["LastActive"] = 1450867497,
+			["level"] = 18,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 21,
+			["LastEventNum"] = {
+				[26] = 3.416856492027335,
+				[14] = 3.416856492027335,
+				[9] = 3.416856492027335,
+				[21] = 3.416856492027335,
+				[33] = 2.050113895216401,
+				[34] = 8.656036446469248,
+				[4] = 3.416856492027335,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Belkath"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140CA758D00010C",
+					},
+				},
+			},
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						false, -- [2]
+						true, -- [3]
+						true, -- [4]
+						false, -- [5]
+						false, -- [6]
+						true, -- [7]
+						false, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						false, -- [17]
+						false, -- [18]
+						true, -- [19]
+						true, -- [20]
+					},
+					["Messages"] = {
+						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [1]
+						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [2]
+						"Ellipsis Drain Life Ellipsis Hit +15", -- [3]
+						"Arcane Reaver Melee Ellipsis Miss", -- [4]
+						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [5]
+						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [6]
+						"Ellipsis Drain Life Ellipsis Hit +15", -- [7]
+						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [8]
+						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [9]
+						"Ellipsis Drain Life Ellipsis Hit +15", -- [10]
+						"Arcane Reaver Melee Ellipsis Hit -20 (Physical)", -- [11]
+						"Arcane Reaver Knockdown Ellipsis Hit -46 (Physical)", -- [12]
+						"Arcane Reaver Melee Ellipsis Hit -20 (Physical)", -- [13]
+						"Arcane Reaver Melee Ellipsis Hit -18 (Physical)", -- [14]
+						"Arcane Reaver Melee Ellipsis Hit -18 (Physical)", -- [15]
+						"Arcane Reaver Melee Ellipsis Hit -22 (Physical)", -- [16]
+						"Ellipsis Corruption (DoT) Arcane Reaver Tick -24 (Shadow)", -- [17]
+						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +3", -- [18]
+						"Arcane Reaver Melee Ellipsis Hit -22 (Physical)", -- [19]
+						"Ellipsis dies.", -- [20]
+					},
+					["DeathAt"] = 1450866782,
+					["HealthNum"] = {
+						16.70146137787057, -- [1]
+						16.70146137787057, -- [2]
+						19.8329853862213, -- [3]
+						19.8329853862213, -- [4]
+						19.8329853862213, -- [5]
+						19.8329853862213, -- [6]
+						22.96450939457203, -- [7]
+						22.96450939457203, -- [8]
+						22.96450939457203, -- [9]
+						26.09603340292276, -- [10]
+						26.09603340292276, -- [11]
+						12.31732776617954, -- [12]
+						12.31732776617954, -- [13]
+						8.1419624217119, -- [14]
+						4.384133611691023, -- [15]
+						13.29690346083789, -- [16]
+						0.208768267223382, -- [17]
+						0.208768267223382, -- [18]
+						0.208768267223382, -- [19]
+						0, -- [20]
+					},
+					["MessageTimes"] = {
+						-13.19799999999941, -- [1]
+						-13.19799999999941, -- [2]
+						-13.19799999999941, -- [3]
+						-13.19700000000012, -- [4]
+						-12.10899999999947, -- [5]
+						-12.10899999999947, -- [6]
+						-12.10899999999947, -- [7]
+						-11.15799999999945, -- [8]
+						-11.15799999999945, -- [9]
+						-11.15799999999945, -- [10]
+						-11.15700000000015, -- [11]
+						-9.157999999999447, -- [12]
+						-9.157999999999447, -- [13]
+						-7.014999999999418, -- [14]
+						-4.958999999999833, -- [15]
+						-2.851999999999862, -- [16]
+						-0.4179999999996653, -- [17]
+						-0.4179999999996653, -- [18]
+						-0.005000000000109139, -- [19]
+						0, -- [20]
+					},
+					["KilledBy"] = "Arcane Reaver",
+					["Health"] = {
+						"80 (16%)", -- [1]
+						"80 (16%)", -- [2]
+						"95 (19%)", -- [3]
+						"95 (19%)", -- [4]
+						"95 (19%)", -- [5]
+						"95 (19%)", -- [6]
+						"110 (22%)", -- [7]
+						"110 (22%)", -- [8]
+						"110 (22%)", -- [9]
+						"125 (26%)", -- [10]
+						"125 (26%)", -- [11]
+						"59 (12%)", -- [12]
+						"59 (12%)", -- [13]
+						"39 (8%)", -- [14]
+						"21 (4%)", -- [15]
+						"73 (13%)", -- [16]
+						"1 (0%)", -- [17]
+						"1 (0%)", -- [18]
+						"1 (0%)", -- [19]
+						"0 (0%)", -- [20]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						3.131524008350731, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						3.131524008350731, -- [7]
+						0, -- [8]
+						0, -- [9]
+						3.131524008350731, -- [10]
+						4.175365344467641, -- [11]
+						9.603340292275574, -- [12]
+						4.175365344467641, -- [13]
+						3.757828810020877, -- [14]
+						3.757828810020877, -- [15]
+						4.007285974499089, -- [16]
+						0, -- [17]
+						0, -- [18]
+						4.592901878914405, -- [19]
+						0, -- [20]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"HEAL", -- [2]
+						"HEAL", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"HEAL", -- [6]
+						"HEAL", -- [7]
+						"DAMAGE", -- [8]
+						"HEAL", -- [9]
+						"HEAL", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"HEAL", -- [18]
+						"DAMAGE", -- [19]
+						"MISC", -- [20]
+					},
+				}, -- [1]
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Gobrin <Ellipsis>", -- [1]
+				"Belkath <Ellipsis>", -- [2]
+			},
+			["NextEventNum"] = 35,
+			["LastEventHealthNum"] = {
+				29.6127562642369, -- [1]
+				29.6127562642369, -- [2]
+				29.6127562642369, -- [3]
+				33.02961275626424, -- [4]
+				33.02961275626424, -- [5]
+				33.02961275626424, -- [6]
+				33.02961275626424, -- [7]
+				33.02961275626424, -- [8]
+				36.44646924829157, -- [9]
+				36.44646924829157, -- [10]
+				36.44646924829157, -- [11]
+				36.44646924829157, -- [12]
+				36.44646924829157, -- [13]
+				39.86332574031891, -- [14]
+				39.86332574031891, -- [15]
+				39.86332574031891, -- [16]
+				39.86332574031891, -- [17]
+				39.86332574031891, -- [18]
+				39.86332574031891, -- [19]
+				39.86332574031891, -- [20]
+				43.28018223234624, -- [21]
+				43.28018223234624, -- [22]
+				43.28018223234624, -- [23]
+				43.28018223234624, -- [24]
+				43.28018223234624, -- [25]
+				46.69703872437358, -- [26]
+				46.69703872437358, -- [27]
+				46.69703872437358, -- [28]
+				46.69703872437358, -- [29]
+				46.69703872437358, -- [30]
+				46.69703872437358, -- [31]
+				46.69703872437358, -- [32]
+				48.74715261958998, -- [33]
+				82.00455580865604, -- [34]
+				60.59225512528474, -- [35]
+				60.59225512528474, -- [36]
+				60.59225512528474, -- [37]
+				60.59225512528474, -- [38]
+				60.59225512528474, -- [39]
+				60.59225512528474, -- [40]
+				60.59225512528474, -- [41]
+				60.59225512528474, -- [42]
+				60.59225512528474, -- [43]
+				29.6127562642369, -- [44]
+				29.6127562642369, -- [45]
+				29.6127562642369, -- [46]
+				29.6127562642369, -- [47]
+				29.6127562642369, -- [48]
+				29.6127562642369, -- [49]
+				29.6127562642369, -- [50]
+			},
+			["LastEvents"] = {
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [1]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [2]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [3]
+				"Ellipsis Drain Life Ellipsis Hit +15", -- [4]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [5]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [6]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [7]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [8]
+				"Ellipsis Drain Life Ellipsis Hit +15", -- [9]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [10]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [11]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [12]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [13]
+				"Ellipsis Drain Life Ellipsis Hit +15", -- [14]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [15]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [16]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [17]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [18]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [19]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [20]
+				"Ellipsis Drain Life Ellipsis Hit +15", -- [21]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -17 (Shadow)", -- [22]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +2", -- [23]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [24]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [25]
+				"Ellipsis Drain Life Ellipsis Hit +15", -- [26]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [27]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [28]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [29]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [30]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -8 (Shadow)", -- [31]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [32]
+				"Ellipsis Drain Life Ellipsis Hit +9", -- [33]
+				"Environment Falling Ellipsis Hit -38 (Physical)", -- [34]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [35]
+				"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [36]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [37]
+				"Ellipsis Immolate Shadowpine Headhunter Hit -26 (Fire)", -- [38]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [39]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [40]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [41]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [42]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [43]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [44]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [45]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [46]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [47]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [48]
+				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [49]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [50]
+			},
+			["Name"] = "Ellipsis",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 38,
+			["TimeLast"] = {
+				["TimeHeal"] = 1450867512,
+				["OVERALL"] = 1450867604,
+				["DamageTaken"] = 1450867604,
+				["HealingTaken"] = 1450867512,
+				["TimeDamage"] = 1450867512,
+				["DeathCount"] = 1450866780,
+				["Overhealing"] = 1450867431,
+				["ActiveTime"] = 1450867512,
+				["Healing"] = 1450867512,
+				["ManaGain"] = 1450867503,
+				["DOT_Time"] = 1450867511,
+				["Damage"] = 1450867512,
+			},
+			["LastEventTimes"] = {
+				8771.81, -- [1]
+				8772.558000000001, -- [2]
+				8772.558999999999, -- [3]
+				8772.558999999999, -- [4]
+				8773.302, -- [5]
+				8773.302, -- [6]
+				8773.609, -- [7]
+				8773.610000000001, -- [8]
+				8773.610000000001, -- [9]
+				8774.498, -- [10]
+				8774.498, -- [11]
+				8774.6, -- [12]
+				8774.6, -- [13]
+				8774.6, -- [14]
+				8774.701999999999, -- [15]
+				8774.703, -- [16]
+				8775.308999999999, -- [17]
+				8775.31, -- [18]
+				8775.554, -- [19]
+				8775.554, -- [20]
+				8775.554, -- [21]
+				8777.307000000001, -- [22]
+				8777.307000000001, -- [23]
+				8777.406000000001, -- [24]
+				8777.407000000001, -- [25]
+				8777.407000000001, -- [26]
+				8777.553, -- [27]
+				8777.554, -- [28]
+				8777.697, -- [29]
+				8777.697, -- [30]
+				8778.353999999999, -- [31]
+				8778.353999999999, -- [32]
+				8778.357, -- [33]
+				8870.362999999999, -- [34]
+				8761.801, -- [35]
+				8762.157999999999, -- [36]
+				8762.157999999999, -- [37]
+				8765.556000000001, -- [38]
+				8765.556000000001, -- [39]
+				8768.554, -- [40]
+				8768.555, -- [41]
+				8768.813, -- [42]
+				8768.814, -- [43]
+				8769.349, -- [44]
+				8769.349, -- [45]
+				8771.31, -- [46]
+				8771.31, -- [47]
+				8771.505999999999, -- [48]
+				8771.505999999999, -- [49]
+				8771.799000000001, -- [50]
+			},
+			["LastAbility"] = 1017.844,
 		},
 		["Shadowpine Headhunter"] = {
 			["DeathLogs"] = {
@@ -8975,7 +11038,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["LastDamageTaken"] = 8,
-			["LastAbility"] = 40558.743,
+			["LastActive"] = 1450867512,
 			["level"] = 18,
 			["LastDamageAbility"] = "Drain Life",
 			["LastFightIn"] = 20,
@@ -9011,271 +11074,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Nontrivial",
 			["FightsSaved"] = 5,
-			["LastEventTimes"] = {
-				8775.554, -- [1]
-				8776.700000000001, -- [2]
-				8777.307000000001, -- [3]
-				8777.406000000001, -- [4]
-				8777.407999999999, -- [5]
-				8777.553, -- [6]
-				8777.697, -- [7]
-				8778.353999999999, -- [8]
-				8778.357, -- [9]
-				8736.313, -- [10]
-				8736.315000000001, -- [11]
-				8738.055, -- [12]
-				8740.112000000001, -- [13]
-				8742.103999999999, -- [14]
-				8744.157000000001, -- [15]
-				8746.216, -- [16]
-				8748.212, -- [17]
-				8750.201999999999, -- [18]
-				8752.222, -- [19]
-				8754.213, -- [20]
-				8756.246000000001, -- [21]
-				8758.253000000001, -- [22]
-				8760.357, -- [23]
-				8762.398000000001, -- [24]
-				8764.457, -- [25]
-				8765.110000000001, -- [26]
-				8765.556000000001, -- [27]
-				8766.501, -- [28]
-				8767.098, -- [29]
-				8768.554, -- [30]
-				8768.555, -- [31]
-				8768.814, -- [32]
-				8769.203, -- [33]
-				8769.349, -- [34]
-				8770.601000000001, -- [35]
-				8771.200000000001, -- [36]
-				8771.31, -- [37]
-				8771.505999999999, -- [38]
-				8771.799000000001, -- [39]
-				8772.558000000001, -- [40]
-				8772.657000000001, -- [41]
-				8773.302, -- [42]
-				8773.302, -- [43]
-				8773.609, -- [44]
-				8774.498, -- [45]
-				8774.6, -- [46]
-				8774.701999999999, -- [47]
-				8774.703, -- [48]
-				8775.308999999999, -- [49]
-				8775.31, -- [50]
-			},
-			["unit"] = "playertarget",
-			["Owner"] = false,
-			["GUID"] = "0xF130003FD8006F8F",
-			["NextEventNum"] = 10,
-			["LastEventHealthNum"] = {
-				21.82254196642686, -- [1]
-				21.82254196642686, -- [2]
-				17.74580335731415, -- [3]
-				14.62829736211031, -- [4]
-				14.62829736211031, -- [5]
-				7.673860911270984, -- [6]
-				1.918465227817746, -- [7]
-				0.2398081534772182, -- [8]
-				0, -- [9]
-				2.849740932642487, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				0, -- [19]
-				0, -- [20]
-				0, -- [21]
-				0, -- [22]
-				0, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				88.96882494004797, -- [27]
-				88.96882494004797, -- [28]
-				88.96882494004797, -- [29]
-				78.17745803357315, -- [30]
-				78.17745803357315, -- [31]
-				72.4220623501199, -- [32]
-				72.4220623501199, -- [33]
-				66.42685851318944, -- [34]
-				66.42685851318944, -- [35]
-				66.42685851318944, -- [36]
-				64.5083932853717, -- [37]
-				61.8705035971223, -- [38]
-				56.11510791366906, -- [39]
-				52.99760191846523, -- [40]
-				52.99760191846523, -- [41]
-				51.07913669064748, -- [42]
-				51.07913669064748, -- [43]
-				43.16546762589928, -- [44]
-				40.52757793764988, -- [45]
-				37.41007194244605, -- [46]
-				31.6546762589928, -- [47]
-				31.6546762589928, -- [48]
-				29.73621103117506, -- [49]
-				29.73621103117506, -- [50]
-			},
-			["LastEvents"] = {
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [1]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [2]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -17 (Shadow)", -- [3]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [4]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -18 (Physical)", -- [5]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [6]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [7]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -8 (Shadow)", -- [8]
-				"Shadowpine Headhunter dies.", -- [9]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -21 (Physical)", -- [10]
-				"Shadowpine Headhunter dies.", -- [11]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -9 (Physical)", -- [12]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [13]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -18 (Physical)", -- [14]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -19 (Physical)", -- [15]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [16]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Crit -38 (Physical)", -- [17]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Crit -32 (Physical)", -- [18]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [19]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [20]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [21]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [22]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [23]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Dodge", -- [24]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [25]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [26]
-				"Ellipsis Immolate Shadowpine Headhunter Hit -26 (Fire)", -- [27]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [28]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Crit -34 (Physical)", -- [29]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [30]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -19 (Physical)", -- [31]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [32]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -17 (Physical)", -- [33]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [34]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [35]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Dodge", -- [36]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [37]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [38]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [39]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [40]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [41]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [42]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [43]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [44]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [45]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [46]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [47]
-				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [48]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [49]
-				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [50]
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				false, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
-			["Name"] = "Shadowpine Headhunter",
-			["LastEventHealth"] = {
-				"91 (21%)", -- [1]
-				"91 (21%)", -- [2]
-				"74 (17%)", -- [3]
-				"61 (14%)", -- [4]
-				"61 (14%)", -- [5]
-				"32 (7%)", -- [6]
-				"8 (1%)", -- [7]
-				"1 (0%)", -- [8]
-				"0 (0%)", -- [9]
-				"11 (2%)", -- [10]
-				"0 (0%)", -- [11]
-				"???", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"???", -- [19]
-				"???", -- [20]
-				"???", -- [21]
-				"???", -- [22]
-				"???", -- [23]
-				"417 (100%)", -- [24]
-				"417 (100%)", -- [25]
-				"417 (100%)", -- [26]
-				"371 (88%)", -- [27]
-				"371 (88%)", -- [28]
-				"371 (88%)", -- [29]
-				"326 (78%)", -- [30]
-				"326 (78%)", -- [31]
-				"302 (72%)", -- [32]
-				"302 (72%)", -- [33]
-				"277 (66%)", -- [34]
-				"277 (66%)", -- [35]
-				"277 (66%)", -- [36]
-				"269 (64%)", -- [37]
-				"258 (61%)", -- [38]
-				"234 (56%)", -- [39]
-				"221 (52%)", -- [40]
-				"221 (52%)", -- [41]
-				"213 (51%)", -- [42]
-				"213 (51%)", -- [43]
-				"180 (43%)", -- [44]
-				"169 (40%)", -- [45]
-				"156 (37%)", -- [46]
-				"132 (31%)", -- [47]
-				"132 (31%)", -- [48]
-				"124 (29%)", -- [49]
-				"124 (29%)", -- [50]
-			},
+			["UnitLockout"] = 1450867496,
 			["Fights"] = {
 				["Fight5"] = {
 					["DOTs"] = {
@@ -9287,27 +11086,27 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Tick"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 13,
-						},
 						["Fire"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
 								["Hit"] = {
 									["count"] = 1,
 								},
+								["Tick"] = {
+									["count"] = 4,
+								},
 							},
 							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 13,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -9328,18 +11127,18 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Shadow"] = 186,
 						["Fire"] = 70,
+						["Shadow"] = 186,
 						["Melee"] = 115,
 						["Arcane"] = 18,
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 23,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 						["Physical"] = 51,
 					},
@@ -9348,6 +11147,16 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 23,
+					},
+					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 						["Belkath <Ellipsis>"] = {
@@ -9367,28 +11176,7 @@ RecountPerCharDB = {
 							["amount"] = 23,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 23,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ManaGainedFrom"] = {
+					["RageGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Belkath <Ellipsis>"] = {
@@ -9407,11 +11195,11 @@ RecountPerCharDB = {
 								["Corruption (DoT)"] = {
 									["count"] = 72,
 								},
-								["Drain Life"] = {
-									["count"] = 65,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 44,
+								},
+								["Drain Life"] = {
+									["count"] = 65,
 								},
 								["Immolate"] = {
 									["count"] = 26,
@@ -9425,7 +11213,7 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -9435,132 +11223,6 @@ RecountPerCharDB = {
 					},
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 10.05,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 10.05,
-								},
-							},
-							["amount"] = 10.05,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Shoot"] = {
@@ -9599,18 +11261,6 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -9621,6 +11271,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Immolate"] = {
@@ -9648,31 +11310,168 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 0,
-					["RageGained"] = {
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
-					["OverHeals"] = {
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 10.05,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 10.05,
+								},
+							},
+							["amount"] = 10.05,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 						["Throw"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 23,
 									["min"] = 0,
 									["count"] = 1,
 									["amount"] = 23,
 								},
+								["Absorb"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
 							},
 							["count"] = 3,
 							["amount"] = 23,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
 					["TimeDamage"] = 10.05,
 					["TimeDamaging"] = {
@@ -9693,8 +11492,8 @@ RecountPerCharDB = {
 							["amount"] = 10.05,
 						},
 					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 23,
 					["DispelledWho"] = {
 					},
 				},
@@ -9758,7 +11557,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Drain Life"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -9770,7 +11569,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Immolate (DoT)"] = {
+						["Drain Life"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -9845,7 +11644,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Drain Life"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -9857,7 +11656,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Immolate (DoT)"] = {
+						["Drain Life"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -9896,8 +11695,8 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 0,
 					["ElementTaken"] = {
-						["Shadow"] = 0,
 						["Fire"] = 0,
+						["Shadow"] = 0,
 						["Melee"] = 0,
 						["Arcane"] = 0,
 					},
@@ -9921,13 +11720,13 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
@@ -9936,33 +11735,46 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Ellipsis"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shoot"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
-								["Corruption (DoT)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Drain Life"] = {
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Immolate (DoT)"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Immolate"] = {
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Curse of Agony (DoT)"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
@@ -9988,7 +11800,7 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
+					["WhoDamaged"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -9999,31 +11811,22 @@ RecountPerCharDB = {
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Throw"] = {
+								["Shoot"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
+								["Immolate (DoT)"] = {
 									["count"] = 0,
 								},
-								["Miss"] = {
+								["Drain Life"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
 									["count"] = 0,
 								},
 							},
@@ -10034,1435 +11837,47 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Physical"] = 0,
 					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 813,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 9,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 2,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 309,
-						["Fire"] = 156,
-						["Melee"] = 286,
-						["Arcane"] = 62,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 423,
-					["ElementDoneAbsorb"] = {
-						["Physical"] = 46,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 345,
-								},
-								["Throw"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 370,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 345,
-						["Physical"] = 78,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
 								["Hit"] = {
-									["count"] = 17,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 0,
 						},
 						["Physical"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
 								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 62,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 96,
-								},
-								["Drain Life"] = {
-									["count"] = 164,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 104,
-								},
-								["Immolate"] = {
-									["count"] = 52,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 527,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 10,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 56.58999999999999,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 40.55,
-								},
-								["Throw"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 44.05,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 12.54,
-								},
-							},
-							["amount"] = 12.54,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 38,
-									["min"] = 32,
-									["count"] = 2,
-									["amount"] = 70,
+									["count"] = 0,
 								},
 								["Hit"] = {
-									["max"] = 19,
-									["min"] = 14,
-									["count"] = 16,
-									["amount"] = 266,
+									["count"] = 0,
 								},
-							},
-							["count"] = 20,
-							["amount"] = 345,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30,
-									["min"] = 23,
-									["count"] = 3,
-									["amount"] = 78,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 78,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 56.58999999999999,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 40.55,
-								},
-								["Throw"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 44.05,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 12.54,
-								},
-							},
-							["amount"] = 12.54,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 813,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 9,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 2,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 309,
-						["Fire"] = 156,
-						["Melee"] = 286,
-						["Arcane"] = 62,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 423,
-					["ElementDoneAbsorb"] = {
-						["Physical"] = 46,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 345,
-								},
-								["Throw"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 370,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 345,
-						["Physical"] = 78,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 62,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 96,
-								},
-								["Drain Life"] = {
-									["count"] = 164,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 104,
-								},
-								["Immolate"] = {
-									["count"] = 52,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 527,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 10,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 56.58999999999999,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 40.55,
-								},
-								["Throw"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 44.05,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 12.54,
-								},
-							},
-							["amount"] = 12.54,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 1,
-									["amount"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 38,
-									["min"] = 32,
-									["count"] = 2,
-									["amount"] = 70,
-								},
-								["Hit"] = {
-									["max"] = 19,
-									["min"] = 14,
-									["count"] = 16,
-									["amount"] = 266,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 345,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30,
-									["min"] = 23,
-									["count"] = 3,
-									["amount"] = 78,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 78,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 56.58999999999999,
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 40.55,
-								},
-								["Throw"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 44.05,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 12.54,
-								},
-							},
-							["amount"] = 12.54,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 421,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Shadow"] = {
-							["Details"] = {
 								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
-								["Tick"] = {
-									["count"] = 7,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 17,
+							["amount"] = 0,
 						},
 					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Fire"] = 81,
-						["Melee"] = 153,
-						["Shadow"] = 187,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 55,
-					["ElementDoneAbsorb"] = {
-						["Physical"] = 88,
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 55,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 55,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
+					["TimeDamaging"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
 									["count"] = 0,
 								},
-								["Drain Life"] = {
-									["count"] = 104,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 55,
-								},
-								["Immolate"] = {
-									["count"] = 26,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 83,
-								},
 							},
-							["amount"] = 268,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Torment"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 15.07,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
 						["Ellipsis"] = {
 							["Details"] = {
 								["Throw"] = {
-									["count"] = 15.07,
-								},
-							},
-							["amount"] = 15.07,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
 									["count"] = 0,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
-						["Torment"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Throw"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 29,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 55,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 55,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 15.07,
-					["TimeDamaging"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 15.07,
-								},
-							},
-							["amount"] = 15.07,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
@@ -11717,8 +12132,8 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 157.22,
 					["ElementTaken"] = {
-						["Shadow"] = 1515,
 						["Fire"] = 598,
+						["Shadow"] = 1515,
 						["Melee"] = 1201,
 						["Arcane"] = 404,
 					},
@@ -11732,9 +12147,11 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 9,
 								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 14,
+									["count"] = 23,
+									["amount"] = 398,
 								},
 								["Crit"] = {
 									["max"] = 38,
@@ -11742,11 +12159,9 @@ RecountPerCharDB = {
 									["count"] = 2,
 									["amount"] = 70,
 								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 14,
-									["count"] = 23,
-									["amount"] = 398,
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 27,
@@ -11758,52 +12173,77 @@ RecountPerCharDB = {
 									["count"] = 13,
 									["amount"] = 0,
 								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 33,
 									["min"] = 20,
 									["count"] = 20,
 									["amount"] = 550,
 								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
 							},
 							["count"] = 34,
 							["amount"] = 550,
 						},
 					},
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1201,
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 34,
 								},
 							},
-							["amount"] = 1201,
+							["amount"] = 43,
 						},
-						["Ellipsis"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Shoot"] = {
-									["count"] = 404,
+								["Tick"] = {
+									["count"] = 61,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 552,
+								["Hit"] = {
+									["count"] = 45,
 								},
-								["Drain Life"] = {
-									["count"] = 569,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 390,
-								},
-								["Immolate"] = {
-									["count"] = 208,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 394,
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 2517,
+							["amount"] = 108,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 57,
+								},
+								["Parry"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 68,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 20,
 						},
 					},
 					["DamagedWho"] = {
@@ -11828,6 +12268,73 @@ RecountPerCharDB = {
 						},
 					},
 					["TimeDamage"] = 157.22,
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1201,
+								},
+							},
+							["amount"] = 1201,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 404,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 552,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 390,
+								},
+								["Drain Life"] = {
+									["count"] = 569,
+								},
+								["Immolate"] = {
+									["count"] = 208,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 394,
+								},
+							},
+							["amount"] = 2517,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 477,
+						["Physical"] = 550,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 24,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 13,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
 					["TimeDamaging"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
@@ -11849,102 +12356,1658 @@ RecountPerCharDB = {
 							["amount"] = 92.62000000000001,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 13,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 34,
-						},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
 					},
-					["ElementDone"] = {
-						["Melee"] = 477,
-						["Physical"] = 550,
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 813,
+					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 45,
-								},
-								["Tick"] = {
-									["count"] = 61,
-								},
-							},
-							["amount"] = 108,
-						},
 						["Fire"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 34,
+								["Hit"] = {
+									["count"] = 2,
 								},
 								["Crit"] = {
 									["count"] = 1,
 								},
-								["Hit"] = {
+								["Tick"] = {
 									["count"] = 8,
 								},
 							},
-							["amount"] = 43,
+							["amount"] = 11,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Tick"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 22,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 5,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
 								["Hit"] = {
-									["count"] = 57,
+									["count"] = 13,
 								},
-							},
-							["amount"] = 68,
-						},
-						["Arcane"] = {
-							["Details"] = {
 								["Crit"] = {
 									["count"] = 1,
 								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Arcane"] = {
+							["Details"] = {
 								["Hit"] = {
-									["count"] = 19,
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 2,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 156,
+						["Shadow"] = 309,
+						["Melee"] = 286,
+						["Arcane"] = 62,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+						["Physical"] = 46,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 345,
+						["Physical"] = 78,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 345,
+								},
+								["Throw"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 370,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 62,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 96,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 104,
+								},
+								["Drain Life"] = {
+									["count"] = 164,
+								},
+								["Immolate"] = {
+									["count"] = 52,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 527,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 10,
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 56.58999999999999,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.55,
+								},
+								["Throw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 44.05,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 12.54,
+								},
+							},
+							["amount"] = 12.54,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 14,
+									["count"] = 16,
+									["amount"] = 266,
+								},
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 70,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 345,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 23,
+									["count"] = 3,
+									["amount"] = 78,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 78,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 17,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 20,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamage"] = 56.58999999999999,
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.55,
+								},
+								["Throw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 44.05,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 12.54,
+								},
+							},
+							["amount"] = 12.54,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 423,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 421,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 81,
+						["Melee"] = 153,
+						["Shadow"] = 187,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+						["Physical"] = 88,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 55,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 55,
+								},
+								["Drain Life"] = {
+									["count"] = 104,
+								},
+								["Immolate"] = {
+									["count"] = 26,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 268,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Torment"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 15.07,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 15.07,
+								},
+							},
+							["amount"] = 15.07,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Torment"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Throw"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 55,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 55,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Absorb"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamage"] = 15.07,
+					["TimeDamaging"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 15.07,
+								},
+							},
+							["amount"] = 15.07,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 55,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 813,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Tick"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 2,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 156,
+						["Shadow"] = 309,
+						["Melee"] = 286,
+						["Arcane"] = 62,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+						["Physical"] = 46,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 345,
+						["Physical"] = 78,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 345,
+								},
+								["Throw"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 370,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 62,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 96,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 104,
+								},
+								["Drain Life"] = {
+									["count"] = 164,
+								},
+								["Immolate"] = {
+									["count"] = 52,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 527,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 10,
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 56.58999999999999,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.55,
+								},
+								["Throw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 44.05,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 12.54,
+								},
+							},
+							["amount"] = 12.54,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 14,
+									["count"] = 16,
+									["amount"] = 266,
+								},
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 32,
+									["count"] = 2,
+									["amount"] = 70,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 345,
+						},
+						["Throw"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 23,
+									["count"] = 3,
+									["amount"] = 78,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 78,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 17,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["TimeDamage"] = 56.58999999999999,
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.55,
+								},
+								["Throw"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 44.05,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 12.54,
+								},
+							},
+							["amount"] = 12.54,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 423,
+					["DispelledWho"] = {
 					},
 				},
 			},
-			["UnitLockout"] = 1450867496,
-			["LastActive"] = 1450867512,
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"91 (21%)", -- [1]
+				"91 (21%)", -- [2]
+				"74 (17%)", -- [3]
+				"61 (14%)", -- [4]
+				"61 (14%)", -- [5]
+				"32 (7%)", -- [6]
+				"8 (1%)", -- [7]
+				"1 (0%)", -- [8]
+				"0 (0%)", -- [9]
+				"11 (2%)", -- [10]
+				"0 (0%)", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"417 (100%)", -- [24]
+				"417 (100%)", -- [25]
+				"417 (100%)", -- [26]
+				"371 (88%)", -- [27]
+				"371 (88%)", -- [28]
+				"371 (88%)", -- [29]
+				"326 (78%)", -- [30]
+				"326 (78%)", -- [31]
+				"302 (72%)", -- [32]
+				"302 (72%)", -- [33]
+				"277 (66%)", -- [34]
+				"277 (66%)", -- [35]
+				"277 (66%)", -- [36]
+				"269 (64%)", -- [37]
+				"258 (61%)", -- [38]
+				"234 (56%)", -- [39]
+				"221 (52%)", -- [40]
+				"221 (52%)", -- [41]
+				"213 (51%)", -- [42]
+				"213 (51%)", -- [43]
+				"180 (43%)", -- [44]
+				"169 (40%)", -- [45]
+				"156 (37%)", -- [46]
+				"132 (31%)", -- [47]
+				"132 (31%)", -- [48]
+				"124 (29%)", -- [49]
+				"124 (29%)", -- [50]
+			},
+			["NextEventNum"] = 10,
+			["LastEventHealthNum"] = {
+				21.82254196642686, -- [1]
+				21.82254196642686, -- [2]
+				17.74580335731415, -- [3]
+				14.62829736211031, -- [4]
+				14.62829736211031, -- [5]
+				7.673860911270984, -- [6]
+				1.918465227817746, -- [7]
+				0.2398081534772182, -- [8]
+				0, -- [9]
+				2.849740932642487, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				88.96882494004797, -- [27]
+				88.96882494004797, -- [28]
+				88.96882494004797, -- [29]
+				78.17745803357315, -- [30]
+				78.17745803357315, -- [31]
+				72.4220623501199, -- [32]
+				72.4220623501199, -- [33]
+				66.42685851318944, -- [34]
+				66.42685851318944, -- [35]
+				66.42685851318944, -- [36]
+				64.5083932853717, -- [37]
+				61.8705035971223, -- [38]
+				56.11510791366906, -- [39]
+				52.99760191846523, -- [40]
+				52.99760191846523, -- [41]
+				51.07913669064748, -- [42]
+				51.07913669064748, -- [43]
+				43.16546762589928, -- [44]
+				40.52757793764988, -- [45]
+				37.41007194244605, -- [46]
+				31.6546762589928, -- [47]
+				31.6546762589928, -- [48]
+				29.73621103117506, -- [49]
+				29.73621103117506, -- [50]
+			},
+			["LastEvents"] = {
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [1]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [2]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -17 (Shadow)", -- [3]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [4]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -18 (Physical)", -- [5]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [6]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [7]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -8 (Shadow)", -- [8]
+				"Shadowpine Headhunter dies.", -- [9]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -21 (Physical)", -- [10]
+				"Shadowpine Headhunter dies.", -- [11]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -9 (Physical)", -- [12]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [13]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -18 (Physical)", -- [14]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -19 (Physical)", -- [15]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [16]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Crit -38 (Physical)", -- [17]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Crit -32 (Physical)", -- [18]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [19]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [20]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [21]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [22]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [23]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Dodge", -- [24]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [25]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [26]
+				"Ellipsis Immolate Shadowpine Headhunter Hit -26 (Fire)", -- [27]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [28]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Crit -34 (Physical)", -- [29]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [30]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -19 (Physical)", -- [31]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [32]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -17 (Physical)", -- [33]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [34]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [35]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Dodge", -- [36]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [37]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [38]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [39]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [40]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [41]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [42]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [43]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [44]
+				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [45]
+				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [46]
+				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [47]
+				"Shadowpine Headhunter Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [48]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [49]
+				"Belkath <Ellipsis> Melee Shadowpine Headhunter Hit -20 (Physical)", -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["Name"] = "Shadowpine Headhunter",
+			["GUID"] = "0xF130003FD8006F8F",
+			["unit"] = "playertarget",
+			["LastEventTimes"] = {
+				8775.554, -- [1]
+				8776.700000000001, -- [2]
+				8777.307000000001, -- [3]
+				8777.406000000001, -- [4]
+				8777.407999999999, -- [5]
+				8777.553, -- [6]
+				8777.697, -- [7]
+				8778.353999999999, -- [8]
+				8778.357, -- [9]
+				8736.313, -- [10]
+				8736.315000000001, -- [11]
+				8738.055, -- [12]
+				8740.112000000001, -- [13]
+				8742.103999999999, -- [14]
+				8744.157000000001, -- [15]
+				8746.216, -- [16]
+				8748.212, -- [17]
+				8750.201999999999, -- [18]
+				8752.222, -- [19]
+				8754.213, -- [20]
+				8756.246000000001, -- [21]
+				8758.253000000001, -- [22]
+				8760.357, -- [23]
+				8762.398000000001, -- [24]
+				8764.457, -- [25]
+				8765.110000000001, -- [26]
+				8765.556000000001, -- [27]
+				8766.501, -- [28]
+				8767.098, -- [29]
+				8768.554, -- [30]
+				8768.555, -- [31]
+				8768.814, -- [32]
+				8769.203, -- [33]
+				8769.349, -- [34]
+				8770.601000000001, -- [35]
+				8771.200000000001, -- [36]
+				8771.31, -- [37]
+				8771.505999999999, -- [38]
+				8771.799000000001, -- [39]
+				8772.558000000001, -- [40]
+				8772.657000000001, -- [41]
+				8773.302, -- [42]
+				8773.302, -- [43]
+				8773.609, -- [44]
+				8774.498, -- [45]
+				8774.6, -- [46]
+				8774.701999999999, -- [47]
+				8774.703, -- [48]
+				8775.308999999999, -- [49]
+				8775.31, -- [50]
+			},
+			["LastAbility"] = 1017.844,
 		},
 		["Belkath <Ellipsis>"] = {
 			["GUID"] = "0xF140CA758D00010C",
@@ -12128,61 +14191,2062 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 40558.743,
-			["LastEventTimes"] = {
-				8771.31, -- [1]
-				8771.505999999999, -- [2]
-				8771.81, -- [3]
-				8772.558999999999, -- [4]
-				8772.657000000001, -- [5]
-				8773.302, -- [6]
-				8773.302, -- [7]
-				8773.610000000001, -- [8]
-				8774.498, -- [9]
-				8774.6, -- [10]
-				8774.703, -- [11]
-				8774.703, -- [12]
-				8775.31, -- [13]
-				8775.31, -- [14]
-				8775.554, -- [15]
-				8776.700000000001, -- [16]
-				8777.307000000001, -- [17]
-				8777.407000000001, -- [18]
-				8777.407999999999, -- [19]
-				8777.554, -- [20]
-				8777.697, -- [21]
-				8778.353999999999, -- [22]
-				8794.306000000001, -- [23]
-				8794.404000000001, -- [24]
-				8796.498, -- [25]
-				8823.473, -- [26]
-				8825.574000000001, -- [27]
-				8827.666000000001, -- [28]
-				8759.852000000001, -- [29]
-				8760.357, -- [30]
-				8760.897000000001, -- [31]
-				8761.054, -- [32]
-				8761.054, -- [33]
-				8761.801, -- [34]
-				8761.897000000001, -- [35]
-				8762.157999999999, -- [36]
-				8762.398000000001, -- [37]
-				8763.06, -- [38]
-				8764.457, -- [39]
-				8765.110000000001, -- [40]
-				8765.556000000001, -- [41]
-				8766.501, -- [42]
-				8767.098, -- [43]
-				8768.555, -- [44]
-				8768.555, -- [45]
-				8768.814, -- [46]
-				8769.203, -- [47]
-				8769.349, -- [48]
-				8770.601000000001, -- [49]
-				8771.200000000001, -- [50]
-			},
+			["LastActive"] = 1450867561,
+			["UnitLockout"] = 1450867041,
 			["Owner"] = "Ellipsis",
-			["LastDamageTaken"] = 12,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 2,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 20,
+						},
+					},
+					["TimeSpent"] = {
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 117.53,
+								},
+							},
+							["amount"] = 117.53,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 152.9,
+								},
+								["Torment"] = {
+									["count"] = 0.86,
+								},
+							},
+							["amount"] = 153.76,
+						},
+					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 366,
+								},
+							},
+							["amount"] = 366,
+						},
+					},
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 51,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 51,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 51,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 51,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 274.7900000000002,
+					["ElementTaken"] = {
+						["Physical"] = 45,
+						["Melee"] = 761,
+						["Shadow"] = 126,
+					},
+					["Damage"] = 2158,
+					["DamageTaken"] = 932,
+					["DamagedWho"] = {
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 937,
+								},
+							},
+							["amount"] = 937,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1201,
+								},
+							},
+							["amount"] = 1201,
+						},
+					},
+					["TimeDamaging"] = {
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 117.53,
+								},
+							},
+							["amount"] = 117.53,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 152.9,
+								},
+								["Torment"] = {
+									["count"] = 0.86,
+								},
+							},
+							["amount"] = 153.76,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2158,
+					},
+					["HealingTaken"] = 366,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 100,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 118,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 274.7900000000002,
+					["WhoDamaged"] = {
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 477,
+								},
+								["Throw"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 522,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 233,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 359,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 16,
+									["count"] = 99,
+									["amount"] = 1931,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Dodge"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 40,
+									["min"] = 34,
+									["count"] = 6,
+									["amount"] = 216,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 118,
+							["amount"] = 2158,
+						},
+						["Torment"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 44,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 20,
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 115,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 115,
+								},
+							},
+							["amount"] = 115,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Throw"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 15.26,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.26,
+								},
+							},
+							["amount"] = 15.26,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 115,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 115,
+						},
+					},
+					["HealingTaken"] = 29,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 15.26,
+					["TimeDamaging"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.26,
+								},
+							},
+							["amount"] = 15.26,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 115,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vampiric Mistbat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+					},
+					["TimeSpent"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26.76000000000001,
+								},
+							},
+							["amount"] = 26.76000000000001,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33.55,
+								},
+							},
+							["amount"] = 33.55,
+						},
+					},
+					["DamageTaken"] = 588,
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 60.31,
+					["ElementTaken"] = {
+						["Physical"] = 25,
+						["Melee"] = 437,
+						["Shadow"] = 126,
+					},
+					["Damage"] = 525,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 23,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 525,
+					},
+					["TimeDamaging"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26.76000000000001,
+								},
+							},
+							["amount"] = 26.76000000000001,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33.55,
+								},
+							},
+							["amount"] = 33.55,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 480,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 525,
+						},
+					},
+					["HealingTaken"] = 74,
+					["DamagedWho"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
+					},
+					["TimeDamage"] = 60.31,
+					["WhoDamaged"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 218,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 345,
+								},
+								["Throw"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 370,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 25,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 10,
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 29,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 29,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 108,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 108,
+								},
+							},
+							["amount"] = 108,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 15.26,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.26,
+								},
+							},
+							["amount"] = 15.26,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 108,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 108,
+						},
+					},
+					["HealingTaken"] = 18,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 15.26,
+					["TimeDamaging"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.26,
+								},
+							},
+							["amount"] = 15.26,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 108,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+					},
+					["TimeSpent"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26.76000000000001,
+								},
+							},
+							["amount"] = 26.76000000000001,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33.55,
+								},
+							},
+							["amount"] = 33.55,
+						},
+					},
+					["DamageTaken"] = 588,
+					["PartialResist"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Throw"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 60.31,
+					["ElementTaken"] = {
+						["Physical"] = 25,
+						["Melee"] = 437,
+						["Shadow"] = 126,
+					},
+					["Damage"] = 525,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 23,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 525,
+					},
+					["TimeDamaging"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26.76000000000001,
+								},
+							},
+							["amount"] = 26.76000000000001,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33.55,
+								},
+							},
+							["amount"] = 33.55,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 480,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 1,
+									["amount"] = 11,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 525,
+						},
+					},
+					["HealingTaken"] = 74,
+					["DamagedWho"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
+					},
+					["TimeDamage"] = 60.31,
+					["WhoDamaged"] = {
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 218,
+						},
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 345,
+								},
+								["Throw"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 370,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 25,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 10,
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 96,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 15.09,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.09,
+								},
+							},
+							["amount"] = 15.09,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 58,
+								},
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 96,
+						},
+					},
+					["HealingTaken"] = 23,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 15.09,
+					["TimeDamaging"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadowpine Shadowcaster"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.09,
+								},
+							},
+							["amount"] = 15.09,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 96,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 153,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 17.75,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.89,
+								},
+								["Torment"] = {
+									["count"] = 0.86,
+								},
+							},
+							["amount"] = 17.75,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 119,
+								},
+								["Crit"] = {
+									["max"] = 34,
+									["min"] = 34,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 153,
+						},
+						["Torment"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 26,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 17.75,
+					["TimeDamaging"] = {
+						["Shadowpine Headhunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.89,
+								},
+								["Torment"] = {
+									["count"] = 0.86,
+								},
+							},
+							["amount"] = 17.75,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 153,
+					["DispelledWho"] = {
+					},
+				},
+			},
 			["NextEventNum"] = 29,
 			["LastEventHealthNum"] = {
 				38.40909090909091, -- [1]
@@ -12289,6 +16353,14 @@ RecountPerCharDB = {
 				"Belkath <Ellipsis> Melee Shadowpine Headhunter Dodge", -- [50]
 			},
 			["Name"] = "Belkath",
+			["TimeLast"] = {
+				["HealingTaken"] = 1450867512,
+				["ActiveTime"] = 1450867528,
+				["TimeDamage"] = 1450867528,
+				["OVERALL"] = 1450867561,
+				["DamageTaken"] = 1450867561,
+				["Damage"] = 1450867528,
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -12341,2069 +16413,60 @@ RecountPerCharDB = {
 				true, -- [49]
 				false, -- [50]
 			},
-			["TimeLast"] = {
-				["HealingTaken"] = 1450867512,
-				["ActiveTime"] = 1450867528,
-				["TimeDamage"] = 1450867528,
-				["OVERALL"] = 1450867561,
-				["DamageTaken"] = 1450867561,
-				["Damage"] = 1450867528,
+			["LastDamageTaken"] = 12,
+			["LastEventTimes"] = {
+				8771.31, -- [1]
+				8771.505999999999, -- [2]
+				8771.81, -- [3]
+				8772.558999999999, -- [4]
+				8772.657000000001, -- [5]
+				8773.302, -- [6]
+				8773.302, -- [7]
+				8773.610000000001, -- [8]
+				8774.498, -- [9]
+				8774.6, -- [10]
+				8774.703, -- [11]
+				8774.703, -- [12]
+				8775.31, -- [13]
+				8775.31, -- [14]
+				8775.554, -- [15]
+				8776.700000000001, -- [16]
+				8777.307000000001, -- [17]
+				8777.407000000001, -- [18]
+				8777.407999999999, -- [19]
+				8777.554, -- [20]
+				8777.697, -- [21]
+				8778.353999999999, -- [22]
+				8794.306000000001, -- [23]
+				8794.404000000001, -- [24]
+				8796.498, -- [25]
+				8823.473, -- [26]
+				8825.574000000001, -- [27]
+				8827.666000000001, -- [28]
+				8759.852000000001, -- [29]
+				8760.357, -- [30]
+				8760.897000000001, -- [31]
+				8761.054, -- [32]
+				8761.054, -- [33]
+				8761.801, -- [34]
+				8761.897000000001, -- [35]
+				8762.157999999999, -- [36]
+				8762.398000000001, -- [37]
+				8763.06, -- [38]
+				8764.457, -- [39]
+				8765.110000000001, -- [40]
+				8765.556000000001, -- [41]
+				8766.501, -- [42]
+				8767.098, -- [43]
+				8768.555, -- [44]
+				8768.555, -- [45]
+				8768.814, -- [46]
+				8769.203, -- [47]
+				8769.349, -- [48]
+				8770.601000000001, -- [49]
+				8771.200000000001, -- [50]
 			},
-			["Fights"] = {
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 153,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 26,
-					["ElementDone"] = {
-						["Melee"] = 153,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 17.75,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.89,
-								},
-								["Torment"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 17.75,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 34,
-									["min"] = 34,
-									["count"] = 1,
-									["amount"] = 34,
-								},
-								["Hit"] = {
-									["max"] = 22,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 119,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 153,
-						},
-						["Torment"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 17.75,
-					["TimeDamaging"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.89,
-								},
-								["Torment"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 17.75,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 115,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 115,
-								},
-							},
-							["amount"] = 115,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 29,
-					["ElementDone"] = {
-						["Melee"] = 115,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 15.26,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.26,
-								},
-							},
-							["amount"] = 15.26,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 22,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 115,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 115,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 15.26,
-					["TimeDamaging"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.26,
-								},
-							},
-							["amount"] = 15.26,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Melee"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 96,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 23,
-					["ElementDone"] = {
-						["Melee"] = 96,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 15.09,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.09,
-								},
-							},
-							["amount"] = 15.09,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 58,
-								},
-								["Crit"] = {
-									["max"] = 38,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 96,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 15.09,
-					["TimeDamaging"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.09,
-								},
-							},
-							["amount"] = 15.09,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 29,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 29,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 108,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 108,
-								},
-							},
-							["amount"] = 108,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 18,
-					["ElementDone"] = {
-						["Melee"] = 108,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 15.26,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.26,
-								},
-							},
-							["amount"] = 15.26,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 108,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 108,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 15.26,
-					["TimeDamaging"] = {
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15.26,
-								},
-							},
-							["amount"] = 15.26,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 9,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 10,
-									["min"] = 10,
-									["count"] = 1,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 10,
-						},
-					},
-					["TimeSpent"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33.55,
-								},
-							},
-							["amount"] = 33.55,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26.76000000000001,
-								},
-							},
-							["amount"] = 26.76000000000001,
-						},
-					},
-					["DamageTaken"] = 588,
-					["PartialResist"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 60.31,
-					["ElementTaken"] = {
-						["Physical"] = 25,
-						["Melee"] = 437,
-						["Shadow"] = 126,
-					},
-					["Damage"] = 525,
-					["ElementTakenBlock"] = {
-						["Melee"] = 10,
-					},
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-					},
-					["DamagedWho"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 239,
-								},
-							},
-							["amount"] = 239,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 480,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 34,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 34,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 28,
-							["amount"] = 525,
-						},
-					},
-					["HealingTaken"] = 74,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 28,
-						},
-					},
-					["TimeDamage"] = 60.31,
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 345,
-								},
-								["Throw"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 370,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 92,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 218,
-						},
-					},
-					["TimeDamaging"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33.55,
-								},
-							},
-							["amount"] = 33.55,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26.76000000000001,
-								},
-							},
-							["amount"] = 26.76000000000001,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 525,
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-				},
-				["Fight1"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 9,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 10,
-									["min"] = 10,
-									["count"] = 1,
-									["amount"] = 10,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 10,
-						},
-					},
-					["TimeSpent"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33.55,
-								},
-							},
-							["amount"] = 33.55,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26.76000000000001,
-								},
-							},
-							["amount"] = 26.76000000000001,
-						},
-					},
-					["DamageTaken"] = 588,
-					["PartialResist"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 27,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 60.31,
-					["ElementTaken"] = {
-						["Physical"] = 25,
-						["Melee"] = 437,
-						["Shadow"] = 126,
-					},
-					["Damage"] = 525,
-					["ElementTakenBlock"] = {
-						["Melee"] = 10,
-					},
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-					},
-					["DamagedWho"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 239,
-								},
-							},
-							["amount"] = 239,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 480,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 34,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 34,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 28,
-							["amount"] = 525,
-						},
-					},
-					["HealingTaken"] = 74,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 28,
-						},
-					},
-					["TimeDamage"] = 60.31,
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 345,
-								},
-								["Throw"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 370,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 92,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 218,
-						},
-					},
-					["TimeDamaging"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33.55,
-								},
-							},
-							["amount"] = 33.55,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 26.76000000000001,
-								},
-							},
-							["amount"] = 26.76000000000001,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 525,
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 27,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 9,
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 10,
-									["min"] = 10,
-									["count"] = 2,
-									["amount"] = 20,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 20,
-						},
-					},
-					["TimeSpent"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 152.9,
-								},
-								["Torment"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 153.76,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 117.53,
-								},
-							},
-							["amount"] = 117.53,
-						},
-					},
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
-					},
-					["PartialResist"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 51,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 51,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 51,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 51,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 274.7900000000002,
-					["ElementTaken"] = {
-						["Physical"] = 45,
-						["Melee"] = 761,
-						["Shadow"] = 126,
-					},
-					["Damage"] = 2158,
-					["ElementTakenBlock"] = {
-						["Melee"] = 20,
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 44,
-								},
-							},
-							["amount"] = 51,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 2158,
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 16,
-									["count"] = 99,
-									["amount"] = 1931,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 11,
-									["min"] = 11,
-									["count"] = 1,
-									["amount"] = 11,
-								},
-								["Dodge"] = {
-									["count"] = 6,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 40,
-									["min"] = 34,
-									["count"] = 6,
-									["amount"] = 216,
-								},
-								["Parry"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 118,
-							["amount"] = 2158,
-						},
-						["Torment"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 366,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 100,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 6,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 118,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["TimeDamage"] = 274.7900000000002,
-					["WhoDamaged"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 233,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 126,
-								},
-							},
-							["amount"] = 359,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 477,
-								},
-								["Throw"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 522,
-						},
-					},
-					["TimeDamaging"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 152.9,
-								},
-								["Torment"] = {
-									["count"] = 0.86,
-								},
-							},
-							["amount"] = 153.76,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 117.53,
-								},
-							},
-							["amount"] = 117.53,
-						},
-					},
-					["DamagedWho"] = {
-						["Vampiric Mistbat"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1201,
-								},
-							},
-							["amount"] = 1201,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 937,
-								},
-							},
-							["amount"] = 937,
-						},
-					},
-					["DamageTaken"] = 932,
-				},
-			},
-			["UnitLockout"] = 1450867041,
-			["LastActive"] = 1450867561,
+			["LastAbility"] = 1017.844,
 		},
 		["Vampiric Mistbat"] = {
 			["GUID"] = "0xF130003FE2006F90",
@@ -14425,8 +16488,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [6]
 			},
 			["TimeWindows"] = {
-				["Damage"] = {
-					51, -- [1]
+				["ActiveTime"] = {
+					13.28, -- [1]
 				},
 				["TimeDamage"] = {
 					13.28, -- [1]
@@ -14434,8 +16497,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					20, -- [1]
 				},
-				["ActiveTime"] = {
-					13.28, -- [1]
+				["Damage"] = {
+					51, -- [1]
 				},
 			},
 			["enClass"] = "MOB",
@@ -14444,16 +16507,9 @@ RecountPerCharDB = {
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 21,
 			["type"] = "Nontrivial",
-			["LastAbility"] = 40558.743,
+			["LastActive"] = 1450867561,
 			["Owner"] = false,
-			["LastEventTimes"] = {
-				8794.306000000001, -- [1]
-				8794.404000000001, -- [2]
-				8796.498, -- [3]
-				8823.473, -- [4]
-				8825.574000000001, -- [5]
-				8827.666000000001, -- [6]
-			},
+			["UnitLockout"] = 1450867561,
 			["NextEventNum"] = 7,
 			["LastEventHealthNum"] = {
 				0, -- [1]
@@ -14472,25 +16528,54 @@ RecountPerCharDB = {
 				"Vampiric Mistbat Melee Belkath <Ellipsis> Hit -12 (Physical)", -- [6]
 			},
 			["Name"] = "Vampiric Mistbat",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1450867561,
-				["TimeDamage"] = 1450867561,
-				["OVERALL"] = 1450867561,
-				["DamageTaken"] = 1450867528,
-				["Damage"] = 1450867561,
-			},
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ElementDoneBlock"] = {
 						["Melee"] = 0,
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
@@ -14501,6 +16586,49 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+					},
+					["DamageTaken"] = 0,
+					["TimeDamage"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -14522,63 +16650,33 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 10,
 					},
 					["TimeSpent"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 13.28,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 13.28,
 						},
 					},
-					["DamageTaken"] = 0,
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
@@ -14586,34 +16684,21 @@ RecountPerCharDB = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 51,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 51,
 						},
 					},
-					["TimeDamage"] = 0,
 					["WhoDamaged"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 20,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 20,
 						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-					},
-					["Damage"] = 0,
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 10,
 					},
 					["ElementHitsTaken"] = {
 						["Melee"] = {
@@ -14624,6 +16709,49 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
+					},
+					["DamageTaken"] = 20,
+					["TimeDamage"] = 13.28,
+					["ElementDone"] = {
+						["Melee"] = 51,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ActiveTime"] = 13.28,
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.28,
+								},
+							},
+							["amount"] = 13.28,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 20,
 					},
 					["Attacks"] = {
 						["Melee"] = {
@@ -14645,98 +16773,33 @@ RecountPerCharDB = {
 							["amount"] = 51,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["TimeDamaging"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.28,
-								},
-							},
-							["amount"] = 13.28,
-						},
-					},
-					["TimeSpent"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.28,
-								},
-							},
-							["amount"] = 13.28,
-						},
-					},
-					["DamageTaken"] = 20,
-					["ActiveTime"] = 13.28,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["DamagedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-					},
-					["TimeDamage"] = 13.28,
-					["WhoDamaged"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 20,
-					},
-					["ElementDone"] = {
-						["Melee"] = 51,
-					},
 					["Damage"] = 51,
 				},
 			},
-			["UnitLockout"] = 1450867561,
-			["LastActive"] = 1450867561,
+			["TimeLast"] = {
+				["ActiveTime"] = 1450867561,
+				["TimeDamage"] = 1450867561,
+				["OVERALL"] = 1450867561,
+				["DamageTaken"] = 1450867528,
+				["Damage"] = 1450867561,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+			},
+			["LastEventTimes"] = {
+				8794.306000000001, -- [1]
+				8794.404000000001, -- [2]
+				8796.498, -- [3]
+				8823.473, -- [4]
+				8825.574000000001, -- [5]
+				8827.666000000001, -- [6]
+			},
+			["LastAbility"] = 1017.844,
 		},
 		["Gobrin <Ellipsis>"] = {
 			["GUID"] = "0xF140CA6EFE00010B",
@@ -14921,61 +16984,442 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 40558.743,
-			["LastEventTimes"] = {
-				8013.41, -- [1]
-				8015.411, -- [2]
-				8017.514, -- [3]
-				8019.009, -- [4]
-				8020.116, -- [5]
-				8021.01, -- [6]
-				8028.513, -- [7]
-				8029.561000000001, -- [8]
-				8031.980000000001, -- [9]
-				8033.069, -- [10]
-				8034.02, -- [11]
-				8044.76, -- [12]
-				7954.400000000001, -- [13]
-				7954.546, -- [14]
-				7954.858, -- [15]
-				7956.456, -- [16]
-				7956.908, -- [17]
-				7957.011, -- [18]
-				7957.414, -- [19]
-				7958.058, -- [20]
-				7958.401, -- [21]
-				7958.505, -- [22]
-				7958.753000000001, -- [23]
-				7959.056000000001, -- [24]
-				7960.013, -- [25]
-				7960.397, -- [26]
-				7960.504, -- [27]
-				7960.906, -- [28]
-				7962.554, -- [29]
-				7963.456, -- [30]
-				7963.799, -- [31]
-				7988.865, -- [32]
-				7991.81, -- [33]
-				7992.459, -- [34]
-				7992.564, -- [35]
-				7993.014, -- [36]
-				7993.938, -- [37]
-				7994.308, -- [38]
-				7994.756, -- [39]
-				7995.018, -- [40]
-				7995.369000000001, -- [41]
-				7995.369000000001, -- [42]
-				7997.019, -- [43]
-				7997.462, -- [44]
-				7997.761, -- [45]
-				7998.164, -- [46]
-				7998.407, -- [47]
-				8009.357, -- [48]
-				8009.357, -- [49]
-				8011.413000000001, -- [50]
-			},
+			["LastActive"] = 1450866780,
+			["UnitLockout"] = 1450866566,
 			["Owner"] = "Ellipsis",
-			["LastDamageTaken"] = 20,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.4,
+								},
+								["Firebolt"] = {
+									["count"] = 58.64,
+								},
+							},
+							["amount"] = 75.03999999999999,
+						},
+					},
+					["DamageTaken"] = 486,
+					["PartialResist"] = {
+						["Knockdown"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Knockdown"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 75.03999999999999,
+					["ElementTaken"] = {
+						["Melee"] = 308,
+						["Physical"] = 178,
+					},
+					["Damage"] = 884,
+					["ElementDone"] = {
+						["Melee"] = 105,
+						["Fire"] = 779,
+					},
+					["TimeDamaging"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.4,
+								},
+								["Firebolt"] = {
+									["count"] = 58.64,
+								},
+							},
+							["amount"] = 75.03999999999999,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 38,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 16,
+									["count"] = 4,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 105,
+						},
+						["Firebolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 23,
+									["count"] = 23,
+									["amount"] = 592,
+								},
+								["Crit"] = {
+									["max"] = 40,
+									["min"] = 34,
+									["count"] = 5,
+									["amount"] = 187,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 779,
+						},
+					},
+					["HealingTaken"] = 83,
+					["DamagedWho"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 105,
+								},
+								["Firebolt"] = {
+									["count"] = 779,
+								},
+							},
+							["amount"] = 884,
+						},
+					},
+					["TimeDamage"] = 75.03999999999999,
+					["WhoDamaged"] = {
+						["Arcane Reaver"] = {
+							["Details"] = {
+								["Knockdown"] = {
+									["count"] = 178,
+								},
+								["Melee"] = {
+									["count"] = 308,
+								},
+							},
+							["amount"] = 486,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 12,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 23,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["WhoHealed"] = {
+						["Ellipsis"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+				},
+			},
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				87.46556473829202, -- [1]
@@ -15082,6 +17526,14 @@ RecountPerCharDB = {
 				"Arcane Reaver Melee Gobrin <Ellipsis> Hit -22 (Physical)", -- [50]
 			},
 			["Name"] = "Gobrin",
+			["TimeLast"] = {
+				["HealingTaken"] = 1450866780,
+				["ActiveTime"] = 1450866732,
+				["TimeDamage"] = 1450866732,
+				["OVERALL"] = 1450866780,
+				["DamageTaken"] = 1450866749,
+				["Damage"] = 1450866732,
+			},
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -15134,994 +17586,245 @@ RecountPerCharDB = {
 				true, -- [49]
 				true, -- [50]
 			},
-			["TimeLast"] = {
-				["HealingTaken"] = 1450866780,
-				["ActiveTime"] = 1450866732,
-				["TimeDamage"] = 1450866732,
-				["OVERALL"] = 1450866780,
-				["DamageTaken"] = 1450866749,
-				["Damage"] = 1450866732,
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.4,
-								},
-								["Firebolt"] = {
-									["count"] = 58.64,
-								},
-							},
-							["amount"] = 75.03999999999999,
-						},
-					},
-					["DamageTaken"] = 486,
-					["PartialResist"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 16,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 75.03999999999999,
-					["ElementTaken"] = {
-						["Melee"] = 308,
-						["Physical"] = 178,
-					},
-					["Damage"] = 884,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-					},
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 105,
-								},
-								["Firebolt"] = {
-									["count"] = 779,
-								},
-							},
-							["amount"] = 884,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 38,
-									["min"] = 38,
-									["count"] = 1,
-									["amount"] = 38,
-								},
-								["Hit"] = {
-									["max"] = 19,
-									["min"] = 16,
-									["count"] = 4,
-									["amount"] = 67,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 105,
-						},
-						["Firebolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 40,
-									["min"] = 34,
-									["count"] = 5,
-									["amount"] = 187,
-								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 23,
-									["count"] = 23,
-									["amount"] = 592,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 779,
-						},
-					},
-					["HealingTaken"] = 83,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["TimeDamage"] = 75.03999999999999,
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 178,
-								},
-								["Melee"] = {
-									["count"] = 308,
-								},
-							},
-							["amount"] = 486,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.4,
-								},
-								["Firebolt"] = {
-									["count"] = 58.64,
-								},
-							},
-							["amount"] = 75.03999999999999,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 105,
-						["Fire"] = 779,
-					},
-				},
-			},
-			["UnitLockout"] = 1450866566,
-			["LastActive"] = 1450866780,
-		},
-		["Ellipsis"] = {
-			["GUID"] = "0x00000000001D41B0",
-			["LastEventHealth"] = {
-				"130 (29%)", -- [1]
-				"130 (29%)", -- [2]
-				"130 (29%)", -- [3]
-				"145 (33%)", -- [4]
-				"145 (33%)", -- [5]
-				"145 (33%)", -- [6]
-				"145 (33%)", -- [7]
-				"145 (33%)", -- [8]
-				"160 (36%)", -- [9]
-				"160 (36%)", -- [10]
-				"160 (36%)", -- [11]
-				"160 (36%)", -- [12]
-				"160 (36%)", -- [13]
-				"175 (39%)", -- [14]
-				"175 (39%)", -- [15]
-				"175 (39%)", -- [16]
-				"175 (39%)", -- [17]
-				"175 (39%)", -- [18]
-				"175 (39%)", -- [19]
-				"175 (39%)", -- [20]
-				"190 (43%)", -- [21]
-				"190 (43%)", -- [22]
-				"190 (43%)", -- [23]
-				"190 (43%)", -- [24]
-				"190 (43%)", -- [25]
-				"205 (46%)", -- [26]
-				"205 (46%)", -- [27]
-				"205 (46%)", -- [28]
-				"205 (46%)", -- [29]
-				"205 (46%)", -- [30]
-				"205 (46%)", -- [31]
-				"205 (46%)", -- [32]
-				"214 (48%)", -- [33]
-				"360 (82%)", -- [34]
-				"266 (60%)", -- [35]
-				"266 (60%)", -- [36]
-				"266 (60%)", -- [37]
-				"266 (60%)", -- [38]
-				"266 (60%)", -- [39]
-				"266 (60%)", -- [40]
-				"266 (60%)", -- [41]
-				"266 (60%)", -- [42]
-				"266 (60%)", -- [43]
-				"130 (29%)", -- [44]
-				"130 (29%)", -- [45]
-				"130 (29%)", -- [46]
-				"130 (29%)", -- [47]
-				"130 (29%)", -- [48]
-				"130 (29%)", -- [49]
-				"130 (29%)", -- [50]
-			},
-			["LastAttackedBy"] = "Environment",
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"DAMAGE", -- [2]
-				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"DAMAGE", -- [5]
-				"HEAL", -- [6]
-				"DAMAGE", -- [7]
-				"HEAL", -- [8]
-				"HEAL", -- [9]
-				"DAMAGE", -- [10]
-				"HEAL", -- [11]
-				"DAMAGE", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-				"DAMAGE", -- [15]
-				"HEAL", -- [16]
-				"DAMAGE", -- [17]
-				"HEAL", -- [18]
-				"DAMAGE", -- [19]
-				"HEAL", -- [20]
-				"HEAL", -- [21]
-				"DAMAGE", -- [22]
-				"HEAL", -- [23]
-				"DAMAGE", -- [24]
-				"HEAL", -- [25]
-				"HEAL", -- [26]
-				"DAMAGE", -- [27]
-				"HEAL", -- [28]
-				"DAMAGE", -- [29]
-				"HEAL", -- [30]
-				"DAMAGE", -- [31]
-				"HEAL", -- [32]
-				"HEAL", -- [33]
-				"DAMAGE", -- [34]
-				"HEAL", -- [35]
-				"DAMAGE", -- [36]
-				"HEAL", -- [37]
-				"DAMAGE", -- [38]
-				"HEAL", -- [39]
-				"DAMAGE", -- [40]
-				"HEAL", -- [41]
-				"DAMAGE", -- [42]
-				"HEAL", -- [43]
-				"DAMAGE", -- [44]
-				"HEAL", -- [45]
-				"DAMAGE", -- [46]
-				"HEAL", -- [47]
-				"DAMAGE", -- [48]
-				"HEAL", -- [49]
-				"DAMAGE", -- [50]
-			},
-			["TimeWindows"] = {
-				["TimeHeal"] = {
-					0.09999999999999999, -- [1]
-				},
-				["Healing"] = {
-					1987, -- [1]
-				},
-				["DamageTaken"] = {
-					1647, -- [1]
-				},
-				["DeathCount"] = {
-					1, -- [1]
-				},
-				["HealingTaken"] = {
-					1538, -- [1]
-				},
-				["Overhealing"] = {
-					252, -- [1]
-				},
-				["ActiveTime"] = {
-					402.0000000000001, -- [1]
-				},
-				["TimeDamage"] = {
-					401.9000000000002, -- [1]
-				},
-				["ManaGain"] = {
-					1478, -- [1]
-				},
-				["DOT_Time"] = {
-					683, -- [1]
-				},
-				["Damage"] = {
-					6329, -- [1]
-				},
-			},
-			["enClass"] = "WARLOCK",
-			["unit"] = "Ellipsis",
-			["LastAbility"] = 40558.743,
+			["LastDamageTaken"] = 20,
 			["LastEventTimes"] = {
-				8771.81, -- [1]
-				8772.558000000001, -- [2]
-				8772.558999999999, -- [3]
-				8772.558999999999, -- [4]
-				8773.302, -- [5]
-				8773.302, -- [6]
-				8773.609, -- [7]
-				8773.610000000001, -- [8]
-				8773.610000000001, -- [9]
-				8774.498, -- [10]
-				8774.498, -- [11]
-				8774.6, -- [12]
-				8774.6, -- [13]
-				8774.6, -- [14]
-				8774.701999999999, -- [15]
-				8774.703, -- [16]
-				8775.308999999999, -- [17]
-				8775.31, -- [18]
-				8775.554, -- [19]
-				8775.554, -- [20]
-				8775.554, -- [21]
-				8777.307000000001, -- [22]
-				8777.307000000001, -- [23]
-				8777.406000000001, -- [24]
-				8777.407000000001, -- [25]
-				8777.407000000001, -- [26]
-				8777.553, -- [27]
-				8777.554, -- [28]
-				8777.697, -- [29]
-				8777.697, -- [30]
-				8778.353999999999, -- [31]
-				8778.353999999999, -- [32]
-				8778.357, -- [33]
-				8870.362999999999, -- [34]
-				8761.801, -- [35]
-				8762.157999999999, -- [36]
-				8762.157999999999, -- [37]
-				8765.556000000001, -- [38]
-				8765.556000000001, -- [39]
-				8768.554, -- [40]
-				8768.555, -- [41]
-				8768.813, -- [42]
-				8768.814, -- [43]
-				8769.349, -- [44]
-				8769.349, -- [45]
-				8771.31, -- [46]
-				8771.31, -- [47]
-				8771.505999999999, -- [48]
-				8771.505999999999, -- [49]
-				8771.799000000001, -- [50]
+				8013.41, -- [1]
+				8015.411, -- [2]
+				8017.514, -- [3]
+				8019.009, -- [4]
+				8020.116, -- [5]
+				8021.01, -- [6]
+				8028.513, -- [7]
+				8029.561000000001, -- [8]
+				8031.980000000001, -- [9]
+				8033.069, -- [10]
+				8034.02, -- [11]
+				8044.76, -- [12]
+				7954.400000000001, -- [13]
+				7954.546, -- [14]
+				7954.858, -- [15]
+				7956.456, -- [16]
+				7956.908, -- [17]
+				7957.011, -- [18]
+				7957.414, -- [19]
+				7958.058, -- [20]
+				7958.401, -- [21]
+				7958.505, -- [22]
+				7958.753000000001, -- [23]
+				7959.056000000001, -- [24]
+				7960.013, -- [25]
+				7960.397, -- [26]
+				7960.504, -- [27]
+				7960.906, -- [28]
+				7962.554, -- [29]
+				7963.456, -- [30]
+				7963.799, -- [31]
+				7988.865, -- [32]
+				7991.81, -- [33]
+				7992.459, -- [34]
+				7992.564, -- [35]
+				7993.014, -- [36]
+				7993.938, -- [37]
+				7994.308, -- [38]
+				7994.756, -- [39]
+				7995.018, -- [40]
+				7995.369000000001, -- [41]
+				7995.369000000001, -- [42]
+				7997.019, -- [43]
+				7997.462, -- [44]
+				7997.761, -- [45]
+				7998.164, -- [46]
+				7998.407, -- [47]
+				8009.357, -- [48]
+				8009.357, -- [49]
+				8011.413000000001, -- [50]
 			},
-			["TimeLast"] = {
-				["TimeHeal"] = 1450867512,
-				["OVERALL"] = 1450867604,
-				["DamageTaken"] = 1450867604,
-				["DeathCount"] = 1450866780,
-				["ActiveTime"] = 1450867512,
-				["HealingTaken"] = 1450867512,
-				["Overhealing"] = 1450867431,
-				["TimeDamage"] = 1450867512,
-				["Healing"] = 1450867512,
-				["ManaGain"] = 1450867503,
-				["DOT_Time"] = 1450867511,
-				["Damage"] = 1450867512,
-			},
-			["level"] = 18,
-			["LastDamageAbility"] = "Falling",
-			["LastFightIn"] = 21,
-			["LastEventNum"] = {
-				[26] = 3.416856492027335,
-				[14] = 3.416856492027335,
-				[9] = 3.416856492027335,
-				[21] = 3.416856492027335,
-				[33] = 2.050113895216401,
-				[34] = 8.656036446469248,
-				[4] = 3.416856492027335,
-			},
-			["type"] = "Self",
-			["FightsSaved"] = 5,
-			["GuardianReverseGUIDs"] = {
-				["Belkath"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "0xF140CA758D00010C",
-					},
-				},
-			},
-			["LastDamageTaken"] = 38,
-			["Owner"] = false,
-			["Pet"] = {
-				"Gobrin <Ellipsis>", -- [1]
-				"Belkath <Ellipsis>", -- [2]
-			},
-			["NextEventNum"] = 35,
-			["LastEventHealthNum"] = {
-				29.6127562642369, -- [1]
-				29.6127562642369, -- [2]
-				29.6127562642369, -- [3]
-				33.02961275626424, -- [4]
-				33.02961275626424, -- [5]
-				33.02961275626424, -- [6]
-				33.02961275626424, -- [7]
-				33.02961275626424, -- [8]
-				36.44646924829157, -- [9]
-				36.44646924829157, -- [10]
-				36.44646924829157, -- [11]
-				36.44646924829157, -- [12]
-				36.44646924829157, -- [13]
-				39.86332574031891, -- [14]
-				39.86332574031891, -- [15]
-				39.86332574031891, -- [16]
-				39.86332574031891, -- [17]
-				39.86332574031891, -- [18]
-				39.86332574031891, -- [19]
-				39.86332574031891, -- [20]
-				43.28018223234624, -- [21]
-				43.28018223234624, -- [22]
-				43.28018223234624, -- [23]
-				43.28018223234624, -- [24]
-				43.28018223234624, -- [25]
-				46.69703872437358, -- [26]
-				46.69703872437358, -- [27]
-				46.69703872437358, -- [28]
-				46.69703872437358, -- [29]
-				46.69703872437358, -- [30]
-				46.69703872437358, -- [31]
-				46.69703872437358, -- [32]
-				48.74715261958998, -- [33]
-				82.00455580865604, -- [34]
-				60.59225512528474, -- [35]
-				60.59225512528474, -- [36]
-				60.59225512528474, -- [37]
-				60.59225512528474, -- [38]
-				60.59225512528474, -- [39]
-				60.59225512528474, -- [40]
-				60.59225512528474, -- [41]
-				60.59225512528474, -- [42]
-				60.59225512528474, -- [43]
-				29.6127562642369, -- [44]
-				29.6127562642369, -- [45]
-				29.6127562642369, -- [46]
-				29.6127562642369, -- [47]
-				29.6127562642369, -- [48]
-				29.6127562642369, -- [49]
-				29.6127562642369, -- [50]
-			},
-			["LastEvents"] = {
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [1]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [2]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [3]
-				"Ellipsis Drain Life Ellipsis Hit +15", -- [4]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [5]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [6]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [7]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [8]
-				"Ellipsis Drain Life Ellipsis Hit +15", -- [9]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [10]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [11]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [12]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [13]
-				"Ellipsis Drain Life Ellipsis Hit +15", -- [14]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [15]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [16]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [17]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [18]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [19]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [20]
-				"Ellipsis Drain Life Ellipsis Hit +15", -- [21]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -17 (Shadow)", -- [22]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +2", -- [23]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -13 (Shadow)", -- [24]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [25]
-				"Ellipsis Drain Life Ellipsis Hit +15", -- [26]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [27]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [28]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [29]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [30]
-				"Ellipsis Drain Life Shadowpine Headhunter Hit -8 (Shadow)", -- [31]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [32]
-				"Ellipsis Drain Life Ellipsis Hit +9", -- [33]
-				"Environment Falling Ellipsis Hit -38 (Physical)", -- [34]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [35]
-				"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [36]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [37]
-				"Ellipsis Immolate Shadowpine Headhunter Hit -26 (Fire)", -- [38]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [39]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [40]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [41]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [42]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +3", -- [43]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [44]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [45]
-				"Ellipsis Curse of Agony (DoT) Shadowpine Headhunter Tick -8 (Shadow)", -- [46]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [47]
-				"Ellipsis Immolate (DoT) Shadowpine Headhunter Tick -11 (Fire)", -- [48]
-				"Ellipsis Fel Synergy Belkath <Ellipsis> Hit +1", -- [49]
-				"Ellipsis Corruption (DoT) Shadowpine Headhunter Tick -24 (Shadow)", -- [50]
-			},
-			["Name"] = "Ellipsis",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				false, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
+			["LastAbility"] = 1017.844,
+		},
+		["Shadowpine Shadowcaster"] = {
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
-						false, -- [1]
+						true, -- [1]
 						false, -- [2]
 						true, -- [3]
-						true, -- [4]
-						false, -- [5]
+						false, -- [4]
+						true, -- [5]
 						false, -- [6]
 						true, -- [7]
 						false, -- [8]
-						false, -- [9]
+						true, -- [9]
 						true, -- [10]
 						true, -- [11]
-						true, -- [12]
+						false, -- [12]
 						true, -- [13]
 						true, -- [14]
 						true, -- [15]
 						true, -- [16]
-						false, -- [17]
+						true, -- [17]
 						false, -- [18]
-						true, -- [19]
+						false, -- [19]
 						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						false, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
 					},
 					["Messages"] = {
-						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [1]
-						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [2]
-						"Ellipsis Drain Life Ellipsis Hit +15", -- [3]
-						"Arcane Reaver Melee Ellipsis Miss", -- [4]
-						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [5]
-						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [6]
-						"Ellipsis Drain Life Ellipsis Hit +15", -- [7]
-						"Ellipsis Drain Life Arcane Reaver Hit -13 (Shadow)", -- [8]
-						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +1", -- [9]
-						"Ellipsis Drain Life Ellipsis Hit +15", -- [10]
-						"Arcane Reaver Melee Ellipsis Hit -20 (Physical)", -- [11]
-						"Arcane Reaver Knockdown Ellipsis Hit -46 (Physical)", -- [12]
-						"Arcane Reaver Melee Ellipsis Hit -20 (Physical)", -- [13]
-						"Arcane Reaver Melee Ellipsis Hit -18 (Physical)", -- [14]
-						"Arcane Reaver Melee Ellipsis Hit -18 (Physical)", -- [15]
-						"Arcane Reaver Melee Ellipsis Hit -22 (Physical)", -- [16]
-						"Ellipsis Corruption (DoT) Arcane Reaver Tick -24 (Shadow)", -- [17]
-						"Ellipsis Fel Synergy Gobrin <Ellipsis> Hit +3", -- [18]
-						"Arcane Reaver Melee Ellipsis Hit -22 (Physical)", -- [19]
-						"Ellipsis dies.", -- [20]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [1]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [2]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [3]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [4]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [5]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [6]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -11 (Physical)", -- [7]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [8]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [11]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [12]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [13]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [14]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [15]
+						"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [16]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [17]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [18]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [19]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [21]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [23]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [24]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [25]
+						"Shadowpine Shadowcaster dies.", -- [26]
 					},
-					["DeathAt"] = 1450866782,
+					["DeathAt"] = 1450867499,
 					["HealthNum"] = {
-						16.70146137787057, -- [1]
-						16.70146137787057, -- [2]
-						19.8329853862213, -- [3]
-						19.8329853862213, -- [4]
-						19.8329853862213, -- [5]
-						19.8329853862213, -- [6]
-						22.96450939457203, -- [7]
-						22.96450939457203, -- [8]
-						22.96450939457203, -- [9]
-						26.09603340292276, -- [10]
-						26.09603340292276, -- [11]
-						12.31732776617954, -- [12]
-						12.31732776617954, -- [13]
-						8.1419624217119, -- [14]
-						4.384133611691023, -- [15]
-						13.29690346083789, -- [16]
-						0.208768267223382, -- [17]
-						0.208768267223382, -- [18]
-						0.208768267223382, -- [19]
-						0, -- [20]
+						100, -- [1]
+						100, -- [2]
+						66.84350132625995, -- [3]
+						61.27320954907162, -- [4]
+						61.27320954907162, -- [5]
+						55.70291777188329, -- [6]
+						55.70291777188329, -- [7]
+						52.78514588859417, -- [8]
+						46.41909814323608, -- [9]
+						44.29708222811671, -- [10]
+						44.29708222811671, -- [11]
+						38.46153846153846, -- [12]
+						36.3395225464191, -- [13]
+						29.97347480106101, -- [14]
+						29.97347480106101, -- [15]
+						19.62864721485411, -- [16]
+						17.50663129973475, -- [17]
+						17.50663129973475, -- [18]
+						17.50663129973475, -- [19]
+						11.14058355437666, -- [20]
+						11.14058355437666, -- [21]
+						3.448275862068965, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
 					},
 					["MessageTimes"] = {
-						-13.19799999999941, -- [1]
-						-13.19799999999941, -- [2]
-						-13.19799999999941, -- [3]
-						-13.19700000000012, -- [4]
-						-12.10899999999947, -- [5]
-						-12.10899999999947, -- [6]
-						-12.10899999999947, -- [7]
-						-11.15799999999945, -- [8]
-						-11.15799999999945, -- [9]
-						-11.15799999999945, -- [10]
-						-11.15700000000015, -- [11]
-						-9.157999999999447, -- [12]
-						-9.157999999999447, -- [13]
-						-7.014999999999418, -- [14]
-						-4.958999999999833, -- [15]
-						-2.851999999999862, -- [16]
-						-0.4179999999996653, -- [17]
-						-0.4179999999996653, -- [18]
-						-0.005000000000109139, -- [19]
-						0, -- [20]
+						-14.41300000000047, -- [1]
+						-14.0619999999999, -- [2]
+						-12.35299999999916, -- [3]
+						-12.04999999999927, -- [4]
+						-10.24099999999999, -- [5]
+						-10.04399999999987, -- [6]
+						-8.2549999999992, -- [7]
+						-8.050999999999476, -- [8]
+						-7.913000000000466, -- [9]
+						-7.25, -- [10]
+						-6.158999999999651, -- [11]
+						-5.949999999998909, -- [12]
+						-5.245999999999185, -- [13]
+						-5.0049999999992, -- [14]
+						-4.104999999999563, -- [15]
+						-3.898999999999433, -- [16]
+						-3.305000000000291, -- [17]
+						-3.209999999999127, -- [18]
+						-2.164999999999054, -- [19]
+						-2.007999999999811, -- [20]
+						-2.007999999999811, -- [21]
+						-1.261000000000422, -- [22]
+						-1.164999999999054, -- [23]
+						-0.9040000000004511, -- [24]
+						-0.002000000000407454, -- [25]
+						0, -- [26]
 					},
-					["KilledBy"] = "Arcane Reaver",
+					["KilledBy"] = "Belkath <Ellipsis>",
 					["Health"] = {
-						"80 (16%)", -- [1]
-						"80 (16%)", -- [2]
-						"95 (19%)", -- [3]
-						"95 (19%)", -- [4]
-						"95 (19%)", -- [5]
-						"95 (19%)", -- [6]
-						"110 (22%)", -- [7]
-						"110 (22%)", -- [8]
-						"110 (22%)", -- [9]
-						"125 (26%)", -- [10]
-						"125 (26%)", -- [11]
-						"59 (12%)", -- [12]
-						"59 (12%)", -- [13]
-						"39 (8%)", -- [14]
-						"21 (4%)", -- [15]
-						"73 (13%)", -- [16]
-						"1 (0%)", -- [17]
-						"1 (0%)", -- [18]
-						"1 (0%)", -- [19]
-						"0 (0%)", -- [20]
+						"377 (100%)", -- [1]
+						"377 (100%)", -- [2]
+						"252 (66%)", -- [3]
+						"231 (61%)", -- [4]
+						"231 (61%)", -- [5]
+						"210 (55%)", -- [6]
+						"210 (55%)", -- [7]
+						"199 (52%)", -- [8]
+						"175 (46%)", -- [9]
+						"167 (44%)", -- [10]
+						"167 (44%)", -- [11]
+						"145 (38%)", -- [12]
+						"137 (36%)", -- [13]
+						"113 (29%)", -- [14]
+						"113 (29%)", -- [15]
+						"74 (19%)", -- [16]
+						"66 (17%)", -- [17]
+						"66 (17%)", -- [18]
+						"66 (17%)", -- [19]
+						"42 (11%)", -- [20]
+						"42 (11%)", -- [21]
+						"13 (3%)", -- [22]
+						"???", -- [23]
+						"???", -- [24]
+						"???", -- [25]
+						"???", -- [26]
 					},
 					["EventNum"] = {
-						0, -- [1]
+						5.039787798408488, -- [1]
 						0, -- [2]
-						3.131524008350731, -- [3]
+						5.570291777188329, -- [3]
 						0, -- [4]
-						0, -- [5]
+						5.570291777188329, -- [5]
 						0, -- [6]
-						3.131524008350731, -- [7]
+						2.917771883289125, -- [7]
 						0, -- [8]
-						0, -- [9]
-						3.131524008350731, -- [10]
-						4.175365344467641, -- [11]
-						9.603340292275574, -- [12]
-						4.175365344467641, -- [13]
-						3.757828810020877, -- [14]
-						3.757828810020877, -- [15]
-						4.007285974499089, -- [16]
-						0, -- [17]
+						6.36604774535809, -- [9]
+						2.122015915119364, -- [10]
+						5.835543766578249, -- [11]
+						0, -- [12]
+						2.122015915119364, -- [13]
+						6.36604774535809, -- [14]
+						0, -- [15]
+						10.3448275862069, -- [16]
+						2.122015915119364, -- [17]
 						0, -- [18]
-						4.592901878914405, -- [19]
-						0, -- [20]
+						0, -- [19]
+						6.36604774535809, -- [20]
+						5.570291777188329, -- [21]
+						2.122015915119364, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
 					},
 					["MessageType"] = {
 						"DAMAGE", -- [1]
-						"HEAL", -- [2]
-						"HEAL", -- [3]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
 						"DAMAGE", -- [4]
 						"DAMAGE", -- [5]
-						"HEAL", -- [6]
-						"HEAL", -- [7]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
 						"DAMAGE", -- [8]
-						"HEAL", -- [9]
-						"HEAL", -- [10]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
 						"DAMAGE", -- [11]
 						"DAMAGE", -- [12]
 						"DAMAGE", -- [13]
@@ -16129,1491 +17832,1807 @@ RecountPerCharDB = {
 						"DAMAGE", -- [15]
 						"DAMAGE", -- [16]
 						"DAMAGE", -- [17]
-						"HEAL", -- [18]
+						"DAMAGE", -- [18]
 						"DAMAGE", -- [19]
-						"MISC", -- [20]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"MISC", -- [26]
 					},
 				}, -- [1]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						false, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						false, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						false, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+					},
+					["Messages"] = {
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [1]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Dodge", -- [2]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [3]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Dodge", -- [4]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [5]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [6]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [7]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [8]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [9]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [10]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [11]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [12]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (18 Absorbed)", -- [13]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [15]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [17]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [19]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -38 (Physical)", -- [21]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [22]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [23]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [24]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [25]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [26]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
+						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (21 Absorbed) (Shadow)", -- [28]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [29]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [30]
+						"Shadowpine Shadowcaster dies.", -- [31]
+					},
+					["DeathAt"] = 1450867443,
+					["HealthNum"] = {
+						100, -- [1]
+						93.89920424403184, -- [2]
+						87.53315649867373, -- [3]
+						87.53315649867373, -- [4]
+						85.41114058355437, -- [5]
+						83.28912466843501, -- [6]
+						76.92307692307692, -- [7]
+						74.80106100795756, -- [8]
+						74.80106100795756, -- [9]
+						74.80106100795756, -- [10]
+						63.92572944297082, -- [11]
+						61.80371352785146, -- [12]
+						61.80371352785146, -- [13]
+						58.3554376657825, -- [14]
+						58.3554376657825, -- [15]
+						54.90716180371353, -- [16]
+						50.39787798408488, -- [17]
+						44.03183023872679, -- [18]
+						44.03183023872679, -- [19]
+						40.58355437665782, -- [20]
+						40.58355437665782, -- [21]
+						27.05570291777188, -- [22]
+						22.54641909814324, -- [23]
+						22.54641909814324, -- [24]
+						22.54641909814324, -- [25]
+						14.3236074270557, -- [26]
+						7.957559681697613, -- [27]
+						7.957559681697613, -- [28]
+						3.448275862068965, -- [29]
+						0.2652519893899205, -- [30]
+						0, -- [31]
+					},
+					["MessageTimes"] = {
+						-14.55299999999988, -- [1]
+						-14.46500000000015, -- [2]
+						-13.15300000000025, -- [3]
+						-12.5619999999999, -- [4]
+						-12.40400000000045, -- [5]
+						-10.35300000000098, -- [6]
+						-10.1150000000016, -- [7]
+						-8.414000000000669, -- [8]
+						-8.158000000001266, -- [9]
+						-7.708000000000538, -- [10]
+						-7.054000000000087, -- [11]
+						-6.363000000001193, -- [12]
+						-6.109000000000378, -- [13]
+						-5.962000000001353, -- [14]
+						-5.71900000000096, -- [15]
+						-5.012000000000626, -- [16]
+						-4.414000000000669, -- [17]
+						-4.109000000000378, -- [18]
+						-4.108000000000175, -- [19]
+						-4.014000000001033, -- [20]
+						-3.610000000000582, -- [21]
+						-3.057000000000699, -- [22]
+						-2.415000000000873, -- [23]
+						-2.105000000001382, -- [24]
+						-1.606000000001586, -- [25]
+						-1.063000000000102, -- [26]
+						-1.051000000001295, -- [27]
+						-0.6600000000016735, -- [28]
+						-0.3630000000011933, -- [29]
+						-0.00300000000061118, -- [30]
+						0, -- [31]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"377 (100%)", -- [1]
+						"354 (93%)", -- [2]
+						"330 (87%)", -- [3]
+						"330 (87%)", -- [4]
+						"322 (85%)", -- [5]
+						"314 (83%)", -- [6]
+						"290 (76%)", -- [7]
+						"282 (74%)", -- [8]
+						"282 (74%)", -- [9]
+						"282 (74%)", -- [10]
+						"241 (63%)", -- [11]
+						"233 (61%)", -- [12]
+						"233 (61%)", -- [13]
+						"220 (58%)", -- [14]
+						"220 (58%)", -- [15]
+						"207 (54%)", -- [16]
+						"190 (50%)", -- [17]
+						"166 (44%)", -- [18]
+						"166 (44%)", -- [19]
+						"153 (40%)", -- [20]
+						"153 (40%)", -- [21]
+						"102 (27%)", -- [22]
+						"85 (22%)", -- [23]
+						"85 (22%)", -- [24]
+						"85 (22%)", -- [25]
+						"54 (14%)", -- [26]
+						"30 (7%)", -- [27]
+						"30 (7%)", -- [28]
+						"13 (3%)", -- [29]
+						"1 (0%)", -- [30]
+						"0 (0%)", -- [31]
+					},
+					["EventNum"] = {
+						6.10079575596817, -- [1]
+						0, -- [2]
+						6.36604774535809, -- [3]
+						0, -- [4]
+						2.122015915119364, -- [5]
+						2.122015915119364, -- [6]
+						6.36604774535809, -- [7]
+						2.122015915119364, -- [8]
+						0, -- [9]
+						4.509283819628648, -- [10]
+						6.36604774535809, -- [11]
+						2.122015915119364, -- [12]
+						0, -- [13]
+						3.448275862068965, -- [14]
+						0, -- [15]
+						3.448275862068965, -- [16]
+						4.509283819628648, -- [17]
+						6.36604774535809, -- [18]
+						0, -- [19]
+						3.448275862068965, -- [20]
+						10.07957559681698, -- [21]
+						3.448275862068965, -- [22]
+						4.509283819628648, -- [23]
+						0, -- [24]
+						4.774535809018568, -- [25]
+						3.448275862068965, -- [26]
+						6.36604774535809, -- [27]
+						0, -- [28]
+						4.509283819628648, -- [29]
+						3.448275862068965, -- [30]
+						0, -- [31]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"MISC", -- [31]
+					},
+				}, -- [2]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						false, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						false, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+					},
+					["Messages"] = {
+						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [1]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [2]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [3]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [4]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [5]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [6]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [7]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [8]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [9]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [11]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Parry", -- [12]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [13]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -15 (Physical)", -- [14]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [15]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [17]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [18]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [19]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [21]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [23]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [24]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [25]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
+						"Shadowpine Shadowcaster dies.", -- [27]
+					},
+					["DeathAt"] = 1450867360,
+					["HealthNum"] = {
+						92.57142857142857, -- [1]
+						92.57142857142857, -- [2]
+						82.85714285714286, -- [3]
+						82.85714285714286, -- [4]
+						74.57142857142857, -- [5]
+						67.71428571428571, -- [6]
+						65.42857142857143, -- [7]
+						65.42857142857143, -- [8]
+						55.71428571428572, -- [9]
+						53.42857142857143, -- [10]
+						46.57142857142857, -- [11]
+						46.57142857142857, -- [12]
+						42.85714285714285, -- [13]
+						42.85714285714285, -- [14]
+						40.57142857142857, -- [15]
+						36.85714285714285, -- [16]
+						33.71428571428572, -- [17]
+						30, -- [18]
+						30, -- [19]
+						17.14285714285714, -- [20]
+						17.14285714285714, -- [21]
+						14.85714285714286, -- [22]
+						11.14285714285714, -- [23]
+						7.428571428571429, -- [24]
+						7.428571428571429, -- [25]
+						0.2857142857142857, -- [26]
+						0, -- [27]
+					},
+					["MessageTimes"] = {
+						-14.875, -- [1]
+						-13.67500000000109, -- [2]
+						-11.97700000000077, -- [3]
+						-8.981999999999971, -- [4]
+						-8.882999999999811, -- [5]
+						-8.778000000000247, -- [6]
+						-8.033999999999651, -- [7]
+						-6.972999999999956, -- [8]
+						-5.977000000000771, -- [9]
+						-5.976000000000568, -- [10]
+						-5.712999999999738, -- [11]
+						-4.877000000000408, -- [12]
+						-4.783999999999651, -- [13]
+						-4.40099999999984, -- [14]
+						-4.054000000000087, -- [15]
+						-3.822000000000116, -- [16]
+						-2.939000000000306, -- [17]
+						-2.827000000001135, -- [18]
+						-2.826000000000931, -- [19]
+						-2.683000000000902, -- [20]
+						-2.376000000000204, -- [21]
+						-2.02599999999984, -- [22]
+						-1.780000000000655, -- [23]
+						-0.8260000000009313, -- [24]
+						-0.7309999999997672, -- [25]
+						-0.01699999999982538, -- [26]
+						0, -- [27]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"324 (92%)", -- [1]
+						"324 (92%)", -- [2]
+						"290 (82%)", -- [3]
+						"290 (82%)", -- [4]
+						"261 (74%)", -- [5]
+						"237 (67%)", -- [6]
+						"229 (65%)", -- [7]
+						"229 (65%)", -- [8]
+						"195 (55%)", -- [9]
+						"187 (53%)", -- [10]
+						"163 (46%)", -- [11]
+						"163 (46%)", -- [12]
+						"150 (42%)", -- [13]
+						"150 (42%)", -- [14]
+						"142 (40%)", -- [15]
+						"129 (36%)", -- [16]
+						"118 (33%)", -- [17]
+						"105 (30%)", -- [18]
+						"105 (30%)", -- [19]
+						"60 (17%)", -- [20]
+						"60 (17%)", -- [21]
+						"52 (14%)", -- [22]
+						"39 (11%)", -- [23]
+						"26 (7%)", -- [24]
+						"26 (7%)", -- [25]
+						"1 (0%)", -- [26]
+						"0 (0%)", -- [27]
+					},
+					["EventNum"] = {
+						7.428571428571429, -- [1]
+						6.571428571428571, -- [2]
+						3.142857142857143, -- [3]
+						5.142857142857143, -- [4]
+						3.142857142857143, -- [5]
+						6.857142857142857, -- [6]
+						2.285714285714286, -- [7]
+						6.571428571428571, -- [8]
+						3.142857142857143, -- [9]
+						2.285714285714286, -- [10]
+						6.857142857142857, -- [11]
+						0, -- [12]
+						3.714285714285714, -- [13]
+						0, -- [14]
+						2.285714285714286, -- [15]
+						3.714285714285714, -- [16]
+						3.142857142857143, -- [17]
+						3.714285714285714, -- [18]
+						6, -- [19]
+						6.857142857142857, -- [20]
+						0, -- [21]
+						2.285714285714286, -- [22]
+						3.714285714285714, -- [23]
+						3.714285714285714, -- [24]
+						6.571428571428571, -- [25]
+						4.857142857142857, -- [26]
+						0, -- [27]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"MISC", -- [27]
+					},
+				}, -- [3]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						false, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						false, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						false, -- [21]
+						true, -- [22]
+						true, -- [23]
+						false, -- [24]
+						false, -- [25]
+						true, -- [26]
+						true, -- [27]
+						false, -- [28]
+						true, -- [29]
+						true, -- [30]
+					},
+					["Messages"] = {
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -40 (Physical)", -- [1]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [2]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [3]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [4]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [6]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [7]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [8]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [9]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [10]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [12]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [13]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [15]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -18 (Physical)", -- [16]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [17]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [19]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
+						"Shadowpine Shadowcaster Melee Ellipsis Hit -24 (Physical)", -- [21]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [22]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [24]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [25]
+						"Ellipsis Melee Shadowpine Shadowcaster Hit -2 (Physical)", -- [26]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [27]
+						"Shadowpine Shadowcaster Mind Flay (DoT) Ellipsis Tick -21 (Shadow)", -- [28]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [29]
+						"Shadowpine Shadowcaster dies.", -- [30]
+					},
+					["DeathAt"] = 1450867269,
+					["HealthNum"] = {
+						94.69496021220159, -- [1]
+						84.08488063660478, -- [2]
+						84.08488063660478, -- [3]
+						79.31034482758621, -- [4]
+						72.94429708222812, -- [5]
+						69.49602122015915, -- [6]
+						69.49602122015915, -- [7]
+						64.45623342175067, -- [8]
+						61.0079575596817, -- [9]
+						54.6419098143236, -- [10]
+						51.19363395225464, -- [11]
+						51.19363395225464, -- [12]
+						46.68435013262599, -- [13]
+						43.23607427055703, -- [14]
+						43.23607427055703, -- [15]
+						37.93103448275862, -- [16]
+						34.48275862068966, -- [17]
+						28.11671087533157, -- [18]
+						24.6684350132626, -- [19]
+						21.22015915119363, -- [20]
+						21.22015915119363, -- [21]
+						21.22015915119363, -- [22]
+						10.3448275862069, -- [23]
+						10.3448275862069, -- [24]
+						10.3448275862069, -- [25]
+						10.3448275862069, -- [26]
+						10.3448275862069, -- [27]
+						5.305039787798409, -- [28]
+						0.2652519893899205, -- [29]
+						0, -- [30]
+					},
+					["MessageTimes"] = {
+						-14.50400000000082, -- [1]
+						-14.35699999999997, -- [2]
+						-12.50600000000122, -- [3]
+						-12.29900000000089, -- [4]
+						-11.9940000000006, -- [5]
+						-10.90200000000004, -- [6]
+						-10.46199999999953, -- [7]
+						-10.25200000000041, -- [8]
+						-9.953000000001339, -- [9]
+						-9.052999999999884, -- [10]
+						-8.949000000000524, -- [11]
+						-8.353000000000975, -- [12]
+						-8.252000000000408, -- [13]
+						-7.906000000000859, -- [14]
+						-6.308000000000902, -- [15]
+						-6.156000000000859, -- [16]
+						-6.058000000000902, -- [17]
+						-6.057000000000699, -- [18]
+						-5.046000000000277, -- [19]
+						-4.097999999999956, -- [20]
+						-3.852000000000771, -- [21]
+						-3.351000000000568, -- [22]
+						-3, -- [23]
+						-2.505000000001019, -- [24]
+						-1.497999999999593, -- [25]
+						-1.253000000000611, -- [26]
+						-1.252000000000408, -- [27]
+						-0.5959999999995489, -- [28]
+						-0.00300000000061118, -- [29]
+						0, -- [30]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"357 (94%)", -- [1]
+						"317 (84%)", -- [2]
+						"317 (84%)", -- [3]
+						"299 (79%)", -- [4]
+						"275 (72%)", -- [5]
+						"262 (69%)", -- [6]
+						"262 (69%)", -- [7]
+						"243 (64%)", -- [8]
+						"230 (61%)", -- [9]
+						"206 (54%)", -- [10]
+						"193 (51%)", -- [11]
+						"193 (51%)", -- [12]
+						"176 (46%)", -- [13]
+						"163 (43%)", -- [14]
+						"163 (43%)", -- [15]
+						"143 (37%)", -- [16]
+						"130 (34%)", -- [17]
+						"106 (28%)", -- [18]
+						"93 (24%)", -- [19]
+						"80 (21%)", -- [20]
+						"80 (21%)", -- [21]
+						"80 (21%)", -- [22]
+						"39 (10%)", -- [23]
+						"39 (10%)", -- [24]
+						"39 (10%)", -- [25]
+						"39 (10%)", -- [26]
+						"39 (10%)", -- [27]
+						"20 (5%)", -- [28]
+						"1 (0%)", -- [29]
+						"0 (0%)", -- [30]
+					},
+					["EventNum"] = {
+						10.61007957559682, -- [1]
+						0, -- [2]
+						4.774535809018568, -- [3]
+						0, -- [4]
+						6.36604774535809, -- [5]
+						3.448275862068965, -- [6]
+						5.039787798408488, -- [7]
+						0, -- [8]
+						3.448275862068965, -- [9]
+						6.36604774535809, -- [10]
+						3.448275862068965, -- [11]
+						4.509283819628648, -- [12]
+						0, -- [13]
+						3.448275862068965, -- [14]
+						5.305039787798409, -- [15]
+						0, -- [16]
+						3.448275862068965, -- [17]
+						6.36604774535809, -- [18]
+						3.448275862068965, -- [19]
+						3.448275862068965, -- [20]
+						0, -- [21]
+						4.509283819628648, -- [22]
+						6.36604774535809, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0.5305039787798409, -- [26]
+						4.509283819628648, -- [27]
+						0, -- [28]
+						6.36604774535809, -- [29]
+						0, -- [30]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"MISC", -- [30]
+					},
+				}, -- [4]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+						true, -- [4]
+						false, -- [5]
+						true, -- [6]
+						false, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						false, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+					},
+					["Messages"] = {
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [1]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [2]
+						"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [3]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [4]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [5]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [6]
+						"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [7]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [8]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [12]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [13]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [14]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [15]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [16]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [17]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [18]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [19]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [20]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [21]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [22]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
+						"Shadowpine Shadowcaster Melee Ellipsis Hit -21 (Physical)", -- [24]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [25]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [26]
+						"Shadowpine Shadowcaster dies.", -- [27]
+					},
+					["DeathAt"] = 1450867163,
+					["HealthNum"] = {
+						100, -- [1]
+						93.71428571428571, -- [2]
+						82.57142857142857, -- [3]
+						82.57142857142857, -- [4]
+						76.57142857142857, -- [5]
+						76.57142857142857, -- [6]
+						71.71428571428571, -- [7]
+						67.14285714285714, -- [8]
+						60.28571428571429, -- [9]
+						58, -- [10]
+						54.28571428571429, -- [11]
+						54.28571428571429, -- [12]
+						45.14285714285715, -- [13]
+						42.85714285714285, -- [14]
+						39.71428571428572, -- [15]
+						32.85714285714285, -- [16]
+						29.14285714285714, -- [17]
+						29.14285714285714, -- [18]
+						19.71428571428572, -- [19]
+						17.42857142857143, -- [20]
+						13.71428571428571, -- [21]
+						10.57142857142857, -- [22]
+						3.714285714285714, -- [23]
+						3.714285714285714, -- [24]
+						1.428571428571429, -- [25]
+						1.428571428571429, -- [26]
+						0, -- [27]
+					},
+					["MessageTimes"] = {
+						-11.30299999999988, -- [1]
+						-11.20099999999911, -- [2]
+						-9.84099999999853, -- [3]
+						-9.040999999999258, -- [4]
+						-9.040999999999258, -- [5]
+						-7.206999999998516, -- [6]
+						-7.044999999998254, -- [7]
+						-6.909999999999855, -- [8]
+						-6.703999999999724, -- [9]
+						-6.104999999999563, -- [10]
+						-5.208999999998923, -- [11]
+						-5.207999999998719, -- [12]
+						-4.20299999999952, -- [13]
+						-4.101999999998952, -- [14]
+						-3.862999999999374, -- [15]
+						-3.651999999998225, -- [16]
+						-3.196999999998297, -- [17]
+						-3.183999999999287, -- [18]
+						-2.200999999999112, -- [19]
+						-2.043999999999869, -- [20]
+						-1.256999999999607, -- [21]
+						-0.9489999999987049, -- [22]
+						-0.7459999999991851, -- [23]
+						-0.4009999999998399, -- [24]
+						-0.09799999999995634, -- [25]
+						-0.001999999998588464, -- [26]
+						0, -- [27]
+					},
+					["KilledBy"] = "Belkath <Ellipsis>",
+					["Health"] = {
+						"350 (100%)", -- [1]
+						"328 (93%)", -- [2]
+						"289 (82%)", -- [3]
+						"289 (82%)", -- [4]
+						"268 (76%)", -- [5]
+						"268 (76%)", -- [6]
+						"251 (71%)", -- [7]
+						"235 (67%)", -- [8]
+						"211 (60%)", -- [9]
+						"203 (58%)", -- [10]
+						"190 (54%)", -- [11]
+						"190 (54%)", -- [12]
+						"158 (45%)", -- [13]
+						"150 (42%)", -- [14]
+						"139 (39%)", -- [15]
+						"115 (32%)", -- [16]
+						"102 (29%)", -- [17]
+						"102 (29%)", -- [18]
+						"69 (19%)", -- [19]
+						"61 (17%)", -- [20]
+						"48 (13%)", -- [21]
+						"37 (10%)", -- [22]
+						"13 (3%)", -- [23]
+						"13 (3%)", -- [24]
+						"5 (1%)", -- [25]
+						"5 (1%)", -- [26]
+						"0 (0%)", -- [27]
+					},
+					["EventNum"] = {
+						6.285714285714286, -- [1]
+						0, -- [2]
+						11.14285714285714, -- [3]
+						6, -- [4]
+						0, -- [5]
+						4.857142857142857, -- [6]
+						0, -- [7]
+						4.571428571428571, -- [8]
+						6.857142857142857, -- [9]
+						2.285714285714286, -- [10]
+						3.714285714285714, -- [11]
+						5.428571428571429, -- [12]
+						3.714285714285714, -- [13]
+						2.285714285714286, -- [14]
+						3.142857142857143, -- [15]
+						6.857142857142857, -- [16]
+						3.714285714285714, -- [17]
+						5.714285714285714, -- [18]
+						3.714285714285714, -- [19]
+						2.285714285714286, -- [20]
+						3.714285714285714, -- [21]
+						3.142857142857143, -- [22]
+						6.857142857142857, -- [23]
+						0, -- [24]
+						2.285714285714286, -- [25]
+						5.142857142857143, -- [26]
+						0, -- [27]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"MISC", -- [27]
+					},
+				}, -- [5]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						false, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						false, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						false, -- [25]
+						true, -- [26]
+						true, -- [27]
+						false, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						false, -- [32]
+						true, -- [33]
+						true, -- [34]
+					},
+					["Messages"] = {
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [1]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [2]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [3]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [4]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [6]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [7]
+						"Shadowpine Shadowcaster dies.", -- [8]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [9]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [10]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [11]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [12]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [13]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [14]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [15]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [16]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [17]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [18]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [19]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [20]
+						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [21]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [22]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [23]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [24]
+						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [25]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [27]
+						"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (26 Absorbed) (Shadow)", -- [28]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [29]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [30]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [31]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [32]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -26 (Shadow)", -- [33]
+						"Shadowpine Shadowcaster dies.", -- [34]
+					},
+					["DeathAt"] = 1450867132,
+					["HealthNum"] = {
+						12.57142857142857, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						42.97082228116711, -- [18]
+						38.46153846153846, -- [19]
+						35.0132625994695, -- [20]
+						35.0132625994695, -- [21]
+						32.09549071618037, -- [22]
+						25.72944297082228, -- [23]
+						22.28116710875332, -- [24]
+						22.28116710875332, -- [25]
+						17.77188328912467, -- [26]
+						14.3236074270557, -- [27]
+						14.3236074270557, -- [28]
+						10.87533156498674, -- [29]
+						6.36604774535809, -- [30]
+						2.917771883289125, -- [31]
+						2.917771883289125, -- [32]
+						0, -- [33]
+						0, -- [34]
+					},
+					["MessageTimes"] = {
+						-14.9940000000006, -- [1]
+						-14.14400000000023, -- [2]
+						-14.14300000000003, -- [3]
+						-14.04000000000087, -- [4]
+						-13.69000000000051, -- [5]
+						-13.59500000000116, -- [6]
+						-13.20100000000093, -- [7]
+						-13.17900000000009, -- [8]
+						-12.33500000000095, -- [9]
+						-11.94700000000012, -- [10]
+						-11.14400000000023, -- [11]
+						-10.63700000000063, -- [12]
+						-10.29399999999987, -- [13]
+						-9.990999999999985, -- [14]
+						-8.192000000000917, -- [15]
+						-8.104000000001179, -- [16]
+						-7.980000000001382, -- [17]
+						-7.649000000001252, -- [18]
+						-5.997000000001208, -- [19]
+						-5.200000000000728, -- [20]
+						-5.096000000001368, -- [21]
+						-5.096000000001368, -- [22]
+						-4.587999999999738, -- [23]
+						-4.228000000000975, -- [24]
+						-4.075000000000728, -- [25]
+						-3.921000000000277, -- [26]
+						-3.203000000001339, -- [27]
+						-3.100000000000364, -- [28]
+						-2.199000000000524, -- [29]
+						-1.984000000000378, -- [30]
+						-1.194000000001324, -- [31]
+						-1.193000000001121, -- [32]
+						-0.001000000000203727, -- [33]
+						0, -- [34]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"44 (12%)", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"???", -- [5]
+						"???", -- [6]
+						"???", -- [7]
+						"???", -- [8]
+						"???", -- [9]
+						"???", -- [10]
+						"???", -- [11]
+						"???", -- [12]
+						"???", -- [13]
+						"???", -- [14]
+						"???", -- [15]
+						"???", -- [16]
+						"???", -- [17]
+						"162 (42%)", -- [18]
+						"145 (38%)", -- [19]
+						"132 (35%)", -- [20]
+						"132 (35%)", -- [21]
+						"121 (32%)", -- [22]
+						"97 (25%)", -- [23]
+						"84 (22%)", -- [24]
+						"84 (22%)", -- [25]
+						"67 (17%)", -- [26]
+						"54 (14%)", -- [27]
+						"54 (14%)", -- [28]
+						"41 (10%)", -- [29]
+						"24 (6%)", -- [30]
+						"11 (2%)", -- [31]
+						"11 (2%)", -- [32]
+						"???", -- [33]
+						"???", -- [34]
+					},
+					["EventNum"] = {
+						4.857142857142857, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						6.36604774535809, -- [18]
+						4.509283819628648, -- [19]
+						3.448275862068965, -- [20]
+						0, -- [21]
+						2.917771883289125, -- [22]
+						6.36604774535809, -- [23]
+						3.448275862068965, -- [24]
+						0, -- [25]
+						4.509283819628648, -- [26]
+						3.448275862068965, -- [27]
+						0, -- [28]
+						3.448275862068965, -- [29]
+						4.509283819628648, -- [30]
+						3.448275862068965, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"MISC", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"MISC", -- [34]
+					},
+				}, -- [6]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						false, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						false, -- [32]
+						true, -- [33]
+					},
+					["Messages"] = {
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [1]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [2]
+						"Shadowpine Shadowcaster Melee Ellipsis Hit -23 (Physical)", -- [3]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [4]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [5]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [6]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [7]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (23 Absorbed)", -- [8]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [9]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [10]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [11]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [12]
+						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [13]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [14]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -17 (Physical)", -- [15]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [16]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [17]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [18]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [19]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [21]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [22]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (20 Absorbed)", -- [23]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [24]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [25]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Crit -16 (Fire)", -- [26]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [27]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [28]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [29]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [30]
+						"Shadowpine Shadowcaster dies.", -- [31]
+						"Shadowpine Shadowcaster Melee Ellipsis Absorb (25 Absorbed)", -- [32]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [33]
+					},
+					["DeathAt"] = 1450867119,
+					["HealthNum"] = {
+						83.71428571428571, -- [1]
+						76.85714285714286, -- [2]
+						76.85714285714286, -- [3]
+						74.57142857142857, -- [4]
+						100, -- [5]
+						100, -- [6]
+						100, -- [7]
+						100, -- [8]
+						100, -- [9]
+						100, -- [10]
+						100, -- [11]
+						100, -- [12]
+						93.10344827586206, -- [13]
+						93.10344827586206, -- [14]
+						93.10344827586206, -- [15]
+						93.10344827586206, -- [16]
+						93.10344827586206, -- [17]
+						90.18567639257294, -- [18]
+						90.18567639257294, -- [19]
+						90.18567639257294, -- [20]
+						83.81962864721486, -- [21]
+						17.42857142857143, -- [22]
+						17.42857142857143, -- [23]
+						12.57142857142857, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+					},
+					["MessageTimes"] = {
+						-12.90200000000004, -- [1]
+						-12.46900000000096, -- [2]
+						-11.96299999999974, -- [3]
+						-11.70700000000034, -- [4]
+						-10.47000000000116, -- [5]
+						-10.01400000000103, -- [6]
+						-9.715000000000146, -- [7]
+						-9.564000000000306, -- [8]
+						-9.415000000000873, -- [9]
+						-7.911000000000058, -- [10]
+						-7.768000000000029, -- [11]
+						-6.971999999999753, -- [12]
+						-6.8700000000008, -- [13]
+						-6.462999999999738, -- [14]
+						-5.876000000000204, -- [15]
+						-5.770000000000437, -- [16]
+						-4.019000000000233, -- [17]
+						-3.864000000001397, -- [18]
+						-3.753000000000611, -- [19]
+						-3.515000000001237, -- [20]
+						-3.412000000000262, -- [21]
+						-2.864000000001397, -- [22]
+						-2.273000000001048, -- [23]
+						-1.815000000000509, -- [24]
+						-0.9650000000001455, -- [25]
+						-0.9639999999999418, -- [26]
+						-0.8610000000007858, -- [27]
+						-0.511000000000422, -- [28]
+						-0.4160000000010768, -- [29]
+						-0.02200000000084401, -- [30]
+						0, -- [31]
+						0.8439999999991414, -- [32]
+						1.231999999999971, -- [33]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"293 (83%)", -- [1]
+						"269 (76%)", -- [2]
+						"269 (76%)", -- [3]
+						"261 (74%)", -- [4]
+						"377 (100%)", -- [5]
+						"377 (100%)", -- [6]
+						"377 (100%)", -- [7]
+						"377 (100%)", -- [8]
+						"377 (100%)", -- [9]
+						"377 (100%)", -- [10]
+						"377 (100%)", -- [11]
+						"377 (100%)", -- [12]
+						"351 (93%)", -- [13]
+						"351 (93%)", -- [14]
+						"351 (93%)", -- [15]
+						"351 (93%)", -- [16]
+						"351 (93%)", -- [17]
+						"340 (90%)", -- [18]
+						"340 (90%)", -- [19]
+						"340 (90%)", -- [20]
+						"316 (83%)", -- [21]
+						"61 (17%)", -- [22]
+						"61 (17%)", -- [23]
+						"44 (12%)", -- [24]
+						"???", -- [25]
+						"???", -- [26]
+						"???", -- [27]
+						"???", -- [28]
+						"???", -- [29]
+						"???", -- [30]
+						"???", -- [31]
+						"???", -- [32]
+						"???", -- [33]
+					},
+					["EventNum"] = {
+						3.142857142857143, -- [1]
+						6.857142857142857, -- [2]
+						0, -- [3]
+						2.285714285714286, -- [4]
+						4.509283819628648, -- [5]
+						2.917771883289125, -- [6]
+						2.122015915119364, -- [7]
+						0, -- [8]
+						6.36604774535809, -- [9]
+						5.305039787798409, -- [10]
+						2.122015915119364, -- [11]
+						2.917771883289125, -- [12]
+						6.896551724137931, -- [13]
+						6.36604774535809, -- [14]
+						4.509283819628648, -- [15]
+						2.122015915119364, -- [16]
+						2.917771883289125, -- [17]
+						2.917771883289125, -- [18]
+						4.509283819628648, -- [19]
+						6.36604774535809, -- [20]
+						6.36604774535809, -- [21]
+						2.285714285714286, -- [22]
+						0, -- [23]
+						4.857142857142857, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"MISC", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+					},
+				}, -- [7]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						false, -- [8]
+						true, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						false, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						false, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+					},
+					["Messages"] = {
+						"Ellipsis Immolate Shadowpine Shadowcaster Hit -26 (Fire)", -- [1]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [2]
+						"Shadowpine Shadowcaster Melee Ellipsis Hit -22 (Physical)", -- [3]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [4]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [5]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [6]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -36 (Physical)", -- [7]
+						"Shadowpine Shadowcaster Melee Ellipsis Crit -38 (Physical)", -- [8]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [9]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [10]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [11]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [12]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [13]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [14]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [15]
+						"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [16]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [17]
+						"Shadowpine Shadowcaster Melee Ellipsis Hit -23 (Physical)", -- [18]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [19]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [20]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [21]
+						"Ellipsis Melee Shadowpine Shadowcaster Dodge", -- [22]
+						"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [23]
+						"Shadowpine Shadowcaster Melee Ellipsis Dodge", -- [24]
+						"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [25]
+						"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [26]
+						"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
+						"Shadowpine Shadowcaster dies.", -- [28]
+					},
+					["DeathAt"] = 1450867056,
+					["HealthNum"] = {
+						92.57142857142857, -- [1]
+						92.57142857142857, -- [2]
+						87.42857142857143, -- [3]
+						84.28571428571429, -- [4]
+						77.42857142857143, -- [5]
+						75.14285714285714, -- [6]
+						75.14285714285714, -- [7]
+						64.85714285714286, -- [8]
+						62.57142857142857, -- [9]
+						59.42857142857143, -- [10]
+						55.71428571428572, -- [11]
+						55.71428571428572, -- [12]
+						42.85714285714285, -- [13]
+						39.14285714285715, -- [14]
+						36.85714285714285, -- [15]
+						33.14285714285715, -- [16]
+						33.14285714285715, -- [17]
+						26.57142857142857, -- [18]
+						23.42857142857143, -- [19]
+						16.57142857142857, -- [20]
+						14.28571428571429, -- [21]
+						14.28571428571429, -- [22]
+						14.28571428571429, -- [23]
+						9.142857142857142, -- [24]
+						6, -- [25]
+						1.142857142857143, -- [26]
+						0.2857142857142857, -- [27]
+						0, -- [28]
+					},
+					["MessageTimes"] = {
+						-12.36599999999999, -- [1]
+						-10.27499999999964, -- [2]
+						-10.17100000000028, -- [3]
+						-9.416999999999462, -- [4]
+						-8.963999999999942, -- [5]
+						-8.424999999999272, -- [6]
+						-8.170000000000073, -- [7]
+						-8.075999999999112, -- [8]
+						-6.469999999999345, -- [9]
+						-6.372999999999593, -- [10]
+						-6.118999999998778, -- [11]
+						-6.118999999998778, -- [12]
+						-5.975999999998749, -- [13]
+						-5.154999999998836, -- [14]
+						-4.511999999998807, -- [15]
+						-4.158999999999651, -- [16]
+						-4.002000000000408, -- [17]
+						-3.528000000000247, -- [18]
+						-3.427999999999884, -- [19]
+						-2.981999999999971, -- [20]
+						-2.450999999999112, -- [21]
+						-1.995999999999185, -- [22]
+						-1.995999999999185, -- [23]
+						-1.505999999999403, -- [24]
+						-0.4539999999997235, -- [25]
+						-0.4539999999997235, -- [26]
+						-0.002000000000407454, -- [27]
+						0, -- [28]
+					},
+					["KilledBy"] = "Ellipsis",
+					["Health"] = {
+						"324 (92%)", -- [1]
+						"324 (92%)", -- [2]
+						"306 (87%)", -- [3]
+						"295 (84%)", -- [4]
+						"271 (77%)", -- [5]
+						"263 (75%)", -- [6]
+						"263 (75%)", -- [7]
+						"227 (64%)", -- [8]
+						"219 (62%)", -- [9]
+						"208 (59%)", -- [10]
+						"195 (55%)", -- [11]
+						"195 (55%)", -- [12]
+						"150 (42%)", -- [13]
+						"137 (39%)", -- [14]
+						"129 (36%)", -- [15]
+						"116 (33%)", -- [16]
+						"116 (33%)", -- [17]
+						"93 (26%)", -- [18]
+						"82 (23%)", -- [19]
+						"58 (16%)", -- [20]
+						"50 (14%)", -- [21]
+						"50 (14%)", -- [22]
+						"50 (14%)", -- [23]
+						"32 (9%)", -- [24]
+						"21 (6%)", -- [25]
+						"4 (1%)", -- [26]
+						"1 (0%)", -- [27]
+						"0 (0%)", -- [28]
+					},
+					["EventNum"] = {
+						7.428571428571429, -- [1]
+						5.142857142857143, -- [2]
+						0, -- [3]
+						3.142857142857143, -- [4]
+						6.857142857142857, -- [5]
+						2.285714285714286, -- [6]
+						10.28571428571429, -- [7]
+						0, -- [8]
+						2.285714285714286, -- [9]
+						3.142857142857143, -- [10]
+						3.714285714285714, -- [11]
+						6, -- [12]
+						6.857142857142857, -- [13]
+						3.714285714285714, -- [14]
+						2.285714285714286, -- [15]
+						3.714285714285714, -- [16]
+						6.571428571428571, -- [17]
+						0, -- [18]
+						3.142857142857143, -- [19]
+						6.857142857142857, -- [20]
+						2.285714285714286, -- [21]
+						0, -- [22]
+						5.142857142857143, -- [23]
+						0, -- [24]
+						3.142857142857143, -- [25]
+						4.857142857142857, -- [26]
+						6.857142857142857, -- [27]
+						0, -- [28]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"MISC", -- [28]
+					},
+				}, -- [8]
 			},
+			["TimeLast"] = {
+				["DeathCount"] = 1450867497,
+				["TimeDamage"] = 1450867496,
+				["ActiveTime"] = 1450867496,
+				["DamageTaken"] = 1450867497,
+				["OVERALL"] = 1450867497,
+				["DOT_Time"] = 1450867496,
+				["Damage"] = 1450867496,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"MISC", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"MISC", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					8, -- [1]
+				},
+				["ActiveTime"] = {
+					113.77, -- [1]
+				},
+				["TimeDamage"] = {
+					113.77, -- [1]
+				},
+				["DamageTaken"] = {
+					3005, -- [1]
+				},
+				["DOT_Time"] = {
+					27, -- [1]
+				},
+				["Damage"] = {
+					640, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 18,
+			["level"] = 17,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 20,
+			["LastEventNum"] = {
+				6.36604774535809, -- [1]
+				nil, -- [2]
+				4.509283819628648, -- [3]
+				3.448275862068965, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				nil, -- [7]
+				nil, -- [8]
+				5.305039787798409, -- [9]
+				nil, -- [10]
+				nil, -- [11]
+				5.570291777188329, -- [12]
+				nil, -- [13]
+				5.570291777188329, -- [14]
+				6.10079575596817, -- [15]
+				5.570291777188329, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				5.039787798408488, -- [19]
+				nil, -- [20]
+				5.570291777188329, -- [21]
+				nil, -- [22]
+				5.570291777188329, -- [23]
+				nil, -- [24]
+				2.917771883289125, -- [25]
+				nil, -- [26]
+				6.36604774535809, -- [27]
+				2.122015915119364, -- [28]
+				5.835543766578249, -- [29]
+				nil, -- [30]
+				2.122015915119364, -- [31]
+				6.36604774535809, -- [32]
+				nil, -- [33]
+				10.3448275862069, -- [34]
+				2.122015915119364, -- [35]
+				nil, -- [36]
+				nil, -- [37]
+				6.36604774535809, -- [38]
+				5.570291777188329, -- [39]
+				2.122015915119364, -- [40]
+				[49] = 4.774535809018568,
+				[50] = 3.448275862068965,
+				[45] = 10.07957559681698,
+				[46] = 3.448275862068965,
+				[47] = 4.509283819628648,
+			},
+			["type"] = "Nontrivial",
+			["FightsSaved"] = 5,
+			["LastActive"] = 1450867497,
+			["UnitLockout"] = 1450867497,
+			["Owner"] = false,
 			["Fights"] = {
-				["Fight3"] = {
-					["TimeHealing"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 33,
-									["min"] = 25,
-									["count"] = 3,
-									["amount"] = 88,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 88,
-						},
-					},
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.5,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 5.85,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 5.609999999999999,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.12,
-								},
-							},
-							["amount"] = 19.58,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 55,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 88,
-					},
-					["ActiveTime"] = 19.59,
-					["Heals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
-									["min"] = 1,
-									["count"] = 21,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 26,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 120,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 120,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 55,
-					},
-					["DOT_Time"] = 29,
-					["Damage"] = 268,
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 55,
-								},
-							},
-							["amount"] = 55,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeHeal"] = 0.01,
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 104,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 55,
-								},
-								["Immolate"] = {
-									["count"] = 26,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 83,
-								},
-							},
-							["amount"] = 268,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 78,
-								},
-								["Arcane Torrent"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 78,
-						},
-					},
+				["Fight2"] = {
 					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
 					},
-					["Healing"] = 146,
-					["ElementDone"] = {
-						["Shadow"] = 187,
-						["Fire"] = 81,
+					["ElementDoneResist"] = {
 					},
-					["Overhealing"] = 0,
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
+					["Ressed"] = 0,
+					["DamageTaken"] = 377,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
 								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 104,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 104,
-						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 55,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 55,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 26,
 								},
-							},
-							["count"] = 1,
-							["amount"] = 26,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 83,
+								["Crit"] = {
+									["count"] = 1,
 								},
-							},
-							["count"] = 7,
-							["amount"] = 83,
-						},
-					},
-					["HealingTaken"] = 120,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
+								["Dodge"] = {
 									["count"] = 1,
 								},
 							},
 							["amount"] = 6,
 						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Shadow"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 8,
-								},
 								["Tick"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["TimeDamage"] = 19.58,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.5,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 5.85,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 5.609999999999999,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.12,
-								},
-							},
-							["amount"] = 19.58,
-						},
-					},
-					["ManaGain"] = 78,
-					["HealedWho"] = {
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 120,
-								},
-							},
-							["amount"] = 120,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
 									["count"] = 12,
 								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 9,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Shadowpine Headhunter"] = {
-									["count"] = 10,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 23,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 6,
 								},
 							},
-							["amount"] = 3,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 23,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 274,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.01,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 18,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
-								["Drain Life"] = {
-									["count"] = 65,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 44,
-								},
-								["Immolate"] = {
-									["count"] = 26,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 274,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 75,
-					["ElementDone"] = {
-						["Fire"] = 70,
-						["Shadow"] = 186,
-						["Arcane"] = 18,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-								["Arcane Torrent"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 51,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 27,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 51,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 51,
-						},
-					},
-					["ActiveTime"] = 15.44,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 1.7,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.94,
-								},
-								["Drain Life"] = {
-									["count"] = 2.98,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3.31,
-								},
-							},
-							["amount"] = 15.43,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 75,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 75,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 29,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 29,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 104,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 18,
-									["min"] = 18,
-									["count"] = 1,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 18,
 						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 72,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 72,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 44,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 44,
-						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 65,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 65,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 26,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 49,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 49,
-						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 15.43,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 1.7,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.94,
-								},
-								["Drain Life"] = {
-									["count"] = 2.98,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3.31,
-								},
-							},
-							["amount"] = 15.43,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 58,
-					["DOT_Time"] = 31,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
+					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Physical"] = 0,
+						["Melee"] = 96,
+						["Shadow"] = 281,
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
+						["Melee"] = 84,
+						["Shadow"] = 21,
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
@@ -17621,648 +19640,29 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["RageGain"] = 0,
 					["ElementDone"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-						["Arcane"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 0,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 281,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.01,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
-						["Arcane Reaver"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 96,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 96,
 						},
-						["Shadowpine Shadowcaster"] = {
+						["Ellipsis"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 120,
@@ -18276,643 +19676,245 @@ RecountPerCharDB = {
 							},
 							["amount"] = 281,
 						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 90,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Shadow"] = 281,
-						["Arcane"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Tick"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 156,
-								},
-								["Restore Mana"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 330,
-						},
-					},
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
 					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 84,
-						["Shadow"] = 21,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 156,
-								},
-							},
-							["amount"] = 156,
-						},
-						["Restore Mana"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 21,
-									["min"] = 21,
-									["count"] = 1,
-									["amount"] = 21,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 21,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 22,
-									["min"] = 18,
-									["count"] = 4,
-									["amount"] = 84,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 84,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 16.65,
-					["Overhealing"] = 8,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.41,
-								},
-								["Drain Life"] = {
-									["count"] = 4.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 7.119999999999999,
-								},
-							},
-							["amount"] = 16.64,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 90,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 23,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 23,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
-						["Knockdown"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 113,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 8,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 8,
-						},
-					},
-					["Attacks"] = {
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 24,
+								["No Resist"] = {
+									["max"] = 0,
 									["min"] = 0,
 									["count"] = 5,
-									["amount"] = 120,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 5,
-							["amount"] = 120,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 						["Drain Life"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
+								["No Resist"] = {
+									["max"] = 0,
 									["min"] = 0,
 									["count"] = 6,
-									["amount"] = 78,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 6,
-							["amount"] = 78,
+							["amount"] = 0,
 						},
-						["Immolate"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 6,
 							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
+								["No Resist"] = {
+									["max"] = 0,
 									["min"] = 0,
 									["count"] = 7,
-									["amount"] = 83,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 7,
-							["amount"] = 83,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
-					["TimeDamage"] = 16.64,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 14.49,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
-						["Shadowpine Shadowcaster"] = {
+						["Ellipsis"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.41,
+								["Melee"] = {
+									["count"] = 9.550000000000001,
 								},
-								["Drain Life"] = {
-									["count"] = 4.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 7.119999999999999,
+								["Mind Flay"] = {
+									["count"] = 1.44,
 								},
 							},
-							["amount"] = 16.64,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 10.99,
 						},
 					},
-					["ManaGain"] = 330,
-					["DOT_Time"] = 29,
-					["DispelledWho"] = {
+					["Heals"] = {
 					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
+					["PartialAbsorb"] = {
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 9,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 9,
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
 						},
 						["Curse of Agony (DoT)"] = {
 							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 10,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 10,
+							["count"] = 7,
+							["amount"] = 0,
 						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Mind Flay"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamage"] = 14.49,
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.550000000000001,
+								},
+								["Mind Flay"] = {
+									["count"] = 1.44,
+								},
+							},
+							["amount"] = 10.99,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
 					},
@@ -18921,26 +19923,17 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
-						["Melee"] = 0,
 					},
 					["HOTs"] = {
 					},
-					["Damage"] = 256,
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -18949,37 +19942,197 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["DamagedWho"] = {
-						["Arcane Reaver"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 364,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Drain Life"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
 									["count"] = 0,
 								},
-								["Fire Shield"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
 								},
-								["Immolate"] = {
-									["count"] = 0,
+								["Parry"] = {
+									["count"] = 1,
 								},
-								["Curse of Agony (DoT)"] = {
+							},
+							["amount"] = 6,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 70,
+						["Melee"] = 108,
+						["Shadow"] = 186,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 29,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadowpine Shadowcaster"] = {
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 108,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Ellipsis"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 72,
 								},
-								["Drain Life"] = {
-									["count"] = 65,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 44,
+								},
+								["Drain Life"] = {
+									["count"] = 65,
 								},
 								["Immolate"] = {
 									["count"] = 26,
@@ -18991,2163 +20144,384 @@ RecountPerCharDB = {
 							["amount"] = 256,
 						},
 					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 75,
-					["ElementDone"] = {
-						["Shadow"] = 186,
-						["Fire"] = 70,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 156,
-								},
-							},
-							["amount"] = 156,
-						},
-					},
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
 					},
 					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["Dispelled"] = 0,
 					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
 					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
+					["PartialResist"] = {
+						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 156,
-								},
-							},
-							["amount"] = 156,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 3,
 							["amount"] = 0,
 						},
-					},
-					["ActiveTime"] = 18.33,
-					["Overhealing"] = 9,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.5,
-								},
-								["Drain Life"] = {
-									["count"] = 2.46,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 8.930000000000002,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.94,
-								},
-							},
-							["amount"] = 18.33,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 75,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 75,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 18,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 6,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 6,
 							["amount"] = 0,
 						},
-					},
-					["Healing"] = 93,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 3,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
 									["min"] = 0,
 									["count"] = 5,
-									["amount"] = 9,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 5,
-							["amount"] = 9,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
 						},
 					},
-					["Attacks"] = {
-						["Corruption"] = {
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 5.52,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.52,
+								},
+							},
+							["amount"] = 5.52,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 29,
+								},
 								["Miss"] = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 72,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 72,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 65,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 65,
-						},
-						["Fire Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 44,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 44,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 26,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 49,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 49,
+							["count"] = 2,
+							["amount"] = 29,
 						},
 					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
 					},
-					["TimeDamage"] = 18.33,
+					["TimeDamage"] = 5.52,
 					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 5.52,
 								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Fire Shield"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
+							},
+							["amount"] = 5.52,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.5,
-								},
-								["Drain Life"] = {
-									["count"] = 2.46,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 8.930000000000002,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.94,
-								},
-							},
-							["amount"] = 18.33,
-						},
 					},
-					["ManaGain"] = 156,
-					["DOT_Time"] = 31,
+					["RunicPowerGain"] = 0,
+					["Damage"] = 29,
 					["DispelledWho"] = {
 					},
 				},
 				["LastFightData"] = {
 					["DOTs"] = {
-						["Immolate (DoT)"] = {
+						["Mind Flay (DoT)"] = {
 							["Details"] = {
-								["Arcane Reaver"] = {
+								["Belkath <Ellipsis>"] = {
+									["count"] = 18,
+								},
+								["Ellipsis"] = {
 									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 27,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 12,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 10,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 8,
 								},
 							},
 							["amount"] = 18,
 						},
 					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 120,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 67,
-						["Physical"] = 53,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 681,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.04,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 62,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 96,
-								},
-								["Drain Life"] = {
-									["count"] = 164,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 104,
-								},
-								["Immolate"] = {
-									["count"] = 52,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 527,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
 								["Melee"] = {
-									["count"] = 0,
+									["count"] = 12.95,
 								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 11,
-								},
-								["Immolate"] = {
-									["count"] = 39,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 32,
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
 								},
 							},
-							["amount"] = 154,
+							["amount"] = 23.23,
 						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 189,
-					["ElementDone"] = {
-						["Shadow"] = 413,
-						["Fire"] = 206,
-						["Melee"] = 0,
-						["Arcane"] = 62,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ManaGainedFrom"] = {
 						["Ellipsis"] = {
 							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 78,
-								},
-								["Arcane Torrent"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
 								["Melee"] = {
-									["count"] = 67,
+									["count"] = 5.31,
 								},
 								["Mind Flay (DoT)"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 67,
+							["amount"] = 5.31,
 						},
 					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 46,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 23,
-									["min"] = 23,
-									["count"] = 2,
-									["amount"] = 46,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 46,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 45.97000000000001,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.95,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.79,
-								},
-								["Drain Life"] = {
-									["count"] = 8.329999999999998,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 10.86,
-								},
-								["Immolate"] = {
-									["count"] = 6.9,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.59,
-								},
-							},
-							["amount"] = 35.42,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.04,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.36,
-								},
-								["Immolate"] = {
-									["count"] = 1.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 10.51,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 189,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 189,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 45,
-									["amount"] = 74,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 74,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
+					["DamageTaken"] = 393,
 					["PartialResist"] = {
-						["Throw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 263,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 15,
-									["count"] = 3,
-									["amount"] = 62,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 62,
-						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 24,
+								["No Resist"] = {
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 168,
+									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 168,
+							["count"] = 3,
+							["amount"] = 0,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
-									["min"] = 0,
 									["count"] = 13,
-									["amount"] = 164,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 13,
-							["amount"] = 164,
+							["amount"] = 0,
 						},
 						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 16,
-									["min"] = 16,
-									["count"] = 1,
-									["amount"] = 16,
-								},
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 99,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 115,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 39,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 39,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 52,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 91,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 81,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 81,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 45.93000000000001,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.95,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.79,
-								},
-								["Drain Life"] = {
-									["count"] = 8.329999999999998,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 10.86,
-								},
-								["Immolate"] = {
-									["count"] = 6.9,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.59,
-								},
-							},
-							["amount"] = 35.42,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.04,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.36,
-								},
-								["Immolate"] = {
-									["count"] = 1.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 10.51,
-						},
-					},
-					["ManaGain"] = 136,
-					["DOT_Time"] = 69,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 27,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 12,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 21,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 0,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 10,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 120,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Absorb"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 67,
-						["Physical"] = 53,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 681,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0.04,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 62,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 96,
-								},
-								["Drain Life"] = {
-									["count"] = 164,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 104,
-								},
-								["Immolate"] = {
-									["count"] = 52,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 527,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 72,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 11,
-								},
-								["Immolate"] = {
-									["count"] = 39,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 154,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 189,
-					["ElementDone"] = {
-						["Shadow"] = 413,
-						["Fire"] = 206,
-						["Melee"] = 0,
-						["Arcane"] = 62,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-								["Tick"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 29,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 78,
-								},
-								["Arcane Torrent"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["WhoDamaged"] = {
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 67,
-								},
-								["Mind Flay (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 67,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 189,
-								},
-							},
-							["amount"] = 189,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 46,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 23,
-									["min"] = 23,
-									["count"] = 2,
-									["amount"] = 46,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 46,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 45.97000000000001,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.95,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.79,
-								},
-								["Drain Life"] = {
-									["count"] = 8.329999999999998,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 10.86,
-								},
-								["Immolate"] = {
-									["count"] = 6.9,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.59,
-								},
-							},
-							["amount"] = 35.42,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.04,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.36,
-								},
-								["Immolate"] = {
-									["count"] = 1.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 10.51,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 0.04,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 189,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 189,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 45,
-									["amount"] = 74,
-								},
-							},
-							["count"] = 45,
-							["amount"] = 74,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Throw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 263,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 15,
-									["count"] = 3,
-									["amount"] = 62,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 62,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 168,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 168,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 164,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 164,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 16,
-									["min"] = 16,
 									["count"] = 1,
-									["amount"] = 16,
-								},
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 99,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 115,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
 									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 39,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 39,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 52,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 91,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 9,
-									["amount"] = 81,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 81,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 45.93000000000001,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 2.95,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.79,
-								},
-								["Drain Life"] = {
-									["count"] = 8.329999999999998,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 10.86,
-								},
-								["Immolate"] = {
-									["count"] = 6.9,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.59,
-								},
-							},
-							["amount"] = 35.42,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 5.04,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Drain Life"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.36,
-								},
-								["Immolate"] = {
-									["count"] = 1.11,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 10.51,
-						},
-					},
-					["ManaGain"] = 136,
-					["DOT_Time"] = 69,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.07000000000000001,
-								},
-							},
-							["amount"] = 0.07000000000000001,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0.02,
-								},
-							},
-							["amount"] = 0.02,
-						},
-					},
-					["OverHeals"] = {
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 15,
-									["count"] = 1,
-									["amount"] = 15,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 15,
+							["amount"] = 0,
 						},
-						["Fel Synergy"] = {
+						["Drain Life"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 11,
-									["min"] = 1,
-									["count"] = 128,
-									["amount"] = 237,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 128,
-							["amount"] = 237,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 1014,
-								},
-							},
-							["amount"] = 1014,
-						},
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 290,
-								},
-							},
-							["amount"] = 290,
-						},
-						["Restore Mana"] = {
-							["Details"] = {
-								["Ellipsis"] = {
-									["count"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-					},
+					["DeathCount"] = 1,
 					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 0,
-						},
-						["Knockdown"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-						["Throw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 18,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 33,
-									["min"] = 9,
-									["count"] = 14,
-									["amount"] = 360,
-								},
-							},
-							["count"] = 32,
-							["amount"] = 360,
-						},
-						["Mind Flay"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 26,
-									["min"] = 21,
-									["count"] = 4,
-									["amount"] = 99,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 99,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 36,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 25,
-									["min"] = 18,
-									["count"] = 10,
-									["amount"] = 217,
-								},
-							},
-							["count"] = 46,
-							["amount"] = 217,
-						},
-						["Mind Flay (DoT)"] = {
+						["Corruption (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -21159,123 +20533,550 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Absorb"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 13,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 28,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 42,
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 28.54,
+					["ElementTaken"] = {
+						["Fire"] = 50,
+						["Melee"] = 239,
+						["Shadow"] = 104,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 285,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 10,
-								},
 								["Hit"] = {
-									["count"] = 31,
+									["count"] = 12,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 1,
 								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
 							},
-							["amount"] = 46,
+							["amount"] = 13,
 						},
 						["Shadow"] = {
 							["Details"] = {
 								["Tick"] = {
-									["count"] = 3,
+									["count"] = 7,
 								},
-								["Absorb"] = {
-									["count"] = 4,
+								["Hit"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 7,
 						},
 					},
-					["DamageTaken"] = 1647,
-					["HealedWho"] = {
-						["Gobrin <Ellipsis>"] = {
+					["Attacks"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 83,
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 159,
 								},
-							},
-							["amount"] = 83,
-						},
-						["Belkath <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 366,
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
 								},
-							},
-							["amount"] = 366,
-						},
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 1538,
-								},
-							},
-							["amount"] = 1538,
-						},
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 0,
+							["count"] = 10,
+							["amount"] = 159,
 						},
-						["Knockdown"] = {
+						["Mind Flay (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
+								["Tick"] = {
+									["max"] = 21,
 									["min"] = 0,
 									["count"] = 6,
-									["amount"] = 0,
+									["amount"] = 126,
 								},
 							},
 							["count"] = 6,
-							["amount"] = 0,
+							["amount"] = 126,
 						},
-						["Throw"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 159,
+						["Shadow"] = 126,
+					},
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
+								},
+							},
+							["amount"] = 218,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 67,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 28.54,
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 11,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 39,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 154,
+						},
+					},
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.95,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
+								},
+							},
+							["amount"] = 23.23,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.31,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.31,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
+						},
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Belkath <Ellipsis>"] = {
+									["count"] = 18,
+								},
+								["Ellipsis"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.34,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
+								},
+							},
+							["amount"] = 53.62000000000001,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Mind Flay"] = {
+									["count"] = 6.539999999999999,
+								},
+								["Melee"] = {
+									["count"] = 50.34999999999999,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.26,
+								},
+							},
+							["amount"] = 60.14999999999998,
+						},
+					},
+					["DamageTaken"] = 3005,
+					["ElementDoneAbsorb"] = {
+						["Melee"] = 217,
+						["Shadow"] = 99,
+					},
+					["PartialResist"] = {
+						["Corruption (DoT)"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 32,
+									["count"] = 33,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 32,
+							["count"] = 33,
 							["amount"] = 0,
 						},
-						["Mind Flay"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
+									["count"] = 51,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 51,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 31,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 8,
+					["PartialAbsorb"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 51,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 51,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 31,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 113.77,
+					["ElementTaken"] = {
+						["Fire"] = 434,
+						["Melee"] = 939,
+						["Shadow"] = 1632,
+					},
+					["DOT_Time"] = 27,
+					["Damage"] = 640,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 20,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 43,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 73,
+								},
+								["Hit"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 104,
+						},
+					},
+					["Attacks"] = {
+						["Mind Flay"] = {
+							["Details"] = {
+								["Absorb"] = {
 									["count"] = 4,
 									["amount"] = 0,
 								},
@@ -21285,57 +21086,64 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 46,
+								["Absorb"] = {
+									["count"] = 10,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 46,
-							["amount"] = 0,
-						},
-						["Mind Flay (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 14,
+									["count"] = 23,
+									["amount"] = 413,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 38,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+								["Miss"] = {
 									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 0,
+							["count"] = 39,
+							["amount"] = 451,
+						},
+						["Mind Flay (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 9,
+									["amount"] = 189,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 189,
 						},
 					},
-					["DeathCount"] = 1,
-					["ElementTakenAbsorb"] = {
-						["Physical"] = 360,
-						["Melee"] = 217,
-						["Shadow"] = 99,
+					["ElementDone"] = {
+						["Melee"] = 451,
+						["Shadow"] = 189,
 					},
-					["ActiveTime"] = 402.0000000000001,
-					["WhoDamaged"] = {
-						["Arcane Reaver"] = {
+					["DamagedWho"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Knockdown"] = {
-									["count"] = 265,
-								},
 								["Melee"] = {
-									["count"] = 501,
+									["count"] = 233,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
 								},
 							},
-							["amount"] = 766,
+							["amount"] = 359,
 						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Throw"] = {
-									["count"] = 505,
-								},
-							},
-							["amount"] = 505,
-						},
-						["Shadowpine Shadowcaster"] = {
+						["Ellipsis"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 218,
@@ -21346,73 +21154,51 @@ RecountPerCharDB = {
 							},
 							["amount"] = 281,
 						},
-						["Environment"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Falling"] = {
-									["count"] = 95,
+								["Absorb"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 23,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 95,
+							["amount"] = 39,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13,
 						},
 					},
-					["ElementTaken"] = {
-						["Physical"] = 865,
-						["Melee"] = 719,
-						["Shadow"] = 63,
-					},
-					["DOT_Time"] = 683,
-					["Damage"] = 6329,
-					["DamagedWho"] = {
-						["Arcane Reaver"] = {
+					["TimeDamage"] = 113.77,
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 474,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 77,
-								},
-								["Fire Shield"] = {
-									["count"] = 54,
-								},
-								["Drain Life"] = {
-									["count"] = 374,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 290,
-								},
-								["Immolate"] = {
-									["count"] = 200,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 275,
+								["Melee"] = {
+									["count"] = 937,
 								},
 							},
-							["amount"] = 1744,
+							["amount"] = 937,
 						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 404,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 552,
-								},
-								["Drain Life"] = {
-									["count"] = 569,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 390,
-								},
-								["Immolate"] = {
-									["count"] = 208,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 394,
-								},
-							},
-							["amount"] = 2517,
-						},
-						["Shadowpine Shadowcaster"] = {
+						["Ellipsis"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 792,
@@ -21420,11 +21206,11 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 2,
 								},
-								["Drain Life"] = {
-									["count"] = 403,
-								},
 								["Immolate (DoT)"] = {
 									["count"] = 252,
+								},
+								["Drain Life"] = {
+									["count"] = 403,
 								},
 								["Immolate"] = {
 									["count"] = 182,
@@ -21436,516 +21222,730 @@ RecountPerCharDB = {
 							["amount"] = 2068,
 						},
 					},
-					["TimeHeal"] = 0.09999999999999999,
-					["ManaGainedFrom"] = {
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.34,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
+								},
+							},
+							["amount"] = 53.62000000000001,
+						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Life Tap"] = {
-									["count"] = 1014,
+								["Mind Flay"] = {
+									["count"] = 6.539999999999999,
 								},
-								["Arcane Torrent"] = {
-									["count"] = 290,
+								["Melee"] = {
+									["count"] = 50.34999999999999,
 								},
-								["Restore Mana"] = {
-									["count"] = 174,
+								["Mind Flay (DoT)"] = {
+									["count"] = 3.26,
 								},
 							},
-							["amount"] = 1478,
+							["amount"] = 60.14999999999998,
 						},
 					},
-					["Heals"] = {
-						["Fel Synergy"] = {
+					["ElementTakenBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 5,
-									["min"] = 1,
-									["count"] = 280,
-									["amount"] = 449,
+								["Blocked"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
 								},
 							},
-							["count"] = 280,
-							["amount"] = 449,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 3,
-									["count"] = 103,
-									["amount"] = 1538,
-								},
-							},
-							["count"] = 103,
-							["amount"] = 1538,
+							["count"] = 1,
+							["amount"] = 9,
 						},
 					},
-					["ElementDone"] = {
-						["Shadow"] = 4347,
-						["Fire"] = 1576,
-						["Melee"] = 2,
-						["Arcane"] = 404,
-					},
-					["Healing"] = 1987,
+				},
+				["Fight1"] = {
 					["DOTs"] = {
-						["Immolate (DoT)"] = {
+						["Mind Flay (DoT)"] = {
 							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 75,
+								["Belkath <Ellipsis>"] = {
+									["count"] = 18,
 								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 105,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 66,
+								["Ellipsis"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 246,
+							["amount"] = 18,
 						},
+					},
+					["TimeSpent"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.95,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
+								},
+							},
+							["amount"] = 23.23,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.31,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.31,
+						},
+					},
+					["DamageTaken"] = 393,
+					["PartialResist"] = {
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 57,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 69,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 99,
-								},
-							},
-							["amount"] = 225,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Arcane Reaver"] = {
-									["count"] = 56,
-								},
-								["Shadowpine Headhunter"] = {
-									["count"] = 76,
-								},
-								["Shadowpine Shadowcaster"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 212,
-						},
-					},
-					["Overhealing"] = 252,
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 33,
-									["min"] = 24,
-									["count"] = 75,
-									["amount"] = 1818,
-								},
-							},
-							["count"] = 75,
-							["amount"] = 1818,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 2,
-									["min"] = 2,
-									["count"] = 1,
-									["amount"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 2,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
 									["amount"] = 0,
 								},
-								["Miss"] = {
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 4,
-							["amount"] = 2,
+							["amount"] = 0,
 						},
-						["Drain Life"] = {
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 18,
-									["min"] = 3,
-									["count"] = 104,
-									["amount"] = 1346,
-								},
-							},
-							["count"] = 104,
-							["amount"] = 1346,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
 									["amount"] = 0,
 								},
-								["Crit"] = {
-									["max"] = 39,
-									["min"] = 39,
-									["count"] = 3,
-									["amount"] = 117,
-								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 26,
-									["count"] = 18,
-									["amount"] = 473,
-								},
 							},
-							["count"] = 22,
-							["amount"] = 590,
+							["count"] = 3,
+							["amount"] = 0,
 						},
-						["Curse of Agony (DoT)"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 26,
-									["min"] = 8,
-									["count"] = 106,
-									["amount"] = 1106,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 106,
-							["amount"] = 1106,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 30,
-									["min"] = 30,
-									["count"] = 1,
-									["amount"] = 30,
-								},
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 14,
-									["count"] = 19,
-									["amount"] = 374,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 404,
+							["count"] = 13,
+							["amount"] = 0,
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
-								["Crit"] = {
-									["max"] = 16,
-									["min"] = 16,
-									["count"] = 3,
-									["amount"] = 48,
-								},
-								["Tick"] = {
-									["max"] = 16,
-									["min"] = 11,
-									["count"] = 79,
-									["amount"] = 884,
-								},
-							},
-							["count"] = 82,
-							["amount"] = 932,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 77,
-									["min"] = 77,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 77,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 77,
+							["amount"] = 0,
 						},
-						["Fire Shield"] = {
+						["Drain Life"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 7,
-									["min"] = 5,
-									["count"] = 10,
-									["amount"] = 54,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 54,
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
 						},
 					},
-					["HealingTaken"] = 1538,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 105,
-								},
-								["Tick"] = {
-									["count"] = 181,
-								},
-							},
-							["amount"] = 288,
-						},
+					["ActiveTime"] = 28.54,
+					["ElementTaken"] = {
+						["Fire"] = 50,
+						["Melee"] = 239,
+						["Shadow"] = 104,
+					},
+					["DOT_Time"] = 18,
+					["Damage"] = 285,
+					["ElementHitsTaken"] = {
 						["Fire"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
 								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
 									["count"] = 1,
 								},
 								["Tick"] = {
-									["count"] = 79,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 28,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 114,
+							["amount"] = 2,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 1,
+									["count"] = 12,
 								},
 								["Dodge"] = {
-									["count"] = 2,
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 4,
+							["amount"] = 13,
 						},
-						["Arcane"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
+								["Tick"] = {
+									["count"] = 7,
 								},
 								["Hit"] = {
-									["count"] = 19,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 20,
+							["amount"] = 7,
 						},
 					},
-					["TimeDamage"] = 401.9000000000002,
-					["TimeDamaging"] = {
-						["Arcane Reaver"] = {
+					["Attacks"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.39,
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 159,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 13.1,
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 4.15,
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
 								},
-								["Drain Life"] = {
-									["count"] = 24.14,
-								},
-								["Immolate"] = {
-									["count"] = 24.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 23.54999999999999,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 28.52,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.34,
-								},
-								["Fire Shield"] = {
-									["count"] = 7.64,
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 126.3300000000001,
+							["count"] = 10,
+							["amount"] = 159,
 						},
-						["Shadowpine Headhunter"] = {
+						["Mind Flay (DoT)"] = {
 							["Details"] = {
-								["Shoot"] = {
-									["count"] = 29.65,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 7.629999999999998,
-								},
-								["Corruption"] = {
-									["count"] = 0.5,
-								},
-								["Drain Life"] = {
-									["count"] = 31.56,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 32.86,
-								},
-								["Immolate"] = {
-									["count"] = 24.85,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 26.41,
+								["Tick"] = {
+									["max"] = 21,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 126,
 								},
 							},
-							["amount"] = 153.46,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 22.85,
-								},
-								["Melee"] = {
-									["count"] = 2.2,
-								},
-								["Drain Life"] = {
-									["count"] = 21.45999999999999,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 29.08,
-								},
-								["Immolate"] = {
-									["count"] = 18.71,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 27.81,
-								},
-							},
-							["amount"] = 122.11,
+							["count"] = 6,
+							["amount"] = 126,
 						},
 					},
-					["ManaGain"] = 1478,
-					["WhoHealed"] = {
-						["Ellipsis"] = {
-							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 1538,
-								},
-							},
-							["amount"] = 1538,
-						},
+					["ElementDone"] = {
+						["Melee"] = 159,
+						["Shadow"] = 126,
 					},
-					["TimeSpent"] = {
-						["Arcane Reaver"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.39,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 13.1,
-								},
-								["Melee"] = {
-									["count"] = 4.15,
-								},
-								["Drain Life"] = {
-									["count"] = 24.14,
-								},
-								["Immolate"] = {
-									["count"] = 24.5,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 23.54999999999999,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 28.52,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.34,
-								},
-								["Fire Shield"] = {
-									["count"] = 7.64,
-								},
-							},
-							["amount"] = 126.3300000000001,
-						},
-						["Shadowpine Headhunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 29.65,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 7.629999999999998,
-								},
-								["Corruption"] = {
-									["count"] = 0.5,
-								},
-								["Drain Life"] = {
-									["count"] = 31.56,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 32.86,
-								},
-								["Immolate"] = {
-									["count"] = 24.85,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 26.41,
-								},
-							},
-							["amount"] = 153.46,
-						},
-						["Gobrin <Ellipsis>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.01,
-								},
-							},
-							["amount"] = 0.01,
-						},
-						["Shadowpine Shadowcaster"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 22.85,
-								},
-								["Melee"] = {
-									["count"] = 2.2,
-								},
-								["Drain Life"] = {
-									["count"] = 21.45999999999999,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 29.08,
-								},
-								["Immolate"] = {
-									["count"] = 18.71,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 27.81,
-								},
-							},
-							["amount"] = 122.11,
-						},
+					["DamagedWho"] = {
 						["Belkath <Ellipsis>"] = {
 							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0.07000000000000001,
+								["Melee"] = {
+									["count"] = 92,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 126,
 								},
 							},
-							["amount"] = 0.07000000000000001,
+							["amount"] = 218,
 						},
 						["Ellipsis"] = {
 							["Details"] = {
-								["Drain Life"] = {
-									["count"] = 0.02,
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 0.02,
+							["amount"] = 67,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 28.54,
+					["WhoDamaged"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 239,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 72,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 11,
+								},
+								["Drain Life"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 39,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 154,
+						},
+					},
+					["TimeDamaging"] = {
+						["Belkath <Ellipsis>"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12.95,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 10.28,
+								},
+							},
+							["amount"] = 23.23,
+						},
+						["Ellipsis"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.31,
+								},
+								["Mind Flay (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.31,
+						},
+					},
+					["ElementTakenBlock"] = {
+						["Melee"] = 9,
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 9,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1450866374,
-			["LastActive"] = 1450867604,
+			["NextEventNum"] = 45,
+			["LastEventHealthNum"] = {
+				7.957559681697613, -- [1]
+				7.957559681697613, -- [2]
+				3.448275862068965, -- [3]
+				0.2652519893899205, -- [4]
+				0, -- [5]
+				0, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				66.84350132625995, -- [21]
+				61.27320954907162, -- [22]
+				61.27320954907162, -- [23]
+				55.70291777188329, -- [24]
+				55.70291777188329, -- [25]
+				52.78514588859417, -- [26]
+				46.41909814323608, -- [27]
+				44.29708222811671, -- [28]
+				44.29708222811671, -- [29]
+				38.46153846153846, -- [30]
+				36.3395225464191, -- [31]
+				29.97347480106101, -- [32]
+				29.97347480106101, -- [33]
+				19.62864721485411, -- [34]
+				17.50663129973475, -- [35]
+				17.50663129973475, -- [36]
+				17.50663129973475, -- [37]
+				11.14058355437666, -- [38]
+				11.14058355437666, -- [39]
+				3.448275862068965, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				40.58355437665782, -- [45]
+				27.05570291777188, -- [46]
+				22.54641909814324, -- [47]
+				22.54641909814324, -- [48]
+				22.54641909814324, -- [49]
+				14.3236074270557, -- [50]
+			},
+			["LastEvents"] = {
+				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [1]
+				"Shadowpine Shadowcaster Mind Flay Ellipsis Absorb (21 Absorbed) (Shadow)", -- [2]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [3]
+				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [4]
+				"Shadowpine Shadowcaster dies.", -- [5]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -15 (Physical)", -- [6]
+				"Shadowpine Shadowcaster Melee Ellipsis Hit -20 (Physical)", -- [7]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [8]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -20 (Physical)", -- [9]
+				"Shadowpine Shadowcaster Melee Ellipsis Hit -22 (Physical)", -- [10]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -17 (Physical)", -- [11]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [12]
+				"Shadowpine Shadowcaster Melee Ellipsis Hit -25 (Physical)", -- [13]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [14]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -23 (Physical)", -- [15]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [16]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [17]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [18]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -19 (Physical)", -- [19]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [20]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [21]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Miss", -- [22]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [23]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [24]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -11 (Physical)", -- [25]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -14 (Physical)", -- [26]
+				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [27]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [28]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -22 (Physical)", -- [29]
+				"Shadowpine Shadowcaster Melee Belkath <Ellipsis> Hit -16 (Physical)", -- [30]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [31]
+				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [32]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Miss", -- [33]
+				"Ellipsis Immolate Shadowpine Shadowcaster Crit -39 (Fire)", -- [34]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [35]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [36]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [37]
+				"Ellipsis Corruption (DoT) Shadowpine Shadowcaster Tick -24 (Shadow)", -- [38]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -21 (Physical)", -- [39]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -8 (Shadow)", -- [40]
+				"Shadowpine Shadowcaster Mind Flay (DoT) Belkath <Ellipsis> Tick -21 (Shadow)", -- [41]
+				"Ellipsis Immolate (DoT) Shadowpine Shadowcaster Tick -11 (Fire)", -- [42]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [43]
+				"Shadowpine Shadowcaster dies.", -- [44]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Crit -38 (Physical)", -- [45]
+				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [46]
+				"Ellipsis Curse of Agony (DoT) Shadowpine Shadowcaster Tick -17 (Shadow)", -- [47]
+				"Shadowpine Shadowcaster Melee Ellipsis Absorb (22 Absorbed)", -- [48]
+				"Belkath <Ellipsis> Melee Shadowpine Shadowcaster Hit -18 (Physical)", -- [49]
+				"Ellipsis Drain Life Shadowpine Shadowcaster Hit -13 (Shadow)", -- [50]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventHealth"] = {
+				"30 (7%)", -- [1]
+				"30 (7%)", -- [2]
+				"13 (3%)", -- [3]
+				"1 (0%)", -- [4]
+				"0 (0%)", -- [5]
+				"???", -- [6]
+				"377 (100%)", -- [7]
+				"377 (100%)", -- [8]
+				"377 (100%)", -- [9]
+				"377 (100%)", -- [10]
+				"377 (100%)", -- [11]
+				"377 (100%)", -- [12]
+				"377 (100%)", -- [13]
+				"377 (100%)", -- [14]
+				"377 (100%)", -- [15]
+				"377 (100%)", -- [16]
+				"377 (100%)", -- [17]
+				"377 (100%)", -- [18]
+				"377 (100%)", -- [19]
+				"377 (100%)", -- [20]
+				"252 (66%)", -- [21]
+				"231 (61%)", -- [22]
+				"231 (61%)", -- [23]
+				"210 (55%)", -- [24]
+				"210 (55%)", -- [25]
+				"199 (52%)", -- [26]
+				"175 (46%)", -- [27]
+				"167 (44%)", -- [28]
+				"167 (44%)", -- [29]
+				"145 (38%)", -- [30]
+				"137 (36%)", -- [31]
+				"113 (29%)", -- [32]
+				"113 (29%)", -- [33]
+				"74 (19%)", -- [34]
+				"66 (17%)", -- [35]
+				"66 (17%)", -- [36]
+				"66 (17%)", -- [37]
+				"42 (11%)", -- [38]
+				"42 (11%)", -- [39]
+				"13 (3%)", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"153 (40%)", -- [45]
+				"102 (27%)", -- [46]
+				"85 (22%)", -- [47]
+				"85 (22%)", -- [48]
+				"85 (22%)", -- [49]
+				"54 (14%)", -- [50]
+			},
+			["Name"] = "Shadowpine Shadowcaster",
+			["GUID"] = "0xF13000405500570C",
+			["LastEventTimes"] = {
+				8705.918, -- [1]
+				8706.308999999999, -- [2]
+				8706.606, -- [3]
+				8706.966, -- [4]
+				8706.969000000001, -- [5]
+				8735.709000000001, -- [6]
+				8736.748, -- [7]
+				8737.752, -- [8]
+				8738.300000000001, -- [9]
+				8739.509, -- [10]
+				8739.852000000001, -- [11]
+				8740.356, -- [12]
+				8742.358, -- [13]
+				8742.447, -- [14]
+				8744.458000000001, -- [15]
+				8746.51, -- [16]
+				8747.008, -- [17]
+				8747.959000000001, -- [18]
+				8748.648999999999, -- [19]
+				8749, -- [20]
+				8750.709000000001, -- [21]
+				8751.012000000001, -- [22]
+				8752.821, -- [23]
+				8753.018, -- [24]
+				8754.807000000001, -- [25]
+				8755.011, -- [26]
+				8755.148999999999, -- [27]
+				8755.812, -- [28]
+				8756.903, -- [29]
+				8757.112000000001, -- [30]
+				8757.816000000001, -- [31]
+				8758.057000000001, -- [32]
+				8758.957, -- [33]
+				8759.163000000001, -- [34]
+				8759.757, -- [35]
+				8759.852000000001, -- [36]
+				8760.897000000001, -- [37]
+				8761.054, -- [38]
+				8761.054, -- [39]
+				8761.801, -- [40]
+				8761.897000000001, -- [41]
+				8762.157999999999, -- [42]
+				8763.06, -- [43]
+				8763.062, -- [44]
+				8703.359, -- [45]
+				8703.912, -- [46]
+				8704.554, -- [47]
+				8704.864, -- [48]
+				8705.362999999999, -- [49]
+				8705.906000000001, -- [50]
+			},
+			["LastAbility"] = 1017.844,
 		},
 	},
 	["FightNum"] = 21,

@@ -1,0 +1,8 @@
+MACRO 16777218 "HuntersMark" INV_Misc_QuestionMark
+/#showtooltip
+/cast [@mouseover,harm,nodead][@target,harm,nodead] Hunter's Mark
+END
+MACRO 16777217 "PetAttack" Ability_GhoulFrenzy
+/petattack [@mouseover,harm,nodead][@target,harm,nodead]
+/petfollow [@pettarget,exists]
+END

@@ -1,15 +1,22 @@
 
 MacroBankDB = {
 	["profileKeys"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = "Default",
 		["Saptack - PrimalWoW (Progressive)"] = "Default",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Shiftace - TrueWoW"] = "Default",
+		["Parimman - TrueWoW"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
+		["Magistratus - PrimalWoW (Progressive)"] = "Default",
+		["Pastafarian - TrueWoW"] = "Default",
+		["Cryogenics - TrueWoW"] = "Default",
+		["Ellipsis - TrueWoW"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
 		["Nerfed - PrimalWoW (Progressive)"] = "Default",
-		["Iamsham - PrimalWoW (Progressive)"] = "Default",
-		["Duglazerp - TrueWoW"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Magistratus - TrueWoW"] = "Default",
 	},
 	["DBVersion"] = 4,
 	["global"] = {
@@ -24,35 +31,71 @@ MacroBankDB = {
 						"/castsequence [mod]Rune Strike;reset=target/5 Icy Touch,Plague Strike,null\n/castsequence Heart Strike,Death Strike,Festering Strike\n/castsequence reset=20 Horn of Winter,Blood Tap,Outbreak,Dancing Rune Weapon\n/cast Empower Rune Weapon\n/use 13\n/use 14", -- [4]
 					}, -- [1]
 					{
+						"Blood - Modifier for Rune Strike", -- [1]
+						"Blood", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Rune Strike;reset=target/5 Icy Touch,Plague Strike,null\n/castsequence Heart Strike,Death Strike,Festering Strike\n/castsequence reset=20 Horn of Winter,Blood Tap,Outbreak,Dancing Rune Weapon\n/cast Empower Rune Weapon\n/use 13\n/use 14", -- [4]
+					}, -- [2]
+					{
 						"Blood 2 - DK w/ Blood Boil talents", -- [1]
 						"Blood 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Blood Boil;reset=target/5 Icy Touch,Plague Strike,null\n/castsequence Heart Strike,Death Strike,Festering Strike,Rune Strike\n/castsequence reset=20 Horn of Winter,Blood Tap,Outbreak,Dancing Rune Weapon\n/cast Empower Rune Weapon\n/use 13", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Blood 2 - DK w/ Blood Boil talents", -- [1]
+						"Blood 2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Blood Boil;reset=target/5 Icy Touch,Plague Strike,null\n/castsequence Heart Strike,Death Strike,Festering Strike,Rune Strike\n/castsequence reset=20 Horn of Winter,Blood Tap,Outbreak,Dancing Rune Weapon\n/cast Empower Rune Weapon\n/use 13", -- [4]
+					}, -- [4]
 					{
 						"DK heal - DK heal with pet", -- [1]
 						"DK heal", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/castsequence reset=60 Raise Dead, Death Pact", -- [4]
-					}, -- [3]
+					}, -- [5]
+					{
+						"DK heal - DK heal with pet", -- [1]
+						"DK heal", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/castsequence reset=60 Raise Dead, Death Pact", -- [4]
+					}, -- [6]
 					{
 						"DK heal 2 - DK heal with Lichborne", -- [1]
 						"DK heal 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip Lichborne\n/cast Lichborne;\n/cast [@player] Death Coil", -- [4]
-					}, -- [4]
+					}, -- [7]
+					{
+						"DK heal 2 - DK heal with Lichborne", -- [1]
+						"DK heal 2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip Lichborne\n/cast Lichborne;\n/cast [@player] Death Coil", -- [4]
+					}, -- [8]
 					{
 						"Frost - Modifier for Frost Strike", -- [1]
 						"Frost", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Frost Strike;reset=10 Howling Blast,Plague Strike,Obliterate\n/castsequence reset=60 Horn of Winter,Pillar of Frost,Blood Tap,Outbreak,Horn of Winter,Horn of Winter\n/cast Empower Rune Weapon\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [5]
+					}, -- [9]
+					{
+						"Frost - Modifier for Frost Strike", -- [1]
+						"Frost", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Frost Strike;reset=10 Howling Blast,Plague Strike,Obliterate\n/castsequence reset=60 Horn of Winter,Pillar of Frost,Blood Tap,Outbreak,Horn of Winter,Horn of Winter\n/cast Empower Rune Weapon\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [10]
 					{
 						"Unholy - Modifier for Death Coil", -- [1]
 						"Unholy", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Death Coil;reset=target Icy Touch,Plague Strike,null\n/castsequence Scourge Strike,Festering Strike\n/castsequence Horn of Winter,Blood Tap,Outbreak,Dark Transformation\n/cast [@player] Unholy Frenzy\n/cast Empower Rune Weapon\n/use 13", -- [4]
-					}, -- [6]
+					}, -- [11]
+					{
+						"Unholy - Modifier for Death Coil", -- [1]
+						"Unholy", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Death Coil;reset=target Icy Touch,Plague Strike,null\n/castsequence Scourge Strike,Festering Strike\n/castsequence Horn of Winter,Blood Tap,Outbreak,Dark Transformation\n/cast [@player] Unholy Frenzy\n/cast Empower Rune Weapon\n/use 13", -- [4]
+					}, -- [12]
 				}, -- [2]
 			}, -- [1]
 			{
@@ -82,6 +125,12 @@ MacroBankDB = {
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [stealth]Pounce;reset=1 Faerie Fire (Feral),null\n/castsequence reset=target Mangle(Cat Form),Savage Roar,Rake,Rip,Mangle(Cat Form),Rake,Mangle(Cat Form)\n/cast [nostealth]Prowl\n/cast Tiger's Fury\n/cast Berserk\n/cast Feral Charge(Cat Form)", -- [4]
 					}, -- [4]
+					{
+						"Maul", -- [1]
+						"Maul", -- [2]
+						"Interface\\Icons\\Ability_Racial_BearForm", -- [3]
+						"#showtooltip\n/cast [stance:1,nomod] Maul; [stance:3,nomod] Claw\n/cast [nostance,nomod] Bear Form;[nostance,mod:shift] Cat Form\n/cancelaura [stance:1,mod:shift] Bear form;[stance:3,mod:shift] Cat Form\n/startattack [nomod]\n/script UIErrorsFrame:Clear()\n", -- [4]
+					}, -- [5]
 				}, -- [2]
 			}, -- [2]
 			{
@@ -94,23 +143,35 @@ MacroBankDB = {
 						"/castsequence [mod]Arcane Shot;reset=target Serpent Sting, Hunter's Mark,null\n/castsequence Cobra Shot\n/castsequence Kill Command,Focus Fire\n/castsequence reset=40 Intimidation,Bestial Wrath,Fervor,Rapid Fire\n/cast Kill Shot\n/use 13\n/use 14", -- [4]
 					}, -- [1]
 					{
+						"HuntersMark", -- [1]
+						"HuntersMark", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/#showtooltip\n/cast [@mouseover,harm,nodead][@target,harm,nodead] Hunter's Mark", -- [4]
+					}, -- [2]
+					{
 						"Marksman - Modifier for Aimed Shot", -- [1]
 						"Marksman", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Aimed Shot;reset=target Serpent Sting,Hunter's Mark,null\n/castsequence Steady Shot\n/castsequence Kill Command,Chimera Shot,Arcane Shot\n/castsequence reset=120 Rapid Fire,Readiness,Rapid Fire\n/cast Kill Shot\n/use 13\n/use 14", -- [4]
-					}, -- [2]
+					}, -- [3]
 					{
 						"Oh crap - Modifier for Feign Death", -- [1]
 						"Oh crap", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Feign Death;reset=15 Ice Trap(Frost),null\n/castsequence reset=30 Scatter Shot,Disengage\n/cast Deterrence", -- [4]
-					}, -- [3]
+					}, -- [4]
+					{
+						"PetAttack", -- [1]
+						"PetAttack", -- [2]
+						"Interface\\Icons\\Ability_GhoulFrenzy", -- [3]
+						"/petattack [@mouseover,harm,nodead][@target,harm,nodead]\n/petfollow [@pettarget,exists]", -- [4]
+					}, -- [5]
 					{
 						"Survival - Modifier for Arcane Shot", -- [1]
 						"Survival", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Arcane Shot;reset=target Serpent Sting, Hunter's Mark,null\n/castsequence Cobra Shot\n/castsequence reset=5 Kill Command,Explosive Shot,Explosive Shot\n/castsequence Black Arrow\n/castsequence Rapid Fire\n/cast Kill Shot\n/use 13\n/use 14", -- [4]
-					}, -- [4]
+					}, -- [6]
 				}, -- [2]
 			}, -- [3]
 			{
@@ -123,17 +184,29 @@ MacroBankDB = {
 						"/castsequence [mod]Arcane Missiles;Arcane Blast\n/castsequence reset=120 Mana Gem,Presence of Mind,Arcane Power\n/castsequence reset=180 Mirror Image,Flame Orb,Flame Orb,Flame Orb\n/use 13\n/use 14", -- [4]
 					}, -- [1]
 					{
+						"Conjure Food", -- [1]
+						"Conjure Food", -- [2]
+						"Interface\\Icons\\INV_Misc_Food_10", -- [3]
+						"#showtooltip Conjured Muffin\n/cast [button:2] Conjure food; Conjured Muffin", -- [4]
+					}, -- [2]
+					{
+						"Conjure Water", -- [1]
+						"Conjure Water", -- [2]
+						"Interface\\Icons\\INV_Drink_06", -- [3]
+						"#showtooltip Conjured Water\n/cast [button:2] Conjure Water; Conjured Water", -- [4]
+					}, -- [3]
+					{
 						"Fire - Modifier for Pyro", -- [1]
 						"Fire", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=target Living Bomb,Fireball,Fireball\n/castsequence [mod]Pyroblast;reset=60 Flame Orb,Combustion,Mirror Image\n/use 13\n/use 14", -- [4]
-					}, -- [2]
+					}, -- [4]
 					{
 						"Frost - Modifier for Frostfire Bolt", -- [1]
 						"Frost", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Frostfire Bolt;reset=30 Ice Barrier,null\n/castsequence Frostbolt\n/castsequence reset=120 Mirror Image,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze\n/cast Icy Veins\n/cast Flame Orb\n/use 13\n/use 14", -- [4]
-					}, -- [3]
+					}, -- [5]
 				}, -- [2]
 			}, -- [4]
 			{
@@ -146,23 +219,47 @@ MacroBankDB = {
 						"/castsequence [mod]Avenger's Shield;reset=9 Judgement,Holy Wrath,Hammer of the Righteous,Judgement,Crusader Strike,Crusader Strike\n/cast Consecration\n/cast Holy Shield\n/cast Divine Protection\n/cast Ardent Defender\n/cast Avenging Wrath\n/use 13\n/startattack", -- [4]
 					}, -- [1]
 					{
+						"Protection - Modifier for Av Shield", -- [1]
+						"Protection", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Avenger's Shield;reset=9 Judgement,Holy Wrath,Hammer of the Righteous,Judgement,Crusader Strike,Crusader Strike\n/cast Consecration\n/cast Holy Shield\n/cast Divine Protection\n/cast Ardent Defender\n/cast Avenging Wrath\n/use 13\n/startattack", -- [4]
+					}, -- [2]
+					{
 						"Protection - Part 1 of 2 Buttons Version", -- [1]
 						"Prot Btn1", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Avenger's Shield;reset=5 Hammer of the Righteous,Judgement,Hammer of the Righteous,Holy Wrath,Hammer of the Righteous,Inquisition,Hammer of the Righteous,Judgement,Hammer of the Righteous,Hammer of the Righteous,Shield of the Righteous", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Protection - Part 1 of 2 Buttons Version", -- [1]
+						"Prot Btn1", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Avenger's Shield;reset=5 Hammer of the Righteous,Judgement,Hammer of the Righteous,Holy Wrath,Hammer of the Righteous,Inquisition,Hammer of the Righteous,Judgement,Hammer of the Righteous,Hammer of the Righteous,Shield of the Righteous", -- [4]
+					}, -- [4]
 					{
 						"Protection - Part 2 of 2 Buttons Version", -- [1]
 						"Prot Btn2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/cast Holy Shield\n/cast Divine Protection\n/cast Guardian of Ancient Kings\n/cast Avenging Wrath\n/use 13\n/use 14", -- [4]
-					}, -- [3]
+					}, -- [5]
+					{
+						"Protection - Part 2 of 2 Buttons Version", -- [1]
+						"Prot Btn2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast Holy Shield\n/cast Divine Protection\n/cast Guardian of Ancient Kings\n/cast Avenging Wrath\n/use 13\n/use 14", -- [4]
+					}, -- [6]
 					{
 						"Retribution - Modifier for Templar's", -- [1]
 						"Retribution", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Templar's Verdict;reset=15 Judgement,Holy Wrath,Crusader Strike,Crusader Strike,Judgement,Crusader Strike,Crusader Strike\n/cast Hammer of Wrath\n/cast Zealotry\n/cast Avenging Wrath\n/cast Guardian of Ancient Kings\n/use 13\n/startattack", -- [4]
-					}, -- [4]
+					}, -- [7]
+					{
+						"Retribution - Modifier for Templar's", -- [1]
+						"Retribution", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Templar's Verdict;reset=15 Judgement,Holy Wrath,Crusader Strike,Crusader Strike,Judgement,Crusader Strike,Crusader Strike\n/cast Hammer of Wrath\n/cast Zealotry\n/cast Avenging Wrath\n/cast Guardian of Ancient Kings\n/use 13\n/startattack", -- [4]
+					}, -- [8]
 				}, -- [2]
 			}, -- [5]
 			{
@@ -204,11 +301,23 @@ MacroBankDB = {
 						"/click ExpellerRunButton", -- [4]
 					}, -- [1]
 					{
+						"Expeller - For Expeller Addon", -- [1]
+						"Expeller", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/click ExpellerRunButton", -- [4]
+					}, -- [2]
+					{
 						"Prospecting - Prospect any ore", -- [1]
 						"Prospecting", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Prospecting - Prospect any ore", -- [1]
+						"Prospecting", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
+					}, -- [4]
 				}, -- [2]
 			}, -- [7]
 			{
@@ -221,47 +330,95 @@ MacroBankDB = {
 						"/castsequence [stance:1]Garrote;[mod]Redirect;reset=target Mutilate,Mutilate,Rupture,Mutilate,Slice and Dice,Mutilate,Mutilate,Envenom\n/castsequence reset=120 Vendetta,Cold Blood,Vanish\n/cast Smoke Bomb\n/use 13\n/use 14\n/cast [nostance:1] Stealth", -- [4]
 					}, -- [1]
 					{
+						"Assassination - Assassin Rogue", -- [1]
+						"Assassination", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [stance:1]Garrote;[mod]Redirect;reset=target Mutilate,Mutilate,Rupture,Mutilate,Slice and Dice,Mutilate,Mutilate,Envenom\n/castsequence reset=120 Vendetta,Cold Blood,Vanish\n/cast Smoke Bomb\n/use 13\n/use 14\n/cast [nostance:1] Stealth", -- [4]
+					}, -- [2]
+					{
 						"Combat - Modifier for AoE", -- [1]
 						"Combat", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Fan of Knives;reset=target Sinister Strike,Slice and Dice,Sinister Strike,Sinister Strike,Sinister Strike,Revealing Strike,Rupture\n/castsequence reset=30 Killing Spree,Adrenaline Rush\n/cast Smoke Bomb\n/startattack", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Combat - Modifier for AoE", -- [1]
+						"Combat", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Fan of Knives;reset=target Sinister Strike,Slice and Dice,Sinister Strike,Sinister Strike,Sinister Strike,Revealing Strike,Rupture\n/castsequence reset=30 Killing Spree,Adrenaline Rush\n/cast Smoke Bomb\n/startattack", -- [4]
+					}, -- [4]
 					{
 						"Combat - Multiple Modifiers", -- [1]
 						"Combat Modifiers", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/startattack\n/castsequence [mod:shift]Slice and Dice;[mod:alt]reset=5 Revealing Strike,Rupture;[mod:ctrl]reset=5 Revealing Strike,Eviscerate;Sinister Strike\n/castsequence reset=30 Killing Spree,Adrenaline Rush\n/use 13\n/use 14", -- [4]
-					}, -- [3]
+					}, -- [5]
+					{
+						"Combat - Multiple Modifiers", -- [1]
+						"Combat Modifiers", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/startattack\n/castsequence [mod:shift]Slice and Dice;[mod:alt]reset=5 Revealing Strike,Rupture;[mod:ctrl]reset=5 Revealing Strike,Eviscerate;Sinister Strike\n/castsequence reset=30 Killing Spree,Adrenaline Rush\n/use 13\n/use 14", -- [4]
+					}, -- [6]
 					{
 						"Poisons - Edit poison names if you want", -- [1]
 						"Poisons", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/castsequence Instant Poison,Deadly Poison,Deadly Poison\n/castsequence 16,17,18\n/click StaticPopup1Button1", -- [4]
-					}, -- [4]
+					}, -- [7]
+					{
+						"Poisons - Edit poison names if you want", -- [1]
+						"Poisons", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/castsequence Instant Poison,Deadly Poison,Deadly Poison\n/castsequence 16,17,18\n/click StaticPopup1Button1", -- [4]
+					}, -- [8]
 					{
 						"Subt - Modifier for Ambush", -- [1]
 						"Subt", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Ambush;reset=target Hemorrhage,Slice and Dice,Hemorrhage,Hemorrhage,Rupture,Hemorrhage,Hemorrhage,Eviscerate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
-					}, -- [5]
+					}, -- [9]
+					{
+						"Subt - Modifier for Ambush", -- [1]
+						"Subt", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Ambush;reset=target Hemorrhage,Slice and Dice,Hemorrhage,Hemorrhage,Rupture,Hemorrhage,Hemorrhage,Eviscerate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
+					}, -- [10]
 					{
 						"Subt 2 - Behind target only", -- [1]
 						"Subt 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [stance:3]Ambush;[mod]Redirect;reset=target Hemorrhage,Backstab,Slice and Dice,Backstab,Backstab,Rupture,Backstab,Eviscerate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
-					}, -- [6]
+					}, -- [11]
+					{
+						"Subt 2 - Behind target only", -- [1]
+						"Subt 2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [stance:3]Ambush;[mod]Redirect;reset=target Hemorrhage,Backstab,Slice and Dice,Backstab,Backstab,Rupture,Backstab,Eviscerate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
+					}, -- [12]
 					{
 						"Subt 2 Heal - Behind target only", -- [1]
 						"Subt 2 Heal", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [stance:3]Ambush;[mod]Redirect;reset=target Hemorrhage,Backstab,Slice and Dice,Backstab,Backstab,Rupture,Backstab,Recuperate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
-					}, -- [7]
+					}, -- [13]
+					{
+						"Subt 2 Heal - Behind target only", -- [1]
+						"Subt 2 Heal", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [stance:3]Ambush;[mod]Redirect;reset=target Hemorrhage,Backstab,Slice and Dice,Backstab,Backstab,Rupture,Backstab,Recuperate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
+					}, -- [14]
 					{
 						"Subt Heal - Modifier for Ambush", -- [1]
 						"Subt Heal", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Ambush;reset=target Hemorrhage,Slice and Dice,Hemorrhage,Hemorrhage,Rupture,Hemorrhage,Hemorrhage,Recuperate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
-					}, -- [8]
+					}, -- [15]
+					{
+						"Subt Heal - Modifier for Ambush", -- [1]
+						"Subt Heal", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Ambush;reset=target Hemorrhage,Slice and Dice,Hemorrhage,Hemorrhage,Rupture,Hemorrhage,Hemorrhage,Recuperate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
+					}, -- [16]
 				}, -- [2]
 			}, -- [8]
 			{
@@ -274,31 +431,72 @@ MacroBankDB = {
 						"/castsequence [mod]Chain Lightning;reset=9 Call of the Elements,null\n/castsequence Lightning Bolt\n/castsequence reset=9 Flame Shock,Unleash Elements,Lava Burst,Earth Shock,Lava Burst\n/cast Elemental Mastery\n/use 13\n/use 14", -- [4]
 					}, -- [1]
 					{
+						"Elemental - Modifier for AoE", -- [1]
+						"Elemental", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Chain Lightning;reset=9 Call of the Elements,null\n/castsequence Lightning Bolt\n/castsequence reset=9 Flame Shock,Unleash Elements,Lava Burst,Earth Shock,Lava Burst\n/cast Elemental Mastery\n/use 13\n/use 14", -- [4]
+					}, -- [2]
+					{
 						"Enh Goblin - Only for goblins", -- [1]
 						"Enh Goblin", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Rocket Barrage(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Enh Goblin - Only for goblins", -- [1]
+						"Enh Goblin", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Rocket Barrage(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [4]
 					{
 						"Enh Orc - Only for Orcs", -- [1]
 						"Enh Orc", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Blood Fury(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [3]
+					}, -- [5]
+					{
+						"Enh Orc - Only for Orcs", -- [1]
+						"Enh Orc", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Blood Fury(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [6]
 					{
 						"Enh Troll - Only for Trolls", -- [1]
 						"Enh Troll", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Berserking(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [4]
+					}, -- [7]
+					{
+						"Enh Troll - Only for Trolls", -- [1]
+						"Enh Troll", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Berserking(Racial),Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [8]
 					{
 						"Enhancement - Hold alt to refresh totems", -- [1]
 						"Enhancement", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [5]
+					}, -- [9]
+					{
+						"Enhancement - Hold alt to refresh totems", -- [1]
+						"Enhancement", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [10]
 				}, -- [2]
 			}, -- [9]
+			{
+				"Temp Category", -- [1]
+				{
+					{
+						"Maul", -- [1]
+						"Maul", -- [2]
+						"Interface\\Icons\\Ability_Racial_BearForm", -- [3]
+						"#showtooltip\n/startattack\n/cast [nostance:1]  Bear Form; Maul\n/cancelaura [mod:shift] Bear form\n/script UIErrorsFrame:Clear()\n", -- [4]
+					}, -- [1]
+				}, -- [2]
+			}, -- [10]
 			{
 				"Warlock", -- [1]
 				{
@@ -321,25 +519,37 @@ MacroBankDB = {
 						"/castsequence [mod]Drain Soul;reset=target Curse of the Elements,Bane of Doom,Corruption,null\n/castsequence reset=target Shadow Bolt,Haunt,Unstable Affliction,Shadow Bolt,Shadow Bolt\n/castsequence reset=60 Soulburn,Demon Soul\n/cast Soul Swap\n/use 13", -- [4]
 					}, -- [3]
 					{
+						"Curse", -- [1]
+						"Curse", -- [2]
+						"Interface\\Icons\\Spell_Shadow_CurseOfSargeras", -- [3]
+						"#showtooltip\n/cast [mod:shift] Curse of Weakness;Curse of Agony\n", -- [4]
+					}, -- [4]
+					{
 						"Dark Intent - Buff on pet", -- [1]
 						"Dark Intent", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/cast [@pet] Dark Intent", -- [4]
-					}, -- [4]
+					}, -- [5]
 					{
 						"Demonology - Modifier for Soul Fire", -- [1]
 						"Demonology", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Soul Fire;reset=target Curse of the Elements,Bane of Doom,Immolate,Hand of Gul'dan,Corruption,Incinerate,Incinerate,Incinerate,Incinerate,Incinerate\n/castsequence reset=20 Metamorphosis,Immolation Aura,Demon Soul\n/cast Soulburn\n/use 13", -- [4]
-					}, -- [5]
+					}, -- [6]
 					{
 						"Destruction - Modifier for Conflagrate", -- [1]
 						"Destruction", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Conflagrate;reset=target Curse of the Elements,Bane of Doom,null\n/castsequence reset=target Soul Fire,Immolate,Corruption,Soul Fire,Chaos Bolt,Incinerate\n/castsequence reset=60 Soulburn,Demon Soul\n/cast Shadowburn\n/use 13\n/use 14", -- [4]
-					}, -- [6]
+					}, -- [7]
+					{
+						"PetCast - Sacrifice", -- [1]
+						"Sacrifice", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast Sacrifice\n", -- [4]
+					}, -- [8]
 				}, -- [2]
-			}, -- [10]
+			}, -- [11]
 			{
 				"Warrior", -- [1]
 				{
@@ -350,43 +560,91 @@ MacroBankDB = {
 						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Heroic Strike,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
 					}, -- [1]
 					{
+						"Arms - Single Target", -- [1]
+						"Arms", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Heroic Strike,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
+					}, -- [2]
+					{
 						"Arms 2 - Multi Target", -- [1]
 						"Arms 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Cleave,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
-					}, -- [2]
+					}, -- [3]
+					{
+						"Arms 2 - Multi Target", -- [1]
+						"Arms 2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Cleave,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
+					}, -- [4]
 					{
 						"Fury - Hold alt, ctrl or shift for Shout/Smash", -- [1]
 						"Fury", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Battle Shout,Colossus Smash;Bloodthirst,Heroic Strike,Bloodthirst,Raging Blow\n/cast Execute\n/cast Berserker Rage\n/cast Inner Rage\n/cast Death Wish\n/cast Recklessness\n/cast Intercept\n/use 13\n/use 14\n/startattack", -- [4]
-					}, -- [3]
+					}, -- [5]
+					{
+						"Fury - Hold alt, ctrl or shift for Shout/Smash", -- [1]
+						"Fury", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Battle Shout,Colossus Smash;Bloodthirst,Heroic Strike,Bloodthirst,Raging Blow\n/cast Execute\n/cast Berserker Rage\n/cast Inner Rage\n/cast Death Wish\n/cast Recklessness\n/cast Intercept\n/use 13\n/use 14\n/startattack", -- [4]
+					}, -- [6]
 					{
 						"Oh Crap - Defensive Stance", -- [1]
 						"Oh Crap", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/cast Defensive Stance\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Shield Block\n/cast Spell Reflection\n/cast Victory Rush\n/cast Disarm\n/startattack", -- [4]
-					}, -- [4]
+					}, -- [7]
+					{
+						"Oh Crap - Defensive Stance", -- [1]
+						"Oh Crap", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/cast Defensive Stance\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Shield Block\n/cast Spell Reflection\n/cast Victory Rush\n/cast Disarm\n/startattack", -- [4]
+					}, -- [8]
 					{
 						"Oh Crap 2 - Battle Stance version", -- [1]
 						"Oh Crap 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Spell Reflection\n/cast Victory Rush\n/startattack", -- [4]
-					}, -- [5]
+					}, -- [9]
+					{
+						"Oh Crap 2 - Battle Stance version", -- [1]
+						"Oh Crap 2", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Spell Reflection\n/cast Victory Rush\n/startattack", -- [4]
+					}, -- [10]
 					{
 						"Protection - Hold alt for Rend/Clap", -- [1]
 						"Protection", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
-					}, -- [6]
+					}, -- [11]
+					{
+						"Protection - Hold alt for Rend/Clap", -- [1]
+						"Protection", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
+					}, -- [12]
+					{
+						"Temp Description", -- [1]
+						"Temp Name", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip Charge\n/cast [stance:1,nocombat] Charge\n/cast [nostance:2] Defensive Stance\n/cast [stance:2] Enrage", -- [4]
+					}, -- [13]
 					{
 						"Used on Fury to prevent casting Slam unless is instant", -- [1]
 						"Fury Slam", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/stopcasting\n/cast Slam\n/stopcasting\n/startattack", -- [4]
-					}, -- [7]
+					}, -- [14]
+					{
+						"Used on Fury to prevent casting Slam unless is instant", -- [1]
+						"Fury Slam", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/stopcasting\n/cast Slam\n/stopcasting\n/startattack", -- [4]
+					}, -- [15]
 				}, -- [2]
-			}, -- [11]
+			}, -- [12]
 		},
 	},
 	["profiles"] = {

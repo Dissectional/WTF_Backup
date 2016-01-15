@@ -69,29 +69,5 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["FrameStrata"] = "2-LOW",
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -25.49997999673248,
-					["x"] = 129.9999886477183,
-					["w"] = 400.0000054709792,
-					["h"] = 250.9999452218212,
-				},
-			},
-			["DetailWindowX"] = 0,
-			["MainWindowHeight"] = 250.9999452218212,
-			["CurDataSet"] = "OverallData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowWidth"] = 400.0000054709792,
-			["GraphWindowX"] = 0,
-		},
 	},
 }

@@ -1,20 +1,22 @@
 
 DataStore_PetsDB = {
 	["profileKeys"] = {
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -22,8 +24,11 @@ DataStore_PetsDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["lastUpdate"] = 1451459314,
 			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1452830029,
+			},
 			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1451257585,
+				["lastUpdate"] = 1452579002,
 				["CRITTER"] = {
 					"21055|Golden Dragonhawk Hatchling|36027|Ability_Hunter_Pet_DragonHawk", -- [1]
 					"21064|Red Dragonhawk Hatchling|36028|Ability_Hunter_Pet_DragonHawk", -- [2]
@@ -31,10 +36,23 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1451480050,
+				["lastUpdate"] = 1452830279,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
+					"15358|Lurky|24988|INV_Egg_03", -- [4]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
+				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
-				["lastUpdate"] = 1451295516,
+				["lastUpdate"] = 1452578659,
 				["MOUNT"] = {
 					"20222|Black Hawkstrider|35022|Ability_Mount_CockatriceMount_Black", -- [1]
 					"20220|Blue Hawkstrider|35020|Ability_Mount_CockatriceMount_Blue", -- [2]
@@ -44,13 +62,13 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1451481005,
+				["lastUpdate"] = 1452761483,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1451480601,
+				["lastUpdate"] = 1452683551,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1451386721,
+				["lastUpdate"] = 1452579101,
 				["CRITTER"] = {
 					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
 					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
@@ -64,26 +82,52 @@ DataStore_PetsDB = {
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1451459163,
 			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1451480971,
-			},
-			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1451480779,
-			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1451257482,
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1451257659,
-			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302134,
 			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1452834409,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [3]
+					"15358|Lurky|24988|INV_Egg_03", -- [4]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
+				},
+			},
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1452577701,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["lastUpdate"] = 1452578989,
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1452683403,
+			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1451481089,
+				["lastUpdate"] = 1452830124,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
+					"15358|Lurky|24988|INV_Egg_03", -- [4]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
+				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1451303045,
+				["lastUpdate"] = 1452578335,
 				["CRITTER"] = {
 					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [1]
 				},

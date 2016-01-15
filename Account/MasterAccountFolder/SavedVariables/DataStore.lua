@@ -1,20 +1,22 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -22,11 +24,15 @@ DataStoreDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["faction"] = "Horde",
 			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Slash Gee Quit",
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["guildName"] = "Bloody Oath",
 				["faction"] = "Horde",
 			},
 			["Default.TrueWoW.Magistratus"] = {
@@ -35,9 +41,11 @@ DataStoreDB = {
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
 				["faction"] = "Horde",
+				["guildName"] = "Bloody Oath",
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["faction"] = "Horde",
+				["guildName"] = "Bloody Oath",
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["guildName"] = "Slash Gee Quit",
@@ -46,7 +54,7 @@ DataStoreDB = {
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["faction"] = "Horde",
 			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
+			["Default.TrueWoW.Lichmydk"] = {
 				["faction"] = "Horde",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
@@ -61,7 +69,8 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Slash Gee Quit",
 			},
-			["Default.TrueWoW.Lichmydk"] = {
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["guildName"] = "Bloody Oath",
 				["faction"] = "Horde",
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {

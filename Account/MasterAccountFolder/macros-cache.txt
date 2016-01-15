@@ -1,5 +1,5 @@
 MACRO 6 "FreeShit" INV_Misc_QuestionMark
-/tar Sandras
+/tar Ghost Howl
 END
 MACRO 9 "KissFrogs" INV_Misc_QuestionMark
 /tar Lake Frog

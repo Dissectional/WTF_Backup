@@ -19,10 +19,10 @@ NxCData = {
 		["K3"] = true,
 		["Taunka'le Village"] = true,
 		["Wyrmrest Temple"] = true,
-		["Bouldercrag's Refuge"] = true,
+		["Camp Oneqwah"] = true,
 		["Thunder Bluff"] = true,
 		["Camp Taurajo"] = true,
 		["Moa'ki"] = true,
-		["Camp Oneqwah"] = true,
+		["Bouldercrag's Refuge"] = true,
 	},
 }

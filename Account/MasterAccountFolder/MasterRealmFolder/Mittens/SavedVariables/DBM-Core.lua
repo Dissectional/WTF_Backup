@@ -14,24 +14,24 @@ DBM_SavedOptions = {
 	["BlockVersionUpdatePopup"] = true,
 	["WarningColors"] = {
 		{
-			["r"] = 0.41,
+			["r"] = 0.4117647058823529,
 			["g"] = 0.8,
-			["b"] = 0.94,
+			["b"] = 0.9411764705882353,
 		}, -- [1]
 		{
-			["r"] = 0.95,
-			["g"] = 0.95,
+			["r"] = 0.9490196078431372,
+			["g"] = 0.9490196078431372,
 			["b"] = 0,
 		}, -- [2]
 		{
 			["r"] = 1,
-			["g"] = 0.5,
+			["g"] = 0.5019607843137255,
 			["b"] = 0,
 		}, -- [3]
 		{
 			["r"] = 1,
-			["g"] = 0.1,
-			["b"] = 0.1,
+			["g"] = 0.1019607843137255,
+			["b"] = 0.1019607843137255,
 		}, -- [4]
 	},
 	["RangeFrameY"] = -50,
@@ -58,16 +58,16 @@ DBM_SavedOptions = {
 	},
 	["SpecialWarningX"] = 0,
 	["Enabled"] = true,
+	["RangeFrameSound1"] = "none",
+	["DontSendBossWhispers"] = false,
+	["HealthFrameWidth"] = 200,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["DontSendBossWhispers"] = false,
-	["HealthFrameWidth"] = 200,
-	["RangeFrameLocked"] = false,
 	["WarningIconLeft"] = true,
-	["RangeFrameSound1"] = "none",
+	["RangeFrameLocked"] = false,
 	["HPFrameY"] = 50,
 	["FixCLEUOnCombatStart"] = false,
 	["RangeFrameX"] = 50,
@@ -80,10 +80,29 @@ DBM_SavedOptions = {
 }
 DBT_SavedOptions = {
 	["DBM"] = {
-		["Font"] = "ElvUI Font",
-		["HugeScale"] = 1,
+		["EndColorG"] = 0,
+		["HugeTimerY"] = -120.0000016412938,
+		["HugeBarXOffset"] = 0,
 		["Scale"] = 1,
-		["BarXOffset"] = 0,
+		["TimerY"] = -260.0000123097031,
+		["HugeScale"] = 1,
+		["TimerX"] = -223.0000166180992,
 		["Texture"] = "ElvUI Norm",
+		["IconRight"] = true,
+		["HugeBarYOffset"] = 0,
+		["TimerPoint"] = "TOPRIGHT",
+		["StartColorG"] = 0.6980392156862745,
+		["StartColorR"] = 1,
+		["HugeTimerX"] = 0,
+		["EndColorR"] = 1,
+		["Width"] = 183,
+		["HugeTimerPoint"] = "CENTER",
+		["Font"] = "ElvUI Font",
+		["BarYOffset"] = 0,
+		["FontSize"] = 10,
+		["StartColorB"] = 0,
+		["HugeWidth"] = 200,
+		["BarXOffset"] = 0,
+		["EndColorB"] = 0,
 	},
 }

@@ -25,6 +25,7 @@ PS_Settings = {
 	["PSMinimapPos"] = -16,
 }
 psminibutenabl = true
-psfchatadd = nil
+psfchatadd = {
+}
 psoldvern = 0
 psversionday = 0

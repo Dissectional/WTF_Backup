@@ -2,6 +2,12 @@ MACRO 16777217 "Curse" INV_Misc_QuestionMark
 #showtooltip
 /cast [mod:shift] Curse of Weakness;Curse of Agony
 END
+MACRO 16777219 "hbCrashProt_0" Ability_Creature_Disease_02
+1:N
+END
+MACRO 16777220 "hbCrashProt_1" Ability_Creature_Disease_02
+Ell:p:00000000001D41B0:
+END
 MACRO 16777218 "Sacrifice" INV_Misc_QuestionMark
 #showtooltip
 /cast Sacrifice

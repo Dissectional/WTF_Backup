@@ -153,7 +153,7 @@ RecountPerCharDB = {
 				["OVERALL"] = 1451257210,
 			},
 			["UnitLockout"] = 1451257210,
-			["LastAbility"] = 40736.026,
+			["LastAbility"] = 2307.265,
 		},
 		["Shiftace"] = {
 			["GUID"] = "0x00000000001D437F",
@@ -225,7 +225,7 @@ RecountPerCharDB = {
 				true, -- [6]
 			},
 			["UnitLockout"] = 1450610202,
-			["LastAbility"] = 40736.026,
+			["LastAbility"] = 2307.265,
 		},
 	},
 	["FightNum"] = 0,

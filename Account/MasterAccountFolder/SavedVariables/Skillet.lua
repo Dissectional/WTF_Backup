@@ -55,6 +55,8 @@ SkilletDB = {
 				},
 			},
 			["recipes"] = {
+				["Parimman"] = {
+				},
 				["Shiftace"] = {
 				},
 				["Pastafarian"] = {
@@ -229,8 +231,8 @@ SkilletDB = {
 						[24] = ";ffffff|2575|Red Linen Shirt;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2604|Red Dye;",
 						[30] = ";ffffff|2996|Bolt of Linen Cloth;t1;;2;ffffff|2589|Linen Cloth;",
 						[25] = ";ffffff|6786|Simple Dress;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|6260|Blue Dye;1;ffffff|2324|Bleach;",
-						[22] = ";ffffff|2579|Green Linen Shirt;o1;;3;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2321|Fine Thread;1;ffffff|2605|Green Dye;",
 						[29] = ";ffffff|2997|Bolt of Woolen Cloth;m1;;3;ffffff|2592|Wool Cloth;",
+						[22] = ";ffffff|2579|Green Linen Shirt;o1;;3;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2321|Fine Thread;1;ffffff|2605|Green Dye;",
 					},
 					["Enchanting"] = {
 						nil, -- [1]
@@ -253,32 +255,224 @@ SkilletDB = {
 		},
 		["PrimalWoW (Progressive)"] = {
 			["recipes"] = {
-				["Wafflestomp"] = {
-				},
-				["Contagion"] = {
-				},
-				["Iamsham"] = {
-				},
-				["Nerfed"] = {
-				},
-				["Unbearabull"] = {
-				},
 				["Saptack"] = {
 				},
+				["Magistratus"] = {
+				},
 				["Mittens"] = {
+					["Tailoring"] = {
+						nil, -- [1]
+						";ffffff|4238|Linen Bag;m1;;3;ffffff|2996|Bolt of Linen Cloth;3;ffffff|2320|Coarse Thread;", -- [2]
+						nil, -- [3]
+						";ffffff|7026|Linen Belt;e1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [4]
+						";ffffff|10046|Simple Linen Boots;e1;;2;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2318|Light Leather;1;ffffff|2320|Coarse Thread;", -- [5]
+						";ffffff|2568|Brown Linen Vest;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [6]
+						";ffffff|10045|Simple Linen Pants;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [7]
+						";ffffff|2570|Linen Cloak;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [8]
+						nil, -- [9]
+						";ffffff|4344|Brown Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;", -- [10]
+						";ffffff|2576|White Linen Shirt;t1;;1;ffffff|2996|Bolt of Linen Cloth;1;ffffff|2320|Coarse Thread;1;ffffff|2324|Bleach;", -- [11]
+						[13] = ";ffffff|2997|Bolt of Woolen Cloth;o1;;3;ffffff|2592|Wool Cloth;",
+						[14] = ";ffffff|2996|Bolt of Linen Cloth;t1;;2;ffffff|2589|Linen Cloth;",
+					},
+					["Cooking"] = {
+						nil, -- [1]
+						";ffffff|5525|Boiled Clams;o1;Cooking Fire;1;ffffff|5503|Clam Meat;1;ffffff|159|Refreshing Spring Water;", -- [2]
+						";ffffff|2684|Coyote Steak;o1;Cooking Fire;1;ffffff|2673|Coyote Meat;", -- [3]
+						";ffffff|4592|Longjaw Mud Snapper;o1;Cooking Fire;1;ffffff|6289|Raw Longjaw Mud Snapper;", -- [4]
+						";ffffff|5095|Rainbow Fin Albacore;o1;Cooking Fire;1;ffffff|6361|Raw Rainbow Fin Albacore;", -- [5]
+						";ffffff|6890|Smoked Bear Meat;o1;Cooking Fire;1;ffffff|3173|Bear Meat;", -- [6]
+						";ffffff|5474|Roasted Kodo Meat;o2;Cooking Fire;1;ffffff|5467|Kodo Meat;", -- [7]
+						";ffffff|5473|Scorpid Surprise;o1;Cooking Fire;1;ffffff|5466|Scorpid Stinger;", -- [8]
+						";ffffff|2680|Spiced Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [9]
+						";ffffff|6888|Herb Baked Egg;m1;Cooking Fire;1;ffffff|6889|Small Egg;", -- [10]
+						";ffffff|2681|Roasted Boar Meat;m1;Cooking Fire;1;ffffff|769|Chunk of Boar Meat;", -- [11]
+						";ffffff|6290|Brilliant Smallfish;m1;Cooking Fire;1;ffffff|6291|Raw Brilliant Smallfish;", -- [12]
+						";ffffff|2679|Charred Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [13]
+						";ffffff|30816|Spice Bread;t1;Cooking Fire;1;ffffff|30817|Simple Flour;1;ffffff|2678|Mild Spices;", -- [14]
+					},
+					["First Aid"] = {
+						nil, -- [1]
+						";ffffff|3530|Wool Bandage;m1;;1;ffffff|2592|Wool Cloth;", -- [2]
+						";ffffff|2581|Heavy Linen Bandage;e1;;2;ffffff|2589|Linen Cloth;", -- [3]
+						";ffffff|1251|Linen Bandage;t1;;1;ffffff|2589|Linen Cloth;", -- [4]
+						nil, -- [5]
+						";ffffff|6452|Anti-Venom;m3;;1;ffffff|1475|Small Venom Sac;", -- [6]
+					},
 					["Enchanting"] = {
 						nil, -- [1]
 						";|-7428|Enchant Bracer - Minor Deflection;o1;Runed Copper Rod;1;1eff00|10938|Lesser Magic Essence;1;ffffff|10940|Strange Dust;", -- [2]
 						";|-7418|Enchant Bracer - Minor Health;o1;Runed Copper Rod;1;ffffff|10940|Strange Dust;", -- [3]
-						[5] = ";ffffff|6218|Runed Copper Rod;o1;;1;ffffff|6217|Copper Rod;1;ffffff|10940|Strange Dust;1;1eff00|10938|Lesser Magic Essence;",
+						[5] = ";ffffff|6218|Runed Copper Rod;t1;;1;ffffff|6217|Copper Rod;1;ffffff|10940|Strange Dust;1;1eff00|10938|Lesser Magic Essence;",
 					},
 				},
 				["Wajawamedo"] = {
+					["Cooking"] = {
+						nil, -- [1]
+						";ffffff|5525|Boiled Clams;o1;Cooking Fire;1;ffffff|5503|Clam Meat;1;ffffff|159|Refreshing Spring Water;", -- [2]
+						";ffffff|2684|Coyote Steak;o1;Cooking Fire;1;ffffff|2673|Coyote Meat;", -- [3]
+						";ffffff|6890|Smoked Bear Meat;o1;Cooking Fire;1;ffffff|3173|Bear Meat;", -- [4]
+						";ffffff|5474|Roasted Kodo Meat;o2;Cooking Fire;1;ffffff|5467|Kodo Meat;", -- [5]
+						";ffffff|2680|Spiced Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [6]
+						";ffffff|6888|Herb Baked Egg;m1;Cooking Fire;1;ffffff|6889|Small Egg;", -- [7]
+						";ffffff|2681|Roasted Boar Meat;m1;Cooking Fire;1;ffffff|769|Chunk of Boar Meat;", -- [8]
+						";ffffff|6290|Brilliant Smallfish;m1;Cooking Fire;1;ffffff|6291|Raw Brilliant Smallfish;", -- [9]
+						";ffffff|2679|Charred Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [10]
+						";ffffff|30816|Spice Bread;t1;Cooking Fire;1;ffffff|30817|Simple Flour;1;ffffff|2678|Mild Spices;", -- [11]
+					},
+					["Mining"] = {
+						nil, -- [1]
+						"Smelt Copper;ffffff|2840|Copper Bar;e1;Forge;1;ffffff|2770|Copper Ore;", -- [2]
+					},
+					["First Aid"] = {
+						nil, -- [1]
+						";ffffff|2581|Heavy Linen Bandage;m1;;2;ffffff|2589|Linen Cloth;", -- [2]
+						";ffffff|1251|Linen Bandage;t1;;1;ffffff|2589|Linen Cloth;", -- [3]
+					},
+					["Engineering"] = {
+						nil, -- [1]
+						";1eff00|4362|Rough Boomstick;o1;Anvil, Blacksmith Hammer;1;ffffff|4361|Copper Tube;1;ffffff|4359|Handful of Copper Bolts;1;ffffff|4399|Wooden Stock;", -- [2]
+						nil, -- [3]
+						";ffffff|6219|Arclight Spanner;m1;Anvil, Blacksmith Hammer;6;ffffff|2840|Copper Bar;", -- [4]
+						nil, -- [5]
+						";ffffff|8067|Crafted Light Shot;t200;;1;ffffff|4357|Rough Blasting Powder;1;ffffff|2840|Copper Bar;", -- [6]
+						nil, -- [7]
+						";ffffff|4360|Rough Copper Bomb;e2;Anvil, Blacksmith Hammer;1;ffffff|2840|Copper Bar;1;ffffff|4359|Handful of Copper Bolts;2;ffffff|4357|Rough Blasting Powder;1;ffffff|2589|Linen Cloth;", -- [8]
+						";ffffff|4358|Rough Dynamite;t2;;2;ffffff|4357|Rough Blasting Powder;1;ffffff|2589|Linen Cloth;", -- [9]
+						nil, -- [10]
+						";ffffff|4361|Copper Tube;o1;Anvil, Blacksmith Hammer;2;ffffff|2840|Copper Bar;1;ffffff|2880|Weak Flux;", -- [11]
+						";ffffff|4364|Coarse Blasting Powder;o1;;1;ffffff|2836|Coarse Stone;", -- [12]
+						";ffffff|4359|Handful of Copper Bolts;t1;Anvil, Blacksmith Hammer;1;ffffff|2840|Copper Bar;", -- [13]
+						";ffffff|4357|Rough Blasting Powder;t1;;1;ffffff|2835|Rough Stone;", -- [14]
+						nil, -- [15]
+						";ffffff|4401|Mechanical Squirrel Box;o1;Anvil, Blacksmith Hammer, Arclight Spanner;1;ffffff|4363|Copper Modulator;1;ffffff|4359|Handful of Copper Bolts;1;ffffff|2840|Copper Bar;2;1eff00|774|Malachite;", -- [16]
+					},
+				},
+				["Iamsham"] = {
+				},
+				["Unbearabull"] = {
+					["Cooking"] = {
+						nil, -- [1]
+						";ffffff|21072|Smoked Sagefish;o1;Cooking Fire;1;ffffff|21071|Raw Sagefish;", -- [2]
+						";ffffff|2687|Dry Pork Ribs;o1;Cooking Fire;1;ffffff|2677|Boar Ribs;", -- [3]
+						";ffffff|2683|Crab Cake;o1;Cooking Fire;1;ffffff|2674|Crawler Meat;", -- [4]
+						";ffffff|5525|Boiled Clams;m1;Cooking Fire;1;ffffff|5503|Clam Meat;1;ffffff|159|Refreshing Spring Water;", -- [5]
+						";ffffff|2684|Coyote Steak;m1;Cooking Fire;1;ffffff|2673|Coyote Meat;", -- [6]
+						";ffffff|4592|Longjaw Mud Snapper;m1;Cooking Fire;1;ffffff|6289|Raw Longjaw Mud Snapper;", -- [7]
+						";ffffff|6890|Smoked Bear Meat;m1;Cooking Fire;1;ffffff|3173|Bear Meat;", -- [8]
+						";ffffff|5474|Roasted Kodo Meat;m2;Cooking Fire;1;ffffff|5467|Kodo Meat;", -- [9]
+						";ffffff|5473|Scorpid Surprise;e1;Cooking Fire;1;ffffff|5466|Scorpid Stinger;", -- [10]
+						";ffffff|2680|Spiced Wolf Meat;t1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [11]
+						";ffffff|6888|Herb Baked Egg;t1;Cooking Fire;1;ffffff|6889|Small Egg;", -- [12]
+						";ffffff|2681|Roasted Boar Meat;t1;Cooking Fire;1;ffffff|769|Chunk of Boar Meat;", -- [13]
+						";ffffff|6290|Brilliant Smallfish;t1;Cooking Fire;1;ffffff|6291|Raw Brilliant Smallfish;", -- [14]
+						";ffffff|2679|Charred Wolf Meat;t1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [15]
+						";ffffff|30816|Spice Bread;t1;Cooking Fire;1;ffffff|30817|Simple Flour;1;ffffff|2678|Mild Spices;", -- [16]
+					},
+					["First Aid"] = {
+						nil, -- [1]
+						";ffffff|2581|Heavy Linen Bandage;e1;;2;ffffff|2589|Linen Cloth;", -- [2]
+						";ffffff|1251|Linen Bandage;t1;;1;ffffff|2589|Linen Cloth;", -- [3]
+					},
+					["Alchemy"] = {
+						nil, -- [1]
+						";ffffff|3383|Elixir of Wisdom;m1;;1;ffffff|785|Mageroyal;2;ffffff|2450|Briarthorn;1;ffffff|3371|Empty Vial;", -- [2]
+						";ffffff|5996|Elixir of Water Breathing;m1;;1;ffffff|3820|Stranglekelp;2;ffffff|6370|Blackmouth Oil;1;ffffff|3371|Empty Vial;", -- [3]
+						";ffffff|2457|Elixir of Minor Agility;t1;;1;ffffff|2452|Swiftthistle;1;ffffff|765|Silverleaf;1;ffffff|3371|Empty Vial;", -- [4]
+						";ffffff|2458|Elixir of Minor Fortitude;t1;;2;ffffff|2449|Earthroot;1;ffffff|2447|Peacebloom;1;ffffff|3371|Empty Vial;", -- [5]
+						";ffffff|3382|Weak Troll's Blood Elixir;t1;;1;ffffff|2447|Peacebloom;2;ffffff|2449|Earthroot;1;ffffff|3371|Empty Vial;", -- [6]
+						";ffffff|2454|Elixir of Lion's Strength;t1;;1;ffffff|2449|Earthroot;1;ffffff|765|Silverleaf;1;ffffff|3371|Empty Vial;", -- [7]
+						";ffffff|5997|Elixir of Minor Defense;t1;;2;ffffff|765|Silverleaf;1;ffffff|3371|Empty Vial;", -- [8]
+						[12] = ";ffffff|2459|Swiftness Potion;e1;;1;ffffff|2452|Swiftthistle;1;ffffff|2450|Briarthorn;1;ffffff|3371|Empty Vial;",
+						[13] = ";ffffff|858|Lesser Healing Potion;e1;;1;ffffff|118|Minor Healing Potion;1;ffffff|2450|Briarthorn;",
+						[14] = ";ffffff|4596|Discolored Healing Potion;t1;;1;ffffff|3164|Discolored Worg Heart;1;ffffff|2447|Peacebloom;1;ffffff|3371|Empty Vial;",
+						[15] = ";ffffff|2456|Minor Rejuvenation Potion;t1;;2;ffffff|785|Mageroyal;1;ffffff|2447|Peacebloom;1;ffffff|3371|Empty Vial;",
+						[16] = ";ffffff|2455|Minor Mana Potion;t1;;1;ffffff|785|Mageroyal;1;ffffff|765|Silverleaf;1;ffffff|3371|Empty Vial;",
+						[17] = ";ffffff|118|Minor Healing Potion;t1;;1;ffffff|2447|Peacebloom;1;ffffff|765|Silverleaf;1;ffffff|3371|Empty Vial;",
+						[19] = ";ffffff|6370|Blackmouth Oil;t1;;2;ffffff|6358|Oily Blackmouth;",
+						[10] = ";ffffff|929|Healing Potion;o1;;1;ffffff|2453|Bruiseweed;1;ffffff|2450|Briarthorn;1;ffffff|3372|Leaded Vial;",
+						[11] = ";ffffff|6372|Swim Speed Potion;o1;;1;ffffff|2452|Swiftthistle;1;ffffff|6370|Blackmouth Oil;1;ffffff|3371|Empty Vial;",
+					},
+				},
+				["Wafflestomp"] = {
+					["Cooking"] = {
+						nil, -- [1]
+						";ffffff|5474|Roasted Kodo Meat;o2;Cooking Fire;1;ffffff|5467|Kodo Meat;", -- [2]
+						";ffffff|2680|Spiced Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [3]
+						";ffffff|6888|Herb Baked Egg;m1;Cooking Fire;1;ffffff|6889|Small Egg;", -- [4]
+						";ffffff|2681|Roasted Boar Meat;m1;Cooking Fire;1;ffffff|769|Chunk of Boar Meat;", -- [5]
+						";ffffff|6290|Brilliant Smallfish;m1;Cooking Fire;1;ffffff|6291|Raw Brilliant Smallfish;", -- [6]
+						";ffffff|2679|Charred Wolf Meat;m1;Cooking Fire;1;ffffff|2672|Stringy Wolf Meat;", -- [7]
+						";ffffff|30816|Spice Bread;t1;Cooking Fire;1;ffffff|30817|Simple Flour;1;ffffff|2678|Mild Spices;", -- [8]
+					},
+					["Mining"] = {
+						nil, -- [1]
+						"Smelt Copper;ffffff|2840|Copper Bar;e1;Forge;1;ffffff|2770|Copper Ore;", -- [2]
+					},
+					["First Aid"] = {
+						nil, -- [1]
+						";ffffff|1251|Linen Bandage;o1;;1;ffffff|2589|Linen Cloth;", -- [2]
+					},
+					["Blacksmithing"] = {
+						nil, -- [1]
+						";ffffff|2862|Rough Sharpening Stone;m1;;1;ffffff|2835|Rough Stone;", -- [2]
+						";ffffff|3239|Rough Weightstone;m1;;1;ffffff|2835|Rough Stone;1;ffffff|2589|Linen Cloth;", -- [3]
+						[7] = ";ffffff|10421|Rough Copper Vest;m1;Anvil, Blacksmith Hammer;4;ffffff|2840|Copper Bar;",
+						[5] = ";ffffff|2852|Copper Chain Pants;o1;Anvil, Blacksmith Hammer;4;ffffff|2840|Copper Bar;",
+						[6] = ";ffffff|2853|Copper Bracers;m1;Anvil, Blacksmith Hammer;2;ffffff|2840|Copper Bar;",
+						[9] = ";ffffff|3470|Rough Grinding Stone;o1;;2;ffffff|2835|Rough Stone;",
+					},
+				},
+				["Contagion"] = {
+				},
+				["Nerfed"] = {
 				},
 			},
 			["queues"] = {
+				["Unbearabull"] = {
+					["Cooking"] = {
+					},
+					["Alchemy"] = {
+						{
+							["numcasts"] = 20,
+							["recipe"] = ";ffffff|929|Healing Potion;o1;;1;ffffff|2453|Bruiseweed;1;ffffff|2450|Briarthorn;1;ffffff|3372|Leaded Vial;",
+							["index"] = 10,
+							["profession"] = "Alchemy",
+						}, -- [1]
+					},
+					["First Aid"] = {
+					},
+					["UNKNOWN"] = {
+					},
+				},
+				["Wafflestomp"] = {
+					["Cooking"] = {
+					},
+					["Mining"] = {
+					},
+					["First Aid"] = {
+					},
+					["Blacksmithing"] = {
+					},
+				},
 				["Mittens"] = {
+					["Cooking"] = {
+					},
+					["Tailoring"] = {
+					},
+					["First Aid"] = {
+					},
 					["Enchanting"] = {
+					},
+				},
+				["Wajawamedo"] = {
+					["Cooking"] = {
+					},
+					["Mining"] = {
+					},
+					["First Aid"] = {
+					},
+					["Engineering"] = {
 					},
 				},
 			},
@@ -289,8 +483,9 @@ SkilletDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["show_craft_counts"] = false,
-			["enhanced_recipe_display"] = false,
+			["show_craft_counts"] = true,
+			["display_shopping_list_at_auction"] = true,
+			["enhanced_recipe_display"] = true,
 			["display_shopping_list_at_bank"] = true,
 			["display_required_level"] = true,
 			["show_bank_alt_counts"] = true,

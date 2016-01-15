@@ -1,3 +1,3 @@
 
 BadPet_State = "running"
-BadPet_Frame = "private"
+BadPet_Frame = "party"

@@ -1,7 +1,7 @@
 
 gOutfitter_Settings = {
 	["LayerIndex"] = {
-		["shapeshift"] = 3,
+		["shapeshift"] = 4,
 	},
 	["Options"] = {
 		["HideMinimapButton"] = true,
@@ -13,9 +13,32 @@ gOutfitter_Settings = {
 		{
 			["Name"] = "Normal",
 		}, -- [1]
-		[3] = {
+		{
+			["Items"] = {
+				["MainHandSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_WEAPON",
+					["Code"] = 23415,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff1eff00|Hitem:23415:0:0:0:0:0:0:0:18|h[Survival Knife]|h|r",
+					["JewelCode1"] = 0,
+					["JewelCode3"] = 0,
+					["Name"] = "Survival Knife",
+					["EnchantCode"] = 0,
+					["SubType"] = "Daggers",
+					["Level"] = 15,
+					["UniqueID"] = 0,
+					["Quality"] = 2,
+				},
+			},
+		}, -- [2]
+		{
 			["Name"] = "Druid: Travel Form",
-		},
+		}, -- [3]
+		{
+			["Name"] = "Druid: Travel Form",
+		}, -- [4]
 	},
 	["RecentCompleteOutfits"] = {
 	},
@@ -253,9 +276,9 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
 				["Name"] = "Birthday Suit",
-				["ScriptLockupCount"] = 0,
 			}, -- [1]
 			{
 				["Items"] = {
@@ -520,9 +543,9 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
 				["Name"] = "Normal",
-				["ScriptLockupCount"] = 0,
 			}, -- [2]
 		},
 		["Accessory"] = {
@@ -563,11 +586,7 @@ gOutfitter_Settings = {
 				},
 			}, -- [3]
 			{
-				["ScriptSettings"] = {
-					["DisableInstance"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptID"] = "Caster",
 				["didEquip"] = true,
 				["didUnequip"] = false,
 				["Items"] = {
@@ -575,7 +594,11 @@ gOutfitter_Settings = {
 				["CategoryID"] = "Accessory",
 				["Name"] = "Druid: Caster Form",
 				["ScriptLockupCount"] = 0,
-				["ScriptID"] = "Caster",
+				["ScriptSettings"] = {
+					["DisableInstance"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 			}, -- [4]
 			{
 				["Items"] = {
@@ -627,11 +650,7 @@ gOutfitter_Settings = {
 				},
 			}, -- [8]
 			{
-				["ScriptSettings"] = {
-					["UnequipComplete"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptLockupCount"] = 0,
 				["didEquip"] = true,
 				["didUnequip"] = false,
 				["Items"] = {
@@ -639,7 +658,11 @@ gOutfitter_Settings = {
 				["Name"] = "Druid: Travel Form",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Travel",
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["UnequipComplete"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 			}, -- [9]
 			{
 				["Items"] = {
@@ -657,13 +680,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Accessory",
+				["ScriptID"] = "Riding",
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
-				["CategoryID"] = "Accessory",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -671,8 +694,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["ScriptID"] = "Riding",
 				["Name"] = "Riding",
+				["ScriptLockupCount"] = 0,
 			}, -- [11]
 			{
 				["Items"] = {

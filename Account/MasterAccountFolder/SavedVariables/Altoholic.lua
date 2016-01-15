@@ -1,34 +1,42 @@
 
 AltoholicDB = {
 	["profileKeys"] = {
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "I16AXLX13JDF31EBWIOX",
+			["Lola"] = "D59SAAU20TAY15CRCDPA",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
+			["TabSummaryMode"] = 1,
 		},
 		["Characters"] = {
 			["Default.TrueWoW.Cryogenics"] = {
 				["Friends"] = {
-					"Leefa", -- [1]
-					"Kagoma", -- [2]
+					"Kagoma", -- [1]
+					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["Calendar"] = {
+					"2016-01-09|02:30|Raid|1|8", -- [1]
 				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
@@ -52,13 +60,21 @@ AltoholicDB = {
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Friends"] = {
-					"Magistratus", -- [1]
-					"Pastafarian", -- [2]
+					"Kagoma", -- [1]
+					"Leefa", -- [2]
+					"Lowlypoop", -- [3]
 				},
 			},
 			["Default.TrueWoW.Shiftace"] = {
 				["Friends"] = {
-					"Lowlypoop", -- [1]
+					"Kagoma", -- [1]
+					"Leefa", -- [2]
+					"Lowlypoop", -- [3]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["Calendar"] = {
+					"2016-01-09|02:30|Raid|1|8", -- [1]
 				},
 			},
 			["Default.TrueWoW.Lichmydk"] = {

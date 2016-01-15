@@ -20,9 +20,9 @@ sConfig = {
 		["showPetFrame"] = true,
 		["tooltip"] = true,
 		["verbose"] = true,
-		["playerProgress"] = true,
+		["playerProgress"] = false,
 		["petProgress"] = true,
-		["playerBGs"] = true,
+		["playerBGs"] = false,
 		["header"] = true,
 		["petKills"] = true,
 		["orientation"] = "v",
@@ -41,7 +41,6 @@ sConfig = {
 	["ldb"] = {
 		["showLabel"] = false,
 		["showIcon"] = true,
-		["allowTextColor"] = true,
 		["tooltip"] = {
 			["showPetInfo"] = true,
 			["showExperience"] = true,
@@ -58,18 +57,19 @@ sConfig = {
 			["petxp"] = true,
 			["xpnum"] = true,
 			["rested"] = true,
-			["xp"] = true,
 			["verbose"] = true,
+			["pet"] = true,
 			["dungeons"] = true,
 			["colorValues"] = true,
 			["xpCountdown"] = false,
 			["xpAsBars"] = false,
 			["xpnumFormat"] = true,
 			["timer"] = true,
-			["pet"] = true,
+			["xp"] = true,
 			["quests"] = true,
 			["bgs"] = true,
 		},
+		["allowTextColor"] = true,
 		["textPattern"] = "default",
 		["showText"] = true,
 	},
@@ -95,10 +95,10 @@ sConfig = {
 				0.73, -- [2]
 				1, -- [3]
 			},
-			["playerLevel"] = {
-				0.35, -- [1]
-				1, -- [2]
-				0.35, -- [3]
+			["playerBattleground"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
 			},
 			["playerKill"] = {
 				0.72, -- [1]
@@ -110,10 +110,10 @@ sConfig = {
 				0.75, -- [2]
 				0.35, -- [3]
 			},
-			["playerBattleground"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
+			["playerLevel"] = {
+				0.35, -- [1]
+				1, -- [2]
+				0.35, -- [3]
 			},
 		},
 	},
@@ -121,208 +121,564 @@ sConfig = {
 sData = {
 	["player"] = {
 		["questList"] = {
-			110, -- [1]
-			340, -- [2]
-			45, -- [3]
-			450, -- [4]
-			550, -- [5]
-			450, -- [6]
-			675, -- [7]
-			250, -- [8]
-			250, -- [9]
-			250, -- [10]
-			85, -- [11]
-			40, -- [12]
-			220, -- [13]
+			1900, -- [1]
+			2500, -- [2]
+			90, -- [3]
+			950, -- [4]
+			105, -- [5]
+			130, -- [6]
+			2000, -- [7]
+			1050, -- [8]
+			800, -- [9]
+			800, -- [10]
+			105, -- [11]
+			800, -- [12]
+			90, -- [13]
+			110, -- [14]
+			85, -- [15]
+			230, -- [16]
+			460, -- [17]
+			675, -- [18]
+			460, -- [19]
+			900, -- [20]
+			900, -- [21]
+			90, -- [22]
+			625, -- [23]
+			900, -- [24]
+			875, -- [25]
+			975, -- [26]
+			380, -- [27]
+			875, -- [28]
+			775, -- [29]
+			70, -- [30]
+			70, -- [31]
+			80, -- [32]
+			500, -- [33]
+			700, -- [34]
+			700, -- [35]
+			700, -- [36]
+			500, -- [37]
+			850, -- [38]
+			775, -- [39]
+			700, -- [40]
+			61, -- [41]
+			61, -- [42]
+			500, -- [43]
+			500, -- [44]
+			45, -- [45]
+			250, -- [46]
+			49, -- [47]
+			90, -- [48]
+			49, -- [49]
+			90, -- [50]
+			270, -- [51]
+			90, -- [52]
+			110, -- [53]
+			40, -- [54]
+			45, -- [55]
+			25, -- [56]
+			180, -- [57]
+			20, -- [58]
+			5, -- [59]
+			90, -- [60]
+			1050, -- [61]
+			900, -- [62]
+			900, -- [63]
+			1750, -- [64]
+			1600, -- [65]
+			1750, -- [66]
+			875, -- [67]
+			90, -- [68]
+			85, -- [69]
+			85, -- [70]
+			42, -- [71]
+			70, -- [72]
+			85, -- [73]
+			90, -- [74]
+			210, -- [75]
+			420, -- [76]
+			1250, -- [77]
+			210, -- [78]
+			105, -- [79]
+			85, -- [80]
+			900, -- [81]
+			625, -- [82]
+			65, -- [83]
+			1050, -- [84]
+			850, -- [85]
+			420, -- [86]
+			875, -- [87]
+			80, -- [88]
+			625, -- [89]
+			850, -- [90]
+			80, -- [91]
+			70, -- [92]
+			85, -- [93]
+			420, -- [94]
+			210, -- [95]
+			105, -- [96]
+			85, -- [97]
+			45, -- [98]
+			700, -- [99]
+			850, -- [100]
 		},
-		["killAverage"] = 65.2,
+		["killAverage"] = 39.6,
 		["killList"] = {
 			{
-				["mob"] = "Bristleback Shaman",
-				["xp"] = 65,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 36,
 			}, -- [1]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 68,
+				["mob"] = "Deviate Coiler",
+				["xp"] = 36,
 			}, -- [2]
 			{
-				["mob"] = "Chief Sharptusk Thornmantle",
-				["xp"] = 68,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [3]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 68,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [4]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 68,
+				["mob"] = "Deviate Stalker",
+				["xp"] = 36,
 			}, -- [5]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 65,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 36,
 			}, -- [6]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 65,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [7]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 68,
+				["mob"] = "Devouring Ectoplasm",
+				["xp"] = 48,
 			}, -- [8]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 52,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 36,
 			}, -- [9]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 65,
+				["mob"] = "Devouring Ectoplasm",
+				["xp"] = 42,
 			}, -- [10]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 52,
+				["mob"] = "Deviate Coiler",
+				["xp"] = 36,
 			}, -- [11]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 65,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [12]
 			{
-				["mob"] = "Bristleback Battleboar",
-				["xp"] = 68,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [13]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 65,
+				["mob"] = "Deviate Creeper",
+				["xp"] = 42,
 			}, -- [14]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 52,
+				["mob"] = "Deviate Stinglash",
+				["xp"] = 48,
 			}, -- [15]
 			{
-				["mob"] = "Bristleback Quilboar",
-				["xp"] = 65,
+				["mob"] = "Deviate Slayer",
+				["xp"] = 42,
 			}, -- [16]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 63,
+				["mob"] = "Deviate Slayer",
+				["xp"] = 42,
 			}, -- [17]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 63,
+				["mob"] = "Deviate Slayer",
+				["xp"] = 48,
 			}, -- [18]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 60,
+				["mob"] = "Deviate Stalker",
+				["xp"] = 36,
 			}, -- [19]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 60,
+				["mob"] = "Deviate Slayer",
+				["xp"] = 42,
 			}, -- [20]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 60,
+				["mob"] = "Boahn",
+				["xp"] = 48,
 			}, -- [21]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 63,
+				["mob"] = "Deviate Stinglash",
+				["xp"] = 48,
 			}, -- [22]
 			{
-				["mob"] = "Battleboar",
-				["xp"] = 60,
+				["mob"] = "Deviate Stinglash",
+				["xp"] = 42,
 			}, -- [23]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Deviate Slayer",
+				["xp"] = 42,
 			}, -- [24]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Deviate Stinglash",
+				["xp"] = 48,
 			}, -- [25]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Devouring Ectoplasm",
+				["xp"] = 48,
 			}, -- [26]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Mutanus the Devourer",
+				["xp"] = 40,
 			}, -- [27]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [28]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Deviate Moccasin",
+				["xp"] = 36,
 			}, -- [29]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Deviate Moccasin",
+				["xp"] = 36,
 			}, -- [30]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 60,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [31]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 58,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [32]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 58,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [33]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 58,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [34]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 58,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [35]
 			{
-				["mob"] = "Mountain Cougar",
-				["xp"] = 58,
+				["mob"] = "Nightmare Ectoplasm",
+				["xp"] = 15,
 			}, -- [36]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 53,
+				["mob"] = "Deviate Moccasin",
+				["xp"] = 36,
 			}, -- [37]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 53,
+				["mob"] = "Deviate Viper",
+				["xp"] = 36,
 			}, -- [38]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 53,
+				["mob"] = "Deviate Viper",
+				["xp"] = 36,
 			}, -- [39]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 50,
+				["mob"] = "Deviate Viper",
+				["xp"] = 36,
 			}, -- [40]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 53,
+				["mob"] = "Deviate Ravager",
+				["xp"] = 36,
 			}, -- [41]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 53,
+				["mob"] = "Deviate Ravager",
+				["xp"] = 33,
 			}, -- [42]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 50,
+				["mob"] = "Verdan the Everliving",
+				["xp"] = 40,
 			}, -- [43]
 			{
-				["mob"] = "Plainstrider",
-				["xp"] = 50,
+				["mob"] = "Druid of the Fang",
+				["xp"] = 36,
 			}, -- [44]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 36,
+			}, -- [45]
+			{
+				["mob"] = "Lord Serpentis",
+				["xp"] = 40,
+			}, -- [46]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 36,
+			}, -- [47]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 36,
+			}, -- [48]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 36,
+			}, -- [49]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 36,
+			}, -- [50]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 36,
+			}, -- [51]
+			{
+				["mob"] = "Evolving Ectoplasm",
+				["xp"] = 33,
+			}, -- [52]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 14,
+			}, -- [53]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 14,
+			}, -- [54]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 14,
+			}, -- [55]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 36,
+			}, -- [56]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 36,
+			}, -- [57]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 36,
+			}, -- [58]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 36,
+			}, -- [59]
+			{
+				["mob"] = "Evolving Ectoplasm",
+				["xp"] = 35,
+			}, -- [60]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [61]
+			{
+				["mob"] = "Skum",
+				["xp"] = 41,
+			}, -- [62]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [63]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 39,
+			}, -- [64]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [65]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [66]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [67]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [68]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [69]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [70]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [71]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [72]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [73]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 39,
+			}, -- [74]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 39,
+			}, -- [75]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 39,
+			}, -- [76]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 39,
+			}, -- [77]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 39,
+			}, -- [78]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 39,
+			}, -- [79]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [80]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [81]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [82]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [83]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [84]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [85]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [86]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [87]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [88]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [89]
+			{
+				["mob"] = "Deviate Lasher",
+				["xp"] = 15,
+			}, -- [90]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [91]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [92]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [93]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [94]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [95]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [96]
+			{
+				["mob"] = "Druid of the Fang",
+				["xp"] = 39,
+			}, -- [97]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 39,
+			}, -- [98]
+			{
+				["mob"] = "Deviate Dreadfang",
+				["xp"] = 39,
+			}, -- [99]
+			{
+				["mob"] = "Deviate Venomwing",
+				["xp"] = 39,
+			}, -- [100]
 		},
 		["timer"] = {
-			["start"] = 1451480778,
+			["start"] = 1451893220,
 			["total"] = 0,
-			["xpPerSec"] = 2.6875,
+			["xpPerSec"] = 0.427906976744186,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {
+			{
+				["totalXP"] = 7940,
+				["name"] = "Wailing Caverns",
+				["rested"] = 1792,
+				["killTotal"] = 7940,
+				["level"] = 17,
+				["killCount"] = 259,
+				["inProgress"] = false,
+			}, -- [1]
+			{
+				["inProgress"] = false,
+				["totalXP"] = 697,
+				["killCount"] = 15,
+				["killTotal"] = 697,
+				["level"] = 16,
+				["rested"] = 0,
+				["name"] = "Wailing Caverns",
+			}, -- [2]
+			{
+				["inProgress"] = false,
+				["totalXP"] = 8109,
+				["killCount"] = 157,
+				["killTotal"] = 8109,
+				["level"] = 16,
+				["rested"] = 0,
+				["name"] = "Wailing Caverns",
+			}, -- [3]
+			{
+				["inProgress"] = false,
+				["totalXP"] = 10840,
+				["killCount"] = 209,
+				["killTotal"] = 10840,
+				["level"] = 15,
+				["rested"] = 1229,
+				["name"] = "Wailing Caverns",
+			}, -- [4]
+			{
+				["killCount"] = 114,
+				["name"] = "Ragefire Chasm",
+				["inProgress"] = false,
+				["killTotal"] = 3057,
+				["level"] = 11,
+				["rested"] = 0,
+				["totalXP"] = 3057,
+			}, -- [5]
 		},
-		["questAverage"] = 337,
+		["questAverage"] = 1032.5,
 		["bgList"] = {
 		},
 	},

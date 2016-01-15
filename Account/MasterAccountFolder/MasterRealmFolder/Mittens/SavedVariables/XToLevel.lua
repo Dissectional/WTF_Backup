@@ -43,6 +43,14 @@ sConfig = {
 		["showIcon"] = true,
 		["showText"] = true,
 		["textPattern"] = "default",
+		["tooltip"] = {
+			["showPetInfo"] = true,
+			["showExperience"] = true,
+			["showTimerInfo"] = true,
+			["showDetails"] = true,
+			["showBGInfo"] = true,
+			["showDungeonInfo"] = true,
+		},
 		["allowTextColor"] = true,
 		["text"] = {
 			["bgo"] = false,
@@ -52,25 +60,17 @@ sConfig = {
 			["petxp"] = true,
 			["bgs"] = true,
 			["quests"] = true,
-			["pet"] = true,
 			["xp"] = true,
+			["verbose"] = true,
 			["dungeons"] = true,
 			["colorValues"] = true,
 			["xpnumFormat"] = true,
 			["xpAsBars"] = false,
 			["xpCountdown"] = false,
 			["timer"] = true,
-			["verbose"] = true,
+			["pet"] = true,
 			["rested"] = true,
 			["xpnum"] = true,
-		},
-		["tooltip"] = {
-			["showPetInfo"] = true,
-			["showExperience"] = true,
-			["showTimerInfo"] = true,
-			["showDetails"] = true,
-			["showBGInfo"] = true,
-			["showDungeonInfo"] = true,
 		},
 	},
 	["messages"] = {
@@ -121,442 +121,537 @@ sConfig = {
 sData = {
 	["player"] = {
 		["questList"] = {
-			160, -- [1]
-			550, -- [2]
-			625, -- [3]
-			700, -- [4]
-			410, -- [5]
-			55, -- [6]
-			110, -- [7]
-			110, -- [8]
-			230, -- [9]
-			340, -- [10]
-			45, -- [11]
-			45, -- [12]
-			65, -- [13]
-			45, -- [14]
-			675, -- [15]
-			360, -- [16]
-			450, -- [17]
-			450, -- [18]
-			320, -- [19]
-			320, -- [20]
-			170, -- [21]
-			220, -- [22]
-			40, -- [23]
+			130, -- [1]
+			250, -- [2]
+			130, -- [3]
+			975, -- [4]
+			350, -- [5]
+			3050, -- [6]
+			115, -- [7]
+			675, -- [8]
+			100, -- [9]
+			230, -- [10]
+			90, -- [11]
+			90, -- [12]
+			90, -- [13]
+			90, -- [14]
+			500, -- [15]
+			80, -- [16]
+			70, -- [17]
+			900, -- [18]
+			70, -- [19]
+			105, -- [20]
+			90, -- [21]
+			460, -- [22]
+			460, -- [23]
+			90, -- [24]
+			90, -- [25]
+			80, -- [26]
+			900, -- [27]
+			1250, -- [28]
+			675, -- [29]
+			340, -- [30]
+			875, -- [31]
+			625, -- [32]
+			850, -- [33]
+			900, -- [34]
+			625, -- [35]
+			55, -- [36]
+			420, -- [37]
+			320, -- [38]
+			320, -- [39]
+			55, -- [40]
+			250, -- [41]
+			45, -- [42]
+			55, -- [43]
+			420, -- [44]
+			63, -- [45]
+			190, -- [46]
+			420, -- [47]
+			250, -- [48]
+			110, -- [49]
+			140, -- [50]
+			63, -- [51]
+			44, -- [52]
+			10, -- [53]
+			10, -- [54]
+			35, -- [55]
+			45, -- [56]
+			55, -- [57]
+			65, -- [58]
+			45, -- [59]
+			25, -- [60]
+			25, -- [61]
+			20, -- [62]
+			25, -- [63]
+			10, -- [64]
+			33, -- [65]
+			105, -- [66]
+			90, -- [67]
+			85, -- [68]
+			675, -- [69]
+			460, -- [70]
+			900, -- [71]
+			90, -- [72]
+			625, -- [73]
+			900, -- [74]
+			875, -- [75]
+			975, -- [76]
+			80, -- [77]
+			380, -- [78]
+			875, -- [79]
+			66, -- [80]
+			775, -- [81]
+			66, -- [82]
+			66, -- [83]
+			380, -- [84]
+			550, -- [85]
+			550, -- [86]
+			550, -- [87]
+			380, -- [88]
+			850, -- [89]
+			775, -- [90]
+			550, -- [91]
+			58, -- [92]
+			61, -- [93]
+			500, -- [94]
+			500, -- [95]
+			49, -- [96]
+			45, -- [97]
+			250, -- [98]
+			90, -- [99]
+			49, -- [100]
 		},
-		["killAverage"] = 72.8,
+		["killAverage"] = 87.2,
 		["killList"] = {
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 75,
+				["mob"] = "Archmage Arugal",
+				["xp"] = 103,
 			}, -- [1]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 75,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [2]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 75,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [3]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 75,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [4]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 79,
+				["mob"] = "Lupine Horror",
+				["xp"] = 93,
 			}, -- [5]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 60,
+				["mob"] = "Slavering Worg",
+				["xp"] = 93,
 			}, -- [6]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 75,
+				["mob"] = "Bleak Worg",
+				["xp"] = 74,
 			}, -- [7]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 75,
+				["mob"] = "Wolf Master Nandos",
+				["xp"] = 103,
 			}, -- [8]
 			{
-				["mob"] = "Lost Soul",
-				["xp"] = 79,
+				["mob"] = "Wolfguard Worg",
+				["xp"] = 34,
 			}, -- [9]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 60,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [10]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 75,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [11]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 60,
+				["mob"] = "Arugal's Voidwalker",
+				["xp"] = 34,
 			}, -- [12]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 60,
+				["mob"] = "Arugal's Voidwalker",
+				["xp"] = 34,
 			}, -- [13]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 79,
+				["mob"] = "Arugal's Voidwalker",
+				["xp"] = 34,
 			}, -- [14]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 79,
+				["mob"] = "Arugal's Voidwalker",
+				["xp"] = 34,
 			}, -- [15]
 			{
-				["mob"] = "Ravaged Corpse",
-				["xp"] = 75,
+				["mob"] = "Fenrus the Devourer",
+				["xp"] = 103,
 			}, -- [16]
 			{
-				["mob"] = "Rotting Dead",
-				["xp"] = 61,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [17]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 75,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [18]
 			{
-				["mob"] = "Cursed Darkhound",
-				["xp"] = 83,
+				["mob"] = "Lupine Horror",
+				["xp"] = 93,
 			}, -- [19]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 75,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [20]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 75,
+				["mob"] = "Lupine Horror",
+				["xp"] = 103,
 			}, -- [21]
 			{
-				["mob"] = "Bayne",
-				["xp"] = 90,
+				["mob"] = "Lupine Horror",
+				["xp"] = 93,
 			}, -- [22]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 60,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [23]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 75,
+				["mob"] = "Lupine Horror",
+				["xp"] = 103,
 			}, -- [24]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 60,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [25]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 60,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [26]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 75,
+				["mob"] = "Lupine Horror",
+				["xp"] = 93,
 			}, -- [27]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 75,
+				["mob"] = "Lupine Horror",
+				["xp"] = 93,
 			}, -- [28]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 75,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [29]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 75,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [30]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 75,
+				["mob"] = "Son of Arugal",
+				["xp"] = 93,
 			}, -- [31]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 79,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [32]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 79,
+				["mob"] = "Shadowfang Ragetooth",
+				["xp"] = 93,
 			}, -- [33]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 79,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [34]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 79,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [35]
 			{
-				["mob"] = "Scarlet Warrior",
-				["xp"] = 79,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [36]
 			{
-				["mob"] = "Tirisfal Farmhand",
-				["xp"] = 60,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [37]
 			{
-				["mob"] = "Farmer Solliden",
-				["xp"] = 83,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [38]
 			{
-				["mob"] = "Tirisfal Farmer",
-				["xp"] = 75,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [39]
 			{
-				["mob"] = "Tirisfal Farmhand",
-				["xp"] = 60,
+				["mob"] = "Tormented Officer",
+				["xp"] = 93,
 			}, -- [40]
 			{
-				["mob"] = "Tirisfal Farmer",
-				["xp"] = 75,
+				["mob"] = "Deathsworn Captain",
+				["xp"] = 103,
 			}, -- [41]
 			{
-				["mob"] = "Greater Duskbat",
-				["xp"] = 77,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [42]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 70,
+				["mob"] = "Blood Seeker",
+				["xp"] = 93,
 			}, -- [43]
 			{
-				["mob"] = "Decrepit Darkhound",
-				["xp"] = 70,
+				["mob"] = "Vile Bat",
+				["xp"] = 93,
 			}, -- [44]
 			{
-				["mob"] = "Greater Duskbat",
-				["xp"] = 74,
+				["mob"] = "Odo the Blindwatcher",
+				["xp"] = 103,
 			}, -- [45]
 			{
-				["mob"] = "Greater Duskbat",
-				["xp"] = 74,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [46]
 			{
-				["mob"] = "Greater Duskbat",
-				["xp"] = 74,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [47]
 			{
-				["mob"] = "Meven Korgal",
-				["xp"] = 70,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [48]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [49]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [50]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 56,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [51]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [52]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 56,
+				["mob"] = "Commander Springvale",
+				["xp"] = 93,
 			}, -- [53]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [54]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 56,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [55]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [56]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 42,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [57]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 53,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [58]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 65,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [59]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 52,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 74,
 			}, -- [60]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 65,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 74,
 			}, -- [61]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [62]
 			{
-				["mob"] = "Scarlet Initiate",
-				["xp"] = 52,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 74,
 			}, -- [63]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [64]
 			{
-				["mob"] = "Scarlet Convert",
-				["xp"] = 52,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [65]
 			{
-				["mob"] = "Samuel Fipps",
-				["xp"] = 68,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [66]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [67]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Wailing Guardsman",
+				["xp"] = 83,
 			}, -- [68]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [69]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [70]
 			{
-				["mob"] = "Night Web Spider",
-				["xp"] = 65,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [71]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 39,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [72]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 52,
+				["mob"] = "Shadowfang Darksoul",
+				["xp"] = 83,
 			}, -- [73]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [74]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Shadowfang Darksoul",
+				["xp"] = 83,
 			}, -- [75]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [76]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 60,
+				["mob"] = "Shadowfang Darksoul",
+				["xp"] = 83,
 			}, -- [77]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Shadowfang Darksoul",
+				["xp"] = 83,
 			}, -- [78]
 			{
-				["mob"] = "Young Night Web Spider",
-				["xp"] = 48,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [79]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 48,
+				["mob"] = "Shadowfang Darksoul",
+				["xp"] = 83,
 			}, -- [80]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 48,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [81]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Baron Silverlaine",
+				["xp"] = 93,
 			}, -- [82]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [83]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [84]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [85]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [86]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [87]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 74,
 			}, -- [88]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 36,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [89]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 48,
+				["mob"] = "Shadowfang Glutton",
+				["xp"] = 83,
 			}, -- [90]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 60,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [91]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 55,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [92]
 			{
-				["mob"] = "Rattlecage Skeleton",
-				["xp"] = 58,
+				["mob"] = "Shadowfang Glutton",
+				["xp"] = 83,
 			}, -- [93]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 44,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [94]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 44,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [95]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 44,
+				["mob"] = "Shadowfang Glutton",
+				["xp"] = 83,
 			}, -- [96]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 55,
+				["mob"] = "Shadowfang Glutton",
+				["xp"] = 83,
 			}, -- [97]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 44,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [98]
 			{
-				["mob"] = "Young Scavenger",
-				["xp"] = 44,
+				["mob"] = "Haunted Servitor",
+				["xp"] = 83,
 			}, -- [99]
 			{
-				["mob"] = "Duskbat",
-				["xp"] = 55,
+				["mob"] = "Haunting Spirit",
+				["xp"] = 34,
 			}, -- [100]
 		},
 		["timer"] = {
-			["start"] = 1451481152,
+			["start"] = 1451900640,
 			["total"] = 0,
-			["xpPerSec"] = 2.360319270239453,
+			["xpPerSec"] = 5.743019403691434,
 			["xpPerSecond"] = 0,
 		},
 		["dungeonList"] = {
+			{
+				["inProgress"] = false,
+				["totalXP"] = 11656,
+				["killCount"] = 168,
+				["killTotal"] = 11656,
+				["level"] = 16,
+				["rested"] = 0,
+				["name"] = "Shadowfang Keep",
+			}, -- [1]
+			{
+				["inProgress"] = false,
+				["totalXP"] = 3267,
+				["killCount"] = 132,
+				["killTotal"] = 3267,
+				["level"] = 11,
+				["rested"] = 39,
+				["name"] = "Ragefire Chasm",
+			}, -- [2]
 		},
-		["questAverage"] = 329,
+		["questAverage"] = 600.5,
 		["bgList"] = {
 		},
 	},

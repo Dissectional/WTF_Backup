@@ -1,16 +1,22 @@
 
 TalentedDB = {
 	["profileKeys"] = {
-		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
-		["Pastafarian - TrueWoW"] = {
+		["Shiftace - TrueWoW"] = {
+		},
+		["Lichmydk - TrueWoW"] = {
+		},
+		["Duglazerp - TrueWoW"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
 					["y"] = 0,
@@ -19,6 +25,8 @@ TalentedDB = {
 					["anchorTo"] = "CENTER",
 				},
 			},
+		},
+		["Parimman - TrueWoW"] = {
 		},
 		["Ellipsis - TrueWoW"] = {
 			["framepos"] = {
@@ -30,8 +38,6 @@ TalentedDB = {
 				},
 			},
 		},
-		["Shiftace - TrueWoW"] = {
-		},
 		["Cryogenics - TrueWoW"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
@@ -42,9 +48,17 @@ TalentedDB = {
 				},
 			},
 		},
-		["Lichmydk - TrueWoW"] = {
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
 		},
-		["Duglazerp - TrueWoW"] = {
+		["Pastafarian - TrueWoW"] = {
 			["framepos"] = {
 				["TalentedFrame"] = {
 					["y"] = 0,

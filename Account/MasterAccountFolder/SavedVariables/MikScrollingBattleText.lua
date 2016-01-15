@@ -3,6 +3,7 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["critFontName"] = "ElvUI Font",
+			["mergeSwingsDisabled"] = true,
 			["scrollAreas"] = {
 				["Outgoing"] = {
 					["stickyDirection"] = "Up",
@@ -14,8 +15,8 @@ MSBTProfiles_SavedVars = {
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
 					["behavior"] = "MSBT_NORMAL",
-					["animationStyle"] = "Straight",
 					["offsetX"] = -290,
+					["animationStyle"] = "Straight",
 				},
 			},
 			["normalFontName"] = "ElvUI Font",

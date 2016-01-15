@@ -1,0 +1,14 @@
+MACRO 16777219 "Lesser Heal" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,noharm,nodead,exists] Lesser Heal; Lesser Heal
+END
+MACRO 16777218 "Renew" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,noharm,nodead,exists] Renew; Renew
+END
+MACRO 16777217 "Shadow" INV_Misc_QuestionMark
+/castsequence [mod]Shadow Word: Death;reset=target Shadow Word: Pain,null
+/castsequence [nochanneling] reset=target Vampiric Touch,Devouring Plague,Mind Blast,Mind Flay,Mind Flay,Mind Flay,Mind Blast,Mind Flay,Mind Flay
+/cast Shadowfiend
+/cast Archangel
+END

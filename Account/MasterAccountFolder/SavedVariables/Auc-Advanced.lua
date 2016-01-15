@@ -18,7 +18,9 @@ AucAdvancedConfig = {
 		["util.automagic.autosellreasonnoprompt"] = false,
 		["util.automagic.ammailguiy"] = 219.9999592412053,
 		["stat.purchased.tooltip"] = true,
+		["util.appraiser.item.4597.stack"] = 1,
 		["configator.left"] = 560.0000426736374,
+		["util.appraiser.item.4597.number"] = -1,
 		["util.automagic.autosellreason"] = true,
 		["util.scanbutton.getall"] = true,
 		["util.appraiser.columnsortcurDir"] = -1,
@@ -27,8 +29,8 @@ AucAdvancedConfig = {
 			"TOPLEFT", -- [1]
 			nil, -- [2]
 			"TOPLEFT", -- [3]
-			0, -- [4]
-			-106.0000023251661, -- [5]
+			1.999998495480732, -- [4]
+			-99.99995759991154, -- [5]
 		},
 		["configator.top"] = 764.9999601302394,
 	},
@@ -48,12 +50,13 @@ AucAdvancedData = {
 		["Current"] = {
 			["resale.adjust.deplength"] = 12,
 			["general.name"] = "bag",
-			["columnsortcurSort"] = 2,
 			["resale.profit.min"] = 100000,
+			["columnsortcurSort"] = 3,
+			["enchantmats.allow.bid"] = false,
 			["resale.allow.bid"] = false,
 			["snatch.itemsList"] = {
 			},
-			["columnsortcurDir"] = 1,
+			["columnsortcurDir"] = -1,
 			["snatch.columnsortcurDir"] = 1,
 			["milling.allow.bid"] = false,
 			["snatch.columnsortcurSort"] = 1,

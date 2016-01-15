@@ -84,18 +84,18 @@ gOutfitter_Settings = {
 				["WaistSlot"] = {
 					["JewelCode4"] = 0,
 					["InvType"] = "INVTYPE_WAIST",
-					["Code"] = 28141,
-					["SubCode"] = 0,
+					["Code"] = 51968,
+					["SubCode"] = -83,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff1eff00|Hitem:28141:0:0:0:0:0:0:0:16|h[Ranger's Sash]|h|r",
+					["Link"] = "|cff0070dd|Hitem:51968:0:0:0:0:0:-83:10:19|h[Enumerated Wrap of the Sun]|h|r",
 					["JewelCode1"] = 0,
-					["UniqueID"] = 0,
-					["Name"] = "Ranger's Sash",
+					["UniqueID"] = 10,
+					["Name"] = "Enumerated Wrap of the Sun",
 					["EnchantCode"] = 0,
 					["SubType"] = "Cloth",
-					["Level"] = 15,
+					["Level"] = 25,
 					["JewelCode3"] = 0,
-					["Quality"] = 2,
+					["Quality"] = 3,
 				},
 				["Finger1Slot"] = {
 					["JewelCode4"] = 0,
@@ -447,13 +447,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Riding",
+				["ScriptLockupCount"] = 0,
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
+				["CategoryID"] = "Accessory",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -461,8 +461,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
+				["ScriptID"] = "Riding",
 				["Name"] = "Riding",
-				["ScriptLockupCount"] = 0,
 			}, -- [4]
 			{
 				["ScriptLockupCount"] = 0,
