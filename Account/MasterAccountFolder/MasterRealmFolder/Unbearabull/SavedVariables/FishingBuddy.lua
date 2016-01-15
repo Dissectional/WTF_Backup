@@ -16,10 +16,10 @@ FishingBuddy_Player = {
 		["DerbyTimer"] = 1,
 		["EasyLures"] = 1,
 		["AutoLoot"] = 1,
-		["STVTimer"] = 1,
+		["EnhanceFishingSounds"] = 1,
 		["STVPoolsOnly"] = 1,
 		["MinimapButtonVisible"] = 0,
-		["EnhanceFishingSounds"] = 1,
+		["STVTimer"] = 1,
 		["ContestSupport"] = 1,
 	},
 	["Outfit"] = {

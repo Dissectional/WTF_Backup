@@ -288,14 +288,23 @@ ZygorGuidesViewerSettings = {
 				"00:12:33> frameNeedsUpdating, so updating.", -- [99]
 				"00:12:35> Got completed quests list", -- [100]
 			},
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+				true, -- [1]
+				["Crossroads"] = true,
+				["The Crossroads"] = true,
+				["Thunder Bluff"] = true,
+				["Camp Taurajo"] = true,
+				["Orgrimmar"] = true,
+			},
 			["RecipesKnown"] = {
 				[37836] = true,
-				[3275] = true,
+				[3320] = true,
 				[12260] = true,
 				[2657] = true,
 				[8604] = true,
 				[2538] = true,
-				[3320] = true,
+				[3275] = true,
 				[2539] = true,
 				[6414] = true,
 				[2540] = true,
@@ -305,15 +314,6 @@ ZygorGuidesViewerSettings = {
 				[2662] = true,
 				[2663] = true,
 			},
-			["taxis"] = {
-				true, -- [1]
-				["Crossroads"] = true,
-				["The Crossroads"] = true,
-				["Thunder Bluff"] = true,
-				["Camp Taurajo"] = true,
-				["Orgrimmar"] = true,
-			},
-			["maint_fetchquestdata"] = true,
 			["starting"] = false,
 		},
 		["Shiftace - TrueWoW"] = {
@@ -566,6 +566,7 @@ ZygorGuidesViewerSettings = {
 					["step"] = 56,
 				}, -- [5]
 			},
+			["maint_fetchquestdata"] = true,
 			["RecipesKnown"] = {
 				[37836] = true,
 				[7934] = true,
@@ -573,17 +574,17 @@ ZygorGuidesViewerSettings = {
 				[3275] = true,
 				[3277] = true,
 				[8607] = true,
-				[8604] = true,
+				[7421] = true,
 				[2539] = true,
 				[2541] = true,
 				[2393] = true,
 				[7753] = true,
 				[8776] = true,
-				[7421] = true,
-				[3915] = true,
+				[8604] = true,
+				[7827] = true,
 				[7428] = true,
 				[6414] = true,
-				[6413] = true,
+				[12044] = true,
 				[2540] = true,
 				[2964] = true,
 				[3276] = true,
@@ -595,10 +596,9 @@ ZygorGuidesViewerSettings = {
 				[7751] = true,
 				[3755] = true,
 				[7418] = true,
-				[12044] = true,
-				[7827] = true,
+				[6413] = true,
+				[3915] = true,
 			},
-			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 				true, -- [1]
 				true, -- [2]
@@ -972,106 +972,106 @@ ZygorGuidesViewerSettings = {
 			["step"] = 183,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
 			["debuglog"] = {
-				"17:17:26> Viewer started. ---------------------------", -- [1]
-				"17:17:27> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"17:17:27> PLAYER_ALIVE (dead?)", -- [3]
-				"17:17:27> CacheQuestLog cached 16 quests", -- [4]
-				"17:17:27> New Quest: Trial of the Sea Lion id 30", -- [5]
-				"17:17:27> New Quest: Finding the Antidote id 813", -- [6]
-				"17:17:27> New Quest: Conscript of the Horde id 840", -- [7]
-				"17:17:27> New Quest: Ak'Zeloth id 809", -- [8]
-				"17:17:27> New Quest: Hidden Enemies id 5728", -- [9]
-				"17:17:27> New Quest: The Power to Destroy... id 14356", -- [10]
-				"17:17:27> New Quest: Arugal's Folly id 422", -- [11]
-				"17:17:27> New Quest: A Recipe For Death id 450", -- [12]
-				"17:17:27> New Quest: The Spirits of Stonetalon id 1061", -- [13]
-				"17:17:27> New Quest: The Barrens Oases id 886", -- [14]
-				"17:17:27> New Quest: Disrupt the Attacks id 871", -- [15]
-				"17:17:27> New Quest: Plainstrider Menace id 844", -- [16]
-				"17:17:27> New Quest: Raptor Thieves id 869", -- [17]
-				"17:17:27> New Quest: Gathering Leather id 768", -- [18]
-				"17:17:27> New Quest: Serpentbloom id 962", -- [19]
-				"17:17:27> New Quest: The Glowing Shard id 6981", -- [20]
-				"17:17:27> Got completed quests list", -- [21]
-				"17:17:27> CacheQuestLog cached 16 quests", -- [22]
-				"17:17:28> CacheQuestLog cached 16 quests", -- [23]
-				"17:17:28> ZONE_CHANGED_NEW_AREA (dead?)", -- [24]
-				"17:17:29> Guides loaded. -----", -- [25]
-				"17:17:29> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [26]
-				"17:17:29> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [27]
-				"17:17:29> FocusStep 183", -- [28]
-				"17:17:29> Translated: accept/turnin Escorting Erland", -- [29]
-				"17:17:29> Translated: 'goal' Escorting Erland", -- [30]
-				"17:17:29> Translated: accept/turnin Escorting Erland", -- [31]
-				"17:17:29> Translated: accept/turnin Prove Your Worth", -- [32]
-				"17:17:29> unpausing", -- [33]
-				"17:17:29> frameNeedsUpdating, so updating.", -- [34]
-				"17:17:31> Got completed quests list", -- [35]
-				"18:05:56> Viewer started. ---------------------------", -- [36]
-				"18:05:57> PLAYER_ENTERING_WORLD (dead?)", -- [37]
-				"18:05:58> Got completed quests list", -- [38]
-				"18:05:58> CacheQuestLog cached 16 quests", -- [39]
-				"18:05:58> New Quest: Trial of the Sea Lion id 30", -- [40]
-				"18:05:58> New Quest: Finding the Antidote id 813", -- [41]
-				"18:05:58> New Quest: Conscript of the Horde id 840", -- [42]
-				"18:05:58> New Quest: Ak'Zeloth id 809", -- [43]
-				"18:05:58> New Quest: Hidden Enemies id 5728", -- [44]
-				"18:05:58> New Quest: The Power to Destroy... id 14356", -- [45]
-				"18:05:58> New Quest: Arugal's Folly id 422", -- [46]
-				"18:05:58> New Quest: A Recipe For Death id 450", -- [47]
-				"18:05:58> New Quest: The Spirits of Stonetalon id 1061", -- [48]
-				"18:05:58> New Quest: The Barrens Oases id 886", -- [49]
-				"18:05:58> New Quest: Disrupt the Attacks id 871", -- [50]
-				"18:05:58> New Quest: Plainstrider Menace id 844", -- [51]
-				"18:05:58> New Quest: Raptor Thieves id 869", -- [52]
-				"18:05:58> New Quest: Gathering Leather id 768", -- [53]
-				"18:05:58> New Quest: Serpentbloom id 962", -- [54]
-				"18:05:58> New Quest: The Glowing Shard id 6981", -- [55]
-				"18:05:58> CacheQuestLog cached 16 quests", -- [56]
-				"18:06:00> Guides loaded. -----", -- [57]
-				"18:06:00> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [58]
-				"18:06:00> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [59]
-				"18:06:00> FocusStep 183", -- [60]
-				"18:06:00> Translated: accept/turnin Escorting Erland", -- [61]
-				"18:06:00> Translated: 'goal' Escorting Erland", -- [62]
-				"18:06:00> Translated: accept/turnin Escorting Erland", -- [63]
-				"18:06:00> Translated: accept/turnin Prove Your Worth", -- [64]
-				"18:06:00> unpausing", -- [65]
-				"18:06:00> frameNeedsUpdating, so updating.", -- [66]
-				"18:06:02> Got completed quests list", -- [67]
-				"18:14:27> Viewer started. ---------------------------", -- [68]
-				"18:14:28> PLAYER_ENTERING_WORLD (dead?)", -- [69]
-				"18:14:28> CacheQuestLog cached 16 quests", -- [70]
-				"18:14:28> New Quest: Trial of the Sea Lion id 30", -- [71]
-				"18:14:28> New Quest: Finding the Antidote id 813", -- [72]
-				"18:14:28> New Quest: Conscript of the Horde id 840", -- [73]
-				"18:14:28> New Quest: Ak'Zeloth id 809", -- [74]
-				"18:14:28> New Quest: Hidden Enemies id 5728", -- [75]
-				"18:14:28> New Quest: The Power to Destroy... id 14356", -- [76]
-				"18:14:28> New Quest: Arugal's Folly id 422", -- [77]
-				"18:14:28> New Quest: A Recipe For Death id 450", -- [78]
-				"18:14:28> New Quest: The Spirits of Stonetalon id 1061", -- [79]
-				"18:14:28> New Quest: The Barrens Oases id 886", -- [80]
-				"18:14:28> New Quest: Disrupt the Attacks id 871", -- [81]
-				"18:14:28> New Quest: Plainstrider Menace id 844", -- [82]
-				"18:14:28> New Quest: Raptor Thieves id 869", -- [83]
-				"18:14:28> New Quest: Gathering Leather id 768", -- [84]
-				"18:14:28> New Quest: Serpentbloom id 962", -- [85]
-				"18:14:28> New Quest: The Glowing Shard id 6981", -- [86]
-				"18:14:29> Got completed quests list", -- [87]
-				"18:14:29> CacheQuestLog cached 16 quests", -- [88]
-				"18:14:29> CacheQuestLog cached 16 quests", -- [89]
-				"18:14:30> Guides loaded. -----", -- [90]
-				"18:14:30> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [91]
-				"18:14:30> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [92]
-				"18:14:30> FocusStep 183", -- [93]
-				"18:14:30> Translated: accept/turnin Escorting Erland", -- [94]
-				"18:14:30> Translated: 'goal' Escorting Erland", -- [95]
-				"18:14:30> Translated: accept/turnin Escorting Erland", -- [96]
-				"18:14:30> Translated: accept/turnin Prove Your Worth", -- [97]
-				"18:14:30> unpausing", -- [98]
-				"18:14:30> frameNeedsUpdating, so updating.", -- [99]
-				"18:14:32> Got completed quests list", -- [100]
+				"19:22:45> Got completed quests list", -- [1]
+				"19:24:53> Viewer started. ---------------------------", -- [2]
+				"19:24:54> PLAYER_ENTERING_WORLD (dead?)", -- [3]
+				"19:24:54> CacheQuestLog cached 16 quests", -- [4]
+				"19:24:54> New Quest: Trial of the Sea Lion id 30", -- [5]
+				"19:24:54> New Quest: Finding the Antidote id 813", -- [6]
+				"19:24:54> New Quest: Conscript of the Horde id 840", -- [7]
+				"19:24:54> New Quest: Ak'Zeloth id 809", -- [8]
+				"19:24:54> New Quest: Hidden Enemies id 5728", -- [9]
+				"19:24:54> New Quest: The Power to Destroy... id 14356", -- [10]
+				"19:24:54> New Quest: Arugal's Folly id 422", -- [11]
+				"19:24:54> New Quest: A Recipe For Death id 450", -- [12]
+				"19:24:54> New Quest: The Spirits of Stonetalon id 1061", -- [13]
+				"19:24:54> New Quest: The Barrens Oases id 886", -- [14]
+				"19:24:54> New Quest: Disrupt the Attacks id 871", -- [15]
+				"19:24:54> New Quest: Plainstrider Menace id 844", -- [16]
+				"19:24:54> New Quest: Raptor Thieves id 869", -- [17]
+				"19:24:54> New Quest: Gathering Leather id 768", -- [18]
+				"19:24:54> New Quest: Serpentbloom id 962", -- [19]
+				"19:24:54> New Quest: The Glowing Shard id 6981", -- [20]
+				"19:24:54> Got completed quests list", -- [21]
+				"19:24:54> CacheQuestLog cached 16 quests", -- [22]
+				"19:24:54> CacheQuestLog cached 16 quests", -- [23]
+				"19:24:56> Guides loaded. -----", -- [24]
+				"19:24:56> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [25]
+				"19:24:56> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [26]
+				"19:24:56> FocusStep 183", -- [27]
+				"19:24:56> Translated: accept/turnin Escorting Erland", -- [28]
+				"19:24:56> Translated: 'goal' Escorting Erland", -- [29]
+				"19:24:56> Translated: accept/turnin Escorting Erland", -- [30]
+				"19:24:56> Translated: accept/turnin Prove Your Worth", -- [31]
+				"19:24:56> unpausing", -- [32]
+				"19:24:56> frameNeedsUpdating, so updating.", -- [33]
+				"19:24:58> Got completed quests list", -- [34]
+				"19:25:56> Viewer started. ---------------------------", -- [35]
+				"19:25:57> PLAYER_ENTERING_WORLD (dead?)", -- [36]
+				"19:25:58> CacheQuestLog cached 16 quests", -- [37]
+				"19:25:58> New Quest: Trial of the Sea Lion id 30", -- [38]
+				"19:25:58> New Quest: Finding the Antidote id 813", -- [39]
+				"19:25:58> New Quest: Conscript of the Horde id 840", -- [40]
+				"19:25:58> New Quest: Ak'Zeloth id 809", -- [41]
+				"19:25:58> New Quest: Hidden Enemies id 5728", -- [42]
+				"19:25:58> New Quest: The Power to Destroy... id 14356", -- [43]
+				"19:25:58> New Quest: Arugal's Folly id 422", -- [44]
+				"19:25:58> New Quest: A Recipe For Death id 450", -- [45]
+				"19:25:58> New Quest: The Spirits of Stonetalon id 1061", -- [46]
+				"19:25:58> New Quest: The Barrens Oases id 886", -- [47]
+				"19:25:58> New Quest: Disrupt the Attacks id 871", -- [48]
+				"19:25:58> New Quest: Plainstrider Menace id 844", -- [49]
+				"19:25:58> New Quest: Raptor Thieves id 869", -- [50]
+				"19:25:58> New Quest: Gathering Leather id 768", -- [51]
+				"19:25:58> New Quest: Serpentbloom id 962", -- [52]
+				"19:25:58> New Quest: The Glowing Shard id 6981", -- [53]
+				"19:25:58> Got completed quests list", -- [54]
+				"19:25:58> CacheQuestLog cached 16 quests", -- [55]
+				"19:25:58> CacheQuestLog cached 16 quests", -- [56]
+				"19:26:00> Guides loaded. -----", -- [57]
+				"19:26:00> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [58]
+				"19:26:00> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [59]
+				"19:26:00> FocusStep 183", -- [60]
+				"19:26:00> Translated: accept/turnin Escorting Erland", -- [61]
+				"19:26:00> Translated: 'goal' Escorting Erland", -- [62]
+				"19:26:00> Translated: accept/turnin Escorting Erland", -- [63]
+				"19:26:00> Translated: accept/turnin Prove Your Worth", -- [64]
+				"19:26:00> unpausing", -- [65]
+				"19:26:00> frameNeedsUpdating, so updating.", -- [66]
+				"19:26:02> Got completed quests list", -- [67]
+				"19:28:01> Viewer started. ---------------------------", -- [68]
+				"19:28:02> PLAYER_ENTERING_WORLD (dead?)", -- [69]
+				"19:28:03> CacheQuestLog cached 16 quests", -- [70]
+				"19:28:03> New Quest: Trial of the Sea Lion id 30", -- [71]
+				"19:28:03> New Quest: Finding the Antidote id 813", -- [72]
+				"19:28:03> New Quest: Conscript of the Horde id 840", -- [73]
+				"19:28:03> New Quest: Ak'Zeloth id 809", -- [74]
+				"19:28:03> New Quest: Hidden Enemies id 5728", -- [75]
+				"19:28:03> New Quest: The Power to Destroy... id 14356", -- [76]
+				"19:28:03> New Quest: Arugal's Folly id 422", -- [77]
+				"19:28:03> New Quest: A Recipe For Death id 450", -- [78]
+				"19:28:03> New Quest: The Spirits of Stonetalon id 1061", -- [79]
+				"19:28:03> New Quest: The Barrens Oases id 886", -- [80]
+				"19:28:03> New Quest: Disrupt the Attacks id 871", -- [81]
+				"19:28:03> New Quest: Plainstrider Menace id 844", -- [82]
+				"19:28:03> New Quest: Raptor Thieves id 869", -- [83]
+				"19:28:03> New Quest: Gathering Leather id 768", -- [84]
+				"19:28:03> New Quest: Serpentbloom id 962", -- [85]
+				"19:28:03> New Quest: The Glowing Shard id 6981", -- [86]
+				"19:28:03> Got completed quests list", -- [87]
+				"19:28:03> CacheQuestLog cached 16 quests", -- [88]
+				"19:28:03> CacheQuestLog cached 16 quests", -- [89]
+				"19:28:05> Guides loaded. -----", -- [90]
+				"19:28:05> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [91]
+				"19:28:05> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [92]
+				"19:28:05> FocusStep 183", -- [93]
+				"19:28:05> Translated: accept/turnin Escorting Erland", -- [94]
+				"19:28:05> Translated: 'goal' Escorting Erland", -- [95]
+				"19:28:05> Translated: accept/turnin Escorting Erland", -- [96]
+				"19:28:05> Translated: accept/turnin Prove Your Worth", -- [97]
+				"19:28:05> unpausing", -- [98]
+				"19:28:05> frameNeedsUpdating, so updating.", -- [99]
+				"19:28:07> Got completed quests list", -- [100]
 			},
 			["maint_fetchquestdata"] = true,
 			["maint_fetchitemdata"] = true,

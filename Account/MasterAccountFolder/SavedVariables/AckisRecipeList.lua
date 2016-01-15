@@ -12,9 +12,9 @@ ARLDB2 = {
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -122,10 +122,6 @@ ARLDB2 = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
-		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["spelltooltiplocation"] = "Top",
 			["frameopts"] = {
@@ -156,6 +152,10 @@ ARLDB2 = {
 			},
 			["scanvendors"] = true,
 			["sorting"] = "Acquisition",
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 			["frameopts"] = {

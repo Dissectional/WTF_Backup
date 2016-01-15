@@ -4,15 +4,11 @@ END
 MACRO 16777220 "hbCrashProt_1" Ability_Creature_Disease_02
 Unb:p:000000000001002E:
 END
-MACRO 16777217 "Maul" Ability_Racial_BearForm
+MACRO 16777217 "Maul" INV_Misc_QuestionMark
 #showtooltip
-/startattack
 /cast [stance:1,nomod] Maul; [stance:3,nomod] Claw
-/cast [nostance,nomod] Bear Form;[nostance,mod:shift] Cat Form
-/cancelaura [stance:1,mod:shift] Bear form;[stance:3,mod:shift] Cat Form
+/cast [nostance,nomod] Bear Form; [nostance,mod:shift] Cat Form
+/cancelform [stance,mod:shift]
+/startattack
 /script UIErrorsFrame:Clear()
-END
-MACRO 16777218 "Thorns" INV_Misc_QuestionMark
-#showtooltip
-/cast [target=Declindgrunt] Thorns
 END

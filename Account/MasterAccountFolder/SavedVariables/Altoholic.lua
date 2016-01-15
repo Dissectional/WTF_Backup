@@ -21,7 +21,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "D59SAAU20TAY15CRCDPA",
+			["Lola"] = "E55EKAQ47ZQC15HSWEPK",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 			["TabSummaryMode"] = 1,

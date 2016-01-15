@@ -19,9 +19,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
-			["version"] = 2.12,
 			["faction"] = "Alliance",
 			["completedBidsBuyouts"] = {
 			},
@@ -50,9 +50,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
-			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -83,10 +83,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
-			["faction"] = "Horde",
-			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -114,10 +114,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -143,9 +143,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -174,9 +174,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -242,8 +242,6 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 				["3864"] = {
 					["item:3864:0:0:0:0:0:0:0:80"] = {
@@ -263,6 +261,8 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 				["6377"] = {
 					["item:6377:0:0:0:0:0:0:0:80"] = {
@@ -274,58 +274,58 @@ BeanCounterDB = {
 			},
 			["mailbox"] = {
 				{
-					["sender"] = "Blackwater Auction House",
 					["read"] = 2,
-					["subject"] = "Auction won: Truesilver Bar",
+					["sender"] = "Blackwater Auction House",
 					["time"] = 29.997314453125,
+					["subject"] = "Auction won: Truesilver Bar",
 				}, -- [1]
 				{
-					["sender"] = "Cryogenics",
 					["read"] = 1,
-					["subject"] = "Malachite (2)",
+					["sender"] = "Cryogenics",
 					["time"] = 28.68932914733887,
+					["subject"] = "Malachite (2)",
 				}, -- [2]
 				{
-					["sender"] = "Cryogenics",
 					["read"] = 2,
-					["subject"] = "Blue Pearl",
+					["sender"] = "Cryogenics",
 					["time"] = 28.68401527404785,
+					["subject"] = "Blue Pearl",
 				}, -- [3]
 				{
-					["sender"] = "Blackwater Auction House",
 					["read"] = 1,
-					["subject"] = "Auction expired: Formula: Enchant Boots - Minor Agility",
+					["sender"] = "Blackwater Auction House",
 					["time"] = 27.30126190185547,
+					["subject"] = "Auction expired: Formula: Enchant Boots - Minor Agility",
 				}, -- [4]
 				{
-					["sender"] = "Ellipsis",
 					["read"] = 1,
-					["subject"] = "Malachite (2)",
+					["sender"] = "Ellipsis",
 					["time"] = 21.89547538757324,
+					["subject"] = "Malachite (2)",
 				}, -- [5]
 				{
-					["read"] = 2,
 					["sender"] = "Blackwater Auction House",
-					["time"] = 28.19314765930176,
+					["read"] = 2,
 					["subject"] = "Outbid on Citrine",
+					["time"] = 28.19314765930176,
 				}, -- [6]
 				{
-					["read"] = 2,
 					["sender"] = "Ellipsis",
-					["time"] = 25.16446685791016,
+					["read"] = 2,
 					["subject"] = "Malachite (2)",
+					["time"] = 25.16446685791016,
 				}, -- [7]
 				{
-					["read"] = 1,
 					["sender"] = "Great-father Winter",
-					["time"] = 26.01499938964844,
+					["read"] = 1,
 					["subject"] = "",
+					["time"] = 26.01499938964844,
 				}, -- [8]
 				{
-					["read"] = 1,
 					["sender"] = "Customer Support",
-					["time"] = 20.64221000671387,
+					["read"] = 1,
 					["subject"] = "Bag Replacement",
+					["time"] = 20.64221000671387,
 				}, -- [9]
 			},
 		},
@@ -349,10 +349,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -415,10 +415,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -444,9 +444,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
-			["version"] = 2.12,
 			["faction"] = "Alliance",
 			["completedBidsBuyouts"] = {
 			},
@@ -495,9 +495,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -507,34 +507,34 @@ BeanCounterDB = {
 			},
 			["mailbox"] = {
 				{
-					["read"] = 2,
 					["sender"] = "Blackwater Auction House",
-					["time"] = 29.99942207336426,
+					["read"] = 2,
 					["subject"] = "Auction won: Linen Cloth",
+					["time"] = 29.99942207336426,
 				}, -- [1]
 				{
-					["read"] = 2,
 					["sender"] = "Wajawamedo",
-					["time"] = 29.94538116455078,
+					["read"] = 2,
 					["subject"] = "Rough Boomstick",
+					["time"] = 29.94538116455078,
 				}, -- [2]
 				{
-					["read"] = 2,
 					["sender"] = "Wajawamedo",
-					["time"] = 29.94283485412598,
+					["read"] = 2,
 					["subject"] = "Willow Boots of the Falcon",
+					["time"] = 29.94283485412598,
 				}, -- [3]
 				{
-					["read"] = 2,
 					["sender"] = "Unbearabull",
-					["time"] = 28.8110294342041,
+					["read"] = 2,
 					["subject"] = "Spellbinder Orb",
+					["time"] = 28.8110294342041,
 				}, -- [4]
 				{
-					["sender"] = "Blackwater Auction House",
 					["read"] = 2,
-					["subject"] = "Auction won: Wand of Eventide",
+					["sender"] = "Blackwater Auction House",
 					["time"] = 29.9998722076416,
+					["subject"] = "Auction won: Wand of Eventide",
 				}, -- [5]
 			},
 		},
@@ -556,9 +556,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
+			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
-			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -587,9 +587,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -645,9 +645,10 @@ BeanCounterDB = {
 						"20;0;;0;999;999;Patrick;1452770220;;N", -- [2]
 					},
 				},
-				["1210"] = {
-					["item:1210:0:0:0:0:0:0:0:80"] = {
-						"4;0;;0;1196;796;Elementus;1452826592;Vendor;N", -- [1]
+				["2447"] = {
+					["item:2447:0:0:0:0:0:0:0:80"] = {
+						"12;0;;0;1200;1200;Stera;1452766070;;N", -- [1]
+						"5;0;;0;540;540;Bankadn;1452769226;;N", -- [2]
 					},
 				},
 				["1218"] = {
@@ -662,10 +663,9 @@ BeanCounterDB = {
 						"20;0;;0;999;999;Patrick;1452769109;;N", -- [3]
 					},
 				},
-				["2447"] = {
-					["item:2447:0:0:0:0:0:0:0:80"] = {
-						"12;0;;0;1200;1200;Stera;1452766070;;N", -- [1]
-						"5;0;;0;540;540;Bankadn;1452769226;;N", -- [2]
+				["1210"] = {
+					["item:1210:0:0:0:0:0:0:0:80"] = {
+						"4;0;;0;1196;796;Elementus;1452826592;Vendor;N", -- [1]
 					},
 				},
 				["765"] = {
@@ -697,8 +697,6 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
-			["version"] = 2.12,
-			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 				["1206"] = {
 					["item:1206:0:0:0:0:0:0:0:80"] = {
@@ -716,64 +714,66 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["faction"] = "Horde",
+			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
 			},
 			["mailbox"] = {
 				{
+					["time"] = 29.99458312988281,
+					["sender"] = "Blackwater Auction House",
 					["subject"] = "Outbid on Shadowgem",
 					["read"] = 2,
-					["time"] = 29.99458312988281,
-					["sender"] = "Blackwater Auction House",
 				}, -- [1]
 				{
-					["subject"] = "Outbid on Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99458312988281,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Shadowgem",
+					["read"] = 1,
 				}, -- [2]
 				{
-					["subject"] = "Outbid on Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99457168579102,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Shadowgem",
+					["read"] = 1,
 				}, -- [3]
 				{
-					["subject"] = "Outbid on Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99456024169922,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Shadowgem",
+					["read"] = 1,
 				}, -- [4]
 				{
-					["subject"] = "Outbid on Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99454879760742,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Shadowgem",
+					["read"] = 1,
 				}, -- [5]
 				{
-					["subject"] = "Outbid on Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99454879760742,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Outbid on Shadowgem",
+					["read"] = 1,
 				}, -- [6]
 				{
-					["subject"] = "Auction won: Shadowgem",
-					["read"] = 1,
 					["time"] = 29.99002265930176,
 					["sender"] = "Blackwater Auction House",
+					["subject"] = "Auction won: Shadowgem",
+					["read"] = 1,
 				}, -- [7]
 				{
-					["subject"] = "Recovered Item",
-					["read"] = 1,
 					["time"] = 29.94431686401367,
 					["sender"] = "The Postmaster",
+					["subject"] = "Recovered Item",
+					["read"] = 1,
 				}, -- [8]
 				{
-					["time"] = 29.99953651428223,
-					["sender"] = "Blackwater Auction House",
 					["subject"] = "Auction won: Briarthorn",
 					["read"] = 1,
+					["time"] = 29.99953651428223,
+					["sender"] = "Blackwater Auction House",
 				}, -- [9]
 			},
 		},
@@ -795,9 +795,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -828,10 +828,10 @@ BeanCounterDB = {
 			},
 			["completedBidsBuyouts"] = {
 			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
 			["failedBidsNeutral"] = {
 			},
-			["faction"] = "Horde",
-			["version"] = 2.12,
 			["failedAuctionsNeutral"] = {
 			},
 			["completedAuctionsNeutral"] = {
@@ -857,9 +857,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},

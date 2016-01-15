@@ -21,13 +21,13 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1451304515,
-				["lastVisitDate"] = "2015/12/29 01:08",
-			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["lastUpdate"] = 1452682432,
 				["lastVisitDate"] = "2016/01/13 23:53",
+			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1451304515,
+				["lastVisitDate"] = "2015/12/29 01:08",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
 				["lastUpdate"] = 1452829786,

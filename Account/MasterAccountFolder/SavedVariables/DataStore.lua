@@ -24,12 +24,13 @@ DataStoreDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["faction"] = "Horde",
 			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["faction"] = "Alliance",
-			},
-			["Default.TrueWoW.Cryogenics"] = {
-				["faction"] = "Horde",
+			["Default.TrueWoW.Duglazerp"] = {
 				["guildName"] = "Slash Gee Quit",
+				["faction"] = "Horde",
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Bloody Oath",
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
 				["guildName"] = "Bloody Oath",
@@ -47,9 +48,8 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Bloody Oath",
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["guildName"] = "Slash Gee Quit",
-				["faction"] = "Horde",
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["faction"] = "Alliance",
 			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["faction"] = "Horde",
@@ -73,9 +73,9 @@ DataStoreDB = {
 				["guildName"] = "Bloody Oath",
 				["faction"] = "Horde",
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
+			["Default.TrueWoW.Cryogenics"] = {
 				["faction"] = "Horde",
-				["guildName"] = "Bloody Oath",
+				["guildName"] = "Slash Gee Quit",
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["guildName"] = "Slash Gee Quit",

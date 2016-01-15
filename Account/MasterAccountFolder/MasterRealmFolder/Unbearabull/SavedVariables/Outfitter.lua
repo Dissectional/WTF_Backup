@@ -240,7 +240,7 @@ gOutfitter_Settings = {
 			},
 		}, -- [1]
 		{
-			["Name"] = "Druid: Caster Form",
+			["Name"] = "Druid: Cat Form",
 		}, -- [2]
 		{
 			["Items"] = {
@@ -645,7 +645,7 @@ gOutfitter_Settings = {
 					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["JewelCode4"] = 0,
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -656,7 +656,7 @@ gOutfitter_Settings = {
 					["EnchantCode"] = 0,
 					["JewelCode3"] = 0,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["JewelCode4"] = 0,
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -863,7 +863,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -874,7 +874,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -928,7 +928,11 @@ gOutfitter_Settings = {
 				},
 			}, -- [2]
 			{
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["UnequipComplete"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -936,14 +940,14 @@ gOutfitter_Settings = {
 				["Name"] = "Druid: Aquatic Form",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Aquatic",
+				["ScriptLockupCount"] = 0,
+			}, -- [3]
+			{
 				["ScriptSettings"] = {
 					["UnequipComplete"] = false,
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
-			}, -- [3]
-			{
-				["ScriptLockupCount"] = 0,
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -951,11 +955,7 @@ gOutfitter_Settings = {
 				["Name"] = "Druid: Bear Form",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Bear",
-				["ScriptSettings"] = {
-					["UnequipComplete"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptLockupCount"] = 0,
 			}, -- [4]
 			{
 				["ScriptSettings"] = {
@@ -963,8 +963,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
-				["didEquip"] = true,
-				["didUnequip"] = false,
+				["didEquip"] = false,
+				["didUnequip"] = true,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Caster Form",
@@ -975,19 +975,19 @@ gOutfitter_Settings = {
 				["ScriptID"] = "Caster",
 			}, -- [5]
 			{
-				["ScriptSettings"] = {
-					["UnequipComplete"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
-				["didEquip"] = false,
-				["didUnequip"] = true,
+				["ScriptLockupCount"] = 0,
+				["didEquip"] = true,
+				["didUnequip"] = false,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Cat Form",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Cat",
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+					["UnequipComplete"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 			}, -- [6]
 			{
 				["Items"] = {
@@ -1016,8 +1016,7 @@ gOutfitter_Settings = {
 				},
 			}, -- [8]
 			{
-				["ScriptSettings"] = {
-				},
+				["ScriptLockupCount"] = 0,
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -1025,7 +1024,8 @@ gOutfitter_Settings = {
 				["Name"] = "Druid: Prowl",
 				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Prowl",
-				["ScriptLockupCount"] = 0,
+				["ScriptSettings"] = {
+				},
 			}, -- [9]
 			{
 				["Items"] = {
@@ -1056,9 +1056,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
+				["CategoryID"] = "Accessory",
 				["ScriptID"] = "Riding",
-				["ScriptLockupCount"] = 0,
-				["Name"] = "Riding",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -1066,19 +1070,11 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["CategoryID"] = "Accessory",
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
+				["Name"] = "Riding",
+				["ScriptLockupCount"] = 0,
 			}, -- [12]
 			{
-				["ScriptSettings"] = {
-					["DisableInstance"] = false,
-					["DisablePVP"] = false,
-					["DisableBG"] = false,
-				},
+				["ScriptID"] = "Swimming",
 				["didEquip"] = false,
 				["didUnequip"] = true,
 				["Items"] = {
@@ -1086,7 +1082,11 @@ gOutfitter_Settings = {
 				["CategoryID"] = "Accessory",
 				["Name"] = "Swimming",
 				["ScriptLockupCount"] = 0,
-				["ScriptID"] = "Swimming",
+				["ScriptSettings"] = {
+					["DisableInstance"] = false,
+					["DisablePVP"] = false,
+					["DisableBG"] = false,
+				},
 			}, -- [13]
 		},
 	},

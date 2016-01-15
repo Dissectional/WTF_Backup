@@ -130,12 +130,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Duglazerp"] = {
+		["Nerfed"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Pastafarian"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -144,14 +144,14 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Nerfed"] = {
+		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -200,7 +200,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -225,6 +225,10 @@ AtlasLootWishList = {
 		["Contagion"] = {
 		},
 		["Magistratus"] = {
+		},
+		["Nerfed"] = {
+		},
+		["Pastafarian"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -276,11 +280,7 @@ AtlasLootWishList = {
 				},
 			}, -- [2]
 		},
-		["Pastafarian"] = {
-		},
-		["Nerfed"] = {
-		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 		},
 		["Mittens"] = {
 		},
@@ -294,7 +294,7 @@ AtlasLootWishList = {
 		},
 		["Lichmydk"] = {
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 		},
 		["Saptack"] = {
 		},

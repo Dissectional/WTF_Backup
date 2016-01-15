@@ -24,15 +24,32 @@ DataStore_PetsDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["lastUpdate"] = 1451459314,
 			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830029,
-			},
-			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1452579002,
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1452579101,
 				["CRITTER"] = {
-					"21055|Golden Dragonhawk Hatchling|36027|Ability_Hunter_Pet_DragonHawk", -- [1]
-					"21064|Red Dragonhawk Hatchling|36028|Ability_Hunter_Pet_DragonHawk", -- [2]
-					"21063|Silver Dragonhawk Hatchling|36029|Ability_Hunter_Pet_DragonHawk", -- [3]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
+					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
+					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
+				},
+				["MOUNT"] = {
+					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
+					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1452830124,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
+					"15358|Lurky|24988|INV_Egg_03", -- [4]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
@@ -67,17 +84,8 @@ DataStore_PetsDB = {
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["lastUpdate"] = 1452683551,
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1452579101,
-				["CRITTER"] = {
-					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
-					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
-					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
-				},
-				["MOUNT"] = {
-					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
-					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
-				},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1452830029,
 			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1451459163,
@@ -86,7 +94,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1451302134,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1452834409,
+				["lastUpdate"] = 1452839361,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
@@ -110,20 +118,12 @@ DataStore_PetsDB = {
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["lastUpdate"] = 1452683403,
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1452830124,
+			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1452579002,
 				["CRITTER"] = {
-					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
-					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
-					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
-					"15358|Lurky|24988|INV_Egg_03", -- [4]
-					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
-					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
-					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
-					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
-					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
-					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
-					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
+					"21055|Golden Dragonhawk Hatchling|36027|Ability_Hunter_Pet_DragonHawk", -- [1]
+					"21064|Red Dragonhawk Hatchling|36028|Ability_Hunter_Pet_DragonHawk", -- [2]
+					"21063|Silver Dragonhawk Hatchling|36029|Ability_Hunter_Pet_DragonHawk", -- [3]
 				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {

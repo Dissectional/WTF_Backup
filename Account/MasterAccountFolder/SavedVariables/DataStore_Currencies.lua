@@ -24,11 +24,19 @@ DataStore_CurrenciesDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["lastUpdate"] = 1451459344,
 			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830070,
+			["Default.TrueWoW.Duglazerp"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Frost|14|49426", -- [2]
+					"1|Emblem of Heroism|35|40752", -- [3]
+					"1|Emblem of Triumph|115|47241", -- [4]
+					"0|Player vs. Player", -- [5]
+					"1|Stone Keeper's Shard|141|43228", -- [6]
+				},
+				["lastUpdate"] = 1452579101,
 			},
-			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1452579002,
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1452830123,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
 				["lastUpdate"] = 1452830259,
@@ -42,16 +50,8 @@ DataStore_CurrenciesDB = {
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["lastUpdate"] = 1452683551,
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["Currencies"] = {
-					"0|Dungeon and Raid", -- [1]
-					"1|Emblem of Frost|14|49426", -- [2]
-					"1|Emblem of Heroism|35|40752", -- [3]
-					"1|Emblem of Triumph|115|47241", -- [4]
-					"0|Player vs. Player", -- [5]
-					"1|Stone Keeper's Shard|141|43228", -- [6]
-				},
-				["lastUpdate"] = 1452579101,
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1452830070,
 			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1451459200,
@@ -60,7 +60,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1451302278,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1452834868,
+				["lastUpdate"] = 1452839283,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["lastUpdate"] = 1452577701,
@@ -71,8 +71,8 @@ DataStore_CurrenciesDB = {
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["lastUpdate"] = 1452683454,
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1452830123,
+			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1452579002,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1452578430,

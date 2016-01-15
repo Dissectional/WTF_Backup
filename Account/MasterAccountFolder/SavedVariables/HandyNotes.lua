@@ -12,9 +12,9 @@ HandyNotesDB = {
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -47,14 +47,14 @@ HandyNotesDB = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
-		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["enabledPlugins"] = {
 				["QuestGivers"] = false,
 			},
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},
@@ -73,9 +73,9 @@ HandyNotes_HandyNotesDB = {
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -101,11 +101,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},

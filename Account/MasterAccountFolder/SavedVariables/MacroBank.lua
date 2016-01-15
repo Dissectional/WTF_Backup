@@ -6,16 +6,16 @@ MacroBankDB = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 		["Shiftace - TrueWoW"] = "Default",
-		["Parimman - TrueWoW"] = "Default",
-		["Duglazerp - TrueWoW"] = "Default",
-		["Magistratus - PrimalWoW (Progressive)"] = "Default",
 		["Pastafarian - TrueWoW"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Magistratus - PrimalWoW (Progressive)"] = "Default",
+		["Parimman - TrueWoW"] = "Default",
 		["Cryogenics - TrueWoW"] = "Default",
 		["Ellipsis - TrueWoW"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
 		["Nerfed - PrimalWoW (Progressive)"] = "Default",
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
 		["Magistratus - TrueWoW"] = "Default",
 	},
 	["DBVersion"] = 4,
@@ -128,8 +128,8 @@ MacroBankDB = {
 					{
 						"Maul", -- [1]
 						"Maul", -- [2]
-						"Interface\\Icons\\Ability_Racial_BearForm", -- [3]
-						"#showtooltip\n/cast [stance:1,nomod] Maul; [stance:3,nomod] Claw\n/cast [nostance,nomod] Bear Form;[nostance,mod:shift] Cat Form\n/cancelaura [stance:1,mod:shift] Bear form;[stance:3,mod:shift] Cat Form\n/startattack [nomod]\n/script UIErrorsFrame:Clear()\n", -- [4]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast [stance:1,nomod] Maul; [stance:3,nomod] Claw\n/cast [nostance,nomod] Bear Form; [nostance,mod:shift] Cat Form\n/cancelform [stance,mod:shift]\n/startattack\n/script UIErrorsFrame:Clear()", -- [4]
 					}, -- [5]
 				}, -- [2]
 			}, -- [2]
