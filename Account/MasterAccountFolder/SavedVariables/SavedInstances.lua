@@ -46,9 +46,9 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
 		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		["Parimman - TrueWoW"] = {
 			["AlwaysShow"] = false,
-			["Class"] = "WARRIOR",
+			["Class"] = "PRIEST",
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
@@ -62,9 +62,9 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "MAGE",
 		},
-		["Parimman - TrueWoW"] = {
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
-			["Class"] = "PRIEST",
+			["Class"] = "WARRIOR",
 		},
 		["Magistratus - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -74,48 +74,30 @@ SavedInstancesDB = {
 	["Lockouts"] = {
 	},
 	["Tooltip"] = {
-		["Details"] = false,
-		["CategorySort"] = "EXPANSION",
 		["RecentHistory"] = false,
+		["CategorySort"] = "EXPANSION",
+		["ShowSoloCategory"] = false,
 		["ReverseInstances"] = false,
-		["ShowCategories"] = false,
-		["CategorySpaces"] = false,
+		["NewFirst"] = true,
+		["ColumnStyle"] = "NORMAL",
+		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
+		["ShowHints"] = true,
+		["ShowEncounters"] = false,
+		["TrackRandom"] = false,
 		["AltColumnColor"] = {
 			0.2, -- [1]
 			0.2, -- [2]
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["NewInstanceShow"] = false,
-		["ShowHints"] = true,
-		["ShowEncounters"] = false,
-		["TrackRandom"] = false,
-		["RaidsFirst"] = true,
-		["ColumnStyle"] = "NORMAL",
-		["NewFirst"] = true,
-		["ShowSoloCategory"] = false,
+		["CategorySpaces"] = false,
+		["ShowCategories"] = false,
+		["Details"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Keep"] = {
 			["LFDID"] = 202,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Halls of Stone"] = {
-			["LFDID"] = 208,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Gundrak"] = {
-			["LFDID"] = 216,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -132,53 +114,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Lightning"] = {
-			["LFDID"] = 207,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Violet Hold"] = {
-			["LFDID"] = 220,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Onyxia's Lair"] = {
-			["LFDID"] = 257,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = true,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["The Nexus"] = {
-			["LFDID"] = 225,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["The Oculus"] = {
-			["LFDID"] = 211,
-			["Expansion"] = 2,
-			["Encounters"] = {
-			},
-			["Raid"] = false,
-			["LFDupdated"] = "12340",
-			["Show"] = false,
-		},
-		["Azjol-Nerub"] = {
-			["LFDID"] = 204,
+		["Gundrak"] = {
+			["LFDID"] = 216,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -195,11 +132,76 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Azjol-Nerub"] = {
+			["LFDID"] = 204,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Onyxia's Lair"] = {
+			["LFDID"] = 257,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = true,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["The Oculus"] = {
+			["LFDID"] = 211,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["The Nexus"] = {
+			["LFDID"] = 225,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Violet Hold"] = {
+			["LFDID"] = 220,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
 	},
 	["History"] = {
 	},
 	["Broker"] = {
 		["HistoryText"] = false,
+	},
+	["MinimapIcon"] = {
 	},
 	["Indicators"] = {
 		["D1Indicator"] = "BLANK",
@@ -232,31 +234,29 @@ SavedInstancesDB = {
 		["D2ClassColor"] = true,
 		["R4ClassColor"] = true,
 		["R3ClassColor"] = true,
-		["R1ClassColor"] = true,
+		["R4Text"] = "25+",
 		["D2Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D1Color"] = {
-			0, -- [1]
-			0.6, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
+		["R3Text"] = "10+",
 		["D1Text"] = "5",
 		["D2Text"] = "5+",
-		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]
 			0, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["R3Text"] = "10+",
-		["R4Text"] = "25+",
-	},
-	["MinimapIcon"] = {
+		["R2Indicator"] = "BLANK",
+		["D1Color"] = {
+			0, -- [1]
+			0.6, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
+		["R1ClassColor"] = true,
 	},
 }

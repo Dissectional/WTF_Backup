@@ -1,74 +1,74 @@
 
 FriendShare_GlobalFriends = {
 	["TrueWoW-Horde"] = {
-		["Lowlypoop"] = "Lowlypoop",
-		["Kagoma"] = "Kagoma",
 		["Leefa"] = "Leefa",
+		["Kagoma"] = "Kagoma",
+		["Lowlypoop"] = "Lowlypoop",
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
+	["TrueWoW-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
-	["TrueWoW-Alliance"] = {
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 }
 FriendShare_RemovedFriends = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
+	["TrueWoW-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
-	["TrueWoW-Alliance"] = {
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 }
 FriendShare_Alts = {
 	["TrueWoW-Horde"] = {
 		["Cryogenics"] = "Cryogenics",
-		["Ellipsis"] = "Ellipsis",
+		["Pastafarian"] = "Pastafarian",
 		["Magistratus"] = "Magistratus",
 		["Shiftace"] = "Shiftace",
 		["Lichmydk"] = "Lichmydk",
 		["Duglazerp"] = "Duglazerp",
-		["Pastafarian"] = "Pastafarian",
+		["Ellipsis"] = "Ellipsis",
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
-		["Wafflestomp"] = "Wafflestomp",
-		["Contagion"] = "Contagion",
-		["Iamsham"] = "Iamsham",
-		["Nerfed"] = "Nerfed",
-		["Unbearabull"] = "Unbearabull",
-		["Saptack"] = "Saptack",
-		["Mittens"] = "Mittens",
-		["Wajawamedo"] = "Wajawamedo",
+	["TrueWoW-Alliance"] = {
+		["Parimman"] = "Parimman",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 		["Magistratus"] = "Magistratus",
 	},
-	["TrueWoW-Alliance"] = {
-		["Parimman"] = "Parimman",
+	["PrimalWoW (Progressive)-Horde"] = {
+		["Wajawamedo"] = "Wajawamedo",
+		["Contagion"] = "Contagion",
+		["Iamsham"] = "Iamsham",
+		["Mittens"] = "Mittens",
+		["Unbearabull"] = "Unbearabull",
+		["Saptack"] = "Saptack",
+		["Nerfed"] = "Nerfed",
+		["Wafflestomp"] = "Wafflestomp",
 	},
 }
 FriendShare_AutoAlts = false
 IgnoreShare_GlobalIgnores = {
 	["TrueWoW-Horde"] = {
-		["Frukwan"] = "Frukwan",
 		["Woolea"] = "Woolea",
+		["Frukwan"] = "Frukwan",
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
+	["TrueWoW-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
-	["TrueWoW-Alliance"] = {
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 }
 IgnoreShare_RemovedIgnores = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
+	["TrueWoW-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
-	["TrueWoW-Alliance"] = {
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 }

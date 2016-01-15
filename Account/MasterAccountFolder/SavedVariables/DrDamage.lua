@@ -12,11 +12,11 @@ DrDamageDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -42,7 +42,7 @@ DrDamageDB = {
 		},
 		["Duglazerp - TrueWoW"] = {
 		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		["Parimman - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
@@ -50,7 +50,7 @@ DrDamageDB = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Parimman - TrueWoW"] = {
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},

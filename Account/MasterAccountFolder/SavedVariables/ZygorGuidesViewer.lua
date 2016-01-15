@@ -2,8 +2,32 @@
 ZygorGuidesViewerSettings = {
 	["char"] = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["starting"] = false,
-			["maint_fetchquestdata"] = true,
+			["maint_fetchitemdata"] = true,
+			["RecipesKnown"] = {
+				[37836] = true,
+				[3918] = true,
+				[3920] = true,
+				[8607] = true,
+				[3924] = true,
+				[3275] = true,
+				[2657] = true,
+				[2539] = true,
+				[2541] = true,
+				[3919] = true,
+				[3923] = true,
+				[3925] = true,
+				[3276] = true,
+				[8604] = true,
+				[3928] = true,
+				[6499] = true,
+				[2540] = true,
+				[6414] = true,
+				[7751] = true,
+				[7430] = true,
+				[3922] = true,
+				[2538] = true,
+				[3929] = true,
+			},
 			["guides_history"] = {
 				{
 					["short"] = "Troll (1-13)",
@@ -31,32 +55,8 @@ ZygorGuidesViewerSettings = {
 					["step"] = 1,
 				}, -- [5]
 			},
+			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-			["RecipesKnown"] = {
-				[37836] = true,
-				[3918] = true,
-				[3920] = true,
-				[8607] = true,
-				[3924] = true,
-				[3275] = true,
-				[2657] = true,
-				[2539] = true,
-				[2541] = true,
-				[3919] = true,
-				[3923] = true,
-				[3925] = true,
-				[3276] = true,
-				[8604] = true,
-				[3929] = true,
-				[6499] = true,
-				[2540] = true,
-				[6414] = true,
-				[7751] = true,
-				[2538] = true,
-				[3922] = true,
-				[7430] = true,
-				[3928] = true,
-			},
 			["taxis"] = {
 				true, -- [1]
 				true, -- [2]
@@ -168,12 +168,12 @@ ZygorGuidesViewerSettings = {
 				"16:57:40> frameNeedsUpdating, so updating.", -- [99]
 				"16:57:43> Got completed quests list", -- [100]
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
 			["step"] = 133,
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 			["guides_history"] = {
 				{
 					["short"] = "Tauren (1-13)",
@@ -185,6 +185,32 @@ ZygorGuidesViewerSettings = {
 					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
 					["step"] = 1,
 				}, -- [2]
+			},
+			["maint_fetchquestdata"] = true,
+			["RecipesKnown"] = {
+				[37836] = true,
+				[2663] = true,
+				[12260] = true,
+				[2657] = true,
+				[8604] = true,
+				[2538] = true,
+				[2540] = true,
+				[2539] = true,
+				[6414] = true,
+				[3275] = true,
+				[7751] = true,
+				[3115] = true,
+				[2660] = true,
+				[2662] = true,
+				[3320] = true,
+			},
+			["taxis"] = {
+				true, -- [1]
+				["Crossroads"] = true,
+				["The Crossroads"] = true,
+				["Thunder Bluff"] = true,
+				["Camp Taurajo"] = true,
+				["Orgrimmar"] = true,
 			},
 			["debuglog"] = {
 				"23:41:37> New Quest: The Venture Co. id 764", -- [1]
@@ -288,48 +314,10 @@ ZygorGuidesViewerSettings = {
 				"00:12:33> frameNeedsUpdating, so updating.", -- [99]
 				"00:12:35> Got completed quests list", -- [100]
 			},
-			["maint_fetchquestdata"] = true,
-			["taxis"] = {
-				true, -- [1]
-				["Crossroads"] = true,
-				["The Crossroads"] = true,
-				["Thunder Bluff"] = true,
-				["Camp Taurajo"] = true,
-				["Orgrimmar"] = true,
-			},
-			["RecipesKnown"] = {
-				[37836] = true,
-				[3320] = true,
-				[12260] = true,
-				[2657] = true,
-				[8604] = true,
-				[2538] = true,
-				[3275] = true,
-				[2539] = true,
-				[6414] = true,
-				[2540] = true,
-				[7751] = true,
-				[2660] = true,
-				[3115] = true,
-				[2662] = true,
-				[2663] = true,
-			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Shiftace - TrueWoW"] = {
-			["maint_fetchitemdata"] = true,
-			["step"] = 153,
-			["guides_history"] = {
-				{
-					["short"] = "Tauren (1-13)",
-					["step"] = 153,
-					["full"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
-				}, -- [1]
-			},
-			["maint_fetchquestdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
-			["taxis"] = {
-			},
+			["starting"] = false,
 			["debuglog"] = {
 				"19:07:11> Skipping step: 141 (complete)", -- [1]
 				"19:07:11> SkipStep 1 fast", -- [2]
@@ -432,7 +420,19 @@ ZygorGuidesViewerSettings = {
 				"19:09:51> unpausing", -- [99]
 				"19:09:51> frameNeedsUpdating, so updating.", -- [100]
 			},
-			["starting"] = false,
+			["guides_history"] = {
+				{
+					["short"] = "Tauren (1-13)",
+					["step"] = 153,
+					["full"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
+				}, -- [1]
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
+			["step"] = 153,
+			["maint_fetchitemdata"] = true,
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["guidename"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
@@ -538,7 +538,7 @@ ZygorGuidesViewerSettings = {
 				"16:55:24> frameNeedsUpdating, so updating.", -- [99]
 				"16:55:27> Got completed quests list", -- [100]
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
 					["short"] = "Undead (1-13)",
@@ -566,56 +566,56 @@ ZygorGuidesViewerSettings = {
 					["step"] = 56,
 				}, -- [5]
 			},
-			["maint_fetchquestdata"] = true,
+			["step"] = 56,
 			["RecipesKnown"] = {
 				[37836] = true,
 				[7934] = true,
 				[2963] = true,
 				[3275] = true,
 				[3277] = true,
-				[8607] = true,
-				[7421] = true,
+				[7827] = true,
+				[12044] = true,
 				[2539] = true,
 				[2541] = true,
-				[2393] = true,
+				[7418] = true,
 				[7753] = true,
-				[8776] = true,
-				[8604] = true,
-				[7827] = true,
+				[3755] = true,
+				[12045] = true,
+				[3915] = true,
 				[7428] = true,
-				[6414] = true,
-				[12044] = true,
-				[2540] = true,
+				[2387] = true,
+				[6413] = true,
+				[2385] = true,
 				[2964] = true,
 				[3276] = true,
-				[12045] = true,
-				[2538] = true,
+				[8604] = true,
 				[6499] = true,
-				[2385] = true,
-				[2387] = true,
+				[2538] = true,
+				[2540] = true,
+				[6414] = true,
 				[7751] = true,
-				[3755] = true,
-				[7418] = true,
-				[6413] = true,
-				[3915] = true,
+				[8776] = true,
+				[2393] = true,
+				[7421] = true,
+				[8607] = true,
 			},
 			["taxis"] = {
 				true, -- [1]
 				true, -- [2]
 				["Crossroads"] = true,
 				["Undercity"] = true,
-				["Camp Taurajo"] = true,
+				["Ratchet"] = true,
 				["Sun Rock Retreat"] = true,
 				["Thunder Bluff"] = true,
 				["The Sepulcher"] = true,
-				["Ratchet"] = true,
+				["Camp Taurajo"] = true,
 				["Orgrimmar"] = true,
 			},
-			["step"] = 56,
-			["maint_fetchitemdata"] = true,
+			["maint_fetchquestdata"] = true,
+			["starting"] = false,
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 			["guides_history"] = {
 				{
 					["short"] = "Human (1-13)",
@@ -623,8 +623,8 @@ ZygorGuidesViewerSettings = {
 					["step"] = 1,
 				}, -- [1]
 			},
-			["guidename"] = "Zygor's Alliance Leveling Guides\\Human (1-13)",
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Alliance Leveling Guides\\Human (1-13)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -672,10 +672,10 @@ ZygorGuidesViewerSettings = {
 				"16:54:32> frameNeedsUpdating, so updating.", -- [42]
 				"16:54:34> Got completed quests list", -- [43]
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Pastafarian - TrueWoW"] = {
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 			["guides_history"] = {
 				{
 					["short"] = "Troll (1-13)",
@@ -683,8 +683,8 @@ ZygorGuidesViewerSettings = {
 					["step"] = 1,
 				}, -- [1]
 			},
-			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Troll (1-13)",
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -741,18 +741,18 @@ ZygorGuidesViewerSettings = {
 				"19:00:31> frameNeedsUpdating, so updating.", -- [51]
 				"19:00:34> Got completed quests list", -- [52]
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Duglazerp - TrueWoW"] = {
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
 					["short"] = "Orc (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
 				}, -- [1]
 			},
-			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -797,18 +797,18 @@ ZygorGuidesViewerSettings = {
 				"19:12:01> Translated: accept/turnin Cutting Teeth", -- [39]
 				"19:12:01> frameNeedsUpdating, so updating.", -- [40]
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 		["Ellipsis - TrueWoW"] = {
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
 					["short"] = "Blood Elf (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
 				}, -- [1]
 			},
-			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -848,22 +848,10 @@ ZygorGuidesViewerSettings = {
 				"18:48:47> size up? false", -- [34]
 				"18:48:47> size up? true", -- [35]
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
-			["maint_fetchitemdata"] = true,
-			["step"] = 75,
-			["guides_history"] = {
-				{
-					["short"] = "Undead (1-13)",
-					["step"] = 75,
-					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-				}, -- [1]
-			},
-			["maint_fetchquestdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-			["taxis"] = {
-			},
+			["starting"] = false,
 			["debuglog"] = {
 				"00:10:41> frameNeedsUpdating, so updating.", -- [1]
 				"00:10:41> Skipping step: 63 (complete)", -- [2]
@@ -966,115 +954,127 @@ ZygorGuidesViewerSettings = {
 				"00:10:56> frameNeedsUpdating, so updating.", -- [99]
 				"00:10:58> Got completed quests list", -- [100]
 			},
-			["starting"] = false,
+			["guides_history"] = {
+				{
+					["short"] = "Undead (1-13)",
+					["step"] = 75,
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+				}, -- [1]
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
+			["step"] = 75,
+			["maint_fetchitemdata"] = true,
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["step"] = 183,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+			["step"] = 186,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Troll (1-13)",
 			["debuglog"] = {
-				"19:22:45> Got completed quests list", -- [1]
-				"19:24:53> Viewer started. ---------------------------", -- [2]
-				"19:24:54> PLAYER_ENTERING_WORLD (dead?)", -- [3]
-				"19:24:54> CacheQuestLog cached 16 quests", -- [4]
-				"19:24:54> New Quest: Trial of the Sea Lion id 30", -- [5]
-				"19:24:54> New Quest: Finding the Antidote id 813", -- [6]
-				"19:24:54> New Quest: Conscript of the Horde id 840", -- [7]
-				"19:24:54> New Quest: Ak'Zeloth id 809", -- [8]
-				"19:24:54> New Quest: Hidden Enemies id 5728", -- [9]
-				"19:24:54> New Quest: The Power to Destroy... id 14356", -- [10]
-				"19:24:54> New Quest: Arugal's Folly id 422", -- [11]
-				"19:24:54> New Quest: A Recipe For Death id 450", -- [12]
-				"19:24:54> New Quest: The Spirits of Stonetalon id 1061", -- [13]
-				"19:24:54> New Quest: The Barrens Oases id 886", -- [14]
-				"19:24:54> New Quest: Disrupt the Attacks id 871", -- [15]
-				"19:24:54> New Quest: Plainstrider Menace id 844", -- [16]
-				"19:24:54> New Quest: Raptor Thieves id 869", -- [17]
-				"19:24:54> New Quest: Gathering Leather id 768", -- [18]
-				"19:24:54> New Quest: Serpentbloom id 962", -- [19]
-				"19:24:54> New Quest: The Glowing Shard id 6981", -- [20]
-				"19:24:54> Got completed quests list", -- [21]
-				"19:24:54> CacheQuestLog cached 16 quests", -- [22]
-				"19:24:54> CacheQuestLog cached 16 quests", -- [23]
-				"19:24:56> Guides loaded. -----", -- [24]
-				"19:24:56> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [25]
-				"19:24:56> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [26]
-				"19:24:56> FocusStep 183", -- [27]
-				"19:24:56> Translated: accept/turnin Escorting Erland", -- [28]
-				"19:24:56> Translated: 'goal' Escorting Erland", -- [29]
-				"19:24:56> Translated: accept/turnin Escorting Erland", -- [30]
-				"19:24:56> Translated: accept/turnin Prove Your Worth", -- [31]
-				"19:24:56> unpausing", -- [32]
-				"19:24:56> frameNeedsUpdating, so updating.", -- [33]
-				"19:24:58> Got completed quests list", -- [34]
-				"19:25:56> Viewer started. ---------------------------", -- [35]
-				"19:25:57> PLAYER_ENTERING_WORLD (dead?)", -- [36]
-				"19:25:58> CacheQuestLog cached 16 quests", -- [37]
-				"19:25:58> New Quest: Trial of the Sea Lion id 30", -- [38]
-				"19:25:58> New Quest: Finding the Antidote id 813", -- [39]
-				"19:25:58> New Quest: Conscript of the Horde id 840", -- [40]
-				"19:25:58> New Quest: Ak'Zeloth id 809", -- [41]
-				"19:25:58> New Quest: Hidden Enemies id 5728", -- [42]
-				"19:25:58> New Quest: The Power to Destroy... id 14356", -- [43]
-				"19:25:58> New Quest: Arugal's Folly id 422", -- [44]
-				"19:25:58> New Quest: A Recipe For Death id 450", -- [45]
-				"19:25:58> New Quest: The Spirits of Stonetalon id 1061", -- [46]
-				"19:25:58> New Quest: The Barrens Oases id 886", -- [47]
-				"19:25:58> New Quest: Disrupt the Attacks id 871", -- [48]
-				"19:25:58> New Quest: Plainstrider Menace id 844", -- [49]
-				"19:25:58> New Quest: Raptor Thieves id 869", -- [50]
-				"19:25:58> New Quest: Gathering Leather id 768", -- [51]
-				"19:25:58> New Quest: Serpentbloom id 962", -- [52]
-				"19:25:58> New Quest: The Glowing Shard id 6981", -- [53]
-				"19:25:58> Got completed quests list", -- [54]
-				"19:25:58> CacheQuestLog cached 16 quests", -- [55]
-				"19:25:58> CacheQuestLog cached 16 quests", -- [56]
-				"19:26:00> Guides loaded. -----", -- [57]
-				"19:26:00> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [58]
-				"19:26:00> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [59]
-				"19:26:00> FocusStep 183", -- [60]
-				"19:26:00> Translated: accept/turnin Escorting Erland", -- [61]
-				"19:26:00> Translated: 'goal' Escorting Erland", -- [62]
-				"19:26:00> Translated: accept/turnin Escorting Erland", -- [63]
-				"19:26:00> Translated: accept/turnin Prove Your Worth", -- [64]
-				"19:26:00> unpausing", -- [65]
-				"19:26:00> frameNeedsUpdating, so updating.", -- [66]
-				"19:26:02> Got completed quests list", -- [67]
-				"19:28:01> Viewer started. ---------------------------", -- [68]
-				"19:28:02> PLAYER_ENTERING_WORLD (dead?)", -- [69]
-				"19:28:03> CacheQuestLog cached 16 quests", -- [70]
-				"19:28:03> New Quest: Trial of the Sea Lion id 30", -- [71]
-				"19:28:03> New Quest: Finding the Antidote id 813", -- [72]
-				"19:28:03> New Quest: Conscript of the Horde id 840", -- [73]
-				"19:28:03> New Quest: Ak'Zeloth id 809", -- [74]
-				"19:28:03> New Quest: Hidden Enemies id 5728", -- [75]
-				"19:28:03> New Quest: The Power to Destroy... id 14356", -- [76]
-				"19:28:03> New Quest: Arugal's Folly id 422", -- [77]
-				"19:28:03> New Quest: A Recipe For Death id 450", -- [78]
-				"19:28:03> New Quest: The Spirits of Stonetalon id 1061", -- [79]
-				"19:28:03> New Quest: The Barrens Oases id 886", -- [80]
-				"19:28:03> New Quest: Disrupt the Attacks id 871", -- [81]
-				"19:28:03> New Quest: Plainstrider Menace id 844", -- [82]
-				"19:28:03> New Quest: Raptor Thieves id 869", -- [83]
-				"19:28:03> New Quest: Gathering Leather id 768", -- [84]
-				"19:28:03> New Quest: Serpentbloom id 962", -- [85]
-				"19:28:03> New Quest: The Glowing Shard id 6981", -- [86]
-				"19:28:03> Got completed quests list", -- [87]
-				"19:28:03> CacheQuestLog cached 16 quests", -- [88]
-				"19:28:03> CacheQuestLog cached 16 quests", -- [89]
-				"19:28:05> Guides loaded. -----", -- [90]
-				"19:28:05> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (183", -- [91]
-				"19:28:05> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [92]
-				"19:28:05> FocusStep 183", -- [93]
-				"19:28:05> Translated: accept/turnin Escorting Erland", -- [94]
-				"19:28:05> Translated: 'goal' Escorting Erland", -- [95]
-				"19:28:05> Translated: accept/turnin Escorting Erland", -- [96]
-				"19:28:05> Translated: accept/turnin Prove Your Worth", -- [97]
-				"19:28:05> unpausing", -- [98]
-				"19:28:05> frameNeedsUpdating, so updating.", -- [99]
-				"19:28:07> Got completed quests list", -- [100]
+				"01:28:11> Translated: accept/turnin Prove Your Worth", -- [1]
+				"01:28:11> Translated: accept/turnin Arugal's Folly", -- [2]
+				"01:28:11> frameNeedsUpdating, so updating.", -- [3]
+				"01:28:12> Skipping step: 175 (complete)", -- [4]
+				"01:28:12> SkipStep 1 fast", -- [5]
+				"01:28:12> FocusStep 176 (quiet)", -- [6]
+				"01:28:12> FocusStep 176", -- [7]
+				"01:28:13> Skipping step: 176 (complete)", -- [8]
+				"01:28:13> SkipStep 1 fast", -- [9]
+				"01:28:13> FocusStep 177 (quiet)", -- [10]
+				"01:28:13> FocusStep 177", -- [11]
+				"01:28:13> Translated: accept/turnin The Dead Fields", -- [12]
+				"01:28:13> Translated: accept/turnin The Deathstalkers' Report", -- [13]
+				"01:28:13> Translated: accept/turnin Speak with Renferrel", -- [14]
+				"01:28:13> Translated: accept/turnin Wild Hearts", -- [15]
+				"01:28:13> Translated: accept/turnin Speak with Renferrel", -- [16]
+				"01:28:13> Translated: accept/turnin Return to Quinn", -- [17]
+				"01:28:13> frameNeedsUpdating, so updating.", -- [18]
+				"01:28:13> Skipping step: 177 (complete)", -- [19]
+				"01:28:13> SkipStep 1 fast", -- [20]
+				"01:28:13> FocusStep 178 (quiet)", -- [21]
+				"01:28:13> FocusStep 178", -- [22]
+				"01:28:24> Translated: 'get' Arugal's Folly", -- [23]
+				"01:28:24> Translated: accept/turnin Return to Quinn", -- [24]
+				"01:28:24> Translated: accept/turnin Arugal's Folly", -- [25]
+				"01:28:24> frameNeedsUpdating, so updating.", -- [26]
+				"01:28:24> Translated: accept/turnin A Recipe For Death", -- [27]
+				"01:28:24> frameNeedsUpdating, so updating.", -- [28]
+				"01:31:48> Missing from NPC database: Mottled Worg #1766", -- [29]
+				"01:31:48> frameNeedsUpdating, so updating.", -- [30]
+				"01:32:03> GetQuestId: id of quest 'The Deathstalkers' Report' = 449", -- [31]
+				"01:32:03> Completed Quest: The Deathstalkers' Report, id: 449", -- [32]
+				"01:32:03> CacheQuestLog cached 19 quests", -- [33]
+				"01:32:03> CacheQuestLog cached 18 quests", -- [34]
+				"01:32:03> Lost Quest: The Deathstalkers' Report, id: 449, complete: false", -- [35]
+				"01:32:03> Completion: Turn in |cffbb99ff`The Deathstalkers' Report'|r", -- [36]
+				"01:32:04> CacheQuestLog cached 19 quests", -- [37]
+				"01:32:04> New Quest: Speak with Renferrel id 3221", -- [38]
+				"01:32:04> Skipping step: 178 (complete)", -- [39]
+				"01:32:04> SkipStep 1 fast", -- [40]
+				"01:32:04> FocusStep 179 (quiet)", -- [41]
+				"01:32:04> FocusStep 179", -- [42]
+				"01:33:57> GetQuestId: id of quest 'Speak with Renferrel' = 3221", -- [43]
+				"01:33:57> Completed Quest: Speak with Renferrel, id: 3221", -- [44]
+				"01:33:57> CacheQuestLog cached 18 quests", -- [45]
+				"01:33:57> Lost Quest: Speak with Renferrel, id: 3221, complete: false", -- [46]
+				"01:33:57> Skipping step: 179 (complete)", -- [47]
+				"01:33:57> SkipStep 1 fast", -- [48]
+				"01:33:57> FocusStep 180 (quiet)", -- [49]
+				"01:33:57> FocusStep 180", -- [50]
+				"01:34:03> CacheQuestLog cached 19 quests", -- [51]
+				"01:34:03> New Quest: Zinge's Delivery id 1359", -- [52]
+				"01:37:37> CacheQuestLog cached 19 quests", -- [53]
+				"01:37:37> CacheQuestLog cached 19 quests", -- [54]
+				"01:37:37> Skipping step: 180 (complete)", -- [55]
+				"01:37:37> SkipStep 1 fast", -- [56]
+				"01:37:37> FocusStep 181 (quiet)", -- [57]
+				"01:37:37> FocusStep 181", -- [58]
+				"01:37:37> Skipping step: 181 (complete)", -- [59]
+				"01:37:37> SkipStep 1 fast", -- [60]
+				"01:37:37> FocusStep 182 (quiet)", -- [61]
+				"01:37:37> FocusStep 182", -- [62]
+				"01:40:25> GetQuestId: id of quest 'Arugal's Folly' = 422", -- [63]
+				"01:40:25> Completed Quest: Arugal's Folly, id: 422", -- [64]
+				"01:40:25> CacheQuestLog cached 19 quests", -- [65]
+				"01:40:25> CacheQuestLog cached 18 quests", -- [66]
+				"01:40:25> Lost Quest: Arugal's Folly, id: 422, complete: false", -- [67]
+				"01:40:25> Skipping step: 182 (complete)", -- [68]
+				"01:40:25> SkipStep 1 fast", -- [69]
+				"01:40:25> FocusStep 183 (quiet)", -- [70]
+				"01:40:25> FocusStep 183", -- [71]
+				"01:40:25> Skipping step: 183 (possible?)", -- [72]
+				"01:40:25> SkipStep 1 fast", -- [73]
+				"01:40:25> FocusStep 184 (quiet)", -- [74]
+				"01:40:25> FocusStep 184", -- [75]
+				"01:40:25> Skipping step: 184 (complete)", -- [76]
+				"01:40:25> SkipStep 1 fast", -- [77]
+				"01:40:25> FocusStep 185 (quiet)", -- [78]
+				"01:40:25> FocusStep 185", -- [79]
+				"01:40:26> Skipping step: 185 (complete)", -- [80]
+				"01:40:26> SkipStep 1 fast", -- [81]
+				"01:40:26> FocusStep 186 (quiet)", -- [82]
+				"01:40:26> FocusStep 186", -- [83]
+				"01:42:17> ZONE_CHANGED_NEW_AREA (dead?)", -- [84]
+				"01:42:31> ZONE_CHANGED_NEW_AREA (dead?)", -- [85]
+				"01:43:50> 16 Cooking recipes found", -- [86]
+				"01:43:59> 16 Cooking recipes found", -- [87]
+				"01:45:23> 17 Cooking recipes found", -- [88]
+				"01:45:28> 17 Cooking recipes found", -- [89]
+				"01:52:36> CacheQuestLog cached 18 quests", -- [90]
+				"01:52:37> CacheQuestLog cached 19 quests", -- [91]
+				"01:52:37> New Quest: Going, Going, Guano! id 1109", -- [92]
+				"01:52:37> CacheQuestLog cached 19 quests", -- [93]
+				"01:52:41> GetQuestId: id of quest 'Zinge's Delivery' = 1359", -- [94]
+				"01:52:41> Completed Quest: Zinge's Delivery, id: 1359", -- [95]
+				"01:52:41> CacheQuestLog cached 19 quests", -- [96]
+				"01:52:41> CacheQuestLog cached 18 quests", -- [97]
+				"01:52:41> Lost Quest: Zinge's Delivery, id: 1359, complete: false", -- [98]
+				"01:52:46> CacheQuestLog cached 19 quests", -- [99]
+				"01:52:46> New Quest: Sample for Helbrim id 1358", -- [100]
 			},
 			["maint_fetchquestdata"] = true,
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 			["guides_history"] = {
 				{
 					["short"] = "Tauren (1-13)",
@@ -1084,13 +1084,23 @@ ZygorGuidesViewerSettings = {
 				{
 					["short"] = "Orc (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
-					["step"] = 183,
+					["step"] = 191,
 				}, -- [2]
 				{
 					["short"] = "Main Guide (13-20)",
 					["full"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
 					["step"] = 1,
 				}, -- [3]
+				{
+					["short"] = "Troll (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Troll (1-13)",
+					["step"] = 186,
+				}, -- [4]
+				{
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+					["step"] = 172,
+				}, -- [5]
 			},
 			["RecipesKnown"] = {
 				[2538] = true,
@@ -1109,23 +1119,28 @@ ZygorGuidesViewerSettings = {
 				[7841] = true,
 				[2330] = true,
 				[37836] = true,
+				[7827] = true,
+				[2332] = true,
+				[3173] = true,
 				[3276] = true,
+				[3275] = true,
+				[2331] = true,
 				[2544] = true,
 				[7183] = true,
 				[25704] = true,
-				[2331] = true,
 				[3171] = true,
 				[7751] = true,
+				[3277] = true,
 				[8604] = true,
 				[3230] = true,
 				[6413] = true,
+				[7752] = true,
 				[3170] = true,
-				[2332] = true,
 				[4508] = true,
 				[6414] = true,
 				[7753] = true,
 				[8607] = true,
-				[3275] = true,
+				[7934] = true,
 			},
 			["taxis"] = {
 				true, -- [1]
@@ -1138,10 +1153,22 @@ ZygorGuidesViewerSettings = {
 				["Camp Taurajo"] = true,
 				["Orgrimmar"] = true,
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
+			["step"] = 63,
+			["guides_history"] = {
+				{
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+					["step"] = 63,
+				}, -- [1]
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
 			["debuglog"] = {
 				"22:40:47> CacheQuestLog cached 9 quests", -- [1]
 				"22:40:50> CacheQuestLog cached 9 quests", -- [2]
@@ -1244,22 +1271,10 @@ ZygorGuidesViewerSettings = {
 				"22:43:10> FocusStep 63 (quiet)", -- [99]
 				"22:43:10> FocusStep 63", -- [100]
 			},
-			["guides_history"] = {
-				{
-					["short"] = "Undead (1-13)",
-					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-					["step"] = 63,
-				}, -- [1]
-			},
-			["maint_fetchquestdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-			["taxis"] = {
-			},
-			["step"] = 63,
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Cryogenics - TrueWoW"] = {
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 			["guides_history"] = {
 				{
 					["short"] = "Blood Elf (1-13)",
@@ -1267,8 +1282,8 @@ ZygorGuidesViewerSettings = {
 					["step"] = 1,
 				}, -- [1]
 			},
-			["guidename"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -1325,22 +1340,10 @@ ZygorGuidesViewerSettings = {
 				"19:10:04> frameNeedsUpdating, so updating.", -- [51]
 				"19:10:07> Got completed quests list", -- [52]
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
 		["Magistratus - TrueWoW"] = {
-			["maint_fetchitemdata"] = true,
-			["step"] = 156,
-			["guides_history"] = {
-				{
-					["short"] = "Blood Elf (1-13)",
-					["full"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
-					["step"] = 156,
-				}, -- [1]
-			},
-			["maint_fetchquestdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
-			["taxis"] = {
-			},
+			["starting"] = false,
 			["debuglog"] = {
 				"19:03:33> Skipping step: 143 (complete)", -- [1]
 				"19:03:33> SkipStep 1 fast", -- [2]
@@ -1443,7 +1446,19 @@ ZygorGuidesViewerSettings = {
 				"19:03:52> Translated: accept/turnin Prove Your Worth", -- [99]
 				"19:03:52> frameNeedsUpdating, so updating.", -- [100]
 			},
-			["starting"] = false,
+			["guides_history"] = {
+				{
+					["short"] = "Blood Elf (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
+					["step"] = 156,
+				}, -- [1]
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
+			["step"] = 156,
+			["maint_fetchitemdata"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -1462,27 +1477,29 @@ ZygorGuidesViewerSettings = {
 		["Magistratus - TrueWoW"] = "Default",
 	},
 	["profiles"] = {
-		["Magistratus - PrimalWoW (Progressive)"] = {
-			["arrowsmooth"] = true,
+		["Contagion - PrimalWoW (Progressive)"] = {
 			["arrowcam"] = false,
+			["arrowsmooth"] = true,
 		},
 		["Default"] = {
-			["skipobsolete"] = false,
+			["goalupdateflash"] = false,
 			["skincolors"] = {
+				["text"] = {
+					0.7, -- [1]
+					0.8, -- [2]
+				},
 				["back"] = {
 					0.08, -- [1]
 					0.11, -- [2]
 					0.24, -- [3]
 				},
-				["text"] = {
-					0.7, -- [1]
-					0.8, -- [2]
-				},
 			},
 			["fixblizzardautoaccept"] = true,
-			["fullheight"] = 147.0000103264732,
+			["fullheight"] = 299.9999953496677,
+			["showallsteps"] = true,
 			["autoturnin"] = true,
 			["fontsize"] = 13,
+			["foglight"] = false,
 			["arrowposx"] = 966.0001060002212,
 			["goalicons"] = false,
 			["autoaccept"] = true,
@@ -1494,14 +1511,14 @@ ZygorGuidesViewerSettings = {
 			["arrowsmooth"] = true,
 			["analyzereps"] = true,
 			["showcountsteps"] = 3,
-			["goalupdateflash"] = false,
+			["skipobsolete"] = false,
 			["contractmobs"] = true,
 			["resizeup"] = true,
 			["audiocues"] = true,
 		},
-		["Contagion - PrimalWoW (Progressive)"] = {
-			["arrowcam"] = false,
+		["Magistratus - PrimalWoW (Progressive)"] = {
 			["arrowsmooth"] = true,
+			["arrowcam"] = false,
 		},
 	},
 }

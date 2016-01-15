@@ -4,13 +4,13 @@ DropTheCheapestThingDB = {
 		["LDB"] = {
 			["profiles"] = {
 				["Default"] = {
-					["minimap"] = {
-						["hide"] = true,
-					},
 					["text"] = {
 						["itemcount"] = true,
 						["item"] = true,
 						["itemprice"] = true,
+					},
+					["minimap"] = {
+						["hide"] = true,
 					},
 				},
 			},
@@ -24,9 +24,9 @@ DropTheCheapestThingDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
 		["Nerfed - PrimalWoW (Progressive)"] = "Default",
 		["Mittens - PrimalWoW (Progressive)"] = "Default",

@@ -12,3 +12,9 @@ MACRO 16777217 "Maul" INV_Misc_QuestionMark
 /startattack
 /script UIErrorsFrame:Clear()
 END
+MACRO 16777222 "Swipe" INV_Misc_QuestionMark
+#showtooltip
+/cast Swipe (Bear)
+/startattack
+/script UIErrorsFrame:Clear()
+END

@@ -10,7 +10,7 @@ GoldArray = {
 	["VERSION2"] = true,
 	["Magistratus_PrimalWoW (Progressive)::Alliance"] = 0,
 	["SORTBYNAME"] = true,
-	["Wajawamedo_PrimalWoW (Progressive)::Horde"] = 7300,
 	["Shiftace_TrueWoW::Horde"] = 293450,
-	["Unbearabull_PrimalWoW (Progressive)::Horde"] = 328930,
+	["Wajawamedo_PrimalWoW (Progressive)::Horde"] = 7300,
+	["Unbearabull_PrimalWoW (Progressive)::Horde"] = 393090,
 }

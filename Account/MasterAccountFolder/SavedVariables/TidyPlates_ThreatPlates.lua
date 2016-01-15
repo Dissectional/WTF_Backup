@@ -2,13 +2,13 @@
 ThreatPlates3DB = {
 	["char"] = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					nil, -- [1]
 					7, -- [2]
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -19,12 +19,12 @@ ThreatPlates3DB = {
 			},
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					[3] = 1,
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -49,12 +49,12 @@ ThreatPlates3DB = {
 			},
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					[3] = 11,
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -76,13 +76,13 @@ ThreatPlates3DB = {
 			},
 		},
 		["Pastafarian - TrueWoW"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					1, -- [1]
 					[3] = 5,
 				}, -- [1]
 			},
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -123,19 +123,19 @@ ThreatPlates3DB = {
 			},
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["specInfo"] = {
-				{
-					nil, -- [1]
-					10, -- [2]
-					2, -- [3]
-				}, -- [1]
-			},
+			["welcome"] = true,
 			["specName"] = {
 				"Balance", -- [1]
 				"Feral Combat", -- [2]
 				"Restoration", -- [3]
 			},
-			["welcome"] = true,
+			["specInfo"] = {
+				{
+					nil, -- [1]
+					11, -- [2]
+					2, -- [3]
+				}, -- [1]
+			},
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
@@ -149,12 +149,12 @@ ThreatPlates3DB = {
 			},
 		},
 		["Cryogenics - TrueWoW"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					[3] = 10,
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},

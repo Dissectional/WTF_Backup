@@ -12,11 +12,11 @@ DataStore_AuctionsDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -30,7 +30,7 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2015/12/29 01:08",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1452829786,
+				["lastUpdate"] = 1452862123,
 				["Auctions"] = {
 					"0|5772|1||9459|10618|4", -- [1]
 					"0|6274|1||10000|50000|4", -- [2]
@@ -38,14 +38,8 @@ DataStore_AuctionsDB = {
 				},
 				["Bids"] = {
 					"0|7909|5|Bianka|4995|7000|4", -- [1]
-					"0|1210|1|Ricie|231|300|4", -- [2]
-					"0|1210|1|Ricie|231|300|4", -- [3]
-					"0|1210|1|Ricie|231|300|4", -- [4]
-					"0|1210|1|Ricie|231|300|4", -- [5]
-					"0|1210|1|Ricie|231|300|4", -- [6]
-					"0|1210|1|Ricie|231|300|4", -- [7]
 				},
-				["lastVisitDate"] = "2016/01/15 16:49",
+				["lastVisitDate"] = "2016/01/16 01:48",
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451091826,

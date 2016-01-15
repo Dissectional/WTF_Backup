@@ -1,33 +1,33 @@
 
 ElvDB = {
 	["profileKeys"] = {
-		["Iamsham - PrimalWoW (Progressive)"] = "DPS - Melee",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "DPS - Melee",
 		["Saptack - PrimalWoW (Progressive)"] = "DPS - Melee",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "DPS - Melee",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "DPS - Melee",
+		["Iamsham - PrimalWoW (Progressive)"] = "DPS - Melee",
 		["Shiftace - TrueWoW"] = "DPS - Melee",
 		["Lichmydk - TrueWoW"] = "DPS - Melee",
 		["Duglazerp - TrueWoW"] = "DPS - Melee",
 		["Magistratus - PrimalWoW (Progressive)"] = "DPS - Melee",
 		["Pastafarian - TrueWoW"] = "DPS - Caster",
-		["Cryogenics - TrueWoW"] = "DPS - Caster",
+		["Mittens - PrimalWoW (Progressive)"] = "DPS - Caster",
 		["Ellipsis - TrueWoW"] = "DPS - Caster",
 		["Contagion - PrimalWoW (Progressive)"] = "DPS - Caster",
 		["Unbearabull - PrimalWoW (Progressive)"] = "DPS - Melee",
 		["Nerfed - PrimalWoW (Progressive)"] = "DPS - Caster",
-		["Mittens - PrimalWoW (Progressive)"] = "DPS - Caster",
+		["Cryogenics - TrueWoW"] = "DPS - Caster",
 		["Magistratus - TrueWoW"] = "DPS - Melee",
 	},
 	["gold"] = {
 		["TrueWoW"] = {
 			["Parimman"] = 0,
 			["Shiftace"] = 1029315,
-			["Ellipsis"] = 3622574,
+			["Pastafarian"] = 1015439,
 			["Magistratus"] = 920812,
 			["Cryogenics"] = 2043728,
 			["Lichmydk"] = 0,
 			["Duglazerp"] = 23845622,
-			["Pastafarian"] = 1015439,
+			["Ellipsis"] = 3622574,
 		},
 		["PrimalWoW (Progressive)"] = {
 			["Saptack"] = 0,
@@ -35,10 +35,10 @@ ElvDB = {
 			["Nerfed"] = 956,
 			["Wafflestomp"] = 157,
 			["Iamsham"] = 0,
-			["Unbearabull"] = 32893,
-			["Wajawamedo"] = 730,
-			["Contagion"] = 3570,
+			["Unbearabull"] = 39309,
 			["Mittens"] = 17706,
+			["Contagion"] = 3570,
+			["Wajawamedo"] = 730,
 		},
 	},
 	["namespaces"] = {
@@ -48,25 +48,25 @@ ElvDB = {
 	["global"] = {
 		["ignoreIncompatible"] = true,
 		["character"] = {
-			["collapsed"] = true,
 			["orderName"] = "1,2,5,3,7,4",
+			["collapsed"] = true,
 		},
 	},
 	["profiles"] = {
 		["DPS - Caster"] = {
 			["currentTutorial"] = 1,
 			["general"] = {
-				["vendorGrays"] = true,
-				["interruptAnnounce"] = "SAY",
 				["valuecolor"] = {
-					["b"] = 0.99,
-					["g"] = 0.99,
 					["r"] = 0.99,
+					["g"] = 0.99,
+					["b"] = 0.99,
 				},
+				["interruptAnnounce"] = "SAY",
+				["vendorGrays"] = true,
 				["bordercolor"] = {
-					["b"] = 0.31,
-					["g"] = 0.31,
 					["r"] = 0.31,
+					["g"] = 0.31,
+					["b"] = 0.31,
 				},
 				["autoRepair"] = "GUILD",
 				["minimap"] = {
@@ -76,7 +76,7 @@ ElvDB = {
 			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,284,782",
-				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,128",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,571",
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,73",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,284,785",
 				["ElvBar_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,37",
@@ -85,26 +85,26 @@ ElvDB = {
 				["ElvUI_InterruptTrackerHeaderMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,418,374",
 				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-28",
 				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,168",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,3",
+				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-214,-270",
 				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,546,-529",
 				["ElvBar_3"] = "BOTTOM,ElvUIParent,BOTTOM,290,3",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,128",
-				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-421,-225",
-				["ElvBar_5"] = "BOTTOM,ElvUIParent,BOTTOM,-290,3",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,3",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,800",
 				["ShiftAB"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMLEFT,1375,3",
+				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-421,-225",
+				["ElvBar_5"] = "BOTTOM,ElvUIParent,BOTTOM,-290,3",
 				["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-230",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,130",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,109",
 				["ElvUF_PlayerSwingBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,107",
+				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,109",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,130",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,636",
 				["MicrobarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,74",
-				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-214,-270",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,128",
 				["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,454,185",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,516,553",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-25",
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-215,-175",
-				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,571",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,128",
 			},
 			["tooltip"] = {
 				["itemCount"] = "NONE",
@@ -120,21 +120,21 @@ ElvDB = {
 			["unitframe"] = {
 				["colors"] = {
 					["auraBarBuff"] = {
-						["b"] = 0.94,
-						["g"] = 0.8,
 						["r"] = 0.41,
+						["g"] = 0.8,
+						["b"] = 0.94,
 					},
 					["castClassColor"] = true,
 					["healthclass"] = true,
 				},
 				["units"] = {
 					["target"] = {
-						["name"] = {
-							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
-						},
 						["portrait"] = {
 							["overlay"] = true,
 							["enable"] = true,
+						},
+						["name"] = {
+							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
 						},
 						["GPSArrow"] = {
 							["enable"] = false,
@@ -142,15 +142,15 @@ ElvDB = {
 						},
 					},
 					["player"] = {
-						["name"] = {
-							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
-						},
 						["portrait"] = {
 							["overlay"] = true,
 							["enable"] = true,
 							["detachedHeight"] = 291,
 							["detachedWidth"] = 201,
 							["width"] = 50,
+						},
+						["name"] = {
+							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
 						},
 						["castbar"] = {
 							["height"] = 30,
@@ -174,16 +174,11 @@ ElvDB = {
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["buttonsPerRow"] = 5,
 					["buttons"] = 12,
+					["buttonsPerRow"] = 5,
 				},
 				["bar2"] = {
 					["enabled"] = true,
-				},
-				["bar5"] = {
-					["buttonsPerRow"] = 5,
-					["point"] = "BOTTOMRIGHT",
-					["buttons"] = 12,
 				},
 				["barShapeShift"] = {
 					["point"] = "BOTTOMRIGHT",
@@ -193,26 +188,25 @@ ElvDB = {
 					["enabled"] = true,
 					["mouseover"] = true,
 				},
+				["bar5"] = {
+					["buttonsPerRow"] = 5,
+					["point"] = "BOTTOMRIGHT",
+					["buttons"] = 12,
+				},
 			},
 			["layoutSet"] = "dpsCaster",
+			["loseofcontrol"] = {
+				["Root"] = true,
+			},
 			["addOnSkins"] = {
 				["embed"] = {
 					["left"] = "Recount",
 					["embedType"] = "SINGLE",
 				},
-			},
-			["loseofcontrol"] = {
-				["Root"] = true,
 			},
 		},
 		["DPS - Melee"] = {
 			["currentTutorial"] = 1,
-			["addOnSkins"] = {
-				["embed"] = {
-					["embedType"] = "SINGLE",
-					["left"] = "Recount",
-				},
-			},
 			["hideTutorial"] = 1,
 			["chat"] = {
 				["timeStampFormat"] = "%I:%M:%S ",
@@ -220,10 +214,10 @@ ElvDB = {
 			},
 			["layoutSet"] = "dpsMelee",
 			["movers"] = {
-				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,586",
-				["ComboBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,240,184",
+				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-28",
+				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-215,-175",
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1049",
-				["ExperienceBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,418,4",
+				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-25",
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,73",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1048",
 				["ElvBar_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,37",
@@ -231,27 +225,27 @@ ElvDB = {
 				["BuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-215,-29",
 				["ElvUI_InterruptTrackerHeaderMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,418,374",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,128",
-				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,3",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,128",
 				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,168",
 				["LootFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,449,-529",
 				["ElvBar_3"] = "BOTTOM,ElvUIParent,BOTTOM,290,3",
-				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-541,-253",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,130",
-				["ElvBar_5"] = "BOTTOM,ElvUIParent,BOTTOM,-290,3",
+				["WatchFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-213,-270",
 				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-421,-225",
 				["ShiftAB"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMLEFT,1375,3",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,815",
+				["ElvBar_5"] = "BOTTOM,ElvUIParent,BOTTOM,-290,3",
 				["SquareMinimapButtonBarMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-230",
 				["ElvUF_PlayerSwingBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,107",
 				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,241,109",
-				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,815",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,130",
 				["ElvUF_TankMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,651",
 				["MicrobarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,73",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-241,128",
+				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,534,3",
 				["VehicleSeatMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,454,185",
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,817",
-				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-25",
-				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-215,-175",
-				["MinimapMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-28",
+				["ExperienceBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,418,4",
+				["ComboBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,240,184",
+				["ElvUF_AssistMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,586",
 			},
 			["tooltip"] = {
 				["itemCount"] = "NONE",
@@ -261,15 +255,15 @@ ElvDB = {
 				["afk"] = false,
 				["autoRepair"] = "GUILD",
 				["valuecolor"] = {
-					["b"] = 0.04,
-					["g"] = 0.49,
 					["r"] = 1,
+					["g"] = 0.49,
+					["b"] = 0.04,
 				},
 				["vendorGrays"] = true,
 				["bordercolor"] = {
-					["b"] = 0.31,
-					["g"] = 0.31,
 					["r"] = 0.31,
+					["g"] = 0.31,
+					["b"] = 0.31,
 				},
 				["minimap"] = {
 					["locationText"] = "HIDE",
@@ -282,9 +276,9 @@ ElvDB = {
 			["unitframe"] = {
 				["colors"] = {
 					["auraBarBuff"] = {
-						["b"] = 0.79,
-						["g"] = 0.51,
 						["r"] = 0.58,
+						["g"] = 0.51,
+						["b"] = 0.79,
 					},
 					["healthclass"] = true,
 					["castClassColor"] = true,
@@ -305,8 +299,8 @@ ElvDB = {
 					["target"] = {
 						["combobar"] = {
 							["autoHide"] = false,
-							["enable"] = true,
 							["detachedWidth"] = 270,
+							["enable"] = true,
 						},
 						["portrait"] = {
 							["overlay"] = true,
@@ -333,9 +327,11 @@ ElvDB = {
 					["raid"] = {
 						["enable"] = false,
 					},
-					["targettarget"] = {
-						["debuffs"] = {
-							["anchorPoint"] = "TOPRIGHT",
+					["pet"] = {
+						["power"] = {
+							["text_format"] = "[happiness]",
+						},
+						["customTexts"] = {
 						},
 					},
 					["player"] = {
@@ -346,25 +342,25 @@ ElvDB = {
 							["detachedWidth"] = 201,
 							["width"] = 50,
 						},
-						["health"] = {
-							["text_format"] = "[healthcolor][health:current-max]",
+						["name"] = {
+							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
 						},
 						["aurabar"] = {
 							["noConsolidated"] = false,
 							["maxDuration"] = 1800,
 						},
-						["power"] = {
-							["text_format"] = "[powercolor][power:current-max]",
-							["width"] = "spaced",
-						},
-						["customTexts"] = {
-						},
 						["castbar"] = {
 							["width"] = 406,
 							["height"] = 30,
 						},
-						["name"] = {
-							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
+						["customTexts"] = {
+						},
+						["power"] = {
+							["text_format"] = "[powercolor][power:current-max]",
+							["width"] = "spaced",
+						},
+						["health"] = {
+							["text_format"] = "[healthcolor][health:current-max]",
 						},
 						["buffs"] = {
 							["noConsolidated"] = false,
@@ -373,11 +369,9 @@ ElvDB = {
 					["arena"] = {
 						["enable"] = false,
 					},
-					["pet"] = {
-						["power"] = {
-							["text_format"] = "[happiness]",
-						},
-						["customTexts"] = {
+					["targettarget"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "TOPRIGHT",
 						},
 					},
 					["assist"] = {
@@ -418,21 +412,27 @@ ElvDB = {
 					["buttonsPerRow"] = 1,
 				},
 			},
+			["addOnSkins"] = {
+				["embed"] = {
+					["embedType"] = "SINGLE",
+					["left"] = "Recount",
+				},
+			},
 		},
 		["Heals - Caster"] = {
 			["currentTutorial"] = 1,
 			["general"] = {
-				["valuecolor"] = {
-					["r"] = 0.99,
-					["g"] = 0.99,
-					["b"] = 0.99,
-				},
-				["interruptAnnounce"] = "SAY",
 				["vendorGrays"] = true,
+				["interruptAnnounce"] = "SAY",
+				["valuecolor"] = {
+					["b"] = 0.99,
+					["g"] = 0.99,
+					["r"] = 0.99,
+				},
 				["bordercolor"] = {
-					["r"] = 0.31,
-					["g"] = 0.31,
 					["b"] = 0.31,
+					["g"] = 0.31,
+					["r"] = 0.31,
 				},
 				["autoRepair"] = "GUILD",
 				["minimap"] = {
@@ -441,7 +441,7 @@ ElvDB = {
 			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFTElvUIParentBOTTOMLEFT41049",
-				["ElvUF_AssistMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4586",
+				["MinimapMover"] = "TOPRIGHTElvUIParentTOPRIGHT-4-25",
 				["ElvUF_PlayerCastbarMover"] = "BOTTOMElvUIParentBOTTOM073",
 				["ElvUF_RaidMover"] = "TOPLEFTElvUIParentBOTTOMLEFT41048",
 				["ElvBar_2"] = "BOTTOMElvUIParentBOTTOM037",
@@ -450,26 +450,26 @@ ElvDB = {
 				["ElvUF_TargetMover"] = "BOTTOMElvUIParentBOTTOM241128",
 				["ElvUF_TargetTargetMover"] = "BOTTOMElvUIParentBOTTOM0168",
 				["ElvUI_InterruptTrackerHeaderMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT418374",
-				["TotemBarMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT5343",
+				["ElvUF_PlayerMover"] = "BOTTOMElvUIParentBOTTOM-241128",
 				["LootFrameMover"] = "TOPLEFTElvUIParentTOPLEFT449-529",
 				["ElvBar_3"] = "BOTTOMElvUIParentBOTTOM2903",
-				["WatchFrameMover"] = "TOPRIGHTElvUIParentTOPRIGHT-214-264",
-				["BNETMover"] = "TOPRIGHTElvUIParentTOPRIGHT-421-222",
-				["ElvBar_5"] = "BOTTOMElvUIParentBOTTOM-2903",
+				["TotemBarMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT5343",
 				["ElvUF_RaidpetMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4815",
 				["ShiftAB"] = "BOTTOMRIGHTElvUIParentBOTTOMLEFT13753",
+				["BNETMover"] = "TOPRIGHTElvUIParentTOPRIGHT-421-222",
+				["ElvBar_5"] = "BOTTOMElvUIParentBOTTOM-2903",
 				["SquareMinimapButtonBarMover"] = "TOPRIGHTElvUIParentTOPRIGHT-4-227",
-				["ElvUF_PlayerSwingBarMover"] = "BOTTOMElvUIParentBOTTOM-241107",
-				["ElvUF_TargetCastbarMover"] = "BOTTOMElvUIParentBOTTOM241109",
 				["ElvUF_PetMover"] = "BOTTOMElvUIParentBOTTOM0130",
+				["ElvUF_TargetCastbarMover"] = "BOTTOMElvUIParentBOTTOM241109",
+				["ElvUF_PlayerSwingBarMover"] = "BOTTOMElvUIParentBOTTOM-241107",
 				["ElvUF_TankMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4651",
 				["MicrobarMover"] = "BOTTOMElvUIParentBOTTOM073",
-				["ElvUF_PlayerMover"] = "BOTTOMElvUIParentBOTTOM-241128",
+				["WatchFrameMover"] = "TOPRIGHTElvUIParentTOPRIGHT-214-264",
 				["VehicleSeatMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT454185",
 				["ElvUF_PartyMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT4817",
 				["AlertFrameMover"] = "TOPElvUIParentTOP0-25",
 				["DebuffsMover"] = "TOPRIGHTElvUIParentTOPRIGHT-215-172",
-				["MinimapMover"] = "TOPRIGHTElvUIParentTOPRIGHT-4-25",
+				["ElvUF_AssistMover"] = "TOPLEFTElvUIParentBOTTOMLEFT4586",
 			},
 			["tooltip"] = {
 				["itemCount"] = "NONE",
@@ -481,9 +481,9 @@ ElvDB = {
 			["unitframe"] = {
 				["colors"] = {
 					["auraBarBuff"] = {
-						["r"] = 0.99,
-						["g"] = 0.99,
 						["b"] = 0.99,
+						["g"] = 0.99,
+						["r"] = 0.99,
 					},
 					["castClassColor"] = true,
 					["healthclass"] = true,
@@ -501,15 +501,15 @@ ElvDB = {
 					["player"] = {
 						["customTexts"] = {
 						},
+						["name"] = {
+							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
+						},
 						["portrait"] = {
 							["detachedHeight"] = 291,
 							["enable"] = true,
 							["overlay"] = true,
 							["detachedWidth"] = 201,
 							["width"] = 50,
-						},
-						["name"] = {
-							["text_format"] = "[namecolor][name:long] [difficultycolor][smartlevel] [shortclassification]",
 						},
 						["castbar"] = {
 							["height"] = 30,
@@ -540,15 +540,11 @@ ElvDB = {
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["buttons"] = 12,
 					["buttonsPerRow"] = 5,
+					["buttons"] = 12,
 				},
 				["bar2"] = {
 					["enabled"] = true,
-				},
-				["microbar"] = {
-					["enabled"] = true,
-					["mouseover"] = true,
 				},
 				["bar5"] = {
 					["buttonsPerRow"] = 5,
@@ -559,16 +555,20 @@ ElvDB = {
 					["point"] = "BOTTOMRIGHT",
 					["buttonsPerRow"] = 1,
 				},
+				["microbar"] = {
+					["enabled"] = true,
+					["mouseover"] = true,
+				},
 			},
 			["layoutSet"] = "healer",
-			["loseofcontrol"] = {
-				["Root"] = true,
-			},
 			["addOnSkins"] = {
 				["embed"] = {
 					["left"] = "Recount",
 					["embedType"] = "SINGLE",
 				},
+			},
+			["loseofcontrol"] = {
+				["Root"] = true,
 			},
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
@@ -597,11 +597,11 @@ ElvPrivateDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -630,6 +630,9 @@ ElvPrivateDB = {
 			["install_complete"] = "5.19",
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["nameplate"] = {
+				["enable"] = false,
+			},
 			["theme"] = "class",
 			["install_complete"] = "5.19",
 		},
@@ -652,7 +655,10 @@ ElvPrivateDB = {
 			["theme"] = "class",
 			["install_complete"] = "5.19",
 		},
-		["Duglazerp - TrueWoW"] = {
+		["Pastafarian - TrueWoW"] = {
+			["nameplate"] = {
+				["enable"] = false,
+			},
 			["theme"] = "class",
 			["install_complete"] = "5.19",
 		},
@@ -674,10 +680,7 @@ ElvPrivateDB = {
 			["theme"] = "class",
 			["install_complete"] = "5.20",
 		},
-		["Pastafarian - TrueWoW"] = {
-			["nameplate"] = {
-				["enable"] = false,
-			},
+		["Duglazerp - TrueWoW"] = {
 			["theme"] = "class",
 			["install_complete"] = "5.19",
 		},
