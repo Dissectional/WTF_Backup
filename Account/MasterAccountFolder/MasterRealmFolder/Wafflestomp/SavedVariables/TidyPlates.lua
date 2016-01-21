@@ -1,5 +1,5 @@
 
 TidyPlatesOptions = {
-	["secondary"] = "None",
 	["primary"] = "None",
+	["secondary"] = "None",
 }

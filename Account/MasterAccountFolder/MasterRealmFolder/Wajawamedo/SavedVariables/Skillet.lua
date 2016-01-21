@@ -1,6 +1,7 @@
 
 SkilletDBPC = {
 	["global"] = {
+		["include_alts"] = false,
 		["tradeskill_options"] = {
 			["Cooking"] = {
 				["filtertext"] = "",

@@ -1,5 +1,24 @@
 
 MacroBankDB = {
+	["profileKeys"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = "Default",
+		["Saptack - PrimalWoW (Progressive)"] = "Default",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Shiftace - TrueWoW"] = "Default",
+		["Parimman - TrueWoW"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
+		["Magistratus - PrimalWoW (Progressive)"] = "Default",
+		["Pastafarian - TrueWoW"] = "Default",
+		["Cryogenics - TrueWoW"] = "Default",
+		["Ellipsis - TrueWoW"] = "Default",
+		["Contagion - PrimalWoW (Progressive)"] = "Default",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
+		["Nerfed - PrimalWoW (Progressive)"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Magistratus - TrueWoW"] = "Default",
+	},
+	["DBVersion"] = 4,
 	["global"] = {
 		["Macros"] = {
 			{
@@ -518,23 +537,41 @@ MacroBankDB = {
 						"/cast [@pet] Dark Intent", -- [4]
 					}, -- [5]
 					{
+						"Delete all but n Soul Shards", -- [1]
+						"Soul Shard", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip Soul Shard\n/run i=\"Soul Shard\"d=GetItemCount(i)-20 for x=0,4 do for y=1,GetContainerNumSlots(x) do if (d>0) then l=GetContainerItemLink(x,y) if l and GetItemInfo(l)==i then PickupContainerItem(x,y) DeleteCursorItem() d=d-1 end end end end", -- [4]
+					}, -- [6]
+					{
 						"Demonology - Modifier for Soul Fire", -- [1]
 						"Demonology", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Soul Fire;reset=target Curse of the Elements,Bane of Doom,Immolate,Hand of Gul'dan,Corruption,Incinerate,Incinerate,Incinerate,Incinerate,Incinerate\n/castsequence reset=20 Metamorphosis,Immolation Aura,Demon Soul\n/cast Soulburn\n/use 13", -- [4]
-					}, -- [6]
+					}, -- [7]
 					{
 						"Destruction - Modifier for Conflagrate", -- [1]
 						"Destruction", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/castsequence [mod]Conflagrate;reset=target Curse of the Elements,Bane of Doom,null\n/castsequence reset=target Soul Fire,Immolate,Corruption,Soul Fire,Chaos Bolt,Incinerate\n/castsequence reset=60 Soulburn,Demon Soul\n/cast Shadowburn\n/use 13\n/use 14", -- [4]
-					}, -- [7]
+					}, -- [8]
+					{
+						"Healthstone", -- [1]
+						"Healthstone", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip Minor Healthstone\n/use [nomod] Minor Healthstone\n/cast [button:2] Create Healthstone\n/cast [mod] Create Healthstone", -- [4]
+					}, -- [9]
+					{
+						"PetAttack", -- [1]
+						"PetAttack", -- [2]
+						"Interface\\Icons\\Ability_GhoulFrenzy", -- [3]
+						"/petattack [@mouseover,harm,nodead][@target,harm,nodead]\n/petfollow [@pettarget,exists]", -- [4]
+					}, -- [10]
 					{
 						"PetCast - Sacrifice", -- [1]
 						"Sacrifice", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/cast Sacrifice\n", -- [4]
-					}, -- [8]
+					}, -- [11]
 				}, -- [2]
 			}, -- [11]
 			{
@@ -633,25 +670,6 @@ MacroBankDB = {
 				}, -- [2]
 			}, -- [12]
 		},
-	},
-	["DBVersion"] = 4,
-	["profileKeys"] = {
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
-		["Saptack - PrimalWoW (Progressive)"] = "Default",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
-		["Iamsham - PrimalWoW (Progressive)"] = "Default",
-		["Shiftace - TrueWoW"] = "Default",
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
-		["Duglazerp - TrueWoW"] = "Default",
-		["Magistratus - PrimalWoW (Progressive)"] = "Default",
-		["Parimman - TrueWoW"] = "Default",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
-		["Ellipsis - TrueWoW"] = "Default",
-		["Contagion - PrimalWoW (Progressive)"] = "Default",
-		["Cryogenics - TrueWoW"] = "Default",
-		["Nerfed - PrimalWoW (Progressive)"] = "Default",
-		["Pastafarian - TrueWoW"] = "Default",
-		["Magistratus - TrueWoW"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

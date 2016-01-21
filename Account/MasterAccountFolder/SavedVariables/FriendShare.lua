@@ -1,74 +1,74 @@
 
 FriendShare_GlobalFriends = {
 	["TrueWoW-Horde"] = {
-		["Leefa"] = "Leefa",
-		["Kagoma"] = "Kagoma",
 		["Lowlypoop"] = "Lowlypoop",
-	},
-	["TrueWoW-Alliance"] = {
+		["Kagoma"] = "Kagoma",
+		["Leefa"] = "Leefa",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["TrueWoW-Alliance"] = {
 	},
 }
 FriendShare_RemovedFriends = {
 	["TrueWoW-Horde"] = {
 	},
-	["TrueWoW-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["TrueWoW-Alliance"] = {
 	},
 }
 FriendShare_Alts = {
 	["TrueWoW-Horde"] = {
 		["Cryogenics"] = "Cryogenics",
-		["Pastafarian"] = "Pastafarian",
+		["Ellipsis"] = "Ellipsis",
 		["Magistratus"] = "Magistratus",
 		["Shiftace"] = "Shiftace",
 		["Lichmydk"] = "Lichmydk",
 		["Duglazerp"] = "Duglazerp",
-		["Ellipsis"] = "Ellipsis",
-	},
-	["TrueWoW-Alliance"] = {
-		["Parimman"] = "Parimman",
+		["Pastafarian"] = "Pastafarian",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 		["Magistratus"] = "Magistratus",
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
-		["Wajawamedo"] = "Wajawamedo",
+		["Wafflestomp"] = "Wafflestomp",
 		["Contagion"] = "Contagion",
 		["Iamsham"] = "Iamsham",
-		["Mittens"] = "Mittens",
+		["Nerfed"] = "Nerfed",
 		["Unbearabull"] = "Unbearabull",
 		["Saptack"] = "Saptack",
-		["Nerfed"] = "Nerfed",
-		["Wafflestomp"] = "Wafflestomp",
+		["Mittens"] = "Mittens",
+		["Wajawamedo"] = "Wajawamedo",
+	},
+	["TrueWoW-Alliance"] = {
+		["Parimman"] = "Parimman",
 	},
 }
 FriendShare_AutoAlts = false
 IgnoreShare_GlobalIgnores = {
 	["TrueWoW-Horde"] = {
-		["Woolea"] = "Woolea",
 		["Frukwan"] = "Frukwan",
-	},
-	["TrueWoW-Alliance"] = {
+		["Woolea"] = "Woolea",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["TrueWoW-Alliance"] = {
 	},
 }
 IgnoreShare_RemovedIgnores = {
 	["TrueWoW-Horde"] = {
 	},
-	["TrueWoW-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["TrueWoW-Alliance"] = {
 	},
 }

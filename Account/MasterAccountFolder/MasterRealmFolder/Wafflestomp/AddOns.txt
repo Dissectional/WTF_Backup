@@ -4,8 +4,8 @@ AtlasLootFu: enabled
 !BugGrabber: enabled
 BuggedChecker: disabled
 TidyPlates: enabled
-TidyPlates_Grey: disabled
-TidyPlates_Neon: disabled
+TidyPlates_Grey: enabled
+TidyPlates_Neon: enabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
 TourGuide_LunarFestival: disabled
@@ -129,7 +129,7 @@ TitanRepair: enabled
 TitanXP: enabled
 Titan: enabled
 TitanReputation: enabled
-TourGuide: disabled
+TourGuide: enabled
 VendorBait: enabled
 SquareMinimapButtons: enabled
 DBM-Core: enabled
@@ -192,7 +192,7 @@ Forte_Summon: disabled
 Forte_Warrior: disabled
 GearScore: disabled
 GTFO: disabled
-HealBot: disabled
+HealBot: enabled
 Necrosis: disabled
 Omen: disabled
 Prat-3.0: disabled
@@ -260,3 +260,5 @@ LibGratuity-3.0: enabled
 LibKeyBound-1.0: enabled
 LibStickyFrames-2.0: enabled
 LibLordFarlander-2.0: enabled
+WoWPro: disabled
+WoWPro_Leveling: disabled

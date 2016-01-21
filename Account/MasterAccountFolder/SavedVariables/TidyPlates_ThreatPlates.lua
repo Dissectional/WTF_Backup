@@ -5,7 +5,7 @@ ThreatPlates3DB = {
 			["specInfo"] = {
 				{
 					nil, -- [1]
-					7, -- [2]
+					8, -- [2]
 				}, -- [1]
 			},
 			["welcome"] = true,
@@ -21,7 +21,7 @@ ThreatPlates3DB = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["specInfo"] = {
 				{
-					[3] = 1,
+					[3] = 5,
 				}, -- [1]
 			},
 			["welcome"] = true,
@@ -49,12 +49,12 @@ ThreatPlates3DB = {
 			},
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
-					[3] = 11,
+					[3] = 14,
 				}, -- [1]
 			},
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -76,13 +76,13 @@ ThreatPlates3DB = {
 			},
 		},
 		["Pastafarian - TrueWoW"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					1, -- [1]
 					[3] = 5,
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -113,6 +113,11 @@ ThreatPlates3DB = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
+			["specInfo"] = {
+				{
+					5, -- [1]
+				}, -- [1]
+			},
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -124,11 +129,6 @@ ThreatPlates3DB = {
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
-			["specName"] = {
-				"Balance", -- [1]
-				"Feral Combat", -- [2]
-				"Restoration", -- [3]
-			},
 			["specInfo"] = {
 				{
 					nil, -- [1]
@@ -136,25 +136,30 @@ ThreatPlates3DB = {
 					2, -- [3]
 				}, -- [1]
 			},
+			["specName"] = {
+				"Balance", -- [1]
+				"Feral Combat", -- [2]
+				"Restoration", -- [3]
+			},
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
-			["spec"] = {
-				["primary"] = false,
-			},
 			["specName"] = {
 				"Arcane", -- [1]
 				"Fire", -- [2]
 				"Frost", -- [3]
 			},
+			["spec"] = {
+				["primary"] = false,
+			},
 		},
 		["Cryogenics - TrueWoW"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					[3] = 10,
 				}, -- [1]
 			},
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},

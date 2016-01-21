@@ -8,13 +8,13 @@ MiniPetDB = {
 				[-17707] = 1452830226,
 				[-10677] = 1452860485,
 				[-17708] = 1452804848,
-				[-32298] = 1452830227,
-				[-52615] = 1452804854,
-				[-17709] = 1452830224,
-				[-24988] = 1452830228,
-				[-61855] = 1452830222,
-				[-69002] = 1452830223,
 				[-78381] = 1452830228,
+				[-24988] = 1452830228,
+				[-17709] = 1452830224,
+				[-69002] = 1452830223,
+				[-61855] = 1452830222,
+				[-52615] = 1452804854,
+				[-32298] = 1452830227,
 			},
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
@@ -24,12 +24,13 @@ MiniPetDB = {
 				[-17707] = 1452805095,
 				[-10688] = 1452680175,
 				[-17708] = 1452805274,
-				[-24988] = 1452805419,
+				[-32298] = 1452805405,
+				[-61855] = 1452804936,
 				[-17709] = 1452805094,
 				[-69002] = 1452805026,
-				[-61855] = 1452804936,
-				[-32298] = 1452805405,
 				[-52615] = 1452805276,
+				[-24988] = 1452805419,
+				[-67416] = 1452940632,
 			},
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
@@ -39,19 +40,19 @@ MiniPetDB = {
 				[-17707] = 1452830277,
 				[-10688] = 1452681498,
 				[-17708] = 1452830275,
-				[-61855] = 1452830279,
+				[-53082] = 1452830278,
 				[-17709] = 1452830278,
 				[-24988] = 1452830276,
 				[-52615] = 1452830274,
 				[-69002] = 1452830279,
-				[-53082] = 1452830278,
+				[-61855] = 1452830279,
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Contagion - PrimalWoW (Progressive)"] = "Default",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
+		["Contagion - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
 		["Nerfed - PrimalWoW (Progressive)"] = "Default",
 		["Mittens - PrimalWoW (Progressive)"] = "Default",
@@ -74,13 +75,7 @@ MiniPetDB = {
 				["minor"] = 1,
 				["major"] = 5,
 			},
-			["enchantOrder"] = {
-				43626, -- [1]
-				35223, -- [2]
-				43352, -- [3]
-				37460, -- [4]
-				44820, -- [5]
-			},
+			["AutoSummon"] = true,
 			["LastWoWVersion"] = 30300,
 			["Button"] = {
 				["posY"] = 58.31109277892256,
@@ -90,7 +85,13 @@ MiniPetDB = {
 			["GiveButtonWarning"] = false,
 			["GiveMountWarning"] = false,
 			["GiveTextWarning"] = false,
-			["AutoSummon"] = true,
+			["enchantOrder"] = {
+				43626, -- [1]
+				35223, -- [2]
+				43352, -- [3]
+				37460, -- [4]
+				44820, -- [5]
+			},
 			["EquipmentCheck"] = true,
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {

@@ -1,23 +1,5 @@
 
 Postal3DB = {
-	["global"] = {
-		["BlackBook"] = {
-			["alts"] = {
-				"Contagion|PrimalWoW (Progressive)|Horde|9|WARLOCK", -- [1]
-				"Cryogenics|TrueWoW|Horde|19|MAGE", -- [2]
-				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [3]
-				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [4]
-				"Magistratus|TrueWoW|Horde|20|PALADIN", -- [5]
-				"Mittens|PrimalWoW (Progressive)|Horde|20|PRIEST", -- [6]
-				"Nerfed|PrimalWoW (Progressive)|Horde|5|MAGE", -- [7]
-				"Pastafarian|TrueWoW|Horde|15|PRIEST", -- [8]
-				"Shiftace|TrueWoW|Horde|18|DRUID", -- [9]
-				"Unbearabull|PrimalWoW (Progressive)|Horde|22|DRUID", -- [10]
-				"Wafflestomp|PrimalWoW (Progressive)|Horde|10|WARRIOR", -- [11]
-				"Wajawamedo|PrimalWoW (Progressive)|Horde|16|HUNTER", -- [12]
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
@@ -30,18 +12,37 @@ Postal3DB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Contagion|PrimalWoW (Progressive)|Horde|13|WARLOCK", -- [1]
+				"Cryogenics|TrueWoW|Horde|19|MAGE", -- [2]
+				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [3]
+				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [4]
+				"Magistratus|TrueWoW|Horde|20|PALADIN", -- [5]
+				"Mittens|PrimalWoW (Progressive)|Horde|21|PRIEST", -- [6]
+				"Nerfed|PrimalWoW (Progressive)|Horde|8|MAGE", -- [7]
+				"Pastafarian|TrueWoW|Horde|15|PRIEST", -- [8]
+				"Shiftace|TrueWoW|Horde|18|DRUID", -- [9]
+				"Unbearabull|PrimalWoW (Progressive)|Horde|22|DRUID", -- [10]
+				"Wafflestomp|PrimalWoW (Progressive)|Horde|11|WARRIOR", -- [11]
+				"Wajawamedo|PrimalWoW (Progressive)|Horde|17|HUNTER", -- [12]
+			},
+		},
 	},
 	["profiles"] = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Mittens", -- [1]
+					"Contagion", -- [2]
 				},
 			},
 		},
@@ -50,11 +51,11 @@ Postal3DB = {
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Wajawamedo", -- [1]
-					"Unbearabull", -- [2]
-					"Nerfed", -- [3]
-					"Contagion", -- [4]
-					"Wafflestomp", -- [5]
+					"Wafflestomp", -- [1]
+					"Wajawamedo", -- [2]
+					"Unbearabull", -- [3]
+					"Nerfed", -- [4]
+					"Contagion", -- [5]
 				},
 			},
 		},
@@ -72,8 +73,10 @@ Postal3DB = {
 				["recent"] = {
 					"Mittens", -- [1]
 					"Wajawamedo", -- [2]
-					"Jerrak", -- [3]
-					"Katherwind", -- [4]
+					"Contagion", -- [3]
+					"Wafflestomp", -- [4]
+					"Jerrak", -- [5]
+					"Katherwind", -- [6]
 				},
 			},
 		},
@@ -103,9 +106,14 @@ Postal3DB = {
 				},
 			},
 		},
-		["Parimman - TrueWoW"] = {
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Mittens", -- [1]
+				},
+			},
 		},
 		["Cryogenics - TrueWoW"] = {
 			["BlackBook"] = {
@@ -117,7 +125,7 @@ Postal3DB = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		["Parimman - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 			["BlackBook"] = {

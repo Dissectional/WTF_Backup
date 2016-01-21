@@ -12,16 +12,16 @@ AltoholicDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "A16QSAD59JGT16JAUAPS",
+			["Lola"] = "I05EPAW30PGH21ESGIPP",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 			["TabSummaryMode"] = 1,
@@ -55,7 +55,8 @@ AltoholicDB = {
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
 				["Calendar"] = {
-					"2016-01-09|02:30|Raid|1|8", -- [1]
+					"2016-01-15|02:30|UBRS|1|8", -- [1]
+					"2016-01-17|20:00|VK Raid|1|8", -- [2]
 				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {

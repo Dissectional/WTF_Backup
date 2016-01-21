@@ -1,7 +1,7 @@
 
 BugSackDB = {
-	["soundMedia"] = "BugSack: Fatality",
 	["auto"] = false,
+	["soundMedia"] = "BugSack: Fatality",
 	["mute"] = false,
 	["filterAddonMistakes"] = true,
 	["chatframe"] = false,

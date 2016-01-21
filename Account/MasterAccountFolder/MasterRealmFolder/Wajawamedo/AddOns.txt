@@ -162,8 +162,8 @@ Talented_GlyphFrame: disabled
 Talented_SpecTabs: disabled
 TankPoints: disabled
 TidyPlates: enabled
-TidyPlates_Grey: disabled
-TidyPlates_Neon: disabled
+TidyPlates_Grey: enabled
+TidyPlates_Neon: enabled
 TidyPlates_ThreatPlates: enabled
 TitanAmmo: enabled
 TitanBag: disabled
@@ -179,7 +179,7 @@ TitanXP: enabled
 Titan: enabled
 TitanReputation: enabled
 TomTom: disabled
-TourGuide: disabled
+TourGuide: enabled
 TourGuide_FlawsGuides: disabled
 TourGuide_LunarFestival: disabled
 TourGuide_MidsummerFestival: disabled
@@ -209,7 +209,7 @@ DBM-VoA: enabled
 DBM-WorldEvents: enabled
 RandomPet30: disabled
 ZygorGuidesViewer: enabled
-HealBot: disabled
+HealBot: enabled
 Prat-3.0: disabled
 Prat-3.0_Libraries: disabled
 Atlas: enabled
@@ -259,3 +259,5 @@ LibGratuity-3.0: enabled
 LibKeyBound-1.0: enabled
 LibStickyFrames-2.0: enabled
 LibLordFarlander-2.0: enabled
+WoWPro: disabled
+WoWPro_Leveling: disabled

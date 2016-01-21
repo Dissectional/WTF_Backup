@@ -13,20 +13,18 @@ EQ2DB = {
 		["Shiftace - TrueWoW"] = "global",
 		["Magistratus - PrimalWoW (Progressive)"] = "global",
 		["Duglazerp - TrueWoW"] = "global",
-		["Parimman - TrueWoW"] = "global",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "global",
 		["Contagion - PrimalWoW (Progressive)"] = "global",
 		["Cryogenics - TrueWoW"] = "global",
 		["Nerfed - PrimalWoW (Progressive)"] = "global",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "global",
+		["Parimman - TrueWoW"] = "global",
 		["Magistratus - TrueWoW"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
 			["track"] = true,
-			["querytime"] = 1452850787,
+			["querytime"] = 1453199995,
 			["unknowns"] = {
-				[24890] = "159||01/15/16||query",
-				[24882] = "159||01/15/16||query",
 				[14199] = "159||12/21/15||Proof of Demise: The Black Knight||Trial of the Champion",
 			},
 		},

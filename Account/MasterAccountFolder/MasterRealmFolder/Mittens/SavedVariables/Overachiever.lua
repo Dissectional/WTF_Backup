@@ -4,9 +4,10 @@ Overachiever_CharVars = {
 }
 Overachiever_CharVars_Consumed = {
 	["Drink"] = {
-		[1179] = true,
-		[20709] = true,
 		[159] = true,
+		[2288] = true,
+		[20709] = true,
+		[1179] = true,
 	},
 	["Food"] = {
 		[5473] = true,
@@ -16,10 +17,12 @@ Overachiever_CharVars_Consumed = {
 		[6303] = true,
 		[2287] = true,
 		[5474] = true,
+		[4605] = true,
 		[11584] = true,
+		[5525] = true,
 		[4537] = true,
 		[4540] = true,
-		[4536] = true,
+		[2681] = true,
 		[2679] = true,
 		[6289] = true,
 		[30816] = true,
@@ -32,8 +35,8 @@ Overachiever_CharVars_Consumed = {
 		[3448] = true,
 		[6361] = true,
 		[21071] = true,
-		[2681] = true,
-		[6299] = true,
+		[4536] = true,
 		[117] = true,
+		[6299] = true,
 	},
 }

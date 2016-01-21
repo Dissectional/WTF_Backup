@@ -12,11 +12,11 @@ LightHeadedDB = {
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -42,7 +42,7 @@ LightHeadedDB = {
 		},
 		["Duglazerp - TrueWoW"] = {
 		},
-		["Parimman - TrueWoW"] = {
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
@@ -50,7 +50,7 @@ LightHeadedDB = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		["Parimman - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},

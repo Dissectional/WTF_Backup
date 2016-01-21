@@ -1,11 +1,11 @@
 Stubby: enabled
 TidyPlates: enabled
-TidyPlates_Neon: disabled
+TidyPlates_Neon: enabled
 AckisRecipeList: enabled
 AtlasLootFu: enabled
 !BugGrabber: enabled
 BuggedChecker: disabled
-TidyPlates_Grey: disabled
+TidyPlates_Grey: enabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
 TourGuide_LunarFestival: disabled
@@ -221,7 +221,7 @@ ZygorGuidesViewer: enabled
 GFW_FeedOMatic: disabled
 Collectinator: enabled
 DropTheCheapestThing: enabled
-HealBot: disabled
+HealBot: enabled
 MiniPet: enabled
 TipTac: disabled
 TipTacItemRef: disabled

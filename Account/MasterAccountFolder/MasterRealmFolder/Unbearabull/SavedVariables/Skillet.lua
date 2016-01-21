@@ -4,7 +4,7 @@ SkilletDBPC = {
 		["tradeSkillLocation_x"] = -65.00009936665902,
 		["tradeskill_options"] = {
 			["Cooking"] = {
-				["filtertext"] = "",
+				["filtertext"] = "bri",
 			},
 			["First Aid"] = {
 				["filtertext"] = "",

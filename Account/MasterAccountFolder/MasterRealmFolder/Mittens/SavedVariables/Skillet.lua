@@ -1,7 +1,7 @@
 
 SkilletDBPC = {
 	["global"] = {
-		["tradeSkillLocation_x"] = -147.9999477521492,
+		["tradeSkillLocation_x"] = 218.9997066871299,
 		["tradeskill_options"] = {
 			["Tailoring"] = {
 				["filtertext"] = "",
@@ -13,10 +13,14 @@ SkilletDBPC = {
 				["filtertext"] = "",
 			},
 			["Enchanting"] = {
+				["hidetrivial"] = false,
+				["hideuncraftable"] = false,
+				["sortmethod"] = "None",
 				["filtertext"] = "",
 			},
 		},
-		["tradeSkillLocation_point"] = "CENTER",
-		["tradeSkillLocation_y"] = -108.9999634128268,
+		["tradeSkillLocation_point"] = "TOP",
+		["tradeSkillLocation_y"] = -108.0001047692507,
+		["include_alts"] = false,
 	},
 }

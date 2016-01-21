@@ -27,12 +27,12 @@ gOutfitter_Settings = {
 					["InvType"] = "INVTYPE_CLOAK",
 					["Code"] = 3322,
 					["SubCode"] = 0,
-					["Link"] = "|cffffffff|Hitem:3322:0:0:0:0:0:0:0:6|h[Wispy Cloak]|h|r",
 					["JewelCode2"] = 0,
-					["UniqueID"] = 0,
+					["Link"] = "|cffffffff|Hitem:3322:0:0:0:0:0:0:0:6|h[Wispy Cloak]|h|r",
 					["JewelCode1"] = 0,
-					["EnchantCode"] = 0,
+					["UniqueID"] = 0,
 					["Name"] = "Wispy Cloak",
+					["EnchantCode"] = 0,
 					["SubType"] = "Cloth",
 					["Level"] = 6,
 					["JewelCode3"] = 0,
@@ -361,7 +361,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["WaistSlot"] = {
+					["HandsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -372,7 +372,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["UniqueID"] = 0,
 					},
-					["HandsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -438,13 +438,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
+				["ScriptID"] = "Riding",
 				["ScriptLockupCount"] = 0,
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
-				["CategoryID"] = "Accessory",
+				["Name"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -452,8 +448,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["ScriptID"] = "Riding",
-				["Name"] = "Riding",
+				["CategoryID"] = "Accessory",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 			}, -- [4]
 			{
 				["Items"] = {

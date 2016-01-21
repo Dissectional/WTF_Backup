@@ -3,8 +3,8 @@ AtlasLootFu: enabled
 !BugGrabber: enabled
 BuggedChecker: disabled
 TidyPlates: enabled
-TidyPlates_Grey: disabled
-TidyPlates_Neon: disabled
+TidyPlates_Grey: enabled
+TidyPlates_Neon: enabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
 TourGuide_LunarFestival: disabled
@@ -195,7 +195,7 @@ TitanXP: enabled
 Titan: enabled
 TitanReputation: enabled
 TomTom: disabled
-TourGuide: disabled
+TourGuide: enabled
 VendorBait: enabled
 !!!Zoom!!!: enabled
 ElvUI: enabled
@@ -221,7 +221,7 @@ ZygorGuidesViewer: enabled
 GFW_FeedOMatic: disabled
 Collectinator: enabled
 DropTheCheapestThing: enabled
-HealBot: disabled
+HealBot: enabled
 MiniPet: enabled
 TipTac: disabled
 TipTacItemRef: disabled
@@ -259,3 +259,5 @@ Waterfall-1.0: enabled
 AbacusLib: enabled
 WindowLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
+WoWPro: disabled
+WoWPro_Leveling: disabled

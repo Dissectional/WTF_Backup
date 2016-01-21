@@ -7,10 +7,10 @@ AckisRecipeList: enabled
 AtlasLootFu: enabled
 BuggedChecker: disabled
 TidyPlates: enabled
-TidyPlates_Grey: disabled
-TidyPlates_Neon: disabled
+TidyPlates_Grey: enabled
+TidyPlates_Neon: enabled
 TidyPlates_ThreatPlates: enabled
-TourGuide: disabled
+TourGuide: enabled
 TourGuide_FlawsGuides: disabled
 TourGuide_LunarFestival: disabled
 TourGuide_MidsummerFestival: disabled
@@ -222,7 +222,7 @@ ZygorGuidesViewer: enabled
 GFW_FeedOMatic: disabled
 Collectinator: enabled
 DropTheCheapestThing: enabled
-HealBot: disabled
+HealBot: enabled
 MiniPet: enabled
 TipTac: disabled
 TipTacItemRef: disabled
@@ -260,3 +260,5 @@ LibGratuity-3.0: enabled
 LibKeyBound-1.0: enabled
 LibStickyFrames-2.0: enabled
 LibLordFarlander-2.0: enabled
+WoWPro: disabled
+WoWPro_Leveling: disabled
