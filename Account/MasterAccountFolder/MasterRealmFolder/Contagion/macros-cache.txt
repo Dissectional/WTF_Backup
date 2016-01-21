@@ -1,0 +1,16 @@
+MACRO 16777218 "hbCrashProt_0" Ability_Creature_Disease_02
+1:N
+END
+MACRO 16777219 "hbCrashProt_1" Ability_Creature_Disease_02
+Con:p:0000000000010018:Mae:g1:00000000000105C5:Mez:gpet1:F140003D5F000CF7:
+END
+MACRO 16777220 "Healthstone" INV_Misc_QuestionMark
+#showtooltip Minor Healthstone
+/use [nomod] Minor Healthstone
+/cast [button:2] Create Healthstone
+/cast [mod] Create Healthstone
+END
+MACRO 16777217 "PetAttack" Ability_GhoulFrenzy
+/petattack [@mouseover,harm,nodead][@target,harm,nodead]
+/petfollow [@pettarget,exists]
+END
