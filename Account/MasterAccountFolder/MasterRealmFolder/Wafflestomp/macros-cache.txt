@@ -16,28 +16,22 @@ END
 MACRO 16777218 "003 Attack" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [stance:1, nomod] Overpower
-/cast [stance:1, mod:shift] Rend
-/cast [stance:2, nomod] Revenge
-/cast [stance:2, mod:shift] Rend
-/cast [stance:3, nomod] Bloodthirst
-/cast [stance:3, mod:shift] Execute
+/cast [stance:1/2, mod] Rend; [stance:1] Overpower; [stance:2] Revenge
+/cast [stance:3, mod] Execute; [stance:3,nomod]  Bloodthirst
 END
 MACRO 16777219 "004 Attack" INV_Misc_QuestionMark
 #showtooltip
 /startattack
-/cast [nomod] Heroic Strike
-/cast [mod:shift] Cleave
+/cast [mod] Cleave; Heroic Strike
 END
 MACRO 16777220 "005 Rage" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod] Bloodrage
-/cast [mod:shift] Berserker Rage
+/cast [mod] Berserker Rage; Bloodrage
 END
 MACRO 16777221 "006 RAWR" INV_Misc_QuestionMark
 #showtooltip
 /cast [stance:1] Shattering Throw
-/cast [stance:2] Shield Block
+/cast [stance:2,mod] Shield Wall; [stance:2] Shield Block
 /cast [stance:3] Death Wish
 END
 MACRO 16777224 "Big CD" INV_Misc_QuestionMark
@@ -48,11 +42,12 @@ MACRO 16777224 "Big CD" INV_Misc_QuestionMark
 /cast [stance:3] Recklessness
 /cast [stance:3, mod:shift] Death Wish
 END
-MACRO 16777225 "Charge" INV_Misc_QuestionMark
+MACRO 16777230 "Interrupt" INV_Misc_QuestionMark
 #showtooltip
-/castsequence reset=15 Charge, Intercept
+/cast [stance:1/2, mod] War Stomp; [stance:1/2, equipped:shields] Shield Bash
+/cast [stance:3, mod] War Stomp; [stance:3] Pummel
 END
-MACRO 16777223 "Interrupt" INV_Misc_QuestionMark
+MACRO 16777223 "Interrupt2" INV_Misc_QuestionMark
 #showtooltip
 /equip [stance:1, noequipped:shields] Titansteel Shield Wall
 /cast [stance:1/2, equipped:shields] Shield Bash
@@ -65,17 +60,14 @@ MACRO 16777228 "Mount" INV_Misc_QuestionMark
 END
 MACRO 16777229 "Shout" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod] Battle Shout
-/cast [mod:shift] Commanding Shout
-/cast [mod:alt] Demoralizing Shout
+/cast [mod] Demoralizing Shout; Battle Shout
 END
 MACRO 16777226 "Spell" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomod] Shockwave
-/cast [mod:shift] Spell ReflectION
+/cast [mod:shift] Spell Reflection
 END
 MACRO 16777227 "Taunt" INV_Misc_QuestionMark
 #showtooltip
-/cast [nomod] Taunt
-/cast [mod:shift] Challenging Shout
+/cast [mod] Mocking Blow; Taunt
 END

@@ -5,9 +5,9 @@ FriendShare_GlobalFriends = {
 		["Kagoma"] = "Kagoma",
 		["Leefa"] = "Leefa",
 	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -15,9 +15,9 @@ FriendShare_GlobalFriends = {
 FriendShare_RemovedFriends = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -32,9 +32,6 @@ FriendShare_Alts = {
 		["Duglazerp"] = "Duglazerp",
 		["Pastafarian"] = "Pastafarian",
 	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-		["Magistratus"] = "Magistratus",
-	},
 	["PrimalWoW (Progressive)-Horde"] = {
 		["Wafflestomp"] = "Wafflestomp",
 		["Contagion"] = "Contagion",
@@ -44,6 +41,9 @@ FriendShare_Alts = {
 		["Saptack"] = "Saptack",
 		["Mittens"] = "Mittens",
 		["Wajawamedo"] = "Wajawamedo",
+	},
+	["PrimalWoW (Progressive)-Alliance"] = {
+		["Magistratus"] = "Magistratus",
 	},
 	["TrueWoW-Alliance"] = {
 		["Parimman"] = "Parimman",
@@ -55,9 +55,9 @@ IgnoreShare_GlobalIgnores = {
 		["Frukwan"] = "Frukwan",
 		["Woolea"] = "Woolea",
 	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -65,9 +65,9 @@ IgnoreShare_GlobalIgnores = {
 IgnoreShare_RemovedIgnores = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-	},
 	["PrimalWoW (Progressive)-Horde"] = {
+	},
+	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},

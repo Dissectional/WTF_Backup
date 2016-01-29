@@ -8,6 +8,7 @@ Overachiever_Tabs_Settings = {
 	["WatchLists_General"] = {
 	},
 	["Version"] = "0.56",
+	["SearchFullList"] = true,
 	["AchFilters"] = {
 	},
 	["WatchedList"] = 0,

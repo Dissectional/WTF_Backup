@@ -53,10 +53,10 @@ AucAdvancedData = {
 			["resale.profit.min"] = 100000,
 			["vendor.allow.bid"] = false,
 			["columnsortcurSort"] = 3,
-			["enchantmats.allow.bid"] = false,
-			["resale.allow.bid"] = false,
 			["snatch.itemsList"] = {
 			},
+			["resale.allow.bid"] = false,
+			["enchantmats.allow.bid"] = false,
 			["columnsortcurDir"] = -1,
 			["snatch.columnsortcurDir"] = 1,
 			["milling.allow.bid"] = false,

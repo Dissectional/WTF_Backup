@@ -37,7 +37,7 @@ TidyPlatesGreyDPSSavedVariables = {
 		["b"] = 0,
 	},
 	["WidgetTug"] = true,
-	["OpacityHideNonElites"] = false,
+	["ScaleIgnoreNonElite"] = false,
 	["WidgetSelect"] = true,
 	["HealthText"] = 1,
 	["AggroSafeColor"] = {
@@ -48,11 +48,11 @@ TidyPlatesGreyDPSSavedVariables = {
 	},
 	["OpacityHideNeutral"] = false,
 	["WidgetDebuff"] = false,
-	["ScaleGeneral"] = 1,
-	["ScaleIgnoreNonElite"] = false,
+	["AggroBorder"] = true,
+	["OpacityHideNonElites"] = false,
 	["LevelText"] = false,
 	["AggroHealth"] = false,
 	["WidgetCombo"] = false,
-	["AggroBorder"] = true,
+	["ScaleGeneral"] = 1,
 	["OpacityNonTarget"] = 0.5,
 }

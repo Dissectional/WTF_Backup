@@ -13,6 +13,7 @@ SavedInstancesDB = {
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "PRIEST",
+			["Daily1"] = 1454086800,
 		},
 		["Pastafarian - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -74,10 +75,10 @@ SavedInstancesDB = {
 	["Lockouts"] = {
 	},
 	["Tooltip"] = {
-		["ReverseInstances"] = false,
-		["CategorySort"] = "EXPANSION",
-		["ShowSoloCategory"] = false,
 		["Details"] = false,
+		["CategorySort"] = "EXPANSION",
+		["RecentHistory"] = false,
+		["ReverseInstances"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -86,14 +87,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["RecentHistory"] = false,
+		["ShowSoloCategory"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Keep"] = {
@@ -105,8 +106,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Lightning"] = {
-			["LFDID"] = 207,
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -123,8 +124,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Utgarde Pinnacle"] = {
+			["LFDID"] = 203,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -132,8 +133,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Stone"] = {
-			["LFDID"] = 208,
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -186,8 +187,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Utgarde Pinnacle"] = {
-			["LFDID"] = 203,
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -239,14 +240,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
-		["D2Text"] = "5+",
-		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["D1Text"] = "5",
+		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

@@ -23,8 +23,10 @@ EQ2DB = {
 	["profiles"] = {
 		["global"] = {
 			["track"] = true,
-			["querytime"] = 1453199995,
+			["querytime"] = 1454034341,
 			["unknowns"] = {
+				[6561] = "159||01/27/16||Blackfathom Villainy||Blackfathom Deeps",
+				[24881] = "159||01/29/16||query",
 				[14199] = "159||12/21/15||Proof of Demise: The Black Knight||Trial of the Champion",
 			},
 		},

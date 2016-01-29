@@ -24,9 +24,6 @@ DataStore_SkillsDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["lastUpdate"] = 1451459314,
 				["Skills"] = {
-					["Languages"] = {
-						["Language: Orcish"] = "300|300",
-					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
 						["Shield"] = "1|1",
@@ -37,6 +34,9 @@ DataStore_SkillsDB = {
 						["Elemental Combat"] = "1|1",
 						["Restoration"] = "1|1",
 					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+					},
 					["Weapon Skills"] = {
 						["Maces"] = "1|5",
 						["Defense"] = "1|5",
@@ -45,68 +45,92 @@ DataStore_SkillsDB = {
 					},
 				},
 			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830029,
-				["Skills"] = {
-					["Languages"] = {
-						["Language: Common"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Leather"] = "1|1",
-						["Shield"] = "1|1",
-						["Mail"] = "1|1",
-						["Cloth"] = "1|1",
-					},
-					["Class Skills"] = {
-						["Protection"] = "1|1",
-						["Holy"] = "1|1",
-						["Retribution"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "1|5",
-						["Defense"] = "1|5",
-						["Swords"] = "1|5",
-						["Maces"] = "1|5",
-						["Two-Handed Swords"] = "1|5",
-						["Unarmed"] = "1|5",
-					},
-				},
-			},
-			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1452579002,
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1452579101,
 				["Skills"] = {
 					["Secondary Skills"] = {
-						["Cooking"] = "55|150",
-						["First Aid"] = "72|150",
-						["Fishing"] = "1|75",
+						["Cooking"] = "91|150",
+						["Fishing"] = "93|150",
+						["First Aid"] = "76|150",
+						["Riding"] = "225|225",
 					},
 					["Class Skills"] = {
-						["Fire"] = "1|1",
-						["Frost"] = "1|1",
-						["Arcane"] = "1|1",
+						["Fury"] = "1|1",
+						["Arms"] = "1|1",
+						["Protection"] = "1|1",
+					},
+					["Professions"] = {
+						["Jewelcrafting"] = "37|75",
+						["Mining"] = "91|150",
 					},
 					["Languages"] = {
-						["Language: Thalassian"] = "300|300",
 						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Shield"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
+						["Defense"] = "400|400",
+						["Daggers"] = "400|400",
+						["Bows"] = "400|400",
+						["Maces"] = "400|400",
+						["Two-Handed Swords"] = "400|400",
+						["Thrown"] = "400|400",
+						["Axes"] = "400|400",
+						["Staves"] = "400|400",
+						["Guns"] = "400|400",
+						["Swords"] = "400|400",
+						["Crossbows"] = "400|400",
+						["Polearms"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Two-Handed Axes"] = "400|400",
+					},
+				},
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1454059847,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "133|150",
+						["First Aid"] = "100|150",
+						["Fishing"] = "150|150",
+					},
+					["Class Skills"] = {
+						["Shadow Magic"] = "1|1",
+						["Discipline"] = "1|1",
+						["Holy"] = "1|1",
+					},
+					["Professions"] = {
+						["Tailoring"] = "105|150",
+						["Enchanting"] = "119|150",
+					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+						["Language: Gutterspeak"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Staves"] = "22|95",
-						["Unarmed"] = "1|95",
-						["Daggers"] = "23|95",
-						["Wands"] = "73|95",
-						["Defense"] = "90|95",
+						["Staves"] = "105|135",
+						["Unarmed"] = "76|135",
+						["Maces"] = "1|135",
+						["Wands"] = "135|135",
+						["Defense"] = "135|135",
 					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1453194125,
+				["lastUpdate"] = 1454017664,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "55|150",
-						["First Aid"] = "69|150",
+						["First Aid"] = "93|150",
 						["Fishing"] = "1|75",
 					},
 					["Class Skills"] = {
@@ -116,7 +140,7 @@ DataStore_SkillsDB = {
 					},
 					["Professions"] = {
 						["Engineering"] = "83|150",
-						["Mining"] = "63|150",
+						["Mining"] = "69|150",
 					},
 					["Languages"] = {
 						["Language: Troll"] = "300|300",
@@ -127,17 +151,17 @@ DataStore_SkillsDB = {
 						["Leather"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Defense"] = "85|85",
-						["Daggers"] = "1|85",
-						["Two-Handed Swords"] = "1|85",
-						["Swords"] = "15|85",
-						["Staves"] = "1|85",
-						["Guns"] = "85|85",
-						["Unarmed"] = "1|85",
-						["Crossbows"] = "1|85",
-						["Axes"] = "40|85",
-						["Bows"] = "72|85",
-						["Two-Handed Axes"] = "80|85",
+						["Defense"] = "89|95",
+						["Daggers"] = "1|95",
+						["Two-Handed Swords"] = "1|95",
+						["Unarmed"] = "1|95",
+						["Staves"] = "1|95",
+						["Guns"] = "95|95",
+						["Swords"] = "64|95",
+						["Bows"] = "72|95",
+						["Axes"] = "40|95",
+						["Crossbows"] = "1|95",
+						["Two-Handed Axes"] = "80|95",
 					},
 				},
 			},
@@ -146,8 +170,8 @@ DataStore_SkillsDB = {
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "101|150",
-						["Riding"] = "75|75",
 						["First Aid"] = "109|150",
+						["Riding"] = "75|75",
 						["Fishing"] = "50|150",
 					},
 					["Class Skills"] = {
@@ -179,7 +203,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1453357723,
+				["lastUpdate"] = 1453507641,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["First Aid"] = "1|75",
@@ -197,29 +221,29 @@ DataStore_SkillsDB = {
 						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Wands"] = "1|40",
-						["Defense"] = "25|40",
-						["Staves"] = "14|40",
-						["Unarmed"] = "1|40",
+						["Wands"] = "1|50",
+						["Defense"] = "46|50",
+						["Staves"] = "26|50",
+						["Unarmed"] = "1|50",
 					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1453279926,
+				["lastUpdate"] = 1454047632,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "61|75",
-						["First Aid"] = "56|75",
+						["First Aid"] = "94|150",
 						["Fishing"] = "32|75",
 					},
 					["Class Skills"] = {
 						["Fury"] = "1|1",
-						["Protection"] = "1|1",
 						["Arms"] = "1|1",
+						["Protection"] = "1|1",
 					},
 					["Professions"] = {
-						["Mining"] = "60|150",
-						["Blacksmithing"] = "27|75",
+						["Blacksmithing"] = "49|75",
+						["Mining"] = "79|150",
 					},
 					["Languages"] = {
 						["Language: Taurahe"] = "300|300",
@@ -227,76 +251,52 @@ DataStore_SkillsDB = {
 					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
-						["Shield"] = "1|1",
-						["Mail"] = "1|1",
 						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Shield"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "45|70",
-						["Defense"] = "68|70",
-						["Unarmed"] = "3|70",
-						["Swords"] = "1|70",
-						["Axes"] = "1|70",
-						["Maces"] = "69|70",
-						["Two-Handed Swords"] = "1|70",
-						["Two-Handed Axes"] = "55|70",
+						["Two-Handed Maces"] = "90|90",
+						["Defense"] = "90|90",
+						["Swords"] = "80|90",
+						["Unarmed"] = "3|90",
+						["Maces"] = "85|90",
+						["Axes"] = "1|90",
+						["Two-Handed Swords"] = "1|90",
+						["Two-Handed Axes"] = "90|90",
 					},
 				},
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1452579101,
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1452830029,
 				["Skills"] = {
-					["Secondary Skills"] = {
-						["Cooking"] = "91|150",
-						["Fishing"] = "93|150",
-						["Riding"] = "225|225",
-						["First Aid"] = "76|150",
-					},
-					["Class Skills"] = {
-						["Fury"] = "1|1",
-						["Arms"] = "1|1",
-						["Protection"] = "1|1",
-					},
-					["Professions"] = {
-						["Jewelcrafting"] = "37|75",
-						["Mining"] = "91|150",
-					},
-					["Languages"] = {
-						["Language: Orcish"] = "300|300",
-					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
-						["Cloth"] = "1|1",
-						["Mail"] = "1|1",
-						["Plate Mail"] = "1|1",
 						["Shield"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Protection"] = "1|1",
+						["Holy"] = "1|1",
+						["Retribution"] = "1|1",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
 					},
 					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "400|400",
-						["Defense"] = "400|400",
-						["Daggers"] = "400|400",
-						["Maces"] = "400|400",
-						["Bows"] = "400|400",
-						["Two-Handed Swords"] = "400|400",
-						["Thrown"] = "400|400",
-						["Axes"] = "400|400",
-						["Staves"] = "400|400",
-						["Guns"] = "400|400",
-						["Unarmed"] = "400|400",
-						["Crossbows"] = "400|400",
-						["Polearms"] = "400|400",
-						["Swords"] = "400|400",
-						["Two-Handed Axes"] = "400|400",
+						["Two-Handed Maces"] = "1|5",
+						["Defense"] = "1|5",
+						["Swords"] = "1|5",
+						["Maces"] = "1|5",
+						["Two-Handed Swords"] = "1|5",
+						["Unarmed"] = "1|5",
 					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1451459163,
 				["Skills"] = {
-					["Languages"] = {
-						["Language: Gutterspeak"] = "300|300",
-						["Language: Orcish"] = "300|300",
-					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
 						["Leather"] = "1|1",
@@ -305,6 +305,10 @@ DataStore_SkillsDB = {
 						["Combat"] = "1|1",
 						["Subtlety"] = "1|1",
 						["Assassination"] = "1|1",
+					},
+					["Languages"] = {
+						["Language: Gutterspeak"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
 					["Weapon Skills"] = {
 						["Thrown"] = "1|5",
@@ -346,12 +350,12 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1452872049,
+				["lastUpdate"] = 1453802056,
 				["Skills"] = {
 					["Secondary Skills"] = {
-						["Cooking"] = "92|150",
-						["First Aid"] = "80|150",
-						["Fishing"] = "72|150",
+						["Cooking"] = "100|150",
+						["First Aid"] = "93|150",
+						["Fishing"] = "73|150",
 					},
 					["Class Skills"] = {
 						["Balance"] = "1|1",
@@ -359,8 +363,8 @@ DataStore_SkillsDB = {
 						["Feral Combat"] = "1|1",
 					},
 					["Professions"] = {
-						["Alchemy"] = "121|150",
-						["Herbalism"] = "133|165",
+						["Alchemy"] = "141|150",
+						["Herbalism"] = "144|240",
 					},
 					["Languages"] = {
 						["Language: Taurahe"] = "300|300",
@@ -371,13 +375,13 @@ DataStore_SkillsDB = {
 						["Leather"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "5|110",
-						["Defense"] = "110|110",
-						["Unarmed"] = "1|110",
-						["Maces"] = "72|110",
-						["Daggers"] = "1|110",
-						["Polearms"] = "1|110",
-						["Staves"] = "52|110",
+						["Two-Handed Maces"] = "5|130",
+						["Defense"] = "130|130",
+						["Unarmed"] = "1|130",
+						["Staves"] = "52|130",
+						["Daggers"] = "1|130",
+						["Polearms"] = "1|130",
+						["Maces"] = "72|130",
 					},
 				},
 			},
@@ -449,10 +453,10 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1452920941,
+				["lastUpdate"] = 1453791868,
 				["Skills"] = {
 					["Secondary Skills"] = {
-						["First Aid"] = "80|150",
+						["First Aid"] = "100|150",
 					},
 					["Class Skills"] = {
 						["Demonology"] = "1|1",
@@ -460,51 +464,48 @@ DataStore_SkillsDB = {
 						["Destruction"] = "1|1",
 					},
 					["Languages"] = {
-						["Language: Orcish"] = "300|300",
 						["Language: Gutterspeak"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Staves"] = "67|70",
-						["Unarmed"] = "1|70",
-						["Daggers"] = "1|70",
-						["Wands"] = "1|70",
-						["Defense"] = "67|70",
+						["Staves"] = "94|130",
+						["Swords"] = "1|130",
+						["Defense"] = "130|130",
+						["Wands"] = "129|130",
+						["Unarmed"] = "35|130",
+						["Daggers"] = "1|130",
 					},
 				},
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1453198396,
+			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1452579002,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "55|150",
-						["First Aid"] = "81|150",
-						["Fishing"] = "71|75",
+						["First Aid"] = "72|150",
+						["Fishing"] = "1|75",
 					},
 					["Class Skills"] = {
-						["Shadow Magic"] = "1|1",
-						["Discipline"] = "1|1",
-						["Holy"] = "1|1",
-					},
-					["Professions"] = {
-						["Tailoring"] = "87|150",
-						["Enchanting"] = "53|150",
+						["Fire"] = "1|1",
+						["Frost"] = "1|1",
+						["Arcane"] = "1|1",
 					},
 					["Languages"] = {
-						["Language: Gutterspeak"] = "300|300",
+						["Language: Thalassian"] = "300|300",
 						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Staves"] = "100|115",
-						["Unarmed"] = "75|115",
-						["Maces"] = "1|115",
-						["Defense"] = "108|115",
-						["Wands"] = "114|115",
+						["Staves"] = "22|95",
+						["Unarmed"] = "1|95",
+						["Daggers"] = "23|95",
+						["Wands"] = "73|95",
+						["Defense"] = "90|95",
 					},
 				},
 			},

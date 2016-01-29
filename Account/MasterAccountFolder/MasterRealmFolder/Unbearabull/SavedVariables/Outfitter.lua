@@ -240,7 +240,7 @@ gOutfitter_Settings = {
 			},
 		}, -- [1]
 		{
-			["Name"] = "Druid: Cat Form",
+			["Name"] = "Druid: Caster Form",
 		}, -- [2]
 		{
 			["Items"] = {
@@ -782,6 +782,54 @@ gOutfitter_Settings = {
 					["UniqueID"] = 0,
 					["Quality"] = 3,
 				},
+				["ShirtSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_BODY",
+					["Code"] = 5107,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cffffffff|Hitem:5107:0:0:0:0:0:0:0:24|h[Deckhand's Shirt]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 0,
+					["Name"] = "Deckhand's Shirt",
+					["EnchantCode"] = 0,
+					["SubType"] = "Miscellaneous",
+					["Level"] = 14,
+					["JewelCode3"] = 0,
+					["Quality"] = 1,
+				},
+				["Finger0Slot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_FINGER",
+					["Code"] = 12006,
+					["SubCode"] = 587,
+					["Link"] = "|cff1eff00|Hitem:12006:0:0:0:0:0:587:0:25|h[Meadow Ring of the Monkey]|h|r",
+					["JewelCode2"] = 0,
+					["UniqueID"] = 0,
+					["JewelCode1"] = 0,
+					["EnchantCode"] = 0,
+					["Name"] = "Meadow Ring of the Monkey",
+					["SubType"] = "Miscellaneous",
+					["Level"] = 22,
+					["JewelCode3"] = 0,
+					["Quality"] = 2,
+				},
+				["HandsSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_HAND",
+					["Code"] = 51965,
+					["SubCode"] = -71,
+					["Link"] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-71:15:26|h[Vigorous Handguards of the Bandit]|h|r",
+					["JewelCode2"] = 0,
+					["UniqueID"] = 15,
+					["JewelCode1"] = 0,
+					["EnchantCode"] = 0,
+					["Name"] = "Vigorous Handguards of the Bandit",
+					["SubType"] = "Leather",
+					["Level"] = 35,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
 				["LegsSlot"] = {
 					["JewelCode4"] = 0,
 					["InvType"] = "INVTYPE_LEGS",
@@ -796,6 +844,22 @@ gOutfitter_Settings = {
 					["SubType"] = "Leather",
 					["Level"] = 21,
 					["UniqueID"] = 0,
+					["Quality"] = 3,
+				},
+				["WaistSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_WAIST",
+					["Code"] = 51964,
+					["SubCode"] = -78,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-78:10:25|h[Vigorous Belt of the Monkey]|h|r",
+					["JewelCode1"] = 0,
+					["JewelCode3"] = 0,
+					["Name"] = "Vigorous Belt of the Monkey",
+					["EnchantCode"] = 0,
+					["SubType"] = "Leather",
+					["Level"] = 25,
+					["UniqueID"] = 10,
 					["Quality"] = 3,
 				},
 			},
@@ -1006,8 +1070,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = false,
 				},
-				["didEquip"] = false,
-				["didUnequip"] = true,
+				["didEquip"] = true,
+				["didUnequip"] = false,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Caster Form",
@@ -1019,8 +1083,8 @@ gOutfitter_Settings = {
 			}, -- [5]
 			{
 				["ScriptID"] = "Cat",
-				["didEquip"] = true,
-				["didUnequip"] = false,
+				["didEquip"] = false,
+				["didUnequip"] = true,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Cat Form",
@@ -1099,13 +1163,13 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Riding",
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
+				["Name"] = "Riding",
+				["ScriptID"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -1113,8 +1177,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
-				["Name"] = "Riding",
 				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Accessory",
 			}, -- [12]
 			{
 				["ScriptLockupCount"] = 0,

@@ -16,8 +16,8 @@ HealBot_Config = {
 	},
 	["Tooltip_ShowTarget"] = 1,
 	["HealBotBuffColB"] = {
-		1, -- [1]
-		1, -- [2]
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 		1, -- [4]
 		1, -- [5]
@@ -30,8 +30,8 @@ HealBot_Config = {
 	["SmartCastHeal"] = 0,
 	["DebuffWatchInCombat"] = 1,
 	["HealBotBuffColG"] = {
-		1, -- [1]
-		1, -- [2]
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 		1, -- [4]
 		1, -- [5]
@@ -103,8 +103,8 @@ HealBot_Config = {
 	["DisableToolTipInCombat"] = 0,
 	["ButtonCastMethod"] = 2,
 	["HealBotBuffColR"] = {
-		1, -- [1]
-		1, -- [2]
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 		1, -- [4]
 		1, -- [5]
@@ -135,7 +135,7 @@ HealBot_Config = {
 		["Warlock"] = 1,
 		["Death Knight"] = 0,
 	},
-	["Tooltip_PreDefined"] = 1,
+	["Tooltip_PreDefined"] = 0,
 	["ShowDebuffIcon"] = 1,
 	["Tooltip_ShowHoT"] = 1,
 	["FastAttrib"] = 1,
@@ -163,7 +163,7 @@ HealBot_Config = {
 		"None", -- [9]
 		"None", -- [10]
 		["32"] = "None",
-		["11"] = "Demon Skin",
+		["11"] = "Demon Armor",
 		["36"] = "None",
 		["37"] = "None",
 		["34"] = "None",
@@ -211,7 +211,7 @@ HealBot_Config = {
 	["FocusMonitor"] = {
 	},
 	["CurrentSpec"] = 1,
-	["Current_Skin"] = "Party",
+	["Current_Skin"] = "Solo",
 	["IgnoreFastDurDebuffs"] = 1,
 	["UpdateTitan"] = 0,
 	["ShowDebuffWarning"] = 1,
@@ -359,7 +359,7 @@ HealBot_Config = {
 	["HealBot_CDCWarnRange_Sound"] = 3,
 	["Tooltip_ShowMyBuffs"] = 1,
 	["SoundDebuffWarning"] = 0,
-	["RightButtonOptions"] = 0,
+	["RightButtonOptions"] = 1,
 	["SmartCastBuff"] = 1,
 	["RangeCheckFreq"] = 0.4,
 	["SoundDebuffPlay"] = "Tribal Bass Drum",
@@ -399,7 +399,7 @@ HealBot_Config = {
 	["IgnoreFastDurDebuffsSecs"] = 3,
 	["IgnoreClassDebuffs"] = 1,
 	["LongBuffTimer"] = 120,
-	["BuffWatchInCombat"] = 0,
+	["BuffWatchInCombat"] = 1,
 	["MacroUse10"] = 0,
 	["noTestTanks"] = 3,
 	["EnabledKeyCombo"] = {
@@ -439,7 +439,7 @@ HealBot_Config = {
 	["DisabledSpellTrinket2"] = {
 	},
 	["EmergencyFClass"] = 4,
-	["Skin_ID"] = 3,
+	["Skin_ID"] = 2,
 	["HealBot_ButtonRadius"] = 78,
 	["HealCommMethod"] = 1,
 	["noTestTargets"] = 5,

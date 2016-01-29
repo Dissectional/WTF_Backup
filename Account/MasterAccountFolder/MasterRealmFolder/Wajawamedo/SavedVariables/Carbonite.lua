@@ -4,6 +4,7 @@ NxCData = {
 	["Taxi"] = {
 		["Crossroads"] = true,
 		["Undercity"] = true,
+		["Moonglade"] = true,
 		["Thunder Bluff"] = true,
 		["The Sepulcher"] = true,
 		["Orgrimmar"] = true,

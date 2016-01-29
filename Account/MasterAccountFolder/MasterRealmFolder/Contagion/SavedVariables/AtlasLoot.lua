@@ -5,6 +5,7 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
+	["LastSearchedText"] = "General Drakkisath",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 	},

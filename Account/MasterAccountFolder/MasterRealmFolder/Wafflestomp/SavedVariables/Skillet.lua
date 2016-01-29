@@ -12,9 +12,10 @@ SkilletDBPC = {
 				["filtertext"] = "",
 			},
 			["Blacksmithing"] = {
-				["sortmethod"] = "By Level",
+				["sortmethod"] = "None",
 				["filtertext"] = "",
 			},
 		},
+		["include_alts"] = false,
 	},
 }

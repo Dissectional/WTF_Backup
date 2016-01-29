@@ -6,16 +6,16 @@ MacroBankDB = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 		["Shiftace - TrueWoW"] = "Default",
-		["Parimman - TrueWoW"] = "Default",
-		["Duglazerp - TrueWoW"] = "Default",
-		["Magistratus - PrimalWoW (Progressive)"] = "Default",
 		["Pastafarian - TrueWoW"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Magistratus - PrimalWoW (Progressive)"] = "Default",
+		["Parimman - TrueWoW"] = "Default",
 		["Cryogenics - TrueWoW"] = "Default",
 		["Ellipsis - TrueWoW"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
 		["Nerfed - PrimalWoW (Progressive)"] = "Default",
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Duglazerp - TrueWoW"] = "Default",
 		["Magistratus - TrueWoW"] = "Default",
 	},
 	["DBVersion"] = 4,
@@ -199,7 +199,7 @@ MacroBankDB = {
 						"Conjure Water", -- [1]
 						"Conjure Water", -- [2]
 						"Interface\\Icons\\INV_Drink_06", -- [3]
-						"#showtooltip Conjured Water\n/cast [button:2] Conjure Water; Conjured Water", -- [4]
+						"#showtooltip Conjured Fresh Water\n/cast [button:2] Conjure Water; Conjured Fresh Water", -- [4]
 					}, -- [3]
 					{
 						"Fire - Modifier for Pyro", -- [1]
@@ -324,6 +324,12 @@ MacroBankDB = {
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
 					}, -- [4]
+					{
+						"Temp Description", -- [1]
+						"Temp Name", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"", -- [4]
+					}, -- [5]
 				}, -- [2]
 			}, -- [7]
 			{
@@ -540,7 +546,7 @@ MacroBankDB = {
 						"Delete all but n Soul Shards", -- [1]
 						"Soul Shard", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"#showtooltip Soul Shard\n/run i=\"Soul Shard\"d=GetItemCount(i)-20 for x=0,4 do for y=1,GetContainerNumSlots(x) do if (d>0) then l=GetContainerItemLink(x,y) if l and GetItemInfo(l)==i then PickupContainerItem(x,y) DeleteCursorItem() d=d-1 end end end end", -- [4]
+						"#showtooltip Soul Shard\n/run i=\"Soul Shard\"d=GetItemCount(i)-4 for x=0,4 do for y=1,GetContainerNumSlots(x) do if (d>0) then l=GetContainerItemLink(x,y) if l and GetItemInfo(l)==i then PickupContainerItem(x,y) DeleteCursorItem() d=d-1 end end end end", -- [4]
 					}, -- [6]
 					{
 						"Demonology - Modifier for Soul Fire", -- [1]
@@ -558,7 +564,7 @@ MacroBankDB = {
 						"Healthstone", -- [1]
 						"Healthstone", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"#showtooltip Minor Healthstone\n/use [nomod] Minor Healthstone\n/cast [button:2] Create Healthstone\n/cast [mod] Create Healthstone", -- [4]
+						"#showtooltip Lesser Healthstone\n/use [nomod] Lesser Healthstone\n/cast [button:2] Create Healthstone\n/cast [mod] Create Healthstone", -- [4]
 					}, -- [9]
 					{
 						"PetAttack", -- [1]
@@ -572,6 +578,12 @@ MacroBankDB = {
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/cast Sacrifice\n", -- [4]
 					}, -- [11]
+					{
+						"Thumb", -- [1]
+						"Thumb", -- [2]
+						"Interface\\Icons\\Spell_Shadow_LifeDrain02", -- [3]
+						"#showtooltip\n/cast [nomod] Drain Life\n/cast [mod:shift] Rain of Fire\n/cast [mod:ctrl] Drain Mana", -- [4]
+					}, -- [12]
 				}, -- [2]
 			}, -- [11]
 			{
@@ -584,89 +596,53 @@ MacroBankDB = {
 						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Heroic Strike,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
 					}, -- [1]
 					{
-						"Arms - Single Target", -- [1]
-						"Arms", -- [2]
+						"Arms 2 - Multi Target", -- [1]
+						"Arms 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Heroic Strike,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
+						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Cleave,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
 					}, -- [2]
 					{
-						"Arms 2 - Multi Target", -- [1]
-						"Arms 2", -- [2]
+						"Fury - Hold alt, ctrl or shift for Shout/Smash", -- [1]
+						"Fury", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Cleave,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
+						"/castsequence [mod]Battle Shout,Colossus Smash;Bloodthirst,Heroic Strike,Bloodthirst,Raging Blow\n/cast Execute\n/cast Berserker Rage\n/cast Inner Rage\n/cast Death Wish\n/cast Recklessness\n/cast Intercept\n/use 13\n/use 14\n/startattack", -- [4]
 					}, -- [3]
 					{
-						"Arms 2 - Multi Target", -- [1]
-						"Arms 2", -- [2]
+						"Oh Crap - Defensive Stance", -- [1]
+						"Oh Crap", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target/alt Rend,null\n/castsequence Mortal Strike,Cleave,Overpower\n/cast Colossus Smash\n/cast Inner Rage\n/cast Berserker Rage\n/cast Charge\n/cast Deadly Calm\n/use 13\n/use 14\n/cast Recklessness\n/startattack", -- [4]
+						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/cast Defensive Stance\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Shield Block\n/cast Spell Reflection\n/cast Victory Rush\n/cast Disarm\n/startattack", -- [4]
 					}, -- [4]
 					{
-						"Fury - Hold alt, ctrl or shift for Shout/Smash", -- [1]
-						"Fury", -- [2]
+						"Oh Crap 2 - Battle Stance version", -- [1]
+						"Oh Crap 2", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence [mod]Battle Shout,Colossus Smash;Bloodthirst,Heroic Strike,Bloodthirst,Raging Blow\n/cast Execute\n/cast Berserker Rage\n/cast Inner Rage\n/cast Death Wish\n/cast Recklessness\n/cast Intercept\n/use 13\n/use 14\n/startattack", -- [4]
+						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Spell Reflection\n/cast Victory Rush\n/startattack", -- [4]
 					}, -- [5]
 					{
-						"Fury - Hold alt, ctrl or shift for Shout/Smash", -- [1]
-						"Fury", -- [2]
+						"Protection - Hold alt for Rend/Clap", -- [1]
+						"Protection", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence [mod]Battle Shout,Colossus Smash;Bloodthirst,Heroic Strike,Bloodthirst,Raging Blow\n/cast Execute\n/cast Berserker Rage\n/cast Inner Rage\n/cast Death Wish\n/cast Recklessness\n/cast Intercept\n/use 13\n/use 14\n/startattack", -- [4]
+						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
 					}, -- [6]
 					{
-						"Oh Crap - Defensive Stance", -- [1]
-						"Oh Crap", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/cast Defensive Stance\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Shield Block\n/cast Spell Reflection\n/cast Victory Rush\n/cast Disarm\n/startattack", -- [4]
+						"Taunt", -- [1]
+						"Taunt", -- [2]
+						"Interface\\Icons\\Spell_Nature_Reincarnation", -- [3]
+						"#showtooltip\n/cast [mod:shift] Challenging Shout; [mod:ctrl] Mocking Blow; Taunt\n\n", -- [4]
 					}, -- [7]
-					{
-						"Oh Crap - Defensive Stance", -- [1]
-						"Oh Crap", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/cast Defensive Stance\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Shield Block\n/cast Spell Reflection\n/cast Victory Rush\n/cast Disarm\n/startattack", -- [4]
-					}, -- [8]
-					{
-						"Oh Crap 2 - Battle Stance version", -- [1]
-						"Oh Crap 2", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Spell Reflection\n/cast Victory Rush\n/startattack", -- [4]
-					}, -- [9]
-					{
-						"Oh Crap 2 - Battle Stance version", -- [1]
-						"Oh Crap 2", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=9 Demoralizing Shout,Thunder Clap,null\n/equipset A\n/cast Shield Wall\n/cast Berserker Rage\n/cast Enraged Regeneration\n/cast Spell Reflection\n/cast Victory Rush\n/startattack", -- [4]
-					}, -- [10]
-					{
-						"Protection - Hold alt for Rend/Clap", -- [1]
-						"Protection", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
-					}, -- [11]
-					{
-						"Protection - Hold alt for Rend/Clap", -- [1]
-						"Protection", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
-					}, -- [12]
 					{
 						"Temp Description", -- [1]
 						"Temp Name", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip Charge\n/cast [stance:1,nocombat] Charge\n/cast [nostance:2] Defensive Stance\n/cast [stance:2] Enrage", -- [4]
-					}, -- [13]
+					}, -- [8]
 					{
 						"Used on Fury to prevent casting Slam unless is instant", -- [1]
 						"Fury Slam", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/stopcasting\n/cast Slam\n/stopcasting\n/startattack", -- [4]
-					}, -- [14]
-					{
-						"Used on Fury to prevent casting Slam unless is instant", -- [1]
-						"Fury Slam", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"#showtooltip\n/stopcasting\n/cast Slam\n/stopcasting\n/startattack", -- [4]
-					}, -- [15]
+					}, -- [9]
 				}, -- [2]
 			}, -- [12]
 		},

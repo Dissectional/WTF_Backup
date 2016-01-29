@@ -16,9 +16,9 @@ HealBot_Config = {
 	},
 	["Tooltip_ShowTarget"] = 0,
 	["HealBotBuffColB"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
 		1, -- [4]
 		1, -- [5]
 		1, -- [6]
@@ -30,9 +30,9 @@ HealBot_Config = {
 	["SmartCastHeal"] = 0,
 	["DebuffWatchInCombat"] = 1,
 	["HealBotBuffColG"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
 		1, -- [4]
 		1, -- [5]
 		1, -- [6]
@@ -103,9 +103,9 @@ HealBot_Config = {
 	["DisableToolTipInCombat"] = 0,
 	["ButtonCastMethod"] = 2,
 	["HealBotBuffColR"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
 		1, -- [4]
 		1, -- [5]
 		1, -- [6]
@@ -121,7 +121,7 @@ HealBot_Config = {
 		["Magic"] = 13,
 		["Curse"] = 14,
 	},
-	["TooltipPos"] = 1,
+	["TooltipPos"] = 5,
 	["ButtonShown"] = 0,
 	["EmergIncCustom"] = {
 		["Warrior"] = 0,
@@ -135,7 +135,7 @@ HealBot_Config = {
 		["Death Knight"] = 0,
 		["Warlock"] = 1,
 	},
-	["Tooltip_PreDefined"] = 1,
+	["Tooltip_PreDefined"] = 0,
 	["ShowDebuffIcon"] = 1,
 	["Tooltip_ShowHoT"] = 1,
 	["FastAttrib"] = 1,
@@ -404,7 +404,7 @@ HealBot_Config = {
 		["CtrlLeft2"] = "Cure Poison",
 	},
 	["SoundDebuffWarning"] = 0,
-	["RightButtonOptions"] = 0,
+	["RightButtonOptions"] = 1,
 	["noTestTanks"] = 3,
 	["RangeCheckFreq"] = 0.4,
 	["SkinDefault"] = {
@@ -443,7 +443,7 @@ HealBot_Config = {
 	["IgnoreFastDurDebuffsSecs"] = 3,
 	["HealBot_ButtonPosition"] = 300,
 	["LongBuffTimer"] = 120,
-	["BuffWatchInCombat"] = 0,
+	["BuffWatchInCombat"] = 1,
 	["MacroUse10"] = 0,
 	["HealBot_Enable_MouseWheel"] = 1,
 	["CrashProt"] = 0,
@@ -464,7 +464,7 @@ HealBot_Config = {
 		["Death Knight"] = 0,
 		["Warlock"] = 0,
 	},
-	["Tooltip_Recommend"] = 1,
+	["Tooltip_Recommend"] = 0,
 	["HealBotDebuffText"] = {
 		"Cure Poison", -- [1]
 		"Remove Curse", -- [2]

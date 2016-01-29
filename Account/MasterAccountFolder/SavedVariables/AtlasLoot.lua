@@ -31,9 +31,10 @@ AtlasLootDB = {
 			["AtlasType"] = "Unknown",
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["AllLinks"] = false,
 			["ItemSpam"] = true,
+			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
+			["LastBoss"] = "SMGraveyard",
 		},
 		["Pastafarian - TrueWoW"] = {
 			["AtlasLootVersion"] = "51104",
@@ -44,9 +45,10 @@ AtlasLootDB = {
 			["AllLinks"] = false,
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
 			["ItemSpam"] = true,
-			["AtlasLootVersion"] = "51104",
+			["LastBoss"] = "Gnomeregan1",
 		},
 		["Saptack - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
@@ -84,8 +86,8 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51104",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
-			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Parimman - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
@@ -129,12 +131,12 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Duglazerp"] = {
+		["Nerfed"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Pastafarian"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -143,14 +145,14 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Nerfed"] = {
+		["Duglazerp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -199,7 +201,7 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -224,6 +226,10 @@ AtlasLootWishList = {
 		["Contagion"] = {
 		},
 		["Magistratus"] = {
+		},
+		["Nerfed"] = {
+		},
+		["Pastafarian"] = {
 		},
 		["Duglazerp"] = {
 			{
@@ -275,11 +281,7 @@ AtlasLootWishList = {
 				},
 			}, -- [2]
 		},
-		["Pastafarian"] = {
-		},
-		["Nerfed"] = {
-		},
-		["Wajawamedo"] = {
+		["Wafflestomp"] = {
 		},
 		["Mittens"] = {
 		},
@@ -293,7 +295,7 @@ AtlasLootWishList = {
 		},
 		["Lichmydk"] = {
 		},
-		["Wafflestomp"] = {
+		["Wajawamedo"] = {
 		},
 		["Saptack"] = {
 		},

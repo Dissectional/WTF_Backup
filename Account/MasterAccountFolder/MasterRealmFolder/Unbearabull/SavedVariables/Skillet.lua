@@ -4,7 +4,7 @@ SkilletDBPC = {
 		["tradeSkillLocation_x"] = -65.00009936665902,
 		["tradeskill_options"] = {
 			["Cooking"] = {
-				["filtertext"] = "bri",
+				["filtertext"] = "",
 			},
 			["First Aid"] = {
 				["filtertext"] = "",
@@ -14,6 +14,7 @@ SkilletDBPC = {
 			},
 		},
 		["tradeSkillLocation_point"] = "CENTER",
+		["include_alts"] = false,
 		["tradeSkillLocation_y"] = 25.00011632669441,
 	},
 }

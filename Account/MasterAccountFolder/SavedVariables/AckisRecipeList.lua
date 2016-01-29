@@ -12,9 +12,9 @@ ARLDB2 = {
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
@@ -41,27 +41,27 @@ ARLDB2 = {
 			},
 			["PrimalWoW (Progressive)"] = {
 				["Contagion"] = {
-					["First Aid"] = "|cffffd000|Htrade:3274:80:150:10018:OAAAAA|h[First Aid]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:100:150:10018:eIAAAA|h[First Aid]|h|r",
 				},
 				["Unbearabull"] = {
-					["Cooking"] = "|cffffd000|Htrade:3102:92:150:1002E:OAgF0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
+					["Cooking"] = "|cffffd000|Htrade:3102:100:150:1002E:OAgF0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 					["First Aid"] = "|cffffd000|Htrade:3274:80:150:1002E:eIAAAA|h[First Aid]|h|r",
-					["Alchemy"] = "|cffffd000|Htrade:3101:121:150:1002E:eBHgQBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAv|h[Alchemy]|h|r",
+					["Alchemy"] = "|cffffd000|Htrade:3101:141:150:1002E:+BHgYBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAv|h[Alchemy]|h|r",
 				},
 				["Wafflestomp"] = {
 					["Cooking"] = "|cffffd000|Htrade:2550:61:75:1001F:HAABQABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
-					["Blacksmithing"] = "|cffffd000|Htrade:2018:27:75:1001F:XAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA|h[Blacksmithing]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3273:55:75:1001F:NAAAAA|h[First Aid]|h|r",
+					["Blacksmithing"] = "|cffffd000|Htrade:2018:49:75:1001F:XE2AAAAAAAIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHAA|h[Blacksmithing]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:87:150:1001F:eIAAAA|h[First Aid]|h|r",
 				},
 				["Mittens"] = {
-					["Cooking"] = "|cffffd000|Htrade:3102:55:150:1001E:OAgBUJDAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r",
-					["Tailoring"] = "|cffffd000|Htrade:3909:86:150:1001E:6IEAAAAAgkAIACAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3274:81:150:1001E:eIAAAA|h[First Aid]|h|r",
-					["Enchanting"] = "|cffffd000|Htrade:7412:51:150:1001E:6bAAIAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
+					["Cooking"] = "|cffffd000|Htrade:3413:130:225:1001E:GAkBWJDAEAAAAAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
+					["Tailoring"] = "|cffffd000|Htrade:3909:105:150:1001E:6//yfAAAwvgtICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:100:150:1001E:eIAAAA|h[First Aid]|h|r",
+					["Enchanting"] = "|cffffd000|Htrade:7412:106:150:1001E:67/PIAAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 				},
 				["Wajawamedo"] = {
 					["Cooking"] = "|cffffd000|Htrade:3102:55:150:1000D:OAABUADAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3274:69:150:1000D:OAAAAA|h[First Aid]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:93:150:1000D:eIAAAA|h[First Aid]|h|r",
 					["Engineering"] = "|cffffd000|Htrade:4037:83:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
 				},
 			},
@@ -72,9 +72,9 @@ ARLDB2 = {
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 			["frameopts"] = {
-				["anchorFrom"] = "LEFT",
-				["offsetx"] = 184.9999784580196,
 				["offsety"] = 42.00001545551612,
+				["offsetx"] = 184.9999784580196,
+				["anchorFrom"] = "LEFT",
 				["anchorTo"] = "LEFT",
 			},
 			["addonversion"] = "1.0 2817",
@@ -107,15 +107,14 @@ ARLDB2 = {
 		["Pastafarian - TrueWoW"] = {
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["scantrainers"] = true,
-			["closeguionskillclose"] = true,
 			["frameopts"] = {
-				["anchorFrom"] = "LEFT",
-				["offsetx"] = 108.9994381988278,
 				["offsety"] = 98.00004773429315,
 				["anchorTo"] = "LEFT",
+				["offsetx"] = 108.9994381988278,
+				["anchorFrom"] = "LEFT",
 			},
-			["addonversion"] = "1.0 2817",
+			["scantrainers"] = true,
+			["closeguionskillclose"] = true,
 			["autoloaddb"] = true,
 			["filters"] = {
 				["obtain"] = {
@@ -123,28 +122,15 @@ ARLDB2 = {
 					["bc"] = false,
 				},
 			},
+			["scanvendors"] = true,
+			["addonversion"] = "1.0 2817",
 		},
 		["Ellipsis - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
-		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
-		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["spelltooltiplocation"] = "Top",
-			["sorting"] = "Acquisition",
-			["scantrainers"] = true,
-			["closeguionskillclose"] = true,
-			["frameopts"] = {
-				["anchorFrom"] = "CENTER",
-				["offsetx"] = 401.9996352224647,
-				["offsety"] = 71.0000346723304,
-				["anchorTo"] = "CENTER",
-			},
-			["scanvendors"] = true,
-			["autoloaddb"] = true,
 			["filters"] = {
 				["classes"] = {
 					["deathknight"] = false,
@@ -162,6 +148,21 @@ ARLDB2 = {
 					["bc"] = false,
 				},
 			},
+			["scantrainers"] = true,
+			["closeguionskillclose"] = true,
+			["frameopts"] = {
+				["offsety"] = 71.0000346723304,
+				["offsetx"] = 401.9996352224647,
+				["anchorFrom"] = "CENTER",
+				["anchorTo"] = "CENTER",
+			},
+			["scanvendors"] = true,
+			["autoloaddb"] = true,
+			["sorting"] = "Acquisition",
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 			["frameopts"] = {

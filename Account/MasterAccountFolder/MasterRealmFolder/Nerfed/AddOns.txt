@@ -7,7 +7,7 @@ TidyPlates_Grey: enabled
 TidyPlates_Neon: enabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
-TourGuide_LunarFestival: disabled
+TourGuide_LunarFestival: enabled
 TourGuide_MidsummerFestival: disabled
 TourGuide_Recorder: disabled
 TourGuide_Stradlater: disabled
@@ -32,7 +32,7 @@ AlphaMap3_Exteriors: disabled
 AlphaMap3MobMap: disabled
 Altoholic: enabled
 Altoholic_Achievements: enabled
-Ampere: disabled
+Ampere: enabled
 Atlas: enabled
 Atlas_Battlegrounds: enabled
 Atlas_DungeonLocs: enabled
@@ -53,7 +53,7 @@ Auc-Stat-Purchased: enabled
 Auc-Stat-Simple: enabled
 Auc-Stat-StdDev: enabled
 Auc-Util-FixAH: enabled
-Auctionator: disabled
+Auctionator: enabled
 BadPet: enabled
 Bartender4: disabled
 BeanCounter: enabled
@@ -61,8 +61,8 @@ Bimbo: disabled
 BonusScanner: enabled
 BugSack: enabled
 Carbonite: enabled
-CarboniteItems: enabled
-CarboniteNodes: enabled
+CarboniteItems: disabled
+CarboniteNodes: disabled
 CarboniteTransfer: enabled
 DataStore: enabled
 DataStore_Achievements: enabled
@@ -177,7 +177,7 @@ SilverDragon_Data: enabled
 Skillet: enabled
 SlideBar: disabled
 Stubby: enabled
-!Swatter: disabled
+!Swatter: enabled
 SyncFriends: disabled
 Talented: disabled
 Talented_GlyphFrame: disabled
@@ -261,3 +261,4 @@ WindowLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
 WoWPro: disabled
 WoWPro_Leveling: disabled
+DocsUI_Nameplates: disabled

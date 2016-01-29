@@ -22,18 +22,18 @@ Postal3DB = {
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Contagion|PrimalWoW (Progressive)|Horde|13|WARLOCK", -- [1]
+				"Contagion|PrimalWoW (Progressive)|Horde|25|WARLOCK", -- [1]
 				"Cryogenics|TrueWoW|Horde|19|MAGE", -- [2]
 				"Duglazerp|TrueWoW|Horde|80|WARRIOR", -- [3]
 				"Ellipsis|TrueWoW|Horde|18|WARLOCK", -- [4]
 				"Magistratus|TrueWoW|Horde|20|PALADIN", -- [5]
-				"Mittens|PrimalWoW (Progressive)|Horde|21|PRIEST", -- [6]
+				"Mittens|PrimalWoW (Progressive)|Horde|27|PRIEST", -- [6]
 				"Nerfed|PrimalWoW (Progressive)|Horde|8|MAGE", -- [7]
 				"Pastafarian|TrueWoW|Horde|15|PRIEST", -- [8]
 				"Shiftace|TrueWoW|Horde|18|DRUID", -- [9]
-				"Unbearabull|PrimalWoW (Progressive)|Horde|22|DRUID", -- [10]
-				"Wafflestomp|PrimalWoW (Progressive)|Horde|11|WARRIOR", -- [11]
-				"Wajawamedo|PrimalWoW (Progressive)|Horde|17|HUNTER", -- [12]
+				"Unbearabull|PrimalWoW (Progressive)|Horde|25|DRUID", -- [10]
+				"Wafflestomp|PrimalWoW (Progressive)|Horde|18|WARRIOR", -- [11]
+				"Wajawamedo|PrimalWoW (Progressive)|Horde|19|HUNTER", -- [12]
 			},
 		},
 	},
@@ -51,10 +51,10 @@ Postal3DB = {
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Wafflestomp", -- [1]
-					"Wajawamedo", -- [2]
-					"Unbearabull", -- [3]
-					"Nerfed", -- [4]
+					"Nerfed", -- [1]
+					"Wafflestomp", -- [2]
+					"Wajawamedo", -- [3]
+					"Unbearabull", -- [4]
 					"Contagion", -- [5]
 				},
 			},
@@ -107,11 +107,21 @@ Postal3DB = {
 			},
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
+			["OpenSpeed"] = 0.3,
+			["BlackBook"] = {
+				["recent"] = {
+					"Mittens", -- [1]
+					"Nerfed", -- [2]
+				},
+			},
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Mittens", -- [1]
+					"Unbearabull", -- [1]
+					"Wajawamedo", -- [2]
+					"Mittens", -- [3]
+					"Wafflestomp", -- [4]
 				},
 			},
 		},

@@ -24,24 +24,6 @@ DataStore_CurrenciesDB = {
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["lastUpdate"] = 1451459344,
 			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830070,
-			},
-			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1452579002,
-			},
-			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1453194125,
-			},
-			["Default.TrueWoW.Magistratus"] = {
-				["lastUpdate"] = 1452578544,
-			},
-			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1453357723,
-			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1453280127,
-			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
@@ -53,6 +35,24 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1452579101,
 			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1454056364,
+			},
+			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["lastUpdate"] = 1454016782,
+			},
+			["Default.TrueWoW.Magistratus"] = {
+				["lastUpdate"] = 1452578544,
+			},
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1453507219,
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["lastUpdate"] = 1454047632,
+			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1452830070,
+			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1451459200,
 			},
@@ -60,7 +60,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1451302278,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1452872155,
+				["lastUpdate"] = 1453802056,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["lastUpdate"] = 1452577701,
@@ -69,10 +69,10 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1452578989,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1452912300,
+				["lastUpdate"] = 1453791886,
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1453198396,
+			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1452579002,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1452578430,

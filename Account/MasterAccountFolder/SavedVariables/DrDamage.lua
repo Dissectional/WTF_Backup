@@ -25,6 +25,7 @@ DrDamageDB = {
 		["Lichmydk - TrueWoW"] = {
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
+			["DisplayType"] = "DPM",
 		},
 		["Pastafarian - TrueWoW"] = {
 		},
@@ -46,10 +47,12 @@ DrDamageDB = {
 			["DisplayType_M"] = "DPM",
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
+			["DisplayType"] = "DPS",
 		},
 		["Cryogenics - TrueWoW"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
+			["DisplayType"] = "DPS",
 		},
 		["Parimman - TrueWoW"] = {
 		},

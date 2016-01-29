@@ -5,7 +5,7 @@ ThreatPlates3DB = {
 			["specInfo"] = {
 				{
 					nil, -- [1]
-					8, -- [2]
+					10, -- [2]
 				}, -- [1]
 			},
 			["welcome"] = true,
@@ -21,7 +21,7 @@ ThreatPlates3DB = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["specInfo"] = {
 				{
-					[3] = 5,
+					[3] = 9,
 				}, -- [1]
 			},
 			["welcome"] = true,
@@ -49,20 +49,20 @@ ThreatPlates3DB = {
 			},
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["welcome"] = true,
 			["specInfo"] = {
 				{
-					[3] = 14,
+					[3] = 18,
 				}, -- [1]
-			},
-			["spec"] = {
-				["primary"] = false,
 			},
 			["specName"] = {
 				"Discipline", -- [1]
 				"Holy", -- [2]
 				"Shadow", -- [3]
 			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["welcome"] = true,
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
@@ -115,7 +115,7 @@ ThreatPlates3DB = {
 			["welcome"] = true,
 			["specInfo"] = {
 				{
-					5, -- [1]
+					17, -- [1]
 				}, -- [1]
 			},
 			["spec"] = {
@@ -132,7 +132,7 @@ ThreatPlates3DB = {
 			["specInfo"] = {
 				{
 					nil, -- [1]
-					11, -- [2]
+					15, -- [2]
 					2, -- [3]
 				}, -- [1]
 			},
@@ -143,14 +143,19 @@ ThreatPlates3DB = {
 			},
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
+			["specInfo"] = {
+				{
+					[3] = 1,
+				}, -- [1]
+			},
 			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
 			["specName"] = {
 				"Arcane", -- [1]
 				"Fire", -- [2]
 				"Frost", -- [3]
-			},
-			["spec"] = {
-				["primary"] = false,
 			},
 		},
 		["Cryogenics - TrueWoW"] = {

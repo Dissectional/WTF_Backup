@@ -1,5 +1,5 @@
 
 TidyPlatesOptions = {
-	["primary"] = "None",
-	["secondary"] = "None",
+	["secondary"] = "Threat Plates",
+	["primary"] = "Threat Plates",
 }

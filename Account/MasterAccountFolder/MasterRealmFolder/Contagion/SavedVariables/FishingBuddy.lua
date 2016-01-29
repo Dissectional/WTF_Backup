@@ -3,14 +3,14 @@ FishingBuddy_Player = {
 	["Outfit"] = {
 	},
 	["Settings"] = {
-		["EasyCast"] = 1,
 		["STVPoolsOnly"] = 1,
+		["EnhanceFishingSounds"] = 1,
 		["ResetWatcher"] = 1,
 		["MinimapButtonVisible"] = 0,
 		["WatchCurrentZone"] = 1,
 		["FishingBuddy"] = 0,
 		["BackgroundSounds"] = 1,
-		["EnhanceFishingSounds"] = 1,
+		["EasyCast"] = 1,
 		["OutfitManager"] = "None",
 		["AutoLoot"] = 1,
 		["STVTimer"] = 1,

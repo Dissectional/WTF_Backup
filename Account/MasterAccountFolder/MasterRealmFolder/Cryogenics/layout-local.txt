@@ -52,7 +52,7 @@ Frame: ZygorGuidesViewerPointerArrowFrame
 FrameLevel: 1
 Anchor: CENTER
 X: 0
-Y: -200
+Y: 475
 W: 50
 H: 50
 Frame: Recount_MainWindow

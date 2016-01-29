@@ -1,13 +1,13 @@
 
 SkilletDBPC = {
 	["global"] = {
-		["tradeSkillLocation_x"] = 218.9997066871299,
+		["tradeSkillLocation_x"] = -38.00000314581303,
 		["tradeskill_options"] = {
 			["Tailoring"] = {
 				["filtertext"] = "",
 			},
 			["Cooking"] = {
-				["filtertext"] = "need",
+				["filtertext"] = "",
 			},
 			["First Aid"] = {
 				["filtertext"] = "",
@@ -16,11 +16,11 @@ SkilletDBPC = {
 				["hidetrivial"] = false,
 				["hideuncraftable"] = false,
 				["sortmethod"] = "None",
-				["filtertext"] = "",
+				["filtertext"] = "agili",
 			},
 		},
-		["tradeSkillLocation_point"] = "TOP",
-		["tradeSkillLocation_y"] = -108.0001047692507,
+		["tradeSkillLocation_point"] = "RIGHT",
 		["include_alts"] = false,
+		["tradeSkillLocation_y"] = 17.99994159729761,
 	},
 }

@@ -5,8 +5,8 @@ RaidAchievement_Ulduar: enabled
 RaidAchievement_WotlkHeroics: enabled
 Stubby: enabled
 TidyPlates_ThreatPlates: enabled
-TidyPlates_Neon: disabled
-TidyPlates_Grey: disabled
+TidyPlates_Neon: enabled
+TidyPlates_Grey: enabled
 Informant: enabled
 AlphaMap3_Exteriors: disabled
 AlphaMap3_WorldBosses: disabled
@@ -17,7 +17,7 @@ AlphaMap3_Instances: disabled
 AlphaMap3_Battlegrounds: disabled
 AckisRecipeList: enabled
 FishingBuddy: enabled
-Auctionator: disabled
+Auctionator: enabled
 SyncFriends: disabled
 AtlasLootFu: enabled
 !BugGrabber: enabled
@@ -25,7 +25,7 @@ BuggedChecker: disabled
 TidyPlates: enabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
-TourGuide_LunarFestival: disabled
+TourGuide_LunarFestival: enabled
 TourGuide_MidsummerFestival: disabled
 TourGuide_Recorder: disabled
 TourGuide_Stradlater: disabled
@@ -35,7 +35,7 @@ PowerAuras: disabled
 HandyNotes: enabled
 EveryQuest_QuestGivers: enabled
 ElvUI_SwingBar: enabled
-Ampere: disabled
+Ampere: enabled
 Altoholic: enabled
 Altoholic_Achievements: enabled
 AtlasLoot: enabled
@@ -58,7 +58,7 @@ BeanCounter: enabled
 BonusScanner: enabled
 BugSack: enabled
 Carbonite: enabled
-CarboniteNodes: enabled
+CarboniteNodes: disabled
 DataStore: enabled
 DataStore_Achievements: enabled
 DataStore_Auctions: enabled
@@ -138,7 +138,7 @@ TitanRepair: enabled
 TitanXP: enabled
 Titan: enabled
 TitanReputation: enabled
-TourGuide: disabled
+TourGuide: enabled
 VendorBait: enabled
 SquareMinimapButtons: enabled
 DBM-Core: enabled
@@ -158,9 +158,9 @@ ZygorGuidesViewer: enabled
 ACP: enabled
 _NPCScan: enabled
 CarboniteTransfer: enabled
-CarboniteItems: enabled
+CarboniteItems: disabled
 Bimbo: disabled
-HealBot: disabled
+HealBot: enabled
 Prat-3.0: disabled
 Prat-3.0_Libraries: disabled
 Talented: disabled
@@ -215,7 +215,7 @@ Prat-3.0_HighCPUUsageModules: disabled
 QuestHelper: disabled
 SellJunk: disabled
 SlideBar: disabled
-!Swatter: disabled
+!Swatter: enabled
 TitanBag: disabled
 TitanGoldTracker: enabled
 TitanHealBot: disabled
@@ -260,3 +260,4 @@ AbacusLib: enabled
 WindowLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
 StatFrameLib: enabled
+DocsUI_Nameplates: disabled

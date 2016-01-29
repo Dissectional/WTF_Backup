@@ -6,5 +6,6 @@ SkilletDBPC = {
 				["filtertext"] = "",
 			},
 		},
+		["include_alts"] = false,
 	},
 }

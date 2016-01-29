@@ -21,7 +21,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "I05EPAW30PGH21ESGIPP",
+			["Lola"] = "B56CCAN58DMT29RVGBPC",
 			["TooltipGuildBankCount"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
 			["TabSummaryMode"] = 1,
@@ -36,7 +36,8 @@ AltoholicDB = {
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
 				["Calendar"] = {
-					"2016-01-09|02:30|Raid|1|8", -- [1]
+					"2016-01-29|23:55|Pitter Patter, UnleashtheGnomes|5|8", -- [1]
+					"2016-02-06|03:00|ZG|1|8", -- [2]
 				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
@@ -51,6 +52,12 @@ AltoholicDB = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["Calendar"] = {
+					"2016-01-29|23:55|Pitter Patter, UnleashtheGnomes|5|7", -- [1]
+					"2016-02-06|03:00|ZG|1|8", -- [2]
 				},
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
