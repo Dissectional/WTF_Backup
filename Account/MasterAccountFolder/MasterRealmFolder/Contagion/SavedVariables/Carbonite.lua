@@ -9,6 +9,7 @@ NxCData = {
 		["The Bulwark"] = true,
 		["Camp Taurajo"] = true,
 		["Zoram'gar Outpost"] = true,
+		["Freewind Post"] = true,
 		["Thunder Bluff"] = true,
 		["The Sepulcher"] = true,
 		["Splintertree Post"] = true,

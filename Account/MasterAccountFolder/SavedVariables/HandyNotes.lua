@@ -2,6 +2,7 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
@@ -19,6 +20,8 @@ HandyNotesDB = {
 	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
+		},
+		["Saptack - PrimalWoW (Progressive)"] = {
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 		},
@@ -65,6 +68,7 @@ HandyNotesDB = {
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
@@ -82,6 +86,8 @@ HandyNotes_HandyNotesDB = {
 	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
+		},
+		["Saptack - PrimalWoW (Progressive)"] = {
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 		},

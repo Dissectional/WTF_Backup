@@ -47,7 +47,7 @@ DrDamageDB = {
 			["DisplayType_M"] = "DPM",
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
-			["DisplayType"] = "DPS",
+			["DisplayType"] = "DPM",
 		},
 		["Cryogenics - TrueWoW"] = {
 		},

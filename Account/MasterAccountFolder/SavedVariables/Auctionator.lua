@@ -58,7 +58,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Contagion"] = {
 		["firstSeen"] = 1451457716,
-		["guid"] = "0x0000000000010018",
 		["firstVersion"] = "2.6.3",
 	},
 	["Magistratus"] = {
@@ -85,7 +84,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Mittens"] = {
 		["firstSeen"] = 1451458371,
-		["guid"] = "0x000000000001001E",
 		["firstVersion"] = "2.6.3",
 	},
 	["Cryogenics"] = {
@@ -113,11 +111,11 @@ AUCTIONATOR_TOONS = {
 	},
 	["Wafflestomp"] = {
 		["firstSeen"] = 1451458971,
+		["guid"] = "0x000000000001001F",
 		["firstVersion"] = "2.6.3",
 	},
 	["Saptack"] = {
 		["firstSeen"] = 1451459162,
-		["guid"] = "0x0000000000010021",
 		["firstVersion"] = "2.6.3",
 	},
 }

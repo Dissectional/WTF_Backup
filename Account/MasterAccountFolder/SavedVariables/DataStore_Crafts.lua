@@ -74,6 +74,9 @@ DataStore_CraftsDB = {
 						},
 						["FullLink"] = "|cffffd000|Htrade:3909:105:150:1001E:6//yfAAAwvgtICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
 					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
 					["Cooking"] = {
 						["NumCrafts"] = 16,
 						["isSecondary"] = true,
@@ -96,10 +99,7 @@ DataStore_CraftsDB = {
 							"4|2538", -- [16]
 							"4|37836", -- [17]
 						},
-						["FullLink"] = "|cffffd000|Htrade:3413:133:225:1001E:GAkBWJDAEAAAAAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
-					},
-					["Fishing"] = {
-						["isSecondary"] = true,
+						["FullLink"] = "|cffffd000|Htrade:3413:133:225:1001E:GgkBWJDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 					},
 					["First Aid"] = {
 						["FullLink"] = "|cffffd000|Htrade:3274:100:150:1001E:eIAAAA|h[First Aid]|h|r",
@@ -115,39 +115,43 @@ DataStore_CraftsDB = {
 						["NumCrafts"] = 4,
 					},
 					["Enchanting"] = {
-						["NumCrafts"] = 21,
+						["NumCrafts"] = 25,
 						["isPrimary"] = true,
 						["Crafts"] = {
 							"0|Enchant", -- [1]
-							"1|7793", -- [2]
-							"1|7745", -- [3]
-							"1|7786", -- [4]
-							"1|7788", -- [5]
-							"2|7779", -- [6]
-							"2|7782", -- [7]
-							"2|7776", -- [8]
-							"2|7771", -- [9]
-							"2|7766", -- [10]
-							"2|7748", -- [11]
-							"2|7457", -- [12]
-							"3|7454", -- [13]
-							"3|7426", -- [14]
-							"3|7428", -- [15]
-							"4|7418", -- [16]
-							"4|7420", -- [17]
-							"0|Other", -- [18]
-							"4|25124", -- [19]
-							"0|Wands", -- [20]
-							"2|14807", -- [21]
-							"4|14293", -- [22]
-							"0|Enchanting", -- [23]
-							"1|7795", -- [24]
-							"4|7421", -- [25]
+							"1|13421", -- [2]
+							"1|13380", -- [3]
+							"1|13419", -- [4]
+							"1|7793", -- [5]
+							"1|7745", -- [6]
+							"1|13378", -- [7]
+							"1|7786", -- [8]
+							"1|7788", -- [9]
+							"2|7779", -- [10]
+							"2|7782", -- [11]
+							"2|7776", -- [12]
+							"2|7771", -- [13]
+							"2|7766", -- [14]
+							"2|7748", -- [15]
+							"2|7457", -- [16]
+							"3|7454", -- [17]
+							"3|7426", -- [18]
+							"3|7428", -- [19]
+							"4|7418", -- [20]
+							"4|7420", -- [21]
+							"0|Other", -- [22]
+							"4|25124", -- [23]
+							"0|Wands", -- [24]
+							"2|14807", -- [25]
+							"4|14293", -- [26]
+							"0|Enchanting", -- [27]
+							"1|7795", -- [28]
+							"4|7421", -- [29]
 						},
-						["FullLink"] = "|cffffd000|Htrade:7412:119:150:1001E:67/PYDAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:7412:119:150:1001E:67/P4DAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 					},
 				},
-				["lastUpdate"] = 1454059847,
+				["lastUpdate"] = 1455328634,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
 				["Professions"] = {
@@ -167,27 +171,27 @@ DataStore_CraftsDB = {
 							"2|2538", -- [10]
 							"4|37836", -- [11]
 						},
-						["FullLink"] = "|cffffd000|Htrade:3102:55:150:1000D:OAABUADAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3102:55:150:1000D:OAAF0ILAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r",
 					},
 					["Fishing"] = {
 						["isSecondary"] = true,
 					},
 					["Engineering"] = {
-						["FullLink"] = "|cffffd000|Htrade:4037:83:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:4037:91:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
 						["isPrimary"] = true,
 						["Crafts"] = {
 							"0|Guns", -- [1]
 							"2|3925", -- [2]
 							"0|Miscellaneous", -- [3]
-							"3|7430", -- [4]
+							"4|7430", -- [4]
 							"0|Bullet", -- [5]
 							"4|3920", -- [6]
 							"0|Explosives", -- [7]
-							"3|3923", -- [8]
+							"4|3923", -- [8]
 							"4|3919", -- [9]
 							"0|Parts", -- [10]
-							"1|3929", -- [11]
-							"2|3924", -- [12]
+							"2|3924", -- [11]
+							"3|3929", -- [12]
 							"4|3922", -- [13]
 							"4|3918", -- [14]
 							"0|Pet", -- [15]
@@ -200,16 +204,16 @@ DataStore_CraftsDB = {
 						["NumCrafts"] = 1,
 						["Crafts"] = {
 							"0|Metal & Stone", -- [1]
-							"3|2657", -- [2]
+							"4|2657", -- [2]
 						},
 					},
 					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:3274:93:150:1000D:eIAAAA|h[First Aid]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3274:100:150:1000D:eIAAAA|h[First Aid]|h|r",
 						["isSecondary"] = true,
 						["Crafts"] = {
 							"0|Bandage", -- [1]
 							"2|3277", -- [2]
-							"3|3276", -- [3]
+							"4|3276", -- [3]
 							"4|3275", -- [4]
 							"0|Other", -- [5]
 							"2|7934", -- [6]
@@ -217,7 +221,7 @@ DataStore_CraftsDB = {
 						["NumCrafts"] = 4,
 					},
 				},
-				["lastUpdate"] = 1454015493,
+				["lastUpdate"] = 1454201209,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Professions"] = {
@@ -324,72 +328,81 @@ DataStore_CraftsDB = {
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["Professions"] = {
 					["Cooking"] = {
-						["NumCrafts"] = 7,
+						["NumCrafts"] = 19,
 						["isSecondary"] = true,
 						["Crafts"] = {
 							"0|Food & Drink", -- [1]
-							"1|6414", -- [2]
-							"2|2539", -- [3]
-							"2|8604", -- [4]
-							"2|2540", -- [5]
-							"2|7751", -- [6]
-							"2|2538", -- [7]
-							"4|37836", -- [8]
+							"2|6500", -- [2]
+							"3|7755", -- [3]
+							"3|6418", -- [4]
+							"4|25704", -- [5]
+							"4|2546", -- [6]
+							"4|2544", -- [7]
+							"4|6499", -- [8]
+							"4|2541", -- [9]
+							"4|7753", -- [10]
+							"4|7827", -- [11]
+							"4|6416", -- [12]
+							"4|8607", -- [13]
+							"4|6414", -- [14]
+							"4|2539", -- [15]
+							"4|8604", -- [16]
+							"4|2540", -- [17]
+							"4|7751", -- [18]
+							"4|2538", -- [19]
+							"4|37836", -- [20]
 						},
-						["FullLink"] = "|cffffd000|Htrade:2550:61:75:1001F:HAABQADAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3413:172:225:1001F:GAEVWNDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 					},
 					["Blacksmithing"] = {
-						["NumCrafts"] = 16,
+						["NumCrafts"] = 21,
 						["isPrimary"] = true,
 						["Crafts"] = {
-							"0|Other", -- [1]
-							"3|2660", -- [2]
-							"3|3115", -- [3]
-							"0|Daggers", -- [4]
-							"1|8880", -- [5]
-							"0|One-Handed Axes", -- [6]
-							"1|2738", -- [7]
-							"0|One-Handed Maces", -- [8]
-							"1|2737", -- [9]
-							"0|One-Handed Swords", -- [10]
-							"1|2739", -- [11]
-							"0|Two-Handed Axes", -- [12]
-							"1|3293", -- [13]
-							"0|Two-Handed Swords", -- [14]
-							"1|9983", -- [15]
-							"0|Mail", -- [16]
-							"1|3324", -- [17]
-							"1|3323", -- [18]
-							"1|2661", -- [19]
-							"1|3319", -- [20]
-							"1|2662", -- [21]
-							"3|2663", -- [22]
-							"3|12260", -- [23]
-							"0|Metal & Stone", -- [24]
-							"2|3320", -- [25]
+							"1|3292", -- [1]
+							"1|2667", -- [2]
+							"1|7817", -- [3]
+							"1|3294", -- [4]
+							"1|2666", -- [5]
+							"1|3325", -- [6]
+							"1|2664", -- [7]
+							"2|3323", -- [8]
+							"3|2661", -- [9]
+							"3|8880", -- [10]
+							"3|2739", -- [11]
+							"3|2738", -- [12]
+							"4|2737", -- [13]
+							"4|2662", -- [14]
+							"4|2665", -- [15]
+							"4|3116", -- [16]
+							"4|2663", -- [17]
+							"4|2660", -- [18]
+							"4|12260", -- [19]
+							"4|3115", -- [20]
+							"3|3293", -- [21]
 						},
-						["FullLink"] = "|cffffd000|Htrade:2018:49:75:1001F:XE+AAAAAAAIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHAA|h[Blacksmithing]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3100:95:150:1001F:eP+DAAAAAMIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwfFA|h[Blacksmithing]|h|r",
 					},
 					["Fishing"] = {
 						["isSecondary"] = true,
 					},
 					["Mining"] = {
 						["isPrimary"] = true,
-						["NumCrafts"] = 3,
+						["NumCrafts"] = 4,
 						["Crafts"] = {
 							"0|Metal & Stone", -- [1]
-							"2|2659", -- [2]
-							"2|3304", -- [3]
-							"3|2657", -- [4]
+							"1|2658", -- [2]
+							"2|2659", -- [3]
+							"4|3304", -- [4]
+							"4|2657", -- [5]
 						},
 					},
 					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:3274:94:150:1001F:eIAAAA|h[First Aid]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3274:100:150:1001F:eIAAAA|h[First Aid]|h|r",
 						["isSecondary"] = true,
 						["Crafts"] = {
 							"0|Bandage", -- [1]
 							"2|3277", -- [2]
-							"3|3276", -- [3]
+							"4|3276", -- [3]
 							"4|3275", -- [4]
 							"0|Other", -- [5]
 							"2|7934", -- [6]
@@ -397,7 +410,7 @@ DataStore_CraftsDB = {
 						["NumCrafts"] = 4,
 					},
 				},
-				["lastUpdate"] = 1454046052,
+				["lastUpdate"] = 1454915001,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Professions"] = {
@@ -423,22 +436,6 @@ DataStore_CraftsDB = {
 							"4|37836", -- [16]
 						},
 						["NumCrafts"] = 15,
-					},
-					["Riding"] = {
-						["isSecondary"] = true,
-					},
-					["Fishing"] = {
-						["isSecondary"] = true,
-					},
-					["Mining"] = {
-						["isPrimary"] = true,
-						["NumCrafts"] = 3,
-						["Crafts"] = {
-							"0|Metal & Stone", -- [1]
-							"3|2659", -- [2]
-							"4|3304", -- [3]
-							"4|2657", -- [4]
-						},
 					},
 					["First Aid"] = {
 						["FullLink"] = "|cffffd000|Htrade:3274:76:150:1D4CD6:OAAAAA|h[First Aid]|h|r",
@@ -468,6 +465,22 @@ DataStore_CraftsDB = {
 							"3|25255", -- [12]
 						},
 						["NumCrafts"] = 9,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+						["NumCrafts"] = 3,
+						["Crafts"] = {
+							"0|Metal & Stone", -- [1]
+							"3|2659", -- [2]
+							"4|3304", -- [3]
+							"4|2657", -- [4]
+						},
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
 					},
 				},
 				["lastUpdate"] = 1451303937,
@@ -543,41 +556,48 @@ DataStore_CraftsDB = {
 						},
 						["FullLink"] = "|cffffd000|Htrade:3102:100:150:1002E:OAgV0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 					},
-					["Alchemy"] = {
-						["NumCrafts"] = 20,
-						["isPrimary"] = true,
-						["Crafts"] = {
-							"0|Elixir", -- [1]
-							"3|3171", -- [2]
-							"3|8240", -- [3]
-							"3|7179", -- [4]
-							"4|3230", -- [5]
-							"4|2334", -- [6]
-							"4|3170", -- [7]
-							"4|2329", -- [8]
-							"4|7183", -- [9]
-							"0|Potion", -- [10]
-							"1|3173", -- [11]
-							"2|3447", -- [12]
-							"2|3172", -- [13]
-							"2|7841", -- [14]
-							"4|2335", -- [15]
-							"4|6617", -- [16]
-							"4|2337", -- [17]
-							"4|4508", -- [18]
-							"4|2332", -- [19]
-							"4|2331", -- [20]
-							"4|2330", -- [21]
-							"0|Other", -- [22]
-							"4|7836", -- [23]
-						},
-						["FullLink"] = "|cffffd000|Htrade:3101:141:150:1002E:+BHgYBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAv|h[Alchemy]|h|r",
-					},
 					["Herbalism"] = {
 						["isPrimary"] = true,
 					},
 					["Fishing"] = {
 						["isSecondary"] = true,
+					},
+					["Alchemy"] = {
+						["NumCrafts"] = 27,
+						["isPrimary"] = true,
+						["Crafts"] = {
+							"0|Elixir", -- [1]
+							"1|7845", -- [2]
+							"1|63732", -- [3]
+							"2|3177", -- [4]
+							"2|3176", -- [5]
+							"3|3171", -- [6]
+							"3|8240", -- [7]
+							"3|7179", -- [8]
+							"4|3230", -- [9]
+							"4|2334", -- [10]
+							"4|3170", -- [11]
+							"4|2329", -- [12]
+							"4|7183", -- [13]
+							"0|Potion", -- [14]
+							"1|7181", -- [15]
+							"2|3174", -- [16]
+							"2|3173", -- [17]
+							"3|3447", -- [18]
+							"3|3172", -- [19]
+							"3|7841", -- [20]
+							"4|2335", -- [21]
+							"4|6617", -- [22]
+							"4|2337", -- [23]
+							"4|4508", -- [24]
+							"4|2332", -- [25]
+							"4|2331", -- [26]
+							"4|2330", -- [27]
+							"0|Other", -- [28]
+							"2|7837", -- [29]
+							"4|7836", -- [30]
+						},
+						["FullLink"] = "|cffffd000|Htrade:3464:155:225:1002E:2PHw4JfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r",
 					},
 					["First Aid"] = {
 						["NumCrafts"] = 4,
@@ -585,15 +605,15 @@ DataStore_CraftsDB = {
 						["Crafts"] = {
 							"0|Bandage", -- [1]
 							"2|3277", -- [2]
-							"3|3276", -- [3]
+							"4|3276", -- [3]
 							"4|3275", -- [4]
 							"0|Other", -- [5]
 							"2|7934", -- [6]
 						},
-						["FullLink"] = "|cffffd000|Htrade:3274:93:150:1002E:eIAAAA|h[First Aid]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3274:100:150:1002E:eIAAAA|h[First Aid]|h|r",
 					},
 				},
-				["lastUpdate"] = 1453798421,
+				["lastUpdate"] = 1454890489,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Professions"] = {
@@ -732,8 +752,25 @@ DataStore_CraftsDB = {
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["Professions"] = {
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:2550:40:75:10018:HAAAQABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
+						["isSecondary"] = true,
+						["Crafts"] = {
+							"0|Food & Drink", -- [1]
+							"1|2539", -- [2]
+							"1|8604", -- [3]
+							"1|2540", -- [4]
+							"1|7751", -- [5]
+							"1|2538", -- [6]
+							"4|37836", -- [7]
+						},
+						["NumCrafts"] = 6,
+					},
 					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:3274:100:150:10018:eIAAAA|h[First Aid]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:3274:102:150:10018:eIAAAA|h[First Aid]|h|r",
 						["isSecondary"] = true,
 						["Crafts"] = {
 							"0|Bandage", -- [1]
@@ -746,7 +783,7 @@ DataStore_CraftsDB = {
 						["NumCrafts"] = 4,
 					},
 				},
-				["lastUpdate"] = 1453717926,
+				["lastUpdate"] = 1455317215,
 			},
 		},
 		["Guilds"] = {
@@ -758,7 +795,7 @@ DataStore_CraftsDB = {
 							2575, -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053202,
+						["lastUpdate"] = 1455328263,
 					},
 					["Polly"] = {
 						["Professions"] = {
@@ -766,32 +803,35 @@ DataStore_CraftsDB = {
 							2575, -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053201,
+						["lastUpdate"] = 1455328264,
+					},
+					["Vapinglife"] = {
+						["Version"] = 12340,
 					},
 					["Catballou"] = {
 						["Professions"] = {
-							2575, -- [1]
-							8613, -- [2]
+							"|cffffd000|Htrade:12656:300:300:3DE0:4///v/f/+7////fn/27/d1C+cSX8/fAAAAAAAAEAAAAIAAAAAAAgAA|h[Engineering]|h|r", -- [1]
+							2575, -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053206,
+						["lastUpdate"] = 1455328267,
 					},
 					["Wafflestomp"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:2018:49:75:1001F:XE+AAAAAAAIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHAA|h[Blacksmithing]|h|r", -- [1]
+							"|cffffd000|Htrade:3100:95:150:1001F:eP+DAAAAAMIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwfFA|h[Blacksmithing]|h|r", -- [1]
 							2575, -- [2]
-							"|cffffd000|Htrade:2550:61:75:1001F:HAABQADAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r", -- [3]
+							"|cffffd000|Htrade:3413:172:225:1001F:GAEVWNDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454054443,
+						["lastUpdate"] = 1455328264,
 					},
 					["Madramale"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:3909:100:150:FD8D:6+/yPAAAwNgrICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r", -- [1]
+							"|cffffd000|Htrade:12180:230:300:FD8D:4//+/q9a6drr8/PR07CRNAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA|h[Tailoring]|h|r", -- [1]
 							13614, -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1452808954,
+						["lastUpdate"] = 1454404740,
 					},
 					["Moopheus"] = {
 						["Professions"] = {
@@ -802,41 +842,76 @@ DataStore_CraftsDB = {
 						["Version"] = 12340,
 						["lastUpdate"] = 1453678372,
 					},
+					["Troi"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:12656:300:300:10ABA:4//+svWvGv++N5bnFAKfZVAeOATCAAAAAAAAAAEAAAAIAAAAAAAgAA|h[Engineering]|h|r", -- [1]
+							2575, -- [2]
+							"|cffffd000|Htrade:2550:21:75:10ABA:HAAAAABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1455321589,
+					},
 					["Drunkonpower"] = {
 						["Version"] = 12340,
 					},
 					["Contagion"] = {
+						["Professions"] = {
+							[3] = "|cffffd000|Htrade:2550:40:75:10018:HAAAQABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
+						},
 						["Version"] = 12340,
+						["lastUpdate"] = 1455328261,
+					},
+					["Waterwalker"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:4038:150:225:10FCB:8///u/GAAbKAAAAAAAAAAAAuAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r", -- [1]
+							2575, -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1455323112,
 					},
 					["Suenami"] = {
 						["Professions"] = {
 							"|cffffd000|Htrade:3464:225:225:171E:2v/6+//HGAYBAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r", -- [1]
-							8613, -- [2]
-							13614, -- [3]
+							13614, -- [2]
+							8613, -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053200,
+						["lastUpdate"] = 1455328262,
+					},
+					["Gunsblazing"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:4037:92:150:106FA:6/9AAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r", -- [1]
+							2575, -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1454891709,
 					},
 					["Mittens"] = {
 						["Professions"] = {
 							"|cffffd000|Htrade:3909:105:150:1001E:6//yfAAAwvgtICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r", -- [1]
-							"|cffffd000|Htrade:7412:119:150:1001E:67/PYDAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r", -- [2]
-							"|cffffd000|Htrade:3102:68:150:1001E:OAgBUJDAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r", -- [3]
+							"|cffffd000|Htrade:7412:119:150:1001E:67/P4DAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r", -- [2]
+							"|cffffd000|Htrade:3413:133:225:1001E:GgkBWJDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454054446,
+						["lastUpdate"] = 1455328267,
 					},
 					["Wajawamedo"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:4037:83:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r", -- [1]
+							"|cffffd000|Htrade:4037:91:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r", -- [1]
 							2575, -- [2]
-							"|cffffd000|Htrade:3102:55:150:1000D:OAABUADAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r", -- [3]
+							"|cffffd000|Htrade:3102:55:150:1000D:OAAF0ILAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454054445,
+						["lastUpdate"] = 1455328266,
 					},
 					["Tuon"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:3909:150:150:10B6B:6//27iAIwNhncCgBgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA|h[Tailoring]|h|r", -- [1]
+							"|cffffd000|Htrade:7412:111:150:10B6B:67OPYBAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r", -- [2]
+							"|cffffd000|Htrade:18260:202:300:10B6B:GgCUWtBAEACBAAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r", -- [3]
+						},
 						["Version"] = 12340,
+						["lastUpdate"] = 1455321588,
 					},
 					["Lilleth"] = {
 						["Professions"] = {
@@ -844,25 +919,25 @@ DataStore_CraftsDB = {
 							"|cffffd000|Htrade:13920:300:300:A179:4/////f+//f/vuzvv/7vYCAAwBAAAAAAAAAAAAAAAAAAAAAAAAC|h[Enchanting]|h|r", -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053205,
-					},
-					["Unbearabull"] = {
-						["Professions"] = {
-							13614, -- [1]
-							"|cffffd000|Htrade:3101:141:150:1002E:+BHgYBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAv|h[Alchemy]|h|r", -- [2]
-							"|cffffd000|Htrade:3102:100:150:1002E:OAgV0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r", -- [3]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1454054442,
+						["lastUpdate"] = 1455328266,
 					},
 					["Dana"] = {
 						["Professions"] = {
 							8613, -- [1]
-							2575, -- [2]
+							"|cffffd000|Htrade:10662:300:300:F0D:e+///v//f/d//v//v//H///////f77v5////LgDAAAAAAAAAAAAAA4AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8/D|h[Leatherworking]|h|r", -- [2]
 							"|cffffd000|Htrade:18260:300:300:F0D:2/q/+/7////fDAAQAgGAAAAAAAA5//B|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053208,
+						["lastUpdate"] = 1455328269,
+					},
+					["Unbearabull"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:3464:155:225:1002E:2PHw4JfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r", -- [1]
+							13614, -- [2]
+							"|cffffd000|Htrade:3102:100:150:1002E:OAgV0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1455328263,
 					},
 					["Cutlass"] = {
 						["Professions"] = {
@@ -877,12 +952,12 @@ DataStore_CraftsDB = {
 					},
 					["Nickie"] = {
 						["Professions"] = {
-							13614, -- [1]
-							"|cffffd000|Htrade:11611:300:300:D23F:2//r+9/Hfv//PxfBpEAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r", -- [2]
+							"|cffffd000|Htrade:11611:300:300:D23F:2//r+9/Hfv//PxfBpEAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r", -- [1]
+							13614, -- [2]
 							"|cffffd000|Htrade:18260:300:300:D23F:GAAAGAFAEACBAAAQAAAAAAAAAAfAUKA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1454053204,
+						["lastUpdate"] = 1455328265,
 					},
 				},
 			},

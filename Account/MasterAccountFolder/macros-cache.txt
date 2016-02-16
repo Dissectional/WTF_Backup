@@ -8,9 +8,10 @@ MACRO 4 "Mount" ability_mount_nightmarehorse
 /rmount
 END
 MACRO 5 "Pull" Ability_Creature_Cursed_02
-/p Attack Order:
-/p {skull} First
-/p {Cross} Second
-/p {Triangle} Third
-/p No marks? Kill the mob with lowest remaining HP
+Kill Order:
+{Skull} First
+{Cross} Second
+{Triangle} Third
+{Square} Fourth
+No marks? Kill the mob with lowest remaining HP
 END

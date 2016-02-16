@@ -1,3 +1,7 @@
+MACRO 16777232 "Banish" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus,exists,harm,nodead] Banish
+END
 MACRO 16777218 "hbCrashProt_0" Ability_Creature_Disease_02
 1:N
 END
@@ -5,7 +9,7 @@ MACRO 16777219 "hbCrashProt_1" Ability_Creature_Disease_02
 Con:p:0000000000010018:Mae:g1:00000000000105C5:Mez:gpet1:F140003D5F000CF7:
 END
 MACRO 16777220 "Healthstone" INV_Misc_QuestionMark
-#showtooltip Lesser Healthstone
+#showtooltip
 /use [nomod] Lesser Healthstone
 /cast [button:2] Create Healthstone
 /cast [mod] Create Healthstone
@@ -18,7 +22,7 @@ MACRO 16777221 "Soul Shard" INV_Misc_QuestionMark
 #showtooltip Soul Shard
 /run i="Soul Shard"d=GetItemCount(i)-4 for x=0,4 do for y=1,GetContainerNumSlots(x) do if (d>0) then l=GetContainerItemLink(x,y) if l and GetItemInfo(l)==i then PickupContainerItem(x,y) DeleteCursorItem() d=d-1 end end end end
 END
-MACRO 16777222 "Thumb" Spell_Shadow_LifeDrain02
+MACRO 16777222 "Thumb" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomod] Drain Life
 /cast [mod:shift] Rain of Fire

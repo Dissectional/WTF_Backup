@@ -28,8 +28,8 @@ MSBTProfiles_SavedVars = {
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
 					["behavior"] = "MSBT_NORMAL",
-					["offsetX"] = -290,
 					["animationStyle"] = "Straight",
+					["offsetX"] = -290,
 				},
 				["Static"] = {
 					["offsetY"] = 390,

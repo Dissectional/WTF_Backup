@@ -4,9 +4,9 @@ RaidAchievement_Naxxramas: enabled
 RaidAchievement_Ulduar: enabled
 RaidAchievement_WotlkHeroics: enabled
 Stubby: enabled
-TidyPlates_ThreatPlates: enabled
-TidyPlates_Neon: enabled
-TidyPlates_Grey: enabled
+TidyPlates_ThreatPlates: disabled
+TidyPlates_Neon: disabled
+TidyPlates_Grey: disabled
 Informant: enabled
 AlphaMap3_Exteriors: disabled
 AlphaMap3_WorldBosses: disabled
@@ -22,10 +22,10 @@ SyncFriends: disabled
 AtlasLootFu: enabled
 !BugGrabber: enabled
 BuggedChecker: disabled
-TidyPlates: enabled
+TidyPlates: disabled
 XToLevel: disabled
 TourGuide_FlawsGuides: disabled
-TourGuide_LunarFestival: enabled
+TourGuide_LunarFestival: disabled
 TourGuide_MidsummerFestival: disabled
 TourGuide_Recorder: disabled
 TourGuide_Stradlater: disabled
@@ -126,7 +126,7 @@ RaidSlackCheck: enabled
 RandomMount: enabled
 RatingBuster: enabled
 Recount: enabled
-RepTracker: enabled
+RepTracker: disabled
 Routes: enabled
 SavedInstances: enabled
 RandomPet30: disabled
@@ -157,7 +157,7 @@ DBM-WorldEvents: enabled
 ZygorGuidesViewer: enabled
 ACP: enabled
 _NPCScan: enabled
-CarboniteTransfer: enabled
+CarboniteTransfer: disabled
 CarboniteItems: disabled
 Bimbo: disabled
 HealBot: enabled
@@ -167,7 +167,7 @@ Talented: disabled
 Talented_GlyphFrame: disabled
 Talented_SpecTabs: disabled
 TankPoints: enabled
-ElvUI_RightClick: enabled
+ElvUI_RightClick: disabled
 Atlas: enabled
 Atlas_Battlegrounds: enabled
 Atlas_DungeonLocs: enabled
@@ -178,7 +178,7 @@ GFW_FeedOMatic: disabled
 TipTac: disabled
 TipTacItemRef: disabled
 TipTacOptions: disabled
-TipTacTalents: enabled
+TipTacTalents: disabled
 AlphaMap3: disabled
 AlphaMap3QuestHelper: disabled
 AlphaMap3MobMap: disabled
@@ -260,4 +260,6 @@ AbacusLib: enabled
 WindowLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
 StatFrameLib: enabled
-DocsUI_Nameplates: disabled
+DocsUI_Nameplates: enabled
+PlateBuffs: disabled
+caelNamePlates: disabled

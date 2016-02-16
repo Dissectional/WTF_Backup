@@ -4,7 +4,7 @@ QuestHelper_Pref = {
 	["submit_nag_type"] = "OFF",
 }
 QuestHelper_UID = "PvgovXj8OYeCLghoeqoxiDhugPrWxj2n"
-QuestHelper_SaveDate = 1450612252
+QuestHelper_SaveDate = 1454106164
 QuestHelper_Errors = {
 	["version"] = 1,
 }
@@ -22,7 +22,8 @@ QuestHelper_Collector = {
 		},
 		["achievement"] = {
 		},
-		["version"] = 8,
+		["fishing"] = {
+		},
 		["item"] = {
 		},
 		["realms"] = {
@@ -92,40 +93,39 @@ QuestHelper_Collector = {
 				["special_item"] = false,
 				["daily"] = false,
 				["name"] = "Testing an Enemy's Strength",
-				["criteria_2_type"] = "monster",
+				["tag"] = "Dungeon",
 				["level"] = 15,
 				["criteria_1_type"] = "monster",
-				["tag"] = "Dungeon",
-			},
-			[9215] = {
-				["groupcount"] = 2,
-				["items_choice"] = {
-					[23410] = 1,
-					[23411] = 1,
-					[23409] = 1,
-				},
-				["criteria_1_text"] = "Head of Kel'gash the Wicked: 0/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Bring Me Kel'gash's Head!",
-				["level"] = 20,
-				["criteria_1_type"] = "item",
-				["tag"] = "Group",
+				["criteria_2_type"] = "monster",
 			},
 			[9214] = {
 				["groupcount"] = 0,
 				["criteria_2_text"] = "Shadowcaster Mace: 3/3",
 				["criteria_1_text"] = "Headhunter Axe: 3/3",
 				["criteria_4_text"] = "Hexxer Stave: 0/3",
-				["criteria_3_text"] = "Catlord Claws: 0/3",
 				["special_item"] = false,
+				["criteria_3_text"] = "Catlord Claws: 0/3",
 				["daily"] = false,
 				["name"] = "Shadowpine Weaponry",
-				["criteria_1_type"] = "item",
+				["criteria_4_type"] = "item",
 				["criteria_3_type"] = "item",
 				["level"] = 18,
-				["criteria_4_type"] = "item",
+				["criteria_1_type"] = "item",
 				["criteria_2_type"] = "item",
+			},
+			[9169] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "Deactivate An'owyn",
+				["criteria_1_text"] = "Night Elf Moon Crystal Deactivated: 0/1",
+				["special_item"] = false,
+				["level"] = 16,
+				["items_choice"] = {
+					[23401] = 1,
+					[28160] = 1,
+					[23400] = 1,
+				},
+				["criteria_1_type"] = "object",
 			},
 			[9156] = {
 				["groupcount"] = 3,
@@ -138,22 +138,22 @@ QuestHelper_Collector = {
 				["special_item"] = false,
 				["daily"] = false,
 				["name"] = "Wanted: Knucklerot and Luzran",
-				["criteria_2_type"] = "item",
+				["tag"] = "Group",
 				["criteria_1_type"] = "item",
 				["level"] = 21,
-				["tag"] = "Group",
+				["criteria_2_type"] = "item",
 			},
 			[9218] = {
 				["groupcount"] = 0,
 				["daily"] = false,
 				["name"] = "Spinal Dust",
 				["criteria_1_text"] = "Spinal Dust: 0/10",
-				["level"] = 18,
+				["special_item"] = false,
 				["criteria_1_type"] = "item",
 				["items_reward"] = {
 					[22778] = 1,
 				},
-				["special_item"] = false,
+				["level"] = 18,
 			},
 			[9220] = {
 				["groupcount"] = 0,
@@ -179,22 +179,54 @@ QuestHelper_Collector = {
 				["level"] = 18,
 				["criteria_2_type"] = "monster",
 			},
-			[9169] = {
-				["groupcount"] = 0,
-				["daily"] = false,
-				["name"] = "Deactivate An'owyn",
-				["criteria_1_text"] = "Night Elf Moon Crystal Deactivated: 0/1",
-				["criteria_1_type"] = "object",
-				["level"] = 16,
+			[9215] = {
+				["groupcount"] = 2,
 				["items_choice"] = {
-					[23401] = 1,
-					[28160] = 1,
-					[23400] = 1,
+					[23410] = 1,
+					[23411] = 1,
+					[23409] = 1,
 				},
+				["criteria_1_text"] = "Head of Kel'gash the Wicked: 0/1",
 				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Bring Me Kel'gash's Head!",
+				["level"] = 20,
+				["criteria_1_type"] = "item",
+				["tag"] = "Group",
 			},
 		},
+		["version"] = 8,
+	},
+	["1.4.1 on 3.3.5/enUS/1"] = {
+		["monster"] = {
+			[2] = {
+				"\000 vL\000&è∑\000", -- [1]
+				["name_Balir Frosthammer"] = 1,
+				["reaction_5"] = 1,
+			},
+		},
+		["warp"] = {
+		},
+		["flight_times"] = {
+		},
+		["modified"] = 1454106165,
+		["flight_master"] = {
+		},
+		["achievement"] = {
+		},
 		["fishing"] = {
+		},
+		["version"] = 8,
+		["realms"] = {
+			["PrimalWoW (Progressive)"] = 3,
+		},
+		["worldloot"] = {
+		},
+		["object"] = {
+		},
+		["quest"] = {
+		},
+		["item"] = {
 		},
 	},
 }

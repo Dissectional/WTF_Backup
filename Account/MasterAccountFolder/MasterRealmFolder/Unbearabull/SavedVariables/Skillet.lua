@@ -14,7 +14,7 @@ SkilletDBPC = {
 			},
 		},
 		["tradeSkillLocation_point"] = "CENTER",
-		["include_alts"] = false,
 		["tradeSkillLocation_y"] = 25.00011632669441,
+		["include_alts"] = false,
 	},
 }

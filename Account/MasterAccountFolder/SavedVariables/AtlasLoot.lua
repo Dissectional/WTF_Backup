@@ -26,6 +26,7 @@ AtlasLootDB = {
 			["AllLinks"] = false,
 			["ItemSpam"] = true,
 			["AtlasLootVersion"] = "51104",
+			["CraftingLink"] = 1,
 		},
 		["Lichmydk - TrueWoW"] = {
 			["AtlasType"] = "Unknown",
@@ -34,7 +35,6 @@ AtlasLootDB = {
 			["ItemSpam"] = true,
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
-			["LastBoss"] = "SMGraveyard",
 		},
 		["Pastafarian - TrueWoW"] = {
 			["AtlasLootVersion"] = "51104",
@@ -45,13 +45,13 @@ AtlasLootDB = {
 			["AllLinks"] = false,
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
 			["ItemSpam"] = true,
-			["LastBoss"] = "Gnomeregan1",
+			["AtlasLootVersion"] = "51104",
 		},
 		["Saptack - PrimalWoW (Progressive)"] = {
-			["AtlasType"] = "Unknown",
+			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Iamsham - PrimalWoW (Progressive)"] = {
 			["AtlasType"] = "Unknown",
@@ -77,8 +77,8 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51104",
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
-			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Cryogenics - TrueWoW"] = {
 			["CraftingLink"] = 2,
@@ -86,8 +86,8 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51104",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Parimman - TrueWoW"] = {
 			["AtlasType"] = "Unknown",

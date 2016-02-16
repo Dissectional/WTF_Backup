@@ -22,20 +22,24 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1454052812,
-				["lastVisitDate"] = "2016/01/29 20:33",
+				["lastUpdate"] = 1454913816,
+				["lastVisitDate"] = "2016/02/08 19:43",
+			},
+			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
+				["lastUpdate"] = 1454150751,
+				["lastVisitDate"] = "2016/01/30 23:45",
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1454047930,
-				["lastVisitDate"] = "2016/01/29 19:12",
+				["lastUpdate"] = 1455085775,
+				["lastVisitDate"] = "2016/02/10 19:29",
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["lastUpdate"] = 1451304515,
 				["lastVisitDate"] = "2015/12/29 01:08",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1453542208,
-				["lastVisitDate"] = "2016/01/23 22:43",
+				["lastUpdate"] = 1454891273,
+				["lastVisitDate"] = "2016/02/08 13:27",
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["lastUpdate"] = 1453685436,

@@ -5,9 +5,29 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
-	["LastSearchedText"] = "General Drakkisath",
+	["LastSearchedText"] = "vampiric ba",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
+		{
+			5, -- [1]
+			38658, -- [2]
+			"", -- [3]
+			"=q3=Vampiric Batling", -- [4]
+			"Scourge Invasion", -- [5]
+			"", -- [6]
+			"", -- [7]
+			"ScourgeInvasionEvent1|\"\"", -- [8]
+		}, -- [1]
+		{
+			2, -- [1]
+			38658, -- [2]
+			"", -- [3]
+			"=q3=Vampiric Batling", -- [4]
+			"Vanity Pets - Rare", -- [5]
+			"", -- [6]
+			"", -- [7]
+			"PetsRare2|\"\"", -- [8]
+		}, -- [2]
 	},
 }
 AtlasLootFilterDB = {
@@ -17,22 +37,18 @@ AtlasLootFilterDB = {
 		["Sigils"] = true,
 		["Totem"] = true,
 	},
-	["WeaponsMeele"] = {
-		["Axe"] = true,
-		["Shield"] = true,
-		["Held in Off-Hand"] = true,
-		["Staff"] = true,
-		["Dagger"] = true,
-		["Mace"] = true,
-		["Fist Weapon"] = true,
-		["Polearm"] = true,
-		["Sword"] = true,
+	["WeaponsRanged"] = {
+		["Crossbow"] = true,
+		["Thrown"] = true,
+		["Gun"] = true,
+		["Bow"] = true,
+		["Wand"] = true,
 	},
 	["Armor"] = {
 		["Leather"] = true,
 		["Plate"] = true,
-		["Cloth"] = true,
 		["Mail"] = true,
+		["Cloth"] = true,
 	},
 	["WeaponsMeeleTwoHand"] = {
 		["Mace"] = true,
@@ -45,11 +61,15 @@ AtlasLootFilterDB = {
 		["Ring"] = true,
 		["Back"] = true,
 	},
-	["WeaponsRanged"] = {
-		["Crossbow"] = true,
-		["Wand"] = true,
-		["Gun"] = true,
-		["Bow"] = true,
-		["Thrown"] = true,
+	["WeaponsMeele"] = {
+		["Axe"] = true,
+		["Shield"] = true,
+		["Held in Off-Hand"] = true,
+		["Staff"] = true,
+		["Dagger"] = true,
+		["Mace"] = true,
+		["Fist Weapon"] = true,
+		["Polearm"] = true,
+		["Sword"] = true,
 	},
 }

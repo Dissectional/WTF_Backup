@@ -6,13 +6,13 @@ Prat-3.0_Libraries: disabled
 AckisRecipeList: enabled
 AtlasLootFu: enabled
 BuggedChecker: disabled
-TidyPlates: enabled
-TidyPlates_Grey: enabled
-TidyPlates_Neon: enabled
-TidyPlates_ThreatPlates: enabled
+TidyPlates: disabled
+TidyPlates_Grey: disabled
+TidyPlates_Neon: disabled
+TidyPlates_ThreatPlates: disabled
 TourGuide: enabled
 TourGuide_FlawsGuides: disabled
-TourGuide_LunarFestival: enabled
+TourGuide_LunarFestival: disabled
 TourGuide_MidsummerFestival: disabled
 TourGuide_Recorder: disabled
 TourGuide_Stradlater: disabled
@@ -68,7 +68,7 @@ BugSack: enabled
 Carbonite: enabled
 CarboniteItems: disabled
 CarboniteNodes: disabled
-CarboniteTransfer: enabled
+CarboniteTransfer: disabled
 DataStore: enabled
 DataStore_Achievements: enabled
 DataStore_Auctions: enabled
@@ -171,7 +171,7 @@ RandomMount: enabled
 RandomPet30: disabled
 RatingBuster: enabled
 Recount: enabled
-RepTracker: enabled
+RepTracker: disabled
 Routes: enabled
 SavedInstances: enabled
 SellJunk: disabled
@@ -203,7 +203,7 @@ ElvUI: enabled
 ElvUI_AddOnSkins: enabled
 ElvUI_Bunny: enabled
 ElvUI_Config: enabled
-ElvUI_RightClick: enabled
+ElvUI_RightClick: disabled
 SquareMinimapButtons: enabled
 DBM-Core: enabled
 DBM-GUI: enabled
@@ -227,7 +227,7 @@ MiniPet: enabled
 TipTac: disabled
 TipTacItemRef: disabled
 TipTacOptions: disabled
-TipTacTalents: enabled
+TipTacTalents: disabled
 TitanHealBot: disabled
 LibTextTable-1.0: enabled
 LibSharedMedia-3.0: enabled
@@ -262,6 +262,6 @@ LibStickyFrames-2.0: enabled
 LibLordFarlander-2.0: enabled
 WoWPro: disabled
 WoWPro_Leveling: disabled
-DocsUI_Nameplates: disabled
-PlateBuffs: enabled
+DocsUI_Nameplates: enabled
+PlateBuffs: disabled
 caelNamePlates: disabled

@@ -2,7 +2,7 @@
 TourGuideAlphaDB = {
 	["char"] = {
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["currentguide"] = "The Lunar Festival (80+)",
+			["showstatusframe"] = false,
 			["completion"] = {
 				["The Barrens (20)"] = 0,
 				["Arathi Highlands (36-37)"] = 0,
@@ -66,9 +66,9 @@ TourGuideAlphaDB = {
 					["Bladeleaf the Elder"] = true,
 					["Winterspring@7@"] = true,
 					["Darnassus@11@"] = true,
+					["Stonespire the Elder"] = true,
 					["Runetotem the Elder"] = true,
 					["Bladeswift the Elder"] = true,
-					["Stonespire the Elder"] = true,
 					["Nightwind the Elder"] = true,
 					["Wall of Text@1@"] = true,
 					["Ashenvale@9@"] = true,
@@ -89,12 +89,12 @@ TourGuideAlphaDB = {
 					["Gallows' End Tavern@3@"] = true,
 				},
 			},
-			["showstatusframe"] = false,
+			["currentguide"] = "The Barrens (12-20)",
 			["showuseitem"] = false,
 			["hearth"] = "The Crossroads",
 		},
 		["Saptack - PrimalWoW (Progressive)"] = {
-			["showstatusframe"] = false,
+			["currentguide"] = "Tirisfal Glades (1-12)",
 			["completion"] = {
 				["No Guide"] = 0,
 			},
@@ -104,13 +104,13 @@ TourGuideAlphaDB = {
 				["Tirisfal Glades (1-12)"] = {
 				},
 			},
-			["currentguide"] = "Tirisfal Glades (1-12)",
+			["showstatusframe"] = false,
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 			["completion"] = {
 				["Durotar (1-12)"] = 1,
 				["The Barrens (12-20)"] = 0,
-				["Tirisfal Glades (1-12)"] = 0,
+				["Tirisfal Glades (1-12)"] = 1,
 				["Mulgore (1-12)"] = 0.6190476190476191,
 				["Eversong Woods (1-13)"] = 0,
 				["Ghostlands (13-20)"] = 0,
@@ -127,13 +127,22 @@ TourGuideAlphaDB = {
 					["Gazz'uz@3@"] = true,
 				},
 				["The Barrens (12-20)"] = {
+					["Ghostlands?@1@"] = true,
+					["Kill crap...@3@"] = true,
+					["The Crossroads@2@"] = true,
 				},
 				["Tirisfal Glades (1-12)"] = {
-					["Brill@4@"] = true,
-					["[Coarse Thread]@5@"] = true,
-					["Gallows' End Tavern@3@"] = true,
+					["Brill@8@"] = true,
 					["Brill@2@"] = true,
 					["Samuel Fipps@1@"] = true,
+					["Brill@4@"] = true,
+					["Brill@6@"] = true,
+					["[Coarse Thread]@5@"] = true,
+					["Grab flight point@11@"] = true,
+					["Orgrimmar@10@"] = true,
+					["Ghostlands?@9@"] = true,
+					["Gallows' End Tavern@3@"] = true,
+					["Undercity@7@"] = true,
 				},
 				["Mulgore (1-12)"] = {
 					["Kill Swoops...@2@"] = true,
@@ -146,27 +155,34 @@ TourGuideAlphaDB = {
 				["Ghostlands (13-20)"] = {
 				},
 			},
-			["currentguide"] = "Tirisfal Glades (1-12)",
+			["currentguide"] = "The Barrens (12-20)",
 			["showstatusframe"] = false,
 			["showuseitem"] = false,
 			["hearth"] = "Gallows' End Tavern",
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["completion"] = {
-				["The Barrens (12-20)"] = 0.007692307692307693,
+				["Durotar (1-12)"] = 1,
+				["The Barrens (12-20)"] = 0.09230769230769231,
 				["Tirisfal Glades (1-12)"] = 0,
 				["Mulgore (1-12)"] = 1,
+				["Non-Icecrown [Gold Only] (80-N)"] = 0,
+				["The Lunar Festival (80+)"] = 0,
 			},
 			["trackquests"] = false,
 			["mapnotecoords"] = false,
 			["turnins"] = {
 				["Durotar (1-12)"] = {
+					["Razor Hill@5@"] = true,
 					["Razor Hill@1@"] = true,
 					["Save quest reward@2@"] = true,
 					["Gazz'uz@4@"] = true,
 					["Gazz'uz@3@"] = true,
 				},
 				["The Barrens (12-20)"] = {
+					["Ghostlands?@1@"] = true,
+					["Kill crap...@3@"] = true,
+					["The Crossroads@2@"] = true,
 				},
 				["Tirisfal Glades (1-12)"] = {
 				},
@@ -176,12 +192,16 @@ TourGuideAlphaDB = {
 					["Cook your ass off!@3@"] = true,
 					["Bloodhoof Village@1@"] = true,
 				},
+				["Non-Icecrown [Gold Only] (80-N)"] = {
+				},
+				["The Lunar Festival (80+)"] = {
+				},
 			},
 			["mapquestgivers"] = false,
-			["currentguide"] = "Durotar (1-12)",
 			["showstatusframe"] = false,
+			["currentguide"] = "The Barrens (12-20)",
 			["showuseitem"] = false,
-			["hearth"] = "Razor Hill",
+			["hearth"] = "The Crossroads",
 		},
 		["Shiftace - TrueWoW"] = {
 			["currentguide"] = "Ghostlands (13-20)",
@@ -241,13 +261,20 @@ TourGuideAlphaDB = {
 					["Howling Fjord@1@"] = true,
 					["Plaguehound Cage@2@"] = true,
 				},
-				["No Guide"] = {
+				["vvvvvvv Flaw's Guides vvvvvvv"] = {
+					["Flaw's Guides Begin@1@"] = true,
 				},
 				["Mulgore (1-12)"] = {
 					["Kill Swoops...@2@"] = true,
 					["Drink up!@4@"] = true,
 					["Cook your ass off!@3@"] = true,
 					["Bloodhoof Village@1@"] = true,
+				},
+				["No Guide"] = {
+				},
+				["Argent Crusade (80-H)"] = {
+					["Welcome!@1@"] = true,
+					["Pre-Check (Addon Suggestion)@2@"] = true,
 				},
 				["Argent Tournament [Aspirants] (80-H)"] = {
 					["Sunreaver Pavilian@3@"] = true,
@@ -258,13 +285,6 @@ TourGuideAlphaDB = {
 					["Sunreaver Pavilian@7@"] = true,
 					["Welcome!@1@"] = true,
 					["End of Guide@8@"] = true,
-				},
-				["Argent Crusade (80-H)"] = {
-					["Welcome!@1@"] = true,
-					["Pre-Check (Addon Suggestion)@2@"] = true,
-				},
-				["vvvvvvv Flaw's Guides vvvvvvv"] = {
-					["Flaw's Guides Begin@1@"] = true,
 				},
 				["Desolace (32-34)"] = {
 				},
@@ -375,6 +395,7 @@ TourGuideAlphaDB = {
 				["Mulgore (1-12)"] = 1,
 				["No Guide"] = 0,
 				["Stonetalon Mountains (20-21)"] = 1,
+				["The Barrens (22-23)"] = 1,
 			},
 			["trackquests"] = false,
 			["mapnotecoords"] = false,
@@ -420,13 +441,19 @@ TourGuideAlphaDB = {
 				},
 				["The Barrens (22-23)"] = {
 					["Camp Taurajo@2@"] = true,
+					["Orgrimmar@3@"] = true,
 					["Camp Taurajo@1@"] = true,
 				},
+				["Stonetalon Mountains (23-25)"] = {
+					["Sun Rock Retreat@1@"] = true,
+					["Sun Rock Retreat@2@"] = true,
+					["Sun Rock Retreat@3@"] = true,
+				},
 			},
-			["currentguide"] = "The Barrens (22-23)",
 			["showstatusframe"] = false,
+			["currentguide"] = "Stonetalon Mountains (23-25)",
 			["showuseitem"] = false,
-			["hearth"] = "Camp Taurajo",
+			["hearth"] = "Splintertree Post",
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["completion"] = {
@@ -458,10 +485,10 @@ TourGuideAlphaDB = {
 					["Bloodhoof Village@1@"] = true,
 				},
 			},
-			["currentguide"] = "The Barrens (12-20)",
 			["showstatusframe"] = false,
+			["currentguide"] = "The Barrens (12-20)",
 			["showuseitem"] = false,
-			["hearth"] = "The Crossroads",
+			["hearth"] = "The Sepulcher",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["completion"] = {
@@ -553,9 +580,9 @@ TourGuideAlphaDB = {
 					["Deatholme@11@"] = true,
 				},
 				["Eversong Woods (1-13)"] = {
-					["Suntouched Special Reserve@14@"] = true,
 					["Well Watcher Solanian@1@"] = true,
 					["Class Quests?@15@"] = true,
+					["Suntouched Special Reserve@14@"] = true,
 					["Training?@16@"] = true,
 				},
 				["The Barrens (20)"] = {

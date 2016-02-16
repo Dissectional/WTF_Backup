@@ -563,8 +563,8 @@ MacroBankDB = {
 					{
 						"Healthstone", -- [1]
 						"Healthstone", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"#showtooltip Lesser Healthstone\n/use [nomod] Lesser Healthstone\n/cast [button:2] Create Healthstone\n/cast [mod] Create Healthstone", -- [4]
+						"Interface\\Icons\\INV_Stone_04", -- [3]
+						"#showtooltip\n/use [nomod] Lesser Healthstone\n/cast [button:2] Create Healthstone\n/cast [mod] Create Healthstone\n", -- [4]
 					}, -- [9]
 					{
 						"PetAttack", -- [1]
@@ -579,11 +579,17 @@ MacroBankDB = {
 						"#showtooltip\n/cast Sacrifice\n", -- [4]
 					}, -- [11]
 					{
+						"Temp Description", -- [1]
+						"Banish", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast [@focus,exists,harm,nodead] Banish", -- [4]
+					}, -- [12]
+					{
 						"Thumb", -- [1]
 						"Thumb", -- [2]
-						"Interface\\Icons\\Spell_Shadow_LifeDrain02", -- [3]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/cast [nomod] Drain Life\n/cast [mod:shift] Rain of Fire\n/cast [mod:ctrl] Drain Mana", -- [4]
-					}, -- [12]
+					}, -- [13]
 				}, -- [2]
 			}, -- [11]
 			{

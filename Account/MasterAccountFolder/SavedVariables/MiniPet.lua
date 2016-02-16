@@ -47,6 +47,20 @@ MiniPetDB = {
 				[-32298] = 1452830227,
 			},
 		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+			["FirstSeen"] = {
+				[-78381] = 1454709732,
+				[-53082] = 1454709736,
+				[-17707] = 1454709730,
+				[-17708] = 1454709726,
+				[-69002] = 1454709735,
+				[-17709] = 1454709729,
+				[-24988] = 1454709740,
+				[-52615] = 1454709733,
+				[-32298] = 1454709738,
+				[-61855] = 1454709728,
+			},
+		},
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["FirstSeen"] = {
 				[-78381] = 1452805414,
@@ -65,21 +79,25 @@ MiniPetDB = {
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["FirstSeen"] = {
+				[-10680] = 1454216887,
 				[-78381] = 1453890407,
 				[-53082] = 1453890405,
 				[-17707] = 1453890406,
 				[-17708] = 1453890401,
+				[-10684] = 1454216886,
 				[-32298] = 1453890406,
+				[-52615] = 1453890402,
 				[-17709] = 1453890405,
 				[-24988] = 1453890408,
-				[-52615] = 1453890402,
 				[-61855] = 1453890404,
 				[-69002] = 1453890404,
+				[-67416] = 1454914042,
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
@@ -88,6 +106,20 @@ MiniPetDB = {
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 	},
 	["profiles"] = {
+		["Saptack - PrimalWoW (Progressive)"] = {
+			["LastVersion"] = {
+				["minor"] = 1,
+				["major"] = 5,
+			},
+			["enchantOrder"] = {
+				43626, -- [1]
+				35223, -- [2]
+				43352, -- [3]
+				37460, -- [4]
+				44820, -- [5]
+			},
+			["LastWoWVersion"] = 30300,
+		},
 		["Default"] = {
 			["BattleGroundCheck"] = false,
 			["ZoneFavorites"] = {
@@ -104,16 +136,6 @@ MiniPetDB = {
 				["minor"] = 1,
 				["major"] = 5,
 			},
-			["AutoSummon"] = true,
-			["LastWoWVersion"] = 30300,
-			["Button"] = {
-				["posY"] = 58.31109277892256,
-				["posX"] = 881.7777987404387,
-				["showButton"] = false,
-			},
-			["GiveButtonWarning"] = false,
-			["GiveMountWarning"] = false,
-			["GiveTextWarning"] = false,
 			["enchantOrder"] = {
 				43626, -- [1]
 				35223, -- [2]
@@ -121,7 +143,17 @@ MiniPetDB = {
 				37460, -- [4]
 				44820, -- [5]
 			},
+			["LastWoWVersion"] = 30300,
+			["Button"] = {
+				["posY"] = 58.31109277892256,
+				["posX"] = 881.7777987404387,
+				["showButton"] = false,
+			},
+			["GiveButtonWarning"] = false,
 			["EquipmentCheck"] = true,
+			["GiveTextWarning"] = false,
+			["AutoSummon"] = true,
+			["GiveMountWarning"] = false,
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
 			["LastVersion"] = {

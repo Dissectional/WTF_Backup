@@ -1,5 +1,5 @@
 
 TidyPlatesOptions = {
-	["secondary"] = "Neon/DPS",
 	["primary"] = "Threat Plates",
+	["secondary"] = "Neon/DPS",
 }

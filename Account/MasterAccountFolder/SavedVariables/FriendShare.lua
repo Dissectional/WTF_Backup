@@ -44,6 +44,7 @@ FriendShare_Alts = {
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 		["Magistratus"] = "Magistratus",
+		["Saptack"] = "Saptack",
 	},
 	["TrueWoW-Alliance"] = {
 		["Parimman"] = "Parimman",
@@ -56,6 +57,10 @@ IgnoreShare_GlobalIgnores = {
 		["Woolea"] = "Woolea",
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+		["Davoodoo"] = "Davoodoo",
+		["Elora"] = "Elora",
+		["Offheal"] = "Offheal",
+		["Aellis"] = "Aellis",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},

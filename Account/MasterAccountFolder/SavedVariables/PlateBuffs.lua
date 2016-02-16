@@ -1,8 +1,13 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Saptack - PrimalWoW (Progressive)"] = "Default",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
+		["Nerfed - PrimalWoW (Progressive)"] = "Default",
+		["Mittens - PrimalWoW (Progressive)"] = "Default",
+		["Contagion - PrimalWoW (Progressive)"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

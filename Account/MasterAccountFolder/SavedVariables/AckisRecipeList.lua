@@ -2,6 +2,7 @@
 ARLDB2 = {
 	["profileKeys"] = {
 		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
@@ -41,28 +42,29 @@ ARLDB2 = {
 			},
 			["PrimalWoW (Progressive)"] = {
 				["Contagion"] = {
-					["First Aid"] = "|cffffd000|Htrade:3274:100:150:10018:eIAAAA|h[First Aid]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:102:150:10018:eIAAAA|h[First Aid]|h|r",
+					["Cooking"] = "|cffffd000|Htrade:2550:40:75:10018:HAAAQABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
 				},
 				["Unbearabull"] = {
 					["Cooking"] = "|cffffd000|Htrade:3102:100:150:1002E:OAgF0JDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3274:80:150:1002E:eIAAAA|h[First Aid]|h|r",
-					["Alchemy"] = "|cffffd000|Htrade:3101:141:150:1002E:+BHgYBVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAv|h[Alchemy]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:100:150:1002E:eIAAAA|h[First Aid]|h|r",
+					["Alchemy"] = "|cffffd000|Htrade:3464:155:225:1002E:2PHw4BfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAv|h[Alchemy]|h|r",
 				},
 				["Wafflestomp"] = {
-					["Cooking"] = "|cffffd000|Htrade:2550:61:75:1001F:HAABQABAEAAAAAAQAAAAAAAAAAAAEAA|h[Cooking]|h|r",
-					["Blacksmithing"] = "|cffffd000|Htrade:2018:49:75:1001F:XE2AAAAAAAIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwHAA|h[Blacksmithing]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3274:87:150:1001F:eIAAAA|h[First Aid]|h|r",
+					["Cooking"] = "|cffffd000|Htrade:3413:172:225:1001F:GAEVWNDAEAAABAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
+					["Blacksmithing"] = "|cffffd000|Htrade:3100:95:150:1001F:eP+DAAAAAMIAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwfFA|h[Blacksmithing]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:100:150:1001F:eIAAAA|h[First Aid]|h|r",
 				},
 				["Mittens"] = {
 					["Cooking"] = "|cffffd000|Htrade:3413:130:225:1001E:GAkBWJDAEAAAAAAQAAAAAAAAAAAAUKA|h[Cooking]|h|r",
 					["Tailoring"] = "|cffffd000|Htrade:3909:105:150:1001E:6//yfAAAwvgtICAAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Tailoring]|h|r",
 					["First Aid"] = "|cffffd000|Htrade:3274:100:150:1001E:eIAAAA|h[First Aid]|h|r",
-					["Enchanting"] = "|cffffd000|Htrade:7412:106:150:1001E:67/PIAAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
+					["Enchanting"] = "|cffffd000|Htrade:7412:119:150:1001E:67/P4DAAAAAAAAAADAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Enchanting]|h|r",
 				},
 				["Wajawamedo"] = {
 					["Cooking"] = "|cffffd000|Htrade:3102:55:150:1000D:OAABUADAEAAAAAAQAAAAAAAAAAAAUAA|h[Cooking]|h|r",
-					["First Aid"] = "|cffffd000|Htrade:3274:93:150:1000D:eIAAAA|h[First Aid]|h|r",
-					["Engineering"] = "|cffffd000|Htrade:4037:83:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
+					["First Aid"] = "|cffffd000|Htrade:3274:100:150:1000D:eIAAAA|h[First Aid]|h|r",
+					["Engineering"] = "|cffffd000|Htrade:4037:91:150:1000D:6PGAAAAAACAAAAAAAAAAAAAOAADAAAAAAAAAAAAAAAAIAAAAAAAAAA|h[Engineering]|h|r",
 				},
 			},
 		},
@@ -70,13 +72,18 @@ ARLDB2 = {
 	["profiles"] = {
 		["Parimman - TrueWoW"] = {
 		},
+		["Saptack - PrimalWoW (Progressive)"] = {
+		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
+			["scantrainers"] = true,
+			["scanvendors"] = true,
 			["frameopts"] = {
 				["offsety"] = 42.00001545551612,
 				["offsetx"] = 184.9999784580196,
 				["anchorFrom"] = "LEFT",
 				["anchorTo"] = "LEFT",
 			},
+			["autoloaddb"] = true,
 			["addonversion"] = "1.0 2817",
 			["filters"] = {
 				["binding"] = {
@@ -89,6 +96,25 @@ ARLDB2 = {
 			},
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
+			["scantrainers"] = true,
+			["frameopts"] = {
+				["anchorFrom"] = "LEFT",
+				["offsetx"] = 184.9999784580196,
+				["offsety"] = 42.00001545551612,
+				["anchorTo"] = "LEFT",
+			},
+			["scanvendors"] = true,
+			["addonversion"] = "1.0 2817",
+			["autoloaddb"] = true,
+			["filters"] = {
+				["binding"] = {
+					["itemboe"] = false,
+				},
+				["obtain"] = {
+					["wrath"] = false,
+					["bc"] = false,
+				},
+			},
 		},
 		["Shiftace - TrueWoW"] = {
 		},
@@ -128,9 +154,39 @@ ARLDB2 = {
 		["Ellipsis - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
+			["scantrainers"] = true,
+			["frameopts"] = {
+				["anchorFrom"] = "LEFT",
+				["offsetx"] = 184.9999784580196,
+				["offsety"] = 42.00001545551612,
+				["anchorTo"] = "LEFT",
+			},
+			["scanvendors"] = true,
+			["addonversion"] = "1.0 2817",
+			["autoloaddb"] = true,
+			["filters"] = {
+				["binding"] = {
+					["itemboe"] = false,
+				},
+				["obtain"] = {
+					["wrath"] = false,
+					["bc"] = false,
+				},
+			},
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["spelltooltiplocation"] = "Top",
+			["sorting"] = "Acquisition",
+			["scantrainers"] = true,
+			["closeguionskillclose"] = true,
+			["frameopts"] = {
+				["anchorFrom"] = "CENTER",
+				["offsetx"] = 401.9996352224647,
+				["offsety"] = 71.0000346723304,
+				["anchorTo"] = "CENTER",
+			},
+			["scanvendors"] = true,
+			["autoloaddb"] = true,
 			["filters"] = {
 				["classes"] = {
 					["deathknight"] = false,
@@ -148,17 +204,6 @@ ARLDB2 = {
 					["bc"] = false,
 				},
 			},
-			["scantrainers"] = true,
-			["closeguionskillclose"] = true,
-			["frameopts"] = {
-				["offsety"] = 71.0000346723304,
-				["offsetx"] = 401.9996352224647,
-				["anchorFrom"] = "CENTER",
-				["anchorTo"] = "CENTER",
-			},
-			["scanvendors"] = true,
-			["autoloaddb"] = true,
-			["sorting"] = "Acquisition",
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},

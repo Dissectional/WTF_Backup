@@ -13,7 +13,6 @@ SavedInstancesDB = {
 		["Mittens - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "PRIEST",
-			["Daily1"] = 1454086800,
 		},
 		["Pastafarian - TrueWoW"] = {
 			["AlwaysShow"] = false,
