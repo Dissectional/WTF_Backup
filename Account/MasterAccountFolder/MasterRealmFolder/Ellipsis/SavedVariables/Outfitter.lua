@@ -17,12 +17,12 @@ gOutfitter_Settings = {
 					["InvType"] = "INVTYPE_CLOAK",
 					["Code"] = 4695,
 					["SubCode"] = 0,
-					["Link"] = "|cff1eff00|Hitem:4695:0:0:0:0:0:0:0:18|h[Burnished Cloak]|h|r",
 					["JewelCode2"] = 0,
-					["UniqueID"] = 0,
+					["Link"] = "|cff1eff00|Hitem:4695:0:0:0:0:0:0:0:18|h[Burnished Cloak]|h|r",
 					["JewelCode1"] = 0,
-					["EnchantCode"] = 0,
+					["UniqueID"] = 0,
 					["Name"] = "Burnished Cloak",
+					["EnchantCode"] = 0,
 					["SubType"] = "Cloth",
 					["Level"] = 18,
 					["JewelCode3"] = 0,
@@ -267,9 +267,9 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
 				["Name"] = "Birthday Suit",
-				["ScriptLockupCount"] = 0,
 			}, -- [1]
 			{
 				["Items"] = {
@@ -544,9 +544,9 @@ gOutfitter_Settings = {
 						["UniqueID"] = 0,
 					},
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Complete",
 				["Name"] = "Normal",
-				["ScriptLockupCount"] = 0,
 			}, -- [2]
 		},
 		["Accessory"] = {
@@ -563,13 +563,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
-				["Name"] = "Riding",
 				["ScriptID"] = "Riding",
+				["ScriptLockupCount"] = 0,
+				["Name"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -577,8 +573,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Accessory",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 			}, -- [2]
 			{
 				["Items"] = {
@@ -597,6 +597,7 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["CategoryID"] = "Accessory",
+				["ScriptLockupCount"] = 0,
 				["Name"] = "Birthday Suit",
 				["StoredInEM"] = true,
 			}, -- [4]

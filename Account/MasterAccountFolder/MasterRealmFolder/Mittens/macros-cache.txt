@@ -4,6 +4,10 @@ END
 MACRO 16777221 "hbCrashProt_1" Ability_Creature_Disease_02
 Mit:p:000000000001001E:
 END
+MACRO 16777222 "PW: Shield" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,noharm,nodead,exists] Power Word: Shield; [harm,nodead] Holy Fire;  [noharm,nodead] Power Word: Shield
+END
 MACRO 16777217 "Shadow" INV_Misc_QuestionMark
 /castsequence [mod]Shadow Word: Death;reset=target Shadow Word: Pain,null
 /castsequence [nochanneling] reset=target Vampiric Touch,Devouring Plague,Mind Blast,Mind Flay,Mind Flay,Mind Flay,Mind Blast,Mind Flay,Mind Flay

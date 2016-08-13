@@ -1,17 +1,31 @@
+MACRO 7 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Dispel Magic;  [target=mouseover,exists,mod:ctrl] Cure Disease; [target=mouseover,exists,mod:shift] Dispel Magic
+END
+MACRO 8 "GFX" INV_Misc_QuestionMark
+/console groundEffectDensity 256
+/console groundEffectDist 140
+/console detailDoodadAlpha 100
+/console horizonfarclip 2112
+/console farclip 777
+/console characterAmbient 0
+/console smallcull 0
+/console skycloudlod 3
+END
 MACRO 6 "Here I am!" Ability_Rogue_FindWeakness
 /target [@player]
 /p What up gank stars
 /p %N in da house
 /targetlasttarget
 END
-MACRO 4 "Mount" ability_mount_nightmarehorse
-/rmount
-END
-MACRO 5 "Pull" Ability_Creature_Cursed_02
+MACRO 5 "Kill Order" Ability_Creature_Cursed_02
 Kill Order:
 {Skull} First
 {Cross} Second
 {Triangle} Third
 {Square} Fourth
 No marks? Kill the mob with lowest remaining HP
+END
+MACRO 4 "Mount" ability_mount_nightmarehorse
+/rmount
 END

@@ -2,7 +2,7 @@ AckisRecipeList: enabled
 AtlasLootFu: enabled
 !BugGrabber: enabled
 BuggedChecker: disabled
-TidyPlates: disabled
+TidyPlates: enabled
 TidyPlates_Grey: disabled
 TidyPlates_Neon: disabled
 XToLevel: disabled
@@ -13,7 +13,7 @@ TourGuide_Recorder: disabled
 TourGuide_Stradlater: disabled
 TitanClock: enabled
 TitanCoords: enabled
-TidyPlates_ThreatPlates: disabled
+TidyPlates_ThreatPlates: enabled
 PowerAuras: disabled
 HandyNotes: enabled
 EveryQuest_QuestGivers: enabled
@@ -32,7 +32,7 @@ AlphaMap3_Exteriors: disabled
 AlphaMap3MobMap: disabled
 Altoholic: enabled
 Altoholic_Achievements: enabled
-Ampere: enabled
+Ampere: disabled
 Atlas: enabled
 Atlas_Battlegrounds: enabled
 Atlas_DungeonLocs: enabled
@@ -63,7 +63,7 @@ BugSack: enabled
 Carbonite: enabled
 CarboniteItems: disabled
 CarboniteNodes: disabled
-CarboniteTransfer: disabled
+CarboniteTransfer: enabled
 DataStore: enabled
 DataStore_Achievements: enabled
 DataStore_Auctions: enabled
@@ -168,7 +168,7 @@ RandomMount: enabled
 RandomPet30: disabled
 RatingBuster: enabled
 Recount: enabled
-RepTracker: disabled
+RepTracker: enabled
 Routes: enabled
 SavedInstances: enabled
 SellJunk: disabled
@@ -221,7 +221,7 @@ ZygorGuidesViewer: enabled
 GFW_FeedOMatic: disabled
 Collectinator: enabled
 DropTheCheapestThing: enabled
-HealBot: enabled
+HealBot: disabled
 MiniPet: enabled
 TipTac: disabled
 TipTacItemRef: disabled
@@ -261,6 +261,19 @@ WindowLib: enabled
 AceGUI-3.0-SharedMediaWidgets: enabled
 WoWPro: disabled
 WoWPro_Leveling: disabled
-DocsUI_Nameplates: enabled
+DocsUI_Nameplates: disabled
 PlateBuffs: disabled
 caelNamePlates: disabled
+Clique: disabled
+Decursive: disabled
+GFW_FactionFriend: disabled
+Grid2: disabled
+Grid2Options: disabled
+Grid2StatusRaidDebuffs: disabled
+Grid2StatusRaidDebuffsOptions: disabled
+ElvUI_Microbar: disabled
+Raven: enabled
+Raven_Options: enabled
+ElkBuffBars: disabled
+SBFOptions: disabled
+SatrinaBuffFrame: disabled

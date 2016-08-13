@@ -14,24 +14,24 @@ DBM_SavedOptions = {
 	["BlockVersionUpdatePopup"] = true,
 	["WarningColors"] = {
 		{
-			["r"] = 0.41,
+			["r"] = 0.4117647058823529,
 			["g"] = 0.8,
-			["b"] = 0.94,
+			["b"] = 0.9411764705882353,
 		}, -- [1]
 		{
-			["r"] = 0.95,
-			["g"] = 0.95,
+			["r"] = 0.9490196078431372,
+			["g"] = 0.9490196078431372,
 			["b"] = 0,
 		}, -- [2]
 		{
 			["r"] = 1,
-			["g"] = 0.5,
+			["g"] = 0.5019607843137255,
 			["b"] = 0,
 		}, -- [3]
 		{
 			["r"] = 1,
-			["g"] = 0.1,
-			["b"] = 0.1,
+			["g"] = 0.1019607843137255,
+			["b"] = 0.1019607843137255,
 		}, -- [4]
 	},
 	["RangeFrameY"] = -50,
@@ -80,10 +80,29 @@ DBM_SavedOptions = {
 }
 DBT_SavedOptions = {
 	["DBM"] = {
-		["Font"] = "ElvUI Font",
-		["HugeScale"] = 1,
+		["FontSize"] = 10,
+		["HugeTimerY"] = -120.0000016412938,
+		["HugeBarXOffset"] = 0,
 		["Scale"] = 1,
-		["BarXOffset"] = 0,
+		["StartColorR"] = 1,
+		["HugeScale"] = 1,
+		["BarYOffset"] = 5,
 		["Texture"] = "ElvUI Norm",
+		["TimerX"] = -309.9999298346923,
+		["ExpandUpwards"] = true,
+		["TimerPoint"] = "BOTTOMRIGHT",
+		["StartColorG"] = 0.6980392156862745,
+		["TimerY"] = 161.999561911344,
+		["HugeBarYOffset"] = 0,
+		["EndColorR"] = 1,
+		["Width"] = 183,
+		["HugeTimerPoint"] = "CENTER",
+		["Font"] = "ElvUI Font",
+		["HugeTimerX"] = 0,
+		["EndColorG"] = 0,
+		["StartColorB"] = 0,
+		["HugeWidth"] = 200,
+		["BarXOffset"] = 0,
+		["EndColorB"] = 0,
 	},
 }

@@ -43,6 +43,7 @@ LightHeadedDB = {
 		["Duglazerp - TrueWoW"] = {
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
+			["lhopen"] = false,
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},

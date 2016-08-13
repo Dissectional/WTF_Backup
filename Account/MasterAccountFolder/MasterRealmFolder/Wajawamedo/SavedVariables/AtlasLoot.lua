@@ -5,19 +5,29 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
-	["LastSearchedText"] = "boahn",
+	["LastSearchedText"] = "timmy",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 		{
 			2, -- [1]
-			5423, -- [2]
+			13402, -- [2]
 			"", -- [3]
-			"=q3=Boahn's Fang", -- [4]
-			"Wailing Caverns", -- [5]
+			"=q3=Timmy's Galoshes", -- [4]
+			"Timmy the Cruel", -- [5]
 			"", -- [6]
 			"", -- [7]
-			"WailingCaverns1|\"\"", -- [8]
+			"STRATTimmytheCruel|\"\"", -- [8]
 		}, -- [1]
+		{
+			3, -- [1]
+			13401, -- [2]
+			"", -- [3]
+			"=q3=The Cruel Hand of Timmy", -- [4]
+			"Timmy the Cruel", -- [5]
+			"", -- [6]
+			"", -- [7]
+			"STRATTimmytheCruel|\"\"", -- [8]
+		}, -- [2]
 	},
 }
 AtlasLootFilterDB = {

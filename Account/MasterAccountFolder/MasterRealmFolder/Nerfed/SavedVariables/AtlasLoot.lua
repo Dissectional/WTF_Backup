@@ -5,6 +5,7 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
+	["LastSearchedText"] = "gesharahan",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 	},

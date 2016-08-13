@@ -1,65 +1,41 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
-		["Lichmydk - TrueWoW"] = "Lichmydk - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
-		["Pastafarian - TrueWoW"] = {
-		},
-		["Saptack - PrimalWoW (Progressive)"] = {
-		},
-		["Wajawamedo - PrimalWoW (Progressive)"] = {
-		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
-			["enabledPlugins"] = {
-				["QuestGivers"] = false,
-			},
 		},
 		["Shiftace - TrueWoW"] = {
 		},
-		["Lichmydk - TrueWoW"] = {
-		},
-		["Duglazerp - TrueWoW"] = {
+		["Mittens - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
 		},
-		["Parimman - TrueWoW"] = {
+		["Duglazerp - TrueWoW"] = {
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
-		},
-		["Ellipsis - TrueWoW"] = {
+		["Default"] = {
+			["enabledPlugins"] = {
+				["QuestGivers"] = false,
+			},
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
-			["enabledPlugins"] = {
-				["QuestGivers"] = false,
-			},
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["enabledPlugins"] = {
-				["QuestGivers"] = false,
-			},
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
-			["enabledPlugins"] = {
-				["QuestGivers"] = false,
-			},
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Ellipsis - TrueWoW"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},
@@ -79,9 +55,9 @@ HandyNotes_HandyNotesDB = {
 		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
 		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
-		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
@@ -109,11 +85,11 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Nerfed - PrimalWoW (Progressive)"] = {
 		},
-		["Cryogenics - TrueWoW"] = {
+		["Unbearabull - PrimalWoW (Progressive)"] = {
 		},
 		["Magistratus - TrueWoW"] = {
 		},

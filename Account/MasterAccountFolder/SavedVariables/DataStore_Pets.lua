@@ -10,7 +10,9 @@ DataStore_PetsDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -21,11 +23,8 @@ DataStore_PetsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
-			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830029,
+			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
+				["lastUpdate"] = 1471072591,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1452579002,
@@ -36,11 +35,49 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1455321543,
+				["lastUpdate"] = 1471061550,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [4]
+					"15358|Lurky|24988|INV_Egg_03", -- [5]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [6]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [7]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [8]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [9]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [10]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [11]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [12]
+				},
+			},
+			["Default.TrueWoW.Magistratus"] = {
+				["lastUpdate"] = 1470230322,
+			},
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1454109278,
+			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1470820802,
+				["CRITTER"] = {
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
+					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
+					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
+				},
+				["MOUNT"] = {
+					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
+					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
+				},
+			},
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1470041400,
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1470657814,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [3]
 					"15358|Lurky|24988|INV_Egg_03", -- [4]
 					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
 					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
@@ -51,33 +88,43 @@ DataStore_PetsDB = {
 					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
 				},
 			},
-			["Default.TrueWoW.Magistratus"] = {
-				["lastUpdate"] = 1452578659,
-				["MOUNT"] = {
-					"20222|Black Hawkstrider|35022|Ability_Mount_CockatriceMount_Black", -- [1]
-					"20220|Blue Hawkstrider|35020|Ability_Mount_CockatriceMount_Blue", -- [2]
-					"20217|Purple Hawkstrider|35018|Ability_Mount_CockatriceMount_Purple", -- [3]
-					"19280|Red Hawkstrider|34795|Ability_Mount_CockatriceMount", -- [4]
-					"20029|Thalassian Warhorse|34769|Spell_Nature_Swiftness", -- [5]
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1470746225,
+				["CRITTER"] = {
+					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
+					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
+					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [4]
+					"15358|Lurky|24988|INV_Egg_03", -- [5]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [6]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [7]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [8]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [9]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [10]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [11]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [12]
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1454709740,
+				["lastUpdate"] = 1471086423,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
-					"15358|Lurky|24988|INV_Egg_03", -- [3]
-					"11326|Mini Diablo|17708|INV_DiabloStone", -- [4]
-					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [5]
-					"29089|Mini Tyrael|53082|INV_Sword_07", -- [6]
-					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [7]
-					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [8]
-					"11325|Panda Cub|17707|INV_Belt_05", -- [9]
-					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [10]
+					"7387|Green Wing Macaw|10683|INV_Feather_12", -- [3]
+					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [4]
+					"15358|Lurky|24988|INV_Egg_03", -- [5]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [6]
+					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [7]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [8]
+					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [9]
+					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [10]
+					"11325|Panda Cub|17707|INV_Belt_05", -- [11]
+					"7380|Siamese Cat|10677|INV_Box_PetCarrier_01", -- [12]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [13]
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1455088549,
+				["lastUpdate"] = 1471071783,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"7390|Cockatiel|10680|INV_Feather_08", -- [2]
@@ -94,26 +141,11 @@ DataStore_PetsDB = {
 					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [13]
 				},
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1452579101,
-				["CRITTER"] = {
-					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [1]
-					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [2]
-					"15705|Winter's Little Helper|26541|INV_Holiday_Christmas_Present_01", -- [3]
-				},
-				["MOUNT"] = {
-					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
-					"14541|Swift Gray Wolf|23252|Ability_Mount_WhiteDireWolf", -- [2]
-				},
-			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1454109278,
-			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["lastUpdate"] = 1451302134,
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1471086224,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1454907073,
+				["lastUpdate"] = 1471086028,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
@@ -129,47 +161,20 @@ DataStore_PetsDB = {
 					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [12]
 				},
 			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1452577701,
+			["Default.TrueWoW.Lichmydk"] = {
+				["lastUpdate"] = 1451302134,
 			},
 			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1452578989,
+				["lastUpdate"] = 1470230243,
 			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1455321521,
-				["CRITTER"] = {
-					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
-					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
-					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [3]
-					"15358|Lurky|24988|INV_Egg_03", -- [4]
-					"11326|Mini Diablo|17708|INV_DiabloStone", -- [5]
-					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [6]
-					"29089|Mini Tyrael|53082|INV_Sword_07", -- [7]
-					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [8]
-					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [9]
-					"11325|Panda Cub|17707|INV_Belt_05", -- [10]
-					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [11]
-				},
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459314,
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1455328257,
-				["CRITTER"] = {
-					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
-					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
-					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [3]
-					"35387|Leaping Hatchling|67416|Ability_Mount_Raptor", -- [4]
-					"15358|Lurky|24988|INV_Egg_03", -- [5]
-					"11326|Mini Diablo|17708|INV_DiabloStone", -- [6]
-					"42078|Mini Thor|78381|INTERFACE\\ICONS\\t_roboticon", -- [7]
-					"29089|Mini Tyrael|53082|INV_Sword_07", -- [8]
-					"18381|Netherwhelp|32298|INV_Netherwhelp", -- [9]
-					"36607|Onyxian Whelpling|69002|INV_Misc_Head_Dragon_Black", -- [10]
-					"11325|Panda Cub|17707|INV_Belt_05", -- [11]
-					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [12]
-				},
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1471072471,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1452578335,
+				["lastUpdate"] = 1469855942,
 				["CRITTER"] = {
 					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [1]
 				},

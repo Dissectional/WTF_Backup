@@ -10,7 +10,9 @@ DataStore_CurrenciesDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -21,61 +23,67 @@ DataStore_CurrenciesDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459344,
-			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830070,
+			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
+				["lastUpdate"] = 1471072588,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1452579002,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1455321540,
+				["lastUpdate"] = 1471061550,
 			},
 			["Default.TrueWoW.Magistratus"] = {
-				["lastUpdate"] = 1452578544,
-			},
-			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1454709682,
-			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1455088575,
-			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["Currencies"] = {
-					"0|Dungeon and Raid", -- [1]
-					"1|Emblem of Frost|14|49426", -- [2]
-					"1|Emblem of Heroism|35|40752", -- [3]
-					"1|Emblem of Triumph|115|47241", -- [4]
-					"0|Player vs. Player", -- [5]
-					"1|Stone Keeper's Shard|141|43228", -- [6]
-				},
-				["lastUpdate"] = 1452579101,
+				["lastUpdate"] = 1470230322,
 			},
 			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["lastUpdate"] = 1454108904,
 			},
+			["Default.TrueWoW.Duglazerp"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Frost|16|49426", -- [2]
+					"1|Emblem of Heroism|35|40752", -- [3]
+					"1|Emblem of Triumph|119|47241", -- [4]
+					"0|Player vs. Player", -- [5]
+					"1|Stone Keeper's Shard|141|43228", -- [6]
+				},
+				["lastUpdate"] = 1470820802,
+			},
+			["Default.TrueWoW.Ellipsis"] = {
+				["lastUpdate"] = 1470041411,
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1470657811,
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1470746224,
+			},
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1471086420,
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["lastUpdate"] = 1471071779,
+			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1471086368,
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1471086151,
+			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302278,
 			},
-			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1454907073,
-			},
-			["Default.TrueWoW.Ellipsis"] = {
-				["lastUpdate"] = 1452577701,
-			},
 			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1452578989,
+				["lastUpdate"] = 1470230243,
 			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1455321519,
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459344,
 			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1455328255,
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1471072471,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1452578430,
+				["lastUpdate"] = 1469855941,
 			},
 		},
 	},

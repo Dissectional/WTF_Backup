@@ -10,7 +10,9 @@ DataStore_TalentsDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -21,25 +23,8 @@ DataStore_TalentsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1452830029,
+			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
+				["lastUpdate"] = 1470048722,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -99,7 +84,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1455321540,
+				["lastUpdate"] = 1471061550,
 				["Class"] = "HUNTER",
 				["TalentTrees"] = {
 					["Marksmanship|1"] = {
@@ -107,14 +92,14 @@ DataStore_TalentsDB = {
 						nil, -- [2]
 						5, -- [3]
 						nil, -- [4]
-						nil, -- [5]
+						1, -- [5]
 						5, -- [6]
 						nil, -- [7]
-						2, -- [8]
+						3, -- [8]
 						1, -- [9]
 					},
 				},
-				["PointsSpent"] = "0,13,0,0,0,0",
+				["PointsSpent"] = "0,15,0,0,0,0",
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Glyphs"] = {
@@ -132,7 +117,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1452578468,
+				["lastUpdate"] = 1470230322,
 				["Class"] = "PALADIN",
 				["TalentTrees"] = {
 					["Protection|1"] = {
@@ -144,7 +129,8 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "0,11,0,0,0,0",
 			},
-			["Default.PrimalWoW (Progressive).Nerfed"] = {
+			["Default.PrimalWoW (Progressive).Saptack"] = {
+				["lastUpdate"] = 1454109278,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -159,45 +145,6 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [11]
 					"0|0|||0", -- [12]
 				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1454709682,
-				["Class"] = "MAGE",
-				["TalentTrees"] = {
-					["Frost|1"] = {
-						nil, -- [1]
-						2, -- [2]
-					},
-				},
-				["PointsSpent"] = "0,0,2,0,0,0",
-			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1455088114,
-				["Class"] = "WARRIOR",
-				["TalentTrees"] = {
-					["Protection|1"] = {
-						nil, -- [1]
-						5, -- [2]
-						3, -- [3]
-						3, -- [4]
-						[7] = 2,
-					},
-				},
-				["PointsSpent"] = "0,0,13,0,0,0",
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["Glyphs"] = {
@@ -215,7 +162,7 @@ DataStore_TalentsDB = {
 					"1|1|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1452579101,
+				["lastUpdate"] = 1470821350,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Fury|1"] = {
@@ -285,79 +232,6 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "15,5,51,3,68,0",
 			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
-				["lastUpdate"] = 1454109278,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"1|2|||0", -- [3]
-					"1|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1451300494,
-				["Class"] = "DEATHKNIGHT",
-				["PointsSpent"] = "0,0,0,0,0,0",
-			},
-			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1454907073,
-				["Class"] = "DRUID",
-				["TalentTrees"] = {
-					["Feral Combat|1"] = {
-						5, -- [1]
-						nil, -- [2]
-						3, -- [3]
-						2, -- [4]
-						nil, -- [5]
-						2, -- [6]
-						nil, -- [7]
-						3, -- [8]
-						[11] = 1,
-					},
-					["Restoration|1"] = {
-						2, -- [1]
-					},
-				},
-				["PointsSpent"] = "0,16,2,0,0,0",
-			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Glyphs"] = {
 					"1|1|||0", -- [1]
@@ -374,49 +248,21 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1452577701,
+				["lastUpdate"] = 1470041400,
 				["Class"] = "WARLOCK",
 				["TalentTrees"] = {
+					["Affliction|1"] = {
+						[3] = 5,
+						[7] = 1,
+					},
 					["Demonology|1"] = {
 						nil, -- [1]
 						nil, -- [2]
 						1, -- [3]
 						2, -- [4]
 					},
-					["Affliction|1"] = {
-						[3] = 5,
-						[7] = 1,
-					},
 				},
 				["PointsSpent"] = "6,3,0,0,0,0",
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1452578989,
-				["Class"] = "DRUID",
-				["TalentTrees"] = {
-					["Feral Combat|1"] = {
-						5, -- [1]
-						nil, -- [2]
-						2, -- [3]
-						2, -- [4]
-					},
-				},
-				["PointsSpent"] = "0,9,0,0,0,0",
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["Glyphs"] = {
@@ -434,7 +280,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1455321519,
+				["lastUpdate"] = 1470657811,
 				["Class"] = "WARLOCK",
 				["TalentTrees"] = {
 					["Affliction|1"] = {
@@ -456,7 +302,7 @@ DataStore_TalentsDB = {
 					"1|1|||0", -- [1]
 					"1|2|||0", -- [2]
 					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
+					"1|1|||0", -- [4]
 					"0|2|||0", -- [5]
 					"0|1|||0", -- [6]
 					"0|0|||0", -- [7]
@@ -467,7 +313,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1455328255,
+				["lastUpdate"] = 1470746225,
 				["Class"] = "PRIEST",
 				["TalentTrees"] = {
 					["Shadow|1"] = {
@@ -483,9 +329,217 @@ DataStore_TalentsDB = {
 						nil, -- [10]
 						nil, -- [11]
 						2, -- [12]
+						nil, -- [13]
+						1, -- [14]
+						1, -- [15]
 					},
 				},
-				["PointsSpent"] = "0,0,20,0,0,0",
+				["PointsSpent"] = "0,0,22,0,0,0",
+			},
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1471086420,
+				["Class"] = "MAGE",
+				["TalentTrees"] = {
+					["Frost|1"] = {
+						3, -- [1]
+						5, -- [2]
+						1, -- [3]
+						3, -- [4]
+						nil, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						3, -- [8]
+						1, -- [9]
+						[13] = 1,
+					},
+				},
+				["PointsSpent"] = "0,0,17,0,0,0",
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1471070248,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Protection|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						3, -- [4]
+						1, -- [5]
+						nil, -- [6]
+						2, -- [7]
+						2, -- [8]
+					},
+					["Arms|1"] = {
+						nil, -- [1]
+						1, -- [2]
+					},
+				},
+				["PointsSpent"] = "1,0,16,0,0,0",
+			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1471086224,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1471085786,
+				["Class"] = "DRUID",
+				["TalentTrees"] = {
+					["Feral Combat|1"] = {
+						5, -- [1]
+						nil, -- [2]
+						3, -- [3]
+						2, -- [4]
+						nil, -- [5]
+						2, -- [6]
+						nil, -- [7]
+						3, -- [8]
+						[11] = 2,
+					},
+					["Restoration|1"] = {
+						2, -- [1]
+					},
+				},
+				["PointsSpent"] = "0,17,2,0,0,0",
+			},
+			["Default.TrueWoW.Lichmydk"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1451300494,
+				["Class"] = "DEATHKNIGHT",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1470230243,
+				["Class"] = "DRUID",
+				["TalentTrees"] = {
+					["Feral Combat|1"] = {
+						5, -- [1]
+						nil, -- [2]
+						3, -- [3]
+						2, -- [4]
+					},
+				},
+				["PointsSpent"] = "0,10,0,0,0,0",
+			},
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["lastUpdate"] = 1451459314,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1471072471,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["Glyphs"] = {
@@ -503,7 +557,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1452578335,
+				["lastUpdate"] = 1469855941,
 				["Class"] = "PRIEST",
 				["TalentTrees"] = {
 					["Shadow|1"] = {
@@ -530,7 +584,9 @@ DataStore_TalentsRefDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -1292,8 +1348,8 @@ DataStore_TalentsRefDB = {
 						[17] = "4|2",
 						[11] = "3|3",
 						[27] = "9|2",
-						[22] = "7|2",
 						[29] = "10|2",
+						[22] = "7|2",
 					},
 					["icon"] = "Ability_Racial_BearForm",
 					["background"] = "DruidFeralCombat",

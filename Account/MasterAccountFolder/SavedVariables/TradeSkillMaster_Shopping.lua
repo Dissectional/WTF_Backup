@@ -1,0 +1,61 @@
+
+TradeSkillMaster_ShoppingDB = {
+	["global"] = {
+		["appInfo"] = {
+			["Default"] = {
+			},
+		},
+		["destroyingTargetItems"] = {
+			["item:11175:0:0:0:0:0:0"] = "Greater Nether Essence",
+			["item:11178:0:0:0:0:0:0"] = "Large Radiant Shard",
+			["item:12364:0:0:0:0:0:0"] = "Huge Emerald",
+			["item:12361:0:0:0:0:0:0"] = "Blue Sapphire",
+			["item:22449:0:0:0:0:0:0"] = "Large Prismatic Shard",
+			["item:10978:0:0:0:0:0:0"] = "Small Glimmering Shard",
+			["item:11084:0:0:0:0:0:0"] = "Large Glimmering Shard",
+			["item:34052:0:0:0:0:0:0"] = "Dream Shard",
+			["item:7910:0:0:0:0:0:0"] = "Star Ruby",
+			["item:34054:0:0:0:0:0:0"] = "Infinite Dust",
+			["item:7909:0:0:0:0:0:0"] = "Aquamarine",
+			["item:11177:0:0:0:0:0:0"] = "Small Radiant Shard",
+			["item:12799:0:0:0:0:0:0"] = "Large Opal",
+			["item:11138:0:0:0:0:0:0"] = "Small Glowing Shard",
+			["item:16203:0:0:0:0:0:0"] = "Greater Eternal Essence",
+			["item:1206:0:0:0:0:0:0"] = "Moss Agate",
+			["item:11176:0:0:0:0:0:0"] = "Dream Dust",
+			["item:1705:0:0:0:0:0:0"] = "Lesser Moonstone",
+			["item:22446:0:0:0:0:0:0"] = "Greater Planar Essence",
+			["item:1210:0:0:0:0:0:0"] = "Shadowgem",
+			["item:34055:0:0:0:0:0:0"] = "Greater Cosmic Essence",
+			["item:11083:0:0:0:0:0:0"] = "Soul Dust",
+			["item:11135:0:0:0:0:0:0"] = "Greater Mystic Essence",
+			["item:10940:0:0:0:0:0:0"] = "Strange Dust",
+			["item:22445:0:0:0:0:0:0"] = "Arcane Dust",
+			["item:818:0:0:0:0:0:0"] = "Tigerseye",
+			["item:774:0:0:0:0:0:0"] = "Malachite",
+			["item:16204:0:0:0:0:0:0"] = "Illusion Dust",
+			["item:34057:0:0:0:0:0:0"] = "Abyss Crystal",
+			["item:14343:0:0:0:0:0:0"] = "Small Brilliant Shard",
+			["item:14344:0:0:0:0:0:0"] = "Large Brilliant Shard",
+			["item:10939:0:0:0:0:0:0"] = "Greater Magic Essence",
+			["item:11082:0:0:0:0:0:0"] = "Greater Astral Essence",
+			["item:1529:0:0:0:0:0:0"] = "Jade",
+			["item:11137:0:0:0:0:0:0"] = "Vision Dust",
+			["item:3864:0:0:0:0:0:0"] = "Citrine",
+			["item:11139:0:0:0:0:0:0"] = "Large Glowing Shard",
+			["item:12800:0:0:0:0:0:0"] = "Azerothian Diamond",
+			["item:22450:0:0:0:0:0:0"] = "Void Crystal",
+			["item:20725:0:0:0:0:0:0"] = "Nexus Crystal",
+		},
+	},
+	["profileKeys"] = {
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+	},
+	["profiles"] = {
+		["Odemawajaw - PrimalWoW (Progressive)"] = {
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
+	},
+}

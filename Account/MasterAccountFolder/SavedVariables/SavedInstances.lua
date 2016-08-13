@@ -49,6 +49,7 @@ SavedInstancesDB = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
+			["Daily1"] = 1471111200,
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
@@ -61,6 +62,7 @@ SavedInstancesDB = {
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "MAGE",
+			["Daily1"] = 1471111201,
 		},
 		["Parimman - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -72,12 +74,22 @@ SavedInstancesDB = {
 		},
 	},
 	["Lockouts"] = {
+		[1294] = {
+			["Encounters"] = {
+			},
+			["Name"] = "Vault of Archavon",
+			["Members"] = {
+				["Duglazerp"] = {
+					["Class"] = "WARRIOR",
+				},
+			},
+		},
 	},
 	["Tooltip"] = {
-		["Details"] = false,
-		["CategorySort"] = "EXPANSION",
-		["RecentHistory"] = false,
 		["ReverseInstances"] = false,
+		["CategorySort"] = "EXPANSION",
+		["ShowSoloCategory"] = false,
+		["Details"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -86,14 +98,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["ShowSoloCategory"] = false,
+		["RecentHistory"] = false,
 	},
 	["Instances"] = {
 		["Utgarde Keep"] = {
@@ -105,8 +117,17 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Stone"] = {
-			["LFDID"] = 208,
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
+			["Expansion"] = 2,
+			["Encounters"] = {
+			},
+			["Raid"] = false,
+			["LFDupdated"] = "12340",
+			["Show"] = false,
+		},
+		["Halls of Lightning"] = {
+			["LFDID"] = 207,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -132,8 +153,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Halls of Lightning"] = {
-			["LFDID"] = 207,
+		["Halls of Stone"] = {
+			["LFDID"] = 208,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -141,8 +162,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Violet Hold"] = {
-			["LFDID"] = 220,
+		["The Nexus"] = {
+			["LFDID"] = 225,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -159,8 +180,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["The Nexus"] = {
-			["LFDID"] = 225,
+		["Azjol-Nerub"] = {
+			["LFDID"] = 204,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -177,17 +198,23 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Azjol-Nerub"] = {
-			["LFDID"] = 204,
+		["Vault of Archavon"] = {
+			["LFDID"] = 240,
 			["Expansion"] = 2,
+			["Show"] = false,
 			["Encounters"] = {
 			},
-			["Raid"] = false,
+			["Raid"] = true,
+			["Duglazerp - TrueWoW"] = {
+				[2] = {
+					["ID"] = 1294,
+					["Expires"] = 1471413603,
+				},
+			},
 			["LFDupdated"] = "12340",
-			["Show"] = false,
 		},
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Violet Hold"] = {
+			["LFDID"] = 220,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -239,14 +266,14 @@ SavedInstancesDB = {
 			0, -- [3]
 			1, -- [4]
 		},
+		["D2Text"] = "5+",
+		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D1Text"] = "5",
-		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

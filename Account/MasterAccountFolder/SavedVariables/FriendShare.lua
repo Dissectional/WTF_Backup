@@ -1,13 +1,14 @@
 
 FriendShare_GlobalFriends = {
 	["TrueWoW-Horde"] = {
-		["Lowlypoop"] = "Lowlypoop",
 		["Kagoma"] = "Kagoma",
 		["Leefa"] = "Leefa",
-	},
-	["PrimalWoW (Progressive)-Horde"] = {
+		["Lowlypoop"] = "Lowlypoop",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
+	},
+	["PrimalWoW (Progressive)-Horde"] = {
+		["Defren"] = "Defren",
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -15,9 +16,9 @@ FriendShare_GlobalFriends = {
 FriendShare_RemovedFriends = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
-	},
 	["PrimalWoW (Progressive)-Alliance"] = {
+	},
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -32,6 +33,10 @@ FriendShare_Alts = {
 		["Duglazerp"] = "Duglazerp",
 		["Pastafarian"] = "Pastafarian",
 	},
+	["PrimalWoW (Progressive)-Alliance"] = {
+		["Magistratus"] = "Magistratus",
+		["Saptack"] = "Saptack",
+	},
 	["PrimalWoW (Progressive)-Horde"] = {
 		["Wafflestomp"] = "Wafflestomp",
 		["Contagion"] = "Contagion",
@@ -41,10 +46,6 @@ FriendShare_Alts = {
 		["Saptack"] = "Saptack",
 		["Mittens"] = "Mittens",
 		["Wajawamedo"] = "Wajawamedo",
-	},
-	["PrimalWoW (Progressive)-Alliance"] = {
-		["Magistratus"] = "Magistratus",
-		["Saptack"] = "Saptack",
 	},
 	["TrueWoW-Alliance"] = {
 		["Parimman"] = "Parimman",
@@ -56,13 +57,14 @@ IgnoreShare_GlobalIgnores = {
 		["Frukwan"] = "Frukwan",
 		["Woolea"] = "Woolea",
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
-		["Davoodoo"] = "Davoodoo",
-		["Elora"] = "Elora",
-		["Offheal"] = "Offheal",
-		["Aellis"] = "Aellis",
-	},
 	["PrimalWoW (Progressive)-Alliance"] = {
+	},
+	["PrimalWoW (Progressive)-Horde"] = {
+		["Solid"] = "Solid",
+		["Offheal"] = "Offheal",
+		["Elora"] = "Elora",
+		["Aellis"] = "Aellis",
+		["Davoodoo"] = "Davoodoo",
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -70,9 +72,9 @@ IgnoreShare_GlobalIgnores = {
 IgnoreShare_RemovedIgnores = {
 	["TrueWoW-Horde"] = {
 	},
-	["PrimalWoW (Progressive)-Horde"] = {
-	},
 	["PrimalWoW (Progressive)-Alliance"] = {
+	},
+	["PrimalWoW (Progressive)-Horde"] = {
 	},
 	["TrueWoW-Alliance"] = {
 	},

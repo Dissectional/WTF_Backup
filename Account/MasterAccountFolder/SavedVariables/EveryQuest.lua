@@ -23,14 +23,10 @@ EQ2DB = {
 	["profiles"] = {
 		["global"] = {
 			["track"] = true,
-			["querytime"] = 1455088133,
+			["querytime"] = 1469945596,
 			["unknowns"] = {
-				[24576] = "159||02/10/16||A Friendly Chat...||Love is in the Air",
-				[24645] = "159||02/10/16||Crushing the Crown||Love is in the Air",
-				[24881] = "159||02/10/16||query",
-				[24882] = "159||02/10/16||query",
-				[24890] = "159||02/10/16||query",
 				[14199] = "159||12/21/15||Proof of Demise: The Black Knight||Trial of the Champion",
+				[24645] = "159||02/10/16||Crushing the Crown||Love is in the Air",
 			},
 		},
 	},

@@ -7,8 +7,8 @@ END
 MACRO 16777217 "Maul" INV_Misc_QuestionMark
 #showtooltip
 /cast [stance:1,nomod] Maul; [stance:3,nomod] Claw
-/cast [nostance,nomod] Bear Form; [nostance,mod:shift] Cat Form
-/cancelform [stance,mod:shift]
+/cast [nostance,mod] Cat Form; [nostance] Bear Form
+/cancelform [stance,mod]
 /startattack
 /script UIErrorsFrame:Clear()
 END

@@ -1,22 +1,34 @@
 
 GFW_FactionFriend_DB = {
 	["profileKeys"] = {
-		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
+		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
+		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 	},
 	["profiles"] = {
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Pastafarian - TrueWoW"] = {
 		},
 		["Default"] = {
 			["Zones"] = true,
-			["CountRepeatGains"] = true,
 			["MoveExaltedInactive"] = true,
+			["CountRepeatGains"] = true,
 		},
-		["Wajawamedo - PrimalWoW (Progressive)"] = {
+		["Ellipsis - TrueWoW"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+		},
+		["Wajawamedo - PrimalWoW (Progressive)"] = {
 		},
 	},
 }

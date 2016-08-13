@@ -10,7 +10,9 @@ DataStore_MailsDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -21,641 +23,673 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
+				["lastUpdate"] = 1470043042,
+				["lastVisitDate"] = "2016/08/01 21:17",
+			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["lastUpdate"] = 1451265194,
 				["lastVisitDate"] = "2015/12/27 23:05",
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1455321562,
+				["lastUpdate"] = 1470661898,
 				["Mails"] = {
 					{
-						["sender"] = "Contagion",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:2835:0:0:0:0:0:0:0:22|h[Rough Stone]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Stone_06",
-						["daysLeft"] = 10.29019641876221,
+						["sender"] = "Wafflestomp",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4409:0:0:0:0:0:0:0:25|h[Schematic: Small Seaforium Charge]|h|r",
+						["lastCheck"] = 1470661525,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 21.55459403991699,
 					}, -- [1]
 					{
-						["sender"] = "Contagion",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:4408:0:0:0:0:0:0:0:22|h[Schematic: Mechanical Squirrel Box]|h|r",
-						["lastCheck"] = 1455321562,
+						["link"] = "|cff1eff00|Hitem:6716:0:0:0:0:0:0:0:23|h[Schematic: EZ-Thro Dynamite]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 10.40209484100342,
+						["lastCheck"] = 1470661898,
+						["daysLeft"] = 30,
 					}, -- [2]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:2835:0:0:0:0:0:0:0:22|h[Rough Stone]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Stone_06",
-						["daysLeft"] = 10.40238380432129,
-					}, -- [3]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:4409:0:0:0:0:0:0:0:22|h[Schematic: Small Seaforium Charge]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 11.1887149810791,
-					}, -- [4]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:4363:0:0:0:0:0:0:0:22|h[Copper Modulator]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Gizmo_03",
-						["daysLeft"] = 11.42378425598145,
-					}, -- [5]
-					{
-						["sender"] = "Contagion",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:4371:0:0:0:0:0:0:0:22|h[Bronze Tube]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Gizmo_Pipe_01",
-						["daysLeft"] = 11.42378425598145,
-					}, -- [6]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:4377:0:0:0:0:0:0:0:22|h[Heavy Blasting Powder]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Misc_Dust_06",
-						["daysLeft"] = 11.42379665374756,
-					}, -- [7]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:4405:0:0:0:0:0:0:0:22|h[Crude Scope]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Misc_Spyglass_02",
-						["daysLeft"] = 18.35895919799805,
-					}, -- [8]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:4361:0:0:0:0:0:0:0:22|h[Copper Tube]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Gizmo_Pipe_02",
-						["daysLeft"] = 20.33506965637207,
-					}, -- [9]
-					{
-						["sender"] = "Contagion",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:814:0:0:0:0:0:0:0:22|h[Flask of Oil]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Drink_07",
-						["daysLeft"] = 20.33506965637207,
-					}, -- [10]
-					{
-						["sender"] = "Contagion",
-						["count"] = 4,
-						["link"] = "|cffffffff|Hitem:4364:0:0:0:0:0:0:0:22|h[Coarse Blasting Powder]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Misc_Dust_02",
-						["daysLeft"] = 20.33508110046387,
-					}, -- [11]
-					{
-						["sender"] = "Elder Moonwarden",
-						["subject"] = "",
-						["lastCheck"] = 1455321562,
-						["money"] = 0,
-						["text"] = "I was grateful for your visit today, take this as a gift for your Lunar Festival.",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["daysLeft"] = 23.16990661621094,
-					}, -- [12]
-					{
-						["sender"] = "Elder Moonwarden",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:21746:0:0:0:0:0:0:0:22|h[Lucky Red Envelope]|h|r",
-						["lastCheck"] = 1455321562,
-						["icon"] = "Interface\\Icons\\INV_Misc_LuckyMoneyEnvelope",
-						["daysLeft"] = 23.16990661621094,
-					}, -- [13]
 				},
-				["lastVisitDate"] = "2016/02/13 12:59",
+				["lastVisitDate"] = "2016/08/09 01:05",
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["lastUpdate"] = 1452578553,
 				["lastVisitDate"] = "2016/01/12 19:02",
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1454709718,
-				["lastVisitDate"] = "2016/02/06 11:01",
-			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1455085815,
+				["lastUpdate"] = 1471085333,
 				["Mails"] = {
 					{
-						["sender"] = "The Postmaster",
-						["subject"] = "Recovered Item",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["money"] = 0,
-						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 19.9585075378418,
+						["sender"] = "Darthyoda",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:5774:0:0:0:0:0:0:0:26|h[Pattern: Green Silk Pack]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 22.66665458679199,
 					}, -- [1]
 					{
-						["sender"] = "The Postmaster",
+						["sender"] = "Darthyoda",
 						["count"] = 1,
-						["link"] = "|cff0070dd|Hitem:10978:0:0:0:0:0:0:0:22|h[Small Glimmering Shard]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Enchant_ShardGlimmeringSmall",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 19.9585075378418,
+						["link"] = "|cffffffff|Hitem:2997:0:0:0:0:0:0:0:26|h[Bolt of Woolen Cloth]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_03",
+						["daysLeft"] = 22.666748046875,
 					}, -- [2]
 					{
-						["sender"] = "Elder Winterhoof",
-						["subject"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["money"] = 0,
-						["text"] = "This small token will give no answers, but perhaps it will be of some amusement to you.",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 20.19186401367188,
+						["sender"] = "Darthyoda",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10320:0:0:0:0:0:0:0:26|h[Pattern: Red Mageweave Headband]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 22.70741844177246,
 					}, -- [3]
 					{
-						["sender"] = "Contagion",
-						["count"] = 6,
-						["link"] = "|cffffffff|Hitem:2836:0:0:0:0:0:0:0:22|h[Coarse Stone]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Stone_09",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 21.04915428161621,
+						["sender"] = "Darthyoda",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:14466:0:0:0:0:0:0:0:26|h[Pattern: Frostweave Tunic]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 22.70741844177246,
 					}, -- [4]
 					{
-						["sender"] = "Contagion",
+						["sender"] = "Darthyoda",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:2882:0:0:0:0:0:0:0:22|h[Plans: Silvered Bronze Shoulders]|h|r",
+						["link"] = "|cff1eff00|Hitem:14466:0:0:0:0:0:0:0:26|h[Pattern: Frostweave Tunic]|h|r",
+						["lastCheck"] = 1471085333,
 						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 21.08802032470703,
+						["daysLeft"] = 22.70741844177246,
 					}, -- [5]
 					{
-						["sender"] = "Elder Ezra Wheathoof",
-						["subject"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["money"] = 0,
-						["text"] = "I was grateful for your visit today, take this as a gift for your Lunar Festival.",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 28.27174758911133,
+						["sender"] = "Darthyoda",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:14484:0:0:0:0:0:0:0:26|h[Pattern: Brightcloth Cloak]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["daysLeft"] = 22.70741844177246,
 					}, -- [6]
 					{
-						["sender"] = "Elder Ezra Wheathoof",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:21746:0:0:0:0:0:0:0:22|h[Lucky Red Envelope]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_LuckyMoneyEnvelope",
-						["lastCheck"] = 1455085815,
-						["daysLeft"] = 28.27174758911133,
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["daysLeft"] = 23.23722267150879,
 					}, -- [7]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["daysLeft"] = 23.23722267150879,
+					}, -- [8]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["daysLeft"] = 23.23722267150879,
+					}, -- [9]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["daysLeft"] = 23.23722267150879,
+					}, -- [10]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["daysLeft"] = 23.23722267150879,
+					}, -- [11]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:10978:0:0:0:0:0:0:0:26|h[Small Glimmering Shard]|h|r",
+						["lastCheck"] = 1471085333,
+						["icon"] = "Interface\\Icons\\INV_Enchant_ShardGlimmeringSmall",
+						["daysLeft"] = 26.50307846069336,
+					}, -- [12]
 				},
-				["lastVisitDate"] = "2016/02/10 19:30",
+				["lastVisitDate"] = "2016/08/13 22:48",
 			},
-			["Default.TrueWoW.Duglazerp"] = {
-				["lastUpdate"] = 1451384027,
-				["lastVisitDate"] = "2015/12/29 23:13",
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["lastUpdate"] = 1471071825,
+				["Mails"] = {
+					{
+						["sender"] = "Wajawamedo",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:3611:0:0:0:0:0:0:0:26|h[Plans: Green Iron Boots]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 16.99813652038574,
+					}, -- [1]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:5504:0:0:0:0:0:0:0:26|h[Tangy Clam Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_51",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.3125,
+					}, -- [2]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:5504:0:0:0:0:0:0:0:26|h[Tangy Clam Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_51",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.3125,
+					}, -- [3]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:5504:0:0:0:0:0:0:0:26|h[Tangy Clam Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_51",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.3125,
+					}, -- [4]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [5]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:3173:0:0:0:0:0:0:0:26|h[Bear Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_71",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [6]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [7]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [8]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [9]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [10]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:2672:0:0:0:0:0:0:0:26|h[Stringy Wolf Meat]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Food_14",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.31319427490234,
+					}, -- [11]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6358:0:0:0:0:0:0:0:26|h[Oily Blackmouth]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_MonsterHead_04",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81527709960938,
+					}, -- [12]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6358:0:0:0:0:0:0:0:26|h[Oily Blackmouth]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_MonsterHead_04",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81527709960938,
+					}, -- [13]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6358:0:0:0:0:0:0:0:26|h[Oily Blackmouth]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_MonsterHead_04",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81527709960938,
+					}, -- [14]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 2,
+						["link"] = "|cffffffff|Hitem:6358:0:0:0:0:0:0:0:26|h[Oily Blackmouth]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_MonsterHead_04",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81527709960938,
+					}, -- [15]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81597137451172,
+					}, -- [16]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81597137451172,
+					}, -- [17]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:6291:0:0:0:0:0:0:0:26|h[Raw Brilliant Smallfish]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Fish_08",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 17.81597137451172,
+					}, -- [18]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:5578:0:0:0:0:0:0:0:26|h[Plans: Silvered Bronze Breastplate]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Scroll_06",
+						["lastCheck"] = 1471071825,
+						["daysLeft"] = 25.25546264648438,
+					}, -- [19]
+				},
+				["lastVisitDate"] = "2016/08/13 19:03",
+			},
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1470052559,
+				["Mails"] = {
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [1]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [2]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [3]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [4]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052559,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [5]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [6]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052559,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [7]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [8]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [9]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [10]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [11]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [12]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [13]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052548,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [14]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:4314:0:0:0:0:0:0:0:14|h[Double-stitched Woolen Shoulders]|h|r",
+						["lastCheck"] = 1470052559,
+						["icon"] = "Interface\\Icons\\INV_Shoulder_06",
+						["daysLeft"] = 30,
+					}, -- [15]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1470736338,
+				["Mails"] = {
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:10050:0:0:0:0:0:0:0:31|h[Mageweave Bag]|h|r",
+						["lastCheck"] = 1470658139,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["daysLeft"] = 27.67673683166504,
+					}, -- [1]
+					{
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:23|h[Runecloth Bag]|h|r",
+						["lastCheck"] = 1470736338,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["daysLeft"] = 30,
+					}, -- [2]
+				},
+				["lastVisitDate"] = "2016/08/09 00:08",
+			},
+			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1470742183,
+				["Mails"] = {
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [1]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [2]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [3]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [4]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [5]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:31|h[Lesser Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [6]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11082:0:0:0:0:0:0:0:31|h[Greater Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralLarge",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [7]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11082:0:0:0:0:0:0:0:31|h[Greater Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralLarge",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [8]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11082:0:0:0:0:0:0:0:31|h[Greater Astral Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceAstralLarge",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [9]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:10938:0:0:0:0:0:0:0:31|h[Lesser Magic Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMagicSmall",
+						["daysLeft"] = 25.39484977722168,
+					}, -- [10]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11134:0:0:0:0:0:0:0:31|h[Lesser Mystic Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMysticalSmall",
+						["daysLeft"] = 25.39554405212402,
+					}, -- [11]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11134:0:0:0:0:0:0:0:31|h[Lesser Mystic Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMysticalSmall",
+						["daysLeft"] = 25.39554405212402,
+					}, -- [12]
+					{
+						["sender"] = "Blackwater Auction House",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:11134:0:0:0:0:0:0:0:31|h[Lesser Mystic Essence]|h|r",
+						["lastCheck"] = 1470742183,
+						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMysticalSmall",
+						["daysLeft"] = 25.39554405212402,
+					}, -- [13]
+				},
+				["lastVisitDate"] = "2016/08/09 23:29",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1454904227,
-				["lastVisitDate"] = "2016/02/08 17:03",
+				["lastUpdate"] = 1470469463,
+				["lastVisitDate"] = "2016/08/06 19:44",
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["lastUpdate"] = 1452578195,
 				["lastVisitDate"] = "2016/01/12 18:56",
 			},
 			["Default.TrueWoW.Shiftace"] = {
-				["lastUpdate"] = 1452578959,
-				["lastVisitDate"] = "2016/01/12 19:09",
+				["lastUpdate"] = 1470230292,
+				["lastVisitDate"] = "2016/08/04 01:18",
 			},
-			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1452578456,
-				["lastVisitDate"] = "2016/01/12 19:00",
-			},
-			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1455328661,
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1471050069,
 				["Mails"] = {
 					{
-						["sender"] = "Contagion",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:7091:0:0:0:0:0:0:0:29|h[Pattern: Truefaith Gloves]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 10.32048606872559,
+						["link"] = "|cff0070dd|Hitem:13584:0:0:0:0:0:0:0:7|h[Diablo Stone]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_DiabloStone",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [1]
 					{
-						["sender"] = "Wajawamedo",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 16.34984970092773,
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:39656:0:0:0:0:0:0:0:7|h[Tyrael's Hilt]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_Sword_07",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [2]
 					{
-						["sender"] = "Wajawamedo",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:8178:0:0:0:0:0:839:0:29|h[Training Sword of the Eagle]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Sword_45",
-						["daysLeft"] = 16.35029029846191,
+						["link"] = "|cff0070dd|Hitem:13583:0:0:0:0:0:0:0:7|h[Panda Collar]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_Belt_05",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [3]
 					{
-						["sender"] = "Wajawamedo",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:1958:0:0:0:0:0:0:0:29|h[Petrified Shinbone]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bone_01",
-						["daysLeft"] = 16.35030174255371,
+						["link"] = "|cff0070dd|Hitem:25535:0:0:0:0:0:0:0:7|h[Netherwhelp's Collar]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_Netherwhelp",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [4]
 					{
-						["sender"] = "Wafflestomp",
-						["count"] = 2,
-						["link"] = "|cff0070dd|Hitem:11084:0:0:0:0:0:0:0:29|h[Large Glimmering Shard]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Enchant_ShardGlimmeringLarge",
-						["daysLeft"] = 17.01716423034668,
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:56806:0:0:0:0:0:0:0:7|h[Mini Thor]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\t_roboticon",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [5]
 					{
-						["sender"] = "Wafflestomp",
-						["count"] = 2,
-						["link"] = "|cff1eff00|Hitem:10939:0:0:0:0:0:0:0:29|h[Greater Magic Essence]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMagicLarge",
-						["daysLeft"] = 17.01716423034668,
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:13582:0:0:0:0:0:0:0:7|h[Zergling Leash]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\Spell_Shadow_SummonFelHunter",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [6]
 					{
-						["sender"] = "Wafflestomp",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:6268:0:0:0:0:0:756:0:29|h[Pioneer Tunic of the Owl]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Shirt_06",
-						["daysLeft"] = 17.01716423034668,
+						["link"] = "|cffffffff|Hitem:44819:0:0:0:0:0:0:0:7|h[Baby Blizzard Bear]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\inv_pet_babyblizzardbear",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [7]
 					{
-						["sender"] = "Wafflestomp",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:8178:0:0:0:0:0:840:0:29|h[Training Sword of the Eagle]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Sword_45",
-						["daysLeft"] = 17.01716423034668,
+						["link"] = "|cffffffff|Hitem:49362:0:0:0:0:0:0:0:7|h[Onyxian Whelpling]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_Misc_Head_Dragon_Black",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [8]
 					{
-						["sender"] = "Wafflestomp",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:10940:0:0:0:0:0:0:0:29|h[Strange Dust]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Enchant_DustStrange",
-						["daysLeft"] = 17.01716423034668,
+						["sender"] = "Nerfed",
+						["count"] = 1,
+						["link"] = "|cff0070dd|Hitem:39286:0:0:0:0:0:0:0:7|h[Frosty's Collar]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_PET_FROSTWYRM",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [9]
 					{
-						["sender"] = "Wafflestomp",
+						["sender"] = "Nerfed",
 						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:5111:0:0:0:0:0:0:0:29|h[Rathorian's Cape]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Helmet_48",
-						["daysLeft"] = 17.01716423034668,
+						["link"] = "|cff0070dd|Hitem:30360:0:0:0:0:0:0:0:7|h[Lurky's Egg]|h|r",
+						["lastCheck"] = 1471050069,
+						["icon"] = "Interface\\Icons\\INV_Egg_03",
+						["daysLeft"] = 23.1407413482666,
 					}, -- [10]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:10402:0:0:0:0:0:0:0:29|h[Blackened Defias Boots]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Boots_05",
-						["daysLeft"] = 17.03766250610352,
-					}, -- [11]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14723:0:0:0:0:0:0:0:29|h[War Paint Bindings]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Bracer_06",
-						["daysLeft"] = 17.29130744934082,
-					}, -- [12]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:11098:0:0:0:0:0:0:0:29|h[Formula: Enchant Cloak - Lesser Shadow Resistance]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
-						["daysLeft"] = 17.29131889343262,
-					}, -- [13]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 17.29134178161621,
-					}, -- [14]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:6539:0:0:0:0:0:1012:0:29|h[Willow Belt of the Whale]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Belt_05",
-						["daysLeft"] = 17.29135322570801,
-					}, -- [15]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14567:0:0:0:0:0:0:0:29|h[Bristlebark Belt]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Belt_03",
-						["daysLeft"] = 17.29136657714844,
-					}, -- [16]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:15925:0:0:0:0:0:0:0:29|h[Journeyman's Stave]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Staff_20",
-						["daysLeft"] = 17.32712936401367,
-					}, -- [17]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:9753:0:0:0:0:0:1647:0:29|h[Gypsy Buckler of Blocking]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Shield_10",
-						["daysLeft"] = 17.32715225219727,
-					}, -- [18]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:2976:0:0:0:0:0:0:0:29|h[Hunting Gloves]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Gauntlets_05",
-						["daysLeft"] = 17.32717514038086,
-					}, -- [19]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:1945:0:0:0:0:0:0:0:29|h[Woodworking Gloves]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Gauntlets_21",
-						["daysLeft"] = 17.32719993591309,
-					}, -- [20]
-					{
-						["sender"] = "Wafflestomp",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:6390:0:0:0:0:0:0:0:29|h[Pattern: Stylish Blue Shirt]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 17.32733726501465,
-					}, -- [21]
-					{
-						["sender"] = "Contagion",
-						["count"] = 19,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 18.23846054077148,
-					}, -- [22]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cffffffff|Hitem:2997:0:0:0:0:0:0:0:29|h[Bolt of Woolen Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_03",
-						["daysLeft"] = 18.23847198486328,
-					}, -- [23]
-					{
-						["sender"] = "Contagion",
-						["count"] = 15,
-						["link"] = "|cffffffff|Hitem:4306:0:0:0:0:0:0:0:29|h[Silk Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Silk_01",
-						["daysLeft"] = 18.23848342895508,
-					}, -- [24]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14560:0:0:0:0:0:0:0:29|h[Prospector's Boots]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Boots_05",
-						["daysLeft"] = 18.23850631713867,
-					}, -- [25]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14409:0:0:0:0:0:0:0:29|h[Stonecloth Cape]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Misc_Cape_11",
-						["daysLeft"] = 18.23851776123047,
-					}, -- [26]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14747:0:0:0:0:0:0:0:29|h[Hulking Gauntlets]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Gauntlets_05",
-						["daysLeft"] = 18.27763938903809,
-					}, -- [27]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14369:0:0:0:0:0:0:0:29|h[Mystic's Wrap]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Shirt_13",
-						["daysLeft"] = 18.27768516540527,
-					}, -- [28]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:1469:0:0:0:0:0:0:0:29|h[Scimitar of Atun]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Sword_24",
-						["daysLeft"] = 19.22721099853516,
-					}, -- [29]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:15124:0:0:0:0:0:112:0:29|h[Robust Cloak of Intellect]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Misc_Cape_03",
-						["daysLeft"] = 19.26239585876465,
-					}, -- [30]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14159:0:0:0:0:0:1956:0:29|h[Pagan Shoes of Frozen Wrath]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Boots_05",
-						["daysLeft"] = 19.26246452331543,
-					}, -- [31]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:3186:0:0:0:0:0:1187:0:29|h[Viking Sword of the Bear]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Sword_33",
-						["daysLeft"] = 19.26248931884766,
-					}, -- [32]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:1455:0:0:0:0:0:0:0:29|h[Blackrock Champion's Axe]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Weapon_Halbard_01",
-						["daysLeft"] = 19.26250076293945,
-					}, -- [33]
-					{
-						["sender"] = "Contagion",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 19.26255798339844,
-					}, -- [34]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:4347:0:0:0:0:0:0:0:29|h[Pattern: Reinforced Woolen Shoulders]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Scroll_06",
-						["daysLeft"] = 19.36170196533203,
-					}, -- [35]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:15333:0:0:0:0:0:93:0:29|h[Wrangler's Cloak of Agility]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Misc_Cape_01",
-						["daysLeft"] = 19.36172485351563,
-					}, -- [36]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:6595:0:0:0:0:0:189:0:29|h[Battleforge Gauntlets of Strength]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Gauntlets_26",
-						["daysLeft"] = 19.36173629760742,
-					}, -- [37]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14406:0:0:0:0:0:0:0:29|h[Resilient Cord]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Belt_03",
-						["daysLeft"] = 19.36174774169922,
-					}, -- [38]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:15529:0:0:0:0:0:602:0:29|h[Sentry's Leggings of the Monkey]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Pants_Wolf",
-						["daysLeft"] = 19.36174774169922,
-					}, -- [39]
-					{
-						["sender"] = "Contagion",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:4306:0:0:0:0:0:0:0:29|h[Silk Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Silk_01",
-						["daysLeft"] = 19.36184120178223,
-					}, -- [40]
-					{
-						["sender"] = "Contagion",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:4306:0:0:0:0:0:0:0:29|h[Silk Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Silk_01",
-						["daysLeft"] = 20.25324058532715,
-					}, -- [41]
-					{
-						["sender"] = "Contagion",
-						["count"] = 2,
-						["link"] = "|cff1eff00|Hitem:11134:0:0:0:0:0:0:0:29|h[Lesser Mystic Essence]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Enchant_EssenceMysticalSmall",
-						["daysLeft"] = 20.25353050231934,
-					}, -- [42]
-					{
-						["sender"] = "Contagion",
-						["count"] = 2,
-						["link"] = "|cffffffff|Hitem:11137:0:0:0:0:0:0:0:29|h[Vision Dust]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Enchant_DustVision",
-						["daysLeft"] = 20.25353050231934,
-					}, -- [43]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff0070dd|Hitem:12987:0:0:0:0:0:0:0:29|h[Darkweave Breeches]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Pants_06",
-						["daysLeft"] = 20.3503589630127,
-					}, -- [44]
-					{
-						["sender"] = "Contagion",
-						["count"] = 1,
-						["link"] = "|cff0070dd|Hitem:935:0:0:0:0:0:0:0:29|h[Night Watch Shortsword]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Sword_26",
-						["daysLeft"] = 20.3503589630127,
-					}, -- [45]
-					{
-						["sender"] = "Contagion",
-						["count"] = 17,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 20.3504753112793,
-					}, -- [46]
-					{
-						["sender"] = "Contagion",
-						["count"] = 18,
-						["link"] = "|cffffffff|Hitem:4306:0:0:0:0:0:0:0:29|h[Silk Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Silk_01",
-						["daysLeft"] = 20.3504753112793,
-					}, -- [47]
-					{
-						["sender"] = "Unbearabull",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2592:0:0:0:0:0:0:0:29|h[Wool Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Wool_01",
-						["daysLeft"] = 24.91208267211914,
-					}, -- [48]
-					{
-						["sender"] = "Unbearabull",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:4306:0:0:0:0:0:0:0:29|h[Silk Cloth]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Silk_01",
-						["daysLeft"] = 24.91209411621094,
-					}, -- [49]
-					{
-						["sender"] = "Unbearabull",
-						["count"] = 1,
-						["link"] = "|cff1eff00|Hitem:14235:0:0:0:0:0:178:0:29|h[Embersilk Cord of Intellect]|h|r",
-						["lastCheck"] = 1455328661,
-						["icon"] = "Interface\\Icons\\INV_Belt_11",
-						["daysLeft"] = 24.91225624084473,
-					}, -- [50]
 				},
-				["lastVisitDate"] = "2016/02/13 14:57",
+				["lastVisitDate"] = "2016/08/13 13:01",
 			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1455319876,
+			["Default.TrueWoW.Duglazerp"] = {
+				["lastUpdate"] = 1470819887,
+				["lastVisitDate"] = "2016/08/10 21:04",
+			},
+			["Default.TrueWoW.Pastafarian"] = {
+				["lastUpdate"] = 1469855968,
 				["Mails"] = {
 					{
-						["sender"] = "Unbearabull",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2589:0:0:0:0:0:0:0:31|h[Linen Cloth]|h|r",
-						["lastCheck"] = 1455319876,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Linen_01",
-						["daysLeft"] = 25.01340293884277,
+						["sender"] = "Ommskz",
+						["subject"] = "URGENT",
+						["lastCheck"] = 1469855968,
+						["money"] = 0,
+						["text"] = "SELLING HIGH GEARED TO BIS CHARACTERS (LK25HC WEAPONS, SHADOWMOURNE, RS25HC ITEMS, TRINKETS INLUDED. SOME CHARS ARE IN TOP 20 OF ACHIEVEMENT LADDER, SOME CHARS HAVE ULDU MACE, 4/5 WF CHARS ETC..) I'M SELLING THSE ACCOUNTS ONLY FOR REAL LIFE $$. IF YOU ARE INTERESTED IN THIS TYPE OF TRADING I WILL PROVIDE A PROOF WHICH IS LOGGING THE CHARACTER/S IN-GAME. I GIVE YOU THE OPTION TO BUY GOLD/CHEAPER CHARACTERS FIRST AS A FORM OF BUILDING TRUST. ADD ME ON SKYPE brianDavis66 we'll talk there.",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 28.97442054748535,
 					}, -- [1]
-					{
-						["sender"] = "Unbearabull",
-						["count"] = 20,
-						["link"] = "|cffffffff|Hitem:2589:0:0:0:0:0:0:0:31|h[Linen Cloth]|h|r",
-						["lastCheck"] = 1455319876,
-						["icon"] = "Interface\\Icons\\INV_Fabric_Linen_01",
-						["daysLeft"] = 25.01342582702637,
-					}, -- [2]
 				},
-				["lastVisitDate"] = "2016/02/13 12:31",
+				["lastVisitDate"] = "2016/07/30 17:19",
 			},
 		},
 	},

@@ -37,106 +37,106 @@ ZygorGuidesViewerSettings = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 			["guidename"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
 			["debuglog"] = {
-				"13:46:32> PLAYER_ALIVE (dead?)", -- [1]
-				"13:46:32> CacheQuestLog cached 19 quests", -- [2]
-				"13:46:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [3]
-				"13:46:32> CacheQuestLog cached 19 quests", -- [4]
-				"13:46:32> CacheQuestLog cached 19 quests", -- [5]
-				"13:46:49> 10 Engineering recipes found", -- [6]
-				"13:46:49> 1 Mining recipes found", -- [7]
-				"14:18:12> PLAYER_ALIVE (dead?)", -- [8]
-				"14:19:00> PLAYER_ENTERING_WORLD (dead?)", -- [9]
-				"14:19:00> PLAYER_ALIVE (dead?)", -- [10]
-				"14:19:00> CacheQuestLog cached 19 quests", -- [11]
-				"14:19:00> ZONE_CHANGED_NEW_AREA (dead?)", -- [12]
-				"14:19:00> CacheQuestLog cached 19 quests", -- [13]
-				"14:19:00> CacheQuestLog cached 19 quests", -- [14]
-				"11:02:41> Viewer started. ---------------------------", -- [15]
-				"11:02:42> PLAYER_ENTERING_WORLD (dead?)", -- [16]
-				"11:02:42> PLAYER_ALIVE (dead?)", -- [17]
-				"11:02:42> CacheQuestLog cached 19 quests", -- [18]
-				"11:02:42> New Quest: Heavy Grinding Stone id 7890", -- [19]
-				"11:02:42> New Quest: Rite of Wisdom id 773", -- [20]
-				"11:02:42> New Quest: The Hunter's Way id 861", -- [21]
-				"11:02:42> New Quest: The Venture Co. id 764", -- [22]
-				"11:02:42> New Quest: Supervisor Fizsprocket id 765", -- [23]
-				"11:02:42> New Quest: Arugal Must Die id 1014", -- [24]
-				"11:02:42> New Quest: A Recipe For Death id 450", -- [25]
-				"11:02:42> New Quest: Wharfmaster Dizzywig id 1492", -- [26]
-				"11:02:42> New Quest: The Forgotten Pools id 870", -- [27]
-				"11:02:42> New Quest: The Zhevra id 845", -- [28]
-				"11:02:42> New Quest: Supplies for the Crossroads id 5041", -- [29]
-				"11:02:42> New Quest: Fungal Spores id 848", -- [30]
-				"11:02:42> New Quest: Harpy Raiders id 867", -- [31]
-				"11:02:42> New Quest: Stolen Silver id 3281", -- [32]
-				"11:02:42> New Quest: Consumed by Hatred id 899", -- [33]
-				"11:02:42> New Quest: Lost in Battle id 4921", -- [34]
-				"11:02:42> New Quest: In Nightmares id 3369", -- [35]
-				"11:02:42> New Quest: Preparation for Ceremony id 744", -- [36]
-				"11:02:42> New Quest: Delivery to Silverpine Forest id 445", -- [37]
-				"11:02:42> Got completed quests list", -- [38]
-				"11:02:42> Got completed quests list", -- [39]
-				"11:02:43> ZONE_CHANGED_NEW_AREA (dead?)", -- [40]
-				"11:02:43> CacheQuestLog cached 19 quests", -- [41]
-				"11:02:43> CacheQuestLog cached 19 quests", -- [42]
-				"11:02:45> Guides loaded. -----", -- [43]
-				"11:02:45> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (46", -- [44]
-				"11:02:45> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [45]
-				"11:02:45> FocusStep 46", -- [46]
-				"11:02:45> Translated: accept/turnin Conscript of the Horde", -- [47]
-				"11:02:45> Translated: accept/turnin Crossroads Conscription", -- [48]
-				"11:02:45> Translated: accept/turnin Ak'Zeloth", -- [49]
-				"11:02:45> Translated: accept/turnin Meats to Orgrimmar", -- [50]
-				"11:02:45> Translated: accept/turnin Raptor Thieves", -- [51]
-				"11:02:45> Translated: accept/turnin Centaur Bracers", -- [52]
-				"11:02:45> Translated: accept/turnin Kolkar Leaders", -- [53]
-				"11:02:45> unpausing", -- [54]
-				"11:02:45> frameNeedsUpdating, so updating.", -- [55]
-				"11:02:46> Got completed quests list", -- [56]
-				"11:03:54> GetQuestId: id of quest 'Moonwarden the Elder' unknown!", -- [57]
-				"11:03:54> Completed Quest: Moonwarden the Elder, id: nil", -- [58]
-				"11:03:54> Got completed quests list", -- [59]
-				"12:58:59> Viewer started. ---------------------------", -- [60]
-				"12:59:00> PLAYER_ENTERING_WORLD (dead?)", -- [61]
-				"12:59:00> PLAYER_ALIVE (dead?)", -- [62]
-				"12:59:00> ZONE_CHANGED_NEW_AREA (dead?)", -- [63]
-				"12:59:00> CacheQuestLog cached 19 quests", -- [64]
-				"12:59:00> New Quest: Heavy Grinding Stone id 7890", -- [65]
-				"12:59:00> New Quest: Rite of Wisdom id 773", -- [66]
-				"12:59:00> New Quest: The Hunter's Way id 861", -- [67]
-				"12:59:00> New Quest: The Venture Co. id 764", -- [68]
-				"12:59:00> New Quest: Supervisor Fizsprocket id 765", -- [69]
-				"12:59:00> New Quest: Arugal Must Die id 1014", -- [70]
-				"12:59:00> New Quest: A Recipe For Death id 450", -- [71]
-				"12:59:00> New Quest: Wharfmaster Dizzywig id 1492", -- [72]
-				"12:59:00> New Quest: The Forgotten Pools id 870", -- [73]
-				"12:59:00> New Quest: The Zhevra id 845", -- [74]
-				"12:59:00> New Quest: Supplies for the Crossroads id 5041", -- [75]
-				"12:59:00> New Quest: Fungal Spores id 848", -- [76]
-				"12:59:00> New Quest: Harpy Raiders id 867", -- [77]
-				"12:59:00> New Quest: Stolen Silver id 3281", -- [78]
-				"12:59:00> New Quest: Consumed by Hatred id 899", -- [79]
-				"12:59:00> New Quest: Lost in Battle id 4921", -- [80]
-				"12:59:00> New Quest: In Nightmares id 3369", -- [81]
-				"12:59:00> New Quest: Preparation for Ceremony id 744", -- [82]
-				"12:59:00> New Quest: Delivery to Silverpine Forest id 445", -- [83]
-				"12:59:01> Got completed quests list", -- [84]
-				"12:59:01> Got completed quests list", -- [85]
-				"12:59:01> CacheQuestLog cached 19 quests", -- [86]
-				"12:59:03> Guides loaded. -----", -- [87]
-				"12:59:03> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (46", -- [88]
-				"12:59:03> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [89]
-				"12:59:03> FocusStep 46", -- [90]
-				"12:59:03> Translated: accept/turnin Conscript of the Horde", -- [91]
-				"12:59:03> Translated: accept/turnin Crossroads Conscription", -- [92]
-				"12:59:03> Translated: accept/turnin Ak'Zeloth", -- [93]
-				"12:59:03> Translated: accept/turnin Meats to Orgrimmar", -- [94]
-				"12:59:03> Translated: accept/turnin Raptor Thieves", -- [95]
-				"12:59:03> Translated: accept/turnin Centaur Bracers", -- [96]
-				"12:59:03> Translated: accept/turnin Kolkar Leaders", -- [97]
-				"12:59:03> unpausing", -- [98]
-				"12:59:03> frameNeedsUpdating, so updating.", -- [99]
-				"12:59:05> Got completed quests list", -- [100]
+				"23:59:18> Translated: accept/turnin Raptor Thieves", -- [1]
+				"23:59:18> Translated: accept/turnin Report to Kadrak", -- [2]
+				"23:59:18> Translated: accept/turnin Apothecary Zamah", -- [3]
+				"23:59:18> Translated: accept/turnin Egg Hunt", -- [4]
+				"23:59:18> unpausing", -- [5]
+				"23:59:18> frameNeedsUpdating, so updating.", -- [6]
+				"23:59:19> Got completed quests list", -- [7]
+				"00:01:02> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
+				"01:05:01> Viewer started. ---------------------------", -- [9]
+				"01:05:02> PLAYER_ENTERING_WORLD (dead?)", -- [10]
+				"01:05:02> PLAYER_ALIVE (dead?)", -- [11]
+				"01:05:02> CacheQuestLog cached 22 quests", -- [12]
+				"01:05:02> New Quest: Heavy Grinding Stone id 7890", -- [13]
+				"01:05:02> New Quest: Rig Wars id 2841", -- [14]
+				"01:05:02> New Quest: The Ashenvale Hunt id 235", -- [15]
+				"01:05:02> New Quest: Going, Going, Guano! id 1109", -- [16]
+				"01:05:02> New Quest: Thule Ravenclaw id 446", -- [17]
+				"01:05:02> New Quest: The Weaver id 480", -- [18]
+				"01:05:02> New Quest: Kaya's Alive id 6401", -- [19]
+				"01:05:02> New Quest: Goblin Invaders id 1062", -- [20]
+				"01:05:02> New Quest: Samophlange id 894", -- [21]
+				"01:05:02> New Quest: Prowlers of the Barrens id 903", -- [22]
+				"01:05:02> New Quest: Harpy Lieutenants id 875", -- [23]
+				"01:05:02> New Quest: The Stagnant Oasis id 877", -- [24]
+				"01:05:02> New Quest: Miner's Fortune id 896", -- [25]
+				"01:05:02> New Quest: Raptor Horns id 865", -- [26]
+				"01:05:02> New Quest: Stolen Silver id 3281", -- [27]
+				"01:05:02> New Quest: Verog the Dervish id 851", -- [28]
+				"01:05:02> New Quest: Consumed by Hatred id 899", -- [29]
+				"01:05:02> New Quest: Deepmoss Spider Eggs id 1069", -- [30]
+				"01:05:02> New Quest: Lost in Battle id 4921", -- [31]
+				"01:05:02> New Quest: The Guns of Northwatch id 891", -- [32]
+				"01:05:02> New Quest: In Nightmares id 3369", -- [33]
+				"01:05:02> New Quest: Preparation for Ceremony id 744", -- [34]
+				"01:05:02> Got completed quests list", -- [35]
+				"01:05:02> Got completed quests list", -- [36]
+				"01:05:02> CacheQuestLog cached 22 quests", -- [37]
+				"01:05:02> CacheQuestLog cached 22 quests", -- [38]
+				"01:05:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [39]
+				"01:05:05> Guides loaded. -----", -- [40]
+				"01:05:05> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (154", -- [41]
+				"01:05:05> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [42]
+				"01:05:05> FocusStep 154", -- [43]
+				"01:05:05> Translated: accept/turnin Conscript of the Horde", -- [44]
+				"01:05:05> Translated: accept/turnin Crossroads Conscription", -- [45]
+				"01:05:05> Translated: accept/turnin Ak'Zeloth", -- [46]
+				"01:05:05> Translated: accept/turnin Meats to Orgrimmar", -- [47]
+				"01:05:05> Translated: accept/turnin Raptor Thieves", -- [48]
+				"01:05:05> Translated: accept/turnin Report to Kadrak", -- [49]
+				"01:05:05> Translated: accept/turnin Apothecary Zamah", -- [50]
+				"01:05:05> Translated: accept/turnin Egg Hunt", -- [51]
+				"01:05:05> unpausing", -- [52]
+				"01:05:05> frameNeedsUpdating, so updating.", -- [53]
+				"01:05:06> Got completed quests list", -- [54]
+				"16:12:29> Viewer started. ---------------------------", -- [55]
+				"16:12:30> PLAYER_ENTERING_WORLD (dead?)", -- [56]
+				"16:12:30> PLAYER_ALIVE (dead?)", -- [57]
+				"16:12:30> CacheQuestLog cached 22 quests", -- [58]
+				"16:12:30> New Quest: Heavy Grinding Stone id 7890", -- [59]
+				"16:12:30> New Quest: Rig Wars id 2841", -- [60]
+				"16:12:30> New Quest: The Ashenvale Hunt id 235", -- [61]
+				"16:12:30> New Quest: Going, Going, Guano! id 1109", -- [62]
+				"16:12:30> New Quest: Thule Ravenclaw id 446", -- [63]
+				"16:12:30> New Quest: The Weaver id 480", -- [64]
+				"16:12:30> New Quest: Kaya's Alive id 6401", -- [65]
+				"16:12:30> New Quest: Goblin Invaders id 1062", -- [66]
+				"16:12:30> New Quest: Samophlange id 894", -- [67]
+				"16:12:30> New Quest: Prowlers of the Barrens id 903", -- [68]
+				"16:12:30> New Quest: Harpy Lieutenants id 875", -- [69]
+				"16:12:30> New Quest: The Stagnant Oasis id 877", -- [70]
+				"16:12:30> New Quest: Miner's Fortune id 896", -- [71]
+				"16:12:30> New Quest: Raptor Horns id 865", -- [72]
+				"16:12:30> New Quest: Stolen Silver id 3281", -- [73]
+				"16:12:30> New Quest: Verog the Dervish id 851", -- [74]
+				"16:12:30> New Quest: Consumed by Hatred id 899", -- [75]
+				"16:12:30> New Quest: Deepmoss Spider Eggs id 1069", -- [76]
+				"16:12:30> New Quest: Lost in Battle id 4921", -- [77]
+				"16:12:30> New Quest: The Guns of Northwatch id 891", -- [78]
+				"16:12:30> New Quest: In Nightmares id 3369", -- [79]
+				"16:12:30> New Quest: Preparation for Ceremony id 744", -- [80]
+				"16:12:31> Got completed quests list", -- [81]
+				"16:12:31> Got completed quests list", -- [82]
+				"16:12:31> CacheQuestLog cached 22 quests", -- [83]
+				"16:12:31> CacheQuestLog cached 22 quests", -- [84]
+				"16:12:31> ZONE_CHANGED_NEW_AREA (dead?)", -- [85]
+				"16:12:34> Guides loaded. -----", -- [86]
+				"16:12:34> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (154", -- [87]
+				"16:12:34> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [88]
+				"16:12:34> FocusStep 154", -- [89]
+				"16:12:34> Translated: accept/turnin Conscript of the Horde", -- [90]
+				"16:12:34> Translated: accept/turnin Crossroads Conscription", -- [91]
+				"16:12:34> Translated: accept/turnin Ak'Zeloth", -- [92]
+				"16:12:34> Translated: accept/turnin Meats to Orgrimmar", -- [93]
+				"16:12:34> Translated: accept/turnin Raptor Thieves", -- [94]
+				"16:12:34> Translated: accept/turnin Report to Kadrak", -- [95]
+				"16:12:34> Translated: accept/turnin Apothecary Zamah", -- [96]
+				"16:12:34> Translated: accept/turnin Egg Hunt", -- [97]
+				"16:12:34> unpausing", -- [98]
+				"16:12:34> frameNeedsUpdating, so updating.", -- [99]
+				"16:12:34> Got completed quests list", -- [100]
 			},
 			["starting"] = false,
 			["guides_history"] = {
@@ -153,7 +153,7 @@ ZygorGuidesViewerSettings = {
 				{
 					["short"] = "Main Guide (13-20)",
 					["full"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-					["step"] = 46,
+					["step"] = 154,
 				}, -- [3]
 				{
 					["short"] = "Tauren (1-13)",
@@ -166,7 +166,7 @@ ZygorGuidesViewerSettings = {
 					["step"] = 141,
 				}, -- [5]
 			},
-			["step"] = 46,
+			["step"] = 154,
 			["RecipesKnown"] = {
 				[37836] = true,
 				[3918] = true,
@@ -175,9 +175,12 @@ ZygorGuidesViewerSettings = {
 				[3924] = true,
 				[3275] = true,
 				[2657] = true,
+				[2659] = true,
 				[2539] = true,
 				[2541] = true,
+				[3304] = true,
 				[3922] = true,
+				[2658] = true,
 				[3919] = true,
 				[8604] = true,
 				[3923] = true,
@@ -199,120 +202,20 @@ ZygorGuidesViewerSettings = {
 				true, -- [2]
 				["Crossroads"] = true,
 				["Undercity"] = true,
-				["Orgrimmar"] = true,
 				["Moonglade"] = true,
-				["Thunder Bluff"] = true,
-				["The Sepulcher"] = true,
 				["Ratchet"] = true,
 				["The Bulwark"] = true,
+				["Thunder Bluff"] = true,
+				["The Sepulcher"] = true,
+				["Sun Rock Retreat"] = true,
+				["Orgrimmar"] = true,
 			},
 			["maint_fetchquestdata"] = true,
 			["maint_fetchitemdata"] = true,
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
-			["guidename"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-			["debuglog"] = {
-				"20:10:36> Got completed quests list", -- [1]
-				"20:10:36> Got completed quests list", -- [2]
-				"20:10:37> CacheQuestLog cached 23 quests", -- [3]
-				"20:10:37> New Quest: Dig Rat Stew id 862", -- [4]
-				"20:10:37> New Quest: A Friendly Chat... id 24576", -- [5]
-				"20:10:37> New Quest: A Gift for the High Chieftain id 24614", -- [6]
-				"20:10:37> New Quest: A Gift for the Warchief id 24612", -- [7]
-				"20:10:37> New Quest: Valadar Starsong id 8883", -- [8]
-				"20:10:37> New Quest: Arugal Must Die id 1014", -- [9]
-				"20:10:37> New Quest: A Recipe For Death id 450", -- [10]
-				"20:10:37> New Quest: Kaya's Alive id 6401", -- [11]
-				"20:10:37> New Quest: Goblin Invaders id 1062", -- [12]
-				"20:10:37> New Quest: Samophlange id 894", -- [13]
-				"20:10:37> New Quest: The Disruption Ends id 872", -- [14]
-				"20:10:37> New Quest: Echeyakee id 881", -- [15]
-				"20:10:37> New Quest: Harpy Lieutenants id 875", -- [16]
-				"20:10:37> New Quest: The Stagnant Oasis id 877", -- [17]
-				"20:10:37> New Quest: Miner's Fortune id 896", -- [18]
-				"20:10:37> New Quest: Raptor Horns id 865", -- [19]
-				"20:10:37> New Quest: Stolen Silver id 3281", -- [20]
-				"20:10:37> New Quest: Verog the Dervish id 851", -- [21]
-				"20:10:37> New Quest: Consumed by Hatred id 899", -- [22]
-				"20:10:37> New Quest: Deepmoss Spider Eggs id 1069", -- [23]
-				"20:10:37> New Quest: Lost in Battle id 4921", -- [24]
-				"20:10:37> New Quest: The Guns of Northwatch id 891", -- [25]
-				"20:10:37> New Quest: The Ashenvale Hunt id 742", -- [26]
-				"20:10:37> CacheQuestLog cached 23 quests", -- [27]
-				"20:10:38> Guides loaded. -----", -- [28]
-				"20:10:38> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (116", -- [29]
-				"20:10:38> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [30]
-				"20:10:38> FocusStep 116", -- [31]
-				"20:10:38> Translated: accept/turnin Conscript of the Horde", -- [32]
-				"20:10:38> Translated: accept/turnin Crossroads Conscription", -- [33]
-				"20:10:38> Translated: accept/turnin Ak'Zeloth", -- [34]
-				"20:10:38> Translated: accept/turnin Meats to Orgrimmar", -- [35]
-				"20:10:38> Translated: accept/turnin Raptor Thieves", -- [36]
-				"20:10:38> Translated: accept/turnin Border Crossings", -- [37]
-				"20:10:38> Translated: accept/turnin The Decrepit Ferry", -- [38]
-				"20:10:38> Translated: 'get' Arugal's Folly", -- [39]
-				"20:10:38> unpausing", -- [40]
-				"20:10:38> frameNeedsUpdating, so updating.", -- [41]
-				"20:10:40> Got completed quests list", -- [42]
-				"20:13:02> CacheQuestLog cached 23 quests", -- [43]
-				"20:13:02> CacheQuestLog cached 23 quests", -- [44]
-				"20:13:02> CacheQuestLog cached 23 quests", -- [45]
-				"20:13:54> ZONE_CHANGED_NEW_AREA (dead?)", -- [46]
-				"20:15:36> GetQuestId: id of quest 'A Friendly Chat...' = 24576", -- [47]
-				"20:15:36> Completed Quest: A Friendly Chat..., id: 24576", -- [48]
-				"20:15:36> CacheQuestLog cached 23 quests", -- [49]
-				"20:15:36> CacheQuestLog cached 22 quests", -- [50]
-				"20:15:36> Lost Quest: A Friendly Chat..., id: 24576, complete: false", -- [51]
-				"20:15:55> CacheQuestLog cached 22 quests", -- [52]
-				"20:15:55> CacheQuestLog cached 23 quests", -- [53]
-				"20:15:55> New Quest: Crushing the Crown id 24645", -- [54]
-				"20:15:56> CacheQuestLog cached 23 quests", -- [55]
-				"20:16:14> Viewer started. ---------------------------", -- [56]
-				"20:16:15> PLAYER_ENTERING_WORLD (dead?)", -- [57]
-				"20:16:15> CacheQuestLog cached 23 quests", -- [58]
-				"20:16:15> New Quest: Dig Rat Stew id 862", -- [59]
-				"20:16:15> New Quest: A Gift for the High Chieftain id 24614", -- [60]
-				"20:16:15> New Quest: A Gift for the Warchief id 24612", -- [61]
-				"20:16:15> New Quest: Crushing the Crown id 24645", -- [62]
-				"20:16:15> New Quest: Valadar Starsong id 8883", -- [63]
-				"20:16:15> New Quest: Arugal Must Die id 1014", -- [64]
-				"20:16:15> New Quest: A Recipe For Death id 450", -- [65]
-				"20:16:15> New Quest: Kaya's Alive id 6401", -- [66]
-				"20:16:15> New Quest: Goblin Invaders id 1062", -- [67]
-				"20:16:15> New Quest: Samophlange id 894", -- [68]
-				"20:16:15> New Quest: The Disruption Ends id 872", -- [69]
-				"20:16:15> New Quest: Echeyakee id 881", -- [70]
-				"20:16:15> New Quest: Harpy Lieutenants id 875", -- [71]
-				"20:16:15> New Quest: The Stagnant Oasis id 877", -- [72]
-				"20:16:15> New Quest: Miner's Fortune id 896", -- [73]
-				"20:16:15> New Quest: Raptor Horns id 865", -- [74]
-				"20:16:15> New Quest: Stolen Silver id 3281", -- [75]
-				"20:16:15> New Quest: Verog the Dervish id 851", -- [76]
-				"20:16:15> New Quest: Consumed by Hatred id 899", -- [77]
-				"20:16:15> New Quest: Deepmoss Spider Eggs id 1069", -- [78]
-				"20:16:15> New Quest: Lost in Battle id 4921", -- [79]
-				"20:16:15> New Quest: The Guns of Northwatch id 891", -- [80]
-				"20:16:15> New Quest: The Ashenvale Hunt id 742", -- [81]
-				"20:16:15> Got completed quests list", -- [82]
-				"20:16:15> Got completed quests list", -- [83]
-				"20:16:15> CacheQuestLog cached 23 quests", -- [84]
-				"20:16:16> CacheQuestLog cached 23 quests", -- [85]
-				"20:16:17> Guides loaded. -----", -- [86]
-				"20:16:18> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (116", -- [87]
-				"20:16:18> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [88]
-				"20:16:18> FocusStep 116", -- [89]
-				"20:16:18> Translated: accept/turnin Conscript of the Horde", -- [90]
-				"20:16:18> Translated: accept/turnin Crossroads Conscription", -- [91]
-				"20:16:18> Translated: accept/turnin Ak'Zeloth", -- [92]
-				"20:16:18> Translated: accept/turnin Meats to Orgrimmar", -- [93]
-				"20:16:18> Translated: accept/turnin Raptor Thieves", -- [94]
-				"20:16:18> Translated: accept/turnin Border Crossings", -- [95]
-				"20:16:18> Translated: accept/turnin The Decrepit Ferry", -- [96]
-				"20:16:18> Translated: 'get' Arugal's Folly", -- [97]
-				"20:16:18> unpausing", -- [98]
-				"20:16:18> frameNeedsUpdating, so updating.", -- [99]
-				"20:16:19> Got completed quests list", -- [100]
-			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Levels (20-25)",
+			["step"] = 82,
 			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
@@ -323,15 +226,141 @@ ZygorGuidesViewerSettings = {
 				{
 					["short"] = "Orc (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
-					["step"] = 166,
+					["step"] = 192,
 				}, -- [2]
 				{
 					["short"] = "Main Guide (13-20)",
 					["full"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-					["step"] = 116,
+					["step"] = 201,
 				}, -- [3]
+				{
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+					["step"] = 10,
+				}, -- [4]
+				{
+					["short"] = "Levels (20-25)",
+					["full"] = "Zygor's Horde Leveling Guides\\Levels (20-25)",
+					["step"] = 82,
+				}, -- [5]
+			},
+			["debuglog"] = {
+				"17:58:41> New Quest: Jorn Skyseer id 3261", -- [1]
+				"17:58:41> New Quest: Verog the Dervish id 851", -- [2]
+				"17:58:41> New Quest: Deepmoss Spider Eggs id 1069", -- [3]
+				"17:58:41> New Quest: Letter to Jin'Zil id 1060", -- [4]
+				"17:58:41> New Quest: Ziz Fizziks id 1483", -- [5]
+				"17:58:41> New Quest: Egg Hunt id 868", -- [6]
+				"17:58:41> New Quest: Weapons of Choice id 893", -- [7]
+				"17:58:41> New Quest: Betrayal from Within id 879", -- [8]
+				"17:58:41> New Quest: The Ashenvale Hunt id 742", -- [9]
+				"17:58:41> New Quest: Hamuul Runetotem id 1489", -- [10]
+				"17:58:41> New Quest: Speak with Ruga id 1823", -- [11]
+				"17:58:41> Got completed quests list", -- [12]
+				"17:58:41> Got completed quests list", -- [13]
+				"17:58:41> CacheQuestLog cached 17 quests", -- [14]
+				"17:58:41> ZONE_CHANGED_NEW_AREA (dead?)", -- [15]
+				"17:58:41> CacheQuestLog cached 17 quests", -- [16]
+				"17:58:44> Guides loaded. -----", -- [17]
+				"17:58:44> SetGuide Zygor's Horde Leveling Guides\\Levels (20-25) (82", -- [18]
+				"17:58:44> Guide loaded: Zygor's Horde Leveling Guides\\Levels (20-25)", -- [19]
+				"17:58:44> FocusStep 82", -- [20]
+				"17:58:44> Translated: 'collect' Blood Shards of Agamaggan", -- [21]
+				"17:58:44> Translated: accept/turnin Verog the Dervish", -- [22]
+				"17:58:44> Translated: accept/turnin Blood Feeders", -- [23]
+				"17:58:44> Translated: accept/turnin Letter to Jin'Zil", -- [24]
+				"17:58:44> Translated: accept/turnin Jin'Zil's Forest Magic", -- [25]
+				"17:58:44> unpausing", -- [26]
+				"17:58:44> frameNeedsUpdating, so updating.", -- [27]
+				"17:58:44> Got completed quests list", -- [28]
+				"18:37:26> Viewer started. ---------------------------", -- [29]
+				"18:37:28> PLAYER_ENTERING_WORLD (dead?)", -- [30]
+				"18:37:28> PLAYER_ALIVE (dead?)", -- [31]
+				"18:37:28> CacheQuestLog cached 17 quests", -- [32]
+				"18:37:28> New Quest: Dig Rat Stew id 862", -- [33]
+				"18:37:28> New Quest: Deathstalkers in Shadowfang id 1098", -- [34]
+				"18:37:28> New Quest: The Hidden Niche id 461", -- [35]
+				"18:37:28> New Quest: Kaya's Alive id 6401", -- [36]
+				"18:37:28> New Quest: Goblin Invaders id 1062", -- [37]
+				"18:37:28> New Quest: The Disruption Ends id 872", -- [38]
+				"18:37:28> New Quest: Jorn Skyseer id 3261", -- [39]
+				"18:37:28> New Quest: Verog the Dervish id 851", -- [40]
+				"18:37:28> New Quest: Deepmoss Spider Eggs id 1069", -- [41]
+				"18:37:28> New Quest: Letter to Jin'Zil id 1060", -- [42]
+				"18:37:28> New Quest: Ziz Fizziks id 1483", -- [43]
+				"18:37:28> New Quest: Egg Hunt id 868", -- [44]
+				"18:37:28> New Quest: Weapons of Choice id 893", -- [45]
+				"18:37:28> New Quest: Betrayal from Within id 879", -- [46]
+				"18:37:28> New Quest: The Ashenvale Hunt id 742", -- [47]
+				"18:37:28> New Quest: Hamuul Runetotem id 1489", -- [48]
+				"18:37:28> New Quest: Speak with Ruga id 1823", -- [49]
+				"18:37:28> Got completed quests list", -- [50]
+				"18:37:28> Got completed quests list", -- [51]
+				"18:37:28> CacheQuestLog cached 17 quests", -- [52]
+				"18:37:29> ZONE_CHANGED_NEW_AREA (dead?)", -- [53]
+				"18:37:31> Guides loaded. -----", -- [54]
+				"18:37:31> SetGuide Zygor's Horde Leveling Guides\\Levels (20-25) (82", -- [55]
+				"18:37:31> Guide loaded: Zygor's Horde Leveling Guides\\Levels (20-25)", -- [56]
+				"18:37:31> FocusStep 82", -- [57]
+				"18:37:31> Translated: 'collect' Blood Shards of Agamaggan", -- [58]
+				"18:37:31> Translated: accept/turnin Verog the Dervish", -- [59]
+				"18:37:31> Translated: accept/turnin Blood Feeders", -- [60]
+				"18:37:31> Translated: accept/turnin Letter to Jin'Zil", -- [61]
+				"18:37:31> Translated: accept/turnin Jin'Zil's Forest Magic", -- [62]
+				"18:37:31> unpausing", -- [63]
+				"18:37:31> frameNeedsUpdating, so updating.", -- [64]
+				"18:37:32> Got completed quests list", -- [65]
+				"19:02:57> Viewer started. ---------------------------", -- [66]
+				"19:02:59> PLAYER_ENTERING_WORLD (dead?)", -- [67]
+				"19:02:59> Got completed quests list", -- [68]
+				"19:02:59> Got completed quests list", -- [69]
+				"19:02:59> CacheQuestLog cached 17 quests", -- [70]
+				"19:02:59> New Quest: Dig Rat Stew id 862", -- [71]
+				"19:02:59> New Quest: Deathstalkers in Shadowfang id 1098", -- [72]
+				"19:02:59> New Quest: The Hidden Niche id 461", -- [73]
+				"19:02:59> New Quest: Kaya's Alive id 6401", -- [74]
+				"19:02:59> New Quest: Goblin Invaders id 1062", -- [75]
+				"19:02:59> New Quest: The Disruption Ends id 872", -- [76]
+				"19:02:59> New Quest: Jorn Skyseer id 3261", -- [77]
+				"19:02:59> New Quest: Verog the Dervish id 851", -- [78]
+				"19:02:59> New Quest: Deepmoss Spider Eggs id 1069", -- [79]
+				"19:02:59> New Quest: Letter to Jin'Zil id 1060", -- [80]
+				"19:02:59> New Quest: Ziz Fizziks id 1483", -- [81]
+				"19:02:59> New Quest: Egg Hunt id 868", -- [82]
+				"19:02:59> New Quest: Weapons of Choice id 893", -- [83]
+				"19:02:59> New Quest: Betrayal from Within id 879", -- [84]
+				"19:02:59> New Quest: The Ashenvale Hunt id 742", -- [85]
+				"19:02:59> New Quest: Hamuul Runetotem id 1489", -- [86]
+				"19:02:59> New Quest: Speak with Ruga id 1823", -- [87]
+				"19:03:00> CacheQuestLog cached 17 quests", -- [88]
+				"19:03:01> Guides loaded. -----", -- [89]
+				"19:03:01> SetGuide Zygor's Horde Leveling Guides\\Levels (20-25) (82", -- [90]
+				"19:03:01> Guide loaded: Zygor's Horde Leveling Guides\\Levels (20-25)", -- [91]
+				"19:03:01> FocusStep 82", -- [92]
+				"19:03:02> Translated: 'collect' Blood Shards of Agamaggan", -- [93]
+				"19:03:02> Translated: accept/turnin Verog the Dervish", -- [94]
+				"19:03:02> Translated: accept/turnin Blood Feeders", -- [95]
+				"19:03:02> Translated: accept/turnin Letter to Jin'Zil", -- [96]
+				"19:03:02> Translated: accept/turnin Jin'Zil's Forest Magic", -- [97]
+				"19:03:02> unpausing", -- [98]
+				"19:03:02> frameNeedsUpdating, so updating.", -- [99]
+				"19:03:03> Got completed quests list", -- [100]
 			},
 			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+				true, -- [1]
+				true, -- [2]
+				["Crossroads"] = true,
+				["Undercity"] = true,
+				["The Crossroads"] = true,
+				["Camp Taurajo"] = true,
+				["Trade Quarter"] = true,
+				["Booty Bay"] = true,
+				["Thunder Bluff"] = true,
+				["The Sepulcher"] = true,
+				["Ratchet"] = true,
+				["Orgrimmar"] = true,
+			},
 			["RecipesKnown"] = {
 				[2538] = true,
 				[2546] = true,
@@ -347,63 +376,51 @@ ZygorGuidesViewerSettings = {
 				[2540] = true,
 				[3115] = true,
 				[3320] = true,
+				[7818] = true,
+				[2541] = true,
 				[6499] = true,
 				[2659] = true,
-				[2541] = true,
+				[2667] = true,
 				[2738] = true,
 				[6500] = true,
 				[3321] = true,
+				[7753] = true,
 				[7934] = true,
-				[2664] = true,
-				[2660] = true,
-				[3326] = true,
-				[2739] = true,
-				[2666] = true,
 				[6414] = true,
-				[2737] = true,
+				[2660] = true,
+				[2664] = true,
+				[2739] = true,
+				[3326] = true,
+				[2666] = true,
+				[3116] = true,
 				[3275] = true,
-				[9983] = true,
+				[3293] = true,
 				[2661] = true,
 				[37836] = true,
 				[8880] = true,
-				[7827] = true,
+				[9983] = true,
 				[3323] = true,
-				[3116] = true,
+				[7827] = true,
 				[3276] = true,
+				[3277] = true,
 				[2662] = true,
-				[3292] = true,
 				[2544] = true,
-				[3293] = true,
+				[3304] = true,
 				[25704] = true,
 				[3324] = true,
 				[3294] = true,
 				[7751] = true,
-				[3277] = true,
+				[3292] = true,
 				[2663] = true,
 				[8604] = true,
-				[3304] = true,
 				[2665] = true,
+				[2737] = true,
 				[3325] = true,
 				[12260] = true,
-				[7753] = true,
+				[3278] = true,
 				[8607] = true,
-				[2667] = true,
+				[8238] = true,
 			},
-			["taxis"] = {
-				true, -- [1]
-				true, -- [2]
-				["Crossroads"] = true,
-				["Undercity"] = true,
-				["The Crossroads"] = true,
-				["Camp Taurajo"] = true,
-				["Trade Quarter"] = true,
-				["Booty Bay"] = true,
-				["Thunder Bluff"] = true,
-				["The Sepulcher"] = true,
-				["Ratchet"] = true,
-				["Orgrimmar"] = true,
-			},
-			["step"] = 116,
 			["starting"] = false,
 		},
 		["Shiftace - TrueWoW"] = {
@@ -416,306 +433,117 @@ ZygorGuidesViewerSettings = {
 					["full"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
 				}, -- [1]
 			},
-			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"19:07:11> Skipping step: 141 (complete)", -- [1]
-				"19:07:11> SkipStep 1 fast", -- [2]
-				"19:07:11> FocusStep 142 (quiet)", -- [3]
-				"19:07:11> FocusStep 142", -- [4]
-				"19:07:11> Missing from NPC database: Flatland Prowler #3566", -- [5]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [6]
-				"19:07:11> Skipping step: 142 (complete)", -- [7]
-				"19:07:11> SkipStep 1 fast", -- [8]
-				"19:07:11> FocusStep 143 (quiet)", -- [9]
-				"19:07:11> FocusStep 143", -- [10]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [11]
-				"19:07:11> Skipping step: 143 (complete)", -- [12]
-				"19:07:11> SkipStep 1 fast", -- [13]
-				"19:07:11> FocusStep 144 (quiet)", -- [14]
-				"19:07:11> FocusStep 144", -- [15]
-				"19:07:11> Missing from NPC database: Windfury Sorceress #2964", -- [16]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [17]
-				"19:07:11> Skipping step: 144 (complete)", -- [18]
-				"19:07:11> SkipStep 1 fast", -- [19]
-				"19:07:11> FocusStep 145 (quiet)", -- [20]
-				"19:07:11> FocusStep 145", -- [21]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [22]
-				"19:07:11> Skipping step: 145 (complete)", -- [23]
-				"19:07:11> SkipStep 1 fast", -- [24]
-				"19:07:11> FocusStep 146 (quiet)", -- [25]
-				"19:07:11> FocusStep 146", -- [26]
-				"19:07:11> Translated: accept/turnin Preparation for Ceremony", -- [27]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [28]
-				"19:07:11> Skipping step: 146 (complete)", -- [29]
-				"19:07:11> SkipStep 1 fast", -- [30]
-				"19:07:11> FocusStep 147 (quiet)", -- [31]
-				"19:07:11> FocusStep 147", -- [32]
-				"19:07:11> Translated: accept/turnin The Hunter's Way", -- [33]
-				"19:07:11> Translated: accept/turnin Sergra Darkthorn", -- [34]
-				"19:07:11> frameNeedsUpdating, so updating.", -- [35]
-				"19:07:11> Skipping step: 147 (possible?)", -- [36]
-				"19:07:11> SkipStep 1 fast", -- [37]
-				"19:07:11> FocusStep 148 (quiet)", -- [38]
-				"19:07:11> FocusStep 148", -- [39]
-				"19:07:11> Translated: accept/turnin Journey into Thunder Bluff", -- [40]
-				"19:07:11> Translated: accept/turnin Rites of the Earthmother", -- [41]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [42]
-				"19:07:12> Skipping step: 148 (complete)", -- [43]
-				"19:07:12> SkipStep 1 fast", -- [44]
-				"19:07:12> FocusStep 149 (quiet)", -- [45]
-				"19:07:12> FocusStep 149", -- [46]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [47]
-				"19:07:12> Skipping step: 149 (complete)", -- [48]
-				"19:07:12> SkipStep 1 fast", -- [49]
-				"19:07:12> FocusStep 150 (quiet)", -- [50]
-				"19:07:12> FocusStep 150", -- [51]
-				"19:07:12> Missing from NPC database: Arra'chea #3058", -- [52]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [53]
-				"19:07:12> Skipping step: 150 (complete)", -- [54]
-				"19:07:12> SkipStep 1 fast", -- [55]
-				"19:07:12> FocusStep 151 (quiet)", -- [56]
-				"19:07:12> FocusStep 151", -- [57]
-				"19:07:12> Translated: accept/turnin The Demon Scarred Cloak", -- [58]
-				"19:07:12> Missing from NPC database: Ghost Howl #3056", -- [59]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [60]
-				"19:07:12> Skipping step: 151 (possible?)", -- [61]
-				"19:07:12> SkipStep 1 fast", -- [62]
-				"19:07:12> FocusStep 152 (quiet)", -- [63]
-				"19:07:12> FocusStep 152", -- [64]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [65]
-				"19:07:12> Skipping step: 152 (complete)", -- [66]
-				"19:07:12> SkipStep 1 fast", -- [67]
-				"19:07:12> FocusStep 153 (quiet)", -- [68]
-				"19:07:12> FocusStep 153", -- [69]
-				"19:07:12> Translated: accept/turnin Rites of the Earthmother", -- [70]
-				"19:07:12> frameNeedsUpdating, so updating.", -- [71]
-				"19:09:48> Viewer started. ---------------------------", -- [72]
-				"19:09:49> PLAYER_ENTERING_WORLD (dead?)", -- [73]
-				"19:09:49> PLAYER_ALIVE (dead?)", -- [74]
-				"19:09:49> CacheQuestLog cached 12 quests", -- [75]
-				"19:09:49> New Quest: Deactivate An'owyn id 9169", -- [76]
-				"19:09:49> New Quest: The Twin Ziggurats id 9176", -- [77]
-				"19:09:49> New Quest: Clearing the Way id 9281", -- [78]
-				"19:09:49> New Quest: Shadowpine Weaponry id 9214", -- [79]
-				"19:09:49> New Quest: Spinal Dust id 9218", -- [80]
-				"19:09:49> New Quest: A Little Dash of Seasoning id 9275", -- [81]
-				"19:09:49> New Quest: Assault on Zeb'Nowa id 9277", -- [82]
-				"19:09:49> New Quest: Bring Me Kel'gash's Head! id 9215", -- [83]
-				"19:09:49> New Quest: War on Deatholme id 9220", -- [84]
-				"19:09:49> New Quest: Wanted: Knucklerot and Luzran id 9156", -- [85]
-				"19:09:49> New Quest: Testing an Enemy's Strength id 5723", -- [86]
-				"19:09:49> New Quest: Searching for the Lost Satchel id 5722", -- [87]
-				"19:09:50> Got completed quests list", -- [88]
-				"19:09:50> CacheQuestLog cached 12 quests", -- [89]
-				"19:09:50> CacheQuestLog cached 12 quests", -- [90]
-				"19:09:50> ZONE_CHANGED_NEW_AREA (dead?)", -- [91]
-				"19:09:51> Guides loaded. -----", -- [92]
-				"19:09:51> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (153", -- [93]
-				"19:09:51> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [94]
-				"19:09:51> FocusStep 153", -- [95]
-				"19:09:51> Translated: accept/turnin The Demon Scarred Cloak", -- [96]
-				"19:09:51> Missing from NPC database: Ghost Howl #3056", -- [97]
-				"19:09:51> Translated: accept/turnin Rites of the Earthmother", -- [98]
-				"19:09:51> unpausing", -- [99]
-				"19:09:51> frameNeedsUpdating, so updating.", -- [100]
+				"01:05:51> Translated: accept/turnin The Demon Scarred Cloak", -- [1]
+				"01:05:51> unpausing", -- [2]
+				"01:05:51> frameNeedsUpdating, so updating.", -- [3]
+				"01:05:53> Got completed quests list", -- [4]
+				"01:10:05> PLAYER_ENTERING_WORLD (dead?)", -- [5]
+				"01:10:05> Player dead!", -- [6]
+				"01:10:05> SetCorpseArrow, mc/mz=2/0", -- [7]
+				"01:10:05> SetCorpseArrow, seeking corpse", -- [8]
+				"01:10:05> SetCorpseArrow, corpse on c=1? 0:0", -- [9]
+				"01:10:05> SetCorpseArrow, corpse on c=2? 0:0", -- [10]
+				"01:10:05> SetCorpseArrow, corpse on c=3? 0:0", -- [11]
+				"01:10:05> SetCorpseArrow, corpse on c=4? 0:0", -- [12]
+				"01:10:05> SetCorpseArrow, corpse on cont 0", -- [13]
+				"01:10:05> PLAYER_ALIVE (dead?)", -- [14]
+				"01:10:05> Player dead!", -- [15]
+				"01:10:05> SetCorpseArrow, mc/mz=2/0", -- [16]
+				"01:10:05> SetCorpseArrow, seeking corpse", -- [17]
+				"01:10:05> SetCorpseArrow, corpse on c=1? 0:0", -- [18]
+				"01:10:05> SetCorpseArrow, corpse on c=2? 0:0", -- [19]
+				"01:10:05> SetCorpseArrow, corpse on c=3? 0:0", -- [20]
+				"01:10:05> SetCorpseArrow, corpse on c=4? 0:0", -- [21]
+				"01:10:05> SetCorpseArrow, corpse on cont 0", -- [22]
+				"01:10:05> ZONE_CHANGED_NEW_AREA (dead?)", -- [23]
+				"01:10:05> Player dead!", -- [24]
+				"01:10:05> SetCorpseArrow, mc/mz=2/20", -- [25]
+				"01:10:05> SetCorpseArrow, seeking corpse", -- [26]
+				"01:10:05> SetCorpseArrow, corpse on c=1? 0:0", -- [27]
+				"01:10:05> SetCorpseArrow, corpse on c=2? 0:0", -- [28]
+				"01:10:05> SetCorpseArrow, corpse on c=3? 0:0", -- [29]
+				"01:10:05> SetCorpseArrow, corpse on c=4? 0:0", -- [30]
+				"01:10:05> SetCorpseArrow, corpse on cont 0", -- [31]
+				"01:10:05> CacheQuestLog cached 12 quests", -- [32]
+				"01:10:05> CacheQuestLog cached 12 quests", -- [33]
+				"01:10:05> CacheQuestLog cached 12 quests", -- [34]
+				"01:12:04> PLAYER_ENTERING_WORLD (dead?)", -- [35]
+				"01:12:04> Player dead!", -- [36]
+				"01:12:04> SetCorpseArrow, mc/mz=2/0", -- [37]
+				"01:12:04> PLAYER_ALIVE (dead?)", -- [38]
+				"01:12:04> Player dead!", -- [39]
+				"01:12:04> SetCorpseArrow, mc/mz=2/0", -- [40]
+				"01:12:04> SetCorpseArrow, seeking corpse", -- [41]
+				"01:12:04> SetCorpseArrow, corpse on c=1? 0:0", -- [42]
+				"01:12:04> SetCorpseArrow, corpse on c=2? 0:0", -- [43]
+				"01:12:04> SetCorpseArrow, corpse on c=3? 0:0", -- [44]
+				"01:12:04> SetCorpseArrow, corpse on c=4? 0:0", -- [45]
+				"01:12:04> SetCorpseArrow, corpse on cont 0", -- [46]
+				"01:12:04> CacheQuestLog cached 12 quests", -- [47]
+				"01:12:04> Player unghosted!", -- [48]
+				"01:12:04> ZONE_CHANGED_NEW_AREA (dead?)", -- [49]
+				"01:12:04> CacheQuestLog cached 12 quests", -- [50]
+				"01:12:04> CacheQuestLog cached 12 quests", -- [51]
+				"01:14:13> PLAYER_ENTERING_WORLD (dead?)", -- [52]
+				"01:14:13> PLAYER_ALIVE (dead?)", -- [53]
+				"01:14:13> CacheQuestLog cached 12 quests", -- [54]
+				"01:14:13> ZONE_CHANGED_NEW_AREA (dead?)", -- [55]
+				"01:14:13> CacheQuestLog cached 12 quests", -- [56]
+				"01:16:06> PLAYER_ENTERING_WORLD (dead?)", -- [57]
+				"01:16:06> PLAYER_ALIVE (dead?)", -- [58]
+				"01:16:06> CacheQuestLog cached 12 quests", -- [59]
+				"01:16:07> ZONE_CHANGED_NEW_AREA (dead?)", -- [60]
+				"01:16:07> CacheQuestLog cached 12 quests", -- [61]
+				"01:17:01> PLAYER_ENTERING_WORLD (dead?)", -- [62]
+				"01:17:01> PLAYER_ALIVE (dead?)", -- [63]
+				"01:17:01> CacheQuestLog cached 12 quests", -- [64]
+				"01:17:01> CacheQuestLog cached 12 quests", -- [65]
+				"01:17:01> ZONE_CHANGED_NEW_AREA (dead?)", -- [66]
+				"01:17:01> CacheQuestLog cached 12 quests", -- [67]
+				"01:17:21> Viewer started. ---------------------------", -- [68]
+				"01:17:23> PLAYER_ENTERING_WORLD (dead?)", -- [69]
+				"01:17:23> PLAYER_ALIVE (dead?)", -- [70]
+				"01:17:23> ZONE_CHANGED_NEW_AREA (dead?)", -- [71]
+				"01:17:23> CacheQuestLog cached 12 quests", -- [72]
+				"01:17:23> New Quest: Deactivate An'owyn id 9169", -- [73]
+				"01:17:23> New Quest: The Twin Ziggurats id 9176", -- [74]
+				"01:17:23> New Quest: Clearing the Way id 9281", -- [75]
+				"01:17:23> New Quest: Shadowpine Weaponry id 9214", -- [76]
+				"01:17:23> New Quest: Spinal Dust id 9218", -- [77]
+				"01:17:23> New Quest: A Little Dash of Seasoning id 9275", -- [78]
+				"01:17:23> New Quest: Assault on Zeb'Nowa id 9277", -- [79]
+				"01:17:23> New Quest: Bring Me Kel'gash's Head! id 9215", -- [80]
+				"01:17:23> New Quest: War on Deatholme id 9220", -- [81]
+				"01:17:23> New Quest: Wanted: Knucklerot and Luzran id 9156", -- [82]
+				"01:17:23> New Quest: Testing an Enemy's Strength id 5723", -- [83]
+				"01:17:23> New Quest: Searching for the Lost Satchel id 5722", -- [84]
+				"01:17:23> Got completed quests list", -- [85]
+				"01:17:23> CacheQuestLog cached 12 quests", -- [86]
+				"01:17:26> Guides loaded. -----", -- [87]
+				"01:17:26> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (153", -- [88]
+				"01:17:26> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [89]
+				"01:17:26> FocusStep 153", -- [90]
+				"01:17:26> Translated: accept/turnin The Hunt Begins", -- [91]
+				"01:17:26> Translated: accept/turnin A Humble Task", -- [92]
+				"01:17:26> Missing from NPC database: Plainstrider #2955", -- [93]
+				"01:17:26> Translated: accept/turnin The Demon Scarred Cloak", -- [94]
+				"01:17:26> Missing from NPC database: Ghost Howl #3056", -- [95]
+				"01:17:26> Translated: accept/turnin Rites of the Earthmother", -- [96]
+				"01:17:26> Translated: accept/turnin The Demon Scarred Cloak", -- [97]
+				"01:17:26> unpausing", -- [98]
+				"01:17:26> frameNeedsUpdating, so updating.", -- [99]
+				"01:17:27> Got completed quests list", -- [100]
 			},
 			["starting"] = false,
 		},
 		["Mittens - PrimalWoW (Progressive)"] = {
-			["step"] = 200,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-			["debuglog"] = {
-				"14:37:16> CacheQuestLog cached 25 quests", -- [1]
-				"14:37:16> CacheQuestLog cached 24 quests", -- [2]
-				"14:37:16> Lost Quest: Nugget Slugs, id: 3922, complete: false", -- [3]
-				"14:37:16> Skipping step: 194 (complete)", -- [4]
-				"14:37:16> SkipStep 1 fast", -- [5]
-				"14:37:16> FocusStep 195 (quiet)", -- [6]
-				"14:37:16> FocusStep 195", -- [7]
-				"14:37:28> CacheQuestLog cached 25 quests", -- [8]
-				"14:37:28> New Quest: Rilli Greasygob id 3923", -- [9]
-				"14:38:50> GetQuestId: id of quest 'Outrider Basic Care Package' unknown!", -- [10]
-				"14:38:50> Completed Quest: Outrider Basic Care Package, id: nil", -- [11]
-				"14:38:51> Got completed quests list", -- [12]
-				"14:50:53> Viewer started. ---------------------------", -- [13]
-				"14:50:54> PLAYER_ENTERING_WORLD (dead?)", -- [14]
-				"14:50:55> PLAYER_ALIVE (dead?)", -- [15]
-				"14:50:55> ZONE_CHANGED_NEW_AREA (dead?)", -- [16]
-				"14:50:55> CacheQuestLog cached 24 quests", -- [17]
-				"14:50:55> New Quest: Report to Splintertree Post id 9428", -- [18]
-				"14:50:55> New Quest: Blackfathom Villainy id 6561", -- [19]
-				"14:50:55> New Quest: The Lunar Festival id 8873", -- [20]
-				"14:50:55> New Quest: Valadar Starsong id 8883", -- [21]
-				"14:50:55> New Quest: Thule Ravenclaw id 446", -- [22]
-				"14:50:55> New Quest: Resting in Pieces id 460", -- [23]
-				"14:50:55> New Quest: Beren's Peril id 516", -- [24]
-				"14:50:55> New Quest: Goblin Invaders id 1062", -- [25]
-				"14:50:55> New Quest: Altered Beings id 880", -- [26]
-				"14:50:55> New Quest: Echeyakee id 881", -- [27]
-				"14:50:55> New Quest: Rilli Greasygob id 3923", -- [28]
-				"14:50:55> New Quest: Stolen Silver id 3281", -- [29]
-				"14:50:55> New Quest: Verog the Dervish id 851", -- [30]
-				"14:50:55> New Quest: Consumed by Hatred id 899", -- [31]
-				"14:50:55> New Quest: Deepmoss Spider Eggs id 1069", -- [32]
-				"14:50:55> New Quest: Serena Bloodfeather id 876", -- [33]
-				"14:50:55> New Quest: The Guns of Northwatch id 891", -- [34]
-				"14:50:55> New Quest: Tribes at War id 878", -- [35]
-				"14:50:55> New Quest: Ziz Fizziks id 1483", -- [36]
-				"14:50:55> New Quest: Egg Hunt id 868", -- [37]
-				"14:50:55> New Quest: Weapons of Choice id 893", -- [38]
-				"14:50:55> New Quest: The Ashenvale Hunt id 742", -- [39]
-				"14:50:55> New Quest: Deviate Hides id 1486", -- [40]
-				"14:50:55> New Quest: Deviate Eradication id 1487", -- [41]
-				"14:50:55> Got completed quests list", -- [42]
-				"14:50:55> Got completed quests list", -- [43]
-				"14:50:55> CacheQuestLog cached 24 quests", -- [44]
-				"14:50:56> Guides loaded. -----", -- [45]
-				"14:50:56> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (195", -- [46]
-				"14:50:56> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [47]
-				"14:50:56> FocusStep 195", -- [48]
-				"14:50:56> Translated: accept/turnin Conscript of the Horde", -- [49]
-				"14:50:56> Translated: accept/turnin Crossroads Conscription", -- [50]
-				"14:50:56> Translated: accept/turnin Ak'Zeloth", -- [51]
-				"14:50:56> Translated: accept/turnin Meats to Orgrimmar", -- [52]
-				"14:50:56> Translated: accept/turnin Raptor Thieves", -- [53]
-				"14:50:56> Translated: accept/turnin Report to Kadrak", -- [54]
-				"14:50:56> Translated: accept/turnin Echeyakee", -- [55]
-				"14:50:56> Translated: accept/turnin The Angry Scytheclaws", -- [56]
-				"14:50:57> frameNeedsUpdating, so updating.", -- [57]
-				"14:50:59> Got completed quests list", -- [58]
-				"14:51:50> SkipStep 1 fast", -- [59]
-				"14:51:50> FocusStep 196 (quiet)", -- [60]
-				"14:51:50> FocusStep 196", -- [61]
-				"14:51:51> Skipping step: 196 (complete)", -- [62]
-				"14:51:51> SkipStep 1 fast", -- [63]
-				"14:51:51> FocusStep 197 (quiet)", -- [64]
-				"14:51:51> FocusStep 197", -- [65]
-				"14:51:53> goal clicked 1", -- [66]
-				"14:51:53> Completion: Hearth to the Crossroads", -- [67]
-				"14:51:54> Skipping step: 197 (complete)", -- [68]
-				"14:51:54> SkipStep 1 fast", -- [69]
-				"14:51:54> FocusStep 198 (quiet)", -- [70]
-				"14:51:54> FocusStep 198", -- [71]
-				"14:51:54> Translated: accept/turnin Serena Bloodfeather", -- [72]
-				"14:51:54> Translated: accept/turnin Letter to Jin'Zil", -- [73]
-				"14:51:54> frameNeedsUpdating, so updating.", -- [74]
-				"14:51:57> GetQuestId: id of quest 'Echeyakee' = 881", -- [75]
-				"14:51:57> Completed Quest: Echeyakee, id: 881", -- [76]
-				"14:51:57> CacheQuestLog cached 24 quests", -- [77]
-				"14:51:57> CacheQuestLog cached 23 quests", -- [78]
-				"14:51:57> Lost Quest: Echeyakee, id: 881, complete: false", -- [79]
-				"14:51:57> Completion: Turn in |cffbb99ff`Echeyakee'|r", -- [80]
-				"14:51:59> CacheQuestLog cached 24 quests", -- [81]
-				"14:51:59> New Quest: The Angry Scytheclaws id 905", -- [82]
-				"14:51:59> Skipping step: 198 (complete)", -- [83]
-				"14:51:59> SkipStep 1 fast", -- [84]
-				"14:51:59> FocusStep 199 (quiet)", -- [85]
-				"14:51:59> FocusStep 199", -- [86]
-				"14:52:40> GetQuestId: id of quest 'Serena Bloodfeather' = 876", -- [87]
-				"14:52:40> Completed Quest: Serena Bloodfeather, id: 876", -- [88]
-				"14:52:40> CacheQuestLog cached 23 quests", -- [89]
-				"14:52:40> Lost Quest: Serena Bloodfeather, id: 876, complete: true", -- [90]
-				"14:52:40> Completion: Turn in |cffbb99ff`Serena Bloodfeather'|r", -- [91]
-				"14:52:58> CacheQuestLog cached 24 quests", -- [92]
-				"14:52:58> New Quest: Letter to Jin'Zil id 1060", -- [93]
-				"14:52:58> Skipping step: 199 (complete)", -- [94]
-				"14:52:58> SkipStep 1 fast", -- [95]
-				"14:52:58> FocusStep 200 (quiet)", -- [96]
-				"14:52:58> FocusStep 200", -- [97]
-				"14:57:14> 40 Tailoring recipes found", -- [98]
-				"14:57:53> CacheQuestLog cached 24 quests", -- [99]
-				"14:57:54> CacheQuestLog cached 24 quests", -- [100]
-			},
-			["RecipesKnown"] = {
-				[2394] = true,
-				[2395] = true,
-				[7745] = true,
-				[7428] = true,
-				[6413] = true,
-				[6414] = true,
-				[7748] = true,
-				[14293] = true,
-				[7623] = true,
-				[7751] = true,
-				[2399] = true,
-				[14807] = true,
-				[7753] = true,
-				[2401] = true,
-				[7629] = true,
-				[8465] = true,
-				[13419] = true,
-				[2402] = true,
-				[13421] = true,
-				[7633] = true,
-				[37836] = true,
-				[8604] = true,
-				[7827] = true,
-				[8607] = true,
-				[2406] = true,
-				[7766] = true,
-				[12044] = true,
-				[12045] = true,
-				[6499] = true,
-				[6500] = true,
-				[7771] = true,
-				[7454] = true,
-				[25124] = true,
-				[7457] = true,
-				[2538] = true,
-				[3840] = true,
-				[2539] = true,
-				[3841] = true,
-				[7779] = true,
-				[2540] = true,
-				[3842] = true,
-				[2541] = true,
-				[3843] = true,
-				[3844] = true,
-				[8776] = true,
-				[7624] = true,
-				[3845] = true,
-				[6521] = true,
-				[2385] = true,
-				[2544] = true,
-				[7788] = true,
-				[3276] = true,
-				[2386] = true,
-				[12046] = true,
-				[3847] = true,
-				[7776] = true,
-				[2387] = true,
-				[2546] = true,
-				[3275] = true,
-				[2964] = true,
-				[3277] = true,
-				[7934] = true,
-				[13380] = true,
-				[2389] = true,
-				[7795] = true,
-				[13378] = true,
-				[2396] = true,
-				[3755] = true,
-				[3914] = true,
-				[3915] = true,
-				[7426] = true,
-				[7793] = true,
-				[7418] = true,
-				[6686] = true,
-				[2963] = true,
-				[3757] = true,
-				[7420] = true,
-				[2392] = true,
-				[7421] = true,
-				[3758] = true,
-				[2393] = true,
-				[2397] = true,
-				[7786] = true,
-				[7782] = true,
-				[7639] = true,
-			},
+			["step"] = 200,
 			["starting"] = false,
 			["guides_history"] = {
 				{
@@ -744,7 +572,205 @@ ZygorGuidesViewerSettings = {
 					["step"] = 200,
 				}, -- [5]
 			},
-			["maint_fetchquestdata"] = true,
+			["debuglog"] = {
+				"00:07:52> Translated: accept/turnin Ak'Zeloth", -- [1]
+				"00:07:52> Translated: accept/turnin Meats to Orgrimmar", -- [2]
+				"00:07:52> Translated: accept/turnin Raptor Thieves", -- [3]
+				"00:07:52> unpausing", -- [4]
+				"00:07:52> frameNeedsUpdating, so updating.", -- [5]
+				"00:07:53> Got completed quests list", -- [6]
+				"00:08:51> Viewer started. ---------------------------", -- [7]
+				"00:08:53> PLAYER_ENTERING_WORLD (dead?)", -- [8]
+				"00:08:53> CacheQuestLog cached 25 quests", -- [9]
+				"00:08:53> New Quest: Report to Splintertree Post id 9428", -- [10]
+				"00:08:53> New Quest: Amongst the Ruins id 6921", -- [11]
+				"00:08:53> New Quest: Blackfathom Villainy id 6561", -- [12]
+				"00:08:53> New Quest: The Lunar Festival id 8873", -- [13]
+				"00:08:53> New Quest: Valadar Starsong id 8883", -- [14]
+				"00:08:53> New Quest: Thule Ravenclaw id 446", -- [15]
+				"00:08:53> New Quest: Resting in Pieces id 460", -- [16]
+				"00:08:53> New Quest: Beren's Peril id 516", -- [17]
+				"00:08:53> New Quest: Goblin Invaders id 1062", -- [18]
+				"00:08:53> New Quest: Altered Beings id 880", -- [19]
+				"00:08:53> New Quest: The Angry Scytheclaws id 905", -- [20]
+				"00:08:53> New Quest: Rilli Greasygob id 3923", -- [21]
+				"00:08:53> New Quest: Stolen Silver id 3281", -- [22]
+				"00:08:53> New Quest: Verog the Dervish id 851", -- [23]
+				"00:08:53> New Quest: Consumed by Hatred id 899", -- [24]
+				"00:08:53> New Quest: Deepmoss Spider Eggs id 1069", -- [25]
+				"00:08:53> New Quest: Letter to Jin'Zil id 1060", -- [26]
+				"00:08:53> New Quest: The Guns of Northwatch id 891", -- [27]
+				"00:08:53> New Quest: Tribes at War id 878", -- [28]
+				"00:08:53> New Quest: Ziz Fizziks id 1483", -- [29]
+				"00:08:53> New Quest: Egg Hunt id 868", -- [30]
+				"00:08:53> New Quest: Weapons of Choice id 893", -- [31]
+				"00:08:53> New Quest: The Ashenvale Hunt id 742", -- [32]
+				"00:08:53> New Quest: Deviate Hides id 1486", -- [33]
+				"00:08:53> New Quest: Deviate Eradication id 1487", -- [34]
+				"00:08:53> Got completed quests list", -- [35]
+				"00:08:53> Got completed quests list", -- [36]
+				"00:08:53> CacheQuestLog cached 25 quests", -- [37]
+				"00:08:53> CacheQuestLog cached 25 quests", -- [38]
+				"00:08:55> Guides loaded. -----", -- [39]
+				"00:08:55> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (200", -- [40]
+				"00:08:55> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [41]
+				"00:08:55> FocusStep 200", -- [42]
+				"00:08:55> Translated: accept/turnin Conscript of the Horde", -- [43]
+				"00:08:55> Translated: accept/turnin Crossroads Conscription", -- [44]
+				"00:08:55> Translated: accept/turnin Ak'Zeloth", -- [45]
+				"00:08:55> Translated: accept/turnin Meats to Orgrimmar", -- [46]
+				"00:08:55> Translated: accept/turnin Raptor Thieves", -- [47]
+				"00:08:55> unpausing", -- [48]
+				"00:08:55> frameNeedsUpdating, so updating.", -- [49]
+				"00:08:56> Got completed quests list", -- [50]
+				"00:12:12> Viewer started. ---------------------------", -- [51]
+				"00:12:13> PLAYER_ENTERING_WORLD (dead?)", -- [52]
+				"00:12:13> CacheQuestLog cached 25 quests", -- [53]
+				"00:12:13> New Quest: Report to Splintertree Post id 9428", -- [54]
+				"00:12:13> New Quest: Amongst the Ruins id 6921", -- [55]
+				"00:12:13> New Quest: Blackfathom Villainy id 6561", -- [56]
+				"00:12:13> New Quest: The Lunar Festival id 8873", -- [57]
+				"00:12:13> New Quest: Valadar Starsong id 8883", -- [58]
+				"00:12:13> New Quest: Thule Ravenclaw id 446", -- [59]
+				"00:12:13> New Quest: Resting in Pieces id 460", -- [60]
+				"00:12:13> New Quest: Beren's Peril id 516", -- [61]
+				"00:12:13> New Quest: Goblin Invaders id 1062", -- [62]
+				"00:12:13> New Quest: Altered Beings id 880", -- [63]
+				"00:12:13> New Quest: The Angry Scytheclaws id 905", -- [64]
+				"00:12:13> New Quest: Rilli Greasygob id 3923", -- [65]
+				"00:12:13> New Quest: Stolen Silver id 3281", -- [66]
+				"00:12:13> New Quest: Verog the Dervish id 851", -- [67]
+				"00:12:13> New Quest: Consumed by Hatred id 899", -- [68]
+				"00:12:13> New Quest: Deepmoss Spider Eggs id 1069", -- [69]
+				"00:12:13> New Quest: Letter to Jin'Zil id 1060", -- [70]
+				"00:12:13> New Quest: The Guns of Northwatch id 891", -- [71]
+				"00:12:13> New Quest: Tribes at War id 878", -- [72]
+				"00:12:13> New Quest: Ziz Fizziks id 1483", -- [73]
+				"00:12:13> New Quest: Egg Hunt id 868", -- [74]
+				"00:12:13> New Quest: Weapons of Choice id 893", -- [75]
+				"00:12:13> New Quest: The Ashenvale Hunt id 742", -- [76]
+				"00:12:13> New Quest: Deviate Hides id 1486", -- [77]
+				"00:12:13> New Quest: Deviate Eradication id 1487", -- [78]
+				"00:12:15> PLAYER_ENTERING_WORLD (dead?)", -- [79]
+				"00:12:15> PLAYER_ALIVE (dead?)", -- [80]
+				"00:12:15> CacheQuestLog cached 25 quests", -- [81]
+				"00:12:16> ZONE_CHANGED_NEW_AREA (dead?)", -- [82]
+				"00:12:16> CacheQuestLog cached 25 quests", -- [83]
+				"00:12:17> Got completed quests list", -- [84]
+				"00:12:17> Guides loaded. -----", -- [85]
+				"00:12:17> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (200", -- [86]
+				"00:12:17> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [87]
+				"00:12:17> FocusStep 200", -- [88]
+				"00:12:17> Translated: accept/turnin Conscript of the Horde", -- [89]
+				"00:12:17> Translated: accept/turnin Crossroads Conscription", -- [90]
+				"00:12:17> Translated: accept/turnin Ak'Zeloth", -- [91]
+				"00:12:17> Translated: accept/turnin Meats to Orgrimmar", -- [92]
+				"00:12:17> Translated: accept/turnin Raptor Thieves", -- [93]
+				"00:12:17> unpausing", -- [94]
+				"00:12:17> frameNeedsUpdating, so updating.", -- [95]
+				"00:37:04> PLAYER_ENTERING_WORLD (dead?)", -- [96]
+				"00:37:05> PLAYER_ALIVE (dead?)", -- [97]
+				"00:37:05> CacheQuestLog cached 25 quests", -- [98]
+				"00:37:05> ZONE_CHANGED_NEW_AREA (dead?)", -- [99]
+				"00:37:05> CacheQuestLog cached 25 quests", -- [100]
+			},
+			["RecipesKnown"] = {
+				[2394] = true,
+				[2395] = true,
+				[7745] = true,
+				[7428] = true,
+				[6413] = true,
+				[6414] = true,
+				[7748] = true,
+				[14293] = true,
+				[7623] = true,
+				[7751] = true,
+				[2399] = true,
+				[14807] = true,
+				[7753] = true,
+				[2401] = true,
+				[7629] = true,
+				[8465] = true,
+				[13419] = true,
+				[2402] = true,
+				[13421] = true,
+				[7633] = true,
+				[37836] = true,
+				[8604] = true,
+				[7827] = true,
+				[8607] = true,
+				[2406] = true,
+				[7766] = true,
+				[6688] = true,
+				[12044] = true,
+				[12045] = true,
+				[6499] = true,
+				[6500] = true,
+				[7771] = true,
+				[7454] = true,
+				[25124] = true,
+				[3839] = true,
+				[7457] = true,
+				[2538] = true,
+				[3840] = true,
+				[7630] = true,
+				[2539] = true,
+				[3841] = true,
+				[13464] = true,
+				[7779] = true,
+				[2540] = true,
+				[3842] = true,
+				[7624] = true,
+				[3398] = true,
+				[2541] = true,
+				[3843] = true,
+				[12046] = true,
+				[2397] = true,
+				[7776] = true,
+				[3844] = true,
+				[2964] = true,
+				[8776] = true,
+				[7420] = true,
+				[7786] = true,
+				[13380] = true,
+				[8780] = true,
+				[2544] = true,
+				[7788] = true,
+				[2386] = true,
+				[3275] = true,
+				[13378] = true,
+				[3847] = true,
+				[6521] = true,
+				[2387] = true,
+				[2546] = true,
+				[3848] = true,
+				[3915] = true,
+				[3277] = true,
+				[7934] = true,
+				[6686] = true,
+				[7795] = true,
+				[2389] = true,
+				[7793] = true,
+				[7426] = true,
+				[3755] = true,
+				[3914] = true,
+				[3276] = true,
+				[3851] = true,
+				[3845] = true,
+				[7418] = true,
+				[25704] = true,
+				[2963] = true,
+				[3757] = true,
+				[2392] = true,
+				[2385] = true,
+				[7421] = true,
+				[3758] = true,
+				[2393] = true,
+				[7782] = true,
+				[7639] = true,
+				[3868] = true,
+				[2396] = true,
+			},
 			["taxis"] = {
 				true, -- [1]
 				true, -- [2]
@@ -757,65 +783,124 @@ ZygorGuidesViewerSettings = {
 				["Ratchet"] = true,
 				["Orgrimmar"] = true,
 			},
+			["maint_fetchquestdata"] = true,
 			["maint_fetchitemdata"] = true,
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
 			["maint_fetchitemdata"] = true,
+			["step"] = 66,
 			["guides_history"] = {
 				{
 					["short"] = "Human (1-13)",
 					["full"] = "Zygor's Alliance Leveling Guides\\Human (1-13)",
-					["step"] = 1,
+					["step"] = 66,
 				}, -- [1]
 			},
-			["guidename"] = "Zygor's Alliance Leveling Guides\\Human (1-13)",
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Alliance Leveling Guides\\Human (1-13)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"16:53:48> Viewer started. ---------------------------", -- [1]
-				"16:53:49> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"16:53:49> PLAYER_ALIVE (dead?)", -- [3]
-				"16:53:50> CacheQuestLog cached 0 quests", -- [4]
-				"16:53:50> Got completed quests list", -- [5]
-				"16:53:50> CacheQuestLog cached 0 quests", -- [6]
-				"16:53:50> ZONE_CHANGED_NEW_AREA (dead?)", -- [7]
-				"16:53:50> CacheQuestLog cached 0 quests", -- [8]
-				"16:53:50> Hiding arrow with guide", -- [9]
-				"16:53:53> Guides loaded. -----", -- [10]
-				"16:53:53> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (1", -- [11]
-				"16:53:53> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [12]
-				"16:53:53> FocusStep 1", -- [13]
-				"16:53:53> unpausing", -- [14]
-				"16:53:53> frameNeedsUpdating, so updating.", -- [15]
-				"16:53:54> Got completed quests list", -- [16]
-				"16:54:09> Viewer started. ---------------------------", -- [17]
-				"16:54:10> PLAYER_ENTERING_WORLD (dead?)", -- [18]
-				"16:54:11> Got completed quests list", -- [19]
-				"16:54:11> CacheQuestLog cached 0 quests", -- [20]
-				"16:54:11> CacheQuestLog cached 0 quests", -- [21]
-				"16:54:12> Guides loaded. -----", -- [22]
-				"16:54:12> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (1", -- [23]
-				"16:54:12> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [24]
-				"16:54:12> FocusStep 1", -- [25]
-				"16:54:12> Translated: accept/turnin A Threat Within", -- [26]
-				"16:54:12> unpausing", -- [27]
-				"16:54:12> frameNeedsUpdating, so updating.", -- [28]
-				"16:54:15> Got completed quests list", -- [29]
-				"16:54:29> Viewer started. ---------------------------", -- [30]
-				"16:54:30> PLAYER_ENTERING_WORLD (dead?)", -- [31]
-				"16:54:30> CacheQuestLog cached 0 quests", -- [32]
-				"16:54:30> Got completed quests list", -- [33]
-				"16:54:30> CacheQuestLog cached 0 quests", -- [34]
-				"16:54:30> CacheQuestLog cached 0 quests", -- [35]
-				"16:54:32> Guides loaded. -----", -- [36]
-				"16:54:32> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (1", -- [37]
-				"16:54:32> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [38]
-				"16:54:32> FocusStep 1", -- [39]
-				"16:54:32> Translated: accept/turnin A Threat Within", -- [40]
-				"16:54:32> unpausing", -- [41]
-				"16:54:32> frameNeedsUpdating, so updating.", -- [42]
-				"16:54:34> Got completed quests list", -- [43]
+				"13:40:53> FocusStep 66", -- [1]
+				"13:40:53> Translated: accept/turnin Collecting Kelp", -- [2]
+				"13:40:53> Translated: accept/turnin Goldtooth", -- [3]
+				"13:40:53> frameNeedsUpdating, so updating.", -- [4]
+				"23:03:43> Viewer started. ---------------------------", -- [5]
+				"23:03:44> PLAYER_ENTERING_WORLD (dead?)", -- [6]
+				"23:03:44> PLAYER_ALIVE (dead?)", -- [7]
+				"23:03:44> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
+				"23:03:44> CacheQuestLog cached 7 quests", -- [9]
+				"23:03:44> New Quest: Collecting Kelp id 112", -- [10]
+				"23:03:44> New Quest: Shipment to Stormwind id 61", -- [11]
+				"23:03:44> New Quest: Goldtooth id 87", -- [12]
+				"23:03:44> New Quest: Princess Must Die! id 88", -- [13]
+				"23:03:44> New Quest: Further Concerns id 35", -- [14]
+				"23:03:44> New Quest: The Jasperlode Mine id 76", -- [15]
+				"23:03:44> New Quest: Westbrook Garrison Needs Help! id 239", -- [16]
+				"23:03:45> Got completed quests list", -- [17]
+				"23:03:45> Got completed quests list", -- [18]
+				"23:03:45> CacheQuestLog cached 7 quests", -- [19]
+				"23:03:47> Guides loaded. -----", -- [20]
+				"23:03:47> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (66", -- [21]
+				"23:03:47> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [22]
+				"23:03:47> FocusStep 66", -- [23]
+				"23:03:47> Translated: accept/turnin A Threat Within", -- [24]
+				"23:03:47> Translated: accept/turnin A Threat Within", -- [25]
+				"23:03:47> Translated: accept/turnin Kobold Camp Cleanup", -- [26]
+				"23:03:47> Translated: accept/turnin Eagan Peltskinner", -- [27]
+				"23:03:47> Translated: accept/turnin Eagan Peltskinner", -- [28]
+				"23:03:47> Translated: accept/turnin Wolves Across the Border", -- [29]
+				"23:03:47> Missing from NPC database: Murloc #285", -- [30]
+				"23:03:47> Translated: accept/turnin Collecting Kelp", -- [31]
+				"23:03:47> Translated: accept/turnin The Escape", -- [32]
+				"23:03:47> Translated: accept/turnin The Escape", -- [33]
+				"23:03:47> Translated: accept/turnin Goldtooth", -- [34]
+				"23:03:47> unpausing", -- [35]
+				"23:03:47> frameNeedsUpdating, so updating.", -- [36]
+				"23:03:48> Got completed quests list", -- [37]
+				"23:04:49> Viewer started. ---------------------------", -- [38]
+				"23:04:51> PLAYER_ENTERING_WORLD (dead?)", -- [39]
+				"23:04:51> Got completed quests list", -- [40]
+				"23:04:51> Got completed quests list", -- [41]
+				"23:04:51> CacheQuestLog cached 7 quests", -- [42]
+				"23:04:51> New Quest: Collecting Kelp id 112", -- [43]
+				"23:04:51> New Quest: Shipment to Stormwind id 61", -- [44]
+				"23:04:51> New Quest: Goldtooth id 87", -- [45]
+				"23:04:51> New Quest: Princess Must Die! id 88", -- [46]
+				"23:04:51> New Quest: Further Concerns id 35", -- [47]
+				"23:04:51> New Quest: The Jasperlode Mine id 76", -- [48]
+				"23:04:51> New Quest: Westbrook Garrison Needs Help! id 239", -- [49]
+				"23:04:51> CacheQuestLog cached 7 quests", -- [50]
+				"23:04:54> Guides loaded. -----", -- [51]
+				"23:04:54> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (66", -- [52]
+				"23:04:54> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [53]
+				"23:04:54> FocusStep 66", -- [54]
+				"23:04:54> Translated: accept/turnin A Threat Within", -- [55]
+				"23:04:54> Translated: accept/turnin A Threat Within", -- [56]
+				"23:04:54> Translated: accept/turnin Kobold Camp Cleanup", -- [57]
+				"23:04:54> Translated: accept/turnin Eagan Peltskinner", -- [58]
+				"23:04:54> Translated: accept/turnin Eagan Peltskinner", -- [59]
+				"23:04:54> Translated: accept/turnin Wolves Across the Border", -- [60]
+				"23:04:54> Missing from NPC database: Murloc #285", -- [61]
+				"23:04:54> Translated: accept/turnin Collecting Kelp", -- [62]
+				"23:04:54> Translated: accept/turnin The Escape", -- [63]
+				"23:04:54> Translated: accept/turnin The Escape", -- [64]
+				"23:04:54> Translated: accept/turnin Goldtooth", -- [65]
+				"23:04:54> unpausing", -- [66]
+				"23:04:54> frameNeedsUpdating, so updating.", -- [67]
+				"23:04:54> Got completed quests list", -- [68]
+				"23:06:06> Viewer started. ---------------------------", -- [69]
+				"23:06:08> PLAYER_ENTERING_WORLD (dead?)", -- [70]
+				"23:06:08> CacheQuestLog cached 7 quests", -- [71]
+				"23:06:08> New Quest: Collecting Kelp id 112", -- [72]
+				"23:06:08> New Quest: Shipment to Stormwind id 61", -- [73]
+				"23:06:08> New Quest: Goldtooth id 87", -- [74]
+				"23:06:08> New Quest: Princess Must Die! id 88", -- [75]
+				"23:06:08> New Quest: Further Concerns id 35", -- [76]
+				"23:06:08> New Quest: The Jasperlode Mine id 76", -- [77]
+				"23:06:08> New Quest: Westbrook Garrison Needs Help! id 239", -- [78]
+				"23:06:08> Got completed quests list", -- [79]
+				"23:06:08> Got completed quests list", -- [80]
+				"23:06:08> CacheQuestLog cached 7 quests", -- [81]
+				"23:06:09> CacheQuestLog cached 7 quests", -- [82]
+				"23:06:11> Got completed quests list", -- [83]
+				"23:06:12> Guides loaded. -----", -- [84]
+				"23:06:12> SetGuide Zygor's Alliance Leveling Guides\\Human (1-13) (66", -- [85]
+				"23:06:12> Guide loaded: Zygor's Alliance Leveling Guides\\Human (1-13)", -- [86]
+				"23:06:12> FocusStep 66", -- [87]
+				"23:06:12> Translated: accept/turnin A Threat Within", -- [88]
+				"23:06:12> Translated: accept/turnin A Threat Within", -- [89]
+				"23:06:12> Translated: accept/turnin Kobold Camp Cleanup", -- [90]
+				"23:06:12> Translated: accept/turnin Eagan Peltskinner", -- [91]
+				"23:06:12> Translated: accept/turnin Eagan Peltskinner", -- [92]
+				"23:06:12> Translated: accept/turnin Wolves Across the Border", -- [93]
+				"23:06:12> Missing from NPC database: Murloc #285", -- [94]
+				"23:06:12> Translated: accept/turnin Collecting Kelp", -- [95]
+				"23:06:12> Translated: accept/turnin The Escape", -- [96]
+				"23:06:12> Translated: accept/turnin The Escape", -- [97]
+				"23:06:12> Translated: accept/turnin Goldtooth", -- [98]
+				"23:06:12> unpausing", -- [99]
+				"23:06:12> frameNeedsUpdating, so updating.", -- [100]
 			},
 			["starting"] = false,
 		},
@@ -828,8 +913,8 @@ ZygorGuidesViewerSettings = {
 					["step"] = 1,
 				}, -- [1]
 			},
-			["maint_fetchquestdata"] = true,
 			["guidename"] = "Zygor's Horde Leveling Guides\\Troll (1-13)",
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -885,15 +970,40 @@ ZygorGuidesViewerSettings = {
 				"19:00:31> Translated: accept/turnin Cutting Teeth", -- [50]
 				"19:00:31> frameNeedsUpdating, so updating.", -- [51]
 				"19:00:34> Got completed quests list", -- [52]
+				"17:19:00> Viewer started. ---------------------------", -- [53]
+				"17:19:01> PLAYER_ENTERING_WORLD (dead?)", -- [54]
+				"17:19:01> PLAYER_ALIVE (dead?)", -- [55]
+				"17:19:01> CacheQuestLog cached 1 quests", -- [56]
+				"17:19:01> New Quest: Ak'Zeloth id 809", -- [57]
+				"17:19:02> Got completed quests list", -- [58]
+				"17:19:02> CacheQuestLog cached 9 quests", -- [59]
+				"17:19:02> New Quest: Finding the Antidote id 813", -- [60]
+				"17:19:02> New Quest: Suncrown Village id 9138", -- [61]
+				"17:19:02> New Quest: Anok'suten id 9315", -- [62]
+				"17:19:02> New Quest: Tomber's Supplies id 9152", -- [63]
+				"17:19:02> New Quest: Help Ranger Valanna! id 9145", -- [64]
+				"17:19:02> New Quest: The Plagued Coast id 9149", -- [65]
+				"17:19:02> New Quest: Hidden Enemies id 5727", -- [66]
+				"17:19:02> New Quest: Slaying the Beast id 5761", -- [67]
+				"17:19:02> ZONE_CHANGED_NEW_AREA (dead?)", -- [68]
+				"17:19:02> CacheQuestLog cached 9 quests", -- [69]
+				"17:19:04> Guides loaded. -----", -- [70]
+				"17:19:05> SetGuide Zygor's Horde Leveling Guides\\Troll (1-13) (1", -- [71]
+				"17:19:05> Guide loaded: Zygor's Horde Leveling Guides\\Troll (1-13)", -- [72]
+				"17:19:05> FocusStep 1", -- [73]
+				"17:19:05> frameNeedsUpdating, so updating.", -- [74]
+				"17:19:05> Got completed quests list", -- [75]
 			},
 			["starting"] = false,
 		},
 		["Duglazerp - TrueWoW"] = {
 			["starting"] = false,
+			["step"] = 140,
 			["guides_history"] = {
 				{
 					["short"] = "Orc (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+					["step"] = 140,
 				}, -- [1]
 			},
 			["maint_fetchquestdata"] = true,
@@ -901,55 +1011,117 @@ ZygorGuidesViewerSettings = {
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"19:11:39> Viewer started. ---------------------------", -- [1]
-				"19:11:39> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"19:11:41> PLAYER_ALIVE (dead?)", -- [3]
-				"19:11:41> CacheQuestLog cached 20 quests", -- [4]
-				"19:11:41> New Quest: Hellscream's Champion id 11916", -- [5]
-				"19:11:41> New Quest: Monitoring the Rift: Winterfin Cavern id 12728", -- [6]
-				"19:11:41> New Quest: Ride to Taunka'le Village id 11888", -- [7]
-				"19:11:41> New Quest: Vision of Air id 11631", -- [8]
-				"19:11:41> New Quest: Can't Get Ear-nough... id 11867", -- [9]
-				"19:11:41> New Quest: The Assassination of Harold Lane id 11892", -- [10]
-				"19:11:41> New Quest: Frostmourne id 24713", -- [11]
-				"19:11:41> New Quest: Alliance Relations id 1431", -- [12]
-				"19:11:41> New Quest: Testing an Enemy's Strength id 5723", -- [13]
-				"19:11:41> New Quest: Searching for the Lost Satchel id 5722", -- [14]
-				"19:11:41> New Quest: Sergra Darkthorn id 860", -- [15]
-				"19:11:41> New Quest: Have They No Shame? id 13095", -- [16]
-				"19:11:41> New Quest: Postponing the Inevitable id 11905", -- [17]
-				"19:11:41> New Quest: Prisoner of War id 11973", -- [18]
-				"19:11:41> New Quest: Quickening id 11911", -- [19]
-				"19:11:41> New Quest: Mage-Lord Urom id 13127", -- [20]
-				"19:11:41> New Quest: Up To The Challenge id 13678", -- [21]
-				"19:11:41> New Quest: Junk in My Trunk id 13131", -- [22]
-				"19:11:41> New Quest: Vengeance Be Mine! id 13132", -- [23]
-				"19:11:41> New Quest: The Windwatcher id 1791", -- [24]
-				"19:11:41> Got completed quests list", -- [25]
-				"19:11:41> ZONE_CHANGED_NEW_AREA (dead?)", -- [26]
-				"19:11:41> CacheQuestLog cached 20 quests", -- [27]
-				"19:11:43> Guides loaded. -----", -- [28]
-				"19:11:43> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (1", -- [29]
-				"19:11:43> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [30]
-				"19:11:43> FocusStep 1", -- [31]
-				"19:11:43> Translated: accept/turnin Your Place In The World", -- [32]
-				"19:11:43> frameNeedsUpdating, so updating.", -- [33]
-				"19:11:44> Got completed quests list", -- [34]
-				"19:11:56> size up? true", -- [35]
-				"19:11:56> size up? false", -- [36]
-				"19:11:57> size up? true", -- [37]
-				"19:12:01> Translated: accept/turnin Your Place In The World", -- [38]
-				"19:12:01> Translated: accept/turnin Cutting Teeth", -- [39]
-				"19:12:01> frameNeedsUpdating, so updating.", -- [40]
+				"21:40:35> SkipStep 1 fast", -- [1]
+				"21:40:35> FocusStep 99 (quiet)", -- [2]
+				"21:40:35> FocusStep 99", -- [3]
+				"21:40:35> Skipping step: 99 (possible?)", -- [4]
+				"21:40:35> SkipStep 1 fast", -- [5]
+				"21:40:35> FocusStep 100 (quiet)", -- [6]
+				"21:40:35> FocusStep 100", -- [7]
+				"21:40:35> Skipping step: 100 (complete)", -- [8]
+				"21:40:35> SkipStep 1 fast", -- [9]
+				"21:40:35> FocusStep 101 (quiet)", -- [10]
+				"21:40:35> FocusStep 101", -- [11]
+				"21:40:36> Skipping step: 101 (possible?)", -- [12]
+				"21:40:36> SkipStep 1 fast", -- [13]
+				"21:40:36> FocusStep 102 (quiet)", -- [14]
+				"21:40:36> FocusStep 102", -- [15]
+				"21:40:36> frameNeedsUpdating, so updating.", -- [16]
+				"21:40:36> Skipping step: 102 (complete)", -- [17]
+				"21:40:36> SkipStep 1 fast", -- [18]
+				"21:40:36> FocusStep 103 (quiet)", -- [19]
+				"21:40:36> FocusStep 103", -- [20]
+				"21:40:36> Skipping step: 103 (possible?)", -- [21]
+				"21:40:36> SkipStep 1 fast", -- [22]
+				"21:40:36> FocusStep 104 (quiet)", -- [23]
+				"21:40:36> SkipStep 1 fast", -- [24]
+				"21:40:36> FocusStep 105 (quiet)", -- [25]
+				"21:40:36> SkipStep 1 fast", -- [26]
+				"21:40:36> FocusStep 106 (quiet)", -- [27]
+				"21:40:36> SkipStep 1 fast", -- [28]
+				"21:40:36> FocusStep 107 (quiet)", -- [29]
+				"21:40:36> SkipStep 1 fast", -- [30]
+				"21:40:36> FocusStep 108 (quiet)", -- [31]
+				"21:40:36> SkipStep 1 fast", -- [32]
+				"21:40:36> FocusStep 109 (quiet)", -- [33]
+				"21:40:36> SkipStep 1 fast", -- [34]
+				"21:40:36> FocusStep 110 (quiet)", -- [35]
+				"21:40:36> SkipStep 1 fast", -- [36]
+				"21:40:36> FocusStep 111 (quiet)", -- [37]
+				"21:40:36> SkipStep 1 fast", -- [38]
+				"21:40:36> FocusStep 112 (quiet)", -- [39]
+				"21:40:36> SkipStep 1 fast", -- [40]
+				"21:40:36> FocusStep 113 (quiet)", -- [41]
+				"21:40:36> SkipStep 1 fast", -- [42]
+				"21:40:36> FocusStep 114 (quiet)", -- [43]
+				"21:40:36> SkipStep 1 fast", -- [44]
+				"21:40:36> FocusStep 115 (quiet)", -- [45]
+				"21:40:36> SkipStep 1 fast", -- [46]
+				"21:40:36> FocusStep 116 (quiet)", -- [47]
+				"21:40:36> SkipStep 1 fast", -- [48]
+				"21:40:36> FocusStep 117 (quiet)", -- [49]
+				"21:40:36> SkipStep 1 fast", -- [50]
+				"21:40:36> FocusStep 118 (quiet)", -- [51]
+				"21:40:36> SkipStep 1 fast", -- [52]
+				"21:40:36> FocusStep 119 (quiet)", -- [53]
+				"21:40:36> SkipStep 1 fast", -- [54]
+				"21:40:36> FocusStep 120 (quiet)", -- [55]
+				"21:40:36> SkipStep 1 fast", -- [56]
+				"21:40:36> FocusStep 121 (quiet)", -- [57]
+				"21:40:36> SkipStep 1 fast", -- [58]
+				"21:40:36> FocusStep 122 (quiet)", -- [59]
+				"21:40:36> SkipStep 1 fast", -- [60]
+				"21:40:36> FocusStep 123 (quiet)", -- [61]
+				"21:40:36> SkipStep 1 fast", -- [62]
+				"21:40:36> FocusStep 124 (quiet)", -- [63]
+				"21:40:36> SkipStep 1 fast", -- [64]
+				"21:40:36> FocusStep 125 (quiet)", -- [65]
+				"21:40:36> SkipStep 1 fast", -- [66]
+				"21:40:36> FocusStep 126 (quiet)", -- [67]
+				"21:40:36> SkipStep 1 fast", -- [68]
+				"21:40:36> FocusStep 127 (quiet)", -- [69]
+				"21:40:36> SkipStep 1 fast", -- [70]
+				"21:40:36> FocusStep 128 (quiet)", -- [71]
+				"21:40:36> SkipStep 1 fast", -- [72]
+				"21:40:36> FocusStep 129 (quiet)", -- [73]
+				"21:40:36> SkipStep 1 fast", -- [74]
+				"21:40:36> FocusStep 130 (quiet)", -- [75]
+				"21:40:36> SkipStep 1 fast", -- [76]
+				"21:40:36> FocusStep 131 (quiet)", -- [77]
+				"21:40:36> SkipStep 1 fast", -- [78]
+				"21:40:36> FocusStep 132 (quiet)", -- [79]
+				"21:40:36> SkipStep 1 fast", -- [80]
+				"21:40:36> FocusStep 133 (quiet)", -- [81]
+				"21:40:36> SkipStep 1 fast", -- [82]
+				"21:40:36> FocusStep 134 (quiet)", -- [83]
+				"21:40:36> SkipStep 1 fast", -- [84]
+				"21:40:36> FocusStep 135 (quiet)", -- [85]
+				"21:40:36> SkipStep 1 fast", -- [86]
+				"21:40:36> FocusStep 136 (quiet)", -- [87]
+				"21:40:36> SkipStep 1 fast", -- [88]
+				"21:40:36> FocusStep 137 (quiet)", -- [89]
+				"21:40:36> SkipStep 1 fast", -- [90]
+				"21:40:36> FocusStep 138 (quiet)", -- [91]
+				"21:40:36> SkipStep 1 fast", -- [92]
+				"21:40:36> FocusStep 139 (quiet)", -- [93]
+				"21:40:36> FocusStep 139", -- [94]
+				"21:40:36> Missing from NPC database: Venomtail Scorpid #3127", -- [95]
+				"21:40:36> frameNeedsUpdating, so updating.", -- [96]
+				"21:40:36> Skipping step: 139 (complete)", -- [97]
+				"21:40:36> SkipStep 1 fast", -- [98]
+				"21:40:36> FocusStep 140 (quiet)", -- [99]
+				"21:40:36> FocusStep 140", -- [100]
 			},
 			["maint_fetchitemdata"] = true,
 		},
 		["Ellipsis - TrueWoW"] = {
 			["starting"] = false,
+			["step"] = 132,
 			["guides_history"] = {
 				{
 					["short"] = "Blood Elf (1-13)",
 					["full"] = "Zygor's Horde Leveling Guides\\Blood Elf (1-13)",
+					["step"] = 132,
 				}, -- [1]
 			},
 			["maint_fetchquestdata"] = true,
@@ -957,147 +1129,212 @@ ZygorGuidesViewerSettings = {
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"18:48:20> Viewer started. ---------------------------", -- [1]
-				"18:48:21> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"18:48:21> PLAYER_ALIVE (dead?)", -- [3]
-				"18:48:21> CacheQuestLog cached 17 quests", -- [4]
-				"18:48:21> New Quest: Deactivate An'owyn id 9169", -- [5]
-				"18:48:21> New Quest: Report to Magister Kaendris id 9172", -- [6]
-				"18:48:21> New Quest: Rotting Hearts id 9216", -- [7]
-				"18:48:21> New Quest: Investigate the Amani Catacombs id 9193", -- [8]
-				"18:48:21> New Quest: Troll Juju id 9199", -- [9]
-				"18:48:21> New Quest: Shadowpine Weaponry id 9214", -- [10]
-				"18:48:21> New Quest: Spinal Dust id 9218", -- [11]
-				"18:48:21> New Quest: A Little Dash of Seasoning id 9275", -- [12]
-				"18:48:21> New Quest: Assault on Zeb'Nowa id 9277", -- [13]
-				"18:48:21> New Quest: Bring Me Kel'gash's Head! id 9215", -- [14]
-				"18:48:21> New Quest: War on Deatholme id 9220", -- [15]
-				"18:48:21> New Quest: Wanted: Knucklerot and Luzran id 9156", -- [16]
-				"18:48:21> New Quest: Pilgrim's Bounty id 14036", -- [17]
-				"18:48:21> New Quest: Testing an Enemy's Strength id 5723", -- [18]
-				"18:48:21> New Quest: Serpentbloom id 962", -- [19]
-				"18:48:21> New Quest: Deviate Eradication id 1487", -- [20]
-				"18:48:21> New Quest: The Glowing Shard id 6981", -- [21]
-				"18:48:22> Got completed quests list", -- [22]
-				"18:48:22> Got completed quests list", -- [23]
-				"18:48:22> CacheQuestLog cached 17 quests", -- [24]
-				"18:48:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [25]
-				"18:48:23> Guides loaded. -----", -- [26]
-				"18:48:23> SetGuide Zygor's Horde Leveling Guides\\Blood Elf (1-13) (1", -- [27]
-				"18:48:23> Guide loaded: Zygor's Horde Leveling Guides\\Blood Elf (1-13)", -- [28]
-				"18:48:23> FocusStep 1", -- [29]
-				"18:48:23> Translated: accept/turnin Reclaiming Sunstrider Isle", -- [30]
-				"18:48:23> frameNeedsUpdating, so updating.", -- [31]
-				"18:48:25> Got completed quests list", -- [32]
-				"18:48:42> frameNeedsUpdating, so updating.", -- [33]
-				"18:48:47> size up? false", -- [34]
-				"18:48:47> size up? true", -- [35]
+				"20:50:33> FocusStep 104 (quiet)", -- [1]
+				"20:50:33> FocusStep 104", -- [2]
+				"20:50:33> Skipping step: 104 (complete)", -- [3]
+				"20:50:33> SkipStep 1 fast", -- [4]
+				"20:50:33> FocusStep 105 (quiet)", -- [5]
+				"20:50:33> FocusStep 105", -- [6]
+				"20:50:33> Skipping step: 105 (complete)", -- [7]
+				"20:50:33> SkipStep 1 fast", -- [8]
+				"20:50:33> FocusStep 106 (quiet)", -- [9]
+				"20:50:33> FocusStep 106", -- [10]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [11]
+				"20:50:33> Skipping step: 106 (complete)", -- [12]
+				"20:50:33> SkipStep 1 fast", -- [13]
+				"20:50:33> FocusStep 107 (quiet)", -- [14]
+				"20:50:33> FocusStep 107", -- [15]
+				"20:50:33> Skipping step: 107 (possible?)", -- [16]
+				"20:50:33> SkipStep 1 fast", -- [17]
+				"20:50:33> FocusStep 108 (quiet)", -- [18]
+				"20:50:33> FocusStep 108", -- [19]
+				"20:50:33> Skipping step: 108 (possible?)", -- [20]
+				"20:50:33> SkipStep 1 fast", -- [21]
+				"20:50:33> FocusStep 109 (quiet)", -- [22]
+				"20:50:33> FocusStep 109", -- [23]
+				"20:50:33> Skipping step: 109 (complete)", -- [24]
+				"20:50:33> SkipStep 1 fast", -- [25]
+				"20:50:33> FocusStep 110 (quiet)", -- [26]
+				"20:50:33> SkipStep 1 fast", -- [27]
+				"20:50:33> FocusStep 111 (quiet)", -- [28]
+				"20:50:33> SkipStep 1 fast", -- [29]
+				"20:50:33> FocusStep 112 (quiet)", -- [30]
+				"20:50:33> SkipStep 1 fast", -- [31]
+				"20:50:33> FocusStep 113 (quiet)", -- [32]
+				"20:50:33> SkipStep 1 fast", -- [33]
+				"20:50:33> FocusStep 114 (quiet)", -- [34]
+				"20:50:33> SkipStep 1 fast", -- [35]
+				"20:50:33> FocusStep 115 (quiet)", -- [36]
+				"20:50:33> SkipStep 1 fast", -- [37]
+				"20:50:33> FocusStep 116 (quiet)", -- [38]
+				"20:50:33> SkipStep 1 fast", -- [39]
+				"20:50:33> FocusStep 117 (quiet)", -- [40]
+				"20:50:33> SkipStep 1 fast", -- [41]
+				"20:50:33> FocusStep 118 (quiet)", -- [42]
+				"20:50:33> SkipStep 1 fast", -- [43]
+				"20:50:33> FocusStep 119 (quiet)", -- [44]
+				"20:50:33> SkipStep 1 fast", -- [45]
+				"20:50:33> FocusStep 120 (quiet)", -- [46]
+				"20:50:33> SkipStep 1 fast", -- [47]
+				"20:50:33> FocusStep 121 (quiet)", -- [48]
+				"20:50:33> FocusStep 121", -- [49]
+				"20:50:33> Translated: 'buy' The Party Never Ends", -- [50]
+				"20:50:33> Translated: accept/turnin Farstrider Retreat", -- [51]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [52]
+				"20:50:33> Skipping step: 121 (possible?)", -- [53]
+				"20:50:33> SkipStep 1 fast", -- [54]
+				"20:50:33> FocusStep 122 (quiet)", -- [55]
+				"20:50:33> FocusStep 122", -- [56]
+				"20:50:33> Skipping step: 122 (complete)", -- [57]
+				"20:50:33> SkipStep 1 fast", -- [58]
+				"20:50:33> FocusStep 123 (quiet)", -- [59]
+				"20:50:33> FocusStep 123", -- [60]
+				"20:50:33> Skipping step: 123 (possible?)", -- [61]
+				"20:50:33> SkipStep 1 fast", -- [62]
+				"20:50:33> FocusStep 124 (quiet)", -- [63]
+				"20:50:33> FocusStep 124", -- [64]
+				"20:50:33> Skipping step: 124 (complete)", -- [65]
+				"20:50:33> SkipStep 1 fast", -- [66]
+				"20:50:33> FocusStep 125 (quiet)", -- [67]
+				"20:50:33> FocusStep 125", -- [68]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [69]
+				"20:50:33> Skipping step: 125 (complete)", -- [70]
+				"20:50:33> SkipStep 1 fast", -- [71]
+				"20:50:33> FocusStep 126 (quiet)", -- [72]
+				"20:50:33> FocusStep 126", -- [73]
+				"20:50:33> Skipping step: 126 (complete)", -- [74]
+				"20:50:33> SkipStep 1 fast", -- [75]
+				"20:50:33> FocusStep 127 (quiet)", -- [76]
+				"20:50:33> FocusStep 127", -- [77]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [78]
+				"20:50:33> Skipping step: 127 (complete)", -- [79]
+				"20:50:33> SkipStep 1 fast", -- [80]
+				"20:50:33> FocusStep 128 (quiet)", -- [81]
+				"20:50:33> FocusStep 128", -- [82]
+				"20:50:33> Skipping step: 128 (possible?)", -- [83]
+				"20:50:33> SkipStep 1 fast", -- [84]
+				"20:50:33> FocusStep 129 (quiet)", -- [85]
+				"20:50:33> FocusStep 129", -- [86]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [87]
+				"20:50:33> Skipping step: 129 (complete)", -- [88]
+				"20:50:33> SkipStep 1 fast", -- [89]
+				"20:50:33> FocusStep 130 (quiet)", -- [90]
+				"20:50:33> FocusStep 130", -- [91]
+				"20:50:33> Skipping step: 130 (complete)", -- [92]
+				"20:50:33> SkipStep 1 fast", -- [93]
+				"20:50:33> FocusStep 131 (quiet)", -- [94]
+				"20:50:33> FocusStep 131", -- [95]
+				"20:50:33> Skipping step: 131 (complete)", -- [96]
+				"20:50:33> SkipStep 1 fast", -- [97]
+				"20:50:33> FocusStep 132 (quiet)", -- [98]
+				"20:50:33> FocusStep 132", -- [99]
+				"20:50:33> frameNeedsUpdating, so updating.", -- [100]
 			},
 			["maint_fetchitemdata"] = true,
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["guidename"] = "Zygor's Horde Leveling Guides\\Levels (25-30)",
 			["debuglog"] = {
-				"11:53:28> Skipping step: 22 (complete)", -- [1]
-				"11:53:28> SkipStep 1 fast", -- [2]
-				"11:53:28> FocusStep 23 (quiet)", -- [3]
-				"11:53:28> FocusStep 23", -- [4]
-				"11:54:38> PLAYER_ENTERING_WORLD (dead?)", -- [5]
-				"11:54:38> PLAYER_ALIVE (dead?)", -- [6]
-				"11:54:38> CacheQuestLog cached 21 quests", -- [7]
-				"11:54:38> CacheQuestLog cached 21 quests", -- [8]
-				"11:54:38> ZONE_CHANGED_NEW_AREA (dead?)", -- [9]
-				"11:54:38> CacheQuestLog cached 21 quests", -- [10]
-				"12:01:57> PLAYER_ENTERING_WORLD (dead?)", -- [11]
-				"12:01:57> Player dead!", -- [12]
-				"12:01:57> SetCorpseArrow, mc/mz=1/0", -- [13]
-				"12:01:57> SetCorpseArrow, seeking corpse", -- [14]
-				"12:01:57> SetCorpseArrow, corpse on c=1? 0:0", -- [15]
-				"12:01:57> SetCorpseArrow, corpse on c=2? 0:0", -- [16]
-				"12:01:57> SetCorpseArrow, corpse on c=3? 0:0", -- [17]
-				"12:01:57> SetCorpseArrow, corpse on c=4? 0:0", -- [18]
-				"12:01:57> SetCorpseArrow, corpse on cont 0", -- [19]
-				"12:01:57> PLAYER_ALIVE (dead?)", -- [20]
-				"12:01:57> Player dead!", -- [21]
-				"12:01:57> SetCorpseArrow, mc/mz=1/0", -- [22]
-				"12:01:57> SetCorpseArrow, seeking corpse", -- [23]
-				"12:01:57> SetCorpseArrow, corpse on c=1? 0:0", -- [24]
-				"12:01:57> SetCorpseArrow, corpse on c=2? 0:0", -- [25]
-				"12:01:57> SetCorpseArrow, corpse on c=3? 0:0", -- [26]
-				"12:01:57> SetCorpseArrow, corpse on c=4? 0:0", -- [27]
-				"12:01:57> SetCorpseArrow, corpse on cont 0", -- [28]
-				"12:01:57> CacheQuestLog cached 21 quests", -- [29]
-				"12:01:57> CacheQuestLog cached 21 quests", -- [30]
-				"12:01:57> ZONE_CHANGED_NEW_AREA (dead?)", -- [31]
-				"12:01:57> Player dead!", -- [32]
-				"12:01:57> SetCorpseArrow, mc/mz=1/21", -- [33]
-				"12:01:57> SetCorpseArrow, seeking corpse", -- [34]
-				"12:01:57> SetCorpseArrow, corpse on c=1? 0:0", -- [35]
-				"12:01:57> SetCorpseArrow, corpse on c=2? 0:0", -- [36]
-				"12:01:57> SetCorpseArrow, corpse on c=3? 0:0", -- [37]
-				"12:01:57> SetCorpseArrow, corpse on c=4? 0:0", -- [38]
-				"12:01:57> SetCorpseArrow, corpse on cont 0", -- [39]
-				"12:01:57> CacheQuestLog cached 21 quests", -- [40]
-				"12:02:31> ZONE_CHANGED_NEW_AREA (dead?)", -- [41]
-				"12:02:31> Player dead!", -- [42]
-				"12:02:31> SetCorpseArrow, mc/mz=1/19", -- [43]
-				"12:02:54> ZONE_CHANGED_NEW_AREA (dead?)", -- [44]
-				"12:02:54> Player dead!", -- [45]
-				"12:02:59> PLAYER_ENTERING_WORLD (dead?)", -- [46]
-				"12:02:59> Player dead!", -- [47]
-				"12:02:59> PLAYER_ALIVE (dead?)", -- [48]
-				"12:02:59> Player dead!", -- [49]
-				"12:02:59> CacheQuestLog cached 21 quests", -- [50]
-				"12:02:59> Player unghosted!", -- [51]
-				"12:02:59> CacheQuestLog cached 21 quests", -- [52]
-				"12:03:00> CacheQuestLog cached 21 quests", -- [53]
-				"12:27:22> PLAYER_ENTERING_WORLD (dead?)", -- [54]
-				"12:27:22> PLAYER_ALIVE (dead?)", -- [55]
-				"12:27:22> CacheQuestLog cached 21 quests", -- [56]
-				"12:27:22> CacheQuestLog cached 21 quests", -- [57]
-				"12:27:22> CacheQuestLog cached 21 quests", -- [58]
-				"12:27:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [59]
-				"12:30:17> GetQuestId: id of quest 'Torek's Assault' = 6544", -- [60]
-				"12:30:17> Completed Quest: Torek's Assault, id: 6544", -- [61]
-				"12:30:17> CacheQuestLog cached 20 quests", -- [62]
-				"12:30:17> Lost Quest: Torek's Assault, id: 6544, complete: true", -- [63]
-				"12:58:38> Viewer started. ---------------------------", -- [64]
-				"12:58:38> PLAYER_ENTERING_WORLD (dead?)", -- [65]
-				"12:58:39> PLAYER_ALIVE (dead?)", -- [66]
-				"12:58:39> CacheQuestLog cached 20 quests", -- [67]
-				"12:58:39> New Quest: The Warsong Reports id 6543", -- [68]
-				"12:58:39> New Quest: Warsong Scout Update id 6547", -- [69]
-				"12:58:39> New Quest: Stonetalon Standstill id 25", -- [70]
-				"12:58:39> New Quest: Satyr Horns id 6441", -- [71]
-				"12:58:39> New Quest: Report to Tarren Mill id 9425", -- [72]
-				"12:58:39> New Quest: Arugal Must Die id 1014", -- [73]
-				"12:58:39> New Quest: Thule Ravenclaw id 446", -- [74]
-				"12:58:39> New Quest: Journey to Hillsbrad Foothills id 493", -- [75]
-				"12:58:39> New Quest: Bloodfury Bloodline id 6283", -- [76]
-				"12:58:39> New Quest: Mura Runetotem id 3301", -- [77]
-				"12:58:39> New Quest: Rilli Greasygob id 3923", -- [78]
-				"12:58:39> New Quest: Hezrul Bloodmark id 852", -- [79]
-				"12:58:39> New Quest: Serpent Wild id 4865", -- [80]
-				"12:58:39> New Quest: A Different Approach id 9431", -- [81]
-				"12:58:39> New Quest: Grimtotem Spying id 5064", -- [82]
-				"12:58:39> New Quest: Wanted - Arnak Grimtotem id 5147", -- [83]
-				"12:58:39> New Quest: Wind Rider id 4767", -- [84]
-				"12:58:39> New Quest: Journey to Tarren Mill id 1065", -- [85]
-				"12:58:39> New Quest: The Sacred Flame id 1195", -- [86]
-				"12:58:39> New Quest: Steelsnap id 1131", -- [87]
-				"12:58:39> Got completed quests list", -- [88]
-				"12:58:39> Got completed quests list", -- [89]
-				"12:58:40> CacheQuestLog cached 20 quests", -- [90]
-				"12:58:40> ZONE_CHANGED_NEW_AREA (dead?)", -- [91]
-				"12:58:41> Guides loaded. -----", -- [92]
-				"12:58:41> SetGuide Zygor's Horde Leveling Guides\\Levels (25-30) (23", -- [93]
-				"12:58:41> Guide loaded: Zygor's Horde Leveling Guides\\Levels (25-30)", -- [94]
-				"12:58:41> FocusStep 23", -- [95]
-				"12:58:41> Translated: accept/turnin The Sacred Flame", -- [96]
-				"12:58:41> Translated: accept/turnin The Befouled Element", -- [97]
-				"12:58:41> unpausing", -- [98]
-				"12:58:41> frameNeedsUpdating, so updating.", -- [99]
-				"12:58:43> Got completed quests list", -- [100]
+				"14:21:36> New Quest: Serpent Wild id 4865", -- [1]
+				"14:21:36> New Quest: A Different Approach id 9431", -- [2]
+				"14:21:36> New Quest: Grimtotem Spying id 5064", -- [3]
+				"14:21:36> New Quest: Wanted - Arnak Grimtotem id 5147", -- [4]
+				"14:21:36> New Quest: Wind Rider id 4767", -- [5]
+				"14:21:36> New Quest: Journey to Tarren Mill id 1065", -- [6]
+				"14:21:36> New Quest: The Sacred Flame id 1195", -- [7]
+				"14:21:36> New Quest: Steelsnap id 1131", -- [8]
+				"14:21:36> Got completed quests list", -- [9]
+				"14:21:36> Got completed quests list", -- [10]
+				"14:21:36> CacheQuestLog cached 20 quests", -- [11]
+				"14:21:36> ZONE_CHANGED_NEW_AREA (dead?)", -- [12]
+				"14:21:38> Guides loaded. -----", -- [13]
+				"14:21:38> SetGuide Zygor's Horde Leveling Guides\\Levels (25-30) (23", -- [14]
+				"14:21:38> Guide loaded: Zygor's Horde Leveling Guides\\Levels (25-30)", -- [15]
+				"14:21:38> FocusStep 23", -- [16]
+				"14:21:38> Translated: accept/turnin The Sacred Flame", -- [17]
+				"14:21:38> Translated: accept/turnin The Befouled Element", -- [18]
+				"14:21:38> Translated: accept/turnin Ursangous's Paw", -- [19]
+				"14:21:38> unpausing", -- [20]
+				"14:21:38> frameNeedsUpdating, so updating.", -- [21]
+				"14:21:40> Got completed quests list", -- [22]
+				"19:49:53> Viewer started. ---------------------------", -- [23]
+				"19:49:54> PLAYER_ENTERING_WORLD (dead?)", -- [24]
+				"19:49:55> PLAYER_ALIVE (dead?)", -- [25]
+				"19:49:55> CacheQuestLog cached 20 quests", -- [26]
+				"19:49:55> New Quest: The Warsong Reports id 6543", -- [27]
+				"19:49:55> New Quest: Warsong Scout Update id 6547", -- [28]
+				"19:49:55> New Quest: Stonetalon Standstill id 25", -- [29]
+				"19:49:55> New Quest: Satyr Horns id 6441", -- [30]
+				"19:49:55> New Quest: Report to Tarren Mill id 9425", -- [31]
+				"19:49:55> New Quest: Arugal Must Die id 1014", -- [32]
+				"19:49:55> New Quest: Thule Ravenclaw id 446", -- [33]
+				"19:49:55> New Quest: Journey to Hillsbrad Foothills id 493", -- [34]
+				"19:49:55> New Quest: Bloodfury Bloodline id 6283", -- [35]
+				"19:49:55> New Quest: Mura Runetotem id 3301", -- [36]
+				"19:49:55> New Quest: Rilli Greasygob id 3923", -- [37]
+				"19:49:55> New Quest: Hezrul Bloodmark id 852", -- [38]
+				"19:49:55> New Quest: Serpent Wild id 4865", -- [39]
+				"19:49:55> New Quest: A Different Approach id 9431", -- [40]
+				"19:49:55> New Quest: Grimtotem Spying id 5064", -- [41]
+				"19:49:55> New Quest: Wanted - Arnak Grimtotem id 5147", -- [42]
+				"19:49:55> New Quest: Wind Rider id 4767", -- [43]
+				"19:49:55> New Quest: Journey to Tarren Mill id 1065", -- [44]
+				"19:49:55> New Quest: The Sacred Flame id 1195", -- [45]
+				"19:49:55> New Quest: Steelsnap id 1131", -- [46]
+				"19:49:55> Got completed quests list", -- [47]
+				"19:49:55> Got completed quests list", -- [48]
+				"19:49:55> CacheQuestLog cached 20 quests", -- [49]
+				"19:49:55> CacheQuestLog cached 20 quests", -- [50]
+				"19:49:55> ZONE_CHANGED_NEW_AREA (dead?)", -- [51]
+				"19:49:57> Guides loaded. -----", -- [52]
+				"19:49:57> SetGuide Zygor's Horde Leveling Guides\\Levels (25-30) (23", -- [53]
+				"19:49:57> Guide loaded: Zygor's Horde Leveling Guides\\Levels (25-30)", -- [54]
+				"19:49:57> FocusStep 23", -- [55]
+				"19:49:57> Translated: accept/turnin The Sacred Flame", -- [56]
+				"19:49:57> Translated: accept/turnin The Befouled Element", -- [57]
+				"19:49:57> Translated: accept/turnin Ursangous's Paw", -- [58]
+				"19:49:57> unpausing", -- [59]
+				"19:49:57> frameNeedsUpdating, so updating.", -- [60]
+				"19:49:58> Got completed quests list", -- [61]
+				"00:03:30> Viewer started. ---------------------------", -- [62]
+				"00:03:31> PLAYER_ENTERING_WORLD (dead?)", -- [63]
+				"00:03:31> PLAYER_ALIVE (dead?)", -- [64]
+				"00:03:31> CacheQuestLog cached 20 quests", -- [65]
+				"00:03:31> New Quest: The Warsong Reports id 6543", -- [66]
+				"00:03:31> New Quest: Warsong Scout Update id 6547", -- [67]
+				"00:03:31> New Quest: Stonetalon Standstill id 25", -- [68]
+				"00:03:31> New Quest: Satyr Horns id 6441", -- [69]
+				"00:03:31> New Quest: Report to Tarren Mill id 9425", -- [70]
+				"00:03:31> New Quest: Arugal Must Die id 1014", -- [71]
+				"00:03:31> New Quest: Thule Ravenclaw id 446", -- [72]
+				"00:03:31> New Quest: Journey to Hillsbrad Foothills id 493", -- [73]
+				"00:03:31> New Quest: Bloodfury Bloodline id 6283", -- [74]
+				"00:03:31> New Quest: Mura Runetotem id 3301", -- [75]
+				"00:03:31> New Quest: Rilli Greasygob id 3923", -- [76]
+				"00:03:31> New Quest: Hezrul Bloodmark id 852", -- [77]
+				"00:03:31> New Quest: Serpent Wild id 4865", -- [78]
+				"00:03:31> New Quest: A Different Approach id 9431", -- [79]
+				"00:03:31> New Quest: Grimtotem Spying id 5064", -- [80]
+				"00:03:31> New Quest: Wanted - Arnak Grimtotem id 5147", -- [81]
+				"00:03:31> New Quest: Wind Rider id 4767", -- [82]
+				"00:03:31> New Quest: Journey to Tarren Mill id 1065", -- [83]
+				"00:03:31> New Quest: The Sacred Flame id 1195", -- [84]
+				"00:03:31> New Quest: Steelsnap id 1131", -- [85]
+				"00:03:32> Got completed quests list", -- [86]
+				"00:03:32> Got completed quests list", -- [87]
+				"00:03:32> CacheQuestLog cached 20 quests", -- [88]
+				"00:03:33> ZONE_CHANGED_NEW_AREA (dead?)", -- [89]
+				"00:03:35> Got completed quests list", -- [90]
+				"00:03:35> Guides loaded. -----", -- [91]
+				"00:03:35> SetGuide Zygor's Horde Leveling Guides\\Levels (25-30) (23", -- [92]
+				"00:03:36> Guide loaded: Zygor's Horde Leveling Guides\\Levels (25-30)", -- [93]
+				"00:03:36> FocusStep 23", -- [94]
+				"00:03:36> Translated: accept/turnin The Sacred Flame", -- [95]
+				"00:03:36> Translated: accept/turnin The Befouled Element", -- [96]
+				"00:03:36> Translated: accept/turnin Ursangous's Paw", -- [97]
+				"00:03:36> unpausing", -- [98]
+				"00:03:36> frameNeedsUpdating, so updating.", -- [99]
+				"00:04:14> 4 First Aid recipes found", -- [100]
 			},
 			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
@@ -1136,8 +1373,8 @@ ZygorGuidesViewerSettings = {
 				[2540] = true,
 				[7751] = true,
 				[3276] = true,
-				[3277] = true,
 				[7934] = true,
+				[3277] = true,
 				[3275] = true,
 			},
 			["taxis"] = {
@@ -1162,7 +1399,108 @@ ZygorGuidesViewerSettings = {
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
 			["guidename"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-			["step"] = 122,
+			["debuglog"] = {
+				"22:57:13> CacheQuestLog cached 23 quests", -- [1]
+				"22:57:16> Got completed quests list", -- [2]
+				"22:57:17> Guides loaded. -----", -- [3]
+				"22:57:17> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (135", -- [4]
+				"22:57:17> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [5]
+				"22:57:17> FocusStep 135", -- [6]
+				"22:57:17> Translated: accept/turnin Conscript of the Horde", -- [7]
+				"22:57:17> Translated: accept/turnin Crossroads Conscription", -- [8]
+				"22:57:17> Translated: accept/turnin Ak'Zeloth", -- [9]
+				"22:57:17> Translated: accept/turnin Meats to Orgrimmar", -- [10]
+				"22:57:17> Translated: accept/turnin Raptor Thieves", -- [11]
+				"22:57:17> Missing from NPC database: Grimson the Pale #1972", -- [12]
+				"22:57:17> unpausing", -- [13]
+				"22:57:17> frameNeedsUpdating, so updating.", -- [14]
+				"22:58:16> Viewer started. ---------------------------", -- [15]
+				"22:58:18> PLAYER_ENTERING_WORLD (dead?)", -- [16]
+				"22:58:18> CacheQuestLog cached 23 quests", -- [17]
+				"22:58:18> New Quest: Report to Splintertree Post id 9428", -- [18]
+				"22:58:18> New Quest: The Ashenvale Hunt id 235", -- [19]
+				"22:58:18> New Quest: Going, Going, Guano! id 1109", -- [20]
+				"22:58:18> New Quest: Arugal's Folly id 424", -- [21]
+				"22:58:18> New Quest: Ambermill Investigations id 479", -- [22]
+				"22:58:18> New Quest: Rot Hide Origins id 444", -- [23]
+				"22:58:18> New Quest: A Recipe For Death id 451", -- [24]
+				"22:58:18> New Quest: Journey to Hillsbrad Foothills id 493", -- [25]
+				"22:58:18> New Quest: Beren's Peril id 516", -- [26]
+				"22:58:18> New Quest: Goblin Invaders id 1062", -- [27]
+				"22:58:18> New Quest: Samophlange id 894", -- [28]
+				"22:58:18> New Quest: Echeyakee id 881", -- [29]
+				"22:58:18> New Quest: Harpy Lieutenants id 875", -- [30]
+				"22:58:18> New Quest: The Stagnant Oasis id 877", -- [31]
+				"22:58:18> New Quest: Miner's Fortune id 896", -- [32]
+				"22:58:18> New Quest: Raptor Horns id 865", -- [33]
+				"22:58:18> New Quest: Stolen Silver id 3281", -- [34]
+				"22:58:18> New Quest: Verog the Dervish id 851", -- [35]
+				"22:58:18> New Quest: Consumed by Hatred id 899", -- [36]
+				"22:58:18> New Quest: Deepmoss Spider Eggs id 1069", -- [37]
+				"22:58:18> New Quest: Lost in Battle id 4921", -- [38]
+				"22:58:18> New Quest: The Guns of Northwatch id 891", -- [39]
+				"22:58:18> New Quest: The Sacred Flame id 1195", -- [40]
+				"22:58:18> Got completed quests list", -- [41]
+				"22:58:18> Got completed quests list", -- [42]
+				"22:58:18> CacheQuestLog cached 23 quests", -- [43]
+				"22:58:18> CacheQuestLog cached 23 quests", -- [44]
+				"22:58:21> Got completed quests list", -- [45]
+				"22:58:22> Guides loaded. -----", -- [46]
+				"22:58:22> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (135", -- [47]
+				"22:58:22> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [48]
+				"22:58:22> FocusStep 135", -- [49]
+				"22:58:22> Translated: accept/turnin Conscript of the Horde", -- [50]
+				"22:58:22> Translated: accept/turnin Crossroads Conscription", -- [51]
+				"22:58:22> Translated: accept/turnin Ak'Zeloth", -- [52]
+				"22:58:22> Translated: accept/turnin Meats to Orgrimmar", -- [53]
+				"22:58:22> Translated: accept/turnin Raptor Thieves", -- [54]
+				"22:58:22> Missing from NPC database: Grimson the Pale #1972", -- [55]
+				"22:58:22> unpausing", -- [56]
+				"22:58:22> frameNeedsUpdating, so updating.", -- [57]
+				"23:02:29> Viewer started. ---------------------------", -- [58]
+				"23:02:31> PLAYER_ENTERING_WORLD (dead?)", -- [59]
+				"23:02:31> CacheQuestLog cached 23 quests", -- [60]
+				"23:02:31> New Quest: Report to Splintertree Post id 9428", -- [61]
+				"23:02:31> New Quest: The Ashenvale Hunt id 235", -- [62]
+				"23:02:31> New Quest: Going, Going, Guano! id 1109", -- [63]
+				"23:02:31> New Quest: Arugal's Folly id 424", -- [64]
+				"23:02:31> New Quest: Ambermill Investigations id 479", -- [65]
+				"23:02:31> New Quest: Rot Hide Origins id 444", -- [66]
+				"23:02:31> New Quest: A Recipe For Death id 451", -- [67]
+				"23:02:31> New Quest: Journey to Hillsbrad Foothills id 493", -- [68]
+				"23:02:31> New Quest: Beren's Peril id 516", -- [69]
+				"23:02:31> New Quest: Goblin Invaders id 1062", -- [70]
+				"23:02:31> New Quest: Samophlange id 894", -- [71]
+				"23:02:31> New Quest: Echeyakee id 881", -- [72]
+				"23:02:31> New Quest: Harpy Lieutenants id 875", -- [73]
+				"23:02:31> New Quest: The Stagnant Oasis id 877", -- [74]
+				"23:02:31> New Quest: Miner's Fortune id 896", -- [75]
+				"23:02:31> New Quest: Raptor Horns id 865", -- [76]
+				"23:02:31> New Quest: Stolen Silver id 3281", -- [77]
+				"23:02:31> New Quest: Verog the Dervish id 851", -- [78]
+				"23:02:31> New Quest: Consumed by Hatred id 899", -- [79]
+				"23:02:31> New Quest: Deepmoss Spider Eggs id 1069", -- [80]
+				"23:02:31> New Quest: Lost in Battle id 4921", -- [81]
+				"23:02:31> New Quest: The Guns of Northwatch id 891", -- [82]
+				"23:02:31> New Quest: The Sacred Flame id 1195", -- [83]
+				"23:02:31> Got completed quests list", -- [84]
+				"23:02:31> Got completed quests list", -- [85]
+				"23:02:31> CacheQuestLog cached 23 quests", -- [86]
+				"23:02:31> CacheQuestLog cached 23 quests", -- [87]
+				"23:02:34> Guides loaded. -----", -- [88]
+				"23:02:35> SetGuide Zygor's Horde Leveling Guides\\Main Guide (13-20) (135", -- [89]
+				"23:02:35> Guide loaded: Zygor's Horde Leveling Guides\\Main Guide (13-20)", -- [90]
+				"23:02:35> FocusStep 135", -- [91]
+				"23:02:35> Translated: accept/turnin Conscript of the Horde", -- [92]
+				"23:02:35> Translated: accept/turnin Crossroads Conscription", -- [93]
+				"23:02:35> Translated: accept/turnin Ak'Zeloth", -- [94]
+				"23:02:35> Translated: accept/turnin Meats to Orgrimmar", -- [95]
+				"23:02:35> Translated: accept/turnin Raptor Thieves", -- [96]
+				"23:02:35> Missing from NPC database: Grimson the Pale #1972", -- [97]
+				"23:02:35> unpausing", -- [98]
+				"23:02:35> frameNeedsUpdating, so updating.", -- [99]
+				"23:02:35> Got completed quests list", -- [100]
+			},
 			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
@@ -1178,7 +1516,7 @@ ZygorGuidesViewerSettings = {
 				{
 					["short"] = "Main Guide (13-20)",
 					["full"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
-					["step"] = 122,
+					["step"] = 135,
 				}, -- [3]
 				{
 					["short"] = "Troll (1-13)",
@@ -1191,6 +1529,21 @@ ZygorGuidesViewerSettings = {
 					["step"] = 172,
 				}, -- [5]
 			},
+			["step"] = 135,
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+				true, -- [1]
+				true, -- [2]
+				["Crossroads"] = true,
+				["Undercity"] = true,
+				["Camp Taurajo"] = true,
+				["Trade Quarter"] = true,
+				["Thunder Bluff"] = true,
+				["Booty Bay"] = true,
+				["The Sepulcher"] = true,
+				["Ratchet"] = true,
+				["Orgrimmar"] = true,
+			},
 			["RecipesKnown"] = {
 				[2538] = true,
 				[2546] = true,
@@ -1199,6 +1552,7 @@ ZygorGuidesViewerSettings = {
 				[2539] = true,
 				[3177] = true,
 				[63732] = true,
+				[6418] = true,
 				[2335] = true,
 				[7836] = true,
 				[2540] = true,
@@ -1221,26 +1575,215 @@ ZygorGuidesViewerSettings = {
 				[7181] = true,
 				[7827] = true,
 				[3170] = true,
-				[2544] = true,
-				[3276] = true,
-				[7751] = true,
-				[6413] = true,
 				[3174] = true,
+				[2331] = true,
+				[2332] = true,
+				[6413] = true,
+				[2544] = true,
 				[7183] = true,
 				[25704] = true,
 				[7845] = true,
-				[2332] = true,
 				[6617] = true,
+				[7751] = true,
 				[3277] = true,
 				[3230] = true,
 				[8604] = true,
 				[7752] = true,
-				[2331] = true,
+				[3276] = true,
 				[4508] = true,
 				[6414] = true,
 				[7753] = true,
 				[8607] = true,
 				[3176] = true,
+			},
+			["starting"] = false,
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+			["RecipesKnown"] = {
+				[2538] = true,
+				[2546] = true,
+				[2389] = true,
+				[12044] = true,
+				[2539] = true,
+				[7630] = true,
+				[7457] = true,
+				[3839] = true,
+				[6686] = true,
+				[2406] = true,
+				[2540] = true,
+				[7443] = true,
+				[13464] = true,
+				[7643] = true,
+				[7428] = true,
+				[3848] = true,
+				[7753] = true,
+				[2541] = true,
+				[7633] = true,
+				[6500] = true,
+				[6499] = true,
+				[13378] = true,
+				[7934] = true,
+				[3849] = true,
+				[13380] = true,
+				[7793] = true,
+				[3278] = true,
+				[3755] = true,
+				[8604] = true,
+				[2964] = true,
+				[3275] = true,
+				[7893] = true,
+				[7779] = true,
+				[37836] = true,
+				[7751] = true,
+				[7827] = true,
+				[6688] = true,
+				[7418] = true,
+				[3276] = true,
+				[8760] = true,
+				[7766] = true,
+				[2544] = true,
+				[3398] = true,
+				[25704] = true,
+				[7782] = true,
+				[2387] = true,
+				[3277] = true,
+				[3915] = true,
+				[7795] = true,
+				[7421] = true,
+				[25124] = true,
+				[2397] = true,
+				[6416] = true,
+				[6418] = true,
+				[2963] = true,
+				[8607] = true,
+				[7755] = true,
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Levels (20-25)",
+			["debuglog"] = {
+				"21:42:10> CacheQuestLog cached 23 quests", -- [1]
+				"21:42:10> Lost Quest: Forsaken Aid, id: 1064, complete: false", -- [2]
+				"21:42:10> Completion: Turn in |cffbb99ff`Forsaken Aid'|r", -- [3]
+				"21:42:10> CacheQuestLog cached 24 quests", -- [4]
+				"21:42:10> New Quest: Journey to Tarren Mill id 1065", -- [5]
+				"21:42:10> Skipping step: 116 (complete)", -- [6]
+				"21:42:10> SkipStep 1 fast", -- [7]
+				"21:42:10> FocusStep 117 (quiet)", -- [8]
+				"21:42:10> FocusStep 117", -- [9]
+				"21:42:11> Skipping step: 117 (complete)", -- [10]
+				"21:42:11> SkipStep 1 fast", -- [11]
+				"21:42:11> FocusStep 118 (quiet)", -- [12]
+				"21:42:11> FocusStep 118", -- [13]
+				"21:46:20> PLAYER_ENTERING_WORLD (dead?)", -- [14]
+				"21:46:20> PLAYER_ALIVE (dead?)", -- [15]
+				"21:46:20> CacheQuestLog cached 24 quests", -- [16]
+				"21:46:20> ZONE_CHANGED_NEW_AREA (dead?)", -- [17]
+				"21:46:21> CacheQuestLog cached 24 quests", -- [18]
+				"21:46:39> Hiding arrow with guide", -- [19]
+				"21:48:16> CacheQuestLog cached 25 quests", -- [20]
+				"21:48:16> New Quest: Deviate Eradication id 1487", -- [21]
+				"21:48:18> CacheQuestLog cached 25 quests", -- [22]
+				"21:48:54> CacheQuestLog cached 25 quests", -- [23]
+				"21:49:33> CacheQuestLog cached 25 quests", -- [24]
+				"21:52:19> CacheQuestLog cached 25 quests", -- [25]
+				"21:52:22> CacheQuestLog cached 25 quests", -- [26]
+				"21:52:49> CacheQuestLog cached 25 quests", -- [27]
+				"21:53:16> CacheQuestLog cached 25 quests", -- [28]
+				"21:56:39> CacheQuestLog cached 25 quests", -- [29]
+				"21:56:50> CacheQuestLog cached 25 quests", -- [30]
+				"21:57:34> CacheQuestLog cached 25 quests", -- [31]
+				"22:02:00> CacheQuestLog cached 25 quests", -- [32]
+				"22:02:35> CacheQuestLog cached 25 quests", -- [33]
+				"22:03:38> CacheQuestLog cached 25 quests", -- [34]
+				"22:03:40> CacheQuestLog cached 25 quests", -- [35]
+				"22:03:43> CacheQuestLog cached 25 quests", -- [36]
+				"22:05:13> CacheQuestLog cached 25 quests", -- [37]
+				"22:05:21> CacheQuestLog cached 25 quests", -- [38]
+				"22:10:18> CacheQuestLog cached 25 quests", -- [39]
+				"22:13:38> CacheQuestLog cached 25 quests", -- [40]
+				"22:16:31> CacheQuestLog cached 25 quests", -- [41]
+				"22:16:56> CacheQuestLog cached 25 quests", -- [42]
+				"22:17:27> CacheQuestLog cached 25 quests", -- [43]
+				"22:17:31> CacheQuestLog cached 25 quests", -- [44]
+				"22:17:54> CacheQuestLog cached 25 quests", -- [45]
+				"22:24:39> CacheQuestLog cached 25 quests", -- [46]
+				"22:24:42> CacheQuestLog cached 25 quests", -- [47]
+				"22:27:49> CacheQuestLog cached 25 quests", -- [48]
+				"22:28:29> 14 Enchanting recipes found", -- [49]
+				"22:32:43> PLAYER_ENTERING_WORLD (dead?)", -- [50]
+				"22:32:43> PLAYER_ALIVE (dead?)", -- [51]
+				"22:32:43> CacheQuestLog cached 25 quests", -- [52]
+				"22:32:44> ZONE_CHANGED_NEW_AREA (dead?)", -- [53]
+				"22:32:44> CacheQuestLog cached 25 quests", -- [54]
+				"22:50:31> 19 Cooking recipes found", -- [55]
+				"22:51:16> 5 First Aid recipes found", -- [56]
+				"23:06:58> Viewer started. ---------------------------", -- [57]
+				"23:07:00> PLAYER_ENTERING_WORLD (dead?)", -- [58]
+				"23:07:00> PLAYER_ALIVE (dead?)", -- [59]
+				"23:07:00> CacheQuestLog cached 25 quests", -- [60]
+				"23:07:00> New Quest: Trouble in the Deeps id 6562", -- [61]
+				"23:07:00> New Quest: The Ashenvale Hunt id 235", -- [62]
+				"23:07:00> New Quest: Arugal Must Die id 1014", -- [63]
+				"23:07:00> New Quest: Return to Quinn id 430", -- [64]
+				"23:07:00> New Quest: Boulderslide Ravine id 6421", -- [65]
+				"23:07:00> New Quest: Cycle of Rebirth id 6301", -- [66]
+				"23:07:00> New Quest: Shredding Machines id 1068", -- [67]
+				"23:07:00> New Quest: Cenarius' Legacy id 1087", -- [68]
+				"23:07:00> New Quest: Elemental War id 6393", -- [69]
+				"23:07:00> New Quest: Harpies Threaten id 6282", -- [70]
+				"23:07:00> New Quest: Jin'Zil's Forest Magic id 1058", -- [71]
+				"23:07:00> New Quest: Further Instructions id 1095", -- [72]
+				"23:07:00> New Quest: Chen's Empty Keg id 821", -- [73]
+				"23:07:00> New Quest: Mura Runetotem id 3301", -- [74]
+				"23:07:00> New Quest: The Disruption Ends id 872", -- [75]
+				"23:07:00> New Quest: Jorn Skyseer id 3261", -- [76]
+				"23:07:00> New Quest: Hezrul Bloodmark id 852", -- [77]
+				"23:07:00> New Quest: Samophlange Manual id 3924", -- [78]
+				"23:07:00> New Quest: Egg Hunt id 868", -- [79]
+				"23:07:00> New Quest: Weapons of Choice id 893", -- [80]
+				"23:07:00> New Quest: Betrayal from Within id 879", -- [81]
+				"23:07:00> New Quest: Until Death Do Us Part id 264", -- [82]
+				"23:07:00> New Quest: Journey to Tarren Mill id 1065", -- [83]
+				"23:07:00> New Quest: Steelsnap id 1131", -- [84]
+				"23:07:00> New Quest: Deviate Eradication id 1487", -- [85]
+				"23:07:00> Got completed quests list", -- [86]
+				"23:07:00> Got completed quests list", -- [87]
+				"23:07:00> CacheQuestLog cached 25 quests", -- [88]
+				"23:07:00> CacheQuestLog cached 25 quests", -- [89]
+				"23:07:00> ZONE_CHANGED_NEW_AREA (dead?)", -- [90]
+				"23:07:03> Got completed quests list", -- [91]
+				"23:07:03> Guides loaded. -----", -- [92]
+				"23:07:03> SetGuide Zygor's Horde Leveling Guides\\Levels (20-25) (118", -- [93]
+				"23:07:03> Guide loaded: Zygor's Horde Leveling Guides\\Levels (20-25)", -- [94]
+				"23:07:03> FocusStep 118", -- [95]
+				"23:07:03> Translated: 'collect' Blood Shards of Agamaggan", -- [96]
+				"23:07:03> Translated: accept/turnin The Ashenvale Hunt", -- [97]
+				"23:07:03> Translated: accept/turnin The Ashenvale Hunt", -- [98]
+				"23:07:03> unpausing", -- [99]
+				"23:07:03> frameNeedsUpdating, so updating.", -- [100]
+			},
+			["step"] = 118,
+			["maint_fetchitemdata"] = true,
+			["guides_history"] = {
+				{
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+					["step"] = 172,
+				}, -- [1]
+				{
+					["short"] = "Orc (1-13)",
+					["step"] = 65,
+					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+				}, -- [2]
+				{
+					["short"] = "Main Guide (13-20)",
+					["full"] = "Zygor's Horde Leveling Guides\\Main Guide (13-20)",
+					["step"] = 201,
+				}, -- [3]
+				{
+					["short"] = "Levels (20-25)",
+					["full"] = "Zygor's Horde Leveling Guides\\Levels (20-25)",
+					["step"] = 118,
+				}, -- [4]
 			},
 			["maint_fetchquestdata"] = true,
 			["taxis"] = {
@@ -1248,234 +1791,14 @@ ZygorGuidesViewerSettings = {
 				true, -- [2]
 				["Crossroads"] = true,
 				["Undercity"] = true,
-				["Camp Taurajo"] = true,
-				["Trade Quarter"] = true,
-				["Thunder Bluff"] = true,
-				["Booty Bay"] = true,
-				["The Sepulcher"] = true,
+				["The Crossroads"] = true,
+				["Sun Rock Retreat"] = true,
 				["Ratchet"] = true,
+				["Thunder Bluff"] = true,
+				["The Sepulcher"] = true,
+				["Camp Taurajo"] = true,
 				["Orgrimmar"] = true,
 			},
-			["debuglog"] = {
-				"17:04:18> CacheQuestLog cached 23 quests", -- [1]
-				"17:04:18> New Quest: Arugal Must Die id 1014", -- [2]
-				"17:04:27> CacheQuestLog cached 24 quests", -- [3]
-				"17:04:27> New Quest: Beren's Peril id 516", -- [4]
-				"17:04:38> CacheQuestLog cached 25 quests", -- [5]
-				"17:04:38> New Quest: Journey to Hillsbrad Foothills id 493", -- [6]
-				"17:05:39> CacheQuestLog cached 24 quests", -- [7]
-				"17:05:39> Lost Quest: Report to Tarren Mill, id: 9425, complete: false", -- [8]
-				"17:05:41> CacheQuestLog cached 25 quests", -- [9]
-				"17:05:41> New Quest: Deathstalkers in Shadowfang id 1098", -- [10]
-				"17:07:08> PLAYER_ENTERING_WORLD (dead?)", -- [11]
-				"17:07:08> PLAYER_ALIVE (dead?)", -- [12]
-				"17:07:08> CacheQuestLog cached 25 quests", -- [13]
-				"17:07:08> CacheQuestLog cached 25 quests", -- [14]
-				"17:07:08> CacheQuestLog cached 25 quests", -- [15]
-				"17:07:08> ZONE_CHANGED_NEW_AREA (dead?)", -- [16]
-				"17:15:44> GetQuestId: id of quest 'Deathstalkers in Shadowfang' = 1098", -- [17]
-				"17:15:44> Completed Quest: Deathstalkers in Shadowfang, id: 1098", -- [18]
-				"17:15:44> CacheQuestLog cached 24 quests", -- [19]
-				"17:15:44> Lost Quest: Deathstalkers in Shadowfang, id: 1098, complete: true", -- [20]
-				"17:34:54> PLAYER_ENTERING_WORLD (dead?)", -- [21]
-				"17:34:54> Player dead!", -- [22]
-				"17:34:54> SetCorpseArrow, mc/mz=2/0", -- [23]
-				"17:34:54> SetCorpseArrow, seeking corpse", -- [24]
-				"17:34:54> SetCorpseArrow, corpse on c=1? 0:0", -- [25]
-				"17:34:54> SetCorpseArrow, corpse on c=2? 0:0", -- [26]
-				"17:34:54> SetCorpseArrow, corpse on c=3? 0:0", -- [27]
-				"17:34:54> SetCorpseArrow, corpse on c=4? 0:0", -- [28]
-				"17:34:54> SetCorpseArrow, corpse on cont 0", -- [29]
-				"17:34:54> PLAYER_ALIVE (dead?)", -- [30]
-				"17:34:54> Player dead!", -- [31]
-				"17:34:54> SetCorpseArrow, mc/mz=2/0", -- [32]
-				"17:34:54> SetCorpseArrow, seeking corpse", -- [33]
-				"17:34:54> SetCorpseArrow, corpse on c=1? 0:0", -- [34]
-				"17:34:54> SetCorpseArrow, corpse on c=2? 0:0", -- [35]
-				"17:34:54> SetCorpseArrow, corpse on c=3? 0:0", -- [36]
-				"17:34:54> SetCorpseArrow, corpse on c=4? 0:0", -- [37]
-				"17:34:54> SetCorpseArrow, corpse on cont 0", -- [38]
-				"17:34:54> CacheQuestLog cached 24 quests", -- [39]
-				"17:34:55> CacheQuestLog cached 24 quests", -- [40]
-				"17:34:55> ZONE_CHANGED_NEW_AREA (dead?)", -- [41]
-				"17:34:55> Player dead!", -- [42]
-				"17:34:55> SetCorpseArrow, mc/mz=2/20", -- [43]
-				"17:34:55> SetCorpseArrow, seeking corpse", -- [44]
-				"17:34:55> SetCorpseArrow, corpse on c=1? 0:0", -- [45]
-				"17:34:55> SetCorpseArrow, corpse on c=2? 0:0", -- [46]
-				"17:34:55> SetCorpseArrow, corpse on c=3? 0:0", -- [47]
-				"17:34:55> SetCorpseArrow, corpse on c=4? 0:0", -- [48]
-				"17:34:55> SetCorpseArrow, corpse on cont 0", -- [49]
-				"17:34:55> CacheQuestLog cached 24 quests", -- [50]
-				"17:37:18> PLAYER_ENTERING_WORLD (dead?)", -- [51]
-				"17:37:18> Player dead!", -- [52]
-				"17:37:18> SetCorpseArrow, mc/mz=2/0", -- [53]
-				"17:37:18> PLAYER_ALIVE (dead?)", -- [54]
-				"17:37:18> Player dead!", -- [55]
-				"17:37:18> SetCorpseArrow, mc/mz=2/0", -- [56]
-				"17:37:18> SetCorpseArrow, seeking corpse", -- [57]
-				"17:37:18> SetCorpseArrow, corpse on c=1? 0:0", -- [58]
-				"17:37:18> SetCorpseArrow, corpse on c=2? 0:0", -- [59]
-				"17:37:18> SetCorpseArrow, corpse on c=3? 0:0", -- [60]
-				"17:37:18> SetCorpseArrow, corpse on c=4? 0:0", -- [61]
-				"17:37:18> SetCorpseArrow, corpse on cont 0", -- [62]
-				"17:37:18> ZONE_CHANGED_NEW_AREA (dead?)", -- [63]
-				"17:37:18> Player dead!", -- [64]
-				"17:37:18> SetCorpseArrow, mc/mz=2/0", -- [65]
-				"17:37:18> SetCorpseArrow, seeking corpse", -- [66]
-				"17:37:18> SetCorpseArrow, corpse on c=1? 0:0", -- [67]
-				"17:37:18> SetCorpseArrow, corpse on c=2? 0:0", -- [68]
-				"17:37:18> SetCorpseArrow, corpse on c=3? 0:0", -- [69]
-				"17:37:18> SetCorpseArrow, corpse on c=4? 0:0", -- [70]
-				"17:37:18> SetCorpseArrow, corpse on cont 0", -- [71]
-				"17:37:18> CacheQuestLog cached 24 quests", -- [72]
-				"17:37:18> Player unghosted!", -- [73]
-				"17:37:18> CacheQuestLog cached 24 quests", -- [74]
-				"17:37:18> CacheQuestLog cached 24 quests", -- [75]
-				"17:48:58> CacheQuestLog cached 24 quests", -- [76]
-				"17:48:58> CacheQuestLog cached 24 quests", -- [77]
-				"17:51:13> PLAYER_ENTERING_WORLD (dead?)", -- [78]
-				"17:51:13> PLAYER_ALIVE (dead?)", -- [79]
-				"17:51:13> CacheQuestLog cached 24 quests", -- [80]
-				"17:51:13> ZONE_CHANGED_NEW_AREA (dead?)", -- [81]
-				"17:51:13> CacheQuestLog cached 24 quests", -- [82]
-				"17:51:13> CacheQuestLog cached 24 quests", -- [83]
-				"17:51:33> GetQuestId: id of quest 'The Decrepit Ferry' = 438", -- [84]
-				"17:51:33> Completed Quest: The Decrepit Ferry, id: 438", -- [85]
-				"17:51:33> CacheQuestLog cached 23 quests", -- [86]
-				"17:51:33> Lost Quest: The Decrepit Ferry, id: 438, complete: false", -- [87]
-				"17:51:33> Completion: Turn in |cffbb99ff`The Decrepit Ferry'|r", -- [88]
-				"17:51:36> CacheQuestLog cached 24 quests", -- [89]
-				"17:51:36> New Quest: Rot Hide Clues id 439", -- [90]
-				"17:51:36> Skipping step: 120 (complete)", -- [91]
-				"17:51:36> SkipStep 1 fast", -- [92]
-				"17:51:36> FocusStep 121 (quiet)", -- [93]
-				"17:51:36> FocusStep 121", -- [94]
-				"17:51:36> Skipping step: 121 (complete)", -- [95]
-				"17:51:36> SkipStep 1 fast", -- [96]
-				"17:51:36> FocusStep 122 (quiet)", -- [97]
-				"17:51:36> FocusStep 122", -- [98]
-				"17:51:36> CacheQuestLog cached 24 quests", -- [99]
-				"17:51:36> frameNeedsUpdating, so updating.", -- [100]
-			},
-			["starting"] = false,
-		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
-			["maint_fetchitemdata"] = true,
-			["debuglog"] = {
-				"13:00:21> Translated: accept/turnin The Damned", -- [1]
-				"13:00:21> Translated: accept/turnin The Mindless Ones", -- [2]
-				"13:00:21> Translated: accept/turnin Rattling the Rattlecages", -- [3]
-				"13:00:21> Translated: accept/turnin Tainted Scroll", -- [4]
-				"13:00:21> Translated: accept/turnin The Damned", -- [5]
-				"13:00:21> Missing from NPC database: Scarlet Missionary #1536", -- [6]
-				"13:00:21> Translated: accept/turnin At War With The Scarlet Crusade", -- [7]
-				"13:00:21> Translated: accept/turnin At War With The Scarlet Crusade", -- [8]
-				"13:00:21> Translated: accept/turnin Proof of Demise", -- [9]
-				"13:00:21> unpausing", -- [10]
-				"13:00:21> frameNeedsUpdating, so updating.", -- [11]
-				"13:00:23> Got completed quests list", -- [12]
-				"13:00:31> GetQuestId: id of quest 'Speak with Anastasia' = 1881", -- [13]
-				"13:00:31> Completed Quest: Speak with Anastasia, id: 1881", -- [14]
-				"13:00:31> CacheQuestLog cached 5 quests", -- [15]
-				"13:00:31> Lost Quest: Speak with Anastasia, id: 1881, complete: false", -- [16]
-				"13:01:13> CacheQuestLog cached 6 quests", -- [17]
-				"13:01:13> New Quest: The Balnir Farmstead id 1882", -- [18]
-				"13:01:13> CacheQuestLog cached 6 quests", -- [19]
-				"13:07:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [20]
-				"13:07:22> CacheQuestLog cached 6 quests", -- [21]
-				"13:07:54> CacheQuestLog cached 6 quests", -- [22]
-				"13:08:20> CacheQuestLog cached 6 quests", -- [23]
-				"13:08:36> CacheQuestLog cached 6 quests", -- [24]
-				"13:09:23> CacheQuestLog cached 6 quests", -- [25]
-				"13:10:03> CacheQuestLog cached 6 quests", -- [26]
-				"13:10:11> Completion: Kill |cffffaaaaCaptain Perrine|r", -- [27]
-				"13:10:12> Skipping step: 106 (complete)", -- [28]
-				"13:10:12> SkipStep 1 fast", -- [29]
-				"13:10:12> FocusStep 107 (quiet)", -- [30]
-				"13:10:12> FocusStep 107", -- [31]
-				"13:10:48> CacheQuestLog cached 6 quests", -- [32]
-				"13:10:49> Completion: Kill 3 |cffffaaaaScarlet Missionaries|r", -- [33]
-				"13:11:10> CacheQuestLog cached 6 quests", -- [34]
-				"13:11:54> CacheQuestLog cached 6 quests", -- [35]
-				"13:13:42> CacheQuestLog cached 6 quests", -- [36]
-				"13:17:33> CacheQuestLog cached 6 quests", -- [37]
-				"13:17:33> Skipping step: 107 (complete)", -- [38]
-				"13:17:33> SkipStep 1 fast", -- [39]
-				"13:17:33> FocusStep 108 (quiet)", -- [40]
-				"13:17:33> FocusStep 108", -- [41]
-				"13:19:43> GetQuestId: id of quest 'At War With The Scarlet Crusade' = 370", -- [42]
-				"13:19:43> Completed Quest: At War With The Scarlet Crusade, id: 370", -- [43]
-				"13:19:43> CacheQuestLog cached 5 quests", -- [44]
-				"13:19:43> Lost Quest: At War With The Scarlet Crusade, id: 370, complete: true", -- [45]
-				"13:19:43> Completion: Turn in |cffbb99ff`At War With The Scarlet Crusade' (part 2)|r", -- [46]
-				"13:19:43> CacheQuestLog cached 6 quests", -- [47]
-				"13:19:43> New Quest: At War With The Scarlet Crusade id 371", -- [48]
-				"13:19:43> Skipping step: 108 (complete)", -- [49]
-				"13:19:43> SkipStep 1 fast", -- [50]
-				"13:19:43> FocusStep 109 (quiet)", -- [51]
-				"13:19:43> FocusStep 109", -- [52]
-				"13:19:43> Missing from NPC database: Vicious Night Web Spider #1555", -- [53]
-				"13:19:44> frameNeedsUpdating, so updating.", -- [54]
-				"13:19:55> GetQuestId: id of quest 'Proof of Demise' = 374", -- [55]
-				"13:19:55> Completed Quest: Proof of Demise, id: 374", -- [56]
-				"13:19:55> CacheQuestLog cached 6 quests", -- [57]
-				"13:19:55> CacheQuestLog cached 5 quests", -- [58]
-				"13:19:55> Lost Quest: Proof of Demise, id: 374, complete: false", -- [59]
-				"13:19:55> Skipping step: 109 (complete)", -- [60]
-				"13:19:55> SkipStep 1 fast", -- [61]
-				"13:19:55> FocusStep 110 (quiet)", -- [62]
-				"13:19:55> FocusStep 110", -- [63]
-				"13:31:03> Hiding arrow with guide", -- [64]
-				"11:01:21> Viewer started. ---------------------------", -- [65]
-				"11:01:22> PLAYER_ENTERING_WORLD (dead?)", -- [66]
-				"11:01:22> PLAYER_ALIVE (dead?)", -- [67]
-				"11:01:22> CacheQuestLog cached 1 quests", -- [68]
-				"11:01:22> New Quest: A New Plague id 369", -- [69]
-				"11:01:23> Got completed quests list", -- [70]
-				"11:01:23> Got completed quests list", -- [71]
-				"11:01:23> CacheQuestLog cached 5 quests", -- [72]
-				"11:01:23> New Quest: The Balnir Farmstead id 1882", -- [73]
-				"11:01:23> New Quest: At War With The Scarlet Crusade id 371", -- [74]
-				"11:01:23> New Quest: The Family Crypt id 408", -- [75]
-				"11:01:23> New Quest: The Lich's Identity id 357", -- [76]
-				"11:01:23> CacheQuestLog cached 5 quests", -- [77]
-				"11:01:23> CacheQuestLog cached 5 quests", -- [78]
-				"11:01:23> ZONE_CHANGED_NEW_AREA (dead?)", -- [79]
-				"11:01:25> Guides loaded. -----", -- [80]
-				"11:01:25> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (110", -- [81]
-				"11:01:25> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [82]
-				"11:01:25> FocusStep 110", -- [83]
-				"11:01:25> Translated: accept/turnin Rude Awakening", -- [84]
-				"11:01:25> Translated: accept/turnin Rude Awakening", -- [85]
-				"11:01:25> Translated: accept/turnin The Mindless Ones", -- [86]
-				"11:01:25> Translated: accept/turnin The Mindless Ones", -- [87]
-				"11:01:25> Translated: accept/turnin Rattling the Rattlecages", -- [88]
-				"11:01:25> Translated: accept/turnin Simple Scroll", -- [89]
-				"11:01:25> Translated: accept/turnin The Damned", -- [90]
-				"11:01:25> Translated: accept/turnin The Mindless Ones", -- [91]
-				"11:01:25> Translated: accept/turnin Rattling the Rattlecages", -- [92]
-				"11:01:25> Translated: accept/turnin Tainted Scroll", -- [93]
-				"11:01:25> Translated: accept/turnin The Damned", -- [94]
-				"11:01:25> Missing from NPC database: Vicious Night Web Spider #1555", -- [95]
-				"11:01:25> Translated: accept/turnin At War With The Scarlet Crusade", -- [96]
-				"11:01:25> Translated: accept/turnin At War With The Scarlet Crusade", -- [97]
-				"11:01:25> unpausing", -- [98]
-				"11:01:25> frameNeedsUpdating, so updating.", -- [99]
-				"11:01:27> Got completed quests list", -- [100]
-			},
-			["guides_history"] = {
-				{
-					["short"] = "Undead (1-13)",
-					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-					["step"] = 110,
-				}, -- [1]
-			},
-			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
-			["maint_fetchquestdata"] = true,
-			["taxis"] = {
-			},
-			["step"] = 110,
 			["starting"] = false,
 		},
 		["Cryogenics - TrueWoW"] = {
@@ -1562,106 +1885,106 @@ ZygorGuidesViewerSettings = {
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"19:03:33> Skipping step: 143 (complete)", -- [1]
-				"19:03:33> SkipStep 1 fast", -- [2]
-				"19:03:33> FocusStep 144 (quiet)", -- [3]
-				"19:03:33> FocusStep 144", -- [4]
-				"19:03:33> Translated: accept/turnin The Spearcrafter's Hammer", -- [5]
-				"19:03:33> frameNeedsUpdating, so updating.", -- [6]
-				"19:03:33> Skipping step: 144 (complete)", -- [7]
-				"19:03:33> SkipStep 1 fast", -- [8]
-				"19:03:33> FocusStep 145 (quiet)", -- [9]
-				"19:03:33> FocusStep 145", -- [10]
-				"19:03:33> frameNeedsUpdating, so updating.", -- [11]
-				"19:03:33> Skipping step: 145 (complete)", -- [12]
-				"19:03:33> SkipStep 1 fast", -- [13]
-				"19:03:33> FocusStep 146 (quiet)", -- [14]
-				"19:03:33> FocusStep 146", -- [15]
-				"19:03:33> Translated: accept/turnin Warning Fairbreeze Village", -- [16]
-				"19:03:33> frameNeedsUpdating, so updating.", -- [17]
-				"19:03:33> Skipping step: 146 (complete)", -- [18]
-				"19:03:33> SkipStep 1 fast", -- [19]
-				"19:03:33> FocusStep 147 (quiet)", -- [20]
-				"19:03:33> FocusStep 147", -- [21]
-				"19:03:33> Translated: accept/turnin The Party Never Ends", -- [22]
-				"19:03:33> frameNeedsUpdating, so updating.", -- [23]
-				"19:03:34> Skipping step: 147 (possible?)", -- [24]
-				"19:03:34> SkipStep 1 fast", -- [25]
-				"19:03:34> FocusStep 148 (quiet)", -- [26]
-				"19:03:34> FocusStep 148", -- [27]
-				"19:03:34> frameNeedsUpdating, so updating.", -- [28]
-				"19:03:34> Skipping step: 148 (complete)", -- [29]
-				"19:03:34> SkipStep 1 fast", -- [30]
-				"19:03:34> FocusStep 149 (quiet)", -- [31]
-				"19:03:34> FocusStep 149", -- [32]
-				"19:03:34> frameNeedsUpdating, so updating.", -- [33]
-				"19:03:34> Skipping step: 149 (complete)", -- [34]
-				"19:03:34> SkipStep 1 fast", -- [35]
-				"19:03:34> FocusStep 150 (quiet)", -- [36]
-				"19:03:34> FocusStep 150", -- [37]
-				"19:03:34> frameNeedsUpdating, so updating.", -- [38]
-				"19:03:39> SkipStep 1 ", -- [39]
-				"19:03:39> FocusStep 151 (quiet)", -- [40]
-				"19:03:39> unpausing", -- [41]
-				"19:03:39> FocusStep 151", -- [42]
-				"19:03:39> frameNeedsUpdating, so updating.", -- [43]
-				"19:03:39> SkipStep 1 ", -- [44]
-				"19:03:39> FocusStep 152 (quiet)", -- [45]
-				"19:03:39> unpausing", -- [46]
-				"19:03:39> FocusStep 152", -- [47]
-				"19:03:39> frameNeedsUpdating, so updating.", -- [48]
-				"19:03:41> SkipStep -1 ", -- [49]
-				"19:03:41> FocusStep 151 (quiet)", -- [50]
-				"19:03:41> unpausing", -- [51]
-				"19:03:41> FocusStep 151", -- [52]
-				"19:03:41> SkipStep -1 ", -- [53]
-				"19:03:41> FocusStep 150 (quiet)", -- [54]
-				"19:03:41> unpausing", -- [55]
-				"19:03:41> FocusStep 150", -- [56]
-				"19:03:42> goal clicked 1", -- [57]
-				"19:03:42> Completion: Go northeast to Silvermoon City", -- [58]
-				"19:03:42> Skipping step: 150 (complete)", -- [59]
-				"19:03:42> SkipStep 1 fast", -- [60]
-				"19:03:42> FocusStep 151 (quiet)", -- [61]
-				"19:03:42> FocusStep 151", -- [62]
-				"19:03:43> goal clicked 3", -- [63]
-				"19:03:43> Completion: It will teleport you to Undercity", -- [64]
-				"19:03:44> Skipping step: 151 (complete)", -- [65]
-				"19:03:44> SkipStep 1 fast", -- [66]
-				"19:03:44> FocusStep 152 (quiet)", -- [67]
-				"19:03:44> FocusStep 152", -- [68]
-				"19:03:45> goal clicked 3", -- [69]
-				"19:03:45> Completion: Get the |cffffee77Undercity|r Flight Path", -- [70]
-				"19:03:45> Skipping step: 152 (complete)", -- [71]
-				"19:03:45> SkipStep 1 fast", -- [72]
-				"19:03:45> FocusStep 153 (quiet)", -- [73]
-				"19:03:45> FocusStep 153", -- [74]
-				"19:03:45> frameNeedsUpdating, so updating.", -- [75]
-				"19:03:47> goal clicked 1", -- [76]
-				"19:03:47> Completion: Go outside of the Undercity", -- [77]
-				"19:03:47> Skipping step: 153 (complete)", -- [78]
-				"19:03:47> SkipStep 1 fast", -- [79]
-				"19:03:47> FocusStep 154 (quiet)", -- [80]
-				"19:03:47> FocusStep 154", -- [81]
-				"19:03:47> Translated: accept/turnin A Recipe For Death", -- [82]
-				"19:03:47> frameNeedsUpdating, so updating.", -- [83]
-				"19:03:48> goal clicked 1", -- [84]
-				"19:03:48> Completion: Go southwest to Silverpine Forest", -- [85]
-				"19:03:49> Skipping step: 154 (complete)", -- [86]
-				"19:03:49> SkipStep 1 fast", -- [87]
-				"19:03:49> FocusStep 155 (quiet)", -- [88]
-				"19:03:49> FocusStep 155", -- [89]
-				"19:03:49> Translated: accept/turnin Lost Deathstalkers", -- [90]
-				"19:03:49> Translated: accept/turnin The Dead Fields", -- [91]
-				"19:03:49> frameNeedsUpdating, so updating.", -- [92]
-				"19:03:51> goal clicked 3", -- [93]
-				"19:03:51> Completion: Get the |cffffee77The Sepulcher|r Flight Path", -- [94]
-				"19:03:52> Skipping step: 155 (complete)", -- [95]
-				"19:03:52> SkipStep 1 fast", -- [96]
-				"19:03:52> FocusStep 156 (quiet)", -- [97]
-				"19:03:52> FocusStep 156", -- [98]
-				"19:03:52> Translated: accept/turnin Prove Your Worth", -- [99]
-				"19:03:52> frameNeedsUpdating, so updating.", -- [100]
+				"19:03:34> FocusStep 148 (quiet)", -- [1]
+				"19:03:34> FocusStep 148", -- [2]
+				"19:03:34> frameNeedsUpdating, so updating.", -- [3]
+				"19:03:34> Skipping step: 148 (complete)", -- [4]
+				"19:03:34> SkipStep 1 fast", -- [5]
+				"19:03:34> FocusStep 149 (quiet)", -- [6]
+				"19:03:34> FocusStep 149", -- [7]
+				"19:03:34> frameNeedsUpdating, so updating.", -- [8]
+				"19:03:34> Skipping step: 149 (complete)", -- [9]
+				"19:03:34> SkipStep 1 fast", -- [10]
+				"19:03:34> FocusStep 150 (quiet)", -- [11]
+				"19:03:34> FocusStep 150", -- [12]
+				"19:03:34> frameNeedsUpdating, so updating.", -- [13]
+				"19:03:39> SkipStep 1 ", -- [14]
+				"19:03:39> FocusStep 151 (quiet)", -- [15]
+				"19:03:39> unpausing", -- [16]
+				"19:03:39> FocusStep 151", -- [17]
+				"19:03:39> frameNeedsUpdating, so updating.", -- [18]
+				"19:03:39> SkipStep 1 ", -- [19]
+				"19:03:39> FocusStep 152 (quiet)", -- [20]
+				"19:03:39> unpausing", -- [21]
+				"19:03:39> FocusStep 152", -- [22]
+				"19:03:39> frameNeedsUpdating, so updating.", -- [23]
+				"19:03:41> SkipStep -1 ", -- [24]
+				"19:03:41> FocusStep 151 (quiet)", -- [25]
+				"19:03:41> unpausing", -- [26]
+				"19:03:41> FocusStep 151", -- [27]
+				"19:03:41> SkipStep -1 ", -- [28]
+				"19:03:41> FocusStep 150 (quiet)", -- [29]
+				"19:03:41> unpausing", -- [30]
+				"19:03:41> FocusStep 150", -- [31]
+				"19:03:42> goal clicked 1", -- [32]
+				"19:03:42> Completion: Go northeast to Silvermoon City", -- [33]
+				"19:03:42> Skipping step: 150 (complete)", -- [34]
+				"19:03:42> SkipStep 1 fast", -- [35]
+				"19:03:42> FocusStep 151 (quiet)", -- [36]
+				"19:03:42> FocusStep 151", -- [37]
+				"19:03:43> goal clicked 3", -- [38]
+				"19:03:43> Completion: It will teleport you to Undercity", -- [39]
+				"19:03:44> Skipping step: 151 (complete)", -- [40]
+				"19:03:44> SkipStep 1 fast", -- [41]
+				"19:03:44> FocusStep 152 (quiet)", -- [42]
+				"19:03:44> FocusStep 152", -- [43]
+				"19:03:45> goal clicked 3", -- [44]
+				"19:03:45> Completion: Get the |cffffee77Undercity|r Flight Path", -- [45]
+				"19:03:45> Skipping step: 152 (complete)", -- [46]
+				"19:03:45> SkipStep 1 fast", -- [47]
+				"19:03:45> FocusStep 153 (quiet)", -- [48]
+				"19:03:45> FocusStep 153", -- [49]
+				"19:03:45> frameNeedsUpdating, so updating.", -- [50]
+				"19:03:47> goal clicked 1", -- [51]
+				"19:03:47> Completion: Go outside of the Undercity", -- [52]
+				"19:03:47> Skipping step: 153 (complete)", -- [53]
+				"19:03:47> SkipStep 1 fast", -- [54]
+				"19:03:47> FocusStep 154 (quiet)", -- [55]
+				"19:03:47> FocusStep 154", -- [56]
+				"19:03:47> Translated: accept/turnin A Recipe For Death", -- [57]
+				"19:03:47> frameNeedsUpdating, so updating.", -- [58]
+				"19:03:48> goal clicked 1", -- [59]
+				"19:03:48> Completion: Go southwest to Silverpine Forest", -- [60]
+				"19:03:49> Skipping step: 154 (complete)", -- [61]
+				"19:03:49> SkipStep 1 fast", -- [62]
+				"19:03:49> FocusStep 155 (quiet)", -- [63]
+				"19:03:49> FocusStep 155", -- [64]
+				"19:03:49> Translated: accept/turnin Lost Deathstalkers", -- [65]
+				"19:03:49> Translated: accept/turnin The Dead Fields", -- [66]
+				"19:03:49> frameNeedsUpdating, so updating.", -- [67]
+				"19:03:51> goal clicked 3", -- [68]
+				"19:03:51> Completion: Get the |cffffee77The Sepulcher|r Flight Path", -- [69]
+				"19:03:52> Skipping step: 155 (complete)", -- [70]
+				"19:03:52> SkipStep 1 fast", -- [71]
+				"19:03:52> FocusStep 156 (quiet)", -- [72]
+				"19:03:52> FocusStep 156", -- [73]
+				"19:03:52> Translated: accept/turnin Prove Your Worth", -- [74]
+				"19:03:52> frameNeedsUpdating, so updating.", -- [75]
+				"01:18:41> Viewer started. ---------------------------", -- [76]
+				"01:18:42> PLAYER_ENTERING_WORLD (dead?)", -- [77]
+				"01:18:42> PLAYER_ALIVE (dead?)", -- [78]
+				"01:18:42> CacheQuestLog cached 2 quests", -- [79]
+				"01:18:42> New Quest: Wanted: Knucklerot and Luzran id 9156", -- [80]
+				"01:18:42> New Quest: The Power to Destroy... id 14356", -- [81]
+				"01:18:42> Got completed quests list", -- [82]
+				"01:18:42> Got completed quests list", -- [83]
+				"01:18:42> CacheQuestLog cached 2 quests", -- [84]
+				"01:18:43> CacheQuestLog cached 4 quests", -- [85]
+				"01:18:43> New Quest: The Traitor's Destruction id 9167", -- [86]
+				"01:18:43> New Quest: The Path of the Adept id 9692", -- [87]
+				"01:18:43> ZONE_CHANGED_NEW_AREA (dead?)", -- [88]
+				"01:18:43> CacheQuestLog cached 4 quests", -- [89]
+				"01:18:46> Guides loaded. -----", -- [90]
+				"01:18:46> SetGuide Zygor's Horde Leveling Guides\\Blood Elf (1-13) (156", -- [91]
+				"01:18:46> Guide loaded: Zygor's Horde Leveling Guides\\Blood Elf (1-13)", -- [92]
+				"01:18:46> FocusStep 156", -- [93]
+				"01:18:46> Translated: accept/turnin A Recipe For Death", -- [94]
+				"01:18:46> Translated: accept/turnin Lost Deathstalkers", -- [95]
+				"01:18:46> Translated: accept/turnin The Dead Fields", -- [96]
+				"01:18:46> Translated: accept/turnin Prove Your Worth", -- [97]
+				"01:18:46> unpausing", -- [98]
+				"01:18:46> frameNeedsUpdating, so updating.", -- [99]
+				"01:18:46> Got completed quests list", -- [100]
 			},
 			["starting"] = false,
 		},
@@ -1671,6 +1994,7 @@ ZygorGuidesViewerSettings = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 		["Shiftace - TrueWoW"] = "Default",
 		["Duglazerp - TrueWoW"] = "Default",
+		["Magistratus - PrimalWoW (Progressive)"] = "Default",
 		["Pastafarian - TrueWoW"] = "Default",
 		["Mittens - PrimalWoW (Progressive)"] = "Default",
 		["Ellipsis - TrueWoW"] = "Default",
@@ -1682,7 +2006,8 @@ ZygorGuidesViewerSettings = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["analyzereps"] = true,
+			["backopacity"] = 0,
+			["hideincombat"] = true,
 			["arrowfreeze"] = true,
 			["skincolors"] = {
 				["back"] = {
@@ -1696,7 +2021,7 @@ ZygorGuidesViewerSettings = {
 				},
 			},
 			["fixblizzardautoaccept"] = true,
-			["fullheight"] = 122.9999977432211,
+			["fullheight"] = 299.9999953496677,
 			["showallsteps"] = true,
 			["autoturnin"] = true,
 			["fontsize"] = 13,
@@ -1710,11 +2035,17 @@ ZygorGuidesViewerSettings = {
 			["resizeup"] = true,
 			["windowlocked"] = false,
 			["arrowsmooth"] = true,
+			["analyzereps"] = true,
 			["showcountsteps"] = 3,
-			["goalupdateflash"] = false,
+			["showmapbutton"] = false,
+			["skipobsolete"] = false,
 			["contractmobs"] = true,
 			["arrowposy"] = 495.0000264658617,
 			["audiocues"] = true,
+		},
+		["Magistratus - PrimalWoW (Progressive)"] = {
+			["arrowsmooth"] = true,
+			["arrowcam"] = false,
 		},
 	},
 }

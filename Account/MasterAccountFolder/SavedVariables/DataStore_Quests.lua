@@ -10,7 +10,9 @@ DataStore_QuestsDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
@@ -21,38 +23,47 @@ DataStore_QuestsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1451459314,
-				["HistoryLastUpdate"] = 1451459406,
-			},
-			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1452830029,
-				["HistoryLastUpdate"] = 1452830074,
+			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
+				["lastUpdate"] = 1470048722,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1452579002,
+				["HistoryLastUpdate"] = 1452579007,
+				["QuestLinks"] = {
+					[2] = "|cff40c040|Hquest:14356:16|h[The Power to Destroy...]|h|r",
+					[4] = "|cffffff00|Hquest:9621:21|h[Envoy to the Horde]|h|r",
+				},
+				["HistorySize"] = 126,
 				["HistoryBuild"] = "12340",
+				["Rewards"] = {
+					[2] = "c|15449|1|1,c|15450|1|0,c|15451|1|0",
+				},
+				["Quests"] = {
+					"0|Ragefire Chasm", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Undercity", -- [3]
+					"1||0|0|1", -- [4]
+				},
 				["History"] = {
 					[9705] = true,
 					[9199] = true,
 					[9327] = true,
 					[9328] = true,
 					[9076] = true,
-					[9352] = true,
+					[8463] = true,
 					[8326] = true,
-					[9216] = true,
+					[8327] = true,
 					[9207] = true,
 					[8474] = true,
 					[9066] = true,
-					[8463] = true,
+					[9352] = true,
 					[9360] = true,
 					[9212] = true,
 					[8472] = true,
-					[8325] = true,
+					[9214] = true,
 					[9215] = true,
-					[8327] = true,
-					[9217] = true,
+					[9216] = true,
+					[8328] = true,
 					[9218] = true,
 					[8330] = true,
 					[9220] = true,
@@ -61,10 +72,10 @@ DataStore_QuestsDB = {
 					[8334] = true,
 					[8335] = true,
 					[8336] = true,
-					[8488] = true,
+					[9758] = true,
 					[8338] = true,
 					[9275] = true,
-					[8884] = true,
+					[9138] = true,
 					[8468] = true,
 					[9358] = true,
 					[9359] = true,
@@ -77,18 +88,18 @@ DataStore_QuestsDB = {
 					[8350] = true,
 					[24882] = true,
 					[8479] = true,
-					[9877] = true,
-					[9394] = true,
+					[8480] = true,
+					[9140] = true,
 					[8482] = true,
 					[8483] = true,
 					[9119] = true,
-					[8887] = true,
+					[9395] = true,
 					[8486] = true,
 					[8487] = true,
-					[9758] = true,
-					[8892] = true,
+					[8488] = true,
+					[9146] = true,
 					[9252] = true,
-					[9253] = true,
+					[8491] = true,
 					[9254] = true,
 					[9255] = true,
 					[9256] = true,
@@ -100,22 +111,22 @@ DataStore_QuestsDB = {
 					[9135] = true,
 					[8894] = true,
 					[9277] = true,
-					[9138] = true,
+					[8884] = true,
 					[8885] = true,
-					[9140] = true,
-					[9395] = true,
+					[9394] = true,
+					[8887] = true,
 					[8888] = true,
-					[9143] = true,
-					[9144] = true,
-					[9145] = true,
-					[9146] = true,
+					[8889] = true,
+					[8890] = true,
+					[8891] = true,
+					[8892] = true,
 					[9274] = true,
 					[9148] = true,
 					[9149] = true,
 					[10166] = true,
 					[9151] = true,
 					[9152] = true,
-					[9035] = true,
+					[9162] = true,
 					[9281] = true,
 					[9155] = true,
 					[9156] = true,
@@ -124,7 +135,7 @@ DataStore_QuestsDB = {
 					[9159] = true,
 					[9160] = true,
 					[9161] = true,
-					[9162] = true,
+					[9035] = true,
 					[9163] = true,
 					[9164] = true,
 					[8886] = true,
@@ -143,13 +154,13 @@ DataStore_QuestsDB = {
 					[9150] = true,
 					[9276] = true,
 					[9180] = true,
-					[8891] = true,
-					[8890] = true,
-					[8889] = true,
+					[9145] = true,
+					[9144] = true,
+					[9143] = true,
 					[9139] = true,
 					[8895] = true,
-					[8491] = true,
-					[8480] = true,
+					[9253] = true,
+					[9877] = true,
 					[9315] = true,
 					[9062] = true,
 					[8345] = true,
@@ -157,104 +168,22 @@ DataStore_QuestsDB = {
 					[9192] = true,
 					[9193] = true,
 					[9067] = true,
-					[8328] = true,
+					[9217] = true,
 					[9704] = true,
-					[9214] = true,
+					[8325] = true,
 				},
-				["QuestLinks"] = {
-					[2] = "|cff40c040|Hquest:14356:16|h[The Power to Destroy...]|h|r",
-					[4] = "|cffffff00|Hquest:9621:21|h[Envoy to the Horde]|h|r",
-				},
-				["HistorySize"] = 126,
-				["lastUpdate"] = 1452579002,
-				["Rewards"] = {
-					[2] = "c|15449|1|1,c|15450|1|0,c|15451|1|0",
-				},
-				["Quests"] = {
-					"0|Ragefire Chasm", -- [1]
-					"1|Dungeon|0|0|0", -- [2]
-					"0|Undercity", -- [3]
-					"1||0|0|1", -- [4]
-				},
-				["HistoryLastUpdate"] = 1452579007,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1455321540,
-				["HistoryLastUpdate"] = 1455321545,
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cffffff00|Hquest:7890:-1|h[Heavy Grinding Stone]|h|r", -- [2]
-					nil, -- [3]
-					"|cff808080|Hquest:773:10|h[Rite of Wisdom]|h|r", -- [4]
-					"|cff808080|Hquest:861:10|h[The Hunter's Way]|h|r", -- [5]
-					"|cff808080|Hquest:764:10|h[The Venture Co.]|h|r", -- [6]
-					"|cff808080|Hquest:765:12|h[Supervisor Fizsprocket]|h|r", -- [7]
-					nil, -- [8]
-					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [9]
-					nil, -- [10]
-					"|cff808080|Hquest:450:15|h[A Recipe For Death]|h|r", -- [11]
-					nil, -- [12]
-					"|cff808080|Hquest:1492:11|h[Wharfmaster Dizzywig]|h|r", -- [13]
-					"|cff808080|Hquest:870:13|h[The Forgotten Pools]|h|r", -- [14]
-					"|cff808080|Hquest:845:13|h[The Zhevra]|h|r", -- [15]
-					"|cff808080|Hquest:5041:14|h[Supplies for the Crossroads]|h|r", -- [16]
-					"|cff808080|Hquest:848:15|h[Fungal Spores]|h|r", -- [17]
-					"|cff808080|Hquest:867:15|h[Harpy Raiders]|h|r", -- [18]
-					"|cff40c040|Hquest:3281:18|h[Stolen Silver]|h|r", -- [19]
-					"|cffffff00|Hquest:899:20|h[Consumed by Hatred]|h|r", -- [20]
-					"|cffffff00|Hquest:4921:20|h[Lost in Battle]|h|r", -- [21]
-					"|cffff8040|Hquest:3369:25|h[In Nightmares]|h|r", -- [22]
-					nil, -- [23]
-					"|cff808080|Hquest:744:11|h[Preparation for Ceremony]|h|r", -- [24]
-					nil, -- [25]
-					"|cff808080|Hquest:445:10|h[Delivery to Silverpine Forest]|h|r", -- [26]
-				},
-				["HistorySize"] = 149,
 				["HistoryBuild"] = "12340",
-				["Rewards"] = {
-					[19] = "c|11853|1|1,c|2694|1|0",
-					[20] = "c|5314|1|1,c|6477|1|1",
-					[9] = "r|6414|1|1",
-					[24] = "c|4968|1|1,c|4967|1|0",
-					[7] = "c|4974|1|1,c|4964|1|0",
-					[22] = "c|10657|1|1,c|10658|1|0",
-					[2] = "r|19182|4|1",
-				},
-				["Quests"] = {
-					"0|Darkmoon Faire", -- [1]
-					"1||0|0|0", -- [2]
-					"0|Mulgore", -- [3]
-					"1||0|0|0", -- [4]
-					"1||0|0|0", -- [5]
-					"1||0|250|0", -- [6]
-					"1||0|0|0", -- [7]
-					"0|Shadowfang Keep", -- [8]
-					"1|Dungeon|0|0|1", -- [9]
-					"0|Silverpine Forest", -- [10]
-					"1||0|700|0", -- [11]
-					"0|The Barrens", -- [12]
-					"1||0|0|1", -- [13]
-					"1||0|0|0", -- [14]
-					"1||0|600|0", -- [15]
-					"1||0|600|0", -- [16]
-					"1||0|700|0", -- [17]
-					"1||0|700|0", -- [18]
-					"1||0|1000|0", -- [19]
-					"1||0|0|0", -- [20]
-					"1||0|900|0", -- [21]
-					"1||0|0|1", -- [22]
-					"0|Thunder Bluff", -- [23]
-					"1||0|0|0", -- [24]
-					"0|Tirisfal Glades", -- [25]
-					"1||0|250|1", -- [26]
-				},
 				["History"] = {
 					[806] = true,
+					[870] = true,
 					[356] = true,
 					[743] = true,
 					[8717] = true,
 					[404] = true,
 					[871] = true,
+					[452] = true,
 					[808] = true,
 					[3092] = true,
 					[1486] = true,
@@ -272,6 +201,7 @@ DataStore_QuestsDB = {
 					[358] = true,
 					[747] = true,
 					[422] = true,
+					[1492] = true,
 					[748] = true,
 					[780] = true,
 					[812] = true,
@@ -280,11 +210,13 @@ DataStore_QuestsDB = {
 					[375] = true,
 					[407] = true,
 					[590] = true,
+					[439] = true,
 					[750] = true,
 					[6981] = true,
 					[360] = true,
 					[751] = true,
 					[815] = true,
+					[424] = true,
 					[3376] = true,
 					[752] = true,
 					[784] = true,
@@ -301,9 +233,11 @@ DataStore_QuestsDB = {
 					[5481] = true,
 					[786] = true,
 					[8] = true,
+					[850] = true,
 					[8648] = true,
 					[362] = true,
 					[755] = true,
+					[1061] = true,
 					[410] = true,
 					[426] = true,
 					[3902] = true,
@@ -313,95 +247,205 @@ DataStore_QuestsDB = {
 					[5761] = true,
 					[411] = true,
 					[427] = true,
+					[443] = true,
+					[491] = true,
 					[790] = true,
 					[380] = true,
 					[791] = true,
 					[823] = true,
 					[428] = true,
+					[887] = true,
+					[460] = true,
+					[6548] = true,
 					[792] = true,
+					[888] = true,
 					[14356] = true,
 					[761] = true,
+					[99] = true,
 					[825] = true,
 					[429] = true,
+					[445] = true,
+					[461] = true,
+					[477] = true,
+					[848] = true,
 					[794] = true,
 					[826] = true,
+					[1014] = true,
+					[890] = true,
+					[813] = true,
+					[5041] = true,
 					[6062] = true,
 					[763] = true,
 					[398] = true,
 					[827] = true,
 					[430] = true,
+					[372] = true,
+					[435] = true,
 					[6069] = true,
+					[382] = true,
+					[423] = true,
+					[855] = true,
 					[828] = true,
+					[24890] = true,
+					[892] = true,
+					[6523] = true,
+					[5728] = true,
+					[8677] = true,
 					[383] = true,
+					[5727] = true,
 					[6081] = true,
 					[6082] = true,
 					[447] = true,
+					[872] = true,
 					[1656] = true,
+					[408] = true,
 					[766] = true,
+					[374] = true,
 					[830] = true,
 					[11129] = true,
-					[2161] = true,
-					[5728] = true,
-					[767] = true,
-					[24890] = true,
-					[831] = true,
 					[5441] = true,
+					[2161] = true,
 					[840] = true,
-					[435] = true,
-					[818] = true,
-					[408] = true,
-					[374] = true,
-					[431] = true,
-					[832] = true,
-					[366] = true,
-					[1358] = true,
-					[8677] = true,
-					[376] = true,
-					[6365] = true,
-					[789] = true,
-					[409] = true,
-					[5482] = true,
-					[829] = true,
-					[449] = true,
-					[8652] = true,
-					[5724] = true,
-					[24857] = true,
-					[5730] = true,
-					[381] = true,
-					[834] = true,
+					[478] = true,
+					[767] = true,
+					[450] = true,
+					[831] = true,
+					[6385] = true,
+					[895] = true,
 					[6384] = true,
-					[365] = true,
+					[1358] = true,
+					[818] = true,
+					[6083] = true,
+					[366] = true,
+					[832] = true,
+					[829] = true,
+					[5482] = true,
+					[431] = true,
+					[381] = true,
+					[6365] = true,
+					[5724] = true,
+					[8670] = true,
+					[361] = true,
+					[8652] = true,
+					[449] = true,
+					[5730] = true,
+					[481] = true,
+					[24857] = true,
+					[6629] = true,
 					[5722] = true,
+					[834] = true,
+					[365] = true,
+					[3221] = true,
+					[749] = true,
 					[354] = true,
 					[370] = true,
 					[771] = true,
-					[361] = true,
+					[409] = true,
 					[835] = true,
-					[6385] = true,
+					[867] = true,
 					[6386] = true,
-					[813] = true,
-					[382] = true,
-					[6083] = true,
+					[376] = true,
+					[482] = true,
+					[405] = true,
 					[772] = true,
 					[804] = true,
-					[3221] = true,
-					[749] = true,
+					[479] = true,
+					[845] = true,
 					[6394] = true,
 					[6395] = true,
 					[355] = true,
 					[371] = true,
-					[8670] = true,
+					[438] = true,
 					[805] = true,
 					[837] = true,
 					[869] = true,
-					[405] = true,
-					[372] = true,
+					[451] = true,
+					[789] = true,
 					[3082] = true,
-					[5727] = true,
+					[444] = true,
 				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:7890:-1|h[Heavy Grinding Stone]|h|r", -- [2]
+					nil, -- [3]
+					"|cffff2020|Hquest:2841:35|h[Rig Wars]|h|r", -- [4]
+					nil, -- [5]
+					"|cff40c040|Hquest:235:20|h[The Ashenvale Hunt]|h|r", -- [6]
+					nil, -- [7]
+					"|cffffff00|Hquest:1109:26|h[Going, Going, Guano!]|h|r", -- [8]
+					nil, -- [9]
+					"|cff808080|Hquest:446:16|h[Thule Ravenclaw]|h|r", -- [10]
+					"|cff40c040|Hquest:480:22|h[The Weaver]|h|r", -- [11]
+					nil, -- [12]
+					"|cff808080|Hquest:6401:18|h[Kaya's Alive]|h|r", -- [13]
+					"|cff40c040|Hquest:1062:19|h[Goblin Invaders]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:894:14|h[Samophlange]|h|r", -- [16]
+					"|cff808080|Hquest:903:15|h[Prowlers of the Barrens]|h|r", -- [17]
+					"|cff808080|Hquest:875:16|h[Harpy Lieutenants]|h|r", -- [18]
+					"|cff808080|Hquest:877:16|h[The Stagnant Oasis]|h|r", -- [19]
+					"|cff808080|Hquest:896:18|h[Miner's Fortune]|h|r", -- [20]
+					"|cff808080|Hquest:865:18|h[Raptor Horns]|h|r", -- [21]
+					"|cff808080|Hquest:3281:18|h[Stolen Silver]|h|r", -- [22]
+					"|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r", -- [23]
+					"|cff40c040|Hquest:899:20|h[Consumed by Hatred]|h|r", -- [24]
+					"|cff40c040|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r", -- [25]
+					"|cff40c040|Hquest:4921:20|h[Lost in Battle]|h|r", -- [26]
+					"|cff40c040|Hquest:891:20|h[The Guns of Northwatch]|h|r", -- [27]
+					"|cffffff00|Hquest:3369:25|h[In Nightmares]|h|r", -- [28]
+					nil, -- [29]
+					"|cff808080|Hquest:744:11|h[Preparation for Ceremony]|h|r", -- [30]
+				},
+				["HistorySize"] = 182,
+				["lastUpdate"] = 1471061550,
+				["Rewards"] = {
+					[24] = "c|5314|1|1,c|6477|1|1",
+					[27] = "c|5309|1|1,c|5310|1|1",
+					[28] = "c|10657|1|1,c|10658|1|0",
+					[30] = "c|4968|1|1,c|4967|1|0",
+					[4] = "c|9623|1|1,c|9624|1|1,c|9625|1|0",
+					[20] = "r|5335|1|1",
+					[22] = "c|11853|1|1,c|2694|1|0",
+					[10] = "r|3251|1|1",
+					[21] = "r|5342|5|1,r|5343|1|1",
+					[11] = "c|3452|1|1,c|3585|1|1",
+					[2] = "r|19182|4|1",
+				},
+				["Quests"] = {
+					"0|Darkmoon Faire", -- [1]
+					"1||0|0|0", -- [2]
+					"0|Gnomeregan", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Orgrimmar", -- [5]
+					"1||0|0|0", -- [6]
+					"0|Razorfen Kraul", -- [7]
+					"1|Dungeon|0|0|0", -- [8]
+					"0|Silverpine Forest", -- [9]
+					"1||0|0|1", -- [10]
+					"1||0|0|0", -- [11]
+					"0|Stonetalon Mountains", -- [12]
+					"1||0|700|1", -- [13]
+					"1||0|1100|0", -- [14]
+					"0|The Barrens", -- [15]
+					"1||0|0|0", -- [16]
+					"1||0|700|0", -- [17]
+					"1||0|800|0", -- [18]
+					"1||0|0|0", -- [19]
+					"1||0|0|0", -- [20]
+					"1||0|0|0", -- [21]
+					"1||0|1000|0", -- [22]
+					"1||0|1000|0", -- [23]
+					"1||0|0|0", -- [24]
+					"1||0|2500|0", -- [25]
+					"1||0|900|0", -- [26]
+					"1||0|0|0", -- [27]
+					"1||0|0|1", -- [28]
+					"0|Thunder Bluff", -- [29]
+					"1||0|0|0", -- [30]
+				},
+				["HistoryLastUpdate"] = 1471061554,
 			},
 			["Default.TrueWoW.Magistratus"] = {
-				["HistoryLastUpdate"] = 1452578548,
 				["History"] = {
 					[9215] = true,
 					[8468] = true,
@@ -492,16 +536,16 @@ DataStore_QuestsDB = {
 					[8347] = true,
 					[8885] = true,
 					[9139] = true,
-					[8890] = true,
+					[9145] = true,
 					[9133] = true,
 					[9135] = true,
-					[9149] = true,
+					[8894] = true,
 					[9394] = true,
 					[8886] = true,
-					[8888] = true,
-					[9145] = true,
-					[9147] = true,
-					[8894] = true,
+					[9143] = true,
+					[8890] = true,
+					[8892] = true,
+					[9149] = true,
 					[9151] = true,
 					[8488] = true,
 					[9155] = true,
@@ -509,20 +553,20 @@ DataStore_QuestsDB = {
 					[9159] = true,
 					[9161] = true,
 					[9163] = true,
-					[9175] = true,
+					[9685] = true,
 					[9677] = true,
 					[9169] = true,
-					[9171] = true,
+					[9681] = true,
 					[9173] = true,
-					[9685] = true,
+					[9175] = true,
 					[8895] = true,
 					[8490] = true,
 					[9691] = true,
 					[9176] = true,
-					[9681] = true,
+					[9171] = true,
 					[8884] = true,
-					[8892] = true,
-					[9143] = true,
+					[9147] = true,
+					[8888] = true,
 					[9193] = true,
 					[9705] = true,
 					[9395] = true,
@@ -533,319 +577,31 @@ DataStore_QuestsDB = {
 					[9207] = true,
 					[9180] = true,
 				},
+				["HistoryLastUpdate"] = 1470230326,
 				["QuestLinks"] = {
-					nil, -- [1]
-					"|cffffff00|Hquest:9167:21|h[The Traitor's Destruction]|h|r", -- [2]
-					"|cffffff00|Hquest:9156:21|h[Wanted: Knucklerot and Luzran]|h|r", -- [3]
-					[5] = "|cffff8040|Hquest:9692:23|h[The Path of the Adept]|h|r",
-					[7] = "|cff40c040|Hquest:14356:16|h[The Power to Destroy...]|h|r",
+					[2] = "|cffffff00|Hquest:9156:21|h[Wanted: Knucklerot and Luzran]|h|r",
+					[4] = "|cff40c040|Hquest:14356:16|h[The Power to Destroy...]|h|r",
 				},
 				["Rewards"] = {
-					nil, -- [1]
-					"c|22980|1|0,c|22982|1|0,c|22984|1|0,c|22995|1|1", -- [2]
-					"c|28303|1|1,c|22979|1|1", -- [3]
-					[7] = "c|15449|1|1,c|15450|1|1,c|15451|1|1",
+					[2] = "c|28303|1|1,c|22979|1|1",
+					[4] = "c|15449|1|1,c|15450|1|1,c|15451|1|1",
 				},
-				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1470230322,
 				["HistorySize"] = 129,
 				["Quests"] = {
 					"0|Ghostlands", -- [1]
-					"1|Group|5|4000|0", -- [2]
-					"1|Group|3|4000|0", -- [3]
-					"0|Paladin", -- [4]
-					"1|Dungeon|0|0|0", -- [5]
-					"0|Ragefire Chasm", -- [6]
-					"1|Dungeon|0|0|0", -- [7]
-				},
-				["lastUpdate"] = 1452578468,
-			},
-			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["History"] = {
-					[354] = true,
-					[355] = true,
-					[356] = true,
-					[3901] = true,
-					[358] = true,
-					[359] = true,
-					[360] = true,
-					[361] = true,
-					[362] = true,
-					[363] = true,
-					[427] = true,
-					[365] = true,
-					[367] = true,
-					[368] = true,
-					[370] = true,
-					[374] = true,
-					[375] = true,
-					[376] = true,
-					[380] = true,
-					[381] = true,
-					[382] = true,
-					[383] = true,
-					[590] = true,
-					[5481] = true,
-					[398] = true,
-					[6395] = true,
-					[5482] = true,
-					[404] = true,
-					[405] = true,
-					[407] = true,
-					[3902] = true,
-					[364] = true,
-					[8] = true,
-					[426] = true,
-					[1881] = true,
-				},
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cffffff00|Hquest:369:11|h[A New Plague]|h|r", -- [2]
+					"1|Group|3|4000|0", -- [2]
+					"0|Ragefire Chasm", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
 				},
 				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1454709682,
-				["HistorySize"] = 35,
-				["Quests"] = {
-					"0|Tirisfal Glades", -- [1]
-					"1||0|0|0", -- [2]
-				},
-				["HistoryLastUpdate"] = 1454709687,
 			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["HistoryBuild"] = "12340",
-				["HistoryLastUpdate"] = 1455088579,
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cffffff00|Hquest:862:23|h[Dig Rat Stew]|h|r", -- [2]
-					nil, -- [3]
-					"|cffffff00|Hquest:24614:-1|h[A Gift for the High Chieftain]|h|r", -- [4]
-					"|cffffff00|Hquest:24612:-1|h[A Gift for the Warchief]|h|r", -- [5]
-					nil, -- [6]
-					"|cffffff00|Hquest:8883:-1|h[Valadar Starsong]|h|r", -- [7]
-					nil, -- [8]
-					"|cffff2020|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [9]
-					nil, -- [10]
-					"|cff808080|Hquest:450:15|h[A Recipe For Death]|h|r", -- [11]
-					nil, -- [12]
-					"|cff40c040|Hquest:6401:18|h[Kaya's Alive]|h|r", -- [13]
-					"|cff40c040|Hquest:1062:19|h[Goblin Invaders]|h|r", -- [14]
-					nil, -- [15]
-					"|cff808080|Hquest:894:14|h[Samophlange]|h|r", -- [16]
-					"|cff808080|Hquest:872:15|h[The Disruption Ends]|h|r", -- [17]
-					"|cff40c040|Hquest:881:16|h[Echeyakee]|h|r", -- [18]
-					"|cff40c040|Hquest:875:16|h[Harpy Lieutenants]|h|r", -- [19]
-					"|cff40c040|Hquest:877:16|h[The Stagnant Oasis]|h|r", -- [20]
-					"|cff40c040|Hquest:896:18|h[Miner's Fortune]|h|r", -- [21]
-					"|cff40c040|Hquest:865:18|h[Raptor Horns]|h|r", -- [22]
-					"|cff40c040|Hquest:3281:18|h[Stolen Silver]|h|r", -- [23]
-					"|cff40c040|Hquest:851:18|h[Verog the Dervish]|h|r", -- [24]
-					"|cffffff00|Hquest:899:20|h[Consumed by Hatred]|h|r", -- [25]
-					"|cffffff00|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r", -- [26]
-					"|cffffff00|Hquest:4921:20|h[Lost in Battle]|h|r", -- [27]
-					"|cffffff00|Hquest:891:20|h[The Guns of Northwatch]|h|r", -- [28]
-					nil, -- [29]
-					"|cffffff00|Hquest:742:20|h[The Ashenvale Hunt]|h|r", -- [30]
-				},
-				["Rewards"] = {
-					[23] = "c|11853|1|1,c|2694|1|1",
-					[25] = "c|5314|1|1,c|6477|1|1",
-					[28] = "c|5309|1|1,c|5310|1|1",
-					[4] = "r|49941|1|1,r|49927|5|1",
-					[9] = "r|6414|1|1",
-					[17] = "c|5275|1|1,c|5328|1|1",
-					[2] = "r|5487|1|1,r|5478|5|1,r|10919|1|1",
-					[21] = "r|5335|1|1",
-					[22] = "r|5342|5|1,r|5343|1|1",
-					[5] = "r|49939|1|1,r|49927|5|1",
-				},
-				["lastUpdate"] = 1455088555,
-				["HistorySize"] = 150,
-				["Quests"] = {
-					"0|Cooking", -- [1]
-					"1||0|0|0", -- [2]
-					"0|Love is in the Air", -- [3]
-					"1||0|19000|0", -- [4]
-					"1||0|19000|0", -- [5]
-					"0|Lunar Festival", -- [6]
-					"1||0|0|0", -- [7]
-					"0|Shadowfang Keep", -- [8]
-					"1|Dungeon|0|0|1", -- [9]
-					"0|Silverpine Forest", -- [10]
-					"1||0|700|0", -- [11]
-					"0|Stonetalon Mountains", -- [12]
-					"1||0|700|1", -- [13]
-					"1||0|1100|0", -- [14]
-					"0|The Barrens", -- [15]
-					"1||0|0|0", -- [16]
-					"1||0|0|0", -- [17]
-					"1||0|0|0", -- [18]
-					"1||0|800|0", -- [19]
-					"1||0|0|0", -- [20]
-					"1||0|0|0", -- [21]
-					"1||0|0|0", -- [22]
-					"1||0|1000|0", -- [23]
-					"1||0|1000|0", -- [24]
-					"1||0|0|0", -- [25]
-					"1||0|2500|0", -- [26]
-					"1||0|900|0", -- [27]
-					"1||0|0|0", -- [28]
-					"0|Thunder Bluff", -- [29]
-					"1||0|0|0", -- [30]
-				},
-				["History"] = {
-					[806] = true,
-					[870] = true,
-					[743] = true,
-					[775] = true,
-					[871] = true,
-					[903] = true,
-					[744] = true,
-					[776] = true,
-					[808] = true,
-					[840] = true,
-					[1486] = true,
-					[4641] = true,
-					[745] = true,
-					[809] = true,
-					[421] = true,
-					[437] = true,
-					[24850] = true,
-					[746] = true,
-					[842] = true,
-					[4402] = true,
-					[24882] = true,
-					[747] = true,
-					[422] = true,
-					[1492] = true,
-					[748] = true,
-					[780] = true,
-					[812] = true,
-					[844] = true,
-					[5441] = true,
-					[813] = true,
-					[845] = true,
-					[3369] = true,
-					[750] = true,
-					[6981] = true,
-					[1498] = true,
-					[751] = true,
-					[815] = true,
-					[3376] = true,
-					[24536] = true,
-					[752] = true,
-					[784] = true,
-					[816] = true,
-					[5723] = true,
-					[8867] = true,
-					[5726] = true,
-					[5727] = true,
-					[5728] = true,
-					[5729] = true,
-					[5730] = true,
-					[24851] = true,
-					[754] = true,
-					[786] = true,
-					[818] = true,
-					[850] = true,
-					[8648] = true,
-					[755] = true,
-					[1061] = true,
-					[756] = true,
-					[788] = true,
-					[8674] = true,
-					[8678] = true,
-					[8680] = true,
-					[757] = true,
-					[5761] = true,
-					[758] = true,
-					[790] = true,
-					[854] = true,
-					[886] = true,
-					[759] = true,
-					[791] = true,
-					[823] = true,
-					[428] = true,
-					[887] = true,
-					[6548] = true,
-					[760] = true,
-					[792] = true,
-					[888] = true,
-					[14356] = true,
-					[761] = true,
-					[825] = true,
-					[429] = true,
-					[794] = true,
-					[826] = true,
-					[890] = true,
-					[5041] = true,
-					[763] = true,
-					[827] = true,
-					[764] = true,
-					[828] = true,
-					[860] = true,
-					[892] = true,
-					[924] = true,
-					[765] = true,
-					[829] = true,
-					[861] = true,
-					[447] = true,
-					[1656] = true,
-					[766] = true,
-					[830] = true,
-					[11129] = true,
-					[2161] = true,
-					[767] = true,
-					[831] = true,
-					[895] = true,
-					[768] = true,
-					[832] = true,
-					[6361] = true,
-					[6362] = true,
-					[6363] = true,
-					[6364] = true,
-					[24576] = true,
-					[24635] = true,
-					[833] = true,
-					[1503] = true,
-					[1502] = true,
-					[6523] = true,
-					[6629] = true,
-					[24857] = true,
-					[770] = true,
-					[24890] = true,
-					[834] = true,
-					[855] = true,
-					[8645] = true,
-					[24881] = true,
-					[848] = true,
-					[789] = true,
-					[771] = true,
-					[753] = true,
-					[835] = true,
-					[867] = true,
-					[8677] = true,
-					[5722] = true,
-					[8717] = true,
-					[5724] = true,
-					[772] = true,
-					[804] = true,
-					[926] = true,
-					[3091] = true,
-					[6394] = true,
-					[8873] = true,
-					[1505] = true,
-					[749] = true,
-					[773] = true,
-					[805] = true,
-					[837] = true,
-					[869] = true,
-					[817] = true,
-					[8670] = true,
-					[24541] = true,
-					[24805] = true,
-				},
+				["lastUpdate"] = 1454109278,
+				["HistoryLastUpdate"] = 1454108179,
 			},
 			["Default.TrueWoW.Duglazerp"] = {
-				["HistoryLastUpdate"] = 1452579104,
 				["History"] = {
 					[757] = true,
 					[11560] = true,
@@ -1070,31 +826,31 @@ DataStore_QuestsDB = {
 					[8769] = true,
 					[743] = true,
 					[752] = true,
-					[4402] = true,
-					[1502] = true,
 					[744] = true,
-					[11871] = true,
+					[1502] = true,
+					[4402] = true,
+					[745] = true,
 					[6961] = true,
 					[11867] = true,
-					[745] = true,
+					[11871] = true,
 					[751] = true,
 					[13412] = true,
-					[8326] = true,
-					[746] = true,
-					[748] = true,
-					[8350] = true,
-					[24789] = true,
 					[747] = true,
+					[746] = true,
+					[11919] = true,
+					[8861] = true,
+					[24789] = true,
+					[8326] = true,
 					[8330] = true,
 					[8334] = true,
 					[8338] = true,
-					[11919] = true,
+					[748] = true,
 					[750] = true,
-					[8861] = true,
+					[8350] = true,
 					[11931] = true,
 					[749] = true,
-					[11943] = true,
 					[1498] = true,
+					[11943] = true,
 					[11664] = true,
 					[11951] = true,
 					[11879] = true,
@@ -1124,6 +880,7 @@ DataStore_QuestsDB = {
 					[11591] = true,
 					[11593] = true,
 				},
+				["HistoryLastUpdate"] = 1470819773,
 				["QuestLinks"] = {
 					nil, -- [1]
 					"|cff808080|Hquest:11916:71|h[Hellscream's Champion]|h|r", -- [2]
@@ -1156,16 +913,16 @@ DataStore_QuestsDB = {
 					[27] = "c|44404|1|1,c|44405|1|1,c|44407|1|1,c|44406|1|1",
 					[3] = "c|37282|1|1,c|37320|1|1,c|37458|1|1,c|37471|1|1",
 					[7] = "c|38252|1|1,c|38251|1|1,c|38250|1|1",
-					[2] = "c|38238|1|0,c|38237|1|1,c|38240|1|1,c|38241|1|1,c|38242|1|1,c|38239|1|1",
+					[20] = "c|38223|1|1,c|38222|1|1,c|38221|1|1",
 					[18] = "c|43181|1|1,c|43182|1|1,c|43183|1|1,c|43184|1|1",
 					[19] = "c|42758|1|1,c|42761|1|1,c|42763|1|1,c|42765|1|1",
-					[20] = "c|38223|1|1,c|38222|1|1,c|38221|1|1",
-					[21] = "c|42760|1|1,c|42762|1|1,c|42768|1|1",
+					[2] = "c|38238|1|0,c|38237|1|1,c|38240|1|1,c|38241|1|1,c|38242|1|1,c|38239|1|1",
+					[21] = "c|42760|1|1,c|42762|1|1,c|42766|1|1,c|42767|1|1,c|42768|1|1",
 					[5] = "c|37274|1|1,c|37352|1|1,c|37442|1|1,c|37530|1|1",
 					[28] = "c|44408|1|1,c|44409|1|1,c|44410|1|1,c|44412|1|1,c|44411|1|1",
 				},
-				["HistoryBuild"] = "12340",
-				["HistorySize"] = 276,
+				["lastUpdate"] = 1470820802,
+				["HistorySize"] = 259,
 				["Quests"] = {
 					"0|Borean Tundra", -- [1]
 					"1||0|36300|0", -- [2]
@@ -1198,305 +955,10 @@ DataStore_QuestsDB = {
 					"0|Warrior", -- [29]
 					"1||0|150|0", -- [30]
 				},
-				["lastUpdate"] = 1452579101,
-			},
-			["Default.PrimalWoW (Progressive).Saptack"] = {
 				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1454109278,
-				["HistoryLastUpdate"] = 1454108179,
-			},
-			["Default.TrueWoW.Lichmydk"] = {
-				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1451300494,
-				["HistoryLastUpdate"] = 1451302283,
-			},
-			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["HistoryLastUpdate"] = 1454904225,
-				["History"] = {
-					[806] = true,
-					[870] = true,
-					[356] = true,
-					[743] = true,
-					[775] = true,
-					[404] = true,
-					[871] = true,
-					[903] = true,
-					[744] = true,
-					[776] = true,
-					[808] = true,
-					[840] = true,
-					[1486] = true,
-					[4641] = true,
-					[1359] = true,
-					[3094] = true,
-					[745] = true,
-					[405] = true,
-					[421] = true,
-					[437] = true,
-					[5926] = true,
-					[746] = true,
-					[5930] = true,
-					[5932] = true,
-					[24882] = true,
-					[358] = true,
-					[24890] = true,
-					[422] = true,
-					[1492] = true,
-					[6961] = true,
-					[748] = true,
-					[780] = true,
-					[812] = true,
-					[844] = true,
-					[359] = true,
-					[749] = true,
-					[407] = true,
-					[590] = true,
-					[3369] = true,
-					[750] = true,
-					[264] = true,
-					[6981] = true,
-					[360] = true,
-					[751] = true,
-					[815] = true,
-					[3376] = true,
-					[752] = true,
-					[784] = true,
-					[816] = true,
-					[5723] = true,
-					[5724] = true,
-					[5726] = true,
-					[5727] = true,
-					[753] = true,
-					[5729] = true,
-					[817] = true,
-					[8883] = true,
-					[754] = true,
-					[786] = true,
-					[8] = true,
-					[850] = true,
-					[8648] = true,
-					[362] = true,
-					[755] = true,
-					[1061] = true,
-					[410] = true,
-					[426] = true,
-					[3902] = true,
-					[756] = true,
-					[788] = true,
-					[8678] = true,
-					[8680] = true,
-					[757] = true,
-					[5761] = true,
-					[411] = true,
-					[427] = true,
-					[27] = true,
-					[28] = true,
-					[30] = true,
-					[758] = true,
-					[790] = true,
-					[854] = true,
-					[886] = true,
-					[759] = true,
-					[791] = true,
-					[823] = true,
-					[428] = true,
-					[887] = true,
-					[6548] = true,
-					[760] = true,
-					[792] = true,
-					[789] = true,
-					[855] = true,
-					[888] = true,
-					[8867] = true,
-					[845] = true,
-					[365] = true,
-					[761] = true,
-					[435] = true,
-					[825] = true,
-					[429] = true,
-					[445] = true,
-					[8717] = true,
-					[24891] = true,
-					[5730] = true,
-					[5441] = true,
-					[794] = true,
-					[826] = true,
-					[872] = true,
-					[890] = true,
-					[357] = true,
-					[5041] = true,
-					[366] = true,
-					[763] = true,
-					[398] = true,
-					[827] = true,
-					[430] = true,
-					[6394] = true,
-					[5728] = true,
-					[376] = true,
-					[1358] = true,
-					[764] = true,
-					[3221] = true,
-					[828] = true,
-					[860] = true,
-					[892] = true,
-					[924] = true,
-					[375] = true,
-					[1487] = true,
-					[383] = true,
-					[431] = true,
-					[829] = true,
-					[861] = true,
-					[447] = true,
-					[380] = true,
-					[1656] = true,
-					[867] = true,
-					[766] = true,
-					[835] = true,
-					[830] = true,
-					[11129] = true,
-					[409] = true,
-					[2161] = true,
-					[771] = true,
-					[6126] = true,
-					[767] = true,
-					[354] = true,
-					[831] = true,
-					[361] = true,
-					[895] = true,
-					[765] = true,
-					[747] = true,
-					[5481] = true,
-					[382] = true,
-					[6629] = true,
-					[832] = true,
-					[6361] = true,
-					[6362] = true,
-					[6363] = true,
-					[6364] = true,
-					[5722] = true,
-					[813] = true,
-					[5922] = true,
-					[833] = true,
-					[6002] = true,
-					[449] = true,
-					[4402] = true,
-					[818] = true,
-					[24857] = true,
-					[770] = true,
-					[381] = true,
-					[834] = true,
-					[374] = true,
-					[8645] = true,
-					[926] = true,
-					[962] = true,
-					[370] = true,
-					[6127] = true,
-					[6128] = true,
-					[6129] = true,
-					[6130] = true,
-					[372] = true,
-					[408] = true,
-					[14356] = true,
-					[5482] = true,
-					[772] = true,
-					[804] = true,
-					[809] = true,
-					[842] = true,
-					[8677] = true,
-					[6395] = true,
-					[355] = true,
-					[371] = true,
-					[773] = true,
-					[805] = true,
-					[837] = true,
-					[869] = true,
-					[8873] = true,
-					[1098] = true,
-					[31] = true,
-					[848] = true,
-				},
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cff808080|Hquest:9428:20|h[Report to Splintertree Post]|h|r", -- [2]
-					nil, -- [3]
-					"|cff808080|Hquest:235:20|h[The Ashenvale Hunt]|h|r", -- [4]
-					nil, -- [5]
-					"|cffffff00|Hquest:1109:26|h[Going, Going, Guano!]|h|r", -- [6]
-					nil, -- [7]
-					"|cffffff00|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [8]
-					nil, -- [9]
-					"|cff808080|Hquest:423:14|h[Arugal's Folly]|h|r", -- [10]
-					"|cff808080|Hquest:477:14|h[Border Crossings]|h|r", -- [11]
-					"|cff808080|Hquest:450:15|h[A Recipe For Death]|h|r", -- [12]
-					"|cff808080|Hquest:439:16|h[Rot Hide Clues]|h|r", -- [13]
-					"|cff808080|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [14]
-					"|cff40c040|Hquest:516:21|h[Beren's Peril]|h|r", -- [15]
-					nil, -- [16]
-					"|cff808080|Hquest:1062:19|h[Goblin Invaders]|h|r", -- [17]
-					nil, -- [18]
-					"|cff808080|Hquest:894:14|h[Samophlange]|h|r", -- [19]
-					"|cff808080|Hquest:881:16|h[Echeyakee]|h|r", -- [20]
-					"|cff808080|Hquest:875:16|h[Harpy Lieutenants]|h|r", -- [21]
-					"|cff808080|Hquest:877:16|h[The Stagnant Oasis]|h|r", -- [22]
-					"|cff808080|Hquest:896:18|h[Miner's Fortune]|h|r", -- [23]
-					"|cff808080|Hquest:865:18|h[Raptor Horns]|h|r", -- [24]
-					"|cff808080|Hquest:3281:18|h[Stolen Silver]|h|r", -- [25]
-					"|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r", -- [26]
-					"|cff808080|Hquest:899:20|h[Consumed by Hatred]|h|r", -- [27]
-					"|cff808080|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r", -- [28]
-					"|cff808080|Hquest:4921:20|h[Lost in Battle]|h|r", -- [29]
-					"|cff808080|Hquest:891:20|h[The Guns of Northwatch]|h|r", -- [30]
-					nil, -- [31]
-					"|cffffff00|Hquest:1195:25|h[The Sacred Flame]|h|r", -- [32]
-				},
-				["Rewards"] = {
-					[23] = "r|5335|1|1",
-					[27] = "c|5314|1|1,c|6477|1|1",
-					[24] = "r|5342|5|1,r|5343|1|1",
-					[8] = "r|6414|1|1",
-					[25] = "c|11853|1|1,c|2694|1|0",
-					[15] = "r|5252|1|0",
-					[30] = "c|5309|1|0,c|5310|1|1",
-				},
-				["HistoryBuild"] = "12340",
-				["HistorySize"] = 200,
-				["Quests"] = {
-					"0|Ashenvale", -- [1]
-					"1||0|0|0", -- [2]
-					"0|Orgrimmar", -- [3]
-					"1||0|0|0", -- [4]
-					"0|Razorfen Kraul", -- [5]
-					"1|Dungeon|0|0|1", -- [6]
-					"0|Shadowfang Keep", -- [7]
-					"1|Dungeon|0|0|1", -- [8]
-					"0|Silverpine Forest", -- [9]
-					"1||0|600|0", -- [10]
-					"1||0|0|0", -- [11]
-					"1||0|700|0", -- [12]
-					"1||0|0|1", -- [13]
-					"1||0|900|1", -- [14]
-					"1||0|0|0", -- [15]
-					"0|Stonetalon Mountains", -- [16]
-					"1||0|1100|0", -- [17]
-					"0|The Barrens", -- [18]
-					"1||0|0|0", -- [19]
-					"1||0|0|0", -- [20]
-					"1||0|800|0", -- [21]
-					"1||0|0|0", -- [22]
-					"1||0|0|0", -- [23]
-					"1||0|0|0", -- [24]
-					"1||0|1000|0", -- [25]
-					"1||0|1000|0", -- [26]
-					"1||0|0|0", -- [27]
-					"1||0|2500|0", -- [28]
-					"1||0|900|0", -- [29]
-					"1||0|0|0", -- [30]
-					"0|Thunder Bluff", -- [31]
-					"1||0|3500|0", -- [32]
-				},
-				["lastUpdate"] = 1454907096,
 			},
 			["Default.TrueWoW.Ellipsis"] = {
+				["HistoryLastUpdate"] = 1470041415,
 				["History"] = {
 					[9705] = true,
 					[8563] = true,
@@ -1528,7 +990,7 @@ DataStore_QuestsDB = {
 					[8482] = true,
 					[8483] = true,
 					[9119] = true,
-					[8885] = true,
+					[24882] = true,
 					[8486] = true,
 					[8487] = true,
 					[9758] = true,
@@ -1546,8 +1008,8 @@ DataStore_QuestsDB = {
 					[9135] = true,
 					[10166] = true,
 					[10788] = true,
-					[9138] = true,
-					[24882] = true,
+					[8884] = true,
+					[8885] = true,
 					[8886] = true,
 					[8887] = true,
 					[8888] = true,
@@ -1562,8 +1024,8 @@ DataStore_QuestsDB = {
 					[9151] = true,
 					[9152] = true,
 					[8473] = true,
-					[9155] = true,
 					[9282] = true,
+					[9155] = true,
 					[9035] = true,
 					[9157] = true,
 					[9158] = true,
@@ -1603,268 +1065,35 @@ DataStore_QuestsDB = {
 					[9192] = true,
 					[9066] = true,
 					[9067] = true,
-					[8884] = true,
+					[9138] = true,
 					[9704] = true,
 					[14065] = true,
 				},
-				["HistoryLastUpdate"] = 1452577705,
 				["QuestLinks"] = {
 					nil, -- [1]
-					"|cffffff00|Hquest:9169:16|h[Deactivate An'owyn]|h|r", -- [2]
-					"|cffffff00|Hquest:9172:16|h[Report to Magister Kaendris]|h|r", -- [3]
-					"|cffffff00|Hquest:9216:16|h[Rotting Hearts]|h|r", -- [4]
-					"|cffffff00|Hquest:9193:17|h[Investigate the Amani Catacombs]|h|r", -- [5]
-					"|cffffff00|Hquest:9199:17|h[Troll Juju]|h|r", -- [6]
-					"|cffffff00|Hquest:9214:18|h[Shadowpine Weaponry]|h|r", -- [7]
-					"|cffffff00|Hquest:9218:18|h[Spinal Dust]|h|r", -- [8]
-					"|cffffff00|Hquest:9275:19|h[A Little Dash of Seasoning]|h|r", -- [9]
-					"|cffffff00|Hquest:9277:19|h[Assault on Zeb'Nowa]|h|r", -- [10]
-					"|cffffff00|Hquest:9215:20|h[Bring Me Kel'gash's Head!]|h|r", -- [11]
-					"|cffffff00|Hquest:9220:20|h[War on Deatholme]|h|r", -- [12]
-					"|cffff8040|Hquest:9156:21|h[Wanted: Knucklerot and Luzran]|h|r", -- [13]
-					[19] = "|cffffff00|Hquest:962:18|h[Serpentbloom]|h|r",
-					[20] = "|cffff8040|Hquest:1487:21|h[Deviate Eradication]|h|r",
-					[17] = "|cff40c040|Hquest:5723:15|h[Testing an Enemy's Strength]|h|r",
-					[21] = "|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r",
-					[15] = "|cffffff00|Hquest:14036:-1|h[Pilgrim's Bounty]|h|r",
+					"|cff40c040|Hquest:5723:15|h[Testing an Enemy's Strength]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:962:18|h[Serpentbloom]|h|r", -- [4]
+					"|cffff8040|Hquest:1487:21|h[Deviate Eradication]|h|r", -- [5]
+					"|cffff2020|Hquest:6981:26|h[The Glowing Shard]|h|r", -- [6]
 				},
 				["Rewards"] = {
-					[6] = "c|28156|1|1,c|28159|1|0,c|28163|1|0",
-					[13] = "c|28303|1|1,c|22979|1|1",
-					[3] = "c|28154|1|1,c|28157|1|0,c|28161|1|0",
-					[8] = "r|22778|1|1",
-					[4] = "r|22779|1|1",
-					[19] = "r|10919|1|1",
-					[20] = "c|6476|1|0,c|8071|1|1,c|6481|1|0",
-					[2] = "c|23400|1|1,c|23401|1|1,c|28160|1|0",
-					[11] = "c|23409|1|0,c|23410|1|0,c|23411|1|1",
-					[10] = "c|23406|1|0,c|23407|1|1,c|23408|1|0",
-				},
-				["lastUpdate"] = 1452577701,
-				["HistorySize"] = 108,
-				["Quests"] = {
-					"0|Ghostlands", -- [1]
-					"1||0|1600|0", -- [2]
-					"1||0|800|1", -- [3]
-					"1||0|0|0", -- [4]
-					"1||0|900|0", -- [5]
-					"1||0|900|0", -- [6]
-					"1||0|1000|0", -- [7]
-					"1||0|0|0", -- [8]
-					"1||0|1100|0", -- [9]
-					"1||0|1100|0", -- [10]
-					"1|Group|2|2500|0", -- [11]
-					"1||0|2500|0", -- [12]
-					"1|Group|3|4000|0", -- [13]
-					"0|Pilgrim's Bounty", -- [14]
-					"1||0|0|0", -- [15]
-					"0|Ragefire Chasm", -- [16]
-					"1|Dungeon|0|700|1", -- [17]
-					"0|Wailing Caverns", -- [18]
-					"1||0|1000|1", -- [19]
-					"1|Dungeon|0|2500|1", -- [20]
-					"1||0|0|0", -- [21]
+					[4] = "r|10919|1|1",
+					[5] = "c|6476|1|0,c|8071|1|1,c|6481|1|0",
 				},
 				["HistoryBuild"] = "12340",
-			},
-			["Default.TrueWoW.Shiftace"] = {
-				["History"] = {
-					[743] = true,
-					[775] = true,
-					[8468] = true,
-					[8472] = true,
-					[8474] = true,
-					[8476] = true,
-					[776] = true,
-					[8480] = true,
-					[8482] = true,
-					[8486] = true,
-					[9253] = true,
-					[9255] = true,
-					[745] = true,
-					[5922] = true,
-					[5926] = true,
-					[746] = true,
-					[5930] = true,
-					[5932] = true,
-					[747] = true,
-					[748] = true,
-					[780] = true,
-					[9315] = true,
-					[9062] = true,
-					[9064] = true,
-					[9066] = true,
-					[9329] = true,
-					[9076] = true,
-					[750] = true,
-					[8325] = true,
-					[8327] = true,
-					[751] = true,
-					[8335] = true,
-					[9359] = true,
-					[3376] = true,
-					[8345] = true,
-					[8347] = true,
-					[752] = true,
-					[753] = true,
-					[9138] = true,
-					[9140] = true,
-					[8887] = true,
-					[8889] = true,
-					[754] = true,
-					[9148] = true,
-					[8895] = true,
-					[9152] = true,
-					[9158] = true,
-					[9160] = true,
-					[755] = true,
-					[9166] = true,
-					[6002] = true,
-					[9172] = true,
-					[9174] = true,
-					[756] = true,
-					[9192] = true,
-					[9704] = true,
-					[758] = true,
-					[9212] = true,
-					[854] = true,
-					[886] = true,
-					[759] = true,
-					[8463] = true,
-					[8473] = true,
-					[8475] = true,
-					[8477] = true,
-					[8479] = true,
-					[9758] = true,
-					[8487] = true,
-					[9254] = true,
-					[9256] = true,
-					[761] = true,
-					[9274] = true,
-					[9276] = true,
-					[9282] = true,
-					[763] = true,
-					[764] = true,
-					[860] = true,
-					[9067] = true,
-					[9363] = true,
-					[10166] = true,
-					[861] = true,
-					[9258] = true,
-					[9146] = true,
-					[1656] = true,
-					[8490] = true,
-					[766] = true,
-					[9150] = true,
-					[9252] = true,
-					[11129] = true,
-					[8326] = true,
-					[9705] = true,
-					[8330] = true,
-					[9352] = true,
-					[767] = true,
-					[8336] = true,
-					[9358] = true,
-					[9360] = true,
-					[9216] = true,
-					[3094] = true,
-					[8338] = true,
-					[9395] = true,
-					[8350] = true,
-					[765] = true,
-					[9119] = true,
-					[6361] = true,
-					[6362] = true,
-					[6363] = true,
-					[6364] = true,
-					[9139] = true,
-					[8888] = true,
-					[9145] = true,
-					[833] = true,
-					[8892] = true,
-					[8884] = true,
-					[8886] = true,
-					[9143] = true,
-					[24857] = true,
-					[9147] = true,
-					[8894] = true,
-					[9151] = true,
-					[771] = true,
-					[9155] = true,
-					[9157] = true,
-					[9159] = true,
-					[9161] = true,
-					[9163] = true,
-					[9394] = true,
-					[8488] = true,
-					[9149] = true,
-					[9171] = true,
-					[9173] = true,
-					[8885] = true,
-					[8890] = true,
-					[772] = true,
-					[8334] = true,
-					[757] = true,
-					[9162] = true,
-					[744] = true,
-					[760] = true,
-					[9144] = true,
-					[9193] = true,
-					[773] = true,
-					[8483] = true,
-					[9199] = true,
-					[8491] = true,
-					[8891] = true,
-					[9035] = true,
-					[9207] = true,
-					[749] = true,
-				},
-				["HistoryLastUpdate"] = 1452578990,
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cffffff00|Hquest:9169:16|h[Deactivate An'owyn]|h|r", -- [2]
-					"|cffffff00|Hquest:9176:17|h[The Twin Ziggurats]|h|r", -- [3]
-					"|cffffff00|Hquest:9281:18|h[Clearing the Way]|h|r", -- [4]
-					"|cffffff00|Hquest:9214:18|h[Shadowpine Weaponry]|h|r", -- [5]
-					"|cffffff00|Hquest:9218:18|h[Spinal Dust]|h|r", -- [6]
-					"|cffffff00|Hquest:9275:19|h[A Little Dash of Seasoning]|h|r", -- [7]
-					"|cffffff00|Hquest:9277:19|h[Assault on Zeb'Nowa]|h|r", -- [8]
-					"|cffffff00|Hquest:9215:20|h[Bring Me Kel'gash's Head!]|h|r", -- [9]
-					"|cffffff00|Hquest:9220:20|h[War on Deatholme]|h|r", -- [10]
-					"|cffff8040|Hquest:9156:21|h[Wanted: Knucklerot and Luzran]|h|r", -- [11]
-					[13] = "|cff40c040|Hquest:5723:15|h[Testing an Enemy's Strength]|h|r",
-					[14] = "|cffffff00|Hquest:5722:16|h[Searching for the Lost Satchel]|h|r",
-				},
-				["HistorySize"] = 149,
-				["HistoryBuild"] = "12340",
-				["Rewards"] = {
-					[6] = "r|22778|1|1",
-					[2] = "c|23400|1|1,c|23401|1|1,c|28160|1|0",
-					[11] = "c|28303|1|1,c|22979|1|1",
-					[3] = "c|22783|1|0,c|22784|1|1",
-					[8] = "c|23406|1|0,c|23407|1|1,c|23408|1|1",
-					[9] = "c|23409|1|0,c|23410|1|0,c|23411|1|1",
-				},
+				["HistorySize"] = 107,
 				["Quests"] = {
-					"0|Ghostlands", -- [1]
-					"1||0|1600|0", -- [2]
-					"1||0|900|0", -- [3]
-					"1||0|2000|0", -- [4]
-					"1||0|1000|0", -- [5]
+					"0|Ragefire Chasm", -- [1]
+					"1|Dungeon|0|700|1", -- [2]
+					"0|Wailing Caverns", -- [3]
+					"1||0|1000|1", -- [4]
+					"1|Dungeon|0|2500|1", -- [5]
 					"1||0|0|0", -- [6]
-					"1||0|1100|0", -- [7]
-					"1||0|1100|0", -- [8]
-					"1|Group|2|2500|0", -- [9]
-					"1||0|2500|0", -- [10]
-					"1|Group|3|4000|0", -- [11]
-					"0|Ragefire Chasm", -- [12]
-					"1|Dungeon|0|700|0", -- [13]
-					"1|Dungeon|0|0|0", -- [14]
 				},
-				["lastUpdate"] = 1452578989,
+				["lastUpdate"] = 1470041400,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["HistoryLastUpdate"] = 1455321523,
 				["History"] = {
 					[1512] = true,
 					[6548] = true,
@@ -2072,9 +1301,9 @@ DataStore_QuestsDB = {
 					[1471] = true,
 					[6384] = true,
 					[6386] = true,
-					[865] = true,
-					[8677] = true,
 					[5881] = true,
+					[8677] = true,
+					[865] = true,
 					[6394] = true,
 					[1473] = true,
 					[369] = true,
@@ -2083,7 +1312,7 @@ DataStore_QuestsDB = {
 					[444] = true,
 					[850] = true,
 					[867] = true,
-					[1478] = true,
+					[8717] = true,
 					[877] = true,
 					[370] = true,
 					[868] = true,
@@ -2101,11 +1330,11 @@ DataStore_QuestsDB = {
 					[871] = true,
 					[6442] = true,
 					[4402] = true,
-					[372] = true,
+					[744] = true,
 					[872] = true,
 					[747] = true,
-					[4921] = true,
 					[745] = true,
+					[4921] = true,
 					[1489] = true,
 					[1490] = true,
 					[815] = true,
@@ -2115,7 +1344,7 @@ DataStore_QuestsDB = {
 					[492] = true,
 					[6981] = true,
 					[875] = true,
-					[744] = true,
+					[372] = true,
 					[3376] = true,
 					[374] = true,
 					[438] = true,
@@ -2123,7 +1352,7 @@ DataStore_QuestsDB = {
 					[788] = true,
 					[749] = true,
 					[8873] = true,
-					[8717] = true,
+					[1478] = true,
 					[757] = true,
 					[375] = true,
 					[439] = true,
@@ -2153,31 +1382,39 @@ DataStore_QuestsDB = {
 					[6544] = true,
 					[1096] = true,
 				},
+				["HistoryLastUpdate"] = 1470657815,
 				["QuestLinks"] = {
 					nil, -- [1]
 					"|cff808080|Hquest:6543:19|h[The Warsong Reports]|h|r", -- [2]
 					"|cff808080|Hquest:6547:21|h[Warsong Scout Update]|h|r", -- [3]
 					"|cff40c040|Hquest:25:25|h[Stonetalon Standstill]|h|r", -- [4]
 					"|cff40c040|Hquest:6441:26|h[Satyr Horns]|h|r", -- [5]
-					[23] = "|cffffff00|Hquest:5147:29|h[Wanted - Arnak Grimtotem]|h|r",
-					[12] = "|cff808080|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r",
-					[24] = "|cffffff00|Hquest:4767:29|h[Wind Rider]|h|r",
-					[26] = "|cff808080|Hquest:1065:18|h[Journey to Tarren Mill]|h|r",
-					[27] = "|cff40c040|Hquest:1195:25|h[The Sacred Flame]|h|r",
-					[28] = "|cffffff00|Hquest:1131:30|h[Steelsnap]|h|r",
-					[7] = "|cff808080|Hquest:9425:20|h[Report to Tarren Mill]|h|r",
-					[11] = "|cff808080|Hquest:446:16|h[Thule Ravenclaw]|h|r",
-					[16] = "|cff808080|Hquest:3301:15|h[Mura Runetotem]|h|r",
-					[17] = "|cff808080|Hquest:3923:18|h[Rilli Greasygob]|h|r",
-					[9] = "|cff40c040|Hquest:1014:27|h[Arugal Must Die]|h|r",
-					[18] = "|cff808080|Hquest:852:19|h[Hezrul Bloodmark]|h|r",
-					[20] = "|cff40c040|Hquest:4865:26|h[Serpent Wild]|h|r",
-					[21] = "|cff40c040|Hquest:9431:28|h[A Different Approach]|h|r",
-					[22] = "|cff40c040|Hquest:5064:28|h[Grimtotem Spying]|h|r",
-					[14] = "|cff40c040|Hquest:6283:26|h[Bloodfury Bloodline]|h|r",
+					nil, -- [6]
+					"|cff808080|Hquest:9425:20|h[Report to Tarren Mill]|h|r", -- [7]
+					nil, -- [8]
+					"|cff40c040|Hquest:1014:27|h[Arugal Must Die]|h|r", -- [9]
+					nil, -- [10]
+					"|cff808080|Hquest:446:16|h[Thule Ravenclaw]|h|r", -- [11]
+					"|cff808080|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [12]
+					nil, -- [13]
+					"|cff40c040|Hquest:6283:26|h[Bloodfury Bloodline]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:3301:15|h[Mura Runetotem]|h|r", -- [16]
+					"|cff808080|Hquest:3923:18|h[Rilli Greasygob]|h|r", -- [17]
+					"|cff808080|Hquest:852:19|h[Hezrul Bloodmark]|h|r", -- [18]
+					nil, -- [19]
+					"|cff40c040|Hquest:4865:26|h[Serpent Wild]|h|r", -- [20]
+					"|cff40c040|Hquest:9431:28|h[A Different Approach]|h|r", -- [21]
+					"|cff40c040|Hquest:5064:28|h[Grimtotem Spying]|h|r", -- [22]
+					"|cffffff00|Hquest:5147:29|h[Wanted - Arnak Grimtotem]|h|r", -- [23]
+					"|cffffff00|Hquest:4767:29|h[Wind Rider]|h|r", -- [24]
+					nil, -- [25]
+					"|cff808080|Hquest:1065:18|h[Journey to Tarren Mill]|h|r", -- [26]
+					"|cff40c040|Hquest:1195:25|h[The Sacred Flame]|h|r", -- [27]
+					"|cffffff00|Hquest:1131:30|h[Steelsnap]|h|r", -- [28]
 				},
-				["HistorySize"] = 286,
-				["lastUpdate"] = 1455321519,
+				["HistorySize"] = 272,
+				["HistoryBuild"] = "12340",
 				["Rewards"] = {
 					[23] = "c|15471|1|0,c|15470|1|0",
 					[24] = "r|4265|2|1",
@@ -2185,8 +1422,8 @@ DataStore_QuestsDB = {
 					[16] = "c|10820|1|1,c|10821|1|1",
 					[18] = "r|5351|1|1",
 					[9] = "r|6414|1|1",
-					[22] = "c|15457|1|1,c|15458|1|0,c|15459|1|0",
 					[11] = "r|3251|1|1",
+					[22] = "c|15457|1|1,c|15458|1|0,c|15459|1|0",
 					[14] = "c|16990|1|1,c|16987|1|0",
 				},
 				["Quests"] = {
@@ -2219,10 +1456,93 @@ DataStore_QuestsDB = {
 					"1||0|3500|0", -- [27]
 					"1||0|0|0", -- [28]
 				},
-				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1470657811,
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["lastUpdate"] = 1470746225,
+				["HistoryLastUpdate"] = 1470744737,
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff808080|Hquest:9428:20|h[Report to Splintertree Post]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:6921:27|h[Amongst the Ruins]|h|r", -- [4]
+					"|cff40c040|Hquest:6561:27|h[Blackfathom Villainy]|h|r", -- [5]
+					nil, -- [6]
+					"|cffffff00|Hquest:8873:-1|h[The Lunar Festival]|h|r", -- [7]
+					"|cffffff00|Hquest:8883:-1|h[Valadar Starsong]|h|r", -- [8]
+					nil, -- [9]
+					"|cff808080|Hquest:446:16|h[Thule Ravenclaw]|h|r", -- [10]
+					"|cff808080|Hquest:460:17|h[Resting in Pieces]|h|r", -- [11]
+					"|cff808080|Hquest:516:21|h[Beren's Peril]|h|r", -- [12]
+					nil, -- [13]
+					"|cff808080|Hquest:1062:19|h[Goblin Invaders]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:880:16|h[Altered Beings]|h|r", -- [16]
+					"|cff808080|Hquest:905:17|h[The Angry Scytheclaws]|h|r", -- [17]
+					"|cff808080|Hquest:3923:18|h[Rilli Greasygob]|h|r", -- [18]
+					"|cff808080|Hquest:3281:18|h[Stolen Silver]|h|r", -- [19]
+					"|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r", -- [20]
+					"|cff808080|Hquest:899:20|h[Consumed by Hatred]|h|r", -- [21]
+					"|cff808080|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r", -- [22]
+					"|cff808080|Hquest:1060:20|h[Letter to Jin'Zil]|h|r", -- [23]
+					"|cff808080|Hquest:891:20|h[The Guns of Northwatch]|h|r", -- [24]
+					"|cff808080|Hquest:878:21|h[Tribes at War]|h|r", -- [25]
+					"|cff808080|Hquest:1483:21|h[Ziz Fizziks]|h|r", -- [26]
+					"|cff808080|Hquest:868:22|h[Egg Hunt]|h|r", -- [27]
+					"|cff40c040|Hquest:893:24|h[Weapons of Choice]|h|r", -- [28]
+					[33] = "|cff808080|Hquest:1487:21|h[Deviate Eradication]|h|r",
+					[30] = "|cff808080|Hquest:742:20|h[The Ashenvale Hunt]|h|r",
+					[32] = "|cff808080|Hquest:1486:17|h[Deviate Hides]|h|r",
+				},
+				["HistorySize"] = 209,
 				["HistoryBuild"] = "12340",
+				["Rewards"] = {
+					[24] = "c|5309|1|0,c|5310|1|1",
+					[27] = "c|6503|1|1,c|6502|1|0",
+					[28] = "c|5322|1|0,c|5323|1|1",
+					[33] = "c|6476|1|0,c|8071|1|1,c|6481|1|0",
+					[5] = "c|7001|1|1,c|7002|1|0",
+					[19] = "c|11853|1|0,c|2694|1|0",
+					[10] = "r|3251|1|1",
+					[21] = "c|5314|1|1,c|6477|1|1",
+					[12] = "r|5252|1|1",
+					[32] = "c|6480|1|0,c|918|1|1",
+				},
+				["Quests"] = {
+					"0|Ashenvale", -- [1]
+					"1||0|0|0", -- [2]
+					"0|Blackfathom Deeps", -- [3]
+					"1|Dungeon|0|4500|0", -- [4]
+					"1|Dungeon|0|6500|1", -- [5]
+					"0|Lunar Festival", -- [6]
+					"1||0|0|0", -- [7]
+					"1||0|0|0", -- [8]
+					"0|Silverpine Forest", -- [9]
+					"1||0|0|1", -- [10]
+					"1||0|0|1", -- [11]
+					"1||0|0|0", -- [12]
+					"0|Stonetalon Mountains", -- [13]
+					"1||0|1100|0", -- [14]
+					"0|The Barrens", -- [15]
+					"1||0|800|0", -- [16]
+					"1||0|900|0", -- [17]
+					"1||0|0|1", -- [18]
+					"1||0|1000|0", -- [19]
+					"1||0|1000|1", -- [20]
+					"1||0|0|0", -- [21]
+					"1||0|2500|0", -- [22]
+					"1||0|0|1", -- [23]
+					"1||0|0|0", -- [24]
+					"1||0|0|0", -- [25]
+					"1||0|0|0", -- [26]
+					"1||0|0|0", -- [27]
+					"1||0|0|0", -- [28]
+					"0|Thunder Bluff", -- [29]
+					"1||0|0|0", -- [30]
+					"0|Wailing Caverns", -- [31]
+					"1|Dungeon|0|1800|1", -- [32]
+					"1|Dungeon|0|2500|1", -- [33]
+				},
 				["History"] = {
 					[806] = true,
 					[870] = true,
@@ -2296,11 +1616,12 @@ DataStore_QuestsDB = {
 					[410] = true,
 					[426] = true,
 					[3902] = true,
+					[881] = true,
 					[788] = true,
-					[6541] = true,
 					[8670] = true,
 					[8717] = true,
-					[5728] = true,
+					[901] = true,
+					[869] = true,
 					[8680] = true,
 					[363] = true,
 					[757] = true,
@@ -2308,23 +1629,23 @@ DataStore_QuestsDB = {
 					[411] = true,
 					[427] = true,
 					[443] = true,
-					[901] = true,
-					[869] = true,
+					[5728] = true,
 					[903] = true,
 					[24891] = true,
-					[790] = true,
 					[8867] = true,
+					[790] = true,
 					[8873] = true,
-					[886] = true,
 					[853] = true,
+					[886] = true,
+					[6394] = true,
 					[423] = true,
 					[364] = true,
-					[380] = true,
+					[6541] = true,
 					[791] = true,
 					[823] = true,
 					[428] = true,
 					[887] = true,
-					[6394] = true,
+					[380] = true,
 					[845] = true,
 					[492] = true,
 					[6548] = true,
@@ -2342,13 +1663,13 @@ DataStore_QuestsDB = {
 					[445] = true,
 					[900] = true,
 					[477] = true,
-					[6321] = true,
 					[3221] = true,
+					[6321] = true,
 					[794] = true,
 					[826] = true,
 					[858] = true,
 					[890] = true,
-					[5482] = true,
+					[6324] = true,
 					[5041] = true,
 					[366] = true,
 					[763] = true,
@@ -2357,23 +1678,23 @@ DataStore_QuestsDB = {
 					[430] = true,
 					[6322] = true,
 					[6323] = true,
-					[6324] = true,
+					[478] = true,
 					[855] = true,
 					[764] = true,
 					[789] = true,
 					[828] = true,
 					[860] = true,
 					[892] = true,
-					[1358] = true,
 					[848] = true,
-					[367] = true,
 					[383] = true,
-					[829] = true,
+					[367] = true,
+					[765] = true,
 					[7866] = true,
+					[829] = true,
 					[431] = true,
 					[447] = true,
-					[479] = true,
 					[1656] = true,
+					[479] = true,
 					[375] = true,
 					[766] = true,
 					[813] = true,
@@ -2384,12 +1705,12 @@ DataStore_QuestsDB = {
 					[761] = true,
 					[368] = true,
 					[767] = true,
-					[372] = true,
+					[6629] = true,
 					[831] = true,
 					[863] = true,
 					[895] = true,
+					[372] = true,
 					[361] = true,
-					[6629] = true,
 					[3901] = true,
 					[768] = true,
 					[861] = true,
@@ -2416,11 +1737,11 @@ DataStore_QuestsDB = {
 					[354] = true,
 					[370] = true,
 					[771] = true,
-					[765] = true,
+					[1358] = true,
 					[835] = true,
 					[867] = true,
 					[450] = true,
-					[478] = true,
+					[5482] = true,
 					[482] = true,
 					[438] = true,
 					[772] = true,
@@ -2440,88 +1761,1078 @@ DataStore_QuestsDB = {
 					[877] = true,
 					[5650] = true,
 				},
+			},
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["lastUpdate"] = 1471086420,
+				["HistoryLastUpdate"] = 1471086423,
 				["QuestLinks"] = {
-					nil, -- [1]
-					"|cff808080|Hquest:9428:20|h[Report to Splintertree Post]|h|r", -- [2]
-					nil, -- [3]
-					"|cffffff00|Hquest:6561:27|h[Blackfathom Villainy]|h|r", -- [4]
-					nil, -- [5]
-					"|cffffff00|Hquest:8873:-1|h[The Lunar Festival]|h|r", -- [6]
-					"|cffffff00|Hquest:8883:-1|h[Valadar Starsong]|h|r", -- [7]
-					nil, -- [8]
-					"|cff808080|Hquest:446:16|h[Thule Ravenclaw]|h|r", -- [9]
-					"|cff808080|Hquest:460:17|h[Resting in Pieces]|h|r", -- [10]
-					"|cff808080|Hquest:516:21|h[Beren's Peril]|h|r", -- [11]
-					[13] = "|cff808080|Hquest:1062:19|h[Goblin Invaders]|h|r",
-					[15] = "|cff808080|Hquest:880:16|h[Altered Beings]|h|r",
-					[16] = "|cff808080|Hquest:905:17|h[The Angry Scytheclaws]|h|r",
-					[17] = "|cff808080|Hquest:3923:18|h[Rilli Greasygob]|h|r",
-					[18] = "|cff808080|Hquest:3281:18|h[Stolen Silver]|h|r",
-					[19] = "|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r",
-					[20] = "|cff808080|Hquest:899:20|h[Consumed by Hatred]|h|r",
-					[21] = "|cff808080|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r",
-					[22] = "|cff808080|Hquest:1060:20|h[Letter to Jin'Zil]|h|r",
-					[23] = "|cff808080|Hquest:891:20|h[The Guns of Northwatch]|h|r",
-					[24] = "|cff808080|Hquest:878:21|h[Tribes at War]|h|r",
-					[25] = "|cff808080|Hquest:1483:21|h[Ziz Fizziks]|h|r",
-					[26] = "|cff808080|Hquest:868:22|h[Egg Hunt]|h|r",
-					[27] = "|cff40c040|Hquest:893:24|h[Weapons of Choice]|h|r",
-					[29] = "|cff808080|Hquest:742:20|h[The Ashenvale Hunt]|h|r",
-					[31] = "|cff808080|Hquest:1486:17|h[Deviate Hides]|h|r",
-					[32] = "|cff808080|Hquest:1487:21|h[Deviate Eradication]|h|r",
+					[14] = "|cffffff00|Hquest:6393:25|h[Elemental War]|h|r",
+					[29] = "|cff808080|Hquest:264:15|h[Until Death Do Us Part]|h|r",
+					[30] = "|cff808080|Hquest:1065:18|h[Journey to Tarren Mill]|h|r",
+					[15] = "|cffffff00|Hquest:6282:26|h[Harpies Threaten]|h|r",
+					[31] = "|cffff8040|Hquest:1131:30|h[Steelsnap]|h|r",
+					[16] = "|cffffff00|Hquest:1058:26|h[Jin'Zil's Forest Magic]|h|r",
+					[8] = "|cff808080|Hquest:430:11|h[Return to Quinn]|h|r",
+					[17] = "|cffffff00|Hquest:1095:27|h[Further Instructions]|h|r",
+					[4] = "|cff40c040|Hquest:235:20|h[The Ashenvale Hunt]|h|r",
+					[19] = "|cff808080|Hquest:821:15|h[Chen's Empty Keg]|h|r",
+					[20] = "|cff808080|Hquest:3301:15|h[Mura Runetotem]|h|r",
+					[10] = "|cff808080|Hquest:6421:18|h[Boulderslide Ravine]|h|r",
+					[21] = "|cff808080|Hquest:872:15|h[The Disruption Ends]|h|r",
+					[2] = "|cff40c040|Hquest:6562:22|h[Trouble in the Deeps]|h|r",
+					[22] = "|cff808080|Hquest:3261:18|h[Jorn Skyseer]|h|r",
+					[11] = "|cff40c040|Hquest:6301:23|h[Cycle of Rebirth]|h|r",
+					[23] = "|cff808080|Hquest:852:19|h[Hezrul Bloodmark]|h|r",
+					[24] = "|cff808080|Hquest:3924:19|h[Samophlange Manual]|h|r",
+					[12] = "|cff40c040|Hquest:1068:23|h[Shredding Machines]|h|r",
+					[25] = "|cff40c040|Hquest:868:22|h[Egg Hunt]|h|r",
+					[26] = "|cffffff00|Hquest:893:24|h[Weapons of Choice]|h|r",
+					[13] = "|cffffff00|Hquest:1087:25|h[Cenarius' Legacy]|h|r",
+					[27] = "|cffffff00|Hquest:879:25|h[Betrayal from Within]|h|r",
+					[33] = "|cff40c040|Hquest:1487:21|h[Deviate Eradication]|h|r",
+					[6] = "|cffffff00|Hquest:1014:27|h[Arugal Must Die]|h|r",
 				},
-				["HistorySize"] = 214,
-				["lastUpdate"] = 1455328378,
 				["Rewards"] = {
-					[23] = "c|5309|1|0,c|5310|1|1",
-					[32] = "c|6476|1|0,c|8071|1|1,c|6481|1|0",
-					[26] = "c|6503|1|1,c|6502|1|0",
-					[27] = "c|5322|1|0,c|5323|1|1",
-					[18] = "c|11853|1|0,c|2694|1|0",
-					[31] = "c|6480|1|0,c|918|1|1",
-					[4] = "c|7001|1|1,c|7002|1|0",
-					[9] = "r|3251|1|1",
-					[20] = "c|5314|1|1,c|6477|1|1",
-					[11] = "r|5252|1|1",
+					[23] = "r|5351|1|1",
+					[24] = "c|11855|1|1,c|11854|1|0",
+					[25] = "c|6503|1|1,c|6502|1|0",
+					[26] = "c|5322|1|0,c|5323|1|1",
+					[16] = "c|6664|1|1,c|6665|1|0",
+					[33] = "c|6476|1|0,c|8071|1|1,c|6481|1|0",
+					[19] = "r|4952|5|1",
+					[20] = "c|10820|1|1,c|10821|1|1",
+					[21] = "c|5275|1|0,c|5328|1|0",
+					[6] = "r|6414|1|1",
 				},
+				["HistoryBuild"] = "12340",
+				["HistorySize"] = 166,
 				["Quests"] = {
-					"0|Ashenvale", -- [1]
-					"1||0|0|0", -- [2]
-					"0|Blackfathom Deeps", -- [3]
-					"1|Dungeon|0|6500|1", -- [4]
-					"0|Lunar Festival", -- [5]
-					"1||0|0|0", -- [6]
-					"1||0|0|0", -- [7]
-					"0|Silverpine Forest", -- [8]
-					"1||0|0|1", -- [9]
-					"1||0|0|1", -- [10]
-					"1||0|0|0", -- [11]
-					"0|Stonetalon Mountains", -- [12]
-					"1||0|1100|0", -- [13]
-					"0|The Barrens", -- [14]
-					"1||0|800|0", -- [15]
-					"1||0|900|0", -- [16]
-					"1||0|0|1", -- [17]
-					"1||0|1000|0", -- [18]
-					"1||0|1000|1", -- [19]
-					"1||0|0|0", -- [20]
-					"1||0|2500|0", -- [21]
-					"1||0|0|1", -- [22]
-					"1||0|0|0", -- [23]
+					"0|Blackfathom Deeps", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Orgrimmar", -- [3]
+					"1||0|0|0", -- [4]
+					"0|Shadowfang Keep", -- [5]
+					"1|Dungeon|0|0|0", -- [6]
+					"0|Silverpine Forest", -- [7]
+					"1||0|0|1", -- [8]
+					"0|Stonetalon Mountains", -- [9]
+					"1||0|1000|1", -- [10]
+					"1||0|1200|0", -- [11]
+					"1||0|1500|0", -- [12]
+					"1||0|0|0", -- [13]
+					"1||0|1800|0", -- [14]
+					"1||0|2000|0", -- [15]
+					"1||0|0|0", -- [16]
+					"1||0|0|0", -- [17]
+					"0|The Barrens", -- [18]
+					"1||0|0|0", -- [19]
+					"1||0|0|1", -- [20]
+					"1||0|0|0", -- [21]
+					"1||0|0|0", -- [22]
+					"1||0|800|0", -- [23]
 					"1||0|0|0", -- [24]
 					"1||0|0|0", -- [25]
 					"1||0|0|0", -- [26]
 					"1||0|0|0", -- [27]
 					"0|Thunder Bluff", -- [28]
-					"1||0|0|0", -- [29]
-					"0|Wailing Caverns", -- [30]
-					"1|Dungeon|0|1800|1", -- [31]
-					"1|Dungeon|0|2500|1", -- [32]
+					"1||0|0|1", -- [29]
+					"1||0|0|1", -- [30]
+					"1||0|0|0", -- [31]
+					"0|Wailing Caverns", -- [32]
+					"1|Dungeon|0|2500|1", -- [33]
 				},
-				["HistoryLastUpdate"] = 1455328259,
+				["History"] = {
+					[870] = true,
+					[902] = true,
+					[356] = true,
+					[372] = true,
+					[404] = true,
+					[871] = true,
+					[452] = true,
+					[1102] = true,
+					[840] = true,
+					[4641] = true,
+					[357] = true,
+					[405] = true,
+					[421] = true,
+					[437] = true,
+					[905] = true,
+					[1489] = true,
+					[842] = true,
+					[1490] = true,
+					[4402] = true,
+					[358] = true,
+					[374] = true,
+					[422] = true,
+					[1492] = true,
+					[4921] = true,
+					[844] = true,
+					[876] = true,
+					[359] = true,
+					[375] = true,
+					[407] = true,
+					[423] = true,
+					[439] = true,
+					[878] = true,
+					[1881] = true,
+					[360] = true,
+					[376] = true,
+					[1882] = true,
+					[424] = true,
+					[440] = true,
+					[784] = true,
+					[848] = true,
+					[880] = true,
+					[361] = true,
+					[409] = true,
+					[441] = true,
+					[5481] = true,
+					[5482] = true,
+					[8] = true,
+					[850] = true,
+					[1060] = true,
+					[362] = true,
+					[1061] = true,
+					[819] = true,
+					[3901] = true,
+					[3902] = true,
+					[788] = true,
+					[1064] = true,
+					[6523] = true,
+					[363] = true,
+					[5761] = true,
+					[411] = true,
+					[427] = true,
+					[443] = true,
+					[1130] = true,
+					[1959] = true,
+					[790] = true,
+					[1960] = true,
+					[6284] = true,
+					[1961] = true,
+					[380] = true,
+					[791] = true,
+					[823] = true,
+					[428] = true,
+					[887] = true,
+					[460] = true,
+					[3281] = true,
+					[492] = true,
+					[792] = true,
+					[3921] = true,
+					[888] = true,
+					[3922] = true,
+					[14356] = true,
+					[381] = true,
+					[99] = true,
+					[429] = true,
+					[445] = true,
+					[477] = true,
+					[794] = true,
+					[858] = true,
+					[890] = true,
+					[5041] = true,
+					[366] = true,
+					[382] = true,
+					[398] = true,
+					[6321] = true,
+					[446] = true,
+					[6323] = true,
+					[478] = true,
+					[5052] = true,
+					[892] = true,
+					[367] = true,
+					[383] = true,
+					[447] = true,
+					[479] = true,
+					[1063] = true,
+					[830] = true,
+					[1069] = true,
+					[894] = true,
+					[2161] = true,
+					[444] = true,
+					[368] = true,
+					[899] = true,
+					[6461] = true,
+					[831] = true,
+					[863] = true,
+					[895] = true,
+					[1062] = true,
+					[1483] = true,
+					[851] = true,
+					[877] = true,
+					[901] = true,
+					[6401] = true,
+					[881] = true,
+					[896] = true,
+					[6541] = true,
+					[6324] = true,
+					[369] = true,
+					[903] = true,
+					[875] = true,
+					[364] = true,
+					[865] = true,
+					[900] = true,
+					[365] = true,
+					[481] = true,
+					[590] = true,
+					[6629] = true,
+					[789] = true,
+					[845] = true,
+					[853] = true,
+					[898] = true,
+					[5723] = true,
+					[354] = true,
+					[370] = true,
+					[438] = true,
+					[1093] = true,
+					[448] = true,
+					[867] = true,
+					[450] = true,
+					[1094] = true,
+					[482] = true,
+					[6548] = true,
+					[3923] = true,
+					[804] = true,
+					[426] = true,
+					[408] = true,
+					[6394] = true,
+					[6395] = true,
+					[355] = true,
+					[371] = true,
+					[6322] = true,
+					[805] = true,
+					[1962] = true,
+					[869] = true,
+					[451] = true,
+					[5441] = true,
+					[891] = true,
+					[855] = true,
+				},
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["lastUpdate"] = 1471070248,
+				["History"] = {
+					[806] = true,
+					[870] = true,
+					[902] = true,
+					[743] = true,
+					[775] = true,
+					[871] = true,
+					[903] = true,
+					[744] = true,
+					[776] = true,
+					[808] = true,
+					[840] = true,
+					[1486] = true,
+					[4641] = true,
+					[3221] = true,
+					[745] = true,
+					[809] = true,
+					[421] = true,
+					[437] = true,
+					[905] = true,
+					[24850] = true,
+					[746] = true,
+					[842] = true,
+					[4402] = true,
+					[24882] = true,
+					[747] = true,
+					[422] = true,
+					[1492] = true,
+					[4921] = true,
+					[748] = true,
+					[780] = true,
+					[812] = true,
+					[844] = true,
+					[876] = true,
+					[5441] = true,
+					[813] = true,
+					[845] = true,
+					[439] = true,
+					[3369] = true,
+					[750] = true,
+					[6981] = true,
+					[1498] = true,
+					[751] = true,
+					[815] = true,
+					[424] = true,
+					[3376] = true,
+					[24536] = true,
+					[752] = true,
+					[784] = true,
+					[816] = true,
+					[5723] = true,
+					[8867] = true,
+					[5726] = true,
+					[5727] = true,
+					[5728] = true,
+					[5729] = true,
+					[5730] = true,
+					[881] = true,
+					[24851] = true,
+					[754] = true,
+					[786] = true,
+					[818] = true,
+					[850] = true,
+					[8648] = true,
+					[755] = true,
+					[1061] = true,
+					[756] = true,
+					[788] = true,
+					[8674] = true,
+					[8678] = true,
+					[8680] = true,
+					[757] = true,
+					[5761] = true,
+					[853] = true,
+					[443] = true,
+					[1130] = true,
+					[758] = true,
+					[790] = true,
+					[854] = true,
+					[886] = true,
+					[759] = true,
+					[791] = true,
+					[823] = true,
+					[428] = true,
+					[887] = true,
+					[460] = true,
+					[3281] = true,
+					[6548] = true,
+					[760] = true,
+					[792] = true,
+					[3921] = true,
+					[888] = true,
+					[3922] = true,
+					[875] = true,
+					[14356] = true,
+					[761] = true,
+					[99] = true,
+					[825] = true,
+					[429] = true,
+					[880] = true,
+					[1358] = true,
+					[477] = true,
+					[451] = true,
+					[869] = true,
+					[794] = true,
+					[826] = true,
+					[858] = true,
+					[890] = true,
+					[452] = true,
+					[5041] = true,
+					[1502] = true,
+					[763] = true,
+					[438] = true,
+					[827] = true,
+					[1359] = true,
+					[891] = true,
+					[423] = true,
+					[478] = true,
+					[24890] = true,
+					[764] = true,
+					[5052] = true,
+					[828] = true,
+					[860] = true,
+					[892] = true,
+					[924] = true,
+					[8677] = true,
+					[855] = true,
+					[765] = true,
+					[848] = true,
+					[829] = true,
+					[861] = true,
+					[447] = true,
+					[1656] = true,
+					[479] = true,
+					[6394] = true,
+					[766] = true,
+					[24541] = true,
+					[830] = true,
+					[11129] = true,
+					[894] = true,
+					[2161] = true,
+					[6523] = true,
+					[817] = true,
+					[767] = true,
+					[450] = true,
+					[831] = true,
+					[863] = true,
+					[895] = true,
+					[24635] = true,
+					[789] = true,
+					[24805] = true,
+					[768] = true,
+					[6362] = true,
+					[832] = true,
+					[6361] = true,
+					[896] = true,
+					[6363] = true,
+					[6364] = true,
+					[1503] = true,
+					[8670] = true,
+					[6629] = true,
+					[833] = true,
+					[865] = true,
+					[449] = true,
+					[898] = true,
+					[481] = true,
+					[24857] = true,
+					[770] = true,
+					[1505] = true,
+					[834] = true,
+					[5722] = true,
+					[8645] = true,
+					[24881] = true,
+					[8873] = true,
+					[5724] = true,
+					[771] = true,
+					[3091] = true,
+					[835] = true,
+					[867] = true,
+					[899] = true,
+					[749] = true,
+					[482] = true,
+					[926] = true,
+					[772] = true,
+					[804] = true,
+					[753] = true,
+					[8717] = true,
+					[900] = true,
+					[24576] = true,
+					[1014] = true,
+					[444] = true,
+					[773] = true,
+					[805] = true,
+					[837] = true,
+					[435] = true,
+					[901] = true,
+					[878] = true,
+					[6541] = true,
+					[877] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:862:23|h[Dig Rat Stew]|h|r", -- [2]
+					[23] = "|cff808080|Hquest:1489:16|h[Hamuul Runetotem]|h|r",
+					[12] = "|cff808080|Hquest:3261:18|h[Jorn Skyseer]|h|r",
+					[6] = "|cff808080|Hquest:461:18|h[The Hidden Niche]|h|r",
+					[13] = "|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r",
+					[25] = "|cff40c040|Hquest:1823:20|h[Speak with Ruga]|h|r",
+					[14] = "|cff40c040|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r",
+					[4] = "|cffffff00|Hquest:1098:25|h[Deathstalkers in Shadowfang]|h|r",
+					[15] = "|cff40c040|Hquest:1060:20|h[Letter to Jin'Zil]|h|r",
+					[16] = "|cff40c040|Hquest:1483:21|h[Ziz Fizziks]|h|r",
+					[17] = "|cff40c040|Hquest:868:22|h[Egg Hunt]|h|r",
+					[9] = "|cff808080|Hquest:1062:19|h[Goblin Invaders]|h|r",
+					[19] = "|cffffff00|Hquest:879:25|h[Betrayal from Within]|h|r",
+					[18] = "|cffffff00|Hquest:893:24|h[Weapons of Choice]|h|r",
+					[21] = "|cff40c040|Hquest:742:20|h[The Ashenvale Hunt]|h|r",
+					[11] = "|cff808080|Hquest:872:15|h[The Disruption Ends]|h|r",
+					[8] = "|cff808080|Hquest:6401:18|h[Kaya's Alive]|h|r",
+				},
+				["Rewards"] = {
+					[17] = "c|6503|1|1,c|6502|1|1",
+					[11] = "c|5275|1|1,c|5328|1|1",
+					[18] = "c|5322|1|1,c|5323|1|1",
+					[4] = "r|3324|1|1",
+					[2] = "r|5487|1|1,r|5478|5|1,r|10919|1|1",
+				},
+				["HistoryBuild"] = "12340",
+				["HistorySize"] = 192,
+				["Quests"] = {
+					"0|Cooking", -- [1]
+					"1||0|0|0", -- [2]
+					"0|Shadowfang Keep", -- [3]
+					"1|Dungeon|0|1800|1", -- [4]
+					"0|Silverpine Forest", -- [5]
+					"1||0|500|1", -- [6]
+					"0|Stonetalon Mountains", -- [7]
+					"1||0|700|1", -- [8]
+					"1||0|1100|0", -- [9]
+					"0|The Barrens", -- [10]
+					"1||0|0|0", -- [11]
+					"1||0|0|0", -- [12]
+					"1||0|1000|1", -- [13]
+					"1||0|2500|0", -- [14]
+					"1||0|0|1", -- [15]
+					"1||0|0|0", -- [16]
+					"1||0|0|0", -- [17]
+					"1||0|0|0", -- [18]
+					"1||0|0|0", -- [19]
+					"0|Thunder Bluff", -- [20]
+					"1||0|0|0", -- [21]
+					"0|Wailing Caverns", -- [22]
+					"1||0|0|0", -- [23]
+					"0|Warrior", -- [24]
+					"1||0|0|0", -- [25]
+				},
+				["HistoryLastUpdate"] = 1471071783,
+			},
+			["Default.PrimalWoW (Progressive).Magistratus"] = {
+				["lastUpdate"] = 1471086224,
+				["History"] = {
+					[84] = true,
+					[86] = true,
+					[7] = true,
+					[15] = true,
+					[62] = true,
+					[33] = true,
+					[3903] = true,
+					[18] = true,
+					[3101] = true,
+					[106] = true,
+					[40] = true,
+					[21] = true,
+					[85] = true,
+					[2158] = true,
+					[47] = true,
+					[3905] = true,
+					[60] = true,
+					[3904] = true,
+					[783] = true,
+					[6] = true,
+					[54] = true,
+					[107] = true,
+					[111] = true,
+					[5261] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:112:7|h[Collecting Kelp]|h|r", -- [2]
+					"|cffffff00|Hquest:61:7|h[Shipment to Stormwind]|h|r", -- [3]
+					"|cffffff00|Hquest:87:8|h[Goldtooth]|h|r", -- [4]
+					"|cffffff00|Hquest:88:9|h[Princess Must Die!]|h|r", -- [5]
+					"|cffff8040|Hquest:35:10|h[Further Concerns]|h|r", -- [6]
+					"|cffff8040|Hquest:76:10|h[The Jasperlode Mine]|h|r", -- [7]
+					"|cffff8040|Hquest:239:10|h[Westbrook Garrison Needs Help!]|h|r", -- [8]
+				},
+				["HistorySize"] = 24,
+				["HistoryBuild"] = "12340",
+				["Rewards"] = {
+					[4] = "r|1359|1|1",
+					[5] = "c|1173|1|1,c|1182|1|1,c|11191|1|1",
+					[3] = "c|1178|15|1,c|1177|5|1,c|2454|2|1",
+				},
+				["Quests"] = {
+					"0|Elwynn Forest", -- [1]
+					"1||0|0|0", -- [2]
+					"1||0|350|1", -- [3]
+					"1||0|0|1", -- [4]
+					"1||0|0|0", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|350|0", -- [7]
+					"1||0|0|0", -- [8]
+				},
+				["HistoryLastUpdate"] = 1471086371,
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["History"] = {
+					[806] = true,
+					[870] = true,
+					[356] = true,
+					[743] = true,
+					[775] = true,
+					[404] = true,
+					[871] = true,
+					[903] = true,
+					[744] = true,
+					[776] = true,
+					[808] = true,
+					[840] = true,
+					[1486] = true,
+					[4641] = true,
+					[1359] = true,
+					[3094] = true,
+					[745] = true,
+					[405] = true,
+					[421] = true,
+					[437] = true,
+					[5926] = true,
+					[746] = true,
+					[5930] = true,
+					[5932] = true,
+					[24882] = true,
+					[358] = true,
+					[24890] = true,
+					[422] = true,
+					[1492] = true,
+					[6961] = true,
+					[748] = true,
+					[780] = true,
+					[812] = true,
+					[844] = true,
+					[359] = true,
+					[749] = true,
+					[407] = true,
+					[590] = true,
+					[439] = true,
+					[3369] = true,
+					[750] = true,
+					[264] = true,
+					[6981] = true,
+					[360] = true,
+					[751] = true,
+					[815] = true,
+					[3376] = true,
+					[752] = true,
+					[784] = true,
+					[816] = true,
+					[5723] = true,
+					[5724] = true,
+					[5726] = true,
+					[5727] = true,
+					[753] = true,
+					[5729] = true,
+					[817] = true,
+					[8883] = true,
+					[754] = true,
+					[786] = true,
+					[8] = true,
+					[850] = true,
+					[8648] = true,
+					[362] = true,
+					[755] = true,
+					[1061] = true,
+					[410] = true,
+					[426] = true,
+					[3902] = true,
+					[756] = true,
+					[788] = true,
+					[1358] = true,
+					[423] = true,
+					[24883] = true,
+					[8678] = true,
+					[8680] = true,
+					[443] = true,
+					[757] = true,
+					[5761] = true,
+					[411] = true,
+					[427] = true,
+					[27] = true,
+					[28] = true,
+					[435] = true,
+					[30] = true,
+					[758] = true,
+					[790] = true,
+					[848] = true,
+					[854] = true,
+					[886] = true,
+					[452] = true,
+					[438] = true,
+					[1014] = true,
+					[759] = true,
+					[791] = true,
+					[823] = true,
+					[428] = true,
+					[887] = true,
+					[845] = true,
+					[855] = true,
+					[6548] = true,
+					[760] = true,
+					[792] = true,
+					[6394] = true,
+					[8717] = true,
+					[888] = true,
+					[24891] = true,
+					[761] = true,
+					[365] = true,
+					[381] = true,
+					[872] = true,
+					[825] = true,
+					[429] = true,
+					[445] = true,
+					[5728] = true,
+					[477] = true,
+					[31] = true,
+					[5441] = true,
+					[794] = true,
+					[826] = true,
+					[376] = true,
+					[890] = true,
+					[867] = true,
+					[5041] = true,
+					[366] = true,
+					[763] = true,
+					[398] = true,
+					[827] = true,
+					[430] = true,
+					[835] = true,
+					[5482] = true,
+					[478] = true,
+					[771] = true,
+					[764] = true,
+					[6126] = true,
+					[828] = true,
+					[860] = true,
+					[892] = true,
+					[924] = true,
+					[354] = true,
+					[372] = true,
+					[383] = true,
+					[3221] = true,
+					[829] = true,
+					[431] = true,
+					[447] = true,
+					[1487] = true,
+					[1656] = true,
+					[375] = true,
+					[766] = true,
+					[361] = true,
+					[830] = true,
+					[11129] = true,
+					[6629] = true,
+					[2161] = true,
+					[765] = true,
+					[861] = true,
+					[767] = true,
+					[382] = true,
+					[831] = true,
+					[926] = true,
+					[895] = true,
+					[5481] = true,
+					[408] = true,
+					[5922] = true,
+					[5722] = true,
+					[6002] = true,
+					[832] = true,
+					[6361] = true,
+					[6362] = true,
+					[6363] = true,
+					[6364] = true,
+					[4402] = true,
+					[813] = true,
+					[818] = true,
+					[833] = true,
+					[374] = true,
+					[449] = true,
+					[747] = true,
+					[481] = true,
+					[24857] = true,
+					[770] = true,
+					[409] = true,
+					[834] = true,
+					[14356] = true,
+					[8645] = true,
+					[380] = true,
+					[962] = true,
+					[370] = true,
+					[6127] = true,
+					[6128] = true,
+					[6129] = true,
+					[6130] = true,
+					[450] = true,
+					[809] = true,
+					[482] = true,
+					[5730] = true,
+					[772] = true,
+					[804] = true,
+					[8867] = true,
+					[8873] = true,
+					[8677] = true,
+					[6395] = true,
+					[355] = true,
+					[371] = true,
+					[773] = true,
+					[805] = true,
+					[837] = true,
+					[869] = true,
+					[789] = true,
+					[1098] = true,
+					[357] = true,
+					[842] = true,
+				},
+				["HistoryLastUpdate"] = 1471086155,
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff808080|Hquest:9428:20|h[Report to Splintertree Post]|h|r", -- [2]
+					nil, -- [3]
+					"|cff808080|Hquest:235:20|h[The Ashenvale Hunt]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:1109:26|h[Going, Going, Guano!]|h|r", -- [6]
+					nil, -- [7]
+					"|cff808080|Hquest:424:15|h[Arugal's Folly]|h|r", -- [8]
+					"|cff808080|Hquest:479:16|h[Ambermill Investigations]|h|r", -- [9]
+					"|cff808080|Hquest:444:17|h[Rot Hide Origins]|h|r", -- [10]
+					"|cff808080|Hquest:451:18|h[A Recipe For Death]|h|r", -- [11]
+					"|cff808080|Hquest:493:20|h[Journey to Hillsbrad Foothills]|h|r", -- [12]
+					"|cff808080|Hquest:516:21|h[Beren's Peril]|h|r", -- [13]
+					[23] = "|cff808080|Hquest:3281:18|h[Stolen Silver]|h|r",
+					[24] = "|cff808080|Hquest:851:18|h[Verog the Dervish]|h|r",
+					[25] = "|cff808080|Hquest:899:20|h[Consumed by Hatred]|h|r",
+					[26] = "|cff808080|Hquest:1069:20|h[Deepmoss Spider Eggs]|h|r",
+					[27] = "|cff808080|Hquest:4921:20|h[Lost in Battle]|h|r",
+					[28] = "|cff808080|Hquest:891:20|h[The Guns of Northwatch]|h|r",
+					[15] = "|cff808080|Hquest:1062:19|h[Goblin Invaders]|h|r",
+					[17] = "|cff808080|Hquest:894:14|h[Samophlange]|h|r",
+					[18] = "|cff808080|Hquest:881:16|h[Echeyakee]|h|r",
+					[19] = "|cff808080|Hquest:875:16|h[Harpy Lieutenants]|h|r",
+					[20] = "|cff808080|Hquest:877:16|h[The Stagnant Oasis]|h|r",
+					[21] = "|cff808080|Hquest:896:18|h[Miner's Fortune]|h|r",
+					[22] = "|cff808080|Hquest:865:18|h[Raptor Horns]|h|r",
+					[30] = "|cff40c040|Hquest:1195:25|h[The Sacred Flame]|h|r",
+				},
+				["Rewards"] = {
+					[23] = "c|11853|1|1,c|2694|1|0",
+					[28] = "c|5309|1|0,c|5310|1|1",
+					[25] = "c|5314|1|1,c|6477|1|1",
+					[11] = "c|3451|1|1,c|3582|1|1,r|2458|1|1,r|2459|1|1",
+					[13] = "r|5252|1|0",
+					[22] = "r|5342|5|1,r|5343|1|1",
+					[21] = "r|5335|1|1",
+				},
+				["lastUpdate"] = 1471085786,
+				["HistorySize"] = 205,
+				["Quests"] = {
+					"0|Ashenvale", -- [1]
+					"1||0|0|0", -- [2]
+					"0|Orgrimmar", -- [3]
+					"1||0|0|0", -- [4]
+					"0|Razorfen Kraul", -- [5]
+					"1|Dungeon|0|0|1", -- [6]
+					"0|Silverpine Forest", -- [7]
+					"1||0|700|0", -- [8]
+					"1||0|800|0", -- [9]
+					"1||0|0|1", -- [10]
+					"1||0|0|0", -- [11]
+					"1||0|900|1", -- [12]
+					"1||0|0|0", -- [13]
+					"0|Stonetalon Mountains", -- [14]
+					"1||0|1100|0", -- [15]
+					"0|The Barrens", -- [16]
+					"1||0|0|0", -- [17]
+					"1||0|0|0", -- [18]
+					"1||0|800|0", -- [19]
+					"1||0|0|0", -- [20]
+					"1||0|0|0", -- [21]
+					"1||0|0|0", -- [22]
+					"1||0|1000|0", -- [23]
+					"1||0|1000|0", -- [24]
+					"1||0|0|0", -- [25]
+					"1||0|2500|0", -- [26]
+					"1||0|900|0", -- [27]
+					"1||0|0|0", -- [28]
+					"0|Thunder Bluff", -- [29]
+					"1||0|3500|0", -- [30]
+				},
+				["HistoryBuild"] = "12340",
+			},
+			["Default.TrueWoW.Lichmydk"] = {
+				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1451300494,
+				["HistoryLastUpdate"] = 1451302283,
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["History"] = {
+					[743] = true,
+					[775] = true,
+					[8468] = true,
+					[8472] = true,
+					[8474] = true,
+					[8476] = true,
+					[776] = true,
+					[8480] = true,
+					[8482] = true,
+					[8486] = true,
+					[9253] = true,
+					[9255] = true,
+					[745] = true,
+					[5922] = true,
+					[5926] = true,
+					[746] = true,
+					[5930] = true,
+					[5932] = true,
+					[747] = true,
+					[748] = true,
+					[780] = true,
+					[9315] = true,
+					[9062] = true,
+					[9064] = true,
+					[9066] = true,
+					[9329] = true,
+					[9076] = true,
+					[750] = true,
+					[8325] = true,
+					[8327] = true,
+					[751] = true,
+					[8335] = true,
+					[9359] = true,
+					[3376] = true,
+					[8345] = true,
+					[8347] = true,
+					[752] = true,
+					[753] = true,
+					[9138] = true,
+					[9140] = true,
+					[8887] = true,
+					[8889] = true,
+					[754] = true,
+					[9148] = true,
+					[8895] = true,
+					[9152] = true,
+					[9158] = true,
+					[9160] = true,
+					[755] = true,
+					[9166] = true,
+					[6002] = true,
+					[9172] = true,
+					[9174] = true,
+					[756] = true,
+					[9192] = true,
+					[9704] = true,
+					[758] = true,
+					[9212] = true,
+					[854] = true,
+					[886] = true,
+					[759] = true,
+					[8463] = true,
+					[8473] = true,
+					[8475] = true,
+					[8477] = true,
+					[8479] = true,
+					[9758] = true,
+					[8487] = true,
+					[9254] = true,
+					[9256] = true,
+					[761] = true,
+					[9274] = true,
+					[9276] = true,
+					[9282] = true,
+					[763] = true,
+					[764] = true,
+					[860] = true,
+					[9067] = true,
+					[9363] = true,
+					[10166] = true,
+					[861] = true,
+					[9258] = true,
+					[9146] = true,
+					[1656] = true,
+					[8490] = true,
+					[766] = true,
+					[9150] = true,
+					[9252] = true,
+					[11129] = true,
+					[8326] = true,
+					[9705] = true,
+					[8330] = true,
+					[9352] = true,
+					[767] = true,
+					[8336] = true,
+					[9358] = true,
+					[9360] = true,
+					[9216] = true,
+					[3094] = true,
+					[8338] = true,
+					[9395] = true,
+					[8350] = true,
+					[765] = true,
+					[9119] = true,
+					[6361] = true,
+					[6362] = true,
+					[6363] = true,
+					[6364] = true,
+					[8884] = true,
+					[9143] = true,
+					[8890] = true,
+					[833] = true,
+					[9147] = true,
+					[9139] = true,
+					[8886] = true,
+					[8888] = true,
+					[24857] = true,
+					[8892] = true,
+					[8894] = true,
+					[9151] = true,
+					[9163] = true,
+					[9155] = true,
+					[9157] = true,
+					[9159] = true,
+					[9161] = true,
+					[771] = true,
+					[9394] = true,
+					[8488] = true,
+					[9149] = true,
+					[9171] = true,
+					[9173] = true,
+					[8885] = true,
+					[9145] = true,
+					[772] = true,
+					[8334] = true,
+					[757] = true,
+					[9162] = true,
+					[744] = true,
+					[760] = true,
+					[9144] = true,
+					[9193] = true,
+					[773] = true,
+					[8483] = true,
+					[9199] = true,
+					[8491] = true,
+					[8891] = true,
+					[9035] = true,
+					[9207] = true,
+					[749] = true,
+				},
+				["HistoryLastUpdate"] = 1470230247,
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:9169:16|h[Deactivate An'owyn]|h|r", -- [2]
+					"|cffffff00|Hquest:9176:17|h[The Twin Ziggurats]|h|r", -- [3]
+					"|cffffff00|Hquest:9281:18|h[Clearing the Way]|h|r", -- [4]
+					"|cffffff00|Hquest:9214:18|h[Shadowpine Weaponry]|h|r", -- [5]
+					"|cffffff00|Hquest:9218:18|h[Spinal Dust]|h|r", -- [6]
+					"|cffffff00|Hquest:9275:19|h[A Little Dash of Seasoning]|h|r", -- [7]
+					"|cffffff00|Hquest:9277:19|h[Assault on Zeb'Nowa]|h|r", -- [8]
+					"|cffffff00|Hquest:9215:20|h[Bring Me Kel'gash's Head!]|h|r", -- [9]
+					"|cffffff00|Hquest:9220:20|h[War on Deatholme]|h|r", -- [10]
+					"|cffffff00|Hquest:9156:21|h[Wanted: Knucklerot and Luzran]|h|r", -- [11]
+					[13] = "|cff40c040|Hquest:5723:15|h[Testing an Enemy's Strength]|h|r",
+					[14] = "|cff40c040|Hquest:5722:16|h[Searching for the Lost Satchel]|h|r",
+				},
+				["Rewards"] = {
+					[6] = "r|22778|1|1",
+					[2] = "c|23400|1|1,c|23401|1|1,c|28160|1|0",
+					[11] = "c|28303|1|1,c|22979|1|1",
+					[3] = "c|22783|1|0,c|22784|1|1",
+					[8] = "c|23406|1|0,c|23407|1|1,c|23408|1|1",
+					[9] = "c|23409|1|0,c|23410|1|0,c|23411|1|1",
+				},
+				["lastUpdate"] = 1470230243,
+				["HistorySize"] = 149,
+				["Quests"] = {
+					"0|Ghostlands", -- [1]
+					"1||0|1600|0", -- [2]
+					"1||0|900|0", -- [3]
+					"1||0|2000|0", -- [4]
+					"1||0|1000|0", -- [5]
+					"1||0|0|0", -- [6]
+					"1||0|1100|0", -- [7]
+					"1||0|1100|0", -- [8]
+					"1|Group|2|2500|0", -- [9]
+					"1||0|2500|0", -- [10]
+					"1|Group|3|4000|0", -- [11]
+					"0|Ragefire Chasm", -- [12]
+					"1|Dungeon|0|700|0", -- [13]
+					"1|Dungeon|0|0|0", -- [14]
+				},
+				["HistoryBuild"] = "12340",
+			},
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1451459314,
+				["HistoryLastUpdate"] = 1451459406,
+			},
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1471072471,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
-				["HistoryLastUpdate"] = 1452578434,
+				["HistoryLastUpdate"] = 1469855945,
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:809:13|h[Ak'Zeloth]|h|r", -- [2]
+				},
 				["History"] = {
 					[9705] = true,
 					[8564] = true,
@@ -2633,42 +2944,13 @@ DataStore_QuestsDB = {
 					[9704] = true,
 					[8474] = true,
 				},
-				["QuestLinks"] = {
-					nil, -- [1]
-					"|cff808080|Hquest:813:9|h[Finding the Antidote]|h|r", -- [2]
-					"|cffffff00|Hquest:809:13|h[Ak'Zeloth]|h|r", -- [3]
-					nil, -- [4]
-					"|cff40c040|Hquest:9138:10|h[Suncrown Village]|h|r", -- [5]
-					"|cff40c040|Hquest:9315:11|h[Anok'suten]|h|r", -- [6]
-					"|cff40c040|Hquest:9152:11|h[Tomber's Supplies]|h|r", -- [7]
-					"|cff40c040|Hquest:9145:12|h[Help Ranger Valanna!]|h|r", -- [8]
-					"|cffffff00|Hquest:9149:13|h[The Plagued Coast]|h|r", -- [9]
-					[11] = "|cff40c040|Hquest:5727:12|h[Hidden Enemies]|h|r",
-					[13] = "|cffffff00|Hquest:5761:16|h[Slaying the Beast]|h|r",
-				},
-				["Rewards"] = {
-					[2] = "r|4904|1|1",
-					[9] = "r|6372|2|1,r|28150|1|1",
-					[6] = "c|24341|1|0,c|24339|1|0,c|24340|1|1,c|28149|1|0",
-				},
-				["HistoryBuild"] = "12340",
-				["HistorySize"] = 109,
+				["lastUpdate"] = 1469855941,
+				["HistorySize"] = 108,
 				["Quests"] = {
 					"0|Durotar", -- [1]
 					"1||0|0|0", -- [2]
-					"1||0|0|0", -- [3]
-					"0|Ghostlands", -- [4]
-					"1||0|350|0", -- [5]
-					"1|Group|2|400|0", -- [6]
-					"1||0|400|0", -- [7]
-					"1||0|0|0", -- [8]
-					"1||0|600|0", -- [9]
-					"0|Orgrimmar", -- [10]
-					"1||0|0|0", -- [11]
-					"0|Ragefire Chasm", -- [12]
-					"1|Dungeon|0|800|0", -- [13]
 				},
-				["lastUpdate"] = 1452578335,
+				["HistoryBuild"] = "12340",
 			},
 		},
 	},

@@ -1,21 +1,24 @@
 
 CollectinatorDB = {
 	["profileKeys"] = {
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
-		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
+		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Unbearabull - PrimalWoW (Progressive)",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Mittens - PrimalWoW (Progressive)"] = "Mittens - PrimalWoW (Progressive)",
-		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["profiles"] = {
-		["Unbearabull - PrimalWoW (Progressive)"] = {
+		["HUNTER"] = {
 		},
-		["Wajawamedo - PrimalWoW (Progressive)"] = {
-		},
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Default"] = {
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["frameopts"] = {
@@ -67,6 +70,12 @@ CollectinatorDB = {
 					["event"] = false,
 				},
 			},
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+		},
+		["Mittens - PrimalWoW (Progressive)"] = {
+		},
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
 		},
 	},
 }

@@ -12,6 +12,8 @@ SkilletDBPC = {
 				["filtertext"] = "",
 			},
 			["Engineering"] = {
+				["hidetrivial"] = false,
+				["sortmethod"] = "By Difficulty",
 				["filtertext"] = "",
 			},
 		},

@@ -1,8 +1,12 @@
+MACRO 16777219 "AOE" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift] Flamestrike; [mod:ctrl] Blizzard; Frost Nova
+END
 MACRO 16777217 "Conjure Food" INV_Misc_QuestionMark
-#showtooltip Conjured Muffin
-/cast [button:2] Conjure food; Conjured Muffin
+#showtooltip Conjured Rye
+/cast [button:2] Conjure Food; Conjured Rye
 END
 MACRO 16777218 "Conjure Water" INV_Misc_QuestionMark
-#showtooltip Conjured Fresh Water
-/cast [button:2] Conjure Water; Conjured Fresh Water
+#showtooltip Conjured Purified Water
+/cast [button:2] Conjure Water; Conjured Purified Water
 END

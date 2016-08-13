@@ -5,23 +5,28 @@ SkilletDBPC = {
 		["tradeskill_options"] = {
 			["Tailoring"] = {
 				["filtertext"] = "",
-				["sortmethod"] = "None",
+				["hidetrivial"] = false,
+				["sortmethod"] = "By Difficulty",
+				["sortdesc-By Difficulty"] = false,
 			},
 			["Cooking"] = {
 				["filtertext"] = "",
 			},
 			["First Aid"] = {
 				["filtertext"] = "",
+				["sortmethod"] = "By Difficulty",
+				["hidetrivial"] = true,
 			},
 			["Enchanting"] = {
-				["hidetrivial"] = false,
+				["filtertext"] = "",
+				["sortdesc-By Difficulty"] = false,
 				["hideuncraftable"] = false,
-				["sortmethod"] = "None",
-				["filtertext"] = "agili",
+				["sortmethod"] = "By Difficulty",
+				["hidetrivial"] = true,
 			},
 		},
 		["tradeSkillLocation_point"] = "CENTER",
-		["tradeSkillLocation_y"] = 57.9999596515288,
 		["include_alts"] = false,
+		["tradeSkillLocation_y"] = 57.9999596515288,
 	},
 }

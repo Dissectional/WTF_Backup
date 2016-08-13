@@ -10,8 +10,9 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
-			["posx"] = 0,
 			["zoneid"] = 3433,
+			["posy"] = 975.9999923406292,
+			["posx"] = 0,
 			["history"] = {
 				[1638] = {
 					[744] = {
@@ -36,11 +37,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[3094] = {
+					[6002] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[6002] = {
+					[3094] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -78,7 +79,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8891] = {
+					[8894] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -102,7 +103,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8890] = {
+					[9394] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -110,7 +111,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9064] = {
+					[9253] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -122,7 +123,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9066] = {
+					[9255] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -130,7 +131,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9035] = {
+					[8468] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -138,7 +139,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9067] = {
+					[9256] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -162,11 +163,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9253] = {
+					[9064] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8473] = {
+					[8347] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -174,27 +175,27 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8887] = {
+					[9076] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9255] = {
+					[9066] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8468] = {
+					[9035] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9256] = {
+					[9067] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8477] = {
+					[9359] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8886] = {
+					[9705] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -210,7 +211,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8350] = {
+					[8476] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -218,11 +219,11 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8885] = {
+					[9704] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8347] = {
+					[8473] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -242,23 +243,23 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9704] = {
+					[8885] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8476] = {
+					[8350] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9705] = {
+					[8886] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9359] = {
+					[8477] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9076] = {
+					[8887] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -282,7 +283,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9394] = {
+					[8890] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -290,9 +291,17 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[8894] = {
+					[8891] = {
 						["status"] = 2,
 						["imported"] = 3,
+					},
+				},
+				[2437] = {
+					[5722] = {
+						["status"] = 0,
+					},
+					[5723] = {
+						["status"] = 0,
 					},
 				},
 				[215] = {
@@ -400,7 +409,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[749] = {
+					[11129] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -436,7 +445,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[11129] = {
+					[749] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -449,6 +458,9 @@ EQ2DBPC = {
 					[9144] = {
 						["status"] = 2,
 						["imported"] = 3,
+					},
+					[9176] = {
+						["status"] = 0,
 					},
 					[9145] = {
 						["status"] = 2,
@@ -538,7 +550,29 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
+					[9215] = {
+						["status"] = 0,
+					},
+					[9281] = {
+						["status"] = 0,
+					},
+					[9220] = {
+						["status"] = 0,
+					},
+					[9218] = {
+						["status"] = 0,
+					},
+					[9156] = {
+						["status"] = 0,
+					},
 					[9166] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9214] = {
+						["status"] = 0,
+					},
+					[9140] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -546,9 +580,14 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9207] = {
-						["status"] = 2,
-						["imported"] = 3,
+					[9277] = {
+						["status"] = 0,
+					},
+					[9275] = {
+						["status"] = 0,
+					},
+					[9169] = {
+						["status"] = 0,
 					},
 					[9138] = {
 						["status"] = 2,
@@ -566,7 +605,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9140] = {
+					[9329] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -574,7 +613,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9149] = {
+					[9148] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -582,7 +621,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9329] = {
+					[9149] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -590,7 +629,7 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9148] = {
+					[9207] = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
@@ -622,7 +661,6 @@ EQ2DBPC = {
 					},
 				},
 			},
-			["posy"] = 975.9999923406292,
 			["zonegroup"] = "Eastern Kingdoms",
 		},
 	},

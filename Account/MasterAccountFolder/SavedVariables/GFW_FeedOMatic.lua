@@ -1,9 +1,18 @@
 
 GFW_FeedOMatic_DB = {
 	["profileKeys"] = {
+		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
 	},
 	["profiles"] = {
+		["Pastafarian - TrueWoW"] = {
+		},
+		["Ellipsis - TrueWoW"] = {
+		},
+		["Duglazerp - TrueWoW"] = {
+		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
 			["ShowOnlyInventory"] = true,
 			["ShowOnlyPetFoods"] = true,

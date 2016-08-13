@@ -1,0 +1,7 @@
+MACRO 16777217 "Bear" INV_Misc_QuestionMark
+/castsequence reset=1/alt Faerie Fire (Feral),Feral Charge,null
+/castsequence Lacerate,Lacerate,Lacerate,Mangle,Pulverize
+/castsequence Maul,Swipe(Bear Form),Thrash
+/castsequence Barkskin,Berserk,Frenzied Regeneration,Survival Instincts
+/startattack
+END

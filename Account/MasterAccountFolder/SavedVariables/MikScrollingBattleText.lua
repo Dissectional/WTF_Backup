@@ -3,7 +3,7 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["powerThrottleDuration"] = 0,
-			["critFontName"] = "ElvUI Font",
+			["hotThrottleDuration"] = 0,
 			["hideFullHoTOverheals"] = false,
 			["triggers"] = {
 				["MSBT_TRIGGER_VICTORY_RUSH"] = {
@@ -21,18 +21,19 @@ MSBTProfiles_SavedVars = {
 			["mergeExclusions"] = {
 				["Rain of Fire"] = true,
 			},
-			["hotThrottleDuration"] = 0,
 			["abbreviateAbilities"] = true,
+			["critFontName"] = "_DocsFontb",
 			["mergeSwingsDisabled"] = true,
 			["scrollAreas"] = {
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
-					["behavior"] = "MSBT_NORMAL",
 					["animationStyle"] = "Straight",
 					["offsetX"] = -290,
+					["behavior"] = "MSBT_NORMAL",
 				},
 				["Static"] = {
-					["offsetY"] = 390,
+					["stickyDirection"] = "Down",
+					["offsetY"] = 370,
 				},
 				["Outgoing"] = {
 					["stickyDirection"] = "Up",
@@ -42,7 +43,7 @@ MSBTProfiles_SavedVars = {
 					["animationStyle"] = "Straight",
 				},
 			},
-			["normalFontName"] = "ElvUI Font",
+			["normalFontName"] = "_DocsFontb",
 			["throttleList"] = {
 				["Drain Life"] = false,
 			},

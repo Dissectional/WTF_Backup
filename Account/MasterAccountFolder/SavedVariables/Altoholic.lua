@@ -10,21 +10,25 @@ AltoholicDB = {
 		["Saptack - PrimalWoW (Progressive)"] = "Saptack - PrimalWoW (Progressive)",
 		["Iamsham - PrimalWoW (Progressive)"] = "Iamsham - PrimalWoW (Progressive)",
 		["Shiftace - TrueWoW"] = "Shiftace - TrueWoW",
+		["Defren - PrimalWoW (Progressive)"] = "Defren - PrimalWoW (Progressive)",
 		["Magistratus - PrimalWoW (Progressive)"] = "Magistratus - PrimalWoW (Progressive)",
+		["Odemawajaw - PrimalWoW (Progressive)"] = "Odemawajaw - PrimalWoW (Progressive)",
 		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
-		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
+		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
 		["Contagion - PrimalWoW (Progressive)"] = "Contagion - PrimalWoW (Progressive)",
 		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
 		["Nerfed - PrimalWoW (Progressive)"] = "Nerfed - PrimalWoW (Progressive)",
-		["Parimman - TrueWoW"] = "Parimman - TrueWoW",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "Wafflestomp - PrimalWoW (Progressive)",
 		["Magistratus - TrueWoW"] = "Magistratus - TrueWoW",
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "U58ANBA57VOO13ENXUPN",
+			["GuildBankAutoUpdate"] = 1,
+			["ClampWindowToScreen"] = 1,
+			["Lola"] = "Z20GPHY08JIO13EWZZPP",
 			["TooltipGuildBankCount"] = 0,
-			["TooltipGuildBankCountPerTab"] = 1,
 			["TabSummaryMode"] = 1,
+			["TooltipGuildBankCountPerTab"] = 1,
 		},
 		["Characters"] = {
 			["Default.TrueWoW.Cryogenics"] = {
@@ -35,9 +39,8 @@ AltoholicDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["Calendar"] = {
-					"2016-01-29|23:55|Pitter Patter, UnleashtheGnomes|5|8", -- [1]
-					"2016-02-06|03:00|ZG|1|8", -- [2]
+				["Friends"] = {
+					"Defren", -- [1]
 				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
@@ -53,6 +56,9 @@ AltoholicDB = {
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
 				},
+				["SavedInstance"] = {
+					["Vault of Archavon 25 Player|1294"] = "592798|1470820805|1|0",
+				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {
 				["Friends"] = {
@@ -61,21 +67,44 @@ AltoholicDB = {
 					"Lowlypoop", -- [3]
 				},
 			},
-			["Default.TrueWoW.Shiftace"] = {
+			["Default.PrimalWoW (Progressive).Contagion"] = {
 				["Friends"] = {
-					"Kagoma", -- [1]
-					"Leefa", -- [2]
-					"Lowlypoop", -- [3]
+					"Defren", -- [1]
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
+				["Friends"] = {
+					"Defren", -- [1]
+				},
 				["Calendar"] = {
 					"2016-01-09|02:30|Raid|1|8", -- [1]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Nerfed"] = {
+				["Friends"] = {
+					"Defren", -- [1]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["Friends"] = {
+					"Defren", -- [1]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["Friends"] = {
+					"Defren", -- [1]
 				},
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["Friends"] = {
 					"Leefa", -- [1]
+				},
+			},
+			["Default.TrueWoW.Shiftace"] = {
+				["Friends"] = {
+					"Kagoma", -- [1]
+					"Leefa", -- [2]
+					"Lowlypoop", -- [3]
 				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {

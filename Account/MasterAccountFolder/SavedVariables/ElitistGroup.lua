@@ -37,12 +37,17 @@ ElitistGroupDB = {
 					["BATTLEGROUND"] = true,
 				},
 			},
+			["helped"] = true,
 			["auto"] = {
 				["keepInspects"] = 5,
 				["autoSummary"] = true,
 			},
 			["inspect"] = {
 				["window"] = true,
+			},
+			["expExpanded"] = {
+				["5-man"] = false,
+				["25-man-hard"] = false,
 			},
 			["positions"] = {
 				["summary"] = {
@@ -54,7 +59,6 @@ ElitistGroupDB = {
 					["x"] = 439.466517117809,
 				},
 			},
-			["helped"] = true,
 		},
 	},
 }
