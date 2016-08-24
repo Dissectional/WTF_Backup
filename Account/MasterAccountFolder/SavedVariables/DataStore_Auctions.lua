@@ -24,44 +24,44 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
-				["lastUpdate"] = 1471072590,
-				["lastVisitDate"] = "2016/08/13 19:16",
+				["lastUpdate"] = 1472034818,
+				["lastVisitDate"] = "2016/08/24 22:33",
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["lastUpdate"] = 1470746231,
 				["lastVisitDate"] = "2016/08/10 00:37",
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1470312134,
-				["lastVisitDate"] = "2016/08/05 00:02",
+				["lastUpdate"] = 1471610762,
+				["lastVisitDate"] = "2016/08/20 00:46",
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1471085236,
-				["Auctions"] = {
-					"0|6716|1||84000|88750|3", -- [1]
-					"0|4597|1||223500|236000|3", -- [2]
-				},
-				["lastVisitDate"] = "2016/08/13 22:45",
+				["lastUpdate"] = 1472035815,
+				["lastVisitDate"] = "2016/08/24 22:50",
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1471054506,
-				["lastVisitDate"] = "2016/08/13 14:15",
+				["lastUpdate"] = 1471756080,
+				["lastVisitDate"] = "2016/08/21 17:08",
+			},
+			["Default.PrimalWoW (Progressive).Defren"] = {
+				["lastUpdate"] = 1472034551,
+				["lastVisitDate"] = "2016/08/24 22:29",
+			},
+			["Default.PrimalWoW (Progressive).Unbearabull"] = {
+				["lastUpdate"] = 1471952672,
+				["lastVisitDate"] = "2016/08/23 23:44",
+			},
+			["Default.PrimalWoW (Progressive).Contagion"] = {
+				["lastUpdate"] = 1471745254,
+				["lastVisitDate"] = "2016/08/21 14:07",
+			},
+			["Default.TrueWoW.Cryogenics"] = {
+				["lastUpdate"] = 1472035252,
+				["lastVisitDate"] = "2016/08/24 22:40",
 			},
 			["Default.TrueWoW.Duglazerp"] = {
 				["lastUpdate"] = 1451304515,
 				["lastVisitDate"] = "2015/12/29 01:08",
-			},
-			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1454891273,
-				["lastVisitDate"] = "2016/02/08 13:27",
-			},
-			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1470658183,
-				["lastVisitDate"] = "2016/08/09 00:09",
-			},
-			["Default.PrimalWoW (Progressive).Defren"] = {
-				["lastUpdate"] = 1471072489,
-				["lastVisitDate"] = "2016/08/13 19:14",
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["lastUpdate"] = 1451091826,

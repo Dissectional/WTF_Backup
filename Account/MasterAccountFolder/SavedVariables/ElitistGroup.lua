@@ -37,18 +37,6 @@ ElitistGroupDB = {
 					["BATTLEGROUND"] = true,
 				},
 			},
-			["helped"] = true,
-			["auto"] = {
-				["keepInspects"] = 5,
-				["autoSummary"] = true,
-			},
-			["inspect"] = {
-				["window"] = true,
-			},
-			["expExpanded"] = {
-				["5-man"] = false,
-				["25-man-hard"] = false,
-			},
 			["positions"] = {
 				["summary"] = {
 					["y"] = 616.1777047977444,
@@ -58,6 +46,18 @@ ElitistGroupDB = {
 					["y"] = 630.0443755690807,
 					["x"] = 439.466517117809,
 				},
+			},
+			["auto"] = {
+				["keepInspects"] = 5,
+				["autoSummary"] = true,
+			},
+			["inspect"] = {
+				["window"] = true,
+			},
+			["helped"] = true,
+			["expExpanded"] = {
+				["5-man"] = false,
+				["25-man-hard"] = false,
 			},
 		},
 	},

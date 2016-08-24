@@ -246,3 +246,8 @@ Raven_Options: enabled
 ElkBuffBars: disabled
 SBFOptions: disabled
 SatrinaBuffFrame: disabled
+Cryolysis: disabled
+Cryolysis3: disabled
+VenantesOptions: disabled
+Venantes: disabled
+SphereLoader: disabled

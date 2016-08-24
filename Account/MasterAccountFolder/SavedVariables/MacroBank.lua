@@ -196,6 +196,70 @@ MacroBankDB = {
 						"/castsequence [mod]Arcane Missiles;Arcane Blast\n/castsequence reset=120 Mana Gem,Presence of Mind,Arcane Power\n/castsequence reset=180 Mirror Image,Flame Orb,Flame Orb,Flame Orb\n/use 13\n/use 14", -- [4]
 					}, -- [1]
 					{
+						"Fire - Modifier for Pyro", -- [1]
+						"Fire", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence reset=target Living Bomb,Fireball,Fireball\n/castsequence [mod]Pyroblast;reset=60 Flame Orb,Combustion,Mirror Image\n/use 13\n/use 14", -- [4]
+					}, -- [2]
+					{
+						"Frost - Modifier for Frostfire Bolt", -- [1]
+						"Frost", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"/castsequence [mod]Frostfire Bolt;reset=30 Ice Barrier,null\n/castsequence Frostbolt\n/castsequence reset=120 Mirror Image,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze\n/cast Icy Veins\n/cast Flame Orb\n/use 13\n/use 14", -- [4]
+					}, -- [3]
+				}, -- [2]
+			}, -- [4]
+			{
+				"Mine - Druid", -- [1]
+				{
+					{
+						"1", -- [1]
+						"1", -- [2]
+						"Interface\\Icons\\Ability_Druid_Dash", -- [3]
+						"#showtooltip\n/cast [stance:1] Feral Charge; [stance:3,nomod] Dash; [stance:3] Feral Charge; Cat Form", -- [4]
+					}, -- [1]
+					{
+						"AOE", -- [1]
+						"AOE", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast [stance:1] Swipe (Bear)\n/startattack\n/script UIErrorsFrame:Clear()\n", -- [4]
+					}, -- [2]
+					{
+						"CoolDown", -- [1]
+						"CoolDown", -- [2]
+						"Interface\\Icons\\Ability_Mount_JungleTiger", -- [3]
+						"#showtooltip\n/stopmacro [nocombat]\n/cast [stance:1] ; [stance:3] Tiger's Fury", -- [4]
+					}, -- [3]
+					{
+						"Maul", -- [1]
+						"Maul", -- [2]
+						"Interface\\Icons\\Ability_Racial_BearForm", -- [3]
+						"#showtooltip\n/cast [stance:1,nomod] Maul; [stance:3,nomod] Claw\n/cast [nostance,mod] Cat Form; [nostance] Bear Form\n/cancelform [stance,mod]\n/startattack\n/script UIErrorsFrame:Clear()", -- [4]
+					}, -- [4]
+					{
+						"Roar", -- [1]
+						"Roar", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"#showtooltip\n/cast [stance:1,mod] Challenging Roar; [stance:1] Demoralizing Roar", -- [4]
+					}, -- [5]
+					{
+						"Threat", -- [1]
+						"Threat", -- [2]
+						"Interface\\Icons\\Spell_Nature_FaerieFire", -- [3]
+						"#showtooltip\n/cast [stance:1,mod] Growl; [stance:1/3] Faerie Fire (Feral) ", -- [4]
+					}, -- [6]
+				}, -- [2]
+			}, -- [5]
+			{
+				"Mine - Mage", -- [1]
+				{
+					{
+						"AOE", -- [1]
+						"AOE", -- [2]
+						"Interface\\Icons\\Spell_Frost_FrostNova", -- [3]
+						"#showtooltip\n/cast [mod:shift] Flamestrike; [mod:ctrl] Blizzard; Frost Nova\n", -- [4]
+					}, -- [1]
+					{
 						"Conjure Food", -- [1]
 						"Conjure Food", -- [2]
 						"Interface\\Icons\\INV_Misc_Food_09", -- [3]
@@ -207,20 +271,43 @@ MacroBankDB = {
 						"Interface\\Icons\\INV_Drink_06", -- [3]
 						"#showtooltip Conjured Fresh Water\n/cast [button:2] Conjure Water; Conjured Fresh Water", -- [4]
 					}, -- [3]
+				}, -- [2]
+			}, -- [6]
+			{
+				"Mine - Warrior", -- [1]
+				{
 					{
-						"Fire - Modifier for Pyro", -- [1]
-						"Fire", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence reset=target Living Bomb,Fireball,Fireball\n/castsequence [mod]Pyroblast;reset=60 Flame Orb,Combustion,Mirror Image\n/use 13\n/use 14", -- [4]
+						"Cleave", -- [1]
+						"Cleave", -- [2]
+						"Interface\\Icons\\Ability_Warrior_Cleave", -- [3]
+						"#showtooltip\n/targetnexttarget [noexists]\n/startattack [@target,exists,nodead,harm]\n/cast Cleave\n/script UIErrorsFrame:Clear()", -- [4]
+					}, -- [1]
+					{
+						"Heroic Strike", -- [1]
+						"Heroic Strike", -- [2]
+						"Interface\\Icons\\Ability_Rogue_Ambush", -- [3]
+						"#showtooltip\n/targetenemy [noexists]\n/startattack [@target,exists,nodead,harm]\n/cast Heroic Strike\n/script UIErrorsFrame:Clear()", -- [4]
+					}, -- [2]
+					{
+						"Primary Attack", -- [1]
+						"003 Attack", -- [2]
+						"Interface\\Icons\\Ability_Warrior_Revenge", -- [3]
+						"#showtooltip\n/startattack\n/cast [stance:1/2, mod] Rend; [stance:1] Overpower; [stance:2] Revenge\n/cast [stance:3,nomod]  Bloodthirst\n", -- [4]
+					}, -- [3]
+					{
+						"Taunt", -- [1]
+						"Taunt", -- [2]
+						"Interface\\Icons\\Spell_Nature_Reincarnation", -- [3]
+						"#showtooltip\n/cast [mod:shift] Challenging Shout; [mod:ctrl] Mocking Blow; Taunt\n\n", -- [4]
 					}, -- [4]
 					{
-						"Frost - Modifier for Frostfire Bolt", -- [1]
-						"Frost", -- [2]
+						"Temp Description", -- [1]
+						"Temp Name", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/castsequence [mod]Frostfire Bolt;reset=30 Ice Barrier,null\n/castsequence Frostbolt\n/castsequence reset=120 Mirror Image,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze,Deep Freeze\n/cast Icy Veins\n/cast Flame Orb\n/use 13\n/use 14", -- [4]
+						"", -- [4]
 					}, -- [5]
 				}, -- [2]
-			}, -- [4]
+			}, -- [7]
 			{
 				"Paladin", -- [1]
 				{
@@ -273,7 +360,7 @@ MacroBankDB = {
 						"/castsequence [mod]Templar's Verdict;reset=15 Judgement,Holy Wrath,Crusader Strike,Crusader Strike,Judgement,Crusader Strike,Crusader Strike\n/cast Hammer of Wrath\n/cast Zealotry\n/cast Avenging Wrath\n/cast Guardian of Ancient Kings\n/use 13\n/startattack", -- [4]
 					}, -- [8]
 				}, -- [2]
-			}, -- [5]
+			}, -- [8]
 			{
 				"Priest", -- [1]
 				{
@@ -302,7 +389,7 @@ MacroBankDB = {
 						"/castsequence [mod]Shadow Word: Death;reset=target Shadow Word: Pain,null\n/castsequence [nochanneling] reset=target Vampiric Touch,Devouring Plague,Mind Blast,Mind Flay,Mind Flay,Mind Flay,Mind Blast,Mind Flay\n/cast Shadowfiend\n/cast Archangel\n/use 13", -- [4]
 					}, -- [4]
 				}, -- [2]
-			}, -- [6]
+			}, -- [9]
 			{
 				"Professions", -- [1]
 				{
@@ -313,31 +400,13 @@ MacroBankDB = {
 						"/click ExpellerRunButton", -- [4]
 					}, -- [1]
 					{
-						"Expeller - For Expeller Addon", -- [1]
-						"Expeller", -- [2]
+						"Prospecting - Prospect any ore", -- [1]
+						"Prospecting", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/click ExpellerRunButton", -- [4]
+						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
 					}, -- [2]
-					{
-						"Prospecting - Prospect any ore", -- [1]
-						"Prospecting", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
-					}, -- [3]
-					{
-						"Prospecting - Prospect any ore", -- [1]
-						"Prospecting", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"/cast Prospecting\n/use Pyrite Ore\n/use Elementium Ore\n/use Titanium Ore\n/use Obsidium Ore\n/use Saronite Ore\n/use Cobalt Ore\n/use Adamantite Ore\n/use Fel Iron Ore\n/use Thorium Ore\n/use Mithril Ore\n/use Iron Ore\n/use Tin Ore\n/use Copper Ore", -- [4]
-					}, -- [4]
-					{
-						"Temp Description", -- [1]
-						"Temp Name", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"", -- [4]
-					}, -- [5]
 				}, -- [2]
-			}, -- [7]
+			}, -- [10]
 			{
 				"Rogue", -- [1]
 				{
@@ -438,7 +507,7 @@ MacroBankDB = {
 						"/castsequence [mod]Ambush;reset=target Hemorrhage,Slice and Dice,Hemorrhage,Hemorrhage,Rupture,Hemorrhage,Hemorrhage,Recuperate\n/castsequence reset=60 Shadow Dance,Shadowstep,Premeditation\n/cast Smoke Bomb\n/startattack", -- [4]
 					}, -- [16]
 				}, -- [2]
-			}, -- [8]
+			}, -- [11]
 			{
 				"Shaman", -- [1]
 				{
@@ -503,18 +572,18 @@ MacroBankDB = {
 						"/castsequence reset=9/alt Call of the Elements,null\n/castsequence reset=15 Unleash Elements,Flame Shock,Lava Lash,Stormstrike,Earth Shock,Stormstrike\n/castsequence reset=120 Feral Spirit,Shamanistic Rage\n/use 13\n/use 14\n/startattack", -- [4]
 					}, -- [10]
 				}, -- [2]
-			}, -- [9]
+			}, -- [12]
 			{
 				"Temp Category", -- [1]
 				{
 					{
-						"Maul", -- [1]
-						"Maul", -- [2]
-						"Interface\\Icons\\Ability_Racial_BearForm", -- [3]
-						"#showtooltip\n/startattack\n/cast [nostance:1]  Bear Form; Maul\n/cancelaura [mod:shift] Bear form\n/script UIErrorsFrame:Clear()\n", -- [4]
+						"Temp Description", -- [1]
+						"Temp Name", -- [2]
+						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+						"", -- [4]
 					}, -- [1]
 				}, -- [2]
-			}, -- [10]
+			}, -- [13]
 			{
 				"Warlock", -- [1]
 				{
@@ -597,7 +666,7 @@ MacroBankDB = {
 						"#showtooltip\n/cast [nomod] Drain Life\n/cast [mod:shift] Rain of Fire\n/cast [mod:ctrl] Drain Mana", -- [4]
 					}, -- [13]
 				}, -- [2]
-			}, -- [11]
+			}, -- [14]
 			{
 				"Warrior", -- [1]
 				{
@@ -638,25 +707,13 @@ MacroBankDB = {
 						"/castsequence reset=target/alt Rend,Thunder Clap,null\n/castsequence Devastate,Cleave\n/castsequence reset=9 Shield Slam,Shockwave,Shield Slam\n/castsequence Revenge\n/cast Berserker Rage\n/cast Shield Block\n/cast Charge\n/startattack", -- [4]
 					}, -- [6]
 					{
-						"Taunt", -- [1]
-						"Taunt", -- [2]
-						"Interface\\Icons\\Spell_Nature_Reincarnation", -- [3]
-						"#showtooltip\n/cast [mod:shift] Challenging Shout; [mod:ctrl] Mocking Blow; Taunt\n\n", -- [4]
-					}, -- [7]
-					{
-						"Temp Description", -- [1]
-						"Temp Name", -- [2]
-						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
-						"#showtooltip Charge\n/cast [stance:1,nocombat] Charge\n/cast [nostance:2] Defensive Stance\n/cast [stance:2] Enrage", -- [4]
-					}, -- [8]
-					{
 						"Used on Fury to prevent casting Slam unless is instant", -- [1]
 						"Fury Slam", -- [2]
 						"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 						"#showtooltip\n/stopcasting\n/cast Slam\n/stopcasting\n/startattack", -- [4]
-					}, -- [9]
+					}, -- [7]
 				}, -- [2]
-			}, -- [12]
+			}, -- [15]
 		},
 	},
 	["profiles"] = {

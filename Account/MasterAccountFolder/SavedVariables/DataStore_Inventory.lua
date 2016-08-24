@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 					[4] = 127,
 				},
 				["averageItemLvl"] = 1.666666666666667,
-				["lastUpdate"] = 1470048722,
+				["lastUpdate"] = 1472034795,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
 				["Inventory"] = {
@@ -55,25 +55,27 @@ DataStore_InventoryDB = {
 					22997, -- [18]
 				},
 				["averageItemLvl"] = 20.6,
-				["lastUpdate"] = 1452579002,
+				["lastUpdate"] = 1472035476,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
 				["Inventory"] = {
-					[6] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-71:10:25|h[Vigorous Belt of the Bandit]|h|r",
-					[3] = 5404,
-					[7] = 10410,
-					[15] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-71:8:25|h[Tumultuous Cloak of the Bandit]|h|r",
-					[8] = "|cff1eff00|Hitem:15111:0:0:0:0:0:114:0:25|h[Rigid Moccasins of Stamina]|h|r",
-					[4] = 127,
-					[9] = "|cff1eff00|Hitem:15453:66:0:0:0:0:0:0:25|h[Savannah Bracers]|h|r",
+					[12] = 7686,
+					[6] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-71:10:30|h[Vigorous Belt of the Bandit]|h|r",
 					[16] = 6641,
-					[10] = 2167,
-					[5] = 3444,
+					[3] = 5404,
+					[7] = 6690,
+					[15] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-71:8:30|h[Tumultuous Cloak of the Bandit]|h|r",
+					[8] = 14568,
+					[4] = 127,
+					[9] = "|cff1eff00|Hitem:15453:66:0:0:0:0:0:0:30|h[Savannah Bracers]|h|r",
+					[2] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:30|h[Tumultuous Necklace of the Monkey]|h|r",
+					[10] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-80:15:30|h[Vigorous Handguards of the Wild]|h|r",
+					[5] = 5317,
 					[11] = 6414,
 					[18] = 13136,
 				},
-				["averageItemLvl"] = 22,
-				["lastUpdate"] = 1471061550,
+				["averageItemLvl"] = 27.23076923076923,
+				["lastUpdate"] = 1471868451,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Inventory"] = {
@@ -175,7 +177,7 @@ DataStore_InventoryDB = {
 					[9] = 14148,
 				},
 				["averageItemLvl"] = 27.21428571428572,
-				["lastUpdate"] = 1470658136,
+				["lastUpdate"] = 1472034028,
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["Inventory"] = {
@@ -198,91 +200,96 @@ DataStore_InventoryDB = {
 					[18] = 12984,
 				},
 				["averageItemLvl"] = 26.46153846153846,
-				["lastUpdate"] = 1470746225,
+				["lastUpdate"] = 1471149565,
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
 				["Inventory"] = {
 					nil, -- [1]
-					"|cff0070dd|Hitem:51996:0:0:0:0:0:-75:11:26|h[Tumultuous Necklace of the Champion]|h|r", -- [2]
+					"|cff0070dd|Hitem:51996:0:0:0:0:0:-75:11:29|h[Tumultuous Necklace of the Champion]|h|r", -- [2]
 					4197, -- [3]
 					6096, -- [4]
 					6682, -- [5]
 					6908, -- [6]
 					5310, -- [7]
-					14364, -- [8]
-					nil, -- [9]
-					5195, -- [10]
+					"|cff1eff00|Hitem:14176:0:0:0:0:0:764:0:29|h[Watcher's Boots of the Owl]|h|r", -- [8]
+					"|cff1eff00|Hitem:6613:0:0:0:0:0:761:0:29|h[Sage's Bracers of the Owl]|h|r", -- [9]
+					"|cff0070dd|Hitem:51973:0:0:0:0:0:-82:15:29|h[Enumerated Handwraps of the Vision]|h|r", -- [10]
 					6463, -- [11]
-					"|cff1eff00|Hitem:11981:0:0:0:0:0:28:0:26|h[Lead Band of Spirit]|h|r", -- [12]
+					"|cff1eff00|Hitem:11981:0:0:0:0:0:28:0:29|h[Lead Band of Spirit]|h|r", -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					"|cff0070dd|Hitem:51994:0:0:0:0:0:-85:8:26|h[Tumultuous Cloak of the Sorcerer]|h|r", -- [15]
+					"|cff0070dd|Hitem:51994:0:0:0:0:0:-85:8:29|h[Tumultuous Cloak of the Sorcerer]|h|r", -- [15]
 					1155, -- [16]
 					nil, -- [17]
-					5326, -- [18]
+					13062, -- [18]
 				},
-				["averageItemLvl"] = 25.41666666666667,
-				["lastUpdate"] = 1471086420,
+				["averageItemLvl"] = 27.92307692307692,
+				["lastUpdate"] = 1472037122,
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
 				["Inventory"] = {
 					nil, -- [1]
-					nil, -- [2]
-					5404, -- [3]
+					"|cff0070dd|Hitem:51996:0:0:0:0:0:-84:11:32|h[Tumultuous Necklace of Stamina]|h|r", -- [2]
+					"|cff1eff00|Hitem:7424:0:0:0:0:0:1021:0:32|h[Phalanx Spaulders of the Whale]|h|r", -- [3]
 					6125, -- [4]
-					6627, -- [5]
-					"|cff0070dd|Hitem:51978:0:0:0:0:0:-75:10:26|h[Earthbound Girdle of the Champion]|h|r", -- [6]
-					10410, -- [7]
+					6907, -- [5]
+					"|cff0070dd|Hitem:51978:0:0:0:0:0:-75:10:32|h[Earthbound Girdle of the Champion]|h|r", -- [6]
+					14757, -- [7]
 					6459, -- [8]
 					5943, -- [9]
-					"|cff0070dd|Hitem:51980:0:0:0:0:0:-17:15:26|h[Earthbound Handgrips of Strength]|h|r", -- [10]
-					12996, -- [11]
+					"|cff0070dd|Hitem:51980:0:0:0:0:0:-84:15:32|h[Earthbound Handgrips of Stamina]|h|r", -- [10]
+					12985, -- [11]
 					6414, -- [12]
 					nil, -- [13]
 					nil, -- [14]
-					5444, -- [15]
+					14763, -- [15]
 					6633, -- [16]
-					13245, -- [17]
-					6469, -- [18]
+					6400, -- [17]
+					6696, -- [18]
 				},
-				["averageItemLvl"] = 24.61538461538462,
-				["lastUpdate"] = 1471070248,
+				["averageItemLvl"] = 28.71428571428572,
+				["lastUpdate"] = 1471772990,
 			},
 			["Default.PrimalWoW (Progressive).Magistratus"] = {
 				["Inventory"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					45, -- [4]
-					60, -- [5]
+					2575, -- [4]
+					2648, -- [5]
 					2690, -- [6]
-					2962, -- [7]
+					6084, -- [7]
 					2691, -- [8]
-					6070, -- [9]
-					1368, -- [10]
-					[16] = "|cff1eff00|Hitem:8178:0:0:0:0:0:228:0:7|h[Training Sword of the Wolf]|h|r",
+					1182, -- [9]
+					1359, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					4658, -- [15]
+					"|cff1eff00|Hitem:8178:0:0:0:0:0:228:0:11|h[Training Sword of the Wolf]|h|r", -- [16]
 				},
-				["averageItemLvl"] = 6.285714285714286,
-				["lastUpdate"] = 1471086224,
+				["averageItemLvl"] = 8.625,
+				["lastUpdate"] = 1471950606,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
 				["Inventory"] = {
 					[12] = 6414,
-					[6] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-78:10:28|h[Vigorous Belt of the Monkey]|h|r",
+					[6] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-78:10:29|h[Vigorous Belt of the Monkey]|h|r",
 					[3] = 5404,
 					[7] = 5199,
 					[15] = 6340,
-					[16] = 5187,
+					[16] = 6365,
 					[4] = 5107,
 					[9] = 3230,
 					[8] = 10411,
-					[2] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:28|h[Tumultuous Necklace of the Monkey]|h|r",
+					[2] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:29|h[Tumultuous Necklace of the Monkey]|h|r",
 					[5] = 10399,
-					[11] = "|cff1eff00|Hitem:12006:0:0:0:0:0:587:0:28|h[Meadow Ring of the Monkey]|h|r",
-					[10] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-71:15:28|h[Vigorous Handguards of the Bandit]|h|r",
+					[11] = "|cff1eff00|Hitem:12006:0:0:0:0:0:587:0:29|h[Meadow Ring of the Monkey]|h|r",
+					[10] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-71:15:29|h[Vigorous Handguards of the Bandit]|h|r",
 				},
-				["averageItemLvl"] = 25.75,
-				["lastUpdate"] = 1471085786,
+				["averageItemLvl"] = 24.91666666666667,
+				["lastUpdate"] = 1471953445,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["Inventory"] = {
@@ -323,13 +330,14 @@ DataStore_InventoryDB = {
 			},
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
 				["Inventory"] = {
+					[10] = 4914,
+					[16] = 36,
 					[7] = 153,
 					[17] = 2362,
-					[16] = 36,
 					[4] = 154,
 				},
-				["averageItemLvl"] = 1.333333333333333,
-				["lastUpdate"] = 1451459375,
+				["averageItemLvl"] = 2.25,
+				["lastUpdate"] = 1471424950,
 			},
 			["Default.PrimalWoW (Progressive).Defren"] = {
 				["Inventory"] = {
@@ -340,7 +348,7 @@ DataStore_InventoryDB = {
 					[4] = 6096,
 				},
 				["averageItemLvl"] = 1.25,
-				["lastUpdate"] = 1471072471,
+				["lastUpdate"] = 1472034559,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["Inventory"] = {
@@ -363,7 +371,7 @@ DataStore_InventoryDB = {
 					[18] = 11287,
 				},
 				["averageItemLvl"] = 10.55555555555556,
-				["lastUpdate"] = 1469855942,
+				["lastUpdate"] = 1472033404,
 			},
 		},
 		["Guilds"] = {
@@ -434,43 +442,73 @@ DataStore_InventoryDB = {
 			["Default.PrimalWoW (Progressive).Debauchery Tea Party"] = {
 				["Members"] = {
 					["Maunnis"] = {
-						["averageItemLvl"] = 63,
+						["averageItemLvl"] = 64,
 					},
 					["Duthoriann"] = {
 						["averageItemLvl"] = 6,
 					},
 					["Freyabentos"] = {
-						["averageItemLvl"] = 62,
-					},
-					["Wafflestomp"] = {
-						["averageItemLvl"] = 24,
-					},
-					["Sylvanaas"] = {
-						["averageItemLvl"] = 70,
-					},
-					["Jary"] = {
-						["averageItemLvl"] = 29,
-					},
-					["Gunnis"] = {
-						["averageItemLvl"] = 71,
-					},
-					["Contagion"] = {
-						["averageItemLvl"] = 27,
-					},
-					["Zekamii"] = {
-						["averageItemLvl"] = 68,
+						["averageItemLvl"] = 63,
 					},
 					["Hotgar"] = {
 						["averageItemLvl"] = 51,
 					},
-					["Unbearabull"] = {
-						["averageItemLvl"] = 25,
+					["Doanir"] = {
+						["averageItemLvl"] = 61,
 					},
-					["Nerfed"] = {
-						["averageItemLvl"] = 25,
+					["Agridi"] = {
+						["averageItemLvl"] = 55,
+					},
+					["Gunnis"] = {
+						["averageItemLvl"] = 71,
+					},
+					["Wafflestomp"] = {
+						["averageItemLvl"] = 28,
+					},
+					["Unbearabull"] = {
+						["averageItemLvl"] = 24,
+					},
+					["Aminthia"] = {
+						["averageItemLvl"] = 5,
+					},
+					["Sylvanaas"] = {
+						["averageItemLvl"] = 70,
+					},
+					["Voort"] = {
+						["averageItemLvl"] = 55,
+					},
+					["Agrodon"] = {
+						["averageItemLvl"] = 74,
+					},
+					["Unchained"] = {
+						["averageItemLvl"] = 66,
+					},
+					["Soon"] = {
+						["averageItemLvl"] = 36,
+					},
+					["Ihly"] = {
+						["averageItemLvl"] = 63,
+					},
+					["Brasil"] = {
+						["averageItemLvl"] = 36,
+					},
+					["Contagion"] = {
+						["averageItemLvl"] = 27,
 					},
 					["Akemi"] = {
 						["averageItemLvl"] = 2,
+					},
+					["Magistratus"] = {
+						["averageItemLvl"] = 8,
+					},
+					["Nerfed"] = {
+						["averageItemLvl"] = 27,
+					},
+					["Wajawamedo"] = {
+						["averageItemLvl"] = 27,
+					},
+					["Mittens"] = {
+						["averageItemLvl"] = 26,
 					},
 					["Drakka"] = {
 						["averageItemLvl"] = 6,
@@ -479,25 +517,25 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 56,
 					},
 					["Mangonel"] = {
-						["averageItemLvl"] = 32,
+						["averageItemLvl"] = 42,
 					},
-					["Wajawamedo"] = {
-						["averageItemLvl"] = 22,
+					["Jary"] = {
+						["averageItemLvl"] = 35,
 					},
-					["Mittens"] = {
-						["averageItemLvl"] = 26,
+					["Valesco"] = {
+						["averageItemLvl"] = 52,
 					},
 					["Barthilas"] = {
 						["averageItemLvl"] = 61,
 					},
-					["Valesco"] = {
-						["averageItemLvl"] = 43,
+					["Ironelly"] = {
+						["averageItemLvl"] = 7,
 					},
-					["Voort"] = {
+					["Zekamii"] = {
+						["averageItemLvl"] = 68,
+					},
+					["Burazer"] = {
 						["averageItemLvl"] = 55,
-					},
-					["Doanir"] = {
-						["averageItemLvl"] = 61,
 					},
 				},
 			},
@@ -526,7 +564,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 17,
 					},
 					["Duglazerp"] = {
-						["averageItemLvl"] = 212,
+						["averageItemLvl"] = 220,
 					},
 					["Ellipsis"] = {
 						["averageItemLvl"] = 17,

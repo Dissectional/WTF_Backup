@@ -23,9 +23,10 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
+			["MinimapIconAngle"] = 351,
 			["GuildBankAutoUpdate"] = 1,
 			["ClampWindowToScreen"] = 1,
-			["Lola"] = "Z20GPHY08JIO13EWZZPP",
+			["Lola"] = "T08WQHT19AGQ24SWMTPQ",
 			["TooltipGuildBankCount"] = 0,
 			["TabSummaryMode"] = 1,
 			["TooltipGuildBankCountPerTab"] = 1,
@@ -42,6 +43,34 @@ AltoholicDB = {
 				["Friends"] = {
 					"Defren", -- [1]
 				},
+				["Calendar"] = {
+					"2016-08-14|20:00|AQ20|1|8", -- [1]
+					"2016-08-15|20:00|AQ40|1|8", -- [2]
+					"2016-08-16|20:00|PvP (Alliance)|3|8", -- [3]
+					"2016-08-16|20:00|PvP (Horde)|3|8", -- [4]
+					"2016-08-17|20:00|BWL|1|8", -- [5]
+					"2016-08-18|20:00|AQ40|1|8", -- [6]
+					"2016-08-19|20:00|MC|1|8", -- [7]
+					"2016-08-20|20:00|ZG|1|8", -- [8]
+					"2016-08-21|20:00|AQ20|1|8", -- [9]
+					"2016-08-22|20:00|ZG|1|8", -- [10]
+					"2016-08-23|20:00|PvP (Alliance)|3|8", -- [11]
+					"2016-08-23|20:00|PvP (Horde)|3|8", -- [12]
+					"2016-08-24|20:00|BWL|1|8", -- [13]
+					"2016-08-25|20:00|AQ40|1|8", -- [14]
+					"2016-08-26|20:00|MC|1|8", -- [15]
+					"2016-08-27|20:00|ZG|1|8", -- [16]
+					"2016-08-28|20:00|AQ20|1|8", -- [17]
+					"2016-08-29|20:00|ZG|1|8", -- [18]
+					"2016-08-30|20:00|PvP (Alliance)|3|8", -- [19]
+					"2016-08-30|20:00|PvP (Horde)|3|8", -- [20]
+					"2016-08-31|20:00|BWL|1|8", -- [21]
+					"2016-09-01|20:00|AQ40|1|8", -- [22]
+					"2016-09-02|20:00|MC|1|8", -- [23]
+					"2016-09-03|20:00|ZG|1|8", -- [24]
+					"2016-09-05|20:00|AV Event: Alliance!|3|8", -- [25]
+					"2016-09-05|20:00|AV Event: Horde!|3|8", -- [26]
+				},
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["Friends"] = {
@@ -55,9 +84,6 @@ AltoholicDB = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
-				},
-				["SavedInstance"] = {
-					["Vault of Archavon 25 Player|1294"] = "592798|1470820805|1|0",
 				},
 			},
 			["Default.TrueWoW.Ellipsis"] = {
@@ -105,6 +131,11 @@ AltoholicDB = {
 					"Kagoma", -- [1]
 					"Leefa", -- [2]
 					"Lowlypoop", -- [3]
+				},
+			},
+			["Default.PrimalWoW (Progressive).Iamsham"] = {
+				["Friends"] = {
+					"Defren", -- [1]
 				},
 			},
 			["Default.TrueWoW.Pastafarian"] = {

@@ -1,4 +1,6 @@
 
 FFF_RecentFactions = {
-	"Horde", -- [1]
+	"Thunder Bluff", -- [1]
+	"Darkspear Trolls", -- [2]
+	"Horde", -- [3]
 }

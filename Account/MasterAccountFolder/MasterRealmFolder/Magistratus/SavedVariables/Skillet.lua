@@ -6,7 +6,8 @@ SkilletDBPC = {
 			["Cooking"] = {
 				["filtertext"] = "",
 				["sortdesc-By Level"] = false,
-				["sortmethod"] = "By Level",
+				["sortmethod"] = "By Difficulty",
+				["sortdesc-By Difficulty"] = false,
 			},
 			["Mining"] = {
 				["filtertext"] = "",
@@ -14,7 +15,7 @@ SkilletDBPC = {
 			},
 			["First Aid"] = {
 				["filtertext"] = "",
-				["sortmethod"] = "By Level",
+				["sortmethod"] = "By Difficulty",
 			},
 			["Blacksmithing"] = {
 				["filtertext"] = "",
@@ -25,5 +26,6 @@ SkilletDBPC = {
 		},
 		["tradeSkillLocation_point"] = "CENTER",
 		["tradeSkillLocation_y"] = -3.000074884027185,
+		["include_alts"] = false,
 	},
 }

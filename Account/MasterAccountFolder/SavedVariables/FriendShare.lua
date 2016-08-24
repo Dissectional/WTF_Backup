@@ -2,8 +2,8 @@
 FriendShare_GlobalFriends = {
 	["TrueWoW-Horde"] = {
 		["Kagoma"] = "Kagoma",
-		["Leefa"] = "Leefa",
 		["Lowlypoop"] = "Lowlypoop",
+		["Leefa"] = "Leefa",
 	},
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
@@ -60,11 +60,6 @@ IgnoreShare_GlobalIgnores = {
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
-		["Solid"] = "Solid",
-		["Offheal"] = "Offheal",
-		["Elora"] = "Elora",
-		["Aellis"] = "Aellis",
-		["Davoodoo"] = "Davoodoo",
 	},
 	["TrueWoW-Alliance"] = {
 	},
@@ -75,6 +70,13 @@ IgnoreShare_RemovedIgnores = {
 	["PrimalWoW (Progressive)-Alliance"] = {
 	},
 	["PrimalWoW (Progressive)-Horde"] = {
+		["Solid"] = "Solid",
+		["Offheal"] = "Offheal",
+		["Tiphareth"] = "Tiphareth",
+		["Araminta"] = "Araminta",
+		["Elora"] = "Elora",
+		["Davoodoo"] = "Davoodoo",
+		["Aellis"] = "Aellis",
 	},
 	["TrueWoW-Alliance"] = {
 	},

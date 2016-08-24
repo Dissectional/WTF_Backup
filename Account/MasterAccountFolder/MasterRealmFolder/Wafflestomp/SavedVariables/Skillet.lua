@@ -4,22 +4,23 @@ SkilletDBPC = {
 		["tradeSkillLocation_x"] = 74.99993756245037,
 		["tradeskill_options"] = {
 			["Cooking"] = {
-				["hidetrivial"] = true,
+				["hidetrivial"] = false,
 				["hideuncraftable"] = false,
 				["filtertext"] = "",
 			},
 			["Mining"] = {
 				["filtertext"] = "",
+				["sortmethod"] = "By Difficulty",
 			},
 			["First Aid"] = {
 				["filtertext"] = "",
 			},
 			["Blacksmithing"] = {
-				["hidetrivial"] = true,
+				["hidetrivial"] = false,
 				["sortdesc-By Difficulty"] = false,
 				["filtertext"] = "",
 				["sortdesc-By Level"] = false,
-				["sortmethod"] = "By Difficulty",
+				["sortmethod"] = "By Level",
 				["hideuncraftable"] = false,
 			},
 		},

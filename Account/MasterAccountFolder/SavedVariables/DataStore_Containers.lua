@@ -26,16 +26,8 @@ DataStore_ContainersDB = {
 			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
 				["numFreeBankSlots"] = 28,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1471072588,
+				["lastUpdate"] = 1472034805,
 				["Containers"] = {
-					["Bag100"] = {
-						["size"] = 28,
-						["freeslots"] = 28,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
@@ -43,6 +35,14 @@ DataStore_ContainersDB = {
 						["size"] = 16,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 15,
+					},
+					["Bag100"] = {
+						["size"] = 28,
+						["freeslots"] = 28,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag1"] = {
 						["ids"] = {
@@ -62,53 +62,56 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 22,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
-				["numFreeBankSlots"] = 24,
+				["numFreeBankSlots"] = 17,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1452579002,
+				["lastUpdate"] = 1472035678,
 				["Containers"] = {
 					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:19|h[Linen Bag]|h|r",
+						["size"] = 6,
 						["ids"] = {
 							10939, -- [1]
 							23413, -- [2]
 							28141, -- [3]
 							4697, -- [4]
 							7509, -- [5]
-							6903, -- [6]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["size"] = 6,
+						["freeslots"] = 1,
 					},
 					["Bag100"] = {
-						["freeslots"] = 24,
 						["ids"] = {
 							22571, -- [1]
 							22976, -- [2]
 							20474, -- [3]
 							4238, -- [4]
+							2592, -- [5]
+							2592, -- [6]
+							2592, -- [7]
+							2592, -- [8]
+							6903, -- [9]
+							1206, -- [10]
+							818, -- [11]
+						},
+						["freeslots"] = 17,
+						["counts"] = {
+							[5] = 20,
+							[6] = 20,
+							[7] = 20,
+							[11] = 3,
+							[8] = 8,
 						},
 						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:19|h[Linen Bag]|h|r",
 						["ids"] = {
 							3712, -- [1]
 							5784, -- [2]
-							2592, -- [3]
-							2592, -- [4]
-							2592, -- [5]
-							2592, -- [6]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							20, -- [3]
-							20, -- [4]
-							20, -- [5]
-							8, -- [6]
 						},
 						["size"] = 6,
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:19|h[Linen Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
+						["freeslots"] = 4,
 					},
 					["Bag2"] = {
 						["ids"] = {
@@ -135,31 +138,31 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:19|h[Linen Bag]|h|r",
 						["ids"] = {
 							27636, -- [1]
 							6657, -- [2]
 							6256, -- [3]
-							818, -- [4]
-							1206, -- [5]
+							nil, -- [4]
+							nil, -- [5]
 							2406, -- [6]
 						},
+						["link"] = "|cffffffff|Hitem:4238:0:0:0:0:0:0:0:19|h[Linen Bag]|h|r",
+						["size"] = 6,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_01",
 						["counts"] = {
 							3, -- [1]
 							4, -- [2]
-							[4] = 3,
 						},
-						["size"] = 6,
+						["freeslots"] = 2,
 					},
 					["Bag0"] = {
-						["freeslots"] = 1,
+						["freeslots"] = 3,
 						["ids"] = {
 							nil, -- [1]
 							23929, -- [2]
 							6948, -- [3]
-							6325, -- [4]
-							6328, -- [5]
+							nil, -- [4]
+							nil, -- [5]
 							22647, -- [6]
 							4611, -- [7]
 							10940, -- [8]
@@ -186,50 +189,43 @@ DataStore_ContainersDB = {
 					},
 				},
 				["numBagSlots"] = 40,
-				["numFreeBagSlots"] = 1,
+				["numFreeBagSlots"] = 10,
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["numFreeBankSlots"] = 29,
+				["numFreeBankSlots"] = 12,
 				["numBankSlots"] = 56,
-				["lastUpdate"] = 1471061550,
+				["lastUpdate"] = 1471868622,
 				["Containers"] = {
 					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:30|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							6289, -- [1]
-							6308, -- [2]
-							2836, -- [3]
-							5082, -- [4]
-							2589, -- [5]
-							2589, -- [6]
-							2589, -- [7]
-							2589, -- [8]
-							2589, -- [9]
-							2592, -- [10]
-							2592, -- [11]
-							4306, -- [12]
-							955, -- [13]
-							3012, -- [14]
-						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["counts"] = {
-							6, -- [1]
-							2, -- [2]
-							15, -- [3]
-							2, -- [4]
-							20, -- [5]
-							20, -- [6]
-							20, -- [7]
-							20, -- [8]
-							4, -- [9]
-							20, -- [10]
-							4, -- [11]
-							10, -- [12]
+							5801, -- [1]
+							nil, -- [2]
+							2459, -- [3]
+							929, -- [4]
+							3385, -- [5]
+							nil, -- [6]
+							6420, -- [7]
+							16651, -- [8]
+							3771, -- [9]
+							4306, -- [10]
+							5956, -- [11]
+							2901, -- [12]
+							6219, -- [13]
+							6256, -- [14]
 						},
 						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[10] = 7,
+							[5] = 4,
+							[4] = 4,
+							[9] = 7,
+						},
+						["freeslots"] = 2,
 					},
 					["Bag5"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
 						["ids"] = {
 							nil, -- [1]
 							2880, -- [2]
@@ -242,14 +238,14 @@ DataStore_ContainersDB = {
 							2770, -- [9]
 							2770, -- [10]
 							2770, -- [11]
-							2770, -- [12]
+							nil, -- [12]
 							2770, -- [13]
 							2770, -- [14]
 						},
-						["freeslots"] = 1,
+						["freeslots"] = 2,
 						["counts"] = {
 							nil, -- [1]
-							3, -- [2]
+							5, -- [2]
 							20, -- [3]
 							20, -- [4]
 							20, -- [5]
@@ -259,120 +255,250 @@ DataStore_ContainersDB = {
 							20, -- [9]
 							20, -- [10]
 							20, -- [11]
-							20, -- [12]
+							nil, -- [12]
 							20, -- [13]
-							18, -- [14]
+							20, -- [14]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
 					},
 					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							2458, -- [1]
-							2459, -- [2]
-							3385, -- [3]
-							414, -- [4]
-							1205, -- [5]
-							10050, -- [6]
-							5956, -- [7]
-							2901, -- [8]
-							6219, -- [9]
-							6256, -- [10]
-							3610, -- [11]
-							3451, -- [12]
-							3581, -- [13]
-							6690, -- [14]
+							2452, -- [1]
+							nil, -- [2]
+							2011, -- [3]
+							2771, -- [4]
+							2011, -- [5]
+							nil, -- [6]
+							3857, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							9773, -- [10]
+							nil, -- [11]
+							785, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							9827, -- [16]
+						},
+						["links"] = {
+							[10] = "|cff1eff00|Hitem:9773:0:0:0:0:0:851:0:30|h[Greenweave Robe of the Eagle]|h|r",
+							[16] = "|cff1eff00|Hitem:9827:0:0:0:0:0:1806:0:30|h[Scaled Leather Belt of Arcane Wrath]|h|r",
 						},
 						["counts"] = {
-							[3] = 2,
-							[4] = 3,
+							[7] = 2,
+							[4] = 10,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
-					},
-					["Bag100"] = {
-						["freeslots"] = 28,
-						["size"] = 28,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
-						["freeslots"] = 14,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
-					},
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							nil, -- [1]
-							5096, -- [2]
-							10649, -- [3]
-							5068, -- [4]
-							5088, -- [5]
-							3250, -- [6]
-							10393, -- [7]
-							6948, -- [8]
-							49205, -- [9]
-							8067, -- [10]
-							2519, -- [11]
-							4364, -- [12]
-							4364, -- [13]
-							6291, -- [14]
-						},
-						["freeslots"] = 1,
-						["counts"] = {
-							[10] = 13,
-							[12] = 20,
-							[14] = 3,
-							[11] = 74,
-							[13] = 9,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
-					},
-					["Bag0"] = {
-						["freeslots"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:4500:0:0:0:0:0:0:0:30|h[Traveler's Backpack]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
+						["freeslots"] = 8,
 					},
 					["Bag-2"] = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
 						["size"] = 32,
 					},
-					["Bag6"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:25|h[Runecloth Bag]|h|r",
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:30|h[Runecloth Bag]|h|r",
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:15224:0:0:0:0:0:672:0:30|h[Battlesmasher of the Tiger]|h|r",
+							[5] = "|cff1eff00|Hitem:15211:0:0:0:0:0:1181:0:30|h[Militant Shortsword of the Bear]|h|r",
+						},
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							[6] = 107,
+							[7] = 1000,
+							[9] = 6,
+							[11] = 20,
+							[12] = 9,
+						},
+						["freeslots"] = 4,
 						["ids"] = {
-							2840, -- [1]
+							4632, -- [1]
+							11082, -- [2]
+							nil, -- [3]
+							15224, -- [4]
+							15211, -- [5]
+							2519, -- [6]
+							15997, -- [7]
+							[13] = 1710,
+							[9] = 5471,
+							[11] = 2592,
+							[12] = 4374,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["size"] = 14,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							6308, -- [1]
+							2592, -- [2]
+							5972, -- [3]
+							nil, -- [4]
+							2836, -- [5]
+							4405, -- [6]
+							2771, -- [7]
+							3182, -- [8]
+							14178, -- [9]
+							nil, -- [10]
+							954, -- [11]
+							1206, -- [12]
+							2457, -- [13]
+							3033, -- [14]
+						},
+						["links"] = {
+							[9] = "|cff1eff00|Hitem:14178:0:0:0:0:0:858:0:30|h[Watcher's Cap of the Eagle]|h|r",
+						},
+						["counts"] = {
+							2, -- [1]
+							[5] = 18,
+							[7] = 20,
+							[11] = 4,
+							[13] = 3,
+							[8] = 2,
+							[14] = 1000,
+						},
+						["size"] = 14,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:30|h[Runecloth Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 2,
+					},
+					["Bag0"] = {
+						["freeslots"] = 3,
+						["ids"] = {
+							2770, -- [1]
+							3770, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							2842, -- [5]
+							9299, -- [6]
+							5628, -- [7]
+							10414, -- [8]
+							1478, -- [9]
+							1210, -- [10]
+							5088, -- [11]
+							3250, -- [12]
+							nil, -- [13]
+							6948, -- [14]
+							49205, -- [15]
+							2519, -- [16]
+						},
+						["counts"] = {
+							4, -- [1]
+							12, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							6, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							323, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							2836, -- [1]
+							2836, -- [2]
+							2842, -- [3]
+							2772, -- [4]
+							2835, -- [5]
+							2771, -- [6]
+							4611, -- [7]
+							4306, -- [8]
+							nil, -- [9]
+							1529, -- [10]
+							1705, -- [11]
+							48118, -- [12]
+							10393, -- [13]
+							4404, -- [14]
+							4404, -- [15]
+							2836, -- [16]
+							11828, -- [17]
+							4294, -- [18]
+							4404, -- [19]
+							5498, -- [20]
+							14046, -- [21]
+							2771, -- [22]
+							nil, -- [23]
+							4371, -- [24]
+							4364, -- [25]
+							5082, -- [26]
+						},
+						["freeslots"] = 4,
+						["counts"] = {
+							20, -- [1]
+							20, -- [2]
+							7, -- [3]
+							nil, -- [4]
+							9, -- [5]
+							16, -- [6]
+							4, -- [7]
+							10, -- [8]
+							nil, -- [9]
+							2, -- [10]
+							4, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							14, -- [14]
+							20, -- [15]
+							19, -- [16]
+							nil, -- [17]
+							nil, -- [18]
+							10, -- [19]
+							2, -- [20]
+							nil, -- [21]
+							9, -- [22]
+							nil, -- [23]
+							20, -- [24]
+							11, -- [25]
+							2, -- [26]
+						},
+						["size"] = 28,
+					},
+					["Bag6"] = {
+						["ids"] = {
+							nil, -- [1]
 							2771, -- [2]
 							2771, -- [3]
 							2838, -- [4]
-							2592, -- [5]
-							11845, -- [6]
-							932, -- [7]
-							918, -- [8]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
 							774, -- [9]
 							818, -- [10]
 							1210, -- [11]
 							1206, -- [12]
 							7288, -- [13]
-							2775, -- [14]
 						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["size"] = 14,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["counts"] = {
-							3, -- [1]
+							nil, -- [1]
 							20, -- [2]
-							19, -- [3]
+							20, -- [3]
 							2, -- [4]
-							15, -- [5]
-							[10] = 15,
+							[10] = 18,
+							[12] = 6,
+							[11] = 15,
 							[9] = 8,
-							[11] = 13,
 						},
-						["size"] = 14,
+						["freeslots"] = 6,
 					},
 				},
-				["numFreeBagSlots"] = 31,
-				["numBagSlots"] = 72,
+				["numFreeBagSlots"] = 19,
+				["numBagSlots"] = 74,
 			},
 			["Default.TrueWoW.Magistratus"] = {
 				["numFreeBankSlots"] = 17,
@@ -562,6 +688,10 @@ DataStore_ContainersDB = {
 				["lastUpdate"] = 1454108319,
 				["numFreeBagSlots"] = 15,
 				["Containers"] = {
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
@@ -569,10 +699,6 @@ DataStore_ContainersDB = {
 						["freeslots"] = 15,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
 					},
 				},
 				["numBagSlots"] = 16,
@@ -1083,13 +1209,14 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 44,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["numFreeBankSlots"] = 22,
-				["numBankSlots"] = 44,
-				["lastUpdate"] = 1470658167,
+				["numFreeBankSlots"] = 30,
+				["numBankSlots"] = 56,
+				["lastUpdate"] = 1472034028,
 				["numBagSlots"] = 72,
-				["numFreeBagSlots"] = 24,
+				["numFreeBagSlots"] = 33,
 				["Containers"] = {
 					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
 						["ids"] = {
 							6265, -- [1]
 							6948, -- [2]
@@ -1098,15 +1225,15 @@ DataStore_ContainersDB = {
 							11083, -- [5]
 							11137, -- [6]
 							3857, -- [7]
-							2589, -- [8]
-							2589, -- [9]
-							2589, -- [10]
-							2589, -- [11]
+							856, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
 							4306, -- [12]
 							4306, -- [13]
 							41170, -- [14]
 						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
+						["size"] = 14,
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -1115,75 +1242,91 @@ DataStore_ContainersDB = {
 							2, -- [5]
 							2, -- [6]
 							2, -- [7]
-							20, -- [8]
-							20, -- [9]
-							20, -- [10]
-							6, -- [11]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
 							20, -- [12]
 							10, -- [13]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
+						["freeslots"] = 3,
 					},
 					["Bag5"] = {
-						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:0:31|h[Blue Leather Bag]|h|r",
-						["ids"] = {
-							6308, -- [1]
-							2589, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							774, -- [6]
-							818, -- [7]
-							5498, -- [8]
-						},
-						["freeslots"] = 3,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_05",
-						["counts"] = {
-							9, -- [1]
-							20, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							6, -- [6]
-							5, -- [7]
-							2, -- [8]
-						},
-						["size"] = 8,
-					},
-					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							1711, -- [1]
-							3530, -- [2]
-							21072, -- [3]
-							4538, -- [4]
-							1205, -- [5]
-							11845, -- [6]
-							4238, -- [7]
-							4238, -- [8]
-							4238, -- [9]
-							5574, -- [10]
-							932, -- [11]
-							6365, -- [12]
-							4633, -- [13]
-							5423, -- [14]
-						},
-						["counts"] = {
-							nil, -- [1]
-							12, -- [2]
-							15, -- [3]
-						},
+						["freeslots"] = 14,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
 					},
-					["Bag-2"] = {
+					["Bag4"] = {
 						["ids"] = {
-							6893, -- [1]
-							7146, -- [2]
+							1711, -- [1]
+							nil, -- [2]
+							21072, -- [3]
+							[12] = 6365,
+							[13] = 4633,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							15, -- [3]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 10,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							6308, -- [1]
+							14046, -- [2]
+							774, -- [3]
+							818, -- [4]
+							5498, -- [5]
+							1210, -- [6]
+							1206, -- [7]
+							5500, -- [8]
+							1705, -- [9]
+							6661, -- [10]
+							2408, -- [11]
+							7364, -- [12]
+							16043, -- [13]
+							14466, -- [14]
+							16255, -- [15]
+							14046, -- [16]
+							10050, -- [17]
+							5786, -- [18]
+							4611, -- [19]
+							nil, -- [20]
+							nil, -- [21]
+							6289, -- [22]
+							6289, -- [23]
+							6289, -- [24]
+							6289, -- [25]
+							6289, -- [26]
+							6308, -- [27]
+							6308, -- [28]
+						},
+						["freeslots"] = 2,
+						["counts"] = {
+							9, -- [1]
+							nil, -- [2]
+							6, -- [3]
+							5, -- [4]
+							2, -- [5]
+							14, -- [6]
+							4, -- [7]
+							[23] = 20,
+							[24] = 20,
+							[25] = 20,
+							[26] = 3,
+							[27] = 20,
+							[28] = 20,
+							[9] = 2,
+							[19] = 5,
+							[22] = 20,
+						},
+						["size"] = 28,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
@@ -1228,81 +1371,40 @@ DataStore_ContainersDB = {
 						["size"] = 14,
 					},
 					["Bag0"] = {
-						["freeslots"] = 16,
+						["freeslots"] = 12,
+						["ids"] = {
+							3531, -- [1]
+							2589, -- [2]
+							5574, -- [3]
+							2592, -- [4]
+						},
+						["counts"] = {
+							8, -- [1]
+							3, -- [2]
+						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 					},
-					["Bag100"] = {
+					["Bag-2"] = {
 						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
-							nil, -- [17]
-							5786, -- [18]
-							4611, -- [19]
-							nil, -- [20]
-							nil, -- [21]
-							6289, -- [22]
-							6289, -- [23]
-							6289, -- [24]
-							6289, -- [25]
-							6289, -- [26]
-							6308, -- [27]
-							6308, -- [28]
+							6893, -- [1]
+							7146, -- [2]
 						},
-						["freeslots"] = 19,
-						["counts"] = {
-							[26] = 3,
-							[23] = 20,
-							[27] = 20,
-							[24] = 20,
-							[28] = 20,
-							[25] = 20,
-							[22] = 20,
-							[19] = 5,
-						},
-						["size"] = 28,
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag6"] = {
-						["link"] = "|cffffffff|Hitem:5574:0:0:0:0:0:0:0:31|h[White Leather Bag]|h|r",
-						["ids"] = {
-							1210, -- [1]
-							1206, -- [2]
-							5500, -- [3]
-							1705, -- [4]
-							6661, -- [5]
-							2408, -- [6]
-							7364, -- [7]
-						},
-						["freeslots"] = 1,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_06",
-						["counts"] = {
-							14, -- [1]
-							4, -- [2]
-							nil, -- [3]
-							2, -- [4]
-						},
-						["size"] = 8,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
+						["freeslots"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["size"] = 14,
 					},
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
 				["numFreeBankSlots"] = 21,
 				["numBankSlots"] = 56,
-				["lastUpdate"] = 1470746224,
+				["lastUpdate"] = 1471149565,
 				["Containers"] = {
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
@@ -1398,6 +1500,92 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
 					},
+					["Bag0"] = {
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							[9] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-69:15:31|h[Enumerated Handwraps of the Eagle]|h|r",
+							[8] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-82:15:31|h[Enumerated Handwraps of the Vision]|h|r",
+						},
+						["ids"] = {
+							nil, -- [1]
+							4542, -- [2]
+							2592, -- [3]
+							4371, -- [4]
+							9326, -- [5]
+							9327, -- [6]
+							9459, -- [7]
+							51973, -- [8]
+							51973, -- [9]
+						},
+						["freeslots"] = 8,
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							4, -- [3]
+						},
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							3402, -- [3]
+							1784, -- [4]
+							5023, -- [5]
+							5594, -- [6]
+							5881, -- [7]
+							5059, -- [8]
+							6443, -- [9]
+							11146, -- [10]
+							3250, -- [11]
+							3317, -- [12]
+							6948, -- [13]
+							49205, -- [14]
+						},
+						["size"] = 14,
+						["counts"] = {
+							[9] = 20,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 2,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
+						["ids"] = {
+							21099, -- [1]
+							4611, -- [2]
+							5524, -- [3]
+							10940, -- [4]
+							6339, -- [5]
+							6338, -- [6]
+							2447, -- [7]
+							785, -- [8]
+							2449, -- [9]
+							2452, -- [10]
+							2450, -- [11]
+							3174, -- [12]
+							2675, -- [13]
+							2674, -- [14]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[12] = 4,
+							[7] = 3,
+							[2] = 3,
+							[3] = 8,
+							[8] = 2,
+							[4] = 4,
+						},
+						["size"] = 14,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							7146, -- [1]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 					["Bag100"] = {
 						["ids"] = {
 							14046, -- [1]
@@ -1462,92 +1650,6 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 28,
 					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							3402, -- [3]
-							1784, -- [4]
-							5023, -- [5]
-							5594, -- [6]
-							5881, -- [7]
-							5059, -- [8]
-							6443, -- [9]
-							11146, -- [10]
-							3250, -- [11]
-							3317, -- [12]
-							6948, -- [13]
-							49205, -- [14]
-						},
-						["size"] = 14,
-						["counts"] = {
-							[9] = 20,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 2,
-					},
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:31|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							21099, -- [1]
-							4611, -- [2]
-							5524, -- [3]
-							10940, -- [4]
-							6339, -- [5]
-							6338, -- [6]
-							2447, -- [7]
-							785, -- [8]
-							2449, -- [9]
-							2452, -- [10]
-							2450, -- [11]
-							3174, -- [12]
-							2675, -- [13]
-							2674, -- [14]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["counts"] = {
-							[12] = 4,
-							[7] = 3,
-							[2] = 3,
-							[3] = 8,
-							[8] = 2,
-							[4] = 4,
-						},
-						["size"] = 14,
-					},
-					["Bag-2"] = {
-						["ids"] = {
-							7146, -- [1]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 7,
-						["ids"] = {
-							2136, -- [1]
-							4542, -- [2]
-							2592, -- [3]
-							4371, -- [4]
-							9326, -- [5]
-							9327, -- [6]
-							9459, -- [7]
-							51973, -- [8]
-							51973, -- [9]
-						},
-						["size"] = 16,
-						["counts"] = {
-							13, -- [1]
-							2, -- [2]
-							4, -- [3]
-						},
-						["links"] = {
-							[9] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-69:15:31|h[Enumerated Handwraps of the Eagle]|h|r",
-							[8] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-82:15:31|h[Enumerated Handwraps of the Vision]|h|r",
-						},
-					},
 					["Bag6"] = {
 						["ids"] = {
 							5500, -- [1]
@@ -1578,128 +1680,40 @@ DataStore_ContainersDB = {
 						["size"] = 14,
 					},
 				},
-				["numFreeBagSlots"] = 9,
+				["numFreeBagSlots"] = 10,
 				["numBagSlots"] = 72,
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["numFreeBankSlots"] = 24,
+				["numFreeBankSlots"] = 7,
 				["numBankSlots"] = 56,
-				["lastUpdate"] = 1471086420,
+				["lastUpdate"] = 1472037122,
 				["Containers"] = {
-					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							1206, -- [1]
-							1210, -- [2]
-							nil, -- [3]
-							2592, -- [4]
-							3182, -- [5]
-							4306, -- [6]
-							4305, -- [7]
-							4337, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							858, -- [13]
-							2459, -- [14]
-						},
-						["freeslots"] = 5,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["counts"] = {
-							2, -- [1]
-							2, -- [2]
-							nil, -- [3]
-							2, -- [4]
-							2, -- [5]
-							14, -- [6]
-							2, -- [7]
-							6, -- [8]
-							[13] = 14,
-						},
-						["size"] = 14,
-					},
-					["Bag5"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:23|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							11083, -- [1]
-							765, -- [2]
-							2447, -- [3]
-							2453, -- [4]
-							6291, -- [5]
-							2838, -- [6]
-							2589, -- [7]
-							2996, -- [8]
-							2997, -- [9]
-							4305, -- [10]
-							774, -- [11]
-							818, -- [12]
-							5498, -- [13]
-							1210, -- [14]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["counts"] = {
-							2, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							2, -- [4]
-							20, -- [5]
-							nil, -- [6]
-							6, -- [7]
-							9, -- [8]
-							5, -- [9]
-							2, -- [10]
-							2, -- [11]
-							3, -- [12]
-							3, -- [13]
-							2, -- [14]
-						},
-						["size"] = 14,
-					},
-					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["size"] = 14,
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							6365, -- [4]
-							4633, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							2555, -- [9]
-							4409, -- [10]
-							2409, -- [11]
-							10998, -- [12]
-							2449, -- [13]
-							6465, -- [14]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 6,
-					},
 					["Bag100"] = {
+						["links"] = {
+							[14] = "|cff1eff00|Hitem:15593:0:0:0:0:0:697:0:29|h[Steadfast Coronet of the Tiger]|h|r",
+							[15] = "|cff1eff00|Hitem:10276:0:0:0:0:0:701:0:29|h[Emerald Sabatons of the Tiger]|h|r",
+						},
 						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
-							nil, -- [17]
-							nil, -- [18]
-							nil, -- [19]
-							nil, -- [20]
+							10939, -- [1]
+							10998, -- [2]
+							10940, -- [3]
+							10940, -- [4]
+							4306, -- [5]
+							4633, -- [6]
+							14466, -- [7]
+							14484, -- [8]
+							14466, -- [9]
+							5774, -- [10]
+							10320, -- [11]
+							5787, -- [12]
+							4297, -- [13]
+							15593, -- [14]
+							10276, -- [15]
+							11134, -- [16]
+							10938, -- [17]
+							4611, -- [18]
+							3182, -- [19]
+							4337, -- [20]
 							nil, -- [21]
 							nil, -- [22]
 							nil, -- [23]
@@ -1711,115 +1725,194 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 28,
 						["counts"] = {
-							[26] = 20,
-							[27] = 9,
+							2, -- [1]
+							5, -- [2]
+							20, -- [3]
 							[25] = 20,
+							[26] = 20,
+							[27] = 20,
 							[28] = 20,
+							[16] = 2,
+							[17] = 8,
+							[18] = 3,
+							[19] = 2,
+							[20] = 6,
+							[5] = 17,
 						},
-						["freeslots"] = 24,
+						["freeslots"] = 4,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							6893, -- [1]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 11,
+						["ids"] = {
+							nil, -- [1]
+							929, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							3355, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							2459, -- [14]
+						},
+						["counts"] = {
+							nil, -- [1]
+							3, -- [2]
+						},
+						["size"] = 14,
+					},
+					["Bag5"] = {
+						["ids"] = {
+							11083, -- [1]
+							765, -- [2]
+							2447, -- [3]
+							2453, -- [4]
+							6291, -- [5]
+							2838, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							2997, -- [9]
+							4305, -- [10]
+							774, -- [11]
+							818, -- [12]
+							5498, -- [13]
+							1210, -- [14]
+						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							9, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							2, -- [4]
+							20, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							7, -- [9]
+							9, -- [10]
+							2, -- [11]
+							3, -- [12]
+							3, -- [13]
+							4, -- [14]
+						},
+						["freeslots"] = 2,
+					},
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							6365, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							4377, -- [8]
+						},
+						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[8] = 2,
+						},
+						["freeslots"] = 12,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							5628, -- [1]
+							7269, -- [2]
+							5514, -- [3]
+							14046, -- [4]
+							5523, -- [5]
+							1114, -- [6]
+							10441, -- [7]
+							2455, -- [8]
+							5471, -- [9]
+							16647, -- [10]
+							6289, -- [11]
+							6291, -- [12]
+							3827, -- [13]
+							4593, -- [14]
+							10414, -- [15]
+							3165, -- [16]
+						},
+						["counts"] = {
+							[5] = 7,
+							[6] = 16,
+							[14] = 8,
+							[9] = 12,
+							[11] = 6,
+							[13] = 2,
+							[8] = 3,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							4894, -- [1]
-							5059, -- [2]
-							nil, -- [3]
+							5503, -- [1]
+							14046, -- [2]
+							858, -- [3]
 							5088, -- [4]
 							6145, -- [5]
 							3251, -- [6]
 							6948, -- [7]
 							49205, -- [8]
-							5787, -- [9]
-							4611, -- [10]
-							nil, -- [11]
-							4364, -- [12]
-							10940, -- [13]
-							10940, -- [14]
+							2136, -- [9]
 						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["freeslots"] = 2,
+						["freeslots"] = 5,
 						["counts"] = {
-							5, -- [1]
-							[10] = 3,
-							[14] = 9,
-							[13] = 20,
+							[9] = 20,
+							[3] = 2,
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
 					},
 					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
 						["ids"] = {
 							6339, -- [1]
-							3355, -- [2]
-							nil, -- [3]
-							3174, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							6289, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							6308, -- [10]
-							2835, -- [11]
-							2836, -- [12]
+							3385, -- [2]
+							3857, -- [3]
+							[11] = 2835,
+							[12] = 2836,
 						},
-						["freeslots"] = 7,
+						["freeslots"] = 9,
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
-							nil, -- [3]
-							12, -- [4]
+							2, -- [3]
+							nil, -- [4]
 							nil, -- [5]
 							nil, -- [6]
-							9, -- [7]
+							nil, -- [7]
 							nil, -- [8]
 							nil, -- [9]
-							5, -- [10]
+							nil, -- [10]
 							4, -- [11]
 							4, -- [12]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
 					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							5628, -- [1]
-							16581, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							10441, -- [7]
-							2136, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							10939, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							10414, -- [15]
-							3165, -- [16]
-						},
-						["size"] = 16,
-						["counts"] = {
-							nil, -- [1]
-							10, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							18, -- [8]
-							[11] = 4,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 9,
-					},
 					["Bag6"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:23|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["freeslots"] = 1,
 						["ids"] = {
 							1206, -- [1]
 							1705, -- [2]
@@ -1828,13 +1921,60 @@ DataStore_ContainersDB = {
 							14491, -- [5]
 							14492, -- [6]
 							14506, -- [7]
-							10938, -- [8]
+							nil, -- [8]
 							10939, -- [9]
 							11082, -- [10]
 							2775, -- [11]
 							2842, -- [12]
 							10978, -- [13]
 							11084, -- [14]
+						},
+						["counts"] = {
+							3, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							10, -- [9]
+							10, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							5, -- [13]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["size"] = 14,
+					},
+				},
+				["numFreeBagSlots"] = 37,
+				["numBagSlots"] = 72,
+			},
+			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
+				["numFreeBankSlots"] = 6,
+				["numBankSlots"] = 56,
+				["lastUpdate"] = 1471772990,
+				["Containers"] = {
+					["Bag3"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							51980, -- [7]
+							nil, -- [8]
+							12996, -- [9]
+							2800, -- [10]
+							935, -- [11]
+							2863, -- [12]
+							2458, -- [13]
+							3928, -- [14]
+						},
+						["links"] = {
+							[7] = "|cff0070dd|Hitem:51980:0:0:0:0:0:-17:15:32|h[Earthbound Handgrips of Strength]|h|r",
 						},
 						["counts"] = {
 							nil, -- [1]
@@ -1844,65 +1984,21 @@ DataStore_ContainersDB = {
 							nil, -- [5]
 							nil, -- [6]
 							nil, -- [7]
-							8, -- [8]
-							8, -- [9]
-							6, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							4, -- [13]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
-					},
-				},
-				["numFreeBagSlots"] = 29,
-				["numBagSlots"] = 72,
-			},
-			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["numFreeBankSlots"] = 13,
-				["numBankSlots"] = 56,
-				["lastUpdate"] = 1471071779,
-				["Containers"] = {
-					["Bag3"] = {
-						["ids"] = {
-							6291, -- [1]
-							5503, -- [2]
-							6289, -- [3]
-							6308, -- [4]
-							3470, -- [5]
-							2836, -- [6]
-							nil, -- [7]
-							6470, -- [8]
-							2589, -- [9]
-							2589, -- [10]
-							2589, -- [11]
-							2863, -- [12]
-							2458, -- [13]
-							3928, -- [14]
-						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["freeslots"] = 1,
-						["counts"] = {
-							3, -- [1]
-							nil, -- [2]
-							4, -- [3]
-							6, -- [4]
-							10, -- [5]
-							2, -- [6]
-							nil, -- [7]
 							nil, -- [8]
-							20, -- [9]
-							20, -- [10]
-							19, -- [11]
-							15, -- [12]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							13, -- [12]
 							4, -- [13]
 							2, -- [14]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["size"] = 14,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 7,
 					},
 					["Bag5"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
 						["ids"] = {
 							2771, -- [1]
 							2771, -- [2]
@@ -1912,206 +2008,211 @@ DataStore_ContainersDB = {
 							2319, -- [6]
 							4304, -- [7]
 							8170, -- [8]
-							2997, -- [9]
-							4306, -- [10]
-							4339, -- [11]
-							14048, -- [12]
-							5574, -- [13]
-							856, -- [14]
+							2771, -- [9]
+							2771, -- [10]
+							2836, -- [11]
+							2836, -- [12]
+							2836, -- [13]
+							2836, -- [14]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
 							20, -- [3]
-							14, -- [4]
+							20, -- [4]
 							9, -- [5]
 							3, -- [6]
 							2, -- [7]
-							[9] = 4,
-							[10] = 4,
+							[10] = 6,
+							[12] = 20,
+							[14] = 3,
+							[9] = 20,
+							[11] = 20,
+							[13] = 20,
 						},
 						["size"] = 14,
 					},
 					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							21151, -- [1]
-							2771, -- [2]
-							2657, -- [3]
-							5573, -- [4]
-							5575, -- [5]
-							10050, -- [6]
+							nil, -- [1]
+							nil, -- [2]
+							858, -- [3]
+							49205, -- [4]
+							nil, -- [5]
+							4634, -- [6]
 							5956, -- [7]
 							2901, -- [8]
 							6365, -- [9]
-							5342, -- [10]
+							nil, -- [10]
 							2407, -- [11]
 							10998, -- [12]
-							2842, -- [13]
-							6641, -- [14]
-						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["counts"] = {
-							2, -- [1]
-							4, -- [2]
-							[10] = 3,
-							[13] = 3,
+							5051, -- [13]
+							12564, -- [14]
 						},
 						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[3] = 6,
+						},
+						["freeslots"] = 4,
 					},
 					["Bag100"] = {
 						["ids"] = {
 							14046, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
+							14046, -- [2]
+							6359, -- [3]
+							6358, -- [4]
+							6358, -- [5]
+							13422, -- [6]
+							2775, -- [7]
+							2842, -- [8]
+							2835, -- [9]
+							2836, -- [10]
+							3486, -- [11]
 							4611, -- [12]
 							10940, -- [13]
 							6303, -- [14]
 							6362, -- [15]
 							4603, -- [16]
-							nil, -- [17]
+							3486, -- [17]
 							3470, -- [18]
 							3470, -- [19]
-							2770, -- [20]
-							2770, -- [21]
+							3486, -- [20]
+							3575, -- [21]
 							2770, -- [22]
 							2770, -- [23]
 							2770, -- [24]
 							2770, -- [25]
-							2840, -- [26]
+							3575, -- [26]
 							3478, -- [27]
-							2771, -- [28]
+							3575, -- [28]
 						},
-						["freeslots"] = 11,
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
+							5, -- [3]
+							20, -- [4]
+							10, -- [5]
+							3, -- [6]
+							19, -- [7]
+							3, -- [8]
+							3, -- [9]
+							20, -- [10]
+							20, -- [11]
 							nil, -- [12]
 							12, -- [13]
 							15, -- [14]
-							17, -- [15]
+							16, -- [15]
 							9, -- [16]
-							nil, -- [17]
+							20, -- [17]
 							20, -- [18]
-							9, -- [19]
-							20, -- [20]
+							19, -- [19]
+							13, -- [20]
 							20, -- [21]
-							20, -- [22]
+							6, -- [22]
 							20, -- [23]
 							20, -- [24]
 							20, -- [25]
-							2, -- [26]
+							20, -- [26]
 							16, -- [27]
 							20, -- [28]
 						},
 						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["freeslots"] = 12,
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							[13] = 5023,
-							[14] = 5594,
+							nil, -- [1]
+							nil, -- [2]
+							4611, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							7110, -- [9]
+							7360, -- [10]
+							4306, -- [11]
+							2455, -- [12]
+							nil, -- [13]
+							16654, -- [14]
 						},
+						["freeslots"] = 8,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[11] = 4,
+							[12] = 2,
+						},
 						["size"] = 14,
 					},
 					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["size"] = 14,
+						["cooldowns"] = {
+							[4] = "27569.949|1800|1",
+						},
 						["ids"] = {
-							5059, -- [1]
+							nil, -- [1]
 							3318, -- [2]
 							48118, -- [3]
 							6948, -- [4]
-							21219, -- [5]
+							nil, -- [5]
 							2515, -- [6]
-							6358, -- [7]
-							6358, -- [8]
-							6359, -- [9]
-							13422, -- [10]
-							6338, -- [11]
-							6338, -- [12]
-							785, -- [13]
-							2450, -- [14]
+							nil, -- [7]
+							13010, -- [8]
+							3385, -- [9]
+							[11] = 3228,
 						},
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["counts"] = {
-							[10] = 3,
-							[6] = 17,
-							[7] = 20,
-							[9] = 5,
-							[13] = 2,
-							[8] = 10,
+							[6] = 375,
 						},
-						["size"] = 14,
+						["freeslots"] = 7,
 					},
 					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
+						["freeslots"] = 9,
 						["ids"] = {
-							5124, -- [1]
-							5404, -- [2]
-							6444, -- [3]
-							6661, -- [4]
-							6445, -- [5]
-							6460, -- [6]
-							4604, -- [7]
-							4571, -- [8]
-							4537, -- [9]
-							5243, -- [10]
-							6444, -- [11]
-							10413, -- [12]
-							5125, -- [13]
-							2592, -- [14]
-							nil, -- [15]
-							10413, -- [16]
+							4306, -- [1]
+							21151, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							16208, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							6627, -- [8]
+							5628, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							13045, -- [12]
+							nil, -- [13]
+							5846, -- [14]
 						},
-						["freeslots"] = 1,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
-							3, -- [1]
-							[3] = 5,
-							[7] = 2,
+							20, -- [1]
 						},
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:4571:0:0:0:0:0:1801:0:26|h[War Knife of Arcane Wrath]|h|r",
-						},
+						["size"] = 16,
 					},
 					["Bag-2"] = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
 						["size"] = 32,
 					},
 					["Bag6"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:26|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:32|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							918, -- [1]
-							4245, -- [2]
-							10051, -- [3]
+							2836, -- [1]
+							3864, -- [2]
+							5500, -- [3]
 							774, -- [4]
 							818, -- [5]
 							5498, -- [6]
 							1210, -- [7]
 							1206, -- [8]
 							1705, -- [9]
-							2882, -- [10]
-							2883, -- [11]
+							1529, -- [10]
+							21219, -- [11]
 							nil, -- [12]
 							nil, -- [13]
 							2776, -- [14]
@@ -2119,195 +2220,180 @@ DataStore_ContainersDB = {
 						["freeslots"] = 2,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
 						["counts"] = {
-							nil, -- [1]
+							20, -- [1]
 							nil, -- [2]
-							nil, -- [3]
+							2, -- [3]
 							15, -- [4]
 							20, -- [5]
-							2, -- [6]
-							16, -- [7]
-							3, -- [8]
+							3, -- [6]
+							17, -- [7]
+							6, -- [8]
+							5, -- [9]
 						},
 						["size"] = 14,
 					},
 				},
 				["numBagSlots"] = 72,
-				["numFreeBagSlots"] = 14,
+				["numFreeBagSlots"] = 35,
 			},
 			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1471086368,
+				["numFreeBankSlots"] = 28,
+				["numBankSlots"] = 28,
+				["lastUpdate"] = 1471950606,
+				["numFreeBagSlots"] = 48,
+				["numBagSlots"] = 72,
 				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:11|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 14,
+					},
+					["Bag100"] = {
+						["freeslots"] = 28,
+						["size"] = 28,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							17118, -- [1]
+							2589, -- [2]
+							6368, -- [3]
+							1959, -- [4]
+							[13] = 2447,
+							[9] = 2679,
+							[11] = 858,
+							[12] = 2318,
+						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:11|h[Runecloth Bag]|h|r",
+						["freeslots"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							[9] = 10,
+							[11] = 2,
+						},
+						["size"] = 14,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:11|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 14,
+					},
 					["Bag0"] = {
 						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							957, -- [14]
-							981, -- [15]
+							2223, -- [1]
+							6365, -- [2]
+							6289, -- [3]
+							2806, -- [4]
+							118, -- [5]
+							774, -- [6]
+							6348, -- [7]
+							6303, -- [8]
+							6308, -- [9]
+							6290, -- [10]
+							748, -- [11]
+							6289, -- [12]
+							2835, -- [13]
+							1178, -- [14]
+							3013, -- [15]
 							6948, -- [16]
 						},
-						["size"] = 16,
+						["cooldowns"] = {
+							[10] = "13579.207|1|1",
+							[12] = "13579.207|1|1",
+							[9] = "13579.207|1|1",
+							[3] = "13579.207|1|1",
+							[8] = "13579.207|1|1",
+						},
+						["counts"] = {
+							[5] = 10,
+							[12] = 10,
+							[14] = 15,
+							[9] = 13,
+							[3] = 20,
+							[8] = 6,
+							[10] = 5,
+						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 13,
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:11|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 14,
 					},
 					["Bag-2"] = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
 						["size"] = 32,
 					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:805:0:0:0:0:0:0:0:7|h[Small Red Pouch]|h|r",
-						["ids"] = {
-							2589, -- [1]
-							2589, -- [2]
-							2589, -- [3]
-							118, -- [4]
-							774, -- [5]
-							6348, -- [6]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Red",
-						["counts"] = {
-							20, -- [1]
-							20, -- [2]
-							2, -- [3]
-							2, -- [4]
-						},
-						["size"] = 6,
-					},
 				},
-				["numFreeBagSlots"] = 13,
-				["numBagSlots"] = 22,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["numFreeBankSlots"] = 18,
+				["numFreeBankSlots"] = 16,
 				["numBankSlots"] = 56,
-				["lastUpdate"] = 1471086151,
+				["lastUpdate"] = 1471953797,
 				["Containers"] = {
 					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:28|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
 						["ids"] = {
-							21071, -- [1]
-							6308, -- [2]
-							2835, -- [3]
-							2836, -- [4]
-							2838, -- [5]
-							2318, -- [6]
-							4306, -- [7]
-							nil, -- [8]
-							2455, -- [9]
-							929, -- [10]
-							929, -- [11]
-							3385, -- [12]
-							3827, -- [13]
-							20709, -- [14]
+							2459, -- [1]
+							929, -- [2]
+							929, -- [3]
+							nil, -- [4]
+							1710, -- [5]
+							3827, -- [6]
+							20709, -- [7]
 						},
 						["size"] = 14,
 						["counts"] = {
-							7, -- [1]
+							nil, -- [1]
 							20, -- [2]
-							[10] = 20,
-							[6] = 5,
-							[7] = 19,
-							[9] = 4,
-							[11] = 11,
-							[14] = 6,
-							[12] = 16,
+							11, -- [3]
+							[7] = 6,
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 1,
+						["freeslots"] = 8,
 					},
 					["Bag5"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:27|h[Runecloth Bag]|h|r",
-						["freeslots"] = 14,
+						["ids"] = {
+							3369, -- [1]
+							21100, -- [2]
+							2318, -- [3]
+							5500, -- [4]
+							4611, -- [5]
+						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["freeslots"] = 9,
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["counts"] = {
+							2, -- [1]
+							5, -- [2]
+							5, -- [3]
+						},
 						["size"] = 14,
 					},
 					["Bag4"] = {
 						["ids"] = {
 							nil, -- [1]
 							nil, -- [2]
-							nil, -- [3]
-							11845, -- [4]
-							4241, -- [5]
-							932, -- [6]
-							804, -- [7]
-							10050, -- [8]
-							6365, -- [9]
-							4634, -- [10]
+							5187, -- [3]
+							4634, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							6271, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
 							7686, -- [11]
 							7684, -- [12]
 							13084, -- [13]
 							7691, -- [14]
 						},
 						["size"] = 14,
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:28|h[Runecloth Bag]|h|r",
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 3,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:28|h[Runecloth Bag]|h|r",
-						["size"] = 14,
-						["ids"] = {
-							[13] = 4904,
-							[14] = 3237,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 12,
-					},
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:28|h[Runecloth Bag]|h|r",
-						["ids"] = {
-							3468, -- [1]
-							5801, -- [2]
-							10327, -- [3]
-							5068, -- [4]
-							21100, -- [5]
-							3317, -- [6]
-							6948, -- [7]
-							49205, -- [8]
-							4359, -- [9]
-							4363, -- [10]
-							4371, -- [11]
-							7191, -- [12]
-							3369, -- [13]
-							1015, -- [14]
-						},
-						["counts"] = {
-							[13] = 2,
-							[9] = 2,
-							[14] = 3,
-							[5] = 5,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
-					},
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							6289, -- [1]
-							6299, -- [2]
-							1705, -- [3]
-							1710, -- [4]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							3, -- [1]
-							12, -- [2]
-						},
-						["freeslots"] = 12,
+						["freeslots"] = 7,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -2323,10 +2409,10 @@ DataStore_ContainersDB = {
 							2450, -- [10]
 							3820, -- [11]
 							2453, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
+							8845, -- [13]
+							8845, -- [14]
+							8839, -- [15]
+							1705, -- [16]
 							765, -- [17]
 							765, -- [18]
 							765, -- [19]
@@ -2340,7 +2426,6 @@ DataStore_ContainersDB = {
 							785, -- [27]
 							2449, -- [28]
 						},
-						["freeslots"] = 4,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
@@ -2349,39 +2434,110 @@ DataStore_ContainersDB = {
 							nil, -- [5]
 							20, -- [6]
 							3, -- [7]
-							18, -- [8]
+							19, -- [8]
 							2, -- [9]
 							17, -- [10]
 							6, -- [11]
 							20, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
+							20, -- [13]
+							15, -- [14]
+							2, -- [15]
 							nil, -- [16]
 							20, -- [17]
 							20, -- [18]
 							20, -- [19]
 							20, -- [20]
-							11, -- [21]
+							12, -- [21]
 							20, -- [22]
-							16, -- [23]
+							19, -- [23]
 							20, -- [24]
 							20, -- [25]
 							20, -- [26]
-							4, -- [27]
+							7, -- [27]
 							20, -- [28]
 						},
 						["size"] = 28,
 					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["ids"] = {
+							4904, -- [1]
+							3468, -- [2]
+							10327, -- [3]
+							5068, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							6948, -- [7]
+							49205, -- [8]
+							4359, -- [9]
+							4363, -- [10]
+							4371, -- [11]
+							7191, -- [12]
+						},
+						["size"] = 14,
+						["counts"] = {
+							[9] = 2,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 4,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							1015, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							2835, -- [6]
+							2836, -- [7]
+							2838, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							4306, -- [12]
+							2458, -- [13]
+							2455, -- [14]
+						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["size"] = 14,
+						["counts"] = {
+							[13] = 5,
+							[12] = 19,
+							[3] = 3,
+							[14] = 4,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["freeslots"] = 7,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							5059, -- [4]
+							[13] = 2592,
+							[15] = 5503,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							[13] = 3,
+							[15] = 2,
+						},
+						["freeslots"] = 13,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 					["Bag6"] = {
-						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:27|h[Runecloth Bag]|h|r",
 						["ids"] = {
 							118, -- [1]
-							858, -- [2]
-							858, -- [3]
-							858, -- [4]
-							858, -- [5]
-							918, -- [6]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
 							9327, -- [7]
 							774, -- [8]
 							818, -- [9]
@@ -2391,28 +2547,30 @@ DataStore_ContainersDB = {
 							2775, -- [13]
 							2842, -- [14]
 						},
+						["link"] = "|cffffffff|Hitem:14046:0:0:0:0:0:0:0:29|h[Runecloth Bag]|h|r",
+						["size"] = 14,
 						["counts"] = {
 							5, -- [1]
-							20, -- [2]
-							20, -- [3]
-							20, -- [4]
-							13, -- [5]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
 							nil, -- [6]
 							nil, -- [7]
 							12, -- [8]
 							10, -- [9]
-							14, -- [10]
-							2, -- [11]
+							15, -- [10]
+							3, -- [11]
 							5, -- [12]
 							2, -- [13]
 							2, -- [14]
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["size"] = 14,
+						["freeslots"] = 5,
 					},
 				},
 				["numBagSlots"] = 72,
-				["numFreeBagSlots"] = 28,
+				["numFreeBagSlots"] = 39,
 			},
 			["Default.TrueWoW.Lichmydk"] = {
 				["lastUpdate"] = 1451302278,
@@ -2566,12 +2724,8 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 44,
 			},
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459375,
+				["lastUpdate"] = 1471424949,
 				["Containers"] = {
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
@@ -2579,17 +2733,25 @@ DataStore_ContainersDB = {
 						["size"] = 16,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 15,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 				},
 				["numFreeBagSlots"] = 15,
 				["numBagSlots"] = 16,
 			},
 			["Default.PrimalWoW (Progressive).Defren"] = {
-				["lastUpdate"] = 1471072471,
+				["numFreeBankSlots"] = 28,
+				["numBankSlots"] = 28,
+				["lastUpdate"] = 1472034637,
+				["numFreeBagSlots"] = 15,
+				["numBagSlots"] = 16,
 				["Containers"] = {
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
+					["Bag100"] = {
+						["freeslots"] = 28,
+						["size"] = 28,
 					},
 					["Bag0"] = {
 						["ids"] = {
@@ -2599,14 +2761,16 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 15,
 					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
 				},
-				["numFreeBagSlots"] = 15,
-				["numBagSlots"] = 16,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
 				["numFreeBankSlots"] = 5,
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1469855942,
+				["lastUpdate"] = 1472033404,
 				["numFreeBagSlots"] = 18,
 				["numBagSlots"] = 42,
 				["Containers"] = {
@@ -2751,373 +2915,377 @@ DataStore_ContainersDB = {
 		},
 		["Guilds"] = {
 			["Default.PrimalWoW (Progressive).Debauchery Tea Party"] = {
-				["money"] = 165426320,
+				["money"] = 161129429,
 				["Tabs"] = {
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
-							10212, -- [1]
-							10104, -- [2]
+							10214, -- [1]
+							10248, -- [2]
 							15936, -- [3]
-							10248, -- [4]
-							14306, -- [5]
-							9946, -- [6]
-							10214, -- [7]
-							10138, -- [8]
-							12992, -- [9]
-							13018, -- [10]
-							15988, -- [11]
-							14316, -- [12]
-							10289, -- [13]
-							10255, -- [14]
-							16714, -- [15]
-							14330, -- [16]
-							4070, -- [17]
-							9834, -- [18]
-							15598, -- [19]
-							17007, -- [20]
-							867, -- [21]
-							10050, -- [22]
-							10050, -- [23]
-							10050, -- [24]
-							10050, -- [25]
-							10050, -- [26]
-							10050, -- [27]
-							10050, -- [28]
-							10050, -- [29]
-							10050, -- [30]
-							10050, -- [31]
-							10050, -- [32]
-							10050, -- [33]
-							10050, -- [34]
-							10050, -- [35]
-							10050, -- [36]
-							10050, -- [37]
-							10050, -- [38]
-							10050, -- [39]
-							10050, -- [40]
-							10050, -- [41]
-							10050, -- [42]
-							10050, -- [43]
-							10050, -- [44]
-							10050, -- [45]
-							10050, -- [46]
-							10050, -- [47]
-							10050, -- [48]
-							10050, -- [49]
-							10050, -- [50]
-							10050, -- [51]
-							10050, -- [52]
-							10050, -- [53]
-							10050, -- [54]
-							10050, -- [55]
-							10050, -- [56]
-							10050, -- [57]
-							10050, -- [58]
-							10050, -- [59]
-							10050, -- [60]
-							10050, -- [61]
-							10050, -- [62]
-							nil, -- [63]
-							17414, -- [64]
-							13443, -- [65]
-							10608, -- [66]
-							nil, -- [67]
-							nil, -- [68]
-							nil, -- [69]
-							nil, -- [70]
-							18364, -- [71]
-							18362, -- [72]
-							18358, -- [73]
-							18782, -- [74]
-							18782, -- [75]
-							5342, -- [76]
-							7506, -- [77]
-							5976, -- [78]
-							5976, -- [79]
-							5976, -- [80]
-							5976, -- [81]
-							5976, -- [82]
-							5976, -- [83]
-							5976, -- [84]
-							5976, -- [85]
-							5976, -- [86]
-							14562, -- [87]
-							7452, -- [88]
-							3395, -- [89]
-							15761, -- [90]
-							14484, -- [91]
+							13027, -- [4]
+							18343, -- [5]
+							18343, -- [6]
+							1717, -- [7]
+							13070, -- [8]
+							1203, -- [9]
+							16713, -- [10]
+							2800, -- [11]
+							13079, -- [12]
+							13125, -- [13]
+							1717, -- [14]
+							14753, -- [15]
+							16681, -- [16]
+							2245, -- [17]
+							2824, -- [18]
+							18358, -- [19]
+							4306, -- [20]
+							1315, -- [21]
+							4306, -- [22]
+							4306, -- [23]
+							4306, -- [24]
+							4306, -- [25]
+							4306, -- [26]
+							4306, -- [27]
+							4306, -- [28]
+							4306, -- [29]
+							2592, -- [30]
+							2592, -- [31]
+							2592, -- [32]
+							2592, -- [33]
+							2592, -- [34]
+							2592, -- [35]
+							3820, -- [36]
+							14046, -- [37]
+							14046, -- [38]
+							14046, -- [39]
+							14046, -- [40]
+							14046, -- [41]
+							14046, -- [42]
+							14046, -- [43]
+							14046, -- [44]
+							14046, -- [45]
+							14046, -- [46]
+							14046, -- [47]
+							14046, -- [48]
+							14046, -- [49]
+							14046, -- [50]
+							14046, -- [51]
+							14046, -- [52]
+							14046, -- [53]
+							nil, -- [54]
+							14046, -- [55]
+							14046, -- [56]
+							14046, -- [57]
+							14046, -- [58]
+							14046, -- [59]
+							14046, -- [60]
+							14046, -- [61]
+							14046, -- [62]
+							14046, -- [63]
+							14046, -- [64]
+							14046, -- [65]
+							14046, -- [66]
+							14046, -- [67]
+							14046, -- [68]
+							14046, -- [69]
+							14046, -- [70]
+							14046, -- [71]
+							1725, -- [72]
+							10050, -- [73]
+							10050, -- [74]
+							10050, -- [75]
+							10050, -- [76]
+							10050, -- [77]
+							11612, -- [78]
+							1725, -- [79]
+							4634, -- [80]
+							9719, -- [81]
+							11150, -- [82]
+							11610, -- [83]
+							18782, -- [84]
+							7091, -- [85]
+							12695, -- [86]
+							16055, -- [87]
+							12704, -- [88]
+							8028, -- [89]
+							10605, -- [90]
+							10608, -- [91]
 							15745, -- [92]
 							16051, -- [93]
-							13492, -- [94]
-							8398, -- [95]
+							14476, -- [94]
+							12713, -- [95]
 							12691, -- [96]
-							14470, -- [97]
-							12695, -- [98]
+							15761, -- [97]
+							14484, -- [98]
 						},
-						["ClientTime"] = 1471084922,
+						["ClientTime"] = 1472036316,
 						["ClientHour"] = 22,
+						["icon"] = "Interface\\Icons\\INV_Crate_07",
 						["links"] = {
-							"|cff1eff00|Hitem:10212:0:0:0:0:0:1849:0:26|h[Elegant Cloak of Shadow Wrath]|h|r", -- [1]
-							"|cff1eff00|Hitem:10104:0:0:0:0:0:1861:0:26|h[Councillor's Tunic of Shadow Wrath]|h|r", -- [2]
-							"|cff1eff00|Hitem:15936:0:0:0:0:0:1850:0:26|h[Duskwoven Branch of Shadow Wrath]|h|r", -- [3]
-							"|cff1eff00|Hitem:10248:0:0:0:0:0:1851:0:26|h[Master's Bracers of Shadow Wrath]|h|r", -- [4]
-							"|cff1eff00|Hitem:14306:0:0:0:0:0:1862:0:26|h[Bonecaster's Vest of Shadow Wrath]|h|r", -- [5]
-							"|cff1eff00|Hitem:9946:0:0:0:0:0:1858:0:26|h[Abjurer's Tunic of Shadow Wrath]|h|r", -- [6]
-							"|cff1eff00|Hitem:10214:0:0:0:0:0:2046:0:26|h[Elegant Gloves of Healing]|h|r", -- [7]
-							"|cff1eff00|Hitem:10138:0:0:0:0:0:1888:0:26|h[High Councillor's Cloak of Fiery Wrath]|h|r", -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							"|cff1eff00|Hitem:15988:0:0:0:0:0:1889:0:26|h[Resplendent Orb of Fiery Wrath]|h|r", -- [11]
-							"|cff1eff00|Hitem:14316:0:0:0:0:0:1855:0:26|h[Celestial Pauldrons of Shadow Wrath]|h|r", -- [12]
-							"|cff1eff00|Hitem:10289:0:0:0:0:0:775:0:26|h[Durable Hat of the Owl]|h|r", -- [13]
-							"|cff1eff00|Hitem:10255:0:0:0:0:0:1894:0:26|h[Master's Belt of Fiery Wrath]|h|r", -- [14]
-							nil, -- [15]
-							"|cff1eff00|Hitem:14330:0:0:0:0:0:1889:0:26|h[Eternal Bindings of Fiery Wrath]|h|r", -- [16]
-							[18] = "|cff1eff00|Hitem:9834:0:0:0:0:0:168:0:26|h[Scaled Leather Shoulders of Agility]|h|r",
-							[19] = "|cff1eff00|Hitem:15598:0:0:0:0:0:1199:0:26|h[Steadfast Girdle of the Bear]|h|r",
+							"|cff1eff00|Hitem:10214:0:0:0:0:0:2046:0:29|h[Elegant Gloves of Healing]|h|r", -- [1]
+							"|cff1eff00|Hitem:10248:0:0:0:0:0:1851:0:29|h[Master's Bracers of Shadow Wrath]|h|r", -- [2]
+							"|cff1eff00|Hitem:15936:0:0:0:0:0:1850:0:29|h[Duskwoven Branch of Shadow Wrath]|h|r", -- [3]
+							[11] = "|cff0070dd|Hitem:2800:0:1893:0:0:0:0:0:29|h[Black Velvet Robes]|h|r",
 						},
 						["visitedBy"] = "Nerfed",
-						["ClientMinute"] = 42,
+						["ClientMinute"] = 58,
 						["name"] = "FFA",
-						["counts"] = {
-							[76] = 9,
-						},
+						["ServerMinute"] = 58,
 						["ServerHour"] = 12,
-						["ServerMinute"] = 41,
-						["icon"] = "Interface\\Icons\\INV_Crate_07",
+						["counts"] = {
+							[23] = 20,
+							[24] = 20,
+							[25] = 20,
+							[26] = 20,
+							[27] = 20,
+							[28] = 20,
+							[29] = 11,
+							[30] = 14,
+							[31] = 20,
+							[33] = 20,
+							[35] = 20,
+							[36] = 20,
+							[20] = 20,
+							[34] = 20,
+							[22] = 20,
+							[32] = 20,
+						},
 						["size"] = 98,
 					}, -- [1]
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
-							18343, -- [1]
-							18343, -- [2]
-							18343, -- [3]
-							18343, -- [4]
+							11978, -- [1]
+							11978, -- [2]
+							11979, -- [3]
+							18674, -- [4]
 							18674, -- [5]
 							18674, -- [6]
 							18674, -- [7]
-							45631, -- [8]
-							45631, -- [9]
-							13006, -- [10]
-							2802, -- [11]
-							13091, -- [12]
-							2246, -- [13]
-							2244, -- [14]
-							2243, -- [15]
-							2243, -- [16]
-							nil, -- [17]
-							871, -- [18]
-							5267, -- [19]
-							14555, -- [20]
-							14555, -- [21]
-							21800, -- [22]
-							2099, -- [23]
-							20258, -- [24]
-							20258, -- [25]
-							13001, -- [26]
-							3475, -- [27]
-							3475, -- [28]
+							2802, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							13001, -- [14]
+							nil, -- [15]
+							nil, -- [16]
+							2243, -- [17]
+							2243, -- [18]
+							871, -- [19]
+							5267, -- [20]
+							13006, -- [21]
+							2099, -- [22]
+							nil, -- [23]
+							647, -- [24]
+							13003, -- [25]
+							2291, -- [26]
+							20258, -- [27]
+							20258, -- [28]
 							3075, -- [29]
 							3075, -- [30]
-							21804, -- [31]
-							21804, -- [32]
-							14553, -- [33]
-							14553, -- [34]
-							13125, -- [35]
-							21803, -- [36]
-							21803, -- [37]
-							nil, -- [38]
-							14554, -- [39]
-							13072, -- [40]
-							20674, -- [41]
-							21805, -- [42]
-							nil, -- [43]
-							19705, -- [44]
-							19703, -- [45]
-							19701, -- [46]
+							16804, -- [31]
+							16804, -- [32]
+							3475, -- [33]
+							3475, -- [34]
+							20674, -- [35]
+							21804, -- [36]
+							21804, -- [37]
+							13125, -- [38]
+							13009, -- [39]
+							1168, -- [40]
+							14553, -- [41]
+							14553, -- [42]
+							21803, -- [43]
+							21803, -- [44]
+							14554, -- [45]
+							12695, -- [46]
 							nil, -- [47]
-							18704, -- [48]
-							11978, -- [49]
-							19702, -- [50]
-							19700, -- [51]
-							19704, -- [52]
-							19706, -- [53]
-							nil, -- [54]
-							18704, -- [55]
-							19233, -- [56]
+							nil, -- [48]
+							nil, -- [49]
+							14514, -- [50]
+							15759, -- [51]
+							14513, -- [52]
+							12703, -- [53]
+							12728, -- [54]
+							22220, -- [55]
+							22220, -- [56]
 							15770, -- [57]
-							21957, -- [58]
-							15759, -- [59]
+							12728, -- [58]
+							12728, -- [59]
 							15763, -- [60]
 							12711, -- [61]
 							14513, -- [62]
-							14513, -- [63]
-							21281, -- [64]
-							21279, -- [65]
-							11734, -- [66]
-							11734, -- [67]
-							18332, -- [68]
-							12728, -- [69]
-							14514, -- [70]
-							19813, -- [71]
-							19813, -- [72]
-							19813, -- [73]
-							19813, -- [74]
-							19813, -- [75]
-							19813, -- [76]
-							nil, -- [77]
+							18704, -- [63]
+							11734, -- [64]
+							11734, -- [65]
+							5640, -- [66]
+							19706, -- [67]
+							19703, -- [68]
+							19700, -- [69]
+							18704, -- [70]
+							21281, -- [71]
+							21281, -- [72]
+							21279, -- [73]
+							19702, -- [74]
+							19704, -- [75]
+							19705, -- [76]
+							19701, -- [77]
 							19820, -- [78]
 							19820, -- [79]
 							19820, -- [80]
-							19814, -- [81]
-							19814, -- [82]
+							19820, -- [81]
+							19815, -- [82]
 							19815, -- [83]
 							19815, -- [84]
-							19818, -- [85]
-							19815, -- [86]
-							19818, -- [87]
-							19816, -- [88]
-							19816, -- [89]
+							19814, -- [85]
+							19814, -- [86]
+							19814, -- [87]
+							19813, -- [88]
+							19813, -- [89]
 							19816, -- [90]
 							19816, -- [91]
 							19818, -- [92]
 							19818, -- [93]
-							19818, -- [94]
-							19818, -- [95]
+							19813, -- [94]
+							19819, -- [95]
 							19819, -- [96]
 							19819, -- [97]
 							19819, -- [98]
 						},
-						["ClientTime"] = 1471068342,
-						["visitedBy"] = "Wafflestomp",
+						["ClientTime"] = 1471953765,
+						["visitedBy"] = "Unbearabull",
 						["links"] = {
-							[41] = "|cff0070dd|Hitem:20674:0:0:0:0:0:2156:0:26|h[Abyssal Cloth Pants of Restoration]|h|r",
-							[49] = "|cff1eff00|Hitem:11978:0:0:0:0:0:1509:0:26|h[Jasper Link of Nature Resistance]|h|r",
+							"|cff1eff00|Hitem:11978:0:0:0:0:0:1509:0:29|h[Jasper Link of Nature Resistance]|h|r", -- [1]
+							"|cff1eff00|Hitem:11978:0:0:0:0:0:1510:0:29|h[Jasper Link of Nature Resistance]|h|r", -- [2]
+							"|cff1eff00|Hitem:11979:0:0:0:0:0:1511:0:29|h[Peridot Circle of Nature Resistance]|h|r", -- [3]
+							[35] = "|cff0070dd|Hitem:20674:0:0:0:0:0:2156:0:29|h[Abyssal Cloth Pants of Restoration]|h|r",
 						},
-						["ServerHour"] = 8,
-						["ClientMinute"] = 5,
+						["ServerHour"] = 14,
+						["ClientMinute"] = 2,
 						["name"] = "Raiders Tab",
 						["icon"] = "Interface\\Icons\\INV_Crate_08",
-						["ClientHour"] = 18,
-						["ServerMinute"] = 5,
+						["ClientHour"] = 0,
+						["ServerMinute"] = 1,
 						["counts"] = {
-							[51] = 3,
-							[44] = 2,
-							[50] = 6,
+							[69] = 3,
+							[76] = 3,
+							[77] = 2,
+							[74] = 7,
 						},
 						["size"] = 98,
 					}, -- [2]
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
 							9260, -- [1]
 							9260, -- [2]
 							9260, -- [3]
 							9260, -- [4]
 							9260, -- [5]
-							6358, -- [6]
-							6358, -- [7]
+							9260, -- [6]
+							9260, -- [7]
 							17058, -- [8]
 							17058, -- [9]
 							17058, -- [10]
 							17058, -- [11]
 							17058, -- [12]
-							6358, -- [13]
-							6371, -- [14]
-							6370, -- [15]
-							15416, -- [16]
-							7972, -- [17]
-							15412, -- [18]
-							9260, -- [19]
-							19943, -- [20]
-							8846, -- [21]
-							1288, -- [22]
-							13468, -- [23]
-							15412, -- [24]
-							20520, -- [25]
-							19768, -- [26]
-							15414, -- [27]
-							4234, -- [28]
-							3819, -- [29]
-							3819, -- [30]
-							15415, -- [31]
-							3818, -- [32]
-							3369, -- [33]
-							7910, -- [34]
-							9260, -- [35]
-							8836, -- [36]
-							818, -- [37]
-							8838, -- [38]
-							1210, -- [39]
-							15992, -- [40]
-							22527, -- [41]
-							13465, -- [42]
-							10286, -- [43]
-							10286, -- [44]
-							10286, -- [45]
-							nil, -- [46]
-							nil, -- [47]
+							6370, -- [13]
+							6370, -- [14]
+							3419, -- [15]
+							3420, -- [16]
+							3419, -- [17]
+							3420, -- [18]
+							3419, -- [19]
+							3420, -- [20]
+							3419, -- [21]
+							3420, -- [22]
+							3419, -- [23]
+							3420, -- [24]
+							3419, -- [25]
+							3420, -- [26]
+							3419, -- [27]
+							3420, -- [28]
+							3419, -- [29]
+							3420, -- [30]
+							3419, -- [31]
+							3420, -- [32]
+							3419, -- [33]
+							3420, -- [34]
+							3419, -- [35]
+							3420, -- [36]
+							10285, -- [37]
+							12804, -- [38]
+							6371, -- [39]
+							nil, -- [40]
+							nil, -- [41]
+							nil, -- [42]
+							6037, -- [43]
+							6037, -- [44]
+							6037, -- [45]
+							6037, -- [46]
+							3858, -- [47]
 							nil, -- [48]
-							4625, -- [49]
-							19933, -- [50]
-							9210, -- [51]
-							4304, -- [52]
-							4304, -- [53]
-							4304, -- [54]
-							4234, -- [55]
-							nil, -- [56]
-							15992, -- [57]
-							13468, -- [58]
-							nil, -- [59]
-							nil, -- [60]
-							7081, -- [61]
-							7081, -- [62]
-							7081, -- [63]
+							nil, -- [49]
+							8170, -- [50]
+							3369, -- [51]
+							3369, -- [52]
+							3369, -- [53]
+							3356, -- [54]
+							1288, -- [55]
+							19943, -- [56]
+							19768, -- [57]
+							12808, -- [58]
+							14343, -- [59]
+							10286, -- [60]
+							7075, -- [61]
+							7075, -- [62]
+							13468, -- [63]
 							7077, -- [64]
 							7077, -- [65]
-							7075, -- [66]
-							7075, -- [67]
-							7079, -- [68]
-							7070, -- [69]
-							7070, -- [70]
+							7077, -- [66]
+							12364, -- [67]
+							7081, -- [68]
+							7081, -- [69]
+							7081, -- [70]
 							7068, -- [71]
 							7068, -- [72]
 							7068, -- [73]
-							7068, -- [74]
-							7068, -- [75]
-							7068, -- [76]
-							7068, -- [77]
+							7079, -- [74]
+							7079, -- [75]
+							7070, -- [76]
+							7070, -- [77]
 							7972, -- [78]
 							7972, -- [79]
-							12811, -- [80]
+							7075, -- [80]
 							7069, -- [81]
 							7069, -- [82]
 							7069, -- [83]
-							nil, -- [84]
-							11177, -- [85]
+							22445, -- [84]
+							19933, -- [85]
 							11177, -- [86]
 							20725, -- [87]
 							20725, -- [88]
-							nil, -- [89]
-							22445, -- [90]
+							10620, -- [89]
+							12359, -- [90]
 							22445, -- [91]
 							11370, -- [92]
 							11371, -- [93]
 							6037, -- [94]
 							3340, -- [95]
-							10620, -- [96]
+							14344, -- [96]
 							12359, -- [97]
 							12359, -- [98]
 						},
-						["ClientTime"] = 1471068364,
-						["visitedBy"] = "Wafflestomp",
-						["ServerHour"] = 8,
-						["ClientMinute"] = 6,
-						["ServerMinute"] = 5,
+						["ClientTime"] = 1471953762,
+						["visitedBy"] = "Unbearabull",
+						["ServerHour"] = 14,
+						["ClientMinute"] = 2,
+						["ServerMinute"] = 1,
 						["icon"] = "Interface\\Icons\\INV_Crate_09",
-						["ClientHour"] = 18,
+						["ClientHour"] = 0,
 						["name"] = "Mats",
 						["counts"] = {
 							10, -- [1]
@@ -3125,113 +3293,81 @@ DataStore_ContainersDB = {
 							10, -- [3]
 							10, -- [4]
 							10, -- [5]
-							20, -- [6]
-							9, -- [7]
+							10, -- [6]
+							7, -- [7]
 							20, -- [8]
 							20, -- [9]
 							20, -- [10]
 							20, -- [11]
-							19, -- [12]
+							20, -- [12]
 							20, -- [13]
-							7, -- [14]
-							8, -- [15]
-							nil, -- [16]
-							5, -- [17]
-							20, -- [18]
-							10, -- [19]
-							6, -- [20]
-							2, -- [21]
-							2, -- [22]
-							8, -- [23]
-							2, -- [24]
-							2, -- [25]
-							17, -- [26]
-							9, -- [27]
-							20, -- [28]
-							20, -- [29]
-							11, -- [30]
-							2, -- [31]
-							2, -- [32]
-							2, -- [33]
-							2, -- [34]
-							nil, -- [35]
-							20, -- [36]
-							20, -- [37]
-							19, -- [38]
-							20, -- [39]
-							20, -- [40]
-							4, -- [41]
-							5, -- [42]
-							10, -- [43]
-							10, -- [44]
-							10, -- [45]
-							nil, -- [46]
-							nil, -- [47]
-							nil, -- [48]
-							5, -- [49]
-							nil, -- [50]
-							nil, -- [51]
-							20, -- [52]
-							20, -- [53]
-							20, -- [54]
-							9, -- [55]
-							nil, -- [56]
-							5, -- [57]
-							20, -- [58]
-							nil, -- [59]
-							nil, -- [60]
-							3, -- [61]
-							10, -- [62]
-							10, -- [63]
-							10, -- [64]
-							4, -- [65]
-							10, -- [66]
-							8, -- [67]
-							10, -- [68]
-							8, -- [69]
-							10, -- [70]
-							10, -- [71]
-							10, -- [72]
-							10, -- [73]
-							10, -- [74]
-							10, -- [75]
-							10, -- [76]
-							2, -- [77]
-							10, -- [78]
-							9, -- [79]
-							nil, -- [80]
-							3, -- [81]
-							10, -- [82]
-							10, -- [83]
-							nil, -- [84]
-							20, -- [85]
-							17, -- [86]
-							20, -- [87]
-							17, -- [88]
-							nil, -- [89]
-							20, -- [90]
-							11, -- [91]
-							8, -- [92]
-							7, -- [93]
-							8, -- [94]
-							10, -- [95]
-							3, -- [96]
-							13, -- [97]
-							20, -- [98]
+							17, -- [14]
+							[74] = 10,
+							[45] = 20,
+							[53] = 10,
+							[61] = 10,
+							[75] = 10,
+							[91] = 8,
+							[38] = 4,
+							[46] = 8,
+							[54] = 3,
+							[62] = 5,
+							[77] = 10,
+							[93] = 9,
+							[39] = 14,
+							[47] = 11,
+							[55] = 2,
+							[63] = 10,
+							[79] = 2,
+							[95] = 10,
+							[64] = 10,
+							[80] = 10,
+							[96] = 3,
+							[56] = 7,
+							[65] = 9,
+							[81] = 10,
+							[97] = 20,
+							[66] = 5,
+							[82] = 10,
+							[98] = 20,
+							[57] = 19,
+							[83] = 5,
+							[68] = 3,
+							[84] = 20,
+							[50] = 8,
+							[58] = 2,
+							[69] = 10,
+							[92] = 10,
+							[86] = 16,
+							[70] = 10,
+							[43] = 20,
+							[51] = 20,
+							[59] = 2,
+							[71] = 10,
+							[87] = 20,
+							[78] = 10,
+							[76] = 10,
+							[72] = 10,
+							[44] = 20,
+							[52] = 20,
+							[60] = 10,
+							[73] = 5,
+							[89] = 5,
+							[94] = 20,
 						},
 						["size"] = 98,
 					}, -- [3]
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
-							21151, -- [1]
+							7974, -- [1]
 							7974, -- [2]
 							7974, -- [3]
 							7974, -- [4]
-							7974, -- [5]
-							7974, -- [6]
+							21114, -- [5]
+							21151, -- [6]
 							nil, -- [7]
-							nil, -- [8]
+							12037, -- [8]
 							nil, -- [9]
 							nil, -- [10]
 							nil, -- [11]
@@ -3256,28 +3392,28 @@ DataStore_ContainersDB = {
 							18254, -- [30]
 							18254, -- [31]
 							18254, -- [32]
-							nil, -- [33]
-							nil, -- [34]
-							nil, -- [35]
+							18254, -- [33]
+							18254, -- [34]
+							18254, -- [35]
 							18254, -- [36]
 							18254, -- [37]
 							18254, -- [38]
-							nil, -- [39]
-							nil, -- [40]
-							nil, -- [41]
+							18254, -- [39]
+							18254, -- [40]
+							18254, -- [41]
 							nil, -- [42]
 							21217, -- [43]
 							21217, -- [44]
-							21217, -- [45]
-							21217, -- [46]
-							21217, -- [47]
+							21072, -- [45]
+							nil, -- [46]
+							nil, -- [47]
 							nil, -- [48]
 							nil, -- [49]
-							13444, -- [50]
-							21217, -- [51]
-							21217, -- [52]
+							21217, -- [50]
+							nil, -- [51]
+							nil, -- [52]
 							nil, -- [53]
-							21072, -- [54]
+							nil, -- [54]
 							nil, -- [55]
 							nil, -- [56]
 							13446, -- [57]
@@ -3285,48 +3421,45 @@ DataStore_ContainersDB = {
 							13446, -- [59]
 							13446, -- [60]
 							13446, -- [61]
-							13446, -- [62]
-							13446, -- [63]
+							nil, -- [62]
+							nil, -- [63]
 							35563, -- [64]
-							35563, -- [65]
-							nil, -- [66]
-							nil, -- [67]
-							nil, -- [68]
-							nil, -- [69]
-							nil, -- [70]
-							17222, -- [71]
-							17222, -- [72]
-							17222, -- [73]
-							17222, -- [74]
-							nil, -- [75]
-							nil, -- [76]
-							nil, -- [77]
-							12217, -- [78]
-							12217, -- [79]
-							12217, -- [80]
-							[93] = 13931,
-							[85] = 13931,
-							[87] = 13931,
-							[86] = 13931,
-							[92] = 13931,
+							[86] = 13444,
+							[88] = 13444,
+							[92] = 13444,
+							[94] = 13444,
+							[96] = 13444,
+							[71] = 17222,
+							[73] = 17222,
+							[79] = 12217,
+							[81] = 3420,
+							[85] = 13444,
+							[87] = 13444,
+							[93] = 13444,
+							[95] = 13444,
+							[97] = 13444,
+							[72] = 17222,
+							[74] = 17222,
+							[78] = 12217,
+							[80] = 12217,
 						},
-						["ClientTime"] = 1471068370,
-						["visitedBy"] = "Wafflestomp",
-						["ServerHour"] = 8,
-						["ClientMinute"] = 6,
+						["ClientTime"] = 1471953759,
+						["visitedBy"] = "Unbearabull",
+						["ServerHour"] = 14,
+						["ClientMinute"] = 2,
 						["name"] = "Food",
 						["icon"] = "Interface\\Icons\\INV_Gizmo_RunicHealthInjector",
-						["ClientHour"] = 18,
-						["ServerMinute"] = 6,
+						["ClientHour"] = 0,
+						["ServerMinute"] = 1,
 						["counts"] = {
-							5, -- [1]
+							20, -- [1]
 							20, -- [2]
 							20, -- [3]
-							20, -- [4]
-							20, -- [5]
-							20, -- [6]
+							nil, -- [4]
+							3, -- [5]
+							8, -- [6]
 							nil, -- [7]
-							nil, -- [8]
+							13, -- [8]
 							nil, -- [9]
 							nil, -- [10]
 							nil, -- [11]
@@ -3350,29 +3483,29 @@ DataStore_ContainersDB = {
 							20, -- [29]
 							20, -- [30]
 							20, -- [31]
-							11, -- [32]
-							nil, -- [33]
-							nil, -- [34]
-							nil, -- [35]
+							20, -- [32]
+							20, -- [33]
+							20, -- [34]
+							11, -- [35]
 							20, -- [36]
 							20, -- [37]
 							20, -- [38]
-							nil, -- [39]
-							nil, -- [40]
-							nil, -- [41]
+							20, -- [39]
+							20, -- [40]
+							20, -- [41]
 							nil, -- [42]
 							20, -- [43]
-							20, -- [44]
+							19, -- [44]
 							20, -- [45]
-							20, -- [46]
-							5, -- [47]
+							nil, -- [46]
+							nil, -- [47]
 							nil, -- [48]
 							nil, -- [49]
 							20, -- [50]
-							20, -- [51]
-							20, -- [52]
+							nil, -- [51]
+							nil, -- [52]
 							nil, -- [53]
-							20, -- [54]
+							nil, -- [54]
 							nil, -- [55]
 							nil, -- [56]
 							20, -- [57]
@@ -3380,158 +3513,154 @@ DataStore_ContainersDB = {
 							20, -- [59]
 							20, -- [60]
 							20, -- [61]
-							20, -- [62]
-							20, -- [63]
+							nil, -- [62]
+							nil, -- [63]
 							20, -- [64]
-							20, -- [65]
-							nil, -- [66]
-							nil, -- [67]
-							nil, -- [68]
-							nil, -- [69]
-							nil, -- [70]
-							20, -- [71]
-							20, -- [72]
-							20, -- [73]
-							7, -- [74]
-							nil, -- [75]
-							nil, -- [76]
-							nil, -- [77]
-							20, -- [78]
-							20, -- [79]
-							15, -- [80]
-							[93] = 20,
-							[85] = 20,
-							[87] = 13,
 							[86] = 20,
+							[88] = 20,
 							[92] = 20,
+							[94] = 20,
+							[96] = 20,
+							[71] = 20,
+							[73] = 20,
+							[79] = 20,
+							[85] = 20,
+							[87] = 20,
+							[93] = 20,
+							[95] = 20,
+							[97] = 13,
+							[72] = 20,
+							[74] = 7,
+							[78] = 20,
+							[80] = 15,
 						},
 						["size"] = 98,
 					}, -- [4]
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
 							20749, -- [1]
 							20749, -- [2]
 							20749, -- [3]
 							20749, -- [4]
 							20749, -- [5]
-							20749, -- [6]
-							20749, -- [7]
+							9187, -- [6]
+							13442, -- [7]
 							20749, -- [8]
 							20749, -- [9]
 							20749, -- [10]
 							20749, -- [11]
 							20749, -- [12]
-							20749, -- [13]
-							20749, -- [14]
+							nil, -- [13]
+							12643, -- [14]
 							20748, -- [15]
 							20748, -- [16]
 							20748, -- [17]
 							20748, -- [18]
 							20748, -- [19]
-							nil, -- [20]
-							nil, -- [21]
+							20748, -- [20]
+							20748, -- [21]
 							20748, -- [22]
 							20748, -- [23]
 							20748, -- [24]
 							20748, -- [25]
-							nil, -- [26]
-							nil, -- [27]
-							nil, -- [28]
-							13512, -- [29]
-							13512, -- [30]
-							13512, -- [31]
-							13512, -- [32]
-							nil, -- [33]
-							nil, -- [34]
-							nil, -- [35]
-							12404, -- [36]
-							12404, -- [37]
-							12404, -- [38]
-							12404, -- [39]
-							12404, -- [40]
-							12404, -- [41]
-							12404, -- [42]
-							12404, -- [43]
-							12404, -- [44]
-							12404, -- [45]
-							12404, -- [46]
-							12404, -- [47]
-							12404, -- [48]
-							6052, -- [49]
-							13511, -- [50]
-							13511, -- [51]
-							13511, -- [52]
-							13511, -- [53]
-							nil, -- [54]
-							6052, -- [55]
-							3824, -- [56]
-							9206, -- [57]
-							9206, -- [58]
-							13510, -- [59]
-							13453, -- [60]
-							13453, -- [61]
-							6052, -- [62]
-							3824, -- [63]
-							9088, -- [64]
-							9088, -- [65]
-							9088, -- [66]
+							20748, -- [26]
+							20748, -- [27]
+							20748, -- [28]
+							12404, -- [29]
+							12404, -- [30]
+							12404, -- [31]
+							12404, -- [32]
+							12404, -- [33]
+							12404, -- [34]
+							12404, -- [35]
+							13512, -- [36]
+							13512, -- [37]
+							13512, -- [38]
+							13512, -- [39]
+							13512, -- [40]
+							13512, -- [41]
+							13512, -- [42]
+							13511, -- [43]
+							13511, -- [44]
+							13511, -- [45]
+							13511, -- [46]
+							13511, -- [47]
+							13511, -- [48]
+							13513, -- [49]
+							9206, -- [50]
+							9206, -- [51]
+							9206, -- [52]
+							9206, -- [53]
+							9206, -- [54]
+							13453, -- [55]
+							13453, -- [56]
+							9088, -- [57]
+							9088, -- [58]
+							9088, -- [59]
+							3419, -- [60]
+							13458, -- [61]
+							9179, -- [62]
+							9187, -- [63]
+							3829, -- [64]
+							3829, -- [65]
+							3829, -- [66]
 							3829, -- [67]
 							3829, -- [68]
 							3829, -- [69]
-							3824, -- [70]
+							6052, -- [70]
 							20007, -- [71]
 							20007, -- [72]
 							20007, -- [73]
 							20007, -- [74]
 							20007, -- [75]
 							20007, -- [76]
-							3824, -- [77]
+							6052, -- [77]
 							9179, -- [78]
 							9179, -- [79]
 							9179, -- [80]
 							9179, -- [81]
 							9179, -- [82]
 							9179, -- [83]
-							nil, -- [84]
+							6052, -- [84]
 							13452, -- [85]
 							13452, -- [86]
 							13452, -- [87]
-							13452, -- [88]
-							13452, -- [89]
-							13452, -- [90]
-							13452, -- [91]
+							12820, -- [88]
+							3824, -- [89]
+							3824, -- [90]
+							6052, -- [91]
 							9187, -- [92]
 							9187, -- [93]
 							9187, -- [94]
 							13454, -- [95]
 							13454, -- [96]
 							13454, -- [97]
-							13513, -- [98]
+							3824, -- [98]
 						},
-						["ClientTime"] = 1471068420,
-						["visitedBy"] = "Wafflestomp",
-						["ServerHour"] = 8,
-						["ClientMinute"] = 7,
+						["ClientTime"] = 1471953743,
+						["visitedBy"] = "Unbearabull",
+						["ServerHour"] = 14,
+						["ClientMinute"] = 2,
 						["name"] = "Consumables",
 						["icon"] = "Interface\\Icons\\INV_Gizmo_RunicManaInjector",
-						["ClientHour"] = 18,
-						["ServerMinute"] = 6,
+						["ClientHour"] = 0,
+						["ServerMinute"] = 1,
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
 							nil, -- [3]
 							nil, -- [4]
 							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
+							2, -- [6]
+							20, -- [7]
 							nil, -- [8]
 							nil, -- [9]
 							nil, -- [10]
 							nil, -- [11]
 							nil, -- [12]
 							nil, -- [13]
-							nil, -- [14]
+							20, -- [14]
 							nil, -- [15]
 							nil, -- [16]
 							nil, -- [17]
@@ -3549,65 +3678,65 @@ DataStore_ContainersDB = {
 							20, -- [29]
 							20, -- [30]
 							20, -- [31]
-							14, -- [32]
-							nil, -- [33]
-							nil, -- [34]
-							nil, -- [35]
+							20, -- [32]
+							20, -- [33]
+							20, -- [34]
+							20, -- [35]
 							20, -- [36]
 							20, -- [37]
 							20, -- [38]
 							20, -- [39]
 							20, -- [40]
 							20, -- [41]
-							15, -- [42]
+							14, -- [42]
 							20, -- [43]
 							20, -- [44]
 							20, -- [45]
 							20, -- [46]
 							20, -- [47]
-							20, -- [48]
-							20, -- [49]
+							nil, -- [48]
+							19, -- [49]
 							20, -- [50]
 							20, -- [51]
 							20, -- [52]
-							6, -- [53]
-							nil, -- [54]
+							20, -- [53]
+							17, -- [54]
 							20, -- [55]
-							nil, -- [56]
+							20, -- [56]
 							20, -- [57]
 							20, -- [58]
 							20, -- [59]
-							20, -- [60]
-							20, -- [61]
-							5, -- [62]
-							5, -- [63]
-							20, -- [64]
-							20, -- [65]
-							20, -- [66]
+							nil, -- [60]
+							nil, -- [61]
+							10, -- [62]
+							20, -- [63]
+							5, -- [64]
+							5, -- [65]
+							5, -- [66]
 							5, -- [67]
 							5, -- [68]
 							2, -- [69]
-							5, -- [70]
+							20, -- [70]
 							20, -- [71]
 							20, -- [72]
 							20, -- [73]
 							20, -- [74]
 							20, -- [75]
 							5, -- [76]
-							5, -- [77]
+							20, -- [77]
 							20, -- [78]
 							20, -- [79]
 							20, -- [80]
 							20, -- [81]
 							20, -- [82]
-							19, -- [83]
-							nil, -- [84]
+							20, -- [83]
+							17, -- [84]
 							20, -- [85]
 							20, -- [86]
 							20, -- [87]
-							20, -- [88]
-							20, -- [89]
-							20, -- [90]
+							10, -- [88]
+							nil, -- [89]
+							5, -- [90]
 							20, -- [91]
 							20, -- [92]
 							20, -- [93]
@@ -3615,50 +3744,50 @@ DataStore_ContainersDB = {
 							20, -- [95]
 							20, -- [96]
 							18, -- [97]
-							17, -- [98]
+							5, -- [98]
 						},
 						["size"] = 98,
 					}, -- [5]
 					{
-						["ClientDate"] = "08/13/2016",
+						["ClientDate"] = "08/24/2016",
 						["ids"] = {
 							8150, -- [1]
 							8150, -- [2]
-							8150, -- [3]
-							8150, -- [4]
+							7067, -- [3]
+							7067, -- [4]
 							12804, -- [5]
 							14227, -- [6]
 							14227, -- [7]
 							8150, -- [8]
 							8150, -- [9]
 							8150, -- [10]
-							8150, -- [11]
-							19943, -- [12]
+							7067, -- [11]
+							14342, -- [12]
 							8153, -- [13]
 							19726, -- [14]
 							7191, -- [15]
 							7191, -- [16]
-							22202, -- [17]
-							22203, -- [18]
-							14342, -- [19]
+							18344, -- [17]
+							7067, -- [18]
+							7078, -- [19]
 							19975, -- [20]
 							19974, -- [21]
-							17012, -- [22]
-							22202, -- [23]
-							22202, -- [24]
-							22202, -- [25]
-							22202, -- [26]
+							13510, -- [22]
+							13510, -- [23]
+							13510, -- [24]
+							17012, -- [25]
+							14227, -- [26]
 							9061, -- [27]
 							19183, -- [28]
-							17012, -- [29]
-							nil, -- [30]
-							18640, -- [31]
-							7079, -- [32]
-							7079, -- [33]
-							20725, -- [34]
+							13510, -- [29]
+							13510, -- [30]
+							13510, -- [31]
+							14227, -- [32]
+							18512, -- [33]
+							22203, -- [34]
 							22448, -- [35]
 							22576, -- [36]
-							nil, -- [37]
+							7067, -- [37]
 							22573, -- [38]
 							nil, -- [39]
 							22578, -- [40]
@@ -3681,99 +3810,96 @@ DataStore_ContainersDB = {
 							18665, -- [57]
 							18665, -- [58]
 							18665, -- [59]
-							18665, -- [60]
-							nil, -- [61]
-							nil, -- [62]
-							22220, -- [63]
-							11979, -- [64]
-							11979, -- [65]
+							12717, -- [60]
+							22389, -- [61]
+							22388, -- [62]
+							22388, -- [63]
+							16817, -- [64]
+							18665, -- [65]
 							21801, -- [66]
 							21802, -- [67]
-							nil, -- [68]
-							12717, -- [69]
-							22388, -- [70]
+							16850, -- [68]
+							nil, -- [69]
+							19162, -- [70]
 							16830, -- [71]
 							16828, -- [72]
 							16858, -- [73]
 							16802, -- [74]
-							16850, -- [75]
-							16864, -- [76]
-							19162, -- [77]
+							nil, -- [75]
+							15050, -- [76]
+							15052, -- [77]
 							16806, -- [78]
 							16804, -- [79]
 							16804, -- [80]
-							16804, -- [81]
-							16817, -- [82]
-							15050, -- [83]
-							15052, -- [84]
+							16799, -- [81]
+							19682, -- [82]
+							19683, -- [83]
+							19684, -- [84]
 							20259, -- [85]
-							18344, -- [86]
-							nil, -- [87]
-							18232, -- [88]
+							nil, -- [86]
+							18510, -- [87]
+							17061, -- [88]
 							19682, -- [89]
 							19683, -- [90]
 							19684, -- [91]
-							18510, -- [92]
-							17061, -- [93]
-							5634, -- [94]
-							nil, -- [95]
-							19682, -- [96]
-							19683, -- [97]
-							19684, -- [98]
+							11846, -- [92]
+							932, -- [93]
+							18232, -- [94]
+							5634, -- [95]
+							18640, -- [96]
+							[98] = 18334,
 						},
-						["ClientTime"] = 1471068424,
-						["ClientHour"] = 18,
+						["ClientTime"] = 1471953748,
+						["ClientHour"] = 0,
 						["links"] = {
-							[91] = "|cff0070dd|Hitem:19684:0:3858:0:0:0:0:0:26|h[Bloodvine Boots]|h|r",
-							[65] = "|cff1eff00|Hitem:11979:0:0:0:0:0:1512:0:26|h[Peridot Circle of Nature Resistance]|h|r",
-							[83] = "|cff0070dd|Hitem:15050:0:1891:0:0:0:0:0:26|h[Black Dragonscale Breastplate]|h|r",
-							[64] = "|cff1eff00|Hitem:11979:0:0:0:0:0:1511:0:26|h[Peridot Circle of Nature Resistance]|h|r",
-							[98] = "|cff0070dd|Hitem:19684:0:3858:0:0:0:0:0:26|h[Bloodvine Boots]|h|r",
-							[96] = "|cff0070dd|Hitem:19682:0:1891:0:0:0:0:0:26|h[Bloodvine Vest]|h|r",
-							[89] = "|cff0070dd|Hitem:19682:0:1891:0:0:0:0:0:26|h[Bloodvine Vest]|h|r",
+							[84] = "|cff0070dd|Hitem:19684:0:3858:0:0:0:0:0:29|h[Bloodvine Boots]|h|r",
+							[76] = "|cff0070dd|Hitem:15050:0:1891:0:0:0:0:0:29|h[Black Dragonscale Breastplate]|h|r",
+							[91] = "|cff0070dd|Hitem:19684:0:3858:0:0:0:0:0:29|h[Bloodvine Boots]|h|r",
+							[89] = "|cff0070dd|Hitem:19682:0:1891:0:0:0:0:0:29|h[Bloodvine Vest]|h|r",
+							[82] = "|cff0070dd|Hitem:19682:0:1891:0:0:0:0:0:29|h[Bloodvine Vest]|h|r",
 						},
-						["visitedBy"] = "Wafflestomp",
-						["ServerHour"] = 8,
-						["ServerMinute"] = 6,
+						["visitedBy"] = "Unbearabull",
+						["ServerHour"] = 14,
+						["ServerMinute"] = 1,
 						["icon"] = "Interface\\Icons\\INV_Stone_SharpeningStone_01",
 						["name"] = "The Good Stuff",
-						["ClientMinute"] = 7,
+						["ClientMinute"] = 2,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
-							20, -- [3]
-							20, -- [4]
-							5, -- [5]
-							7, -- [6]
+							10, -- [3]
+							10, -- [4]
+							13, -- [5]
+							10, -- [6]
 							10, -- [7]
 							20, -- [8]
 							20, -- [9]
-							20, -- [10]
-							7, -- [11]
-							nil, -- [12]
+							4, -- [10]
+							10, -- [11]
+							4, -- [12]
 							20, -- [13]
-							4, -- [14]
+							5, -- [14]
 							5, -- [15]
 							4, -- [16]
-							10, -- [17]
-							2, -- [18]
-							4, -- [19]
+							nil, -- [17]
+							10, -- [18]
+							10, -- [19]
 							3, -- [20]
 							3, -- [21]
-							6, -- [22]
-							10, -- [23]
-							10, -- [24]
-							10, -- [25]
+							20, -- [22]
+							20, -- [23]
+							20, -- [24]
+							14, -- [25]
 							10, -- [26]
 							11, -- [27]
-							32, -- [28]
-							8, -- [29]
-							nil, -- [30]
-							2, -- [31]
-							6, -- [32]
-							9, -- [33]
-							3, -- [34]
-							12, -- [35]
+							81, -- [28]
+							20, -- [29]
+							20, -- [30]
+							10, -- [31]
+							5, -- [32]
+							nil, -- [33]
+							6, -- [34]
+							8, -- [35]
 							2, -- [36]
 							nil, -- [37]
 							5, -- [38]
@@ -3795,8 +3921,10 @@ DataStore_ContainersDB = {
 							20, -- [54]
 							20, -- [55]
 							20, -- [56]
-							[88] = 3,
-							[94] = 12,
+							[96] = 2,
+							[94] = 3,
+							[95] = 12,
+							[92] = 5,
 						},
 						["size"] = 98,
 					}, -- [6]

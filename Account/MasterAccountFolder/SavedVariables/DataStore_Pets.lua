@@ -24,10 +24,10 @@ DataStore_PetsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.PrimalWoW (Progressive).Odemawajaw"] = {
-				["lastUpdate"] = 1471072591,
+				["lastUpdate"] = 1472034712,
 			},
 			["Default.TrueWoW.Cryogenics"] = {
-				["lastUpdate"] = 1452579002,
+				["lastUpdate"] = 1472035171,
 				["CRITTER"] = {
 					"21055|Golden Dragonhawk Hatchling|36027|Ability_Hunter_Pet_DragonHawk", -- [1]
 					"21064|Red Dragonhawk Hatchling|36028|Ability_Hunter_Pet_DragonHawk", -- [2]
@@ -35,7 +35,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wajawamedo"] = {
-				["lastUpdate"] = 1471061550,
+				["lastUpdate"] = 1471865459,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
@@ -73,7 +73,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1470041400,
 			},
 			["Default.PrimalWoW (Progressive).Contagion"] = {
-				["lastUpdate"] = 1470657814,
+				["lastUpdate"] = 1472034032,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
@@ -89,7 +89,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Mittens"] = {
-				["lastUpdate"] = 1470746225,
+				["lastUpdate"] = 1471149565,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"7395|Cockroach|10688|inv_pet_cockroach", -- [2]
@@ -106,7 +106,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Nerfed"] = {
-				["lastUpdate"] = 1471086423,
+				["lastUpdate"] = 1472035815,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
@@ -124,7 +124,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Wafflestomp"] = {
-				["lastUpdate"] = 1471071783,
+				["lastUpdate"] = 1471772953,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"7390|Cockatiel|10680|INV_Feather_08", -- [2]
@@ -142,10 +142,10 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.PrimalWoW (Progressive).Magistratus"] = {
-				["lastUpdate"] = 1471086224,
+				["lastUpdate"] = 1471950606,
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
-				["lastUpdate"] = 1471086028,
+				["lastUpdate"] = 1471952637,
 				["CRITTER"] = {
 					"32841|Baby Blizzard Bear|61855|inv_pet_babyblizzardbear", -- [1]
 					"28883|Frosty|52615|INV_PET_FROSTWYRM", -- [2]
@@ -168,13 +168,13 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1470230243,
 			},
 			["Default.PrimalWoW (Progressive).Iamsham"] = {
-				["lastUpdate"] = 1451459314,
+				["lastUpdate"] = 1471424950,
 			},
 			["Default.PrimalWoW (Progressive).Defren"] = {
-				["lastUpdate"] = 1471072471,
+				["lastUpdate"] = 1472034209,
 			},
 			["Default.TrueWoW.Pastafarian"] = {
-				["lastUpdate"] = 1469855942,
+				["lastUpdate"] = 1472033404,
 				["CRITTER"] = {
 					"14755|Tiny Green Dragon|23531|INV_Misc_Orb_01", -- [1]
 				},

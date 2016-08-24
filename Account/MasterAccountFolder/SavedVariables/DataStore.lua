@@ -68,6 +68,7 @@ DataStoreDB = {
 			},
 			["Default.PrimalWoW (Progressive).Magistratus"] = {
 				["faction"] = "Alliance",
+				["guildName"] = "Debauchery Tea Party",
 			},
 			["Default.PrimalWoW (Progressive).Unbearabull"] = {
 				["guildName"] = "Debauchery Tea Party",

@@ -675,9 +675,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["Name"] = "Riding",
-				["ScriptID"] = "Riding",
 				["ScriptLockupCount"] = 0,
+				["CategoryID"] = "Accessory",
+				["ScriptID"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -685,12 +685,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = true,
 				},
-				["CategoryID"] = "Accessory",
 				["StatConfig"] = {
 					{
 						["StatID"] = "MOUNT_SPEED",
 					}, -- [1]
 				},
+				["Name"] = "Riding",
 			}, -- [3]
 			{
 				["ScriptLockupCount"] = 0,

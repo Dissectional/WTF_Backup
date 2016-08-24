@@ -2,35 +2,41 @@
 GFW_FeedOMatic_DB = {
 	["profileKeys"] = {
 		["Pastafarian - TrueWoW"] = "Pastafarian - TrueWoW",
-		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
-		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Wajawamedo - PrimalWoW (Progressive)",
+		["Cryogenics - TrueWoW"] = "Cryogenics - TrueWoW",
+		["Duglazerp - TrueWoW"] = "Duglazerp - TrueWoW",
+		["Ellipsis - TrueWoW"] = "Ellipsis - TrueWoW",
 	},
 	["profiles"] = {
 		["Pastafarian - TrueWoW"] = {
 		},
-		["Ellipsis - TrueWoW"] = {
+		["Wajawamedo - PrimalWoW (Progressive)"] = {
+			["ShowOnlyPetFoods"] = true,
+			["AudioWarning"] = true,
+			["ShowOnlyInventory"] = true,
+			["TextWarning"] = true,
+		},
+		["Cryogenics - TrueWoW"] = {
 		},
 		["Duglazerp - TrueWoW"] = {
 		},
-		["Wajawamedo - PrimalWoW (Progressive)"] = {
-			["ShowOnlyInventory"] = true,
-			["ShowOnlyPetFoods"] = true,
-			["TextWarning"] = true,
-			["AudioWarning"] = true,
-			["IconWarning"] = true,
+		["Ellipsis - TrueWoW"] = {
 		},
 	},
 }
 FOM_CookingRecipes = {
+	[12224] = 15935,
+	[5477] = 6416,
 	[6888] = 8604,
 	[6290] = 7751,
-	[2681] = 2540,
 	[2679] = 2538,
+	[2681] = 2540,
 	[30816] = 37836,
-	[5525] = 6499,
+	[6890] = 8607,
+	[5095] = 7827,
 	[2680] = 2539,
+	[5525] = 6499,
 	[2684] = 2541,
 	[5474] = 6414,
-	[6890] = 8607,
+	[787] = 7752,
 }

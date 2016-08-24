@@ -280,3 +280,8 @@ SBFOptions: disabled
 SatrinaBuffFrame: disabled
 LibHealComm-4.0: enabled
 LibDBLayers-1.0: enabled
+Cryolysis: disabled
+Cryolysis3: disabled
+VenantesOptions: disabled
+Venantes: disabled
+SphereLoader: disabled

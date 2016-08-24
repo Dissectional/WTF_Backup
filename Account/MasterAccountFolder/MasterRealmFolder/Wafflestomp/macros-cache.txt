@@ -1,7 +1,9 @@
 MACRO 16777222 "001 CHARGE!" INV_Misc_QuestionMark
 #showtooltip
 /cast [stance:1] Charge
+/cast [stance:1,mod:shift] Defensive Stance
 /castsequence [stance:2] reset=15 Charge, Intercept
+/cast [stance:2,mod:shift] Battle Stance
 /castsequence [stance:3] reset=20 Intercept, Heroic Fury
 END
 MACRO 16777217 "002 Attack" INV_Misc_QuestionMark
@@ -17,11 +19,6 @@ MACRO 16777218 "003 Attack" INV_Misc_QuestionMark
 /startattack
 /cast [stance:1/2, mod] Rend; [stance:1] Overpower; [stance:2] Revenge
 /cast [stance:3,nomod]  Bloodthirst
-END
-MACRO 16777219 "004 Attack" INV_Misc_QuestionMark
-#showtooltip
-/startattack
-/cast [mod] Cleave; Heroic Strike
 END
 MACRO 16777220 "005 Rage" INV_Misc_QuestionMark
 #showtooltip
@@ -41,6 +38,20 @@ MACRO 16777224 "Big CD" INV_Misc_QuestionMark
 /cast [stance:3] Recklessness
 /cast [stance:3, mod:shift] Death Wish
 END
+MACRO 16777231 "Cleave" Ability_Warrior_Cleave
+#showtooltip Cleave
+/targetnexttarget [noexists]
+/startattack [@target,exists,nodead,harm]
+/cast [@target,exists,nodead,harm] Cleave
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777219 "Heroic Strike" Ability_Rogue_Ambush
+#showtooltip Heroic Strike
+/targetenemy [noexists]
+/startattack [@target,exists,nodead,harm]
+/cast [@target,exists,nodead,harm] Heroic Strike
+/script UIErrorsFrame:Clear()
+END
 MACRO 16777230 "Interrupt" INV_Misc_QuestionMark
 #showtooltip
 /cast [stance:1/2, mod] War Stomp; [stance:1/2,worn:shields] Shield Bash
@@ -57,9 +68,13 @@ MACRO 16777228 "Mount" INV_Misc_QuestionMark
 /run if IsMounted()then return end local t if((GetRealZoneText()=="Dalaran") and (GetSubZoneText() ~="Krasus' Landing") or (GetZoneText()=="Wintergrasp") or not IsFlyableArea()) then t={2} else t={1} end CallCompanion("MOUNT",t[random(#t)])
 /dismount
 END
+MACRO 16777232 "Revenge test" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Revenge, Sunder Armor
+END
 MACRO 16777229 "Shout" INV_Misc_QuestionMark
 #showtooltip
-/cast [mod] Demoralizing Shout; Battle Shout
+/cast [mod:Shift] Battle Shout;[mod:ctrl] Challenging Shout; [mod:Alt] Intimidating Shout; Demoralizing Shout
 END
 MACRO 16777226 "Spell" INV_Misc_QuestionMark
 #showtooltip

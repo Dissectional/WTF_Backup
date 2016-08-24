@@ -3,44 +3,18 @@ TitanSettings = {
 	["Players"] = {
 		["Iamsham@PrimalWoW (Progressive)"] = {
 			["Plugins"] = {
-				["Repair"] = {
-					["ShowColoredText"] = false,
-					["IgnoreThrown"] = false,
-					["AutoRepair"] = false,
-					["DiscountFriendly"] = false,
-					["ShowIcon"] = 1,
-					["ShowDiscounts"] = true,
-					["ShowDurabilityFrame"] = 1,
-					["ShowUndamaged"] = false,
-					["ShowPercentage"] = false,
-					["DiscountRevered"] = false,
-					["ShowInventory"] = 1,
-					["UseGuildBank"] = false,
-					["ShowRepairCost"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowCosts"] = true,
-					["DiscountExalted"] = false,
-					["ShowMostDmgPer"] = 1,
-					["ShowItems"] = true,
-					["AutoRepairReport"] = false,
-					["DiscountHonored"] = false,
-					["ShowPopup"] = false,
-					["ShowMostDamaged"] = false,
-				},
-				["LDBT_BugSack"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
+				["Coords"] = {
 					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
+					["ShowZoneText"] = 1,
 					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
 				},
-				["LDBT_Gatherer"] = {
+				["LDBT_SilverDragon"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -52,25 +26,25 @@ TitanSettings = {
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
+					["ShowLabelText"] = false,
 				},
-				["LDBT_TourGuideLauncher"] = {
+				["LDBT_ArkInventory_Tracking_Currency"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_DrDamage"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
 				["AutoHide"] = {
 					["DisplayOnRightSide"] = 1,
 					["ForceBar"] = "Bar",
+				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
 				},
 				["LDBT_Elitist Group"] = {
 					["ShowColoredText"] = false,
@@ -79,28 +53,16 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["XP"] = {
-					["ShowSimpleNumOfKills"] = false,
-					["ShowIcon"] = 1,
-					["ShowSimpleRested"] = false,
-					["ShowSimpleToLevel"] = false,
-					["ShowLabelText"] = 1,
-					["ShowSimpleNumOfGains"] = false,
-					["DisplayType"] = "ShowXPPerHourSession",
-				},
-				["LDBT_XToLevel"] = {
+				["LDBT_ArkInventory_Money"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_SavedInstances"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
+				["AuxAutoHide"] = {
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
+					["ForceBar"] = "AuxBar",
 				},
 				["LDBT_TimeToLevel"] = {
 					["ShowColoredText"] = false,
@@ -124,14 +86,14 @@ TitanSettings = {
 					["ShowUnfriendly"] = 1,
 					["ShowNeutral"] = 1,
 					["ShowFriendly"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "none",
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
 				},
-				["LDBT_Panda"] = {
+				["LDBT_Atlas"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
+					["ShowLabelText"] = false,
 				},
 				["LDBT_AtlasLoot"] = {
 					["ShowColoredText"] = false,
@@ -140,29 +102,18 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_SilverDragon"] = {
+				["LDBT_ArkInventory_Mounts"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
-				},
-				["AuxAutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
 				},
 				["LDBT_TourGuide"] = {
-					["ShowColoredText"] = false,
+					["ShowColoredText"] = 1,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_Altoholic"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
 				["LDBT_Outfitter"] = {
@@ -172,60 +123,6 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Ampere"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-			},
-			["Panel"] = {
-				["HideTipsInCombat"] = false,
-				["LogAdjust"] = false,
-				["ButtonAlign"] = 1,
-				["Scale"] = 1,
-				["ScreenAdjust"] = false,
-				["ButtonSpacing"] = 20,
-				["AuxDoubleBar"] = 1,
-				["BothBars"] = false,
-				["AuxTransparency"] = 0.7,
-				["TicketAdjust"] = 1,
-				["AutoHide"] = false,
-				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
-				["VersionShown"] = 1,
-				["TooltipTrans"] = 1,
-				["AuxScreenAdjust"] = false,
-				["AuxButtonAlign"] = 1,
-				["LockButtons"] = false,
-				["BagAdjust"] = 1,
-				["Buttons"] = {
-					"XP", -- [1]
-					"AutoHide", -- [2]
-					"AuxAutoHide", -- [3]
-					"Repair", -- [4]
-				},
-				["FrameStrata"] = "DIALOG",
-				["DoubleBar"] = 1,
-				["FontName"] = "Friz Quadrata TT",
-				["ToolTipsShown"] = 1,
-				["DisableTooltipFont"] = 1,
-				["Transparency"] = 0.7,
-				["AuxAutoHide"] = false,
-				["Position"] = 1,
-				["Location"] = {
-					"Bar", -- [1]
-					"Bar", -- [2]
-					"AuxBar", -- [3]
-					"Bar", -- [4]
-				},
-				["TooltipFont"] = 1,
-				["MinimapAdjust"] = false,
-				["FontSize"] = 10,
-			},
-		},
-		["Cryogenics@TrueWoW"] = {
-			["Plugins"] = {
 				["Repair"] = {
 					["ShowColoredText"] = false,
 					["IgnoreThrown"] = false,
@@ -250,6 +147,13 @@ TitanSettings = {
 					["ShowPopup"] = false,
 					["ShowMostDamaged"] = false,
 				},
+				["LDBT_MiniPet"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
 				["LDBT_BugSack"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
@@ -257,18 +161,7 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Coords"] = {
-					["ShowColoredText"] = 1,
-					["ShowZoneText"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowIcon"] = 1,
-					["CoordsFormat3"] = false,
-					["CoordsFormat1"] = 1,
-					["CoordsFormat2"] = false,
-					["ShowCoordsOnMap"] = 1,
-					["ShowLocOnMiniMap"] = 1,
-				},
-				["LDBT_Gatherer"] = {
+				["LDBT_Raven"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -296,36 +189,80 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["AutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "Bar",
-				},
 				["Clock"] = {
 					["OffsetHour"] = 0,
 					["HideGameTimeMinimap"] = false,
 					["DisplayOnRightSide"] = 1,
 					["ShowColoredText"] = false,
 					["Format"] = "12H",
-					["TimeMode"] = "Server",
+					["TimeMode"] = "Local",
 					["ShowLabelText"] = false,
-				},
-				["LDBT_Elitist Group"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
 				},
 				["XP"] = {
 					["ShowSimpleNumOfKills"] = false,
 					["ShowIcon"] = 1,
 					["ShowSimpleRested"] = false,
 					["ShowSimpleToLevel"] = false,
-					["DisplayType"] = "ShowXPPerHourLevel",
+					["ShowLabelText"] = 1,
 					["ShowSimpleNumOfGains"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+				},
+				["LDBT_ArkInventory_Ammunition"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
+				["LDBT_Ampere"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_DropTheCheapestThing"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
 				["LDBT_XToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Gatherer"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Pets"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -338,6 +275,121 @@ TitanSettings = {
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["LogAdjust"] = false,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ScreenAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["AuxDoubleBar"] = 1,
+				["BothBars"] = false,
+				["AuxTransparency"] = 0.7,
+				["TicketAdjust"] = 1,
+				["AutoHide"] = false,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\X-Perl\\",
+				["VersionShown"] = 1,
+				["TooltipTrans"] = 1,
+				["AuxScreenAdjust"] = false,
+				["AuxButtonAlign"] = 1,
+				["LockButtons"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"AuxAutoHide", -- [1]
+					"LDBT_TourGuide", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"LDBT_EveryQuest", -- [5]
+					"LDBT_Atlas", -- [6]
+					"LDBT_DropTheCheapestThing", -- [7]
+					"LDBT_MiniPet", -- [8]
+					"XP", -- [9]
+					"Reputation", -- [10]
+				},
+				["FrameStrata"] = "DIALOG",
+				["DoubleBar"] = 1,
+				["FontName"] = "Friz Quadrata TT",
+				["ToolTipsShown"] = 1,
+				["DisableTooltipFont"] = 1,
+				["Transparency"] = 0.7,
+				["AuxAutoHide"] = false,
+				["Position"] = 1,
+				["Location"] = {
+					"AuxBar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"Bar", -- [8]
+					"Bar", -- [9]
+					"Bar", -- [10]
+				},
+				["TooltipFont"] = 1,
+				["MinimapAdjust"] = false,
+				["FontSize"] = 10,
+			},
+		},
+		["Cryogenics@TrueWoW"] = {
+			["Plugins"] = {
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_SilverDragon"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_EveryQuest"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_ArkInventory_Tracking_Currency"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Elitist Group"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Money"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
 				},
 				["LDBT_TimeToLevel"] = {
 					["ShowColoredText"] = false,
@@ -363,18 +415,130 @@ TitanSettings = {
 					["ShowHated"] = 1,
 					["ShowIcon"] = 1,
 				},
-				["LDBT_EveryQuest"] = {
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Atlas"] = {
+				["LDBT_ArkInventory_Mounts"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_TourGuide"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Outfitter"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["LDBT_MiniPet"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_BugSack"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Raven"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Panda"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_TourGuideLauncher"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Local",
+					["ShowLabelText"] = false,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = 1,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Ammunition"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
 				["LDBT_Ampere"] = {
@@ -384,25 +548,39 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_AtlasLoot"] = {
-					["ShowColoredText"] = false,
+				["LDBT_DropTheCheapestThing"] = {
+					["ShowColoredText"] = 1,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
+					["ShowRegularText"] = false,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
+					["ShowLabelText"] = false,
 				},
-				["LDBT_SilverDragon"] = {
+				["LDBT_XToLevel"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["AuxAutoHide"] = {
+				["LDBT_Gatherer"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
+					["ShowLabelText"] = 1,
 				},
-				["LDBT_TourGuide"] = {
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["CoordsFormat3"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat2"] = false,
+					["ShowCoordsOnMap"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+				},
+				["LDBT_ArkInventory_Pets"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -416,17 +594,18 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Outfitter"] = {
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
-					["ShowColoredText"] = 1,
+				["LDBT_SavedInstances"] = {
+					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
 			},
@@ -441,11 +620,16 @@ TitanSettings = {
 				["BothBars"] = false,
 				["VersionShown"] = 1,
 				["Location"] = {
-					"Bar", -- [1]
+					"AuxBar", -- [1]
 					"Bar", -- [2]
-					"AuxBar", -- [3]
+					"Bar", -- [3]
 					"Bar", -- [4]
 					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"Bar", -- [8]
+					"Bar", -- [9]
+					"Bar", -- [10]
 				},
 				["AutoHide"] = false,
 				["TooltipTrans"] = 1,
@@ -456,11 +640,16 @@ TitanSettings = {
 				["LockButtons"] = false,
 				["BagAdjust"] = 1,
 				["Buttons"] = {
-					"AutoHide", -- [1]
-					"XP", -- [2]
-					"AuxAutoHide", -- [3]
-					"LDBT_EveryQuest", -- [4]
-					"Reputation", -- [5]
+					"AuxAutoHide", -- [1]
+					"LDBT_TourGuide", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"LDBT_EveryQuest", -- [5]
+					"LDBT_Atlas", -- [6]
+					"LDBT_DropTheCheapestThing", -- [7]
+					"LDBT_MiniPet", -- [8]
+					"XP", -- [9]
+					"Reputation", -- [10]
 				},
 				["FontName"] = "Friz Quadrata TT",
 				["DoubleBar"] = 1,
@@ -884,8 +1073,8 @@ TitanSettings = {
 					["ShowIcon"] = 1,
 					["ShowExhalted"] = 1,
 					["ShowStanding"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "Stormwind",
-					["AutoChange"] = false,
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Ironforge",
+					["AutoChange"] = 1,
 					["ShowValue"] = 1,
 					["ShowHated"] = 1,
 					["ShowHostile"] = 1,
@@ -1536,6 +1725,13 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ForceBar"] = "Bar",
 				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
 				["LDBT_Elitist Group"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
@@ -1590,6 +1786,13 @@ TitanSettings = {
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Mounts"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
 				["LDBT_TourGuide"] = {
@@ -1697,6 +1900,13 @@ TitanSettings = {
 					["ShowSimpleNumOfGains"] = false,
 					["ShowLabelText"] = 1,
 				},
+				["LDBT_ArkInventory_Ammunition"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
 				["LDBT_SavedInstances"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
@@ -1709,6 +1919,34 @@ TitanSettings = {
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Ampere"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_DropTheCheapestThing"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_ArkInventory_Money"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Tracking_Currency"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
 				["LDBT_BugSack"] = {
@@ -1731,12 +1969,12 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_DropTheCheapestThing"] = {
-					["ShowColoredText"] = 1,
+				["LDBT_ArkInventory_Pets"] = {
+					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = false,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
 				},
 				["LDBT_Altoholic"] = {
 					["ShowColoredText"] = false,
@@ -1745,11 +1983,11 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Ampere"] = {
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
+					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
 				["HealBot"] = {
@@ -1816,6 +2054,126 @@ TitanSettings = {
 		},
 		["Wajawamedo@PrimalWoW (Progressive)"] = {
 			["Plugins"] = {
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_Gatherer"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_EveryQuest"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_ArkInventory_Tracking_Currency"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Elitist Group"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_XToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["LDBT_TimeToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Reputation"] = {
+					["ShowHonored"] = 1,
+					["ShowRevered"] = 1,
+					["ShowIcon"] = 1,
+					["ShowExhalted"] = 1,
+					["ShowStanding"] = 1,
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
+					["AutoChange"] = 1,
+					["ShowValue"] = 1,
+					["ShowHated"] = 1,
+					["ShowHostile"] = 1,
+					["ShowPercent"] = 1,
+					["ShowUnfriendly"] = 1,
+					["ShowNeutral"] = 1,
+					["ShowFriendly"] = 1,
+					["ShowFactionName"] = 1,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Mounts"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_TourGuide"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Outfitter"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
 				["Repair"] = {
 					["ShowColoredText"] = false,
 					["IgnoreThrown"] = false,
@@ -1854,25 +2212,19 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
-					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_Gatherer"] = {
+				["LDBT_Raven"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_EveryQuest"] = {
+				["LDBT_Panda"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
+					["ShowLabelText"] = 1,
 				},
 				["LDBT_TourGuideLauncher"] = {
 					["ShowColoredText"] = false,
@@ -1888,10 +2240,6 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["AutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "Bar",
-				},
 				["Clock"] = {
 					["OffsetHour"] = 0,
 					["HideGameTimeMinimap"] = false,
@@ -1900,13 +2248,6 @@ TitanSettings = {
 					["Format"] = "12H",
 					["TimeMode"] = "Local",
 					["ShowLabelText"] = false,
-				},
-				["LDBT_Elitist Group"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
 				},
 				["XP"] = {
 					["ShowSimpleNumOfKills"] = false,
@@ -1917,61 +2258,12 @@ TitanSettings = {
 					["ShowSimpleNumOfGains"] = false,
 					["DisplayType"] = "ShowXPPerHourSession",
 				},
-				["LDBT_XToLevel"] = {
+				["LDBT_ArkInventory_Ammunition"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
-				},
-				["LDBT_Ampere"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["Coords"] = {
-					["ShowColoredText"] = 1,
-					["ShowZoneText"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowIcon"] = 1,
-					["ShowLocOnMiniMap"] = 1,
-					["ShowCoordsOnMap"] = 1,
-					["CoordsFormat2"] = false,
-					["CoordsFormat1"] = 1,
-					["CoordsFormat3"] = false,
-				},
-				["LDBT_TimeToLevel"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["Reputation"] = {
-					["ShowHonored"] = 1,
-					["ShowRevered"] = 1,
-					["ShowIcon"] = 1,
-					["ShowExhalted"] = 1,
-					["ShowStanding"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
-					["AutoChange"] = 1,
-					["ShowValue"] = 1,
-					["ShowHated"] = 1,
-					["ShowHostile"] = 1,
-					["ShowPercent"] = 1,
-					["ShowUnfriendly"] = 1,
-					["ShowNeutral"] = 1,
-					["ShowFriendly"] = 1,
-					["ShowFactionName"] = 1,
-				},
-				["LDBT_DropTheCheapestThing"] = {
-					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = false,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
 				},
 				["LDBT_SavedInstances"] = {
 					["ShowColoredText"] = false,
@@ -1980,21 +2272,28 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Atlas"] = {
-					["ShowColoredText"] = false,
+				["LDBT_DropTheCheapestThing"] = {
+					["ShowColoredText"] = 1,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
+					["ShowRegularText"] = false,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = false,
 				},
-				["LDBT_Panda"] = {
+				["LDBT_Ampere"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_AtlasLoot"] = {
+				["LDBT_ArkInventory_Money"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Grid"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -2008,12 +2307,8 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["AuxAutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
-				},
-				["LDBT_TourGuide"] = {
-					["ShowColoredText"] = 1,
+				["LDBT_ArkInventory_Pets"] = {
+					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
@@ -2026,18 +2321,17 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Outfitter"] = {
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Raven"] = {
-					["ShowColoredText"] = false,
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
 			},
@@ -2512,7 +2806,7 @@ TitanSettings = {
 					["ShowIcon"] = 1,
 					["ShowExhalted"] = 1,
 					["ShowStanding"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "Booty Bay",
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
 					["AutoChange"] = 1,
 					["ShowValue"] = 1,
 					["ShowHated"] = 1,
@@ -3062,6 +3356,126 @@ TitanSettings = {
 		},
 		["Contagion@PrimalWoW (Progressive)"] = {
 			["Plugins"] = {
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["CoordsFormat3"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat2"] = false,
+					["ShowCoordsOnMap"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+				},
+				["LDBT_SilverDragon"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_EveryQuest"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_ArkInventory_Tracking_Currency"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Elitist Group"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_XToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["LDBT_TimeToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Reputation"] = {
+					["ShowHonored"] = 1,
+					["ShowRevered"] = 1,
+					["ShowHostile"] = 1,
+					["ShowExhalted"] = 1,
+					["ShowStanding"] = 1,
+					["ShowFactionName"] = 1,
+					["AutoChange"] = 1,
+					["ShowValue"] = 1,
+					["ShowHated"] = 1,
+					["ShowIcon"] = 1,
+					["ShowPercent"] = 1,
+					["ShowUnfriendly"] = 1,
+					["ShowNeutral"] = 1,
+					["ShowFriendly"] = 1,
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Mounts"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_TourGuide"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Outfitter"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
 				["Repair"] = {
 					["ShowColoredText"] = false,
 					["IgnoreThrown"] = false,
@@ -3100,25 +3514,19 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
-					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_Gatherer"] = {
+				["LDBT_Raven"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_EveryQuest"] = {
+				["LDBT_Panda"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
+					["ShowLabelText"] = 1,
 				},
 				["LDBT_TourGuideLauncher"] = {
 					["ShowColoredText"] = false,
@@ -3134,10 +3542,6 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["AutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "Bar",
-				},
 				["Clock"] = {
 					["OffsetHour"] = 0,
 					["HideGameTimeMinimap"] = false,
@@ -3147,15 +3551,8 @@ TitanSettings = {
 					["TimeMode"] = "Local",
 					["ShowLabelText"] = false,
 				},
-				["LDBT_Elitist Group"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
 				["XP"] = {
-					["ShowSimpleNumOfKills"] = false,
+					["ShowSimpleNumOfKills"] = 1,
 					["ShowIcon"] = 1,
 					["ShowSimpleRested"] = false,
 					["ShowSimpleToLevel"] = false,
@@ -3163,99 +3560,11 @@ TitanSettings = {
 					["ShowSimpleNumOfGains"] = false,
 					["DisplayType"] = "ShowXPPerHourSession",
 				},
-				["LDBT_XToLevel"] = {
+				["LDBT_ArkInventory_Ammunition"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_Raven"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_Ampere"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["Coords"] = {
-					["ShowColoredText"] = 1,
-					["ShowZoneText"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowIcon"] = 1,
-					["CoordsFormat3"] = false,
-					["CoordsFormat1"] = 1,
-					["CoordsFormat2"] = false,
-					["ShowCoordsOnMap"] = 1,
-					["ShowLocOnMiniMap"] = 1,
-				},
-				["LDBT_TimeToLevel"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["Reputation"] = {
-					["ShowHonored"] = 1,
-					["ShowRevered"] = 1,
-					["ShowHostile"] = 1,
-					["ShowExhalted"] = 1,
-					["ShowStanding"] = 1,
-					["ShowFactionName"] = 1,
-					["AutoChange"] = 1,
-					["ShowValue"] = 1,
-					["ShowHated"] = 1,
-					["ShowIcon"] = 1,
-					["ShowPercent"] = 1,
-					["ShowUnfriendly"] = 1,
-					["ShowNeutral"] = 1,
-					["ShowFriendly"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "Darkspear Trolls",
-				},
-				["LDBT_Panda"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_DropTheCheapestThing"] = {
-					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
-				},
-				["LDBT_Atlas"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = false,
-				},
-				["AuxAutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
-				},
-				["LDBT_AtlasLoot"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_SilverDragon"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
 				["LDBT_SavedInstances"] = {
@@ -3265,8 +3574,42 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_TourGuide"] = {
+				["LDBT_DropTheCheapestThing"] = {
 					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Ampere"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Gatherer"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Money"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Pets"] = {
+					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
@@ -3279,7 +3622,7 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Outfitter"] = {
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -3313,13 +3656,15 @@ TitanSettings = {
 				["BagAdjust"] = 1,
 				["Buttons"] = {
 					"AuxAutoHide", -- [1]
-					"GoldTracker", -- [2]
-					"Clock", -- [3]
-					"LDBT_EveryQuest", -- [4]
-					"LDBT_Atlas", -- [5]
-					"LDBT_DropTheCheapestThing", -- [6]
-					"LDBT_MiniPet", -- [7]
-					"XP", -- [8]
+					"LDBT_TourGuide", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"LDBT_EveryQuest", -- [5]
+					"LDBT_Atlas", -- [6]
+					"LDBT_DropTheCheapestThing", -- [7]
+					"LDBT_MiniPet", -- [8]
+					"XP", -- [9]
+					"Reputation", -- [10]
 				},
 				["FrameStrata"] = "DIALOG",
 				["DoubleBar"] = 1,
@@ -3338,6 +3683,8 @@ TitanSettings = {
 					"Bar", -- [6]
 					"Bar", -- [7]
 					"Bar", -- [8]
+					"Bar", -- [9]
+					"Bar", -- [10]
 				},
 				["TooltipFont"] = 1,
 				["MinimapAdjust"] = false,
@@ -4267,6 +4614,121 @@ TitanSettings = {
 		},
 		["Pastafarian@TrueWoW"] = {
 			["Plugins"] = {
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_SilverDragon"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_EveryQuest"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Tracking_Currency"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["LDBT_ArkInventory_Tracking_Item"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Elitist Group"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Money"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["LDBT_TimeToLevel"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Reputation"] = {
+					["ShowHonored"] = 1,
+					["ShowRevered"] = 1,
+					["ShowIcon"] = 1,
+					["ShowExhalted"] = 1,
+					["ShowStanding"] = 1,
+					["TITAN_REPUTATION_WATCHED_FACTION"] = "Tranquillien",
+					["AutoChange"] = 1,
+					["ShowValue"] = 1,
+					["ShowHated"] = 1,
+					["ShowHostile"] = 1,
+					["ShowPercent"] = 1,
+					["ShowUnfriendly"] = 1,
+					["ShowNeutral"] = 1,
+					["ShowFriendly"] = 1,
+					["ShowFactionName"] = 1,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_ArkInventory_Mounts"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_TourGuide"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Outfitter"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
 				["Repair"] = {
 					["ShowColoredText"] = false,
 					["IgnoreThrown"] = false,
@@ -4305,18 +4767,7 @@ TitanSettings = {
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Coords"] = {
-					["ShowColoredText"] = 1,
-					["ShowZoneText"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowIcon"] = 1,
-					["CoordsFormat3"] = false,
-					["CoordsFormat1"] = 1,
-					["CoordsFormat2"] = false,
-					["ShowCoordsOnMap"] = 1,
-					["ShowLocOnMiniMap"] = 1,
-				},
-				["LDBT_Gatherer"] = {
+				["LDBT_Raven"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -4344,10 +4795,6 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["AutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "Bar",
-				},
 				["Clock"] = {
 					["OffsetHour"] = 0,
 					["HideGameTimeMinimap"] = false,
@@ -4356,13 +4803,6 @@ TitanSettings = {
 					["Format"] = "12H",
 					["TimeMode"] = "Server",
 					["ShowLabelText"] = false,
-				},
-				["LDBT_Elitist Group"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
 				},
 				["XP"] = {
 					["ShowSimpleNumOfKills"] = false,
@@ -4373,7 +4813,21 @@ TitanSettings = {
 					["ShowSimpleNumOfGains"] = false,
 					["DisplayType"] = "ShowXPPerHourSession",
 				},
-				["LDBT_XToLevel"] = {
+				["LDBT_ArkInventory_Ammunition"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Ampere"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_DropTheCheapestThing"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -4387,76 +4841,25 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_TimeToLevel"] = {
+				["LDBT_Gatherer"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
+					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["Reputation"] = {
-					["ShowHonored"] = 1,
-					["ShowRevered"] = 1,
-					["ShowIcon"] = 1,
-					["ShowExhalted"] = 1,
-					["ShowStanding"] = 1,
-					["TITAN_REPUTATION_WATCHED_FACTION"] = "Tranquillien",
-					["AutoChange"] = 1,
-					["ShowValue"] = 1,
-					["ShowHated"] = 1,
-					["ShowHostile"] = 1,
-					["ShowPercent"] = 1,
-					["ShowUnfriendly"] = 1,
-					["ShowNeutral"] = 1,
-					["ShowFriendly"] = 1,
-					["ShowFactionName"] = 1,
-				},
-				["LDBT_SilverDragon"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
-					["ShowLabelText"] = 1,
-				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
+				["Coords"] = {
 					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
+					["ShowZoneText"] = 1,
 					["ShowLabelText"] = 1,
-				},
-				["LDBT_Atlas"] = {
-					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
+					["CoordsFormat3"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat2"] = false,
+					["ShowCoordsOnMap"] = 1,
+					["ShowLocOnMiniMap"] = 1,
 				},
-				["LDBT_Ampere"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_AtlasLoot"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["LDBT_EveryQuest"] = {
-					["ShowColoredText"] = false,
-					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["AuxAutoHide"] = {
-					["DisplayOnRightSide"] = 1,
-					["ForceBar"] = "AuxBar",
-				},
-				["LDBT_TourGuide"] = {
+				["LDBT_ArkInventory_Pets"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
@@ -4470,14 +4873,14 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_Outfitter"] = {
+				["LDBT_ArkInventory_Bags"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["LDBT_DropTheCheapestThing"] = {
+				["LDBT_XToLevel"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,

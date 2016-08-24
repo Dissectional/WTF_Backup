@@ -2,57 +2,108 @@
 Grid2OptionsDB = {
 	["objects"] = {
 		["statuses"] = {
-			["holy2"] = {
-			},
-			["priest"] = {
-				["buff-DivineAegis"] = {
-					["type"] = "buff",
-					["spellName"] = 47509,
+			["warrior"] = {
+				["buff-Vigilance"] = {
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
+						["b"] = 1,
+						["g"] = 0.1,
+						["r"] = 0.1,
+					},
+					["type"] = "buff",
+					["mine"] = true,
+					["spellName"] = 50720,
+				},
+			},
+			["shaman"] = {
+				["buff-EarthShield"] = {
+					["type"] = "buff",
+					["spellName"] = 974,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.8,
+						["g"] = 0.8,
+						["b"] = 0.2,
+					},
+				},
+				["buff-Riptide-mine"] = {
+					["spellName"] = 61295,
+					["type"] = "buff",
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.8,
+						["g"] = 0.6,
 						["b"] = 1,
 					},
 				},
-				["buff-PowerWordFortitude"] = {
+				["buff-EarthShield-mine"] = {
+					["spellName"] = 974,
+					["type"] = "buff",
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.9,
+						["g"] = 0.9,
+						["b"] = 0.4,
+					},
+				},
+				["buff-Earthliving"] = {
+					["type"] = "buff",
+					["spellName"] = 51945,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.8,
+						["g"] = 1,
+						["b"] = 0.5,
+					},
+				},
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["buff-AbolishPoison-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 2893,
+					["blinkThreshold"] = 3,
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.9,
+						["g"] = 1,
+						["b"] = 0.6,
+					},
+				},
+				["buff-Thorns"] = {
 					["missing"] = true,
 					["type"] = "buff",
-					["spellName"] = 1245,
+					["spellName"] = 467,
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 0,
-						["b"] = 0,
+						["r"] = 0.2,
+						["g"] = 0.05,
+						["b"] = 0.05,
 					},
 				},
-				["debuff-WeakenedSoul"] = {
-					["type"] = "debuff",
-					["spellName"] = 6788,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0,
-						["g"] = 0.2,
-						["b"] = 0.9,
-					},
-				},
-				["buff-InnerFire"] = {
-					["spellName"] = "InnerFire",
+				["buff-Rejuv-mine"] = {
+					["spellName"] = 774,
 					["type"] = "buff",
 					["mine"] = true,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
+						["g"] = 0,
+						["b"] = 0.6,
 					},
 				},
-				["buff-Grace-mine"] = {
+				["buff-Lifebloom-mine"] = {
 					["color2"] = {
 						["a"] = 1,
-						["r"] = 0.8,
-						["g"] = 0.8,
-						["b"] = 0.8,
+						["r"] = 0.6,
+						["g"] = 0.9,
+						["b"] = 0.6,
 					},
 					["type"] = "buff",
 					["color3"] = {
@@ -61,29 +112,146 @@ Grid2OptionsDB = {
 						["g"] = 1,
 						["b"] = 1,
 					},
-					["spellName"] = 47516,
+					["spellName"] = 33763,
 					["colorCount"] = 3,
 					["mine"] = true,
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 0.6,
-						["g"] = 0.6,
-						["b"] = 0.6,
+						["r"] = 0.2,
+						["g"] = 0.7,
+						["b"] = 0.2,
 					},
 				},
-				["buff-PowerWordShield"] = {
+				["buff-WildGrowth-mine"] = {
+					["spellName"] = 53248,
 					["type"] = "buff",
-					["spellName"] = 17,
+					["mine"] = true,
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 0,
+						["r"] = 0.2,
+						["g"] = 0.9,
+						["b"] = 0.2,
+					},
+				},
+				["buff-Regrowth-mine"] = {
+					["spellName"] = 8936,
+					["type"] = "buff",
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.5,
 						["g"] = 1,
+						["b"] = 0,
+					},
+				},
+			},
+			["warlock"] = {
+				["buff-DemonSkin-mine"] = {
+					["type"] = "buff",
+					["missing"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["mine"] = true,
+					["spellName"] = 696,
+				},
+				["buff-ShadowWard-mine"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = true,
+					["spellName"] = 6229,
+				},
+				["buff-FelArmor-mine"] = {
+					["type"] = "buff",
+					["missing"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["mine"] = true,
+					["spellName"] = 28189,
+				},
+				["buff-DemonArmor-mine"] = {
+					["type"] = "buff",
+					["missing"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["mine"] = true,
+					["spellName"] = 706,
+				},
+				["buff-SoulLink-mine"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = true,
+					["spellName"] = 19028,
+				},
+			},
+			["mage"] = {
+				["buff-FocusMagic"] = {
+					["type"] = "buff",
+					["spellName"] = 54646,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.11,
+						["g"] = 0.22,
+						["b"] = 0.33,
+					},
+				},
+				["buff-IceArmor-mine"] = {
+					["type"] = "buff",
+					["missing"] = true,
+					["spellName"] = 7302,
+					["mine"] = true,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.2,
+						["g"] = 0.4,
+						["b"] = 0.4,
+					},
+				},
+				["buff-DampenMagic"] = {
+					["type"] = "buff",
+					["spellName"] = 33944,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.4,
+						["g"] = 0.2,
 						["b"] = 1,
 					},
 				},
-				["buff-Renew-mine"] = {
-					["spellName"] = 139,
+				["buff-AmplifyMagic"] = {
 					["type"] = "buff",
+					["spellName"] = 33946,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 1,
+					},
+				},
+				["buff-IceBarrier-mine"] = {
+					["type"] = "buff",
+					["missing"] = true,
+					["spellName"] = 11426,
 					["mine"] = true,
 					["color1"] = {
 						["a"] = 1,
@@ -92,41 +260,123 @@ Grid2OptionsDB = {
 						["b"] = 1,
 					},
 				},
+			},
+			["holy2"] = {
+			},
+			["hunter"] = {
+			},
+			["priest"] = {
 				["buff-PrayerOfMending-mine"] = {
 					["type"] = "buff",
 					["mine"] = true,
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 0.2,
 						["b"] = 0.2,
+						["g"] = 0.2,
+						["r"] = 1,
 					},
 					["color2"] = {
 						["a"] = 0.4,
-						["r"] = 1,
-						["g"] = 1,
 						["b"] = 0.4,
+						["g"] = 1,
+						["r"] = 1,
 					},
 					["color3"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 0.6,
 						["b"] = 0.6,
+						["g"] = 0.6,
+						["r"] = 1,
 					},
-					["spellName"] = 33076,
+					["colorCount"] = 5,
 					["color4"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 0.8,
 						["b"] = 0.8,
+						["g"] = 0.8,
+						["r"] = 1,
 					},
 					["color5"] = {
 						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
 						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
 					},
-					["colorCount"] = 5,
+					["spellName"] = 33076,
+				},
+				["debuff-WeakenedSoul"] = {
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.9,
+						["g"] = 0.2,
+						["r"] = 0,
+					},
+					["spellName"] = 6788,
+				},
+				["buff-InnerFire"] = {
+					["missing"] = true,
+					["type"] = "buff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["spellName"] = 588,
+				},
+				["buff-Grace-mine"] = {
+					["color2"] = {
+						["a"] = 1,
+						["b"] = 0.8,
+						["g"] = 0.8,
+						["r"] = 0.8,
+					},
+					["type"] = "buff",
+					["color3"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.6,
+						["g"] = 0.6,
+						["r"] = 0.6,
+					},
+					["colorCount"] = 3,
+					["mine"] = true,
+					["spellName"] = 47516,
+				},
+				["buff-PowerWordShield"] = {
+					["type"] = "buff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 0,
+					},
+					["spellName"] = 17,
+				},
+				["buff-Renew-mine"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["type"] = "buff",
+					["mine"] = true,
+					["spellName"] = 139,
+				},
+				["buff-DivineAegis"] = {
+					["type"] = "buff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["spellName"] = 47509,
 				},
 			},
 			["account"] = {
@@ -480,9 +730,9 @@ Grid2OptionsDB = {
 						["b"] = 0.1,
 					},
 				},
-				["debuff-DreamState"] = {
+				["debuff-PlagueSickness"] = {
 					["type"] = "debuff",
-					["spellName"] = 70766,
+					["spellName"] = 73117,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 0.5,
@@ -509,6 +759,16 @@ Grid2OptionsDB = {
 						["b"] = 1,
 					},
 				},
+				["debuff-Poison"] = {
+					["type"] = "debuffType",
+					["subType"] = "Poison",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0,
+						["g"] = 0.6,
+						["b"] = 0,
+					},
+				},
 				["raid-debuffs"] = {
 					["type"] = "raid-debuffs",
 					["color1"] = {
@@ -523,16 +783,6 @@ Grid2OptionsDB = {
 					["type"] = "range",
 					["default"] = 0.25,
 					["range"] = 40,
-				},
-				["debuff-BoilingBlood"] = {
-					["type"] = "debuff",
-					["spellName"] = 72442,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.5,
-						["g"] = 0,
-						["b"] = 1,
-					},
 				},
 				["debuff-MysticBuffet"] = {
 					["type"] = "debuff",
@@ -554,9 +804,9 @@ Grid2OptionsDB = {
 						["b"] = 0,
 					},
 				},
-				["debuff-PlagueSickness"] = {
+				["debuff-BoilingBlood"] = {
 					["type"] = "debuff",
-					["spellName"] = 73117,
+					["spellName"] = 72442,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 0.5,
@@ -564,14 +814,14 @@ Grid2OptionsDB = {
 						["b"] = 1,
 					},
 				},
-				["debuff-Poison"] = {
-					["type"] = "debuffType",
-					["subType"] = "Poison",
+				["debuff-DreamState"] = {
+					["type"] = "debuff",
+					["spellName"] = 70766,
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 0,
-						["g"] = 0.6,
-						["b"] = 0,
+						["r"] = 0.5,
+						["g"] = 0,
+						["b"] = 1,
 					},
 				},
 				["debuff-Curse"] = {
@@ -606,7 +856,7 @@ Grid2OptionsDB = {
 					},
 				},
 				["lowmana"] = {
-					["threshold"] = 0.33,
+					["threshold"] = 0.3,
 					["type"] = "lowmana",
 					["color1"] = {
 						["a"] = 1,
@@ -618,15 +868,64 @@ Grid2OptionsDB = {
 			},
 		},
 		["indicators"] = {
-			["holy2"] = {
+			["warrior"] = {
+				["corner-bottom-right"] = {
+					["location"] = "corner-bottom-right",
+					["type"] = "square",
+					["level"] = 5,
+					["size"] = 5,
+				},
 			},
-			["priest"] = {
+			["shaman"] = {
 				["corner-top-left"] = {
-					["type"] = "icon",
 					["location"] = "corner-top-left",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["corner-top-right"] = {
+					["location"] = "corner-top-right",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["center-right"] = {
+					["type"] = "icon",
+					["location"] = "center-right",
 					["level"] = 9,
 					["fontSize"] = 8,
-					["size"] = 15,
+					["size"] = 16,
+				},
+				["center-left"] = {
+					["type"] = "icon",
+					["location"] = "center-left",
+					["level"] = 9,
+					["fontSize"] = 8,
+					["size"] = 16,
+				},
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["corner-top-left"] = {
+					["type"] = "text",
+					["fontSize"] = 8,
+					["level"] = 9,
+					["location"] = "corner-top-left",
+					["duration"] = true,
+					["textlength"] = 12,
+					["font"] = "Friz Quadrata TT",
+				},
+				["side-top"] = {
+					["type"] = "text",
+					["fontSize"] = 8,
+					["level"] = 9,
+					["location"] = "side-top",
+					["duration"] = true,
+					["textlength"] = 12,
+					["font"] = "Friz Quadrata TT",
 				},
 				["center-right"] = {
 					["type"] = "icon",
@@ -636,11 +935,82 @@ Grid2OptionsDB = {
 					["size"] = 16,
 				},
 				["corner-top-right"] = {
-					["type"] = "icon",
+					["type"] = "text",
+					["fontSize"] = 8,
+					["level"] = 9,
 					["location"] = "corner-top-right",
+					["duration"] = true,
+					["textlength"] = 12,
+					["font"] = "Friz Quadrata TT",
+				},
+				["corner-top-right-color"] = {
+					["type"] = "text-color",
+				},
+				["corner-top-left-color"] = {
+					["type"] = "text-color",
+				},
+				["center-left"] = {
+					["type"] = "icon",
+					["location"] = "center-left",
 					["level"] = 9,
 					["fontSize"] = 8,
-					["size"] = 15,
+					["size"] = 16,
+				},
+				["side-top-color"] = {
+					["type"] = "text-color",
+				},
+				["side-right-bottom"] = {
+					["location"] = "side-right-bottom",
+					["type"] = "square",
+					["level"] = 5,
+					["size"] = 5,
+				},
+			},
+			["warlock"] = {
+			},
+			["mage"] = {
+				["corner-top-left"] = {
+					["location"] = "corner-top-left",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["corner-bottom-right"] = {
+					["location"] = "corner-bottom-right",
+					["type"] = "square",
+					["level"] = 5,
+					["size"] = 5,
+				},
+				["corner-top-right"] = {
+					["location"] = "corner-top-right",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+			},
+			["holy2"] = {
+			},
+			["hunter"] = {
+			},
+			["priest"] = {
+				["corner-top-left"] = {
+					["location"] = "corner-top-left",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
+				},
+				["center-right"] = {
+					["type"] = "icon",
+					["location"] = "center-right",
+					["level"] = 9,
+					["fontSize"] = 8,
+					["size"] = 16,
+				},
+				["corner-top-right"] = {
+					["location"] = "corner-top-right",
+					["type"] = "square",
+					["level"] = 9,
+					["size"] = 5,
 				},
 				["side-right"] = {
 					["type"] = "icon",
@@ -723,7 +1093,7 @@ Grid2OptionsDB = {
 				},
 				["text-name"] = {
 					["type"] = "text",
-					["fontSize"] = 10,
+					["fontSize"] = 8,
 					["location"] = "name",
 					["level"] = 6,
 					["textlength"] = 12,
@@ -776,7 +1146,44 @@ Grid2OptionsDB = {
 			},
 		},
 		["locations"] = {
+			["warrior"] = {
+			},
+			["shaman"] = {
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["side-left-bottom"] = {
+					["y"] = 2,
+					["relPoint"] = "LEFT",
+					["point"] = "TOP",
+					["x"] = 1,
+					["name"] = "side-left-bottom",
+				},
+				["side-left-top"] = {
+					["y"] = -2,
+					["relPoint"] = "LEFT",
+					["point"] = "BOTTOM",
+					["x"] = 1,
+					["name"] = "side-left-top",
+				},
+				["side-right-bottom"] = {
+					["y"] = -2,
+					["relPoint"] = "RIGHT",
+					["point"] = "TOPRIGHT",
+					["x"] = -1,
+					["name"] = "side-right-bottom",
+				},
+			},
+			["warlock"] = {
+			},
+			["mage"] = {
+			},
 			["holy2"] = {
+			},
+			["hunter"] = {
 			},
 			["priest"] = {
 			},
@@ -854,7 +1261,7 @@ Grid2OptionsDB = {
 					["name"] = "center-top",
 				},
 				["name"] = {
-					["y"] = -8,
+					["y"] = -15,
 					["relPoint"] = "TOP",
 					["point"] = "TOP",
 					["x"] = 0,
@@ -900,7 +1307,93 @@ Grid2OptionsDB = {
 			},
 		},
 		["statusMap"] = {
+			["warrior"] = {
+				["side-bottom"] = {
+					["buff-Vigilance"] = 99,
+				},
+			},
+			["shaman"] = {
+				["corner-top-left"] = {
+					["buff-Riptide-mine"] = 99,
+					["buff-Earthliving"] = 89,
+				},
+				["corner-top-right"] = {
+					["buff-EarthShield-mine"] = 99,
+					["buff-EarthShield"] = 89,
+				},
+				["center-right"] = {
+					["debuff-Disease"] = 10,
+				},
+				["center-left"] = {
+					["debuff-Poison"] = 50,
+					["debuff-Curse"] = 40,
+				},
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["corner-top-left"] = {
+					["buff-Lifebloom-mine"] = 99,
+				},
+				["side-top"] = {
+					["buff-Regrowth-mine"] = 99,
+				},
+				["center-right"] = {
+					["debuff-Curse"] = 80,
+				},
+				["corner-top-right"] = {
+					["buff-Rejuv-mine"] = 99,
+				},
+				["corner-top-right-color"] = {
+					["buff-Rejuv-mine"] = 99,
+				},
+				["corner-top-left-color"] = {
+					["buff-Lifebloom-mine"] = 99,
+				},
+				["center-left"] = {
+					["debuff-Poison"] = 90,
+				},
+				["side-right-bottom"] = {
+					["buff-AbolishPoison-mine"] = 99,
+				},
+				["side-top-color"] = {
+					["buff-Regrowth-mine"] = 99,
+				},
+				["side-bottom"] = {
+					["buff-WildGrowth-mine"] = 99,
+					["buff-Thorns"] = 59,
+				},
+			},
+			["warlock"] = {
+				["side-bottom"] = {
+					["buff-FelArmor-mine"] = 99,
+					["buff-ShadowWard-mine"] = 99,
+					["buff-SoulLink-mine"] = 99,
+				},
+			},
+			["mage"] = {
+				["corner-top-left"] = {
+					["buff-DampenMagic"] = 99,
+				},
+				["corner-bottom-right"] = {
+					["buff-FocusMagic"] = 99,
+				},
+				["corner-top-right"] = {
+					["buff-AmplifyMagic"] = 99,
+				},
+				["icon-center"] = {
+					["debuff-Curse"] = 20,
+				},
+				["side-bottom"] = {
+					["buff-IceArmor-mine"] = 79,
+					["buff-IceBarrier-mine"] = 89,
+				},
+			},
 			["holy2"] = {
+			},
+			["hunter"] = {
 			},
 			["priest"] = {
 				["corner-top-left"] = {
@@ -916,13 +1409,12 @@ Grid2OptionsDB = {
 				["side-right"] = {
 					["buff-PrayerOfMending-mine"] = 99,
 				},
+				["side-bottom"] = {
+					["buff-InnerFire"] = 79,
+					["buff-DivineAegis"] = 79,
+				},
 				["center-left"] = {
 					["debuff-Disease"] = 10,
-				},
-				["side-bottom"] = {
-					["buff-DivineAegis"] = 99,
-					["buff-PowerWordFortitude"] = 80,
-					["buff-InnerFire"] = 79,
 				},
 			},
 			["account"] = {
@@ -941,7 +1433,6 @@ Grid2OptionsDB = {
 					["offline"] = 93,
 					["vehicle"] = 70,
 					["role"] = 45,
-					["pvp"] = 35,
 				},
 				["heals-color"] = {
 					["heals-incoming"] = 99,
@@ -960,16 +1451,18 @@ Grid2OptionsDB = {
 					["ready-check"] = 150,
 					["death"] = 155,
 				},
-				["health"] = {
-					["health-current"] = 99,
-				},
 				["health-color"] = {
 					["classcolor"] = 99,
 					["health-current"] = 85,
 				},
+				["health"] = {
+					["health-current"] = 99,
+				},
 				["text-name"] = {
 					["name"] = 99,
-					["heals-incoming"] = 100,
+				},
+				["corner-bottom-left"] = {
+					["threat"] = 99,
 				},
 				["text-down-color"] = {
 					["charmed"] = 65,
@@ -981,10 +1474,10 @@ Grid2OptionsDB = {
 					["pvp"] = 35,
 				},
 				["border"] = {
-					["target"] = 79,
-					["health-low"] = 99,
-					["threat"] = 100,
-					["lowmana"] = 89,
+					["target"] = 99,
+					["health-low"] = 69,
+					["voice"] = 89,
+					["lowmana"] = 79,
 				},
 				["center-left"] = {
 					["debuff-MysticBuffet"] = 110,
@@ -1000,17 +1493,53 @@ Grid2OptionsDB = {
 	},
 	["setup-layers"] = {
 		["statuses"] = {
+			["warrior"] = {
+				["buff-Vigilance"] = true,
+			},
+			["shaman"] = {
+				["buff-EarthShield"] = true,
+				["buff-Riptide-mine"] = true,
+				["buff-EarthShield-mine"] = true,
+				["buff-Earthliving"] = true,
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["buff-AbolishPoison-mine"] = true,
+				["buff-Thorns"] = true,
+				["buff-Rejuv-mine"] = true,
+				["buff-Lifebloom-mine"] = true,
+				["buff-WildGrowth-mine"] = true,
+				["buff-Regrowth-mine"] = true,
+			},
+			["warlock"] = {
+				["buff-DemonSkin-mine"] = true,
+				["buff-ShadowWard-mine"] = true,
+				["buff-FelArmor-mine"] = true,
+				["buff-DemonArmor-mine"] = true,
+				["buff-SoulLink-mine"] = true,
+			},
+			["mage"] = {
+				["buff-FocusMagic"] = true,
+				["buff-IceArmor-mine"] = true,
+				["buff-DampenMagic"] = true,
+				["buff-AmplifyMagic"] = true,
+				["buff-IceBarrier-mine"] = true,
+			},
 			["holy2"] = {
 			},
+			["hunter"] = {
+			},
 			["priest"] = {
-				["buff-DivineAegis"] = true,
-				["buff-PowerWordFortitude"] = true,
+				["buff-PrayerOfMending-mine"] = true,
 				["debuff-WeakenedSoul"] = true,
 				["buff-InnerFire"] = true,
 				["buff-Grace-mine"] = true,
 				["buff-PowerWordShield"] = true,
 				["buff-Renew-mine"] = true,
-				["buff-PrayerOfMending-mine"] = true,
+				["buff-DivineAegis"] = true,
 			},
 			["account"] = {
 				["health-deficit"] = true,
@@ -1037,16 +1566,16 @@ Grid2OptionsDB = {
 				["health-current"] = true,
 				["debuff-NecroticPlague"] = true,
 				["charmed"] = true,
-				["debuff-DreamState"] = true,
+				["debuff-PlagueSickness"] = true,
 				["debuff-UnboundPlague"] = true,
 				["offline"] = true,
+				["debuff-Poison"] = true,
 				["raid-debuffs"] = true,
 				["range"] = true,
-				["debuff-BoilingBlood"] = true,
 				["debuff-MysticBuffet"] = true,
 				["health-low"] = true,
-				["debuff-PlagueSickness"] = true,
-				["debuff-Poison"] = true,
+				["debuff-BoilingBlood"] = true,
+				["debuff-DreamState"] = true,
 				["debuff-Curse"] = true,
 				["buff-Food"] = true,
 				["debuff-Inoculated"] = true,
@@ -1054,7 +1583,40 @@ Grid2OptionsDB = {
 			},
 		},
 		["indicators"] = {
+			["warrior"] = {
+				["corner-bottom-right"] = true,
+			},
+			["shaman"] = {
+				["corner-top-left"] = true,
+				["corner-top-right"] = true,
+				["center-right"] = true,
+				["center-left"] = true,
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["corner-top-left"] = true,
+				["side-top"] = true,
+				["center-right"] = true,
+				["corner-top-right"] = true,
+				["corner-top-right-color"] = true,
+				["corner-top-left-color"] = true,
+				["center-left"] = true,
+				["side-top-color"] = true,
+				["side-right-bottom"] = true,
+			},
+			["warlock"] = {
+			},
+			["mage"] = {
+				["corner-top-left"] = true,
+				["corner-bottom-right"] = true,
+				["corner-top-right"] = true,
+			},
 			["holy2"] = {
+			},
+			["hunter"] = {
 			},
 			["priest"] = {
 				["corner-top-left"] = true,
@@ -1082,7 +1644,26 @@ Grid2OptionsDB = {
 			},
 		},
 		["locations"] = {
+			["warrior"] = {
+			},
+			["shaman"] = {
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["side-left-bottom"] = true,
+				["side-left-top"] = true,
+				["side-right-bottom"] = true,
+			},
+			["warlock"] = {
+			},
+			["mage"] = {
+			},
 			["holy2"] = {
+			},
+			["hunter"] = {
 			},
 			["priest"] = {
 			},
@@ -1106,15 +1687,52 @@ Grid2OptionsDB = {
 			},
 		},
 		["statusMap"] = {
+			["warrior"] = {
+				["side-bottom"] = true,
+			},
+			["shaman"] = {
+				["corner-top-left"] = true,
+				["corner-top-right"] = true,
+				["center-right"] = true,
+				["center-left"] = true,
+			},
+			["resto"] = {
+			},
+			["tree"] = {
+			},
+			["druid"] = {
+				["corner-top-left"] = true,
+				["side-top"] = true,
+				["center-right"] = true,
+				["corner-top-right"] = true,
+				["corner-top-right-color"] = true,
+				["corner-top-left-color"] = true,
+				["center-left"] = true,
+				["side-right-bottom"] = true,
+				["side-top-color"] = true,
+				["side-bottom"] = true,
+			},
+			["warlock"] = {
+				["side-bottom"] = true,
+			},
+			["mage"] = {
+				["corner-top-left"] = true,
+				["corner-bottom-right"] = true,
+				["corner-top-right"] = true,
+				["icon-center"] = true,
+				["side-bottom"] = true,
+			},
 			["holy2"] = {
+			},
+			["hunter"] = {
 			},
 			["priest"] = {
 				["corner-top-left"] = true,
 				["center-right"] = true,
 				["corner-top-right"] = true,
 				["side-right"] = true,
-				["center-left"] = true,
 				["side-bottom"] = true,
+				["center-left"] = true,
 			},
 			["account"] = {
 				["heals"] = true,
@@ -1127,27 +1745,66 @@ Grid2OptionsDB = {
 				["health-color"] = true,
 				["health"] = true,
 				["text-name"] = true,
-				["border"] = true,
+				["corner-bottom-left"] = true,
 				["text-down-color"] = true,
+				["border"] = true,
 				["center-left"] = true,
-				["side-bottom"] = true,
 			},
 		},
 	},
 	["versions"] = {
+		["warrior"] = {
+			["Grid2Options"] = 1,
+		},
+		["shaman"] = {
+			["Grid2Options"] = 1,
+		},
+		["mage"] = {
+			["Grid2Options"] = 1,
+		},
+		["druid"] = {
+			["Grid2Options"] = 1,
+		},
+		["warlock"] = {
+			["Grid2Options"] = 1,
+		},
+		["globals"] = {
+		},
 		["priest"] = {
 			["Grid2Options"] = 1,
 		},
-		["Grid2Options"] = 1,
-		["Grid2StatusRaidDebuffsOptions"] = 1,
-		["globals"] = {
+		["hunter"] = {
+			["Grid2Options"] = 1,
 		},
+		["Grid2StatusRaidDebuffsOptions"] = 1,
+		["Grid2Options"] = 1,
 	},
 	["profile-available"] = {
+		["Pastafarian - TrueWoW"] = {
+		},
+		["Contagion - PrimalWoW (Progressive)"] = {
+		},
+		["Wajawamedo - PrimalWoW (Progressive)"] = {
+		},
+		["Wafflestomp - PrimalWoW (Progressive)"] = {
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+		},
 		["Mittens - PrimalWoW (Progressive)"] = {
+		},
+		["Iamsham - PrimalWoW (Progressive)"] = {
 		},
 	},
 	["profile-current"] = {
+		["Pastafarian - TrueWoW"] = "account-priest-holy2",
+		["Contagion - PrimalWoW (Progressive)"] = "account-warlock",
+		["Wajawamedo - PrimalWoW (Progressive)"] = "account-hunter",
+		["Wafflestomp - PrimalWoW (Progressive)"] = "account-warrior",
+		["Unbearabull - PrimalWoW (Progressive)"] = "account-druid-tree",
+		["Nerfed - PrimalWoW (Progressive)"] = "account-mage",
 		["Mittens - PrimalWoW (Progressive)"] = "account-priest-holy2",
+		["Iamsham - PrimalWoW (Progressive)"] = "account-shaman-resto",
 	},
 }

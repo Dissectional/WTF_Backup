@@ -13,13 +13,13 @@ ThreatPlates3DB = {
 			},
 		},
 		["Wajawamedo - PrimalWoW (Progressive)"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
-					nil, -- [1]
-					15, -- [2]
+					3, -- [1]
+					17, -- [2]
 				}, -- [1]
 			},
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -30,13 +30,16 @@ ThreatPlates3DB = {
 			},
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					1, -- [1]
-					[3] = 16,
+					[3] = 22,
 				}, -- [1]
 			},
-			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
 			["specName"] = {
 				"Arms", -- [1]
 				"Fury", -- [2]
@@ -57,13 +60,24 @@ ThreatPlates3DB = {
 				"Restoration", -- [3]
 			},
 		},
-		["Mittens - PrimalWoW (Progressive)"] = {
+		["Iamsham - PrimalWoW (Progressive)"] = {
 			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specName"] = {
+				"Elemental", -- [1]
+				"Enhancement", -- [2]
+				"Restoration", -- [3]
+			},
+		},
+		["Mittens - PrimalWoW (Progressive)"] = {
 			["specInfo"] = {
 				{
 					[3] = 22,
 				}, -- [1]
 			},
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -74,6 +88,12 @@ ThreatPlates3DB = {
 			},
 		},
 		["Magistratus - PrimalWoW (Progressive)"] = {
+			["specInfo"] = {
+				{
+					nil, -- [1]
+					2, -- [2]
+				}, -- [1]
+			},
 			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
@@ -85,13 +105,13 @@ ThreatPlates3DB = {
 			},
 		},
 		["Pastafarian - TrueWoW"] = {
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					1, -- [1]
 					[3] = 5,
 				}, -- [1]
 			},
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
@@ -153,37 +173,6 @@ ThreatPlates3DB = {
 				"Destruction", -- [3]
 			},
 		},
-		["Unbearabull - PrimalWoW (Progressive)"] = {
-			["specInfo"] = {
-				{
-					nil, -- [1]
-					17, -- [2]
-					2, -- [3]
-				}, -- [1]
-			},
-			["welcome"] = true,
-			["specName"] = {
-				"Balance", -- [1]
-				"Feral Combat", -- [2]
-				"Restoration", -- [3]
-			},
-		},
-		["Nerfed - PrimalWoW (Progressive)"] = {
-			["welcome"] = true,
-			["specName"] = {
-				"Arcane", -- [1]
-				"Fire", -- [2]
-				"Frost", -- [3]
-			},
-			["spec"] = {
-				["primary"] = false,
-			},
-			["specInfo"] = {
-				{
-					[3] = 17,
-				}, -- [1]
-			},
-		},
 		["Cryogenics - TrueWoW"] = {
 			["specInfo"] = {
 				{
@@ -198,6 +187,37 @@ ThreatPlates3DB = {
 				"Arcane", -- [1]
 				"Fire", -- [2]
 				"Frost", -- [3]
+			},
+		},
+		["Nerfed - PrimalWoW (Progressive)"] = {
+			["welcome"] = true,
+			["specName"] = {
+				"Arcane", -- [1]
+				"Fire", -- [2]
+				"Frost", -- [3]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					[3] = 20,
+				}, -- [1]
+			},
+		},
+		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["specInfo"] = {
+				{
+					nil, -- [1]
+					18, -- [2]
+					2, -- [3]
+				}, -- [1]
+			},
+			["welcome"] = true,
+			["specName"] = {
+				"Balance", -- [1]
+				"Feral Combat", -- [2]
+				"Restoration", -- [3]
 			},
 		},
 		["Magistratus - TrueWoW"] = {
@@ -220,15 +240,16 @@ ThreatPlates3DB = {
 		["Wajawamedo - PrimalWoW (Progressive)"] = "Default",
 		["Wafflestomp - PrimalWoW (Progressive)"] = "Default",
 		["Shiftace - TrueWoW"] = "Default",
+		["Iamsham - PrimalWoW (Progressive)"] = "Default",
 		["Mittens - PrimalWoW (Progressive)"] = "Default",
 		["Magistratus - PrimalWoW (Progressive)"] = "Default",
 		["Pastafarian - TrueWoW"] = "Default",
 		["Duglazerp - TrueWoW"] = "Default",
 		["Ellipsis - TrueWoW"] = "Default",
 		["Contagion - PrimalWoW (Progressive)"] = "Default",
-		["Cryogenics - TrueWoW"] = "Default",
-		["Nerfed - PrimalWoW (Progressive)"] = "Default",
 		["Unbearabull - PrimalWoW (Progressive)"] = "Default",
+		["Nerfed - PrimalWoW (Progressive)"] = "Default",
+		["Cryogenics - TrueWoW"] = "Default",
 		["Magistratus - TrueWoW"] = "Default",
 	},
 	["profiles"] = {

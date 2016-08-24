@@ -1,7 +1,7 @@
 
 SkilletDBPC = {
 	["global"] = {
-		["tradeSkillLocation_x"] = -65.00009936665902,
+		["tradeSkillLocation_x"] = -247.9997828021276,
 		["tradeskill_options"] = {
 			["Cooking"] = {
 				["filtertext"] = "",
@@ -11,10 +11,12 @@ SkilletDBPC = {
 			},
 			["Alchemy"] = {
 				["filtertext"] = "",
+				["sortmethod"] = "By Difficulty",
+				["hidetrivial"] = true,
 			},
 		},
 		["tradeSkillLocation_point"] = "CENTER",
 		["include_alts"] = false,
-		["tradeSkillLocation_y"] = 25.00011632669441,
+		["tradeSkillLocation_y"] = 77.00024133856812,
 	},
 }

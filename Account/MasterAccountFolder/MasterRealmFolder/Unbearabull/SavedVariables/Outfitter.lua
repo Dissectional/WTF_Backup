@@ -240,7 +240,7 @@ gOutfitter_Settings = {
 			},
 		}, -- [1]
 		{
-			["Name"] = "Druid: Caster Form",
+			["Name"] = "Druid: Cat Form",
 		}, -- [2]
 		{
 			["Items"] = {
@@ -501,9 +501,6 @@ gOutfitter_Settings = {
 			},
 		}, -- [3]
 		{
-			["Name"] = "Birthday Suit",
-		}, -- [4]
-		{
 			["Items"] = {
 				["WristSlot"] = {
 					["JewelCode4"] = 0,
@@ -656,7 +653,7 @@ gOutfitter_Settings = {
 					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
-				["ShirtSlot"] = {
+				["SecondaryHandSlot"] = {
 					["JewelCode4"] = 0,
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -667,7 +664,7 @@ gOutfitter_Settings = {
 					["EnchantCode"] = 0,
 					["UniqueID"] = 0,
 				},
-				["SecondaryHandSlot"] = {
+				["ShirtSlot"] = {
 					["JewelCode4"] = 0,
 					["Code"] = 0,
 					["SubCode"] = 0,
@@ -760,9 +757,12 @@ gOutfitter_Settings = {
 					["Quality"] = 3,
 				},
 			},
-		}, -- [5]
+		}, -- [4]
 		{
 			["Name"] = "Swimming",
+		}, -- [5]
+		{
+			["Name"] = "Birthday Suit",
 		}, -- [6]
 		{
 			["Items"] = {
@@ -772,29 +772,61 @@ gOutfitter_Settings = {
 					["Code"] = 10399,
 					["SubCode"] = 0,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:10399:0:0:0:0:0:0:0:22|h[Blackened Defias Armor]|h|r",
+					["Link"] = "|cff0070dd|Hitem:10399:0:0:0:0:0:0:0:29|h[Blackened Defias Armor]|h|r",
 					["JewelCode1"] = 0,
-					["JewelCode3"] = 0,
+					["UniqueID"] = 0,
 					["Name"] = "Blackened Defias Armor",
 					["EnchantCode"] = 0,
 					["SubType"] = "Leather",
 					["Level"] = 24,
-					["UniqueID"] = 0,
+					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
-				["ShirtSlot"] = {
+				["WristSlot"] = {
 					["JewelCode4"] = 0,
-					["InvType"] = "INVTYPE_BODY",
-					["Code"] = 5107,
+					["InvType"] = "INVTYPE_WRIST",
+					["Code"] = 3230,
 					["SubCode"] = 0,
 					["JewelCode2"] = 0,
-					["Link"] = "|cffffffff|Hitem:5107:0:0:0:0:0:0:0:24|h[Deckhand's Shirt]|h|r",
+					["Link"] = "|cff0070dd|Hitem:3230:0:0:0:0:0:0:0:29|h[Black Wolf Bracers]|h|r",
 					["JewelCode1"] = 0,
 					["UniqueID"] = 0,
-					["Name"] = "Deckhand's Shirt",
+					["Name"] = "Black Wolf Bracers",
 					["EnchantCode"] = 0,
-					["SubType"] = "Miscellaneous",
-					["Level"] = 14,
+					["SubType"] = "Leather",
+					["Level"] = 26,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
+				["ShoulderSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_SHOULDER",
+					["Code"] = 5404,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:5404:0:0:0:0:0:0:0:29|h[Serpent's Shoulders]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 0,
+					["Name"] = "Serpent's Shoulders",
+					["EnchantCode"] = 0,
+					["SubType"] = "Leather",
+					["Level"] = 23,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
+				["MainHandSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_2HWEAPON",
+					["Code"] = 6365,
+					["SubCode"] = 0,
+					["Link"] = "|cffffffff|Hitem:6365:0:0:0:0:0:0:0:29|h[Strong Fishing Pole]|h|r",
+					["JewelCode2"] = 0,
+					["UniqueID"] = 0,
+					["JewelCode1"] = 0,
+					["EnchantCode"] = 0,
+					["Name"] = "Strong Fishing Pole",
+					["SubType"] = "Fishing Poles",
+					["Level"] = 10,
 					["JewelCode3"] = 0,
 					["Quality"] = 1,
 				},
@@ -804,7 +836,7 @@ gOutfitter_Settings = {
 					["Code"] = 12006,
 					["SubCode"] = 587,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff1eff00|Hitem:12006:0:0:0:0:0:587:0:25|h[Meadow Ring of the Monkey]|h|r",
+					["Link"] = "|cff1eff00|Hitem:12006:0:0:0:0:0:587:0:29|h[Meadow Ring of the Monkey]|h|r",
 					["JewelCode1"] = 0,
 					["UniqueID"] = 0,
 					["Name"] = "Meadow Ring of the Monkey",
@@ -820,7 +852,7 @@ gOutfitter_Settings = {
 					["Code"] = 51996,
 					["SubCode"] = -78,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:27|h[Tumultuous Necklace of the Monkey]|h|r",
+					["Link"] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:11:29|h[Tumultuous Necklace of the Monkey]|h|r",
 					["JewelCode1"] = 0,
 					["UniqueID"] = 11,
 					["Name"] = "Tumultuous Necklace of the Monkey",
@@ -830,36 +862,36 @@ gOutfitter_Settings = {
 					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
-				["LegsSlot"] = {
+				["ShirtSlot"] = {
 					["JewelCode4"] = 0,
-					["InvType"] = "INVTYPE_LEGS",
-					["Code"] = 5199,
+					["InvType"] = "INVTYPE_BODY",
+					["Code"] = 5107,
 					["SubCode"] = 0,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:5199:0:0:0:0:0:0:0:22|h[Smelting Pants]|h|r",
+					["Link"] = "|cffffffff|Hitem:5107:0:0:0:0:0:0:0:29|h[Deckhand's Shirt]|h|r",
 					["JewelCode1"] = 0,
-					["JewelCode3"] = 0,
-					["Name"] = "Smelting Pants",
-					["EnchantCode"] = 0,
-					["SubType"] = "Leather",
-					["Level"] = 21,
 					["UniqueID"] = 0,
-					["Quality"] = 3,
-				},
-				["WaistSlot"] = {
-					["JewelCode4"] = 0,
-					["InvType"] = "INVTYPE_WAIST",
-					["Code"] = 51964,
-					["SubCode"] = -78,
-					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-78:10:25|h[Vigorous Belt of the Monkey]|h|r",
-					["JewelCode1"] = 0,
+					["Name"] = "Deckhand's Shirt",
+					["EnchantCode"] = 0,
+					["SubType"] = "Miscellaneous",
+					["Level"] = 14,
 					["JewelCode3"] = 0,
-					["Name"] = "Vigorous Belt of the Monkey",
+					["Quality"] = 1,
+				},
+				["FeetSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_FEET",
+					["Code"] = 10411,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:10411:0:0:0:0:0:0:0:29|h[Footpads of the Fang]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 0,
+					["Name"] = "Footpads of the Fang",
 					["EnchantCode"] = 0,
 					["SubType"] = "Leather",
-					["Level"] = 25,
-					["UniqueID"] = 10,
+					["Level"] = 23,
+					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
 				["HandsSlot"] = {
@@ -868,7 +900,7 @@ gOutfitter_Settings = {
 					["Code"] = 51965,
 					["SubCode"] = -71,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-71:15:26|h[Vigorous Handguards of the Bandit]|h|r",
+					["Link"] = "|cff0070dd|Hitem:51965:0:0:0:0:0:-71:15:29|h[Vigorous Handguards of the Bandit]|h|r",
 					["JewelCode1"] = 0,
 					["UniqueID"] = 15,
 					["Name"] = "Vigorous Handguards of the Bandit",
@@ -878,13 +910,61 @@ gOutfitter_Settings = {
 					["JewelCode3"] = 0,
 					["Quality"] = 3,
 				},
+				["BackSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_CLOAK",
+					["Code"] = 6340,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:6340:0:0:0:0:0:0:0:29|h[Fenrus' Hide]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 0,
+					["Name"] = "Fenrus' Hide",
+					["EnchantCode"] = 0,
+					["SubType"] = "Cloth",
+					["Level"] = 26,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
+				["LegsSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_LEGS",
+					["Code"] = 5199,
+					["SubCode"] = 0,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:5199:0:0:0:0:0:0:0:29|h[Smelting Pants]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 0,
+					["Name"] = "Smelting Pants",
+					["EnchantCode"] = 0,
+					["SubType"] = "Leather",
+					["Level"] = 21,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
+				["WaistSlot"] = {
+					["JewelCode4"] = 0,
+					["InvType"] = "INVTYPE_WAIST",
+					["Code"] = 51964,
+					["SubCode"] = -78,
+					["JewelCode2"] = 0,
+					["Link"] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-78:10:29|h[Vigorous Belt of the Monkey]|h|r",
+					["JewelCode1"] = 0,
+					["UniqueID"] = 10,
+					["Name"] = "Vigorous Belt of the Monkey",
+					["EnchantCode"] = 0,
+					["SubType"] = "Leather",
+					["Level"] = 25,
+					["JewelCode3"] = 0,
+					["Quality"] = 3,
+				},
 				["Finger1Slot"] = {
 					["JewelCode4"] = 0,
 					["InvType"] = "INVTYPE_FINGER",
 					["Code"] = 6414,
 					["SubCode"] = 0,
 					["JewelCode2"] = 0,
-					["Link"] = "|cff0070dd|Hitem:6414:0:0:0:0:0:0:0:27|h[Seal of Sylvanas]|h|r",
+					["Link"] = "|cff0070dd|Hitem:6414:0:0:0:0:0:0:0:29|h[Seal of Sylvanas]|h|r",
 					["JewelCode1"] = 0,
 					["UniqueID"] = 0,
 					["Name"] = "Seal of Sylvanas",
@@ -921,9 +1001,8 @@ gOutfitter_Settings = {
 				["Name"] = "Battleground",
 			}, -- [1]
 			{
-				["ScriptLockupCount"] = 0,
+				["ScriptID"] = "FALLING",
 				["didEquip"] = false,
-				["didUnequip"] = true,
 				["Items"] = {
 					["ChestSlot"] = {
 						["JewelCode4"] = 0,
@@ -1024,7 +1103,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["LegsSlot"] = {
+					["WaistSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1035,7 +1114,7 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 0,
 						["JewelCode3"] = 0,
 					},
-					["WaistSlot"] = {
+					["LegsSlot"] = {
 						["JewelCode4"] = 0,
 						["Code"] = 0,
 						["SubCode"] = 0,
@@ -1059,11 +1138,11 @@ gOutfitter_Settings = {
 					},
 				},
 				["Name"] = "Birthday Suit",
-				["ScriptSettings"] = {
-				},
+				["ScriptLockupCount"] = 0,
 				["OutfitBar"] = {
 				},
-				["ScriptID"] = "FALLING",
+				["ScriptSettings"] = {
+				},
 				["CategoryID"] = "Accessory",
 			}, -- [2]
 			{
@@ -1073,12 +1152,12 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["Name"] = "Druid: Aquatic Form",
+				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 					["UnequipComplete"] = false,
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
-				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Accessory",
 			}, -- [3]
 			{
@@ -1088,12 +1167,12 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["Name"] = "Druid: Bear Form",
+				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 					["UnequipComplete"] = false,
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
-				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Accessory",
 			}, -- [4]
 			{
@@ -1102,8 +1181,8 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableInstance"] = false,
 				},
-				["didEquip"] = true,
-				["didUnequip"] = false,
+				["didEquip"] = false,
+				["didUnequip"] = true,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Caster Form",
@@ -1115,17 +1194,17 @@ gOutfitter_Settings = {
 			}, -- [5]
 			{
 				["ScriptID"] = "Cat",
-				["didEquip"] = false,
-				["didUnequip"] = true,
+				["didEquip"] = true,
+				["didUnequip"] = false,
 				["Items"] = {
 				},
 				["Name"] = "Druid: Cat Form",
-				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 					["UnequipComplete"] = false,
 					["DisablePVP"] = false,
 					["DisableBG"] = false,
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Accessory",
 			}, -- [6]
 			{
@@ -1161,9 +1240,9 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["Name"] = "Druid: Prowl",
-				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 				},
+				["ScriptLockupCount"] = 0,
 				["CategoryID"] = "Accessory",
 			}, -- [9]
 			{
@@ -1195,13 +1274,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
-				["ScriptLockupCount"] = 0,
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
+				["Name"] = "Riding",
 				["CategoryID"] = "Accessory",
+				["ScriptLockupCount"] = 0,
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -1209,8 +1284,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 				["ScriptID"] = "Riding",
-				["Name"] = "Riding",
 			}, -- [12]
 			{
 				["ScriptLockupCount"] = 0,
@@ -1219,12 +1298,12 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Swimming",
 				["ScriptSettings"] = {
 					["DisableBG"] = false,
 					["DisablePVP"] = false,
 					["DisableInstance"] = false,
 				},
+				["ScriptID"] = "Swimming",
 				["Name"] = "Swimming",
 			}, -- [13]
 		},

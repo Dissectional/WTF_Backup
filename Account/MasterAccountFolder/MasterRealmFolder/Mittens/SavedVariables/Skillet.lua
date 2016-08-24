@@ -5,9 +5,9 @@ SkilletDBPC = {
 		["tradeskill_options"] = {
 			["Tailoring"] = {
 				["filtertext"] = "",
-				["hidetrivial"] = false,
-				["sortmethod"] = "By Difficulty",
 				["sortdesc-By Difficulty"] = false,
+				["sortmethod"] = "By Difficulty",
+				["hidetrivial"] = false,
 			},
 			["Cooking"] = {
 				["filtertext"] = "",
@@ -26,7 +26,7 @@ SkilletDBPC = {
 			},
 		},
 		["tradeSkillLocation_point"] = "CENTER",
-		["include_alts"] = false,
 		["tradeSkillLocation_y"] = 57.9999596515288,
+		["include_alts"] = false,
 	},
 }

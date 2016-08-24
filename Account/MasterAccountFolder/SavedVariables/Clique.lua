@@ -30,13 +30,13 @@ CliqueDB = {
 						["arg1"] = "Heal",
 						["texture"] = "Interface\\Icons\\Spell_Holy_Heal02",
 					},
-					["helpbutton1"] = {
+					["helpbutton3"] = {
 						["type"] = "spell",
 						["modifier"] = "",
-						["button"] = "helpbutton1",
+						["button"] = "helpbutton3",
 						["delete"] = true,
-						["arg1"] = "Flash Heal",
-						["texture"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
 					},
 					["Ctrl-helpbutton3"] = {
 						["type"] = "spell",
@@ -54,13 +54,13 @@ CliqueDB = {
 						["arg1"] = "Dispel Magic",
 						["texture"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 					},
-					["helpbutton3"] = {
+					["helpbutton1"] = {
 						["type"] = "spell",
 						["modifier"] = "",
-						["button"] = "helpbutton3",
+						["button"] = "helpbutton1",
 						["delete"] = true,
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+						["arg1"] = "Flash Heal",
+						["texture"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
 					},
 				},
 				["Default"] = {

@@ -32,6 +32,7 @@ DrDamageDB = {
 		["Ellipsis - TrueWoW"] = {
 		},
 		["Unbearabull - PrimalWoW (Progressive)"] = {
+			["DisplayType_M"] = "DPM",
 		},
 		["Saptack - PrimalWoW (Progressive)"] = {
 		},
@@ -45,6 +46,7 @@ DrDamageDB = {
 		},
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["DisplayType_M"] = "DPM",
+			["DisplayType_M2"] = "Avg",
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["DisplayType"] = "DPM",

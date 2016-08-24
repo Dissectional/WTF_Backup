@@ -49,7 +49,6 @@ SavedInstancesDB = {
 		["Wafflestomp - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
-			["Daily1"] = 1471111200,
 		},
 		["Contagion - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
@@ -62,7 +61,6 @@ SavedInstancesDB = {
 		["Nerfed - PrimalWoW (Progressive)"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "MAGE",
-			["Daily1"] = 1471111201,
 		},
 		["Parimman - TrueWoW"] = {
 			["AlwaysShow"] = false,
@@ -74,16 +72,6 @@ SavedInstancesDB = {
 		},
 	},
 	["Lockouts"] = {
-		[1294] = {
-			["Encounters"] = {
-			},
-			["Name"] = "Vault of Archavon",
-			["Members"] = {
-				["Duglazerp"] = {
-					["Class"] = "WARRIOR",
-				},
-			},
-		},
 	},
 	["Tooltip"] = {
 		["ReverseInstances"] = false,
@@ -117,8 +105,8 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Ahn'kahet: The Old Kingdom"] = {
-			["LFDID"] = 218,
+		["Violet Hold"] = {
+			["LFDID"] = 220,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
@@ -144,12 +132,12 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Utgarde Pinnacle"] = {
-			["LFDID"] = 203,
+		["Vault of Archavon"] = {
+			["LFDID"] = 240,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},
-			["Raid"] = false,
+			["Raid"] = true,
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
@@ -198,23 +186,17 @@ SavedInstancesDB = {
 			["LFDupdated"] = "12340",
 			["Show"] = false,
 		},
-		["Vault of Archavon"] = {
-			["LFDID"] = 240,
+		["Utgarde Pinnacle"] = {
+			["LFDID"] = 203,
 			["Expansion"] = 2,
-			["Show"] = false,
 			["Encounters"] = {
 			},
-			["Raid"] = true,
-			["Duglazerp - TrueWoW"] = {
-				[2] = {
-					["ID"] = 1294,
-					["Expires"] = 1471413603,
-				},
-			},
+			["Raid"] = false,
 			["LFDupdated"] = "12340",
+			["Show"] = false,
 		},
-		["Violet Hold"] = {
-			["LFDID"] = 220,
+		["Ahn'kahet: The Old Kingdom"] = {
+			["LFDID"] = 218,
 			["Expansion"] = 2,
 			["Encounters"] = {
 			},

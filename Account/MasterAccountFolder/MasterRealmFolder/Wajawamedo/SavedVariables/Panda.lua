@@ -1,2 +1,3 @@
 
-PandaDBPC = nil
+PandaDBPC = {
+}

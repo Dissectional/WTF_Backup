@@ -1,3 +1,18 @@
+MACRO 16777226 "1" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1] Feral Charge; [stance:3,nomod] Dash; [stance:3] Feral Charge; Cat Form
+END
+MACRO 16777222 "AOE" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1] Swipe (Bear)
+/startattack
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777225 "CoolDown" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [nocombat]
+/cast [stance:1] ; [stance:3] Tiger's Fury
+END
 MACRO 16777219 "hbCrashProt_0" Ability_Creature_Disease_02
 1:N
 END
@@ -12,9 +27,11 @@ MACRO 16777217 "Maul" INV_Misc_QuestionMark
 /startattack
 /script UIErrorsFrame:Clear()
 END
-MACRO 16777222 "Swipe" INV_Misc_QuestionMark
+MACRO 16777223 "Roar" INV_Misc_QuestionMark
 #showtooltip
-/cast Swipe (Bear)
-/startattack
-/script UIErrorsFrame:Clear()
+/cast [stance:1,mod] Challenging Roar; [stance:1] Demoralizing Roar
+END
+MACRO 16777224 "Threat" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:1,mod] Growl; [stance:1/3] Faerie Fire (Feral) 
 END

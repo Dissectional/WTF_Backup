@@ -27,13 +27,13 @@ MSBTProfiles_SavedVars = {
 			["scrollAreas"] = {
 				["Incoming"] = {
 					["stickyDirection"] = "Down",
-					["animationStyle"] = "Straight",
 					["offsetX"] = -290,
+					["animationStyle"] = "Straight",
 					["behavior"] = "MSBT_NORMAL",
 				},
 				["Static"] = {
 					["stickyDirection"] = "Down",
-					["offsetY"] = 370,
+					["offsetY"] = 320,
 				},
 				["Outgoing"] = {
 					["stickyDirection"] = "Up",

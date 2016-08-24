@@ -5,29 +5,39 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51104",
-	["LastSearchedText"] = "timmy",
+	["LastSearchedText"] = "rivendare",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 		{
 			2, -- [1]
-			13402, -- [2]
+			13505, -- [2]
 			"", -- [3]
-			"=q3=Timmy's Galoshes", -- [4]
-			"Timmy the Cruel", -- [5]
+			"=q4=Runeblade of Baron Rivendare", -- [4]
+			"Baron Rivendare", -- [5]
 			"", -- [6]
 			"", -- [7]
-			"STRATTimmytheCruel|\"\"", -- [8]
+			"STRATBaronRivendare|\"\"", -- [8]
 		}, -- [1]
 		{
 			3, -- [1]
-			13401, -- [2]
+			13345, -- [2]
 			"", -- [3]
-			"=q3=The Cruel Hand of Timmy", -- [4]
-			"Timmy the Cruel", -- [5]
+			"=q3=Seal of Rivendare", -- [4]
+			"Baron Rivendare", -- [5]
 			"", -- [6]
 			"", -- [7]
-			"STRATTimmytheCruel|\"\"", -- [8]
+			"STRATBaronRivendare|\"\"", -- [8]
 		}, -- [2]
+		{
+			4, -- [1]
+			13251, -- [2]
+			"", -- [3]
+			"=q1=Head of Baron Rivendare", -- [4]
+			"Baron Rivendare", -- [5]
+			"", -- [6]
+			"", -- [7]
+			"STRATBaronRivendare|\"\"", -- [8]
+		}, -- [3]
 	},
 }
 AtlasLootFilterDB = {
@@ -37,22 +47,18 @@ AtlasLootFilterDB = {
 		["Sigils"] = true,
 		["Totem"] = true,
 	},
-	["WeaponsMeele"] = {
-		["Axe"] = true,
-		["Shield"] = true,
-		["Held in Off-Hand"] = true,
-		["Staff"] = true,
-		["Dagger"] = true,
-		["Mace"] = true,
-		["Fist Weapon"] = true,
-		["Polearm"] = true,
-		["Sword"] = true,
+	["WeaponsRanged"] = {
+		["Crossbow"] = true,
+		["Thrown"] = true,
+		["Gun"] = true,
+		["Bow"] = true,
+		["Wand"] = true,
 	},
 	["Armor"] = {
 		["Leather"] = true,
 		["Plate"] = true,
-		["Cloth"] = true,
 		["Mail"] = true,
+		["Cloth"] = true,
 	},
 	["WeaponsMeeleTwoHand"] = {
 		["Mace"] = true,
@@ -65,11 +71,15 @@ AtlasLootFilterDB = {
 		["Ring"] = true,
 		["Back"] = true,
 	},
-	["WeaponsRanged"] = {
-		["Crossbow"] = true,
-		["Wand"] = true,
-		["Gun"] = true,
-		["Bow"] = true,
-		["Thrown"] = true,
+	["WeaponsMeele"] = {
+		["Axe"] = true,
+		["Shield"] = true,
+		["Held in Off-Hand"] = true,
+		["Staff"] = true,
+		["Dagger"] = true,
+		["Mace"] = true,
+		["Fist Weapon"] = true,
+		["Polearm"] = true,
+		["Sword"] = true,
 	},
 }

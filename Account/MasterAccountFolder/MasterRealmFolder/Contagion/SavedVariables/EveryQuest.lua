@@ -10,8 +10,8 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
-			["posx"] = 0,
 			["zoneid"] = 1637,
+			["zonegroup"] = "Kalimdor",
 			["ignored"] = {
 				[7665] = true,
 				[926] = true,
@@ -28,6 +28,7 @@ EQ2DBPC = {
 				[7664] = true,
 				[5847] = true,
 			},
+			["posx"] = 0,
 			["history"] = {
 				[14] = {
 					[823] = {
@@ -1274,7 +1275,6 @@ EQ2DBPC = {
 			["enabledfilters"] = {
 				["Level"] = true,
 			},
-			["zonegroup"] = "Kalimdor",
 		},
 	},
 }

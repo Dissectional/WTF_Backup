@@ -5,6 +5,7 @@ EQ2DBPC = {
 		["QuestGivers"] = {
 			["profiles"] = {
 				["global"] = {
+					["LoadData"] = true,
 					["filters"] = {
 						["Horde"] = false,
 						["SideBoth"] = false,
@@ -18,7 +19,6 @@ EQ2DBPC = {
 	},
 	["profiles"] = {
 		["global"] = {
-			["zoneid"] = 3487,
 			["history"] = {
 				[-161] = {
 					[9488] = {
@@ -351,8 +351,8 @@ EQ2DBPC = {
 						["status"] = 2,
 						["imported"] = 3,
 					},
-					[9215] = {
-						["completed"] = 1451205095,
+					[9152] = {
+						["completed"] = 1451191192,
 						["status"] = 2,
 					},
 					[9877] = {
@@ -391,9 +391,9 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451206422,
 					},
-					[9157] = {
+					[9220] = {
 						["status"] = 2,
-						["completed"] = 1451186209,
+						["completed"] = 1451210957,
 					},
 					[9315] = {
 						["status"] = 2,
@@ -515,9 +515,9 @@ EQ2DBPC = {
 						["completed"] = 1451207229,
 						["status"] = 2,
 					},
-					[9220] = {
+					[9157] = {
 						["status"] = 2,
-						["completed"] = 1451210957,
+						["completed"] = 1451186209,
 					},
 					[9173] = {
 						["status"] = 2,
@@ -531,13 +531,12 @@ EQ2DBPC = {
 						["status"] = 2,
 						["completed"] = 1451186325,
 					},
-					[9152] = {
-						["completed"] = 1451191192,
+					[9215] = {
+						["completed"] = 1451205095,
 						["status"] = 2,
 					},
 				},
 			},
-			["zonegroup"] = "Eastern Kingdoms",
 		},
 	},
 }

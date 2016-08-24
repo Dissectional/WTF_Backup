@@ -1,10 +1,16 @@
 MACRO 16777219 "FeedPet" INV_Misc_QuestionMark
 #showtooltip Feed Pet
 /click FOM_FeedButton
+/cast [mod] Feed Pet
 END
 MACRO 16777218 "HuntersMark" INV_Misc_QuestionMark
 #showtooltip Hunter's Mark
 /cast [@mouseover,harm,nodead][@target,harm,nodead] Hunter's Mark
+END
+MACRO 16777220 "Melee" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod] Wing Clip; Mongoose Bite
+/cast Raptor Strike
 END
 MACRO 16777217 "PetAttack" Ability_GhoulFrenzy
 /petattack [@mouseover,harm,nodead][@target,harm,nodead]

@@ -8,11 +8,11 @@ AtlasOptions = {
 	["AtlasAcronyms"] = true,
 	["AtlasType"] = 2,
 	["AtlasButtonShown"] = false,
-	["AtlasCtrl"] = false,
+	["AtlasVersion"] = "1.17.0",
 	["AtlasAlpha"] = 1,
 	["AtlasZone"] = 4,
 	["AtlasButtonRadius"] = 78,
 	["AtlasAutoSelect"] = true,
-	["AtlasVersion"] = "1.17.0",
+	["AtlasCtrl"] = false,
 	["AtlasRightClick"] = false,
 }

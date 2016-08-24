@@ -1,3 +1,7 @@
+MACRO 9 "Cryo3" INV_Misc_QuestionMark
+#showtooltip
+/cast Hearthstone
+END
 MACRO 7 "Decursive" INV_Misc_QuestionMark
 /stopcasting
 /cast [target=mouseover,nomod,exists] Dispel Magic;  [target=mouseover,exists,mod:ctrl] Cure Disease; [target=mouseover,exists,mod:shift] Dispel Magic
@@ -14,8 +18,7 @@ MACRO 8 "GFX" INV_Misc_QuestionMark
 END
 MACRO 6 "Here I am!" Ability_Rogue_FindWeakness
 /target [@player]
-/p What up gank stars
-/p %N in da house
+/p Look everyone! It's %N in da house, we're saved!
 /targetlasttarget
 END
 MACRO 5 "Kill Order" Ability_Creature_Cursed_02

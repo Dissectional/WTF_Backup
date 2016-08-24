@@ -447,13 +447,9 @@ gOutfitter_Settings = {
 			{
 				["Items"] = {
 				},
+				["ScriptID"] = "Riding",
 				["ScriptLockupCount"] = 0,
-				["StatConfig"] = {
-					{
-						["StatID"] = "MOUNT_SPEED",
-					}, -- [1]
-				},
-				["CategoryID"] = "Accessory",
+				["Name"] = "Riding",
 				["ScriptSettings"] = {
 					["StayEquippedWhileFalling"] = false,
 					["UnequipDelay"] = 0,
@@ -461,8 +457,12 @@ gOutfitter_Settings = {
 					["DisablePVP"] = false,
 					["DisableBG"] = true,
 				},
-				["ScriptID"] = "Riding",
-				["Name"] = "Riding",
+				["CategoryID"] = "Accessory",
+				["StatConfig"] = {
+					{
+						["StatID"] = "MOUNT_SPEED",
+					}, -- [1]
+				},
 			}, -- [4]
 			{
 				["ScriptLockupCount"] = 0,
@@ -471,12 +471,12 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["CategoryID"] = "Accessory",
-				["ScriptID"] = "Swimming",
 				["ScriptSettings"] = {
 					["DisableBG"] = false,
 					["DisablePVP"] = false,
 					["DisableInstance"] = false,
 				},
+				["ScriptID"] = "Swimming",
 				["Name"] = "Swimming",
 			}, -- [5]
 		},

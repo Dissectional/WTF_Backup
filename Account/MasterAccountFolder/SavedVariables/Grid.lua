@@ -50,6 +50,13 @@ GridDB = {
 		},
 		["GridStatusAbsorbs"] = {
 		},
+		["GridRoster"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party_state"] = "party",
+				},
+			},
+		},
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -207,6 +214,17 @@ GridDB = {
 		},
 		["GridStatusGroup"] = {
 		},
+		["GridStatusHealth"] = {
+			["profiles"] = {
+				["Default"] = {
+					["unit_healthDeficit"] = {
+						["threshold"] = 99,
+					},
+				},
+			},
+		},
+		["GridStatusRaidIcon"] = {
+		},
 		["GridLayout"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -224,17 +242,6 @@ GridDB = {
 					["Padding"] = 0,
 				},
 			},
-		},
-		["GridStatusHealth"] = {
-			["profiles"] = {
-				["Default"] = {
-					["unit_healthDeficit"] = {
-						["threshold"] = 99,
-					},
-				},
-			},
-		},
-		["GridStatusRaidIcon"] = {
 		},
 	},
 	["profiles"] = {

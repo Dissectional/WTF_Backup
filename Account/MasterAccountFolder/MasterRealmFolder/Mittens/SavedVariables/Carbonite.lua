@@ -4,11 +4,11 @@ NxCData = {
 	["Taxi"] = {
 		["Crossroads"] = true,
 		["Undercity"] = true,
-		["Ratchet"] = true,
+		["Camp Taurajo"] = true,
 		["Sun Rock Retreat"] = true,
 		["Thunder Bluff"] = true,
 		["The Sepulcher"] = true,
-		["Camp Taurajo"] = true,
+		["Ratchet"] = true,
 		["Orgrimmar"] = true,
 	},
 }
